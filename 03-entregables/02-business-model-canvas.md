@@ -6,13 +6,12 @@
 
 > La investigación de las semanas 1-4 se levantó en Lima Norte, NSE C/B: lo no verificado va marcado como **[HIPÓTESIS]** o **[POR VALIDAR EN FOCUS 2]**.
 
-
 ## 1. Segmentos de clientes
 - Núcleo: padres de 30 a 45 años, NSE A/B, de Lima Moderna (Miraflores, San Isidro, San Borja, Surco, La Molina, Jesús María, Magdalena, Pueblo Libre), con hijos de 4 a 11 años. [HIPÓTESIS]
 - Disparador institucional: colegios privados con política de lonchera saludable; la compra responde a una norma externa.
 - Comprador distinto del usuario: la madre paga, el niño aprueba o rechaza. El producto gana dos veces o no gana.
 - Clientes B2B: quioscos y concesionarios de colegios, eventos infantiles y carritos de snacks. [POR VALIDAR EN FOCUS 2]
-- Fuera de alcance: NSE C de Lima Norte, cuyo techo de S/3-5 por porción no cubre sangrecita ni cañihua.
+- Fuera de alcance: NSE C de Lima Norte, cuyo techo declarado de S/15-20 por pack semanal queda debajo del precio que exige un brownie con sangrecita liofilizada y cañihua.
 
 ## 2. Propuesta de valor
 - Hierro donde el niño no lo espera: hierro hemínico y cañihua dentro de un brownie de chocolate. En el focus 1 la sangrecita se rechazó en salado ("olía feo", "parecía carbón") y se aceptó en dulce; 2 de 5 mamás eligieron el brownie por poder "engañar" al niño con algo que ya le gusta.
@@ -86,7 +85,6 @@ Variables: insumos, empaque, etiqueta, energía y merma. Fijos: cocina, DIGESA y
 | **Precio del pack de 6** | — | **por completar** | Unitario x 6, contrastado con S/18-S/30 |
 
 *El margen se calcula sobre precio de venta, no sobre costo. Si el precio resultante supera lo que declare el público en el focus 2, la salida no es bajar el margen sino rediseñar receta, gramaje o canal.*
-
 
 **Del lote de 5 a 10,000 unidades.** El lote de 5 sirve para conocer el consumo real de insumos y el costo de la receta, no para fijar precio: infla mano de obra y energía por unidad.
 
