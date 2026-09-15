@@ -1,6 +1,6 @@
 # Plan de trabajo semana a semana — AndyBites (reposicionamiento)
 
-Actualizado: 15 de septiembre de 2026 (semana 5 del curso). Las semanas 5 y 6 salen directamente de lo que pidió la profesora en clase; de la semana 7 en adelante es una propuesta del asesor basada en la secuencia típica del curso (prototipo, validación, plan comercial, lanzamiento). Hay que confirmarla con el sílabo o con la profesora y ajustar fechas.
+Actualizado: 15 de septiembre de 2026 (semana 5 del curso). El focus 2 se hace el domingo 20 de septiembre. Las semanas 5 y 6 salen directamente de lo que pidió la profesora en clase; de la semana 7 en adelante es una propuesta del asesor basada en la secuencia típica del curso (prototipo, validación, plan comercial, lanzamiento). Hay que confirmarla con el sílabo o con la profesora y ajustar fechas.
 
 Equipo: Diana Ayoso (DA), Carlos Inga (CI), Angie Blas (AB), Patricia Cárdenas (PC), Adela Robles (AR). Los responsables son una sugerencia; cámbienlos según disponibilidad.
 
@@ -9,19 +9,25 @@ Primero se prueba el producto, después se pregunta el precio. El público defin
 
 ---
 
-## Semana 5 (14 al 20 de septiembre) — Producir, costear y preparar el focus 2
-Objetivo: llegar a la clase de la próxima semana con muestras reales, un empaque MVP y una ficha de costos.
+## Semana 5 (15 al 20 de septiembre) — Producir, costear y hacer el focus 2 el domingo 20
+Objetivo: hacer el focus 2 el domingo 20 con producto fresco, empaque MVP y fichas listas, y llegar a la clase de la semana 6 con resultados.
+Regla: los brownies se hornean el sábado 19 (máximo 24-48 h antes del focus). Todo lo demás tiene que estar listo antes. Cada integrante elige sus tareas (2-3 por persona); las tareas 1, 3 y 8 son las que más tiempo toman y no deberían caer en la misma persona.
 
-| # | Tarea | Responsable | Entregable | Día límite |
-|---|---|---|---|---|
-| 1 | Cotizar y comprar insumos del lote de prueba (cacao, avena, harina de cañihua, sangrecita liofilizada, plátano, huevo, aceite, endulzante). Anotar precio y tienda de cada uno | AR + PC | Lista de compra con precios reales (03-entregables/06) | Mié 16 |
-| 2 | Producir el lote de prueba (60-80 unidades de 20 g). Pesar cada unidad en balanza. Fotos del proceso. Guardar 6 unidades para prueba de vida útil (día 1, 3, 5) | AR + AB | Lote + registro de pesos + fotos | Jue 17 |
-| 3 | Llenar la plantilla de costo unitario "lote de 5" y la proyección a 10,000 unidades | CI | Ficha de costos (03-entregables/02 y 06) | Vie 18 |
-| 4 | Empaque MVP: comprar cajas/bolsas kraft de 6, diseñar sticker en Canva (nombre, hierro, ingredientes, 6 x 20 g, contacto), imprimir 15-20 stickers. Preparar 2 variantes de empaque y 2 alternativas de nombre para mostrar | DA | 10-13 packs armados + fotos | Vie 18 |
-| 5 | Reclutar 6-8 madres/padres del nuevo segmento (NSE A/B, Lima Moderna, hijos 4-11 en colegio privado) por grupos de WhatsApp del colegio, contactos e Instagram. Confirmar fecha, lugar y hora del focus 2 (presencial) | AB + PC | Lista de participantes confirmados | Vie 18 |
-| 6 | Levantar precios de referencia en 2-3 tiendas naturistas o Flora & Fauna / Wong (brownies, barritas, snacks saludables infantiles): foto, marca, gramaje, precio | PC | Tabla de benchmarks de precio | Sáb 19 |
-| 7 | Redactar y revisar en equipo los 4 entregables de la profesora (arquetipos y buyer personas, canvas, elevator pitch, plan de marketing) a partir de los borradores de la carpeta 03-entregables | Todos (cada uno lee y corrige uno) | Versión 1 revisada | Dom 20 |
-| 8 | Armar la presentación de 12-15 minutos (ver guion abajo) | CI + DA | PPT / Canva | Dom 20 |
+| # | Tarea | Fecha límite | Quién (a elegir) |
+|---|---|---|---|
+| 1 | Cotizar y comprar insumos del lote (cacao, avena, harina de cañihua, sangrecita liofilizada, plátano, huevo, aceite, endulzante). Anotar precio y tienda. Empezar por la sangrecita liofilizada, que es la más difícil | Mié 17 | |
+| 2 | Prueba pequeña de receta (10-12 unidades) para ajustar dulzor, humedad y peso de 20 g | Mié 17 | |
+| 3 | Reclutar 6-8 mamás o papás del nuevo segmento (NSE A/B, hijos de 4 a 11 en colegio privado) y confirmar lugar, hora y consentimiento de grabación | Mié 17 | |
+| 4 | Levantar precios de referencia en 2-3 tiendas (Flora & Fauna, Wong, Vivanda o naturista): foto, marca, gramaje y precio | Vie 19 | |
+| 5 | Diseñar sticker en Canva (nombre, hierro, ingredientes, 6 x 20 g, contacto), comprar cajas o bolsas kraft para 2 opciones de empaque MVP e imprimir 15-20 stickers | Vie 19 | |
+| 6 | Imprimir fichas del focus (filtro, sensorial, precio) y preparar material: agua, platos, servilletas, tarjetas con nombre AndyBites y 1-2 alternativas, celular para grabar | Vie 19 | |
+| 7 | Llenar la plantilla de costo unitario con precios reales (lote de 5) y primera proyección a 10,000 unidades | Vie 19 | |
+| 8 | Producir el lote del focus (40-50 unidades), pesar cada una, registrar pesos, fotos del proceso, guardar en recipiente hermético. Apartar 6 para prueba de vida útil (día 1, 3, 5) | Sáb 19 | |
+| 9 | Armar 8-10 packs de 6 con las dos opciones de empaque | Sáb 19 | |
+| 10 | Focus 2 (90 min): una persona modera sin opinar, otra toma notas, el resto apoya. Orden: hábitos y marcas, degustación a ciegas, revelar concepto, empaque y nombre, y al final precio del pack de 6 | Dom 20 | |
+| 11 | Procesar resultados (tabla resumen, rango de precio, nombre y empaque elegidos) y ajustar la presentación | Dom 20 / Lun 21 | |
+| 12 | Revisar y corregir un entregable cada uno: arquetipos y buyer personas, canvas, elevator pitch, plan de marketing y ventas | Jue 18 a Dom 20 | |
+| 13 | Armar la presentación de 12-15 minutos (se cierra el lunes con los resultados del focus) | Lun 21 | |
 
 Guion sugerido para la exposición de 12-15 minutos:
 1. Qué aprendimos en semanas 1-4 y por qué cambiamos de segmento (2 min).
@@ -30,16 +36,15 @@ Guion sugerido para la exposición de 12-15 minutos:
 4. Costeo: costo unitario del lote de 5 y qué cambia a 10,000 (2 min).
 5. Canvas y elevator pitch (3 min).
 6. Plan de marketing y ventas: canales prioritarios y calendario (2 min).
-7. Focus 2: cuándo, con quién, qué vamos a validar (1 min).
+7. Resultados del focus 2: precio, nombre, empaque y qué ajustamos (1-2 min).
 
-## Semana 6 (21 al 27 de septiembre) — Exponer y ejecutar el focus 2
+## Semana 6 (21 al 27 de septiembre) — Exponer con resultados del focus 2
 | # | Tarea | Responsable | Entregable |
 |---|---|---|---|
-| 1 | Exposición de 12-15 minutos en clase. Llevar muestras, empaque MVP, ficha de costos y benchmarks | Todos | Presentación + retroalimentación de la profesora anotada |
-| 2 | Producir un lote fresco 1-2 días antes del focus 2 | AR + AB | 40-50 unidades |
-| 3 | Focus 2 presencial (90 min): hábitos y marcas, degustación a ciegas, revelación del concepto, empaque y nombre, precio del pack de 6 con Van Westendorp, canal preferido. Una persona modera sin opinar, otra toma notas, grabar con consentimiento | Modera: CI; notas: AB; logística: DA, PC, AR | Grabación + fichas llenas (03-entregables/05) |
-| 4 | Procesar resultados: tabla resumen, rango de precio aceptable, decisión sobre nombre y empaque | CI + PC | Informe de focus 2 (2-3 páginas) |
-| 5 | Ajustar canvas, buyer personas y plan de marketing con lo que dijo el público | Todos | Versión 2 de entregables |
+| 1 | Exposición de 12-15 minutos en clase. Llevar muestras, empaque MVP, ficha de costos, benchmarks y resultados del focus 2 | Todos | Presentación + retroalimentación de la profesora anotada |
+| 2 | Informe del focus 2 (2-3 páginas): tabla resumen, rango de precio aceptable, decisión sobre nombre y empaque | A elegir | Informe |
+| 3 | Ajustar canvas, buyer personas y plan de marketing con lo que dijo el público | Todos | Versión 2 de entregables |
+| 4 | Si faltaron participantes o datos en el focus, hacer 2-3 entrevistas cortas de complemento con degustación | A elegir | Notas |
 
 ## Semana 7 (28 de septiembre al 4 de octubre) — Ajustar producto y definir precio [propuesta]
 - Ajustes de receta según el focus (dulzor, humedad, tamaño) y nueva prueba de vida útil.
