@@ -16,7 +16,7 @@ Reparto acordado el 16 de septiembre (5 bloques, uno por persona):
 
 | Bloque | Responsable | Tareas | Entrega a |
 |---|---|---|---|
-| 1. Insumos, producción y focus | Patty (por confirmar) | Comprar insumos anotando precios; producir el lote el sábado pesando cada unidad a 20 g con foto de la balanza; el domingo moderar y grabar el focus, recoger las fichas | Precios de insumos a Angie; video y fichas a Ade |
+| 1. Insumos, producción y focus | Patty | Comprar insumos anotando precios; producir el lote el sábado pesando cada unidad a 20 g con foto de la balanza; el domingo moderar y grabar el focus, recoger las fichas | Precios de insumos a Angie; video y fichas a Ade |
 | 2. Guía del focus y elevator pitch | Ade | Preguntas y fichas del focus antes del domingo; subir el video a YouTube y pasar las respuestas en limpio; elevator pitch en video (guion, avatar con IA, edición) | Guía y fichas a Patty antes del domingo; link de YouTube y video del pitch a Diana |
 | 3. Empaque, buyer personas y precios de mercado | Carlos | Bolsa o envoltura con sticker y 8-10 packs listos antes del domingo; 2 buyer personas; visita a 2-3 tiendas (naturista, Wong, Vivanda) anotando marca, gramaje y precio | Packs a Patty antes del domingo; benchmarks de precio a Angie; personas a Diana |
 | 4. Costeo y plan de marketing | Angie | Ficha de costo unitario (lote de 5 y proyección a 10,000); con el precio del focus, estimación de ventas del próximo año, punto de equilibrio y estrategia de canales (mamás influencers, eventos infantiles, colegios, WhatsApp) | Costeo y plan a Diana |
