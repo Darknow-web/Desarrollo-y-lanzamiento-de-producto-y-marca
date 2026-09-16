@@ -76,14 +76,26 @@ Pensado para pegarse directo en Canva: primero la descripción del público, lue
 
 - La app **HeyGen AI Avatars dentro de Canva** reporta 3 créditos de video al mes y hasta 3 minutos por video. Los guiones largos de abajo duran entre 90 y 105 segundos, así que entran con holgura.
 - **HeyGen directo en heygen.com**, plan gratuito: la página oficial de precios indica 1 minuto máximo por video. Por si el límite dentro de Canva resulta ser también de 1 minuto, cada guion tiene una **versión corta de 55 segundos**.
-- Verificar el límite el mismo día en la app antes de pegar el guion. Si el render se corta, usar la versión corta.
+- **Confirmado el 16 de septiembre:** al grabar a Claudia dentro de Canva, el video se cortó en la palabra 171 de 227. El límite efectivo es de 1 minuto, unas 170 palabras con la voz elegida. Usar las versiones "ajustadas al límite de 1 minuto" (aprox. 150 palabras), que dejan margen para las pausas.
 - Velocidad de lectura de referencia: 140 a 150 palabras por minuto en español. Las barras (/) marcan pausas; en HeyGen se logran con punto seguido o con la etiqueta de pausa si la app la ofrece.
 
 ## 5. Guiones de video: la buyer persona se presenta a sí misma
 
 Formato: avatar de IA en plano medio, mirando a cámara, fondo neutro (cocina o sala luminosa). El producto no se menciona hasta el final: la idea es que la persona cuente su vida, no que venda.
 
-### Guion 1 — Claudia, versión larga (aprox. 100 segundos, 235 palabras)
+### Guion 1 — Claudia, versión ajustada al límite de 1 minuto (aprox. 150 palabras)
+
+Hola, soy Claudia Mendoza. / Tengo treinta y siete años, vivo en San Borja y soy abogada. /
+Estoy casada con Diego y tenemos dos hijos: Matías, de siete, y Luciana, de cuatro. / Van a un colegio bilingüe que pide lonchera saludable, / y yo estoy de acuerdo. /
+Mi día empieza a las seis menos cuarto armando dos loncheras distintas. / En la noche abro los táperes / y casi siempre regresa lo saludable. /
+Hace un mes el pediatra me dijo que Matías tiene la hemoglobina baja. / Intenté hígado escondido, sangrecita, lentejas y gotas de hierro. / Todo terminó en la basura o en una pelea. /
+Yo leo etiquetas, compro en Wong y en Flora y Fauna, / sigo a nutricionistas en Instagram. / La información no es mi problema. /
+Mi problema es que todo lo que le hace bien, mi hijo lo escupe. /
+Busco algo que él quiera comer, / que le aporte hierro de verdad, / sin octógonos y sin refrigeradora. /
+Si existe, lo pago. / Pero primero quiero verlo comérselo. /
+Por eso hoy estoy probando AndyBites.
+
+### Guion 1 — Claudia, versión larga (NO usar en HeyGen gratuito: se corta en la palabra 171) (aprox. 100 segundos, 235 palabras)
 
 Hola, soy Claudia Mendoza. / Tengo treinta y siete años, vivo en San Borja y soy abogada. /
 Estoy casada con Diego y tenemos dos hijos: Matías, de siete, y Luciana, de cuatro. / Los dos van a un colegio bilingüe que pide lonchera saludable, / y yo estoy totalmente de acuerdo con eso. /
@@ -106,7 +118,19 @@ Busco algo que él quiera comer, / que le aporte hierro de verdad, / sin octógo
 Si existe, lo pago. / Pero primero quiero verlo comérselo. /
 Por eso hoy estoy probando AndyBites.
 
-### Guion 2 — Rodrigo, versión larga (aprox. 100 segundos, 240 palabras)
+### Guion 2 — Rodrigo, versión ajustada al límite de 1 minuto (aprox. 150 palabras)
+
+Hola, soy Rodrigo Salazar. / Tengo cuarenta y un años, vivo en La Molina y soy gerente de operaciones. /
+Mi esposa Vanessa viaja mucho por trabajo, / así que las loncheras de Joaquín, de nueve, y Emilia, de seis, son mías. /
+Mi día empieza a las cinco y media corriendo. / A las seis y media armo dos loncheras con lo que hay / y a las siete y diez pasa la movilidad. /
+Los lunes salen bien. / Los jueves ya no sé qué mandar. / Y el viernes, con culpa, va la galleta envasada. /
+Joaquín regresa con el plátano aplastado y la manzana oscura. / Una vez la profesora lo anotó en la agenda. / Me sentí expuesto. /
+He probado cocinar el domingo, fruta por suscripción y galletas sin azúcar. / Nada aguanta. /
+Necesito una compra que resuelva la semana, / que aguante en la mochila hasta el recreo / y que mis hijos pidan de nuevo. /
+No me vendan salud. / Véndanme una mañana menos. /
+Por eso estoy probando AndyBites.
+
+### Guion 2 — Rodrigo, versión larga (NO usar en HeyGen gratuito: supera el minuto) (aprox. 100 segundos, 240 palabras)
 
 Hola, soy Rodrigo Salazar. / Tengo cuarenta y un años, vivo en La Molina y soy gerente de operaciones en una empresa de logística. /
 Mi esposa Vanessa viaja mucho por trabajo, / así que las loncheras de la mañana son mías. / Tenemos dos hijos: Joaquín, de nueve, y Emilia, de seis. /
