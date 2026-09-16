@@ -86,12 +86,12 @@ Formato: avatar de IA en plano medio, mirando a cámara, fondo neutro (cocina o 
 ### Guion 1 — Claudia, versión ajustada al límite de 1 minuto (aprox. 150 palabras)
 
 Hola, soy Claudia Mendoza. / Tengo treinta y siete años, vivo en San Borja y soy abogada. /
-Estoy casada con Diego y tenemos dos hijos: Matías, de siete, y Luciana, de cuatro. / Van a un colegio bilingüe que pide lonchera saludable, / y yo estoy de acuerdo. /
+Tengo dos hijos: Matías, de siete, y Luciana, de cuatro. / Van a un colegio bilingüe que pide lonchera saludable, / y yo estoy de acuerdo. /
 Mi día empieza a las seis menos cuarto armando dos loncheras distintas. / En la noche abro los táperes / y casi siempre regresa lo saludable. /
-Hace un mes el pediatra me dijo que Matías tiene la hemoglobina baja. / Intenté hígado escondido, sangrecita, lentejas y gotas de hierro. / Todo terminó en la basura o en una pelea. /
-Yo leo etiquetas, compro en Wong y en Flora y Fauna, / sigo a nutricionistas en Instagram. / La información no es mi problema. /
+Hace un mes el pediatra me dijo que Matías tiene la hemoglobina baja. / Intenté hígado escondido, sangrecita, lentejas y gotas de hierro. / Todo terminó en la basura. /
+Yo leo etiquetas, compro en Wong y en Flora y Fauna, / sigo a nutricionistas. / La información no es mi problema. /
 Mi problema es que todo lo que le hace bien, mi hijo lo escupe. /
-Busco algo que él quiera comer, / que le aporte hierro de verdad, / sin octógonos y sin refrigeradora. /
+Busco algo que él quiera comer, / con hierro de verdad, / sin octógonos y sin refrigeradora. /
 Si existe, lo pago. / Pero primero quiero verlo comérselo. /
 Por eso hoy estoy probando AndyBites.
 
@@ -121,12 +121,12 @@ Por eso hoy estoy probando AndyBites.
 ### Guion 2 — Rodrigo, versión ajustada al límite de 1 minuto (aprox. 150 palabras)
 
 Hola, soy Rodrigo Salazar. / Tengo cuarenta y un años, vivo en La Molina y soy gerente de operaciones. /
-Mi esposa Vanessa viaja mucho por trabajo, / así que las loncheras de Joaquín, de nueve, y Emilia, de seis, son mías. /
+Mi esposa viaja mucho por trabajo, / así que las loncheras de Joaquín, de nueve, y Emilia, de seis, son mías. /
 Mi día empieza a las cinco y media corriendo. / A las seis y media armo dos loncheras con lo que hay / y a las siete y diez pasa la movilidad. /
 Los lunes salen bien. / Los jueves ya no sé qué mandar. / Y el viernes, con culpa, va la galleta envasada. /
 Joaquín regresa con el plátano aplastado y la manzana oscura. / Una vez la profesora lo anotó en la agenda. / Me sentí expuesto. /
 He probado cocinar el domingo, fruta por suscripción y galletas sin azúcar. / Nada aguanta. /
-Necesito una compra que resuelva la semana, / que aguante en la mochila hasta el recreo / y que mis hijos pidan de nuevo. /
+Necesito una compra que resuelva la semana, / que aguante en la mochila / y que mis hijos pidan de nuevo. /
 No me vendan salud. / Véndanme una mañana menos. /
 Por eso estoy probando AndyBites.
 
