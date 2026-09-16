@@ -10,24 +10,24 @@ Primero se prueba el producto, después se pregunta el precio. El público defin
 ---
 
 ## Semana 5 (15 al 20 de septiembre) — Producir, costear y hacer el focus 2 el domingo 20
-Objetivo: hacer el focus 2 el domingo 20 con producto fresco, empaque MVP y fichas listas, y llegar a la clase de la semana 6 con resultados.
-Regla: los brownies se hornean el sábado 19 (máximo 24-48 h antes del focus). Todo lo demás tiene que estar listo antes. Cada integrante elige sus tareas (2-3 por persona); las tareas 1, 3 y 8 son las que más tiempo toman y no deberían caer en la misma persona.
+Objetivo: hacer el focus 2 el domingo 20 en el colegio de Patty (solo puede entrar ella) con producto fresco, empaque MVP y fichas listas, y llegar a la clase de la semana 6 con resultados para la presentación T1.
 
-| # | Tarea | Fecha límite | Quién (a elegir) |
+Reparto acordado el 16 de septiembre (5 bloques, uno por persona):
+
+| Bloque | Responsable | Tareas | Entrega a |
 |---|---|---|---|
-| 1 | Cotizar y comprar insumos del lote (cacao, avena, harina de cañihua, sangrecita liofilizada, plátano, huevo, aceite, endulzante). Anotar precio y tienda. Empezar por la sangrecita liofilizada, que es la más difícil | Mié 17 | |
-| 2 | Prueba pequeña de receta (10-12 unidades) para ajustar dulzor, humedad y peso de 20 g | Mié 17 | |
-| 3 | Reclutar 6-8 mamás o papás del nuevo segmento (NSE A/B, hijos de 4 a 11 en colegio privado) y confirmar lugar, hora y consentimiento de grabación | Mié 17 | |
-| 4 | Levantar precios de referencia en 2-3 tiendas (Flora & Fauna, Wong, Vivanda o naturista): foto, marca, gramaje y precio | Vie 19 | |
-| 5 | Diseñar sticker en Canva (nombre, hierro, ingredientes, 6 x 20 g, contacto), comprar cajas o bolsas kraft para 2 opciones de empaque MVP e imprimir 15-20 stickers | Vie 19 | |
-| 6 | Imprimir fichas del focus (filtro, sensorial, precio) y preparar material: agua, platos, servilletas, tarjetas con nombre AndyBites y 1-2 alternativas, celular para grabar | Vie 19 | |
-| 7 | Llenar la plantilla de costo unitario con precios reales (lote de 5) y primera proyección a 10,000 unidades | Vie 19 | |
-| 8 | Producir el lote del focus (40-50 unidades), pesar cada una, registrar pesos, fotos del proceso, guardar en recipiente hermético. Apartar 6 para prueba de vida útil (día 1, 3, 5) | Sáb 19 | |
-| 9 | Armar 8-10 packs de 6 con las dos opciones de empaque | Sáb 19 | |
-| 10 | Focus 2 (90 min): una persona modera sin opinar, otra toma notas, el resto apoya. Orden: hábitos y marcas, degustación a ciegas, revelar concepto, empaque y nombre, y al final precio del pack de 6 | Dom 20 | |
-| 11 | Procesar resultados (tabla resumen, rango de precio, nombre y empaque elegidos) y ajustar la presentación | Dom 20 / Lun 21 | |
-| 12 | Revisar y corregir un entregable cada uno: arquetipos y buyer personas, canvas, elevator pitch, plan de marketing y ventas | Jue 18 a Dom 20 | |
-| 13 | Armar la presentación de 12-15 minutos (se cierra el lunes con los resultados del focus) | Lun 21 | |
+| 1. Insumos, producción y focus | Patty (por confirmar) | Comprar insumos anotando precios; producir el lote el sábado pesando cada unidad a 20 g con foto de la balanza; el domingo moderar y grabar el focus, recoger las fichas | Precios de insumos a Angie; video y fichas a Ade |
+| 2. Guía del focus y elevator pitch | Ade | Preguntas y fichas del focus antes del domingo; subir el video a YouTube y pasar las respuestas en limpio; elevator pitch en video (guion, avatar con IA, edición) | Guía y fichas a Patty antes del domingo; link de YouTube y video del pitch a Diana |
+| 3. Empaque, buyer personas y precios de mercado | Carlos | Bolsa o envoltura con sticker y 8-10 packs listos antes del domingo; 2 buyer personas; visita a 2-3 tiendas (naturista, Wong, Vivanda) anotando marca, gramaje y precio | Packs a Patty antes del domingo; benchmarks de precio a Angie; personas a Diana |
+| 4. Costeo y plan de marketing | Angie | Ficha de costo unitario (lote de 5 y proyección a 10,000); con el precio del focus, estimación de ventas del próximo año, punto de equilibrio y estrategia de canales (mamás influencers, eventos infantiles, colegios, WhatsApp) | Costeo y plan a Diana |
+| 5. Canvas, DIGESA y presentación T1 | Diana | Business model canvas con resultados del focus; lámina de la ruta regulatoria (DIGESA y octógonos); juntar todo en Canva para la presentación de 12-15 minutos | Presentación final al grupo |
+
+Dependencias:
+- Los bloques 2 y 3 entregan a Patty antes del domingo (guía, fichas y packs).
+- Del focus salen precio, nombre y empaque: con eso Diana hace el canvas, Angie el punto de equilibrio y Carlos ajusta los buyer personas.
+- Diana cierra al final con lo de todos.
+
+Material de apoyo en este repositorio: guía del focus (03-entregables/05), checklist de empaque y costeo (03-entregables/06), borradores de buyer personas (01), canvas (02), pitch (03) y plan de marketing (04).
 
 Guion sugerido para la exposición de 12-15 minutos:
 1. Qué aprendimos en semanas 1-4 y por qué cambiamos de segmento (2 min).
