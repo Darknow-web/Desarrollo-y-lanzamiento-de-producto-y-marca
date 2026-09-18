@@ -53,7 +53,7 @@ Reglas de mensaje (del brief): hablamos de **hierro, energía y concentración**
 |---|---|---|---|
 | C01 | 0:00-0:08 | "Cada mañana, miles de familias en Lima arman una lonchera con todo su amor. Fruta, algo saludable, lo que el colegio pide." | Cocina de un departamento de Lima Moderna, 6 de la mañana, luz de ventana; manos de una mamá guardando fruta picada y una barrita en una lonchera. |
 | C02 | 0:08-0:16 | "Y cada tarde, esa lonchera regresa igual. Intacta. No es falta de amor." | Puerta de colegio privado por la mañana, niño con mochila entra corriendo; corte a la tarde: la mamá abre la lonchera en la mesa y todo sigue ahí, sin tocar. |
-| C03 | 0:16-0:24 | "Lo que le hace bien a un niño casi nunca es lo que él quiere comer. Y el hierro que necesita para crecer y concentrarse... no llega." | Niño de 7 años en la mesa aparta el plato con el ceño fruncido; la mamá lo mira con cansancio; el reloj de la cocina marca la hora. |
+| C03 | 0:16-0:24 | "Lo que le hace bien a un niño casi nunca es lo que él quiere comer. Y el hierro que necesita para crecer... no llega." | Niño de 7 años en la mesa aparta el plato con el ceño fruncido; la mamá lo mira con cansancio; el reloj de la cocina marca la hora. |
 | C04 | 0:24-0:32 | "¿Y si existiera algo rico, práctico y pensado para que sí se lo coma?" | Primer plano: la mano de un niño saca un mini brownie de su lonchera en el recreo y lo muerde sonriendo (el producto se ve, la marca todavía no). |
 
 ### Bloque 2 — Presentación del equipo (0:32-0:44, voz en off de Carlos sobre 5 clips cortos)
@@ -75,7 +75,7 @@ Si el equipo prefiere que aparezcan 4 personas como en la referencia, se elimina
 | Clip | Tiempo | Quién | Línea |
 |---|---|---|---|
 | C10 | 0:44-0:52 | Angie | "Entrevistamos a diez familias y todas dijeron lo mismo: la información no es el problema. El problema es que el niño lo escupe." |
-| C11 | 0:52-1:00 | Patricia | "Y la oportunidad es enorme: solo en Lima Moderna hay más de [X mil] niños de 4 a 11 años en colegios que exigen lonchera saludable." [DATO POR VALIDAR: sacarlo de INEI o APEIM 2025 antes de grabar; si no hay cifra, decir "decenas de miles de familias"] |
+| C11 | 0:52-1:00 | Patricia | "La oportunidad es enorme: en Lima Moderna, más de [X mil] niños de 4 a 11 años van a colegios que piden lonchera saludable." [DATO POR VALIDAR: sacarlo de INEI o APEIM 2025 antes de grabar; si no hay cifra, decir "decenas de miles de familias"] |
 
 ### Bloque 4 — Solución (1:00-1:24, producto en mano por primera vez)
 
@@ -106,7 +106,7 @@ Imagen: logo AndiBite grande (montaña + nombre) y el eslogan del empaque sobre 
 
 ### Guion corrido para grabar la voz en off (146 palabras, ~55 segundos de audio repartidos en el video)
 
-Cada mañana, miles de familias en Lima arman una lonchera con todo su amor. Fruta, algo saludable, lo que el colegio pide. / Y cada tarde, esa lonchera regresa igual. Intacta. No es falta de amor. / Lo que le hace bien a un niño casi nunca es lo que él quiere comer. Y el hierro que necesita para crecer y concentrarse... no llega. / ¿Y si existiera algo rico, práctico y pensado para que sí se lo coma? / Hola, nosotros somos Diana, Carlos, Angie, Patricia y Adela, y somos el equipo detrás de AndiBite, listos para responder este desafío. / Para ti, es hierro, energía y concentración en cada recreo. Cabe en la lonchera, no se aplasta y no necesita frío. / AndiBite. Lo bueno también puede ser delicioso.
+Cada mañana, miles de familias en Lima arman una lonchera con todo su amor. Fruta, algo saludable, lo que el colegio pide. / Y cada tarde, esa lonchera regresa igual. Intacta. No es falta de amor. / Lo que le hace bien a un niño casi nunca es lo que él quiere comer. Y el hierro que necesita para crecer... no llega. / ¿Y si existiera algo rico, práctico y pensado para que sí se lo coma? / Hola, nosotros somos Diana, Carlos, Angie, Patricia y Adela, y somos el equipo detrás de AndiBite, listos para responder este desafío. / Para ti, es hierro, energía y concentración en cada recreo. Cabe en la lonchera, no se aplasta y no necesita frío. / AndiBite. Lo bueno también puede ser delicioso.
 
 ---
 
