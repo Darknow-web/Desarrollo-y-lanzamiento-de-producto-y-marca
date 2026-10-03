@@ -1,5 +1,8 @@
 # 06 — Marca 2.0 e innovación: de AndiBite a una marca para padres que leen etiquetas
 
+> **Decisión del equipo (3 de octubre de 2026): se mantiene el nombre AndiBite.** La ruta B (Hemi) queda como referencia de concepto; lo que se adopta de este documento es la evolución del empaque (hierro en mg en el frente, ficha de hierro, QR por lote), los nombres y colores de los sabores (Chispa, Andi, Lúcu, Nara, Fresi) y las innovaciones. Donde dice "Hemi" léase AndiBite.
+
+
 Versión 1, 3 de octubre de 2026. La escribe la dirección creativa y de estrategia de marca para el Grupo 2. Se apoya en `00-BRIEF-reformulacion.md`, `01-producto-sabores-y-recetas.md`, `03-maquila-regulacion-y-permisos.md` (etiquetado y octógonos), `04-publico-objetivo-y-buyer-persona-con-datos.md` y `03-entregables/09-guia-replicar-empaque-mvp.md`.
 
 Convenciones: **[HIPÓTESIS]** es un supuesto del equipo. **[POR CONFIRMAR]** es un dato que no se pudo verificar en fuente primaria. Los valores de hierro por unidad son cálculos de receta del documento 01. En el empaque solo puede ir el valor que dé el laboratorio.

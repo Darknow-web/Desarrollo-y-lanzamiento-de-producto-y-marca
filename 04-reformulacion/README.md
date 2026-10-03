@@ -13,7 +13,7 @@ Carpeta con el estudio completo para refundar el producto y la marca, hecho como
 | 06 | Marca 2.0 e innovación | Diagnóstico de AndiBite, 3 rutas de marca, nombres de sabores, 8 innovaciones, empaque 2.0 y tono de voz |
 | 07 | T1: Canvas, propuesta de valor, validación y pitch | Los cuatro entregables de la semana, listos para diapositivas, con guion de exposición y preguntas difíciles |
 
-Presentación: `T1-presentacion-AndiBite-2-0.pptx` en esta misma carpeta (se importa en Canva o se abre en PowerPoint).
+Presentación: `T1-presentacion-AndiBite-2-0.pptx` (editable, se importa en Canva o se abre en PowerPoint) y `T1-presentacion-AndiBite-2-0.pdf` (solo lectura) en esta misma carpeta.
 
 ## Cifras clave (escenario base, documento 05)
 - Precio: S/4.50 por unidad de 20 g, S/27.00 el pack de 6, S/49.00 el pack de 12.
@@ -26,5 +26,5 @@ Presentación: `T1-presentacion-AndiBite-2-0.pptx` en esta misma carpeta (se imp
 ## Pendientes críticos antes de ejecutar
 1. Cotizar maquila (MAKING, Panificadora Unión, INDDA-UNALM) y el polvo de sangrecita a granel.
 2. Prueba sensorial con niños de la versión sin octógono y de los 3 sabores.
-3. Búsqueda fonética en INDECOPI del nombre elegido (Hemi tiene riesgo por la marca de motores; AndiBite es la opción de continuidad).
+3. Nombre decidido: AndiBite. Falta la búsqueda fonética en INDECOPI (clase 30) antes de imprimir empaques definitivos.
 4. Completar en el documento 07 los resultados reales del focus 2.
