@@ -15,6 +15,8 @@ Carpeta con el estudio completo para refundar el producto y la marca, hecho como
 
 Presentación: `T1-presentacion-AndiBite-2-0.pptx` (editable, se importa en Canva o se abre en PowerPoint) y `T1-presentacion-AndiBite-2-0.pdf` (solo lectura) en esta misma carpeta.
 
+Costeo por presentación: `Costeo-presentaciones-AndiBite.xlsx` (fórmulas vivas; unidad individual, pack de 6 con opción B y C, pack de 12, proyección mensual y punto de equilibrio). Se regenera con `build_costeo.py`.
+
 ## Cifras clave (escenario base, documento 05)
 - Precio: S/4.50 por unidad de 20 g, S/27.00 el pack de 6, S/49.00 el pack de 12.
 - Costo de producción por unidad: S/2.52 a 1,000 u/mes, S/1.91 a 3,000, S/1.32 a 8,000 (maquila incluida, [POR CONFIRMAR] tarifa de maquila).
