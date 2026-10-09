@@ -99,7 +99,7 @@ for r,lab,v,u,src,fill,fmt in [
  (64,'Pedidos por WhatsApp del primer mes (lista de espera)',150,'unidades','[HIPÓTESIS]',None,NUM)]:
     cell(S,f'A{r}',lab); cell(S,f'B{r}',v,BLUE,fmt,fill); cell(S,f'C{r}',u); cell(S,f'D{r}',src)
 section(S,66,'8. Costos fijos mensuales (S/ sin IGV)',4); header(S,67,['Concepto','S/ al mes','','Fuente o nota'])
-for i,(lab,v,src) in enumerate([('Administración: contador, software, web, teléfono, movilidad, banco',700,'Documento 05, sección 4.1'),
+for i,(lab,v,src) in enumerate([('Administración: contador, software de facturación, web, teléfono, movilidad, GS1, banco, carnés de sanidad y uniformes del personal de stand',760,'Documento 05, sección 4.1 (S/700) más S/60 al mes de carnés de sanidad (S/9 a 20 por persona cada 6 meses), uniformes y reposición del material de stand'),
                                 ('Coordinador(a) comercial y de operaciones (planilla, medio tiempo de 4 horas)',709,'Media remuneración mínima de 2027 (S/1,300 según el DS 015-2026-TR) más 9 % de EsSalud; microempresa en el REMYPE. Atiende WhatsApp, pedidos y despacho, y lleva el stock a los stands'),
                                 ('Marketing: pauta, degustaciones y material de stand (promedio del año)',900,'[HIPÓTESIS] Menos pauta digital que en la versión anterior (S/1,291.67): la captación se hace en el stand'),
                                 ('Depreciación de equipos y carrito (36 meses)','=Inversion!B37/36','Hoja Inversion')]):
@@ -243,7 +243,7 @@ for j in range(12):
     cell(M,f'{c}26',f'={c}24/Costeo!$E$5',BLACK,NUM)
 for r in range(22,27): cell(M,f'N{r}',f'=SUM(B{r}:M{r})',BLACK,NUM)
 section(M,28,'Resultado mensual (S/ sin IGV, salvo la primera fila)',14)
-labs={29:'Ventas con IGV',30:'Ventas sin IGV',31:'Contribución con pack de 6 opción B',32:'Contribución con pack de 6 opción C',33:'Alquiler de espacios para stands y carritos',34:'Vendedores de stand (por día de atención)',35:'Ferias pagadas',36:'Costos fijos del mes',37:'Resultado operativo — opción B',38:'Resultado operativo — opción C',39:'Resultado acumulado — opción B',40:'Resultado acumulado — opción C'}
+labs={29:'Ventas con IGV',30:'Ventas sin IGV',31:'Contribución con pack de 6 opción B',32:'Contribución con pack de 6 opción C',33:'Espacio para stands y carrito',34:'Vendedores de stand (por día de atención)',35:'Ferias pagadas',36:'Costos fijos del mes',37:'Resultado operativo — opción B',38:'Resultado operativo — opción C',39:'Resultado acumulado — opción B',40:'Resultado acumulado — opción C'}
 for r,t in labs.items(): cell(M,f'A{r}',t,bold=r in (37,38))
 for j in range(12):
     c=L(2+j); p=L(1+j)
@@ -353,7 +353,7 @@ items=[('Unidades vendidas','=Proyeccion!F20','=Proyeccion!F20',NUM),
        ('Ventas con IGV','=Proyeccion!I20','=Proyeccion!I20',SOL0),
        ('Ventas sin IGV','=Proyeccion!J20','=Proyeccion!J20',SOL0),
        ('Contribución (ventas sin IGV menos producción y costos variables de canal)','=Proyeccion!P20','=Proyeccion!Q20',SOL0),
-       ('Stands, carritos y ferias del año (alquiler, impulsadoras y ferias pagadas)','=Mensual!N33+Mensual!N34+Mensual!N35','=Mensual!N33+Mensual!N34+Mensual!N35',SOL0),
+       ('Stands, carritos y ferias del año (espacio, vendedores de stand y ferias pagadas)','=Mensual!N33+Mensual!N34+Mensual!N35','=Mensual!N33+Mensual!N34+Mensual!N35',SOL0),
        ('Costos fijos del año','=Supuestos!B72*12','=Supuestos!B72*12',SOL0),
        ('Resultado operativo del año (antes de intereses y renta anual)','=B15-B16-B17','=C15-C16-C17',SOL0),
        ('Margen operativo sobre ventas sin IGV','=IF(B14=0,0,B18/B14)','=IF(C14=0,0,C18/C14)',PCT),
@@ -366,12 +366,21 @@ items=[('Unidades vendidas','=Proyeccion!F20','=Proyeccion!F20',NUM),
        ('Meses desde el inicio de ventas (mes 1 = enero de 2027) para recuperar la inversión (el año 2 al ritmo de los meses 10 a 12)','=IF(B18>=B23,"Dentro del año 1",ROUNDUP(12+(B23-B18)/AVERAGE(Mensual!K37:M37),0))','=IF(C18>=C23,"Dentro del año 1",ROUNDUP(12+(C23-C18)/AVERAGE(Mensual!K38:M38),0))','0')]
 for i,(t,fb,fc,fmt) in enumerate(items):
     rr=12+i; bb=rr in (18,21); cell(R,f'A{rr}',t,bold=bb); cell(R,f'B{rr}',fb,GREEN if '!' in fb else BLACK,fmt,TOT if bb else None,bold=bb); cell(R,f'C{rr}',fc,GREEN if '!' in fc else BLACK,fmt,TOT if bb else None,bold=bb)
-cell(R,'A28','Notas',bold=True)
+cell(R,'A28','De resultado operativo a utilidad neta (año 1, opción B)',bold=True)
+net=[('Resultado operativo','=B18',SOL0),
+     ('Más: pagos a cuenta de renta ya restados en el costo de canal (1 % de las ventas sin IGV)','=Supuestos!B28*B14',SOL0),
+     ('Menos: intereses del préstamo en el año 1','=-CUMIPMT((1+Inversion!B48)^(1/12)-1,Inversion!B49,Inversion!B47,1,12,0)',SOL0),
+     ('Utilidad antes de impuestos','=B29+B30-B31',SOL0),
+     ('Impuesto a la renta del Régimen MYPE Tributario (10 % hasta 15 UIT de utilidad)','=MAX(0,0.1*B32)',SOL0),
+     ('Utilidad neta del año 1','=B32-B33',SOL0)]
+for i,(t,f,fmt) in enumerate(net):
+    rr=29+i; bb=rr==34; cell(R,f'A{rr}',t,bold=bb); cell(R,f'B{rr}',f,GREEN if '!' in f else BLACK,fmt,TOT if bb else None,bold=bb)
+cell(R,'A36','Notas',bold=True)
 notes=['La proyección supone que los documentos (S.A.C., marca, registro sanitario, análisis, etiqueta, carnés y póliza) ya están listos al inicio de ventas (mes 1, enero de 2027). Su costo está en la hoja Inversion.',
        'La venta física (stands, carritos y ferias) es el canal principal; WhatsApp queda para la recompra, sin suscripción. Todos los puntos de venta llevan vendedor(a) pagado(a) y un(a) coordinador(a) en planilla atiende pedidos y despacho.',
        'Costo de producción con sangrecita fresca de pollo (S/0.40 de insumos por brownie) y maquila de S/0.45 por brownie.',
-       'El resultado incluye al personal que opera el negocio (vendedores de stand y coordinador). No incluye intereses del préstamo (hoja Inversion) ni el impuesto a la renta anual.']
-for i,t in enumerate(notes): cell(R,f'A{29+i}',f'{i+1}. {t}')
+       'El resultado operativo ya incluye al personal que opera el negocio (vendedores de stand y coordinador en planilla). La utilidad neta descuenta además los intereses del préstamo y el impuesto a la renta (filas 29 a 34).']
+for i,t in enumerate(notes): cell(R,f'A{37+i}',f'{i+1}. {t}')
 R.column_dimensions['A'].width=70
 for col in 'BCDEFG': R.column_dimensions[col].width=20
 R.row_dimensions[4].height=42
