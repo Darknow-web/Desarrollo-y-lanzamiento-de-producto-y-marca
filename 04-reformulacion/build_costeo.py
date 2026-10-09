@@ -296,7 +296,7 @@ lines=['Qué es: el costeo de AndiBite con tres presentaciones (unidad individua
 '  3. Unidades × mezcla ÷ tamaño del envase = envases vendidos de cada presentación.',
 '  4. Envases × precio de esa presentación en ese canal = ingreso. Envases × costo de esa presentación = costo de producción.',
 '  5. Se resta el costo del canal (delivery, pasarela, comisión) y se suman las contribuciones. Esa suma, menos los costos fijos, es el resultado.',
-'  La ventaja: si cambia la mezcla (por ejemplo, más packs de 12 por suscripción), el ingreso y el margen se recalculan solos sin rehacer la proyección.',
+'  La ventaja: si cambia la mezcla (por ejemplo, más packs de 12), el ingreso y el margen se recalculan solos sin rehacer la proyección.',
 '',
 'Ejemplo para probar: en Supuestos, cambie la maquila (celda B7) de 0.50 a 0.90 y mire cómo sube el punto de equilibrio en Resumen.']
 for i,t in enumerate(lines): cell(G,f'A{3+i}',t,bold=t.endswith(':'),wrap=True)

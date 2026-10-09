@@ -250,7 +250,7 @@ const chartText = () => ({
       quote: '"Todo lo que le hace bien, mi hijo lo escupe."' },
     { side: 'R', img: 2, name: 'Rodrigo Salazar', tag: 'El papá que resuelve la mañana', imgLabel: 'Retrato de Rodrigo (42, La Molina)',
       chips: [['EDAD Y DISTRITO', '42 años · La Molina'], ['OCUPACIÓN', 'Gerente de operaciones'], ['FAMILIA', '2 hijos (9 y 6)'], ['INGRESO FAMILIAR', 'S/18,000 al mes'], ['COMPRA', 'Apps, IG y TikTok'], ['PAGARÍA', 'S/18 a 24 por 6 u']],
-      pain: ['Jueves y viernes sin ideas', 'Snacks aplastados en la mochila'], want: ['Que resuelva toda la semana', 'Suscripción con recordatorio'],
+      pain: ['Jueves y viernes sin ideas', 'Snacks aplastados en la mochila'], want: ['Que resuelva toda la semana', 'Recordatorio para recomprar'],
       quote: '"No me vendas salud, véndeme una mañana menos."' },
   ];
   for (const p of personas) {
@@ -287,7 +287,7 @@ const chartText = () => ({
     ['FaSearch', '2 · Evaluación', 'Caja degustación de 3 a S/12 y QR al laboratorio'],
     ['FaWhatsapp', '3 · Compra', 'WhatsApp Business con Yape, Plin o link de pago'],
     ['FaTruck', '4 · Entrega', 'Rutas martes y viernes; gratis desde 2 packs'],
-    ['FaRedo', '5 · Posventa', 'Recordatorio quincenal y cambio de sabores'],
+    ['FaRedo', '5 · Posventa', 'Recordatorio de recompra y cambio de sabores'],
   ];
   for (let i = 0; i < 5; i++) {
     const w = 2.27, x = 0.6 + i * (w + 0.2), y = 1.75;
@@ -333,7 +333,7 @@ const chartText = () => ({
     ['FaComments', 'Asistencia personal', 'FUERTE', 'Una persona real responde por WhatsApp y recomienda sabores'],
     ['FaUserTie', 'Asistencia exclusiva', 'APOYO', 'Un socio a cargo de cada colegio y de cada naturista'],
     ['FaMobileAlt', 'Autoservicio', 'APOYO', 'Catálogo de WhatsApp y link de pago, sin esperar respuesta'],
-    ['FaCalendarCheck', 'Servicio automático', 'FUERTE', 'Suscripción quincenal con recordatorio 2 días antes'],
+    ['FaCalendarCheck', 'Servicio automático', 'FUERTE', 'Recordatorio de recompra por WhatsApp a los 12 días'],
     ['FaUsers', 'Comunidades', 'FUERTE', 'Mamá embajadora por salón y comunidad en Instagram'],
     ['FaLightbulb', 'Creación colectiva', 'APOYO', 'Los niños votan el sabor del mes'],
   ];
@@ -348,13 +348,13 @@ const chartText = () => ({
     T(s, rel[i][2], { x: x + 1.2, y: y + 0.76, w: 0.95, h: 0.28, fontSize: 10, bold: true, align: 'center', valign: 'middle', color: strong ? C.background1 : C.accent2 });
     T(s, rel[i][3], { x: x + 0.3, y: y + 1.3, w: w - 0.6, h: 0.95, fontSize: 15, color: C.text1 });
   }
-  s.addNotes('Los seis tipos de relación de Osterwalder y cómo los usa AndiBite. Las tres fuertes (asistencia personal por WhatsApp, suscripción automática y comunidad de mamás embajadoras) sostienen la recompra; las de apoyo crecen con el volumen. Con los colegios y naturistas la relación es exclusiva: un socio responde por cada cuenta.');
+  s.addNotes('Los seis tipos de relación de Osterwalder y cómo los usa AndiBite. Las tres fuertes (asistencia personal por WhatsApp, recordatorio automático de recompra y comunidad de mamás embajadoras) sostienen la recompra; las de apoyo crecen con el volumen. Con los colegios y naturistas la relación es exclusiva: un socio responde por cada cuenta.');
 
   // =============== 13. CAPTAR, FIDELIZAR, CRECER ===============
   s = content(S6, 'TRABAJO DE CAMPO 6 · CICLO DE RELACIÓN', 'Captar, fidelizar y crecer con cada familia');
   const ciclo = [
     ['1 · CAPTAR', 'Que lo prueben', 'Caja degustación de 3 a S/12 con cupón de S/3 para el primer pack', '300', 'familias en lista de espera antes del lanzamiento'],
-    ['2 · FIDELIZAR', 'Que vuelvan', 'Suscripción quincenal con recordatorio y cambio de sabores sin costo', '35 %', 'de recompra a los 60 días'],
+    ['2 · FIDELIZAR', 'Que vuelvan', 'Recordatorio de recompra por WhatsApp y cambio de sabores en cada pedido', '35 %', 'de recompra a los 60 días'],
     ['3 · CRECER', 'Que nos recomienden', 'Mamá embajadora por salón y paso al pack de 12 "Semana completa"', '700', 'hogares activos al cierre del año 1'],
   ];
   for (let i = 0; i < 3; i++) {
@@ -368,13 +368,13 @@ const chartText = () => ({
     if (i < 2) { await iconCircle(s, 'FaArrowRight', x + w - 0.05, y + 2.2, 0.45, C.accent3, H.dk2); }
   }
   await imgSlot(s, 3, 10.45, 1.7, 2.28, 5.0, 'Lonchera con AndiBite y fruta');
-  s.addNotes('Captar: la caja degustación (3 brownies a S/4 = S/12) hace que el niño pruebe delante de la madre; el cupón de S/3 empuja el primer pack. Fidelizar: suscripción quincenal con recordatorio por WhatsApp dos días antes. Crecer: mamá embajadora por salón y paso al pack de 12. Metas del documento 07: 300 familias en espera, 35 % de recompra a 60 días, 700 hogares activos.' + pn(3, '9:16 · adjuntar la foto del empaque'));
+  s.addNotes('Captar: la caja degustación (3 brownies a S/4 = S/12) hace que el niño pruebe delante de la madre; el cupón de S/3 empuja el primer pack. Fidelizar: recordatorio por WhatsApp cuando el pack está por acabarse (unos 12 días después de la compra), sin suscripción ni compromiso. Crecer: mamá embajadora por salón y paso al pack de 12. Metas del documento 07: 300 familias en espera, 35 % de recompra a 60 días, 700 hogares activos.' + pn(3, '9:16 · adjuntar la foto del empaque'));
 
   // =============== 14. TIPOS DE INGRESO ===============
   s = content(S6, 'TRABAJO DE CAMPO 6 · FUENTES DE INGRESO', 'Cuatro fuentes de ingreso, una sola línea de producto');
   const ing = [
     ['FaShoppingBag', 'Venta de producto', 'Packs de 6 y unidades por WhatsApp e Instagram', '57.6 %'],
-    ['FaSyncAlt', 'Suscripción "Semana completa"', 'Pack de 12 cada dos semanas: S/3.91 por brownie', '23.3 %'],
+    ['FaBoxes', 'Pack de 12 "Semana completa"', 'Venta por volumen: S/3.91 por brownie', '23.3 %'],
     ['FaStore', 'Venta mayorista (B2B)', 'Quioscos escolares y tiendas naturistas, con factura', '10.2 %'],
     ['FaBirthdayCake', 'Ferias y eventos', 'Bioferias, kermeses y cumpleaños', '8.9 %'],
   ];
@@ -400,7 +400,7 @@ const chartText = () => ({
     { text: 'Descuento por volumen: el pack de 12 sale 6 % más barato por brownie que el de 6.', options: { fontSize: 14, breakLine: true } },
     { text: '* Precio al público. AndiBite recibe S/3.00 en el quiosco y S/17.34 en la naturista.', options: { fontSize: 11, italic: true, color: C.accent2 } },
   ], { x: 7.45, y: 4.85, w: 5.05, h: 1.75, valign: 'middle', paraSpaceAfter: 4 });
-  s.addNotes('Tipos de ingreso (Osterwalder): venta de activos (packs y unidades), suscripción (pack de 12 cada dos semanas), venta mayorista B2B y eventos. Porcentajes sobre las ventas con IGV del año 1 (S/302,900), hoja Proyeccion del Excel. Mecanismo de precio: fijo por lista, con descuento por volumen. Precios confirmados por el equipo el 9 de octubre de 2026.');
+  s.addNotes('Tipos de ingreso (Osterwalder): venta de activos (packs y unidades), venta por volumen (pack de 12), venta mayorista B2B y eventos. Porcentajes sobre las ventas con IGV del año 1 (S/302,900), hoja Proyeccion del Excel. Mecanismo de precio: fijo por lista, con descuento por volumen. Precios confirmados por el equipo el 9 de octubre de 2026.');
 
   // =============== 15. INGRESOS EN NÚMEROS ===============
   s = content(S6, 'TRABAJO DE CAMPO 6 · VENTAS DEL AÑO 1', 'S/302,900 en el primer año de ventas');
@@ -532,7 +532,7 @@ const chartText = () => ({
     ['FaCogs', 'Actividades clave', colX(1), top, cw5, half, ['I+D y prueba con niños', 'Maquila y calidad por lote', 'Registro sanitario', 'Venta y rutas']],
     ['FaKey', 'Recursos clave', colX(1), top + half + 0.08, cw5, half, ['Fórmula de 3 sabores', 'Marca y registro sanitario', '5 socios y un asistente', 'S/34,484 de inversión']],
     ['FaGift', 'Propuesta de valor', colX(2), top, cw5, th, ['Mini brownie de 20 g con sangrecita', 'Hierro medido por lote', 'Sin octógono', '3 sabores en un pack', 'Sin frío, directo a casa']],
-    ['FaHeart', 'Relación con clientes', colX(3), top, cw5, half, ['Asistencia por WhatsApp', 'Suscripción quincenal', 'Mamá embajadora', 'Caja degustación']],
+    ['FaHeart', 'Relación con clientes', colX(3), top, cw5, half, ['Asistencia por WhatsApp', 'Recordatorio de recompra', 'Mamá embajadora', 'Caja degustación']],
     ['FaTruck', 'Canales', colX(3), top + half + 0.08, cw5, half, ['WhatsApp e IG 79 %', 'Quioscos 9.5 %', 'Ferias 7.4 %', 'Naturistas 4.1 %']],
     ['FaUsers', 'Segmentos', colX(4), top, cw5, th, ['Padres A/B de 32 a 45 años', 'Hijos de 4 a 11 en colegio privado', '46,000 hogares en Lima Top y Moderna', 'B2B: quioscos y naturistas']],
     ['FaCalculator', 'Estructura de costos', colX(0), top + th + 0.08, cw5 * 2.5 + 0.08 * 2, 1.42, ['Producción S/1.65 por brownie · fijos S/2,857 al mes', 'Equilibrio: 3,308 brownies al mes · comisiones de 25 a 40 %']],
@@ -562,7 +562,7 @@ const chartText = () => ({
   s.addShape(pres.shapes.LINE, { x: sq.x + sq.d / 2, y: sq.y + sq.d / 2, w: sq.d / 2, h: 0, line: { color: C.accent2, width: 1.5 } });
   const sect = (x, y, w, h, ttl, items, iconName, hex) => [x, y, w, h, ttl, items, iconName, hex];
   const vm = [
-    sect(sq.x + 0.15, sq.y + 0.2, 2.2, 4.5, 'Productos y servicios', ['Pack de 6 a S/24.90', 'Pack de 12 "Semana completa"', 'Caja degustación de 3', 'Suscripción por WhatsApp'], 'FaBoxOpen', H.accent2),
+    sect(sq.x + 0.15, sq.y + 0.2, 2.2, 4.5, 'Productos y servicios', ['Pack de 6 a S/24.90', 'Pack de 12 "Semana completa"', 'Caja degustación de 3', 'Pedido por WhatsApp'], 'FaBoxOpen', H.accent2),
     sect(sq.x + sq.d / 2 + 0.15, sq.y + 0.2, 2.2, 2.2, 'Creadores de alegrías', ['El niño pide su sabor', 'Hierro en mg y QR del lote', 'Origen andino peruano'], 'FaStar', H.accent4),
     sect(sq.x + sq.d / 2 + 0.15, sq.y + sq.d / 2 + 0.2, 2.2, 2.2, 'Aliviadores de dolor', ['Cacao que esconde la sangrecita', 'Menos de 10 g de azúcar', 'Porción sellada, sin frío'], 'FaFirstAid', H.accent1),
   ];
