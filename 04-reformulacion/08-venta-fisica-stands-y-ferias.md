@@ -103,6 +103,54 @@ Un mall abre unas 12 horas al día, así que cuidar un stand propio a tiempo com
 - **Carné de sanidad** de quien atiende el stand: de S/9 a 20, válido 6 meses (Andina). Algunos organizadores lo piden [POR CONFIRMAR].
 - **Material de stand:** banner, mantel y exhibidor. La licencia y la inspección de seguridad las tramita el organizador del evento [POR CONFIRMAR con cada feria].
 
+## 8. Carrito dentro de un supermercado (Plaza Vea, Metro, Wong, Vivanda)
+
+Investigación del 9-oct-2026. **Ninguna cadena publica un canal ni una tarifa para alquilar un carrito o una isla dentro de la tienda.** Hay que pedirlo por escrito a cada una. Si el súper está dentro de un mall (por ejemplo, Plaza Vea en un Real Plaza), el espacio frente a su entrada lo alquila el mall, no el supermercado.
+
+### 8.1 Opciones y costos encontrados
+
+| Opción | Costo de referencia | Requisitos | Contacto |
+|---|---|---|---|
+| **Carrito o módulo en el hall o la entrada** | Sin tarifa pública. Referencia en malls: módulo de 2 x 2 m de **S/500 a US$2,500** (periodo no indicado; Gestión, 15-sep-2023) | RS, RUC, evaluación del concepto | Plaza Vea y Vivanda: InRetail (inretail.pe/en/contact). Metro y Wong: Cencosud ([POR CONFIRMAR] el área) |
+| **Isla en un Real Plaza** | US$55 por m² + IGV, contrato mínimo de 3 años, 2 meses de garantía; el aviso **no permite comida** | Igual | Aviso de alquiler (sin fecha) |
+| **Impulso y degustación en el pasillo** (con el producto ya en góndola) | Impulsadora: **S/50 a 90 por día** en fin de semana; en planilla, S/1,130 a 1,630 al mes. Paquete de agencia: desde S/12,000 al mes para 5 tiendas Tottus | Ser proveedor de la cadena; carné de sanidad | Agencias de trade marketing |
+| **Ser proveedor (góndola)** | Margen de la cadena de **20 a 40 %**, aportes de marketing de 3 a 8 % de las ventas y pago a 30-90 días (30 días para mypes por la Ley 31362, salvo pacto escrito) | RUC, RS, código de barras GS1, BPM o HACCP, seguro, fichas técnicas | Plaza Vea y Vivanda: "Cómo ser proveedor" en plazavea.com.pe. Wong y Metro: portalnuevosnegocios.cencosud.com |
+| **Fabricar el carrito** | Melamina a medida: de S/1,150 a 1,350 por metro lineal, instalado. Un carrito de 1.2 a 2 m con vitrina y gráfica costaría unos S/1,500 a 3,000 [estimación, pedir 2 o 3 cotizaciones] | — | Carpinterías en Lima |
+
+### 8.2 ¿Cuánto hay que vender en el carrito?
+
+Con precios de stand, cada brownie deja unos **S/2.00**. Con los precios de WhatsApp (S/4.00 la unidad y S/24.90 el pack), deja unos **S/1.45** y hace falta vender un 38 % más.
+
+| Escenario mensual | Costo al mes | Brownies al mes | Brownies por día abierto | Packs de 6 por día |
+|---|---|---|---|---|
+| Solo fines de semana (8 días): espacio de S/500 e impulsadora a S/90 por día | S/1,220 | 610 | 76 | 13 |
+| Todo el mes: espacio de S/500 y una persona en planilla (unos S/1,500) | S/2,000 | 1,000 | 33 | 6 |
+| Todo el mes: espacio de S/2,500 y dos turnos (unos S/3,000) | S/5,500 | 2,750 | 92 | 15 |
+| Todo el mes, tope del rango: US$2,500 (unos S/8,400) y dos turnos | S/11,400 | 5,700 | 190 | 32 |
+
+A esto se suma el carrito: unos S/1,500 a 3,000 una sola vez. Repartido en 12 meses, son unos S/125 a 250 al mes.
+
+**Vender en góndola (referencia):** con el pack a S/28.90 en anaquel y 30 % de margen para la cadena, AndiBite cobra unos S/20.23 con IGV. Después de producción, aportes y despacho quedan unos S/0.96 por brownie, la mitad que en un stand propio, y se cobra a 30-90 días. Por eso la góndola queda para el año 2.
+
+### 8.3 ¿Qué tienda conviene?
+
+- **Público:** Plaza Vea y Metro apuntan a un público más amplio (NSE B y C). Para Claudia y Rodrigo encajan mejor **Wong y Vivanda** [inferencia; validar con el store check].
+- **Tiendas candidatas para pedir espacio** (dirección y vigencia [POR CONFIRMAR]):
+  - Wong Las Gardenias (Surco)
+  - Wong de la Av. Raúl Ferrero (La Molina)
+  - Wong Gourmet en Jockey Plaza y Larcomar
+  - Vivanda José Pardo (Miraflores)
+- **Si es Plaza Vea o Metro**, conviene elegir los locales de San Borja, Surco o La Molina, no los de Lima Norte.
+
+### 8.4 Recomendación
+
+1. **Para el carrito**, el camino más realista es el espacio frente a la entrada del súper dentro de un mall, que se alquila al mall por semanas o fines de semana. Es más barato y sirve para medir cuánto se vende.
+2. **Pedir cotización escrita** a InRetail (Plaza Vea y Vivanda), a Cencosud (Wong y Metro), a una agencia de impulso y a 2 o 3 carpinterías.
+3. **Escenario de entrada:** solo fines de semana, con un costo de unos S/1,220 al mes. Hay que vender 76 brownies por día abierto, unos 13 packs.
+4. **Requisito previo:** el registro sanitario. Antes de tenerlo solo se puede hacer degustación.
+
+Fuentes de esta sección: [Gestión, alquiler de módulos en centros comerciales (15-sep-2023)](https://gestion.pe/economia/mercados/alquiler-de-modulos-en-centros-comerciales-va-en-aumento-precios-y-espacio-ferias-retail-percy-vigil-jose-antonio-contreras-carlos-neuhaus-mega-plaza-open-plaza-accep-asociacion-de-centros-comerciales-y-de-entretenimiento-del-peru-noticia/) · [EVANG, cómo vender en supermercados del Perú (5-jun-2025)](https://evangcorp.com/insights/como-vender-en-supermercados-peru-tottus-plaza-vea-guia) · [Cencosud, quiero ser proveedor](https://www.cencosud.com/quiero-ser-proveedor-de-cencosud) · [GS1 Perú](https://www.gs1pe.org/como-asociarse-gs1-peru) · [Computrabajo, impulsadoras en Lima](https://pe.computrabajo.com/trabajo-de-impulsadoras-de-supermercados-en-lima) · [Melamina Sophie](https://melamina.net.pe/estantes-de-melamina-para-tienda/) · [InRetail, unidades de negocio](https://www.inretail.pe/en/our-company/business-units)
+
 ## Fuentes
 
 1. Business Empresarial, "El Mercadito del Emprendedor, la nueva propuesta de Larcomar" (17-abr-2024). https://www.businessempresarial.com.pe/el-mercadito-del-emprendedor-la-nueva-propuesta-de-larcomar-para-impulsar-el-emprendimiento-peruano/
