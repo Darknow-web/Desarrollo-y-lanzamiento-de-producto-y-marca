@@ -240,7 +240,7 @@ Con el ajuste de -5% del Censo 2025, el SOM base queda en **unos S/287,000 al a�
 | Cita | "Yo sé lo que le falta a mi hijo; el problema es que todo lo que le falta, él lo escupe." | |
 | Cómo le vendemos | Degustación con el niño delante, mg de hierro y registro sanitario visibles, aval de una nutricionista y un sabor para cada día | |
 
-**Buyer persona secundario: Rodrigo Salazar, 42, La Molina.** Gerente de operaciones; ingreso familiar de unos S/18,000 (A2) [HIPÓTESIS]; su esposa Vanessa viaja por trabajo; Joaquín (9) y Emilia (6). Él arma las loncheras de la mañana. No busca salud, busca resolver: un pack que dure la semana, que aguante la mochila sin frío y que pueda pedir por WhatsApp con recordatorio de recompra. Compra por app y por impulso en Instagram. Paga S/3-4 por unidad y preferiría un pack de 12 o una suscripción [POR VALIDAR]. Frase: "No me vendas salud, véndeme una mañana menos."
+**Buyer persona secundario: Rodrigo Salazar, 42, La Molina.** Gerente de operaciones; ingreso familiar de unos S/18,000 (A2) [HIPÓTESIS]; su esposa Vanessa viaja por trabajo; Joaquín (9) y Emilia (6). Él arma las loncheras de la mañana. No busca salud, busca resolver: un pack que dure la semana, que aguante la mochila sin frío y que pueda pedir por WhatsApp con recordatorio de recompra. Compra por app y por impulso en Instagram. Paga S/3-4 por unidad y preferiría un pack de 12, por pedido y sin suscripción [POR VALIDAR]. Frase: "No me vendas salud, véndeme una mañana menos."
 
 ---
 

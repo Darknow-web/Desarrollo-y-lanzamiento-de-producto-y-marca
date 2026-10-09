@@ -14,7 +14,7 @@ Convenciones: **[HIPÓTESIS]** es un supuesto del equipo. **[POR CONFIRMAR]** es
 - **Ruta recomendada: B, "Hemi"**, nutrición de precisión para niños: el hierro se mide, va en miligramos en el frente y se verifica por lote con un QR. De AndiBite conserva el kraft, el guinda (ahora "rojo hierro") y el relato andino, que queda en el sabor "Andi".
 - **Claim:** "Hierro medido. Sabor a brownie." Apoyo: "Medido, no prometido."
 - **Sabores:** Chispa, Andi y Lúcu de lanzamiento; Nara y Fresi de temporada.
-- **Innovaciones de mayor impacto:** hierro visible y verificable por lote; Línea Cero (meta sin octógonos, que abre el quiosco escolar); y la Semana Hemi (caja de 12 con calendario y suscripción por WhatsApp).
+- **Innovaciones de mayor impacto:** hierro visible y verificable por lote; Línea Cero (meta sin octógonos, que abre el quiosco escolar); y la Semana Hemi (caja de 12 con calendario y recordatorio de recompra por WhatsApp).
 
 ---
 
@@ -105,7 +105,7 @@ El color de marca (kraft, crema y rojo hierro) es constante. El color de sabor o
 
 - **Caja de 12 en dos filas de 6:** la semana de dos hijos (5 días por 2) más **2 comodines** para el viernes o el fin de semana; con un solo hijo, dura dos semanas. Mix: 4 Chispa, 4 Andi y 4 Lúcu (en temporada, 3 de cada uno más 3 del temporal).
 - **Tapa interior con el calendario de lonchera:** lunes a viernes, una fila con el nombre de cada hijo y una casilla "fruta del día" (idea 2 de la sección 4).
-- Referencia: S/45, y S/43 en suscripción [HIPÓTESIS, validar con Van Westendorp].
+- Referencia: S/45, por pedido y sin suscripción [HIPÓTESIS, validar con Van Westendorp].
 
 ---
 
@@ -117,7 +117,7 @@ El color de marca (kraft, crema y rojo hierro) es constante. El color de sabor o
 | 2 | **Calendario de lonchera en la caja de 12** | Tapa interior impresa (o sticker de 10x10 en caja genérica) con la semana, los nombres y la casilla de fruta, más un PDF "5 loncheras en 5 minutos" | Casi cero en caja impresa; con sticker de vinil, S/0.55-1.40 por unidad (doc. 02) | Venta y recompra de la caja de 12 a 14 días |
 | 3 | **Línea Cero: meta "sin octógonos"** (y versión sin azúcar añadida) | Reformular por debajo de 10 g de azúcar total por 100 g (menos de 2 g por brownie): menos azúcar rubia, más plátano, canela y vainilla, y probar un edulcorante permitido. Hoy las cinco variantes llevan "Alto en azúcar" (doc. 01). La meta se comunica en público ("Hoy: 1 octógono. Meta: 0") | Insumos de 3 a 4 iteraciones, S/150-250 [HIPÓTESIS], más S/250-500 de perfil nutricional por fórmula | Aceptación con menos azúcar (al menos 75 % en caritas 4-5). **Abre el quiosco escolar**, que no admite octógonos (RM 195-2019-MINSA) |
 | 4 | **Kit de prueba con caritas (co-creación)** | Cajita con 3 medias unidades codificadas y una tarjeta de caritas que el padre llena con el niño y envía por QR o WhatsApp. Con eso se ajusta el dulzor y se elige el próximo sabor de temporada. El kit se entrega **al padre**, nunca al niño en el colegio (Ley 30021) | S/3-5 por kit [HIPÓTESIS]; 50 kits, S/150-250 | Aceptación por sabor y edad, fórmula ganadora y base de datos de padres (con consentimiento, Ley 29733) |
-| 5 | **Suscripción quincenal con recordatorio por WhatsApp** | WhatsApp Business con catálogo y una hoja de Google Sheets con la próxima entrega. Dos días antes: "¿Repetimos la Semana Hemi el jueves?". Pago por Yape o Plin, con opción de pausa o de cambiar el mix (modelo Little Spoon) | S/0 al inicio; la API se paga por mensaje [POR CONFIRMAR la tarifa]. Descuento de S/2 por caja [HIPÓTESIS] | Retención: al menos 40 % de suscriptores activos al tercer mes [HIPÓTESIS] |
+| 5 | **Recordatorio de recompra por WhatsApp** (suscripción descartada por ahora, 9-oct-2026) | WhatsApp Business con catálogo y una hoja de Google Sheets con la próxima entrega. Unos 12 días después de la compra, y solo si el cliente lo acepta: "¿Repetimos la Semana Hemi el jueves?". Pago por Yape o Plin, con opción de cambiar el mix al repetir (referencia: Little Spoon) | S/0 al inicio; la API se paga por mensaje [POR CONFIRMAR la tarifa] | Recompra: al menos 40 % de los clientes con recordatorio vuelve a comprar a los 60 días [HIPÓTESIS] |
 | 6 | **"Hierro que se comparte": S/1 por pack a un programa infantil** | Candidatos: **ONG Prisma** (Surquillo), que lidera #TanFuertesComoElHierro con Pacífico, Clínica San Felipe y SANNA en Villa María del Triunfo, con despistajes y hierro para más de 550 niños; y **Banco de Alimentos Perú**, que recibe donaciones de empresas pero no tiene un programa de anemia. Mientras haya octógono, se aporta **dinero, no producto**: donar un brownie "Alto en azúcar" a un programa de nutrición es incoherente | S/1 por pack, alrededor del 4 % del precio [HIPÓTESIS] | Preferencia de marca y prensa gratuita. Convenio y reporte **[POR CONFIRMAR con la ONG]** |
 | 7 | **Alianza con pediatras y nutricionistas** | Una nutricionista colegiada revisa y firma la ficha (con su número del CNP en el reverso). Se mandan kits con la ficha y el informe de laboratorio a 20 pediatras de San Borja, Surco y La Molina (doc. 04) | Revisión S/300-800 [HIPÓTESIS]; 20 kits a S/15, S/300 | Si el pediatra lo menciona en la consulta: al menos 2 de 5 entrevistados lo nombran (doc. 04) |
 | 8 | **Empaque compostable** | Primero, lo viable: caja de cartulina certificada y un doypack monomaterial reciclable. En paralelo se prueba un kraft con PLA y se mide la barrera, porque el hierro hemo acelera la rancidez. Solo se dice "compostable" con certificado; si no, es *greenwashing* sancionable | 1.5 a 2.5 veces lo que cuesta el trilaminado de S/0.63-1.30 [HIPÓTESIS, cotizar con The Pack y EnvaPack] | Si el padre paga la diferencia y si se mantiene la vida útil. Lima tiene poco compostaje industrial [POR CONFIRMAR] |
@@ -126,7 +126,7 @@ El color de marca (kraft, crema y rojo hierro) es constante. El color de sabor o
 
 | | Esfuerzo bajo | Esfuerzo alto |
 |---|---|---|
-| **Impacto alto** | **2. Calendario en la caja**; **5. Suscripción por WhatsApp**; 4. Kit de caritas | **1. Hierro visible y verificable**; **3. Línea Cero sin octógonos**; 7. Pediatras y nutricionistas |
+| **Impacto alto** | **2. Calendario en la caja**; **5. Recordatorio de recompra por WhatsApp**; 4. Kit de caritas | **1. Hierro visible y verificable**; **3. Línea Cero sin octógonos**; 7. Pediatras y nutricionistas |
 | **Impacto medio** | 6. Aporte a una ONG (en dinero) | 8. Empaque compostable |
 
 **Secuencia:** en octubre se hacen el 4 y el 2 (para el focus 2 y la T1). Entre noviembre y febrero, el 1, el 5 y el 7, junto con el Registro Sanitario. En el año 1, el 3. En el año 2, el 6 en producto y el 8.
@@ -202,7 +202,7 @@ Nota: los generadores de imagen deforman los textos largos. Hay que dejar los te
 |---|---|---|---|
 | **"La revelación"** | Serie semanal de reels de 30-45 s | Padres prueban un Hemi a ciegas, adivinan qué tiene y se les revela la sangrecita. Los niños pueden aparecer comiendo, pero no recomiendan a cámara [criterio prudente, Ley 30021] | Bajar la barrera de la sangrecita con prueba social |
 | **"Abre el laboratorio"** | Carrusel y reel | El informe del lote del mes y cómo leer una tabla nutricional en 3 pasos | Autoridad frente al "saludable" sin pruebas |
-| **"La lonchera del jueves"** | Historias y reel de 15 s | 5 loncheras armadas el domingo con la caja de 12 y su calendario | Uso del pack de 12 y de la suscripción |
+| **"La lonchera del jueves"** | Historias y reel de 15 s | 5 loncheras armadas el domingo con la caja de 12 y su calendario | Uso del pack de 12 y de la recompra |
 
 ### 6.3 Guion del reel de lanzamiento (30 s, vertical)
 

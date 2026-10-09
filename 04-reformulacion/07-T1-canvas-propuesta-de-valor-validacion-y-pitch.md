@@ -1,5 +1,7 @@
 # 07. Entregable T1: Canvas, propuesta de valor validada, primera presentación del modelo de negocio y elevator pitch
 
+**9-oct-2026: el equipo eliminó por ahora la suscripción; el pack de 12 se vende por pedido.**
+
 Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora para el Grupo 2 (Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas y Adela Robles), curso "Desarrollo y lanzamiento de nuevos productos", profesora Paola Cevallos. Integra los documentos 00 a 06 de esta carpeta y los resúmenes de las semanas 1 a 4 y del focus 1, listo para pasar a diapositivas.
 
 **Nota del 9 de octubre de 2026: precios confirmados.** El equipo confirmó los precios finales. Las cifras de precio, ventas, equilibrio y resultado de este documento se alinearon con el Excel `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` y con el documento 05 actualizado. Precios con IGV: venta directa, unidad S/4.00, pack de 6 S/24.90 (S/4.15 por brownie, opción B con bolsitas) y pack de 12 S/46.90; caja degustación de 3, S/12.00; ferias, S/5.00, S/26.00 y S/48.00; quiosco, el alumno paga S/4.00 y AndiBite recibe S/3.00; tienda naturista, anaquel de S/28.90 y AndiBite cobra S/17.34. Año 1: 76,335 u, S/302,900 con IGV y resultado operativo de S/31,638 (12.3 %); equilibrio de 3,308 u/mes; inversión inicial sin cambios (S/34,484.24). Lo marcado como "versión anterior" (S/27.00, S/49.00, S/4.50, equilibrio de 3,500 u/mes, costo de S/1.91, utilidad neta de S/37,152.32, escenarios pesimista y optimista en soles, payback de 9 meses) se conserva solo como comparación: no se recalculó con los precios confirmados porque el Excel no lo calcula. La marca se mantiene como **AndiBite**.
@@ -27,10 +29,10 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 - **Sin octógono desde el lanzamiento:** 4.6 a 7.1 g de azúcar total por 100 g; el octógono se activa con 10 g [validar en laboratorio].
 - **Variedad semanal:** Choco Clásico, Choco-Plátano-Canela con cañihua y Choco-Lúcuma; el pack de 6 da dos rotaciones por semana escolar.
 - **Camuflaje validado:** la sangrecita rechazada en salado ("olía feo", "parecía carbón") se acepta escondida en chocolate.
-- **Lonchera resuelta desde el domingo:** porción sellada que no necesita frío, pedido por WhatsApp y suscripción quincenal.
+- **Lonchera resuelta desde el domingo:** porción sellada que no necesita frío, pedido por WhatsApp y recordatorio de recompra.
 
 ### Bloque 3. Canales (por prioridad, con el % de unidades del año 1, escenario base)
-1. **Venta directa por WhatsApp e Instagram: 79.0 %** (60,318 u). Dentro del canal: recurrentes y "mamá embajadora" 45 %, pauta de Meta con clic a WhatsApp 25 %, suscripción del pack de 12 20 % y landing con link de pago 10 %. Entrega en rutas de martes y viernes.
+1. **Venta directa por WhatsApp e Instagram: 79.0 %** (60,318 u). Dentro del canal: recurrentes y "mamá embajadora" 45 %, pauta de Meta con clic a WhatsApp 25 %, pack de 12 por pedido con recordatorio de recompra 20 % y landing con link de pago 10 %. Entrega en rutas de martes y viernes.
 2. **Quioscos escolares: 9.5 %** (7,245 u), de 1 a 5 colegios desde abril de 2027.
 3. **Ferias y eventos: 7.4 %** (5,640 u): cumpleaños, kermeses y bioferias.
 4. **Tiendas naturistas: 4.1 %** (3,132 u), de 2 a 8 puntos desde mayo.
@@ -38,14 +40,14 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 
 ### Bloque 4. Relación con clientes
 - **Prueba antes de compra:** caja degustación de 3 sabores (S/12.00) con cupón de S/3.00 para el primer pack: el niño prueba delante de la madre.
-- **Suscripción quincenal** con recordatorio por WhatsApp dos días antes, con pausa o cambio de mezcla.
+- **Recordatorio de recompra por WhatsApp**, opcional, unos 12 días después de la compra, con cambio de mezcla al repetir (suscripción descartada por ahora, 9-oct-2026).
 - **Transparencia verificable:** QR por lote con el informe de laboratorio ("Medido, no prometido").
 - **Prescriptores:** mamá embajadora por salón, ficha firmada por una nutricionista colegiada y kits para 20 pediatras.
 - **Meta:** recompra a 60 días de 35 % o más y menos de 1 % de reclamos.
 
 ### Bloque 5. Fuentes de ingresos
 - **Pack de 6 x 20 g a S/24.90** (S/4.15 por unidad; S/3.52 sin IGV), compra cada dos semanas. Versión anterior: S/27.00 (S/4.50 por unidad).
-- **Pack de 12 "Semana completa" a S/46.90** (S/3.91 por unidad, 5.8 % menos que en el pack de 6), formato de suscripción con delivery gratis. Versión anterior: S/49.00.
+- **Pack de 12 "Semana completa" a S/46.90** (S/3.91 por unidad, 5.8 % menos que en el pack de 6), pack para la compra quincenal, por pedido, con delivery gratis desde 2 packs. Versión anterior: S/49.00.
 - **Caja degustación de 3 a S/12.00** (versión anterior: S/13.50); unidad a S/4.00; cumpleaños desde 24 unidades a S/4.00 por unidad. **Ferias:** unidad S/5.00, pack de 6 S/26.00 y pack de 12 S/48.00.
 - **B2B:** quiosco a S/4.00 al alumno (AndiBite recibe S/3.00); tienda naturista con anaquel de S/28.90 por pack de 6, de los cuales AndiBite cobra S/17.34 (versión anterior: S/31.90).
 - **Año 1 (marzo 2027 a febrero 2028), base:** 76,335 unidades y **S/302,900.36 con IGV** (S/256,695.22 sin IGV). Pesimista (33,249 u) y optimista (154,687 u): sus soles están por recalcular con los precios confirmados (versión anterior: S/139,987.53 y S/642,863.64; en el base, S/319,869.33).
@@ -82,7 +84,7 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 
 | Socios clave | Actividades clave | Propuesta de valor | Relación con clientes | Segmentos |
 |---|---|---|---|---|
-| Maquila con HACCP (MAKING, Unión, INDDA); laboratorio INACAL; proveedor de sangrecita en polvo; concesionarios y naturistas; pasarela; nutricionista | I+D y prueba sensorial; maquila y calidad por lote; RS, etiqueta y marca; venta directa y rutas; contenido; B2B | Mini brownie de 20 g con sangrecita: hierro medido (~1.9 mg [HIPÓTESIS]), sin octógono (4.6 a 7.1 g de azúcar por 100 g), 3 sabores, sin frío, por WhatsApp | Caja degustación con cupón; suscripción quincenal; QR de lote; mamá embajadora; recompra a 60 días de 35 % o más | 46,000 hogares núcleo (60,000 niños) en zonas 6 y 7; 168,000 hogares A/B con niños en Lima; quioscos y naturistas |
+| Maquila con HACCP (MAKING, Unión, INDDA); laboratorio INACAL; proveedor de sangrecita en polvo; concesionarios y naturistas; pasarela; nutricionista | I+D y prueba sensorial; maquila y calidad por lote; RS, etiqueta y marca; venta directa y rutas; contenido; B2B | Mini brownie de 20 g con sangrecita: hierro medido (~1.9 mg [HIPÓTESIS]), sin octógono (4.6 a 7.1 g de azúcar por 100 g), 3 sabores, sin frío, por WhatsApp | Caja degustación con cupón; recordatorio de recompra por WhatsApp; QR de lote; mamá embajadora; recompra a 60 días de 35 % o más | 46,000 hogares núcleo (60,000 niños) en zonas 6 y 7; 168,000 hogares A/B con niños en Lima; quioscos y naturistas |
 | **Recursos clave** | | | **Canales** | |
 | Fórmula V-SO; RS de la S.A.C.; marca clase 30; proveedor homologado; 300 familias en espera; equipo de 5 | | | Directo 79.0 %; quioscos 9.5 %; ferias 7.4 %; naturistas 4.1 %; supermercado en el año 2 | |
 | **Estructura de costos** | | | **Fuentes de ingresos** | |
@@ -146,7 +148,7 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 | Pack de 6 (S/24.90), pack de 12 (S/46.90), caja degustación (S/12.00) | Cacao y canela esconden la sangrecita (30 g de cocoa o más por lote) | El niño pide su sabor por nombre: "¡quiero Chispa!" |
 | Tres sabores en el mismo pack | Sin octógono: 4.6 a 7.1 g de azúcar por 100 g | Hierro en miligramos en el frente y QR al informe del lote |
 | Flow pack individual con rotulado completo | Porción sellada para 6 h de mochila sin frío [validar con la prueba de mochila] | Calendario de lonchera en la caja de 12 |
-| Suscripción por WhatsApp y rutas de martes y viernes | Pedido de un minuto y recordatorio: se acaba el "jueves sin ideas" | La sangrecita contada como mérito en el reverso, con cacao y cañihua peruanos |
+| Recordatorio de recompra por WhatsApp y rutas de martes y viernes | Pedido de un minuto y recordatorio: se acaba el "jueves sin ideas" | La sangrecita contada como mérito en el reverso, con cacao y cañihua peruanos |
 | Ficha revisada por nutricionista colegiada | RS, lote y vencimiento visibles frente a la desconfianza del 42 % | "1 brownie + 1 fruta + agua": complementa, no reemplaza |
 
 ## 2.3 Enunciado de la propuesta de valor
@@ -161,7 +163,7 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 2. **Sin octógono:** 4.6 a 7.1 g de azúcar por 100 g frente al umbral de 10 g; puede entrar al quiosco escolar, a diferencia de un brownie convencional.
 3. **Formato brownie húmedo de 20 g que camufla la sangrecita**, frente al rechazo del formato salado; Nutri H es galleta y la barrita no es postre.
 4. **Variedad semanal:** tres sabores y dos rotaciones por semana en un solo pack, frente a empaques de un sabor.
-5. **Servicio de lonchera planificada:** suscripción quincenal, recordatorio por WhatsApp y entrega en casa; S/3.91 por unidad en el pack de 12.
+5. **Servicio de lonchera planificada:** recordatorio de recompra por WhatsApp (unos 12 días después de la compra) y entrega en casa; S/3.91 por unidad en el pack de 12.
 
 ## 2.5 Tabla comparativa
 
@@ -206,11 +208,11 @@ Precios por 20 g al 3 de octubre de 2026 (documento 02).
 3. Del 1 al 5, ¿cuánto pesa que el producto tenga octógonos? ¿Y que diga los mg de hierro?
 4. Por un mini brownie de 20 g con hierro y sin octógono, ¿a qué precio por unidad te parecería: (a) tan barato que dudarías, (b) una ganga, (c) caro, pero lo comprarías, (d) demasiado caro? (Van Westendorp, en S/)
 5. Si tu hijo lo prueba y le gusta, ¿qué tan probable es que compres el pack de 6 a S/24.90 cada 2 semanas? (1 a 5)
-6. ¿Qué formato prefieres? (pack de 6 a S/24.90 / pack de 12 a S/46.90 con delivery gratis / suscripción quincenal / caja degustación a S/12.00)
+6. ¿Qué formato prefieres? (pack de 6 a S/24.90 / pack de 12 a S/46.90 / 2 packs con delivery gratis / caja degustación a S/12.00)
 7. Si te digo que el hierro viene de sangrecita de pollo, ¿tu intención sube, se mantiene o baja? ¿Por qué?
 8. ¿Qué tendría que decir el empaque para que lo pongas en la lonchera sin dudar? (abierta)
 
-**Métricas:** P4, mediana de (c) de S/4.15 o más; P5, 60 % o más en 4 y 5; P6, 25 % o más elige pack de 12 o suscripción; P7, menos de 30 % "baja"; P3, promedio de 4 o más en hierro.
+**Métricas:** P4, mediana de (c) de S/4.15 o más; P5, 60 % o más en 4 y 5; P6, 25 % o más elige pack de 12 o 2 packs; P7, menos de 30 % "baja"; P3, promedio de 4 o más en hierro.
 
 ---
 

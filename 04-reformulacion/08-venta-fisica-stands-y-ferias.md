@@ -8,7 +8,7 @@ Versión 1, 9 de octubre de 2026. Responde a la corrección de la profesora: el 
 
 1. **Sí es viable estar en un mall de Lima Top o Lima Moderna**, pero por la vía de los **programas para emprendedores y los pop-ups de temporada**, no alquilando un módulo fijo desde el inicio.
 2. **La puerta más barata y con mejor público** son los programas con cupo para emprendedores: Jockey Plaza (Surco), "El Mercadito del Emprendedor" de Larcomar (Miraflores), Open Plaza "Emerge" (Angamos) y la "Placita del Emprendimiento" de Real Plaza. Son gratuitos o de costo simbólico, pero con postulación.
-3. **Las ferias pagadas** (La Feria de Barranco, Bazar Navideño de la CCL) cuestan **S/1,650 a 2,500 por evento** y apenas llegan al equilibrio en su primera edición. Valen como **captación de clientes** (lista de WhatsApp y suscripción), no como fuente de ganancia.
+3. **Las ferias pagadas** (La Feria de Barranco, Bazar Navideño de la CCL) cuestan **S/1,650 a 2,500 por evento** y apenas llegan al equilibrio en su primera edición. Valen como **captación de clientes** (lista de WhatsApp para el recordatorio de recompra), no como fuente de ganancia.
 4. **Límite legal:** un brownie envasado necesita **registro sanitario** para venderse, incluso en una feria; la excepción es solo para productos artesanales de consumo inmediato que no van preenvasados. Antes del RS (marzo de 2027) solo podemos hacer **degustación y registro de interesados**, no venta.
 5. **La fecha clave es la campaña escolar (febrero y marzo de 2027)**: los malls arman ferias de útiles y loncheras justo cuando sale el RS. Hay que postular desde noviembre.
 
@@ -52,7 +52,7 @@ Versión 1, 9 de octubre de 2026. Responde a la corrección de la profesora: el 
 | S/2,000 (La Feria, 2 días) | 1,000 (500 por día) | 167 | S/4,800 | |
 | S/2,950 (Bazar CCL con IGV, 3 días) | 1,475 (492 por día) | 246 | S/7,080 | |
 
-**Lectura:** con el promedio de ventas de una mype en feria (unos S/3,000), una feria de S/1,650 a 2,950 deja entre una pérdida chica y una de unos S/1,700. Se justifica si capta familias: con 1 de cada 3 compradores en la suscripción quincenal, cada familia deja unos S/10 de contribución por mes en venta directa (12 brownies a S/0.86); 170 familias suscritas pagan un stand de S/1,650 cada mes.
+**Lectura:** con el promedio de ventas de una mype en feria (unos S/3,000), una feria de S/1,650 a 2,950 deja entre una pérdida chica y una de unos S/1,700. Se justifica si capta familias: con 1 de cada 3 compradores que recompran cada mes por WhatsApp, cada familia deja unos S/10 de contribución por mes en venta directa (12 brownies a S/0.86); 170 familias que recompran cada mes pagan un stand de S/1,650 cada mes.
 
 ### 4.2 Módulo en mall (por mes, alquiler y personal)
 
@@ -74,7 +74,7 @@ Un mall abre unas 12 horas al día, así que cuidar un stand propio a tiempo com
 | **Abril a junio de 2027** | Una feria o pop-up al mes y kermeses de colegios | Captar familias para la recompra por WhatsApp |
 | **Desde julio de 2027** | Si se pasa de 70 brownies por día, cotizar un módulo por 3 meses (o el premio Emprende Retail) | Pasar de evento a punto fijo |
 
-**Cambio en la estrategia de canales:** con la indicación de la profesora, el stand se vuelve el canal de **primera compra** (el niño prueba delante del padre y el padre compra ahí). WhatsApp e Instagram pasan a ser el canal de **recompra y suscripción**. El modelo de ingresos no cambia; cambia el orden del embudo. En la presentación TC5-8, la diapositiva 10 (selección del canal) debería decir "stand en mall y ferias para comprar, WhatsApp para volver a comprar".
+**Cambio en la estrategia de canales:** con la indicación de la profesora, el stand se vuelve el canal de **primera compra** (el niño prueba delante del padre y el padre compra ahí). WhatsApp e Instagram pasan a ser el canal de **recompra** (con recordatorio por WhatsApp). El modelo de ingresos no cambia; cambia el orden del embudo. En la presentación TC5-8, la diapositiva 10 (selección del canal) debería decir "stand en mall y ferias para comprar, WhatsApp para volver a comprar".
 
 ## 6. Plantilla de correo para pedir información
 
