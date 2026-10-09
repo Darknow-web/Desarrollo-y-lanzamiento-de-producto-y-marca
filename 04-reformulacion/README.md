@@ -17,12 +17,13 @@ Presentación: `T1-presentacion-AndiBite-2-0.pptx` (editable, se importa en Canv
 
 Costeo por presentación: `Costeo-presentaciones-AndiBite.xlsx` (fórmulas vivas; unidad individual, pack de 6 con opción B y C, pack de 12, proyección mensual y punto de equilibrio). Se regenera con `build_costeo.py`.
 
-## Cifras clave (escenario base, documento 05)
-- Precio: S/4.50 por unidad de 20 g, S/27.00 el pack de 6, S/49.00 el pack de 12.
-- Costo de producción por unidad: S/2.52 a 1,000 u/mes, S/1.91 a 3,000, S/1.32 a 8,000 (maquila incluida, [POR CONFIRMAR] tarifa de maquila).
-- Punto de equilibrio: 3,500 unidades al mes (583 packs).
-- Ventas año 1 (marzo 2027 a febrero 2028): 76,335 unidades, S/319,869 con IGV.
-- Inversión inicial: S/34,484 (S/25,000 de los socios + préstamo de S/10,000). Payback en 9 meses de operación.
+## Cifras clave (escenario base; precios confirmados el 9-oct-2026, fuente: Excel de costeo y documento 05)
+- Precios con IGV, venta directa: unidad S/4.00; pack de 6 S/24.90 (S/4.15 por brownie, opción B con bolsitas); pack de 12 S/46.90 (S/3.91 por brownie, 5.8 % menos); caja degustación de 3, S/12.00. Ferias: unidad S/5.00, pack de 6 S/26.00, pack de 12 S/48.00. Quiosco: el alumno paga S/4.00 y AndiBite recibe S/3.00. Tienda naturista: anaquel S/28.90 y AndiBite cobra S/17.34.
+- Benchmark por 20 g: AndiBite S/4.15 frente a Nutri H S/3.20 (premio de unos 30 %), Fika S/4.00 y Mamalama S/4.10 (1 a 4 % más).
+- Costo de producción a 3,000 u/mes: S/1.65 por brownie (pack de 6 en bolsitas, S/9.90); unidad suelta S/1.69; pack de 12 S/1.56 por unidad. Versión anterior (opción A): S/1.91 a 3,000 u/mes.
+- Costos fijos: S/2,857 al mes. Punto de equilibrio: 3,308 unidades al mes (551 packs de 6); abril de 2027 es el primer mes con utilidad y marzo cierra en -S/420. Versión anterior: 3,500 u/mes (583 packs).
+- Ventas año 1 (marzo 2027 a febrero 2028): 76,335 unidades y S/302,900 con IGV. Resultado operativo: S/31,638 (12.3 % de las ventas sin IGV), antes de intereses, gastos preoperativos e impuesto a la renta. Versión anterior: S/319,869 con IGV y utilidad neta de S/37,152.
+- Inversión inicial: S/34,484 (S/25,000 de los socios + préstamo de S/10,000), sin cambios. Payback por recalcular: con el resultado acumulado del año 1 faltan unos S/2,846, así que se recupera poco después del año 1 (versión anterior: 9 meses). Los escenarios pesimista y optimista en soles también están por recalcular.
 - Decisión de producto: lanzar la versión sin octógono (azúcar por debajo de 10 g/100 g con eritritol y plátano), validarla con niños antes.
 
 ## Pendientes críticos antes de ejecutar
