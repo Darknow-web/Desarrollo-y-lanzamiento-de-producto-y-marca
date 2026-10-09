@@ -71,7 +71,7 @@ for i,(lab,lg,pas,nota) in enumerate([(CH[0],0.80,1,'Delivery: S/9.50 por pedido
                                       (CH[3],0.15,0,'[HIPÓTESIS] Reposición quincenal; cobro por factura')]):
     r=32+i; cell(S,f'A{r}',lab); cell(S,f'B{r}',lg,BLUE,'0.00'); cell(S,f'C{r}',pas,BLUE,'0'); cell(S,f'D{r}',nota)
 section(S,37,'5. Precio que cobra AndiBite por presentación y canal (S/ con IGV)',5); header(S,38,['Canal','Unidad individual','Pack de 6','Pack de 12','Nota'])
-for i,(u,p6,p12,nota) in enumerate([(4.50,27.00,49.00,'Unidad = caja degustación de 3 (S/13.50) o unidades agregadas al pedido'),
+for i,(u,p6,p12,nota) in enumerate([(4.00,23.50,44.00,'Precios ajustados por el equipo (9-oct-2026). Unidad = caja degustación de 3 (S/12.00) o unidades agregadas al pedido'),
                                     (5.00,27.00,49.00,'La unidad suelta cuesta más que dentro del pack para empujar el pack'),
                                     (3.00,0,0,'El alumno paga S/4.00; el concesionario se queda 25 %'),
                                     (0,19.14,0,'Precio en anaquel S/31.90; la tienda se queda 40 %')]):
