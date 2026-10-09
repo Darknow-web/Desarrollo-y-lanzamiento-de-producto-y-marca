@@ -37,8 +37,8 @@ cell(S,'A1','Supuestos del costeo — AndiBite (maquila, escenario de 3,000 unid
 cell(S,'A2','Celdas azules = datos que pueden cambiar. Amarillo = supuestos clave sin cotizar. Montos en soles. Fuente general: 04-reformulacion/05-plan-comercial-y-financiero.md, sección 4.',BLACK,wrap=False)
 section(S,4,'1. Costos de producción por unidad de 20 g (sin IGV)',4); header(S,5,['Concepto','Valor','Unidad','Fuente o nota'])
 rows=[
- (6,'Insumos por unidad (promedio de los 3 sabores, sangrecita en polvo)',0.605,'S/ por unidad','Documento 05, tabla 4.2 (precios de Makro, mayoristas, Plaza Vea y Wong sin IGV)',None),
- (7,'Maquila por unidad (la planta mezcla, hornea, corta, pesa y empaca)',0.50,'S/ por unidad','[POR CONFIRMAR] Rango S/0.40-0.60 del documento 03. Cotizar con MAKING y Panificadora Unión',YEL),
+ (6,'Insumos por unidad (promedio de los 3 sabores, con sangrecita fresca de pollo cocida en la planta)',0.40,'S/ por unidad','Recetas del documento 01: 175 g de sangrecita cruda por lote de 24 (Redondos, S/11.29 por kg en Makro), que la planta cuece y licúa con los huevos; resto de insumos según documento 05 (Makro, mayoristas, Plaza Vea y Wong, sin IGV)',None),
+ (7,'Maquila por unidad (la planta cuece la sangrecita, mezcla, hornea, corta, pesa y sella la bolsita)',0.45,'S/ por unidad','Tarifa de maquila de snacks horneados en Lima: S/20.75 por kg de producto terminado, elaboración y empaque incluidos (Organic Andean Bites, documento 03), actualizada a 2027: S/0.45 por brownie de 20 g',None),
  (8,'Descuento de maquila si no se empaca cada unidad (opción C)',0.00,'S/ por unidad','[HIPÓTESIS] Dejar en 0 hasta que la planta lo confirme',YEL),
  (9,'Bolsita individual (flow pack sin imprimir)',0.09,'S/ por unidad','Documento 05, tabla 4.2',None),
  (10,'Etiqueta individual con rotulado completo (solo unidad que se vende suelta)',0.25,'S/ por unidad','Imprenta Peruana, 1,000 unidades sin IGV (documento 02)',None),
@@ -90,8 +90,8 @@ cell(S,'A53','Stand: 6 de cada 10 brownies se venden sueltos para probar en el m
 section(S,55,'7. Stands, carritos y ferias',4); header(S,56,['Concepto','Valor','Unidad','Fuente o nota'])
 for r,lab,v,u,src,fill,fmt in [
  (57,'Espacio para el carrito o stand de fin de semana en mall o supermercado, por punto al mes',600,'S/ al mes','Módulo de 2 x 2 m en malls desde S/500 al mes (Gestión, 15-sep-2023); la entrada de un supermercado de Lima Top cuesta algo más (documento 08)',None,SOL),
- (58,'Pago a impulsadora por día de stand',90,'S/ por día','Computrabajo: S/50 a 90 por día de fin de semana (documento 08)',None,SOL),
- (59,'Puntos de venta que atienden los socios (sin pago)',2,'puntos','Los 5 socios cubren 2 puntos los fines de semana con turnos rotativos; desde el tercer punto se paga impulsadora',None,'0'),
+ (58,'Pago a vendedor(a) de stand por día',90,'S/ por día','Pago de impulsadoras en Lima: S/50 a 90 por día de fin de semana (Computrabajo, documento 08)',None,SOL),
+ (59,'Puntos de venta que atienden los socios sin pago',0,'puntos','Todos los puntos de venta llevan un(a) vendedor(a) pagado(a); los socios supervisan',None,'0'),
  (60,'Stand en feria de emprendimiento (2 a 3 días)',1800,'S/ por feria','Ferias de emprendimiento de Lima: La Feria de Barranco S/1,650 a 2,000; Bazar Navideño CCL S/2,500 + IGV; Navi Fest (documento 08)',None,SOL),
  (61,'Brownies vendidos por feria pagada',700,'unidades','[HIPÓTESIS] Una mype vende unos S/3,000 por feria de PRODUCE (unos 625 brownies)',YEL,NUM),
  (62,'Brownies por evento sin costo (kermés, cumpleaños, feria gratuita)',150,'unidades','[HIPÓTESIS]',YEL,NUM),
@@ -100,7 +100,7 @@ for r,lab,v,u,src,fill,fmt in [
     cell(S,f'A{r}',lab); cell(S,f'B{r}',v,BLUE,fmt,fill); cell(S,f'C{r}',u); cell(S,f'D{r}',src)
 section(S,66,'8. Costos fijos mensuales (S/ sin IGV)',4); header(S,67,['Concepto','S/ al mes','','Fuente o nota'])
 for i,(lab,v,src) in enumerate([('Administración: contador, software, web, teléfono, movilidad, banco',700,'Documento 05, sección 4.1'),
-                                ('Asistente de pedidos y despacho',0,'Los socios atienden WhatsApp y el despacho; las impulsadoras cubren los stands adicionales (Supuestos B58). Versión anterior: S/800'),
+                                ('Coordinador(a) comercial y de operaciones (planilla, medio tiempo de 4 horas)',709,'Media remuneración mínima de 2027 (S/1,300 según el DS 015-2026-TR) más 9 % de EsSalud; microempresa en el REMYPE. Atiende WhatsApp, pedidos y despacho, y lleva el stock a los stands'),
                                 ('Marketing: pauta, degustaciones y material de stand (promedio del año)',900,'[HIPÓTESIS] Menos pauta digital que en la versión anterior (S/1,291.67): la captación se hace en el stand'),
                                 ('Depreciación de equipos y carrito (36 meses)','=Inversion!B37/36','Hoja Inversion')]):
     r=68+i; cell(S,f'A{r}',lab); cell(S,f'B{r}',v,GREEN if isinstance(v,str) else BLUE,SOL); cell(S,f'D{r}',src)
@@ -147,7 +147,7 @@ C.row_dimensions[4].height=42
 # ---------------- Inversion ----------------
 I=wb.create_sheet('Inversion')
 cell(I,'A1','Inversión inicial: todo lo necesario para vender desde el primer día',TITLE)
-cell(I,'A2','Los documentos y permisos se pagan aquí, una sola vez. La proyección (hoja Mensual) supone que ya están listos al empezar las ventas en noviembre de 2026.')
+cell(I,'A2','Los documentos y permisos se pagan aquí, una sola vez. La proyección (hoja Mensual) supone que ya están listos al empezar las ventas en enero de 2027 (mes 1).')
 header(I,4,['Concepto','S/ (sin IGV)','Fuente o nota'])
 INV=[('1. Documentos y permisos para vender',None,None,True),
  ('Constitución de AndiBite S.A.C. en un CDE de PRODUCE (notaría)',150,'Documento 05'),
@@ -176,7 +176,7 @@ INV=[('1. Documentos y permisos para vender',None,None,True),
  ('Subtotal marca','=SUM(B26:B28)',None,'sub'),
  ('4. Arranque de la operación',None,None,True),
  ('Empaque inicial (mínimos de compra)',3030,'Documento 05'),
- ('Stock inicial para noviembre y diciembre',4135.30,'Documento 05'),
+ ('Stock inicial para enero y febrero',4135.30,'Documento 05'),
  ('Marketing de lanzamiento (degustaciones, influencers, POP)',3204,'Documento 05'),
  ('Capital de trabajo (2 meses)',8000,'Documento 05'),
  ('Subtotal arranque','=SUM(B31:B34)',None,'sub'),
@@ -205,15 +205,15 @@ I.column_dimensions['A'].width=72; I.column_dimensions['B'].width=16; I.column_d
 
 # ---------------- Mensual ----------------
 M=wb.create_sheet('Mensual')
-MONTHS=['Nov-26','Dic-26','Ene-27','Feb-27','Mar-27','Abr-27','May-27','Jun-27','Jul-27','Ago-27','Set-27','Oct-27']
-ACT=[('Puntos de venta con stand o carrito (fines de semana)',[1,2,1,2,2,2,2,2,2,3,3,3],'0'),
-     ('Días de atención por punto en el mes',[9,12,9,9,9,9,9,9,10,9,9,9],'0'),
-     ('Brownies vendidos por día en cada punto',[50,90,50,80,100,80,85,80,85,85,90,90],'0'),
-     ('Ferias pagadas en el mes (Navidad y campaña escolar)',[0,2,0,1,0,0,0,0,0,0,0,0],'0'),
-     ('Eventos sin costo (kermeses, cumpleaños, ferias gratuitas)',[3,2,1,2,4,4,5,4,3,4,4,4],'0'),
-     ('Unidades a colegios (quiosco; año escolar de marzo a diciembre)',[0,0,0,0,300,600,765,900,600,1200,1200,1500],NUM),
+MONTHS=['M1 Ene-27','M2 Feb-27','M3 Mar-27','M4 Abr-27','M5 May-27','M6 Jun-27','M7 Jul-27','M8 Ago-27','M9 Set-27','M10 Oct-27','M11 Nov-27','M12 Dic-27']
+ACT=[('Puntos de venta con stand o carrito (fines de semana)',[1,2,2,2,2,2,2,3,3,3,3,3],'0'),
+     ('Días de atención por punto en el mes',[9,9,9,9,9,9,10,9,9,9,9,12],'0'),
+     ('Brownies vendidos por día en cada punto (meta: 80 o más)',[50,80,100,80,85,80,85,85,90,90,90,90],'0'),
+     ('Ferias pagadas en el mes (campaña escolar y Navidad)',[0,1,0,0,0,0,0,0,0,0,0,2],'0'),
+     ('Eventos sin costo (kermeses, cumpleaños, ferias gratuitas)',[1,2,4,4,5,4,3,4,4,4,3,2],'0'),
+     ('Unidades a colegios (quiosco; año escolar de marzo a mediados de diciembre)',[0,0,300,600,765,900,600,1200,1200,1500,1500,600],NUM),
      ('Unidades a tiendas naturistas',[120,180,180,240,300,300,360,360,360,420,420,480],NUM)]
-cell(M,'A1','Proyección mensual del año 1 (noviembre 2026 a octubre 2027), escenario base',TITLE)
+cell(M,'A1','Proyección mensual del año 1 (mes 1 = enero de 2027), escenario base',TITLE)
 cell(M,'A2','Supone que los documentos y permisos ya están listos (su costo está en la hoja Inversion). La venta física es el canal principal; WhatsApp queda para la recompra. Cambie los datos azules para probar otro escenario.')
 header(M,4,['Actividad comercial del mes (datos)']+MONTHS+['Total año'])
 for i,(t,vals,fmt) in enumerate(ACT):
@@ -243,7 +243,7 @@ for j in range(12):
     cell(M,f'{c}26',f'={c}24/Costeo!$E$5',BLACK,NUM)
 for r in range(22,27): cell(M,f'N{r}',f'=SUM(B{r}:M{r})',BLACK,NUM)
 section(M,28,'Resultado mensual (S/ sin IGV, salvo la primera fila)',14)
-labs={29:'Ventas con IGV',30:'Ventas sin IGV',31:'Contribución con pack de 6 opción B',32:'Contribución con pack de 6 opción C',33:'Alquiler de espacios para stands y carritos',34:'Impulsadoras (puntos que no atienden los socios)',35:'Ferias pagadas',36:'Costos fijos del mes',37:'Resultado operativo — opción B',38:'Resultado operativo — opción C',39:'Resultado acumulado — opción B',40:'Resultado acumulado — opción C'}
+labs={29:'Ventas con IGV',30:'Ventas sin IGV',31:'Contribución con pack de 6 opción B',32:'Contribución con pack de 6 opción C',33:'Alquiler de espacios para stands y carritos',34:'Vendedores de stand (por día de atención)',35:'Ferias pagadas',36:'Costos fijos del mes',37:'Resultado operativo — opción B',38:'Resultado operativo — opción C',39:'Resultado acumulado — opción B',40:'Resultado acumulado — opción C'}
 for r,t in labs.items(): cell(M,f'A{r}',t,bold=r in (37,38))
 for j in range(12):
     c=L(2+j); p=L(1+j)
@@ -271,13 +271,13 @@ cell(M,'N41','=SUM(B41:M41)',BLACK,SOL0); cell(M,'N42','=SUM(B42:M42)',BLACK,SOL
 for r in range(29,39): cell(M,f'N{r}',f'=SUM(B{r}:M{r})',BLACK,SOL0,TOT if r in (37,38) else None,bold=r in (37,38))
 cell(M,'A45','La contribución multiplica las unidades de cada canal por la contribución por unidad de ese canal (hoja Proyeccion, tabla 2). Después se restan el alquiler de stands, las impulsadoras, las ferias pagadas y los costos fijos. No incluye intereses del préstamo ni el impuesto a la renta anual.')
 M.column_dimensions['A'].width=58
-for j in range(13): M.column_dimensions[L(2+j)].width=11
+for j in range(13): M.column_dimensions[L(2+j)].width=12
 M.column_dimensions['N'].width=13
 M.row_dimensions[4].height=30; M.row_dimensions[13].height=30
 
 # ---------------- Proyeccion ----------------
 P=wb.create_sheet('Proyeccion',2)
-cell(P,'A1','Proyección anual por canal y presentación (año 1, noviembre 2026 a octubre 2027)',TITLE)
+cell(P,'A1','Proyección anual por canal y presentación (año 1: enero a diciembre de 2027)',TITLE)
 cell(P,'A2','Paso a paso: unidades del canal (hoja Mensual) × mezcla de presentaciones (Supuestos) = unidades por presentación; ÷ tamaño = envases vendidos; × precio = ingreso; menos costo de producción y costo variable de canal = contribución.')
 header(P,4,['Canal','Presentación','Unidades por envase','Unidades del canal en el año','% de la mezcla','Unidades vendidas','Envases vendidos','Precio cobrado con IGV por envase','Ingreso con IGV','Ingreso sin IGV','Costo de producción por envase — opción B','Costo de producción por envase — opción C','Costo variable de canal por envase','Contribución por envase — opción B','Contribución por envase — opción C','Contribución total — opción B','Contribución total — opción C','Margen de contribución % — B','Margen de contribución % — C'])
 PRES=[('Unidad individual','B','B','B','B'),('Pack de 6','C','C','D','C'),('Pack de 12','D','E','E','E')]
@@ -340,7 +340,7 @@ P.freeze_panes='C5'
 
 # ---------------- Resumen ----------------
 R=wb.create_sheet('Resumen',0)
-cell(R,'A1','AndiBite — Resumen del año 1 (noviembre 2026 a octubre 2027), escenario base con venta física',TITLE)
+cell(R,'A1','AndiBite — Resumen del año 1 (enero a diciembre de 2027), escenario base con venta física',TITLE)
 cell(R,'A2','Todo se calcula desde las hojas Supuestos, Inversion, Costeo, Proyeccion y Mensual. Cambie las celdas azules de Supuestos o Mensual.')
 header(R,4,['Presentación','Costo de producción por envase','Costo por unidad','Precio en stand (con IGV)','Margen bruto % en stand','Precio por WhatsApp (con IGV)','Margen bruto % por WhatsApp'])
 for i,(name,col) in enumerate([('Unidad individual','B'),('Pack de 6 — opción B (con bolsitas)','C'),('Pack de 6 — opción C (sueltos)','D'),('Pack de 12','E')]):
@@ -363,14 +363,14 @@ items=[('Unidades vendidas','=Proyeccion!F20','=Proyeccion!F20',NUM),
        ('Inversión inicial (incluye todos los documentos y permisos)','=Inversion!B42','=Inversion!B42',SOL0),
        ('Resultado del año 1 menos la inversión (negativo = falta recuperar)','=B18-B23','=C18-C23',SOL0),
        ('Caja más baja del año, con la cuota del préstamo (opción B)','=MIN(Mensual!B43:M43)','=MIN(Mensual!B43:M43)',SOL0),
-       ('Meses desde noviembre de 2026 para recuperar la inversión (el año 2 al ritmo de agosto a octubre de 2027)','=IF(B18>=B23,"Dentro del año 1",ROUNDUP(12+(B23-B18)/AVERAGE(Mensual!K37:M37),0))','=IF(C18>=C23,"Dentro del año 1",ROUNDUP(12+(C23-C18)/AVERAGE(Mensual!K38:M38),0))','0')]
+       ('Meses desde el inicio de ventas (mes 1 = enero de 2027) para recuperar la inversión (el año 2 al ritmo de los meses 10 a 12)','=IF(B18>=B23,"Dentro del año 1",ROUNDUP(12+(B23-B18)/AVERAGE(Mensual!K37:M37),0))','=IF(C18>=C23,"Dentro del año 1",ROUNDUP(12+(C23-C18)/AVERAGE(Mensual!K38:M38),0))','0')]
 for i,(t,fb,fc,fmt) in enumerate(items):
     rr=12+i; bb=rr in (18,21); cell(R,f'A{rr}',t,bold=bb); cell(R,f'B{rr}',fb,GREEN if '!' in fb else BLACK,fmt,TOT if bb else None,bold=bb); cell(R,f'C{rr}',fc,GREEN if '!' in fc else BLACK,fmt,TOT if bb else None,bold=bb)
 cell(R,'A28','Notas',bold=True)
-notes=['La proyección supone que los documentos (S.A.C., marca, registro sanitario, análisis, etiqueta, carnés y póliza) ya están listos en noviembre de 2026. Su costo está en la hoja Inversion.',
-       'La venta física (stands, carritos y ferias) es el canal principal; WhatsApp queda para la recompra, sin suscripción. Los socios atienden 2 puntos de venta; el tercero lleva impulsadora.',
-       'La maquila (S/0.50 por unidad) y el polvo de sangrecita no están cotizados con la planta. Cambiarlos en Supuestos apenas lleguen las cotizaciones.',
-       'El resultado no incluye sueldos de los socios, intereses del préstamo (hoja Inversion) ni el impuesto a la renta anual.']
+notes=['La proyección supone que los documentos (S.A.C., marca, registro sanitario, análisis, etiqueta, carnés y póliza) ya están listos al inicio de ventas (mes 1, enero de 2027). Su costo está en la hoja Inversion.',
+       'La venta física (stands, carritos y ferias) es el canal principal; WhatsApp queda para la recompra, sin suscripción. Todos los puntos de venta llevan vendedor(a) pagado(a) y un(a) coordinador(a) en planilla atiende pedidos y despacho.',
+       'Costo de producción con sangrecita fresca de pollo (S/0.40 de insumos por brownie) y maquila de S/0.45 por brownie.',
+       'El resultado incluye al personal que opera el negocio (vendedores de stand y coordinador). No incluye intereses del préstamo (hoja Inversion) ni el impuesto a la renta anual.']
 for i,t in enumerate(notes): cell(R,f'A{29+i}',f'{i+1}. {t}')
 R.column_dimensions['A'].width=70
 for col in 'BCDEFG': R.column_dimensions[col].width=20
