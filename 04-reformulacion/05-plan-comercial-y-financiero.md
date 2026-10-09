@@ -2,6 +2,8 @@
 
 Versión 1, 3 de octubre de 2026. Documento de consultoría de mercados y finanzas para el Grupo 2 (Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas y Adela Robles). Integra los documentos 00 a 04 de esta carpeta y los convierte en un plan de empresa: qué se lanza, cómo se opera, cuánto cuesta, a qué precio se vende, cuánto se espera vender, cuánta plata hace falta y en qué momento se recupera.
 
+**Nota del 9 de octubre de 2026: precios confirmados.** El equipo confirmó los precios finales y la fuente de las cifras de precios, ventas, equilibrio y resultado es el Excel `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` (hojas Resumen, Supuestos, Proyeccion, Costeo y Mensual; se regenera con `build_costeo.py`). Este documento se alineó con ese Excel. Precios con IGV: venta directa, unidad S/4.00, pack de 6 S/24.90 y pack de 12 S/46.90; ferias, S/5.00, S/26.00 y S/48.00; colegios, S/3.00 para AndiBite (el alumno paga S/4.00); tienda naturista, S/17.34 por pack de 6 para AndiBite (anaquel S/28.90, con 40 % para la tienda). El pack de 6 recomendado es la opción B (bolsitas individuales). Lo marcado como "versión anterior" (precios de S/27.00 y S/49.00, costo de la opción A, equilibrio de 3,500 u/mes) se conserva solo como comparación. Los soles de los escenarios pesimista y optimista, el flujo de caja (sección 8.2) y el estado de resultados completo (sección 8.3) todavía no se recalculan con los precios confirmados.
+
 **Convenciones.** [HIPÓTESIS] = supuesto del equipo con su lógica explícita. [POR CONFIRMAR] = dato que no se pudo verificar en una fuente primaria y que se debe cotizar. Todas las cifras están en soles. Los precios al público incluyen IGV; los márgenes, costos y flujos se calculan **sin IGV**, porque el IGV que se cobra y el que se paga se compensan como crédito fiscal. El modelo de cálculo (recetas, costos por volumen, ventas, flujo) se hizo en una sola hoja para que todas las cifras de este documento cuadren entre sí.
 
 **Limitación de búsqueda.** En esta sesión se agotó el cupo de búsquedas web. Se consultaron directamente las páginas de Culqi, Izipay, La Purita, Fika, Plaza Vea, Wong y modelo.pe. Las páginas de Mercado Pago, Mercado Libre, Rappi, PedidosYa, Yape Empresas y ProInnóvate bloquearon la consulta (HTTP 403, 404 o 418). Esos datos van marcados [POR CONFIRMAR].
@@ -12,17 +14,17 @@ Versión 1, 3 de octubre de 2026. Documento de consultoría de mercados y finanz
 
 1. **Decisión central:** lanzar desde el primer día la **versión sin octógono**: cada brownie de 20 g endulzado con eritritol, plátano maduro y solo 15 g de panela por lote tiene entre 4.6 y 7.1 g de azúcar total por 100 g (el octógono se activa con 10 g). La versión con panela queda como plan B ya validado.
 2. **Sabores de lanzamiento:** Choco Clásico con chispas sin azúcar, Choco-Plátano-Canela con cañihua y Choco-Lúcuma. El SKU principal es el pack de 6 x 20 g; se suman el pack de 12 "Semana completa" y la caja degustación de 3 sabores.
-3. **Costo de producción puesto en almacén**, con maquila y sangrecita en polvo: S/2.52 por unidad a 1,000 u/mes, S/1.91 a 3,000 y S/1.32 a 8,000. Por pack de 6: S/15.15, S/11.48 y S/7.95.
-4. **Costo total unitario en venta directa** (con delivery, pasarela, marketing, administración, depreciación y renta): S/5.86, S/3.84 y S/2.74. Por debajo de 3,000 u/mes el negocio no se sostiene a ningún precio razonable.
-5. **Precio recomendado:** pack de 6 a **S/27.00** (S/4.50 por unidad) en venta directa; pack de 12 a S/49.00; caja degustación a S/13.50; quiosco escolar a S/4.00 la unidad (AndiBite le vende al concesionario a S/3.00); tienda naturista a S/31.90 el pack.
-6. **Margen neto por unidad en venta directa a S/4.50:** −S/0.03 (−1 %) a 3,000 u/mes y S/1.07 (28 %) a 8,000 u/mes.
-7. **Ventas del año 1** (marzo 2027 a febrero 2028, año escolar 2027 más las vacaciones de verano): escenario base de **76,335 unidades y S/319,869.33 con IGV** (S/271,075.70 netos), en línea con el SOM de 75,600 unidades del documento 04. Escenario pesimista: 33,249 u y S/139,987.53. Optimista: 154,687 u y S/642,863.64.
+3. **Costo de producción puesto en almacén**, con maquila y sangrecita en polvo, en la opción A (etiqueta en cada brownie; versión anterior): S/2.52 por unidad a 1,000 u/mes, S/1.91 a 3,000 y S/1.32 a 8,000. Por pack de 6: S/15.15, S/11.48 y S/7.95. Con la opción B recomendada (bolsitas individuales, sin etiqueta por brownie) a 3,000 u/mes: S/9.90 por pack de 6 (S/1.65 por unidad); la unidad suelta cuesta S/1.69 y el pack de 12, S/18.66 (S/1.56 por unidad).
+4. **Costo total unitario en venta directa** (con delivery, pasarela, marketing, administración, depreciación y renta): S/5.86, S/3.84 y S/2.74 (versión anterior: opción A y pasarela calculada sobre S/4.50). Por debajo de 3,000 u/mes el negocio no se sostiene a ningún precio razonable.
+5. **Precios confirmados (9-oct-2026):** en venta directa, pack de 6 a **S/24.90** (S/4.15 por unidad), pack de 12 a S/46.90 (S/3.91 por unidad) y unidad a S/4.00 (caja degustación de 3 a S/12.00); en ferias, unidad S/5.00, pack de 6 S/26.00 y pack de 12 S/48.00; quiosco escolar a S/4.00 la unidad (AndiBite le vende al concesionario a S/3.00); tienda naturista con anaquel de S/28.90 por pack de 6, de los cuales AndiBite cobra S/17.34. Versión anterior: S/27.00, S/49.00 y S/31.90.
+6. **Margen bruto en venta directa** (precio sin IGV menos costo de producción, opción B): 50.0 % en la unidad, 53.1 % en el pack de 6 y 53.1 % en el pack de 12. Después de los costos de canal, la contribución promedio es de S/0.86 por unidad. Versión anterior, a S/4.50: margen neto de −S/0.03 (−1 %) a 3,000 u/mes y S/1.07 (28 %) a 8,000 u/mes.
+7. **Ventas del año 1** (marzo 2027 a febrero 2028, año escolar 2027 más las vacaciones de verano): escenario base de **76,335 unidades y S/302,900.36 con IGV** (S/256,695.22 sin IGV), en línea con el SOM de 75,600 unidades del documento 04. Escenario pesimista: 33,249 u. Optimista: 154,687 u. Los soles de esos dos escenarios están por recalcular con los precios confirmados (versión anterior: S/139,987.53 y S/642,863.64; en el base, S/319,869.33).
 8. **Mezcla de canales en el escenario base:** 79 % venta directa por WhatsApp e Instagram, 9.5 % quioscos escolares, 7.4 % ferias y eventos y 4.1 % tiendas naturistas. El supermercado queda para el año 2.
 9. **Inversión inicial: S/34,484.24**, que incluye desarrollo, laboratorio, marca, equipos, empaque y stock inicial, marketing de lanzamiento, capital de trabajo de 2 meses e imprevistos. Se financia con S/25,000 de los socios (S/5,000 cada uno) y un préstamo de S/10,000; un concurso de ProInnóvate queda como mejora posible, no como base.
-10. **Punto de equilibrio:** 3,500 unidades al mes (unos 583 packs), equivalentes a S/14,666.18 con IGV, con costos fijos de S/2,856.67 al mes. Se alcanza en abril de 2027 en los escenarios base y optimista, y recién en setiembre de 2027 en el pesimista.
-11. **Resultado del año 1 en el escenario base:** utilidad neta de **S/37,152.32 (margen neto de 13.7 %)**, después de cargar S/13,846.01 de gastos preoperativos y S/4,128.04 de impuesto a la renta del RMT. Ojo: los socios no cobran sueldo.
-12. **Payback:** 9 meses de operación (noviembre de 2027) en el escenario base y 6 meses en el optimista. En el pesimista no hay recuperación en el año 1, la caja toca −S/10,731.60 y hace falta un plan de contingencia.
-13. **Sensibilidad:** si la maquila sale a S/0.60 en todos los volúmenes y el polvo de sangrecita se paga al precio público de Malli (S/417 por kg), la utilidad antes de impuestos del escenario base cae en unos S/22,300, pero sigue siendo positiva.
+10. **Punto de equilibrio:** 3,308 unidades al mes (551 packs de 6 equivalentes; 3,144 unidades con la opción C), equivalentes a unos S/13,127 con IGV al mes, con costos fijos de S/2,856.67 al mes. En el escenario base se alcanza en abril de 2027 (marzo cierra en −S/420). Versión anterior, a S/27.00: 3,500 u/mes (583 packs); el mes de equilibrio de los escenarios optimista y pesimista (abril y setiembre de 2027 en la versión anterior) está por recalcular.
+11. **Resultado operativo del año 1 en el escenario base:** **S/31,637.96 (12.3 % de las ventas sin IGV)** con la opción B y S/35,083.20 (13.7 %) con la opción C, antes de intereses (S/1,721), gastos preoperativos (S/13,846) e impuesto a la renta. Sale de una contribución de S/65,917.99 menos costos fijos de S/34,280.04. Ojo: los socios no cobran sueldo. Versión anterior: utilidad neta de S/37,152.32 (13.7 %).
+12. **Payback:** por recalcular con los precios confirmados. Con el resultado operativo acumulado del Excel (S/31,638 a febrero de 2028) todavía faltan unos S/2,846 para cubrir la inversión de S/34,484.24, de modo que, con este cálculo aproximado, se recupera después del año 1 (versión anterior: 9 meses de operación, noviembre de 2027). En el escenario pesimista de la versión anterior no había recuperación en el año 1 y la caja tocaba −S/10,731.60; hace falta un plan de contingencia.
+13. **Sensibilidad:** si la maquila sale a S/0.60 en todos los volúmenes y el polvo de sangrecita se paga al precio público de Malli (S/417 por kg), la utilidad antes de impuestos del escenario base cae en unos S/22,300 (cifra de la versión anterior, por recalcular), pero sigue siendo positiva.
 14. **Régimen tributario:** S.A.C. en el Régimen MYPE Tributario (IGV de 18 %, pago a cuenta de 1 % y renta de 10 % sobre las primeras 15 UIT de utilidad) con facturación electrónica desde el primer día.
 15. **Lo que hay que confirmar antes de firmar:** tarifa y lote mínimo de la maquila, precio del polvo de sangrecita a granel, aceptación infantil de la versión con eritritol y el plazo real del registro sanitario.
 
@@ -35,7 +37,7 @@ Versión 1, 3 de octubre de 2026. Documento de consultoría de mercados y finanz
 | 02, sección 3 | Costeaba una receta de unos 1,150 g de masa como si rindiera 24 unidades y suponía polvo de sangrecita a S/120 por kg | Se costean las recetas del documento 01 (560 a 660 g de masa para 24 unidades de 20 g), que son las que irán a la maquila, con los precios del documento 02. Para el polvo de sangrecita se usa S/417 por kg (precio público de Malli) a 1,000 u/mes, S/300 a 3,000 y S/200 a 8,000 [HIPÓTESIS de descuento por volumen]. S/120 por kg no tiene cotización y era demasiado optimista |
 | 01, sección 4 | "Todas las variantes superan el octógono"; quedaba abierto si el azúcar del plátano cuenta | Vale para la versión con azúcar o panela. Se agrega la versión sin octógono (sección 2.3). Siguiendo al documento 03, el azúcar del plátano **sí cuenta**, porque el parámetro es azúcar total |
 | 01, recetas | Endulzaban con azúcar rubia | La versión de comparación usa panela, como piden el brief y el documento 02 |
-| 04, sección 1.11 | SOM del año 1 entre octubre de 2026 y setiembre de 2027, a S/4.00 por unidad | Sin registro sanitario no se puede vender (documento 03), y el RS llega en el mes 5. El año comercial 1 pasa a **marzo 2027 - febrero 2028**. El volumen se mantiene (76,335 frente a 75,600 unidades), pero el precio directo sube a S/4.50 porque la versión sin octógono y el delivery lo exigen |
+| 04, sección 1.11 | SOM del año 1 entre octubre de 2026 y setiembre de 2027, a S/4.00 por unidad | Sin registro sanitario no se puede vender (documento 03), y el RS llega en el mes 5. El año comercial 1 pasa a **marzo 2027 - febrero 2028**. El volumen se mantiene (76,335 frente a 75,600 unidades), pero el precio directo sube a S/4.15 por unidad en el pack de 6 (S/24.90; en la versión anterior de este documento, S/4.50) porque la versión sin octógono y el delivery lo exigen |
 | 03-entregables/04 (plan de marketing anterior) | Ventas desde octubre de 2026 | Se elimina toda venta antes del RS. Hasta febrero de 2027 solo hay degustaciones sin venta y lista de espera |
 | Nombre | El documento 04 y el plan anterior dicen "AndyBites"; el brief y los documentos 01 a 03 dicen "AndiBite" | Se usa AndiBite hasta que salga la búsqueda fonética de INDECOPI |
 
@@ -59,13 +61,13 @@ Quedan fuera del lanzamiento el maní y la pecana, porque son alérgenos mayores
 
 | Formato | Contenido | Para quién y para qué | Precio directo con IGV |
 |---|---|---|---|
-| **Pack de 6 x 20 g (SKU principal)** | 2 unidades de cada sabor en flow pack individual, dentro de un doypack kraft con zipper | Claudia: una semana de lonchera con variedad y una recompra cada 2 semanas (documento 04) | S/27.00 (S/4.50 por unidad) |
-| **Pack de 12 "Semana completa"** | 4 de cada sabor | Familias con 2 hijos (Claudia tiene a Matías y Luciana) o compra quincenal. Es el formato de suscripción, con delivery gratis y recordatorio por WhatsApp | S/49.00 (S/4.08 por unidad, 9.3 % menos) |
-| **Caja degustación de 3 sabores** | 1 unidad de cada sabor | Primera compra, ferias, regalos de cumpleaños y muestra para el pediatra. Trae un cupón de S/3.00 para el primer pack de 6 | S/13.50 (S/4.50 por unidad) |
+| **Pack de 6 x 20 g (SKU principal)** | 2 unidades de cada sabor en bolsita individual (flow pack) sin etiqueta, dentro de un doypack kraft con zipper y etiquetas (opción B) | Claudia: una semana de lonchera con variedad y una recompra cada 2 semanas (documento 04) | S/24.90 (S/4.15 por unidad) |
+| **Pack de 12 "Semana completa"** | 4 de cada sabor | Familias con 2 hijos (Claudia tiene a Matías y Luciana) o compra quincenal. Es el formato de suscripción, con delivery gratis y recordatorio por WhatsApp | S/46.90 (S/3.91 por unidad, 5.8 % menos) |
+| **Caja degustación de 3 sabores** | 1 unidad de cada sabor | Primera compra, ferias, regalos de cumpleaños y muestra para el pediatra. Trae un cupón de S/3.00 para el primer pack de 6 | S/12.00 (S/4.00 por unidad) |
 
-**Lógica de la arquitectura de precios.** El pack de 6 es el producto que se compra cada dos semanas y fija la percepción de precio (S/4.50 por unidad). El pack de 12 premia la planificación, que es el rasgo central del público objetivo: es 9.3 % más barato por unidad y concentra pedidos, que es lo que más reduce el costo de delivery (con 12 unidades por pedido, el delivery cae de S/0.95 a S/0.79 por unidad). La caja degustación no busca margen: es la herramienta para que el niño pruebe delante de la madre, que es la condición de compra que identificó el focus 1. Por eso se vende al mismo precio por unidad que el pack (no es una "oferta" que devalúe la marca) y lleva el cupón que empuja a la segunda compra.
+**Lógica de la arquitectura de precios.** El pack de 6 es el producto que se compra cada dos semanas y fija la percepción de precio (S/4.15 por unidad). El pack de 12 premia la planificación, que es el rasgo central del público objetivo: es 5.8 % más barato por unidad y concentra pedidos, que es lo que más reduce el costo de delivery (con 12 unidades por pedido, el delivery cae de S/0.95 a S/0.79 por unidad). La caja degustación no busca margen: es la herramienta para que el niño pruebe delante de la madre, que es la condición de compra que identificó el focus 1. Por eso se vende a S/4.00 por unidad (S/12.00 la caja), un precio cercano al del pack de 6 (S/4.15) para no devaluar la marca, y lleva el cupón que empuja a la segunda compra.
 
-Cada unidad va con etiqueta individual de rotulado completo para poder venderse sola en quioscos y ferias.
+Solo la unidad que se vende suelta (quioscos y ferias) lleva etiqueta individual de rotulado completo. En el pack de 6 de la opción B, recomendada, los brownies van en bolsitas sin etiqueta y el rotulado va en el doypack; la opción A (etiqueta en cada brownie) es la versión anterior.
 
 ### 2.3 Estrategia frente al octógono "Alto en azúcar"
 
@@ -181,9 +183,11 @@ El brief define la fase 2 como los meses 5 a 12 (febrero a setiembre de 2027). A
 
 Con la V-P (panela), el costo de producción sería de S/2.28, S/1.80 y S/1.28 por unidad (S/13.65, S/10.79 y S/7.66 por pack).
 
+**Nota del 9 de octubre de 2026.** La tabla anterior es de la versión anterior: usa la opción A (etiqueta en cada brownie) y calcula la pasarela sobre S/4.50. Con las presentaciones y precios confirmados, el Excel (hoja Costeo) da, a 3,000 u/mes y sin IGV: unidad suelta S/1.69; pack de 6 opción B S/9.90 (S/1.65 por unidad); pack de 6 opción C (brownies sueltos con papel manteca) S/9.39 (S/1.57 por unidad); pack de 12 S/18.66 (S/1.56 por unidad). Margen bruto en venta directa: 50.0 %, 53.1 %, 55.5 % y 53.1 %, respectivamente.
+
 ### 4.3 Margen neto por unidad a los tres precios candidatos, por canal
 
-El margen neto descuenta el costo de producción, los costos variables del canal, la renta de 1 % y los costos fijos prorrateados según el volumen. El porcentaje se calcula sobre el precio sin IGV.
+El margen neto descuenta el costo de producción, los costos variables del canal, la renta de 1 % y los costos fijos prorrateados según el volumen. El porcentaje se calcula sobre el precio sin IGV. *Versión anterior: precios candidatos de S/3.50, S/4.50 y S/5.50 por unidad y costo de la opción A. Los precios confirmados están en la sección 5 y su resultado, en la sección 8.*
 
 | Canal | Precio al público con IGV (unidad / pack de 6) | AndiBite recibe sin IGV por unidad | 1,000 u/mes | 3,000 u/mes | 8,000 u/mes |
 |---|---|---|---|---|---|
@@ -206,7 +210,7 @@ El margen neto descuenta el costo de producción, los costos variables del canal
 
 **Cómo se arma el margen en cada canal.** En venta directa, AndiBite cobra el precio completo, pero paga el delivery, la pasarela y la pauta que trae al cliente. En los canales con intermediario no hay delivery a la casa ni pasarela, pero se entrega entre el 25 y el 40 % del precio. La diferencia de fondo es que en venta directa el costo de canal es casi fijo por pedido (unos S/9.50), así que mejora con pedidos más grandes, mientras que en los otros canales es un porcentaje del precio que no baja con el volumen. Por eso conviene empujar el pack de 12 y la suscripción, y por eso el supermercado necesita un precio en góndola más alto que el directo.
 
-**Lectura.** (1) A 1,000 u/mes ningún precio cubre los costos fijos y la maquila. Esa escala solo sirve como marcha blanca, o directamente no conviene operarla. (2) S/3.50 por unidad (la referencia de la profesora para la marcha blanca) solo deja margen a partir de 8,000 u/mes y en venta directa, así que **no sirve como precio de lista**. (3) A S/4.50, la venta directa es rentable a partir de unas 3,500 u/mes. (4) Los canales con intermediario (naturista y supermercado) solo son rentables con precios en góndola de S/5.30 a 5.50 por unidad y volúmenes de 8,000 u/mes o más. Por eso el supermercado queda para el año 2.
+**Lectura.** (1) A 1,000 u/mes ningún precio cubre los costos fijos y la maquila. Esa escala solo sirve como marcha blanca, o directamente no conviene operarla. (2) S/3.50 por unidad (la referencia de la profesora para la marcha blanca) solo deja margen a partir de 8,000 u/mes y en venta directa, así que **no sirve como precio de lista**. (3) A S/4.50 (versión anterior), la venta directa era rentable a partir de unas 3,500 u/mes; con los precios confirmados, el equilibrio es de 3,308 u/mes (sección 8.1). (4) Los canales con intermediario (naturista y supermercado) solo son rentables con precios en góndola de S/5.30 a 5.50 por unidad y volúmenes de 8,000 u/mes o más. Por eso el supermercado queda para el año 2.
 
 ---
 
@@ -214,15 +218,15 @@ El margen neto descuenta el costo de producción, los costos variables del canal
 
 | Canal | Formato y precio al público (con IGV) | Precio que recibe AndiBite (con IGV) | Margen del canal | Lógica |
 |---|---|---|---|---|
-| **Venta directa (WhatsApp e Instagram)** | Pack de 6: **S/27.00**; pack de 12: S/49.00; caja degustación: S/13.50; delivery gratis desde 2 packs o con suscripción | Igual | 0 % (AndiBite asume el delivery y el 3 % de la pasarela) | Calza con la disposición a pagar de Claudia (S/24 a 28 por pack, de S/4 a 5 por unidad, documento 04). El pack de 12 a S/4.08 por unidad atiende a Rodrigo (S/3 a 4) |
-| **Ferias y eventos** | Unidad S/4.50; caja degustación S/13.50; pack de 6 S/27.00; pedido de cumpleaños de 24 unidades o más a S/4.00 por unidad (S/96.00) | Igual | 0 %; stand, movilidad y carnés por unos S/1.00 por unidad | La caja degustación es la herramienta de prueba. El precio de evento compite con la mesa dulce, no con el queque |
+| **Venta directa (WhatsApp e Instagram)** | Pack de 6: **S/24.90** (S/4.15 por unidad); pack de 12: S/46.90 (S/3.91 por unidad); unidad o caja degustación de 3: S/4.00 por unidad (S/12.00); delivery gratis desde 2 packs o con suscripción | Igual | 0 % (AndiBite asume el delivery y el 3 % de la pasarela) | Calza con la disposición a pagar de Claudia (S/24 a 28 por pack, de S/4 a 5 por unidad, documento 04). El pack de 12 a S/3.91 por unidad atiende a Rodrigo (S/3 a 4). Precios confirmados por el equipo el 9-oct-2026 |
+| **Ferias y eventos** | Unidad S/5.00; pack de 6 S/26.00; pack de 12 S/48.00 | Igual | 0 %; stand, movilidad y carnés por unos S/1.00 por unidad | En feria se cobra algo más que por WhatsApp porque el stand cuesta cerca de S/1 por brownie. La caja degustación (S/12.00 en venta directa) es la herramienta de prueba. El precio de evento compite con la mesa dulce, no con el queque |
 | **Colegios (quiosco)** | Unidad **S/4.00** | S/3.00 | 25 % para el concesionario [HIPÓTESIS, negociar entre 25 y 30 %] | El ancla es el queque de la puerta del colegio (S/2.50 a 3, documento 04). Pagar S/1.00 a 1.50 más se justifica por el hierro y por no tener octógono. Solo entra la V-SO |
-| **Tiendas naturistas** | Pack de 6 **S/31.90** (S/5.32 por unidad) | S/19.14 por pack | 40 % | El canal necesita entre 35 y 50 % (documento 03). Con ese precio, AndiBite recibe S/2.70 por unidad sin IGV y deja una contribución de S/0.48 a 3,000 u/mes. Es un canal de vitrina, no de volumen |
-| **Supermercados** (año 2; en el escenario optimista, Flora & Fauna o Vivanda desde noviembre de 2027) | Pack de 6 **S/32.90** (S/5.48 por unidad) | S/19.74 por pack | 35 % + 5 % | Exige RS, GS1, factura, homologación y crédito de 30 a 60 días (documento 03). Solo es viable con 8,000 u/mes o más |
+| **Tiendas naturistas** | Pack de 6 en anaquel **S/28.90** (S/4.82 por unidad) | S/17.34 por pack | 40 % | El canal necesita entre 35 y 50 % (documento 03). AndiBite cobra S/17.34 con IGV por pack (S/14.69 sin IGV, S/2.45 por unidad) y deja una contribución de S/3.75 por pack (S/0.63 por unidad, opción B) antes de costos fijos. Es un canal de vitrina, no de volumen |
+| **Supermercados** (año 2; en el escenario optimista, Flora & Fauna o Vivanda desde noviembre de 2027) | Pack de 6 **S/32.90** (S/5.48 por unidad) [versión anterior; sin redefinir con los precios confirmados] | S/19.74 por pack | 35 % + 5 % | Exige RS, GS1, factura, homologación y crédito de 30 a 60 días (documento 03). Solo es viable con 8,000 u/mes o más |
 
-**Por qué un mismo producto tiene precios distintos según el canal.** Por regla, el precio al público en tiendas de terceros debe ser igual o mayor que el directo, para que la tienda no compita con la marca ni la marca canibalice a la tienda. En el quiosco se vende la unidad suelta a S/4.00, por debajo del pack directo (S/4.50), porque es el único canal con ancla de precio de impulso (el queque de la puerta, a S/2.50-3) y porque ahí la compra la hace el niño con su propina, no el adulto. En la tienda naturista y el supermercado el pack sube a S/31.90 y S/32.90 para cubrir el margen del canal sin destruir la contribución de AndiBite. La diferencia de S/4.90 a S/5.90 por pack frente al directo es, además, un incentivo para que la familia recurrente migre al canal directo o a la suscripción, que son los de mayor margen.
+**Por qué un mismo producto tiene precios distintos según el canal.** Por regla, el precio al público en tiendas de terceros debe ser igual o mayor que el directo, para que la tienda no compita con la marca ni la marca canibalice a la tienda. En el quiosco se vende la unidad suelta a S/4.00, por debajo del pack directo (S/4.15 por unidad), porque es el único canal con ancla de precio de impulso (el queque de la puerta, a S/2.50-3) y porque ahí la compra la hace el niño con su propina, no el adulto. En la tienda naturista el pack sube a S/28.90 en el anaquel para cubrir el 40 % del canal sin destruir la contribución de AndiBite (el supermercado, con S/32.90 en la versión anterior, queda para el año 2). La diferencia de S/4.00 por pack frente al directo (S/24.90) es, además, un incentivo para que la familia recurrente migre al canal directo o a la suscripción, que son los de mayor margen.
 
-**Benchmark por 20 g** (documento 02, precios del 03-oct-2026): Nutri H S/3.20 (galleta con hemoglobina bovina, el competidor más cercano); Siete Dragones S/3.01; Fika S/4.00; Mamalama S/4.10; Bimbo Nutra Bien S/1.67. A S/4.50 en venta directa, AndiBite queda 10 a 13 % por encima de Fika y Mamalama, que se venden en góndola. Ese premio se justifica por el hierro hemínico, el producto sin octógono y la entrega en casa. Frente a Nutri H, el premio es de 41 %: hay que comunicar el formato de brownie húmedo y la aceptación infantil probada. **Disposición a pagar del segmento:** el pack quincenal de S/27 suma S/54 al mes, es decir el 3.0 % del gasto en alimentos de un hogar B (S/1,795) y el 2.4 % de uno A (S/2,214) (APEIM 2025, documento 04). Este precio se confirma o se ajusta con el Van Westendorp de la fase 0. Si la mediana de "caro, pero lo compraría" queda por debajo de S/4.00, se baja el pack a S/24.00, y el equilibrio sube de 3,500 a unas 4,660 u/mes.
+**Benchmark por 20 g** (documento 02, precios del 03-oct-2026): Nutri H S/3.20 (galleta con hemoglobina bovina, el competidor más cercano); Siete Dragones S/3.01; Fika S/4.00; Mamalama S/4.10; Bimbo Nutra Bien S/1.67. El pack de 6 a S/24.90 equivale a S/4.15 por brownie de 20 g, a la par de Fika (S/4.00) y Mamalama (S/4.10), que se venden en góndola (S/0.15 y S/0.05 más). Esa diferencia mínima se justifica por el hierro hemínico, el producto sin octógono y la entrega en casa. Frente a Nutri H, el premio es de 30 %: hay que comunicar el formato de brownie húmedo y la aceptación infantil probada. **Disposición a pagar del segmento:** el pack quincenal de S/24.90 suma S/49.80 al mes, es decir el 2.8 % del gasto en alimentos de un hogar B (S/1,795) y el 2.2 % de uno A (S/2,214) (APEIM 2025, documento 04). Este precio se confirma o se ajusta con el Van Westendorp de la fase 0. Si la mediana de "caro, pero lo compraría" queda por debajo de S/4.00 por unidad, se baja el precio del pack de 6 en el Excel (hoja Supuestos, celda C39) y se recalcula el equilibrio, que hoy es de 3,308 u/mes. (Versión anterior: con el pack a S/24.00 el equilibrio subía de 3,500 a unas 4,660 u/mes.)
 
 ---
 
@@ -234,7 +238,7 @@ Calendario: en los colegios privados de Lima, las clases empiezan a inicios de m
 
 | Canal | Supuesto (base) | Pesimista | Optimista |
 |---|---|---|---|
-| **Directo** | Hogares activos: de 180 en marzo a 700 en diciembre, que es el SOM base del documento 04. Cada hogar compra 1 pack de 6 cada 2 semanas (12 unidades al mes, unos S/52.50). Pedido promedio de 10 unidades (S/43.75) | De 90 a 300 hogares (el SOM conservador del documento 04) | De 300 a 1,400 hogares (el SOM optimista) |
+| **Directo** | Hogares activos: de 180 en marzo a 700 en diciembre, que es el SOM base del documento 04. Cada hogar compra 1 pack de 6 cada 2 semanas (12 unidades al mes, unos S/48.75). Pedido promedio de 10 unidades (S/40.63) | De 90 a 300 hogares (el SOM conservador del documento 04) | De 300 a 1,400 hogares (el SOM optimista) |
 | **Ferias y eventos** | 3 a 6 eventos al mes con 120 unidades cada uno (unas 40 compras de 3 unidades). Picos en diciembre y agosto | 2 a 4 eventos de 90 unidades | 4 a 8 eventos de 150 unidades |
 | **Colegios** | Desde abril, de 1 a 5 colegios. 300 unidades por colegio al mes (15 al día en 20 días, menos del 2 % de un colegio de unos 800 alumnos). Sin venta en enero ni febrero | De 1 a 2 colegios de 250 unidades | De 2 a 8 colegios de 350 unidades |
 | **Naturistas** | Desde mayo, de 2 a 8 puntos con 60 unidades (10 packs) al mes cada uno. En el verano se vende 30 % menos | De 1 a 4 puntos de 45 unidades | De 2 a 12 puntos de 70 unidades |
@@ -242,7 +246,7 @@ Calendario: en los colegios privados de Lima, las clases empiezan a inicios de m
 
 **Cómo se reconcilia con el SOM del documento 04.** El documento 04 calculó 700 hogares núcleo que compran 18 packs al año, es decir 75,600 unidades. Aquí se llega a 76,335 unidades por otra vía: la venta directa llega a esos 700 hogares recién en diciembre (porque los clientes se suman mes a mes y no existen todos desde marzo), y la diferencia la cubren canales que el SOM no contaba (colegios, ferias y naturistas, con 16,017 unidades). En otras palabras, el volumen del SOM se mantiene, pero ya no depende solo de la recompra de los hogares: un 21 % viene de canales que además generan clientes nuevos para la venta directa. El escenario pesimista equivale al SOM conservador del documento 04 (300 hogares) y el optimista al SOM optimista (1,400 hogares).
 
-Precio realizado por unidad con IGV: S/4.375 en venta directa (60 % de pack de 6, 30 % de pack de 12 y 10 % de caja degustación); S/4.30 en ferias; S/3.00 en colegios; S/3.19 en naturistas; S/3.29 en supermercados.
+Precio realizado por unidad con IGV (Excel, hoja Proyeccion): S/4.0625 en venta directa (60 % de las unidades en pack de 6 a S/24.90, 30 % en pack de 12 a S/46.90 y 10 % en unidad o caja degustación a S/4.00); S/4.80 en ferias (70 % en unidad a S/5.00 y 30 % en pack de 6 a S/26.00); S/3.00 en colegios; S/2.89 en naturistas (S/17.34 por pack de 6). El supermercado solo existe en el escenario optimista y conserva el precio de la versión anterior (S/3.29).
 
 ### 6.2 Escenario base, mes a mes
 
@@ -254,32 +258,34 @@ Precio realizado por unidad con IGV: S/4.375 en venta directa (60 % de pack de 6
 | Tiendas naturistas | 0 | 0 | 120 | 180 | 240 | 300 | 360 | 360 | 420 | 480 | 336 | 336 | 3,132 |
 | Supermercados | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | **Total unidades** | **2,640** | **4,020** | **5,220** | **6,300** | **5,808** | **7,071** | **8,880** | **9,480** | **10,560** | **7,980** | **3,672** | **4,704** | **76,335** |
-| Ventas con IGV (S/) | 11,514 | 17,148 | 22,247 | 26,497 | 24,430 | 29,483 | 36,746 | 39,371 | 43,604 | 33,052 | 15,631 | 20,146 | 319,869.33 |
-| Ventas netas sin IGV (S/) | 9,758 | 14,532 | 18,853 | 22,455 | 20,703 | 24,986 | 31,141 | 33,366 | 36,952 | 28,010 | 13,246 | 17,073 | 271,075.70 |
+| Ventas con IGV (S/) | 11,079 | 16,278 | 21,101 | 25,011 | 23,158 | 28,004 | 34,643 | 37,081 | 41,168 | 31,431 | 14,878 | 19,070 | **302,900.36** |
+| Ventas netas sin IGV (S/) | 9,389 | 13,795 | 17,882 | 21,196 | 19,625 | 23,732 | 29,359 | 31,424 | 34,888 | 26,636 | 12,608 | 16,161 | **256,695.22** |
 
 ### 6.3 Escenarios pesimista y optimista, mes a mes (unidades y soles con IGV)
+
+Las unidades no cambian. Los soles de estos dos escenarios son de la versión anterior (precios de S/27.00 y S/49.00) y faltan recalcular con los precios confirmados.
 
 | Escenario | Mar | Abr | May | Jun | Jul | Ago | Set | Oct | Nov | Dic | Ene | Feb | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Pesimista: directo | 1,080 | 1,560 | 1,920 | 2,280 | 2,016 | 2,346 | 3,000 | 3,240 | 3,480 | 2,520 | 1,218 | 1,620 | 26,280 |
 | Pesimista: ferias, colegios y naturistas | 270 | 180 | 565 | 520 | 560 | 617 | 815 | 860 | 950 | 840 | 396 | 396 | 6,969 |
 | **Pesimista: unidades** | 1,350 | 1,740 | 2,485 | 2,800 | 2,576 | 2,963 | 3,815 | 4,100 | 4,430 | 3,360 | 1,614 | 2,016 | **33,249** |
-| Pesimista: S/ con IGV | 5,886 | 7,599 | 10,455 | 11,786 | 10,868 | 12,491 | 15,830 | 17,023 | 18,460 | 14,047 | 6,892 | 8,650 | **139,987.53** |
+| Pesimista: S/ con IGV (versión anterior) | 5,886 | 7,599 | 10,455 | 11,786 | 10,868 | 12,491 | 15,830 | 17,023 | 18,460 | 14,047 | 6,892 | 8,650 | **139,987.53** |
 | Optimista: directo | 3,600 | 6,000 | 8,400 | 10,200 | 9,120 | 10,710 | 13,800 | 15,000 | 16,200 | 11,760 | 5,796 | 7,830 | 118,416 |
 | Optimista: ferias, colegios, naturistas y supermercados | 900 | 1,440 | 2,230 | 2,570 | 2,860 | 3,615 | 3,900 | 4,320 | 5,340 | 4,520 | 2,288 | 2,288 | 36,271 |
 | **Optimista: unidades** | 4,500 | 7,440 | 10,630 | 12,770 | 11,980 | 14,325 | 17,700 | 19,320 | 21,540 | 16,280 | 8,084 | 10,118 | **154,687** |
-| Optimista: S/ con IGV | 19,620 | 31,377 | 44,663 | 53,390 | 49,756 | 59,381 | 73,183 | 79,706 | 88,457 | 66,962 | 33,735 | 42,634 | **642,863.64** |
+| Optimista: S/ con IGV (versión anterior) | 19,620 | 31,377 | 44,663 | 53,390 | 49,756 | 59,381 | 73,183 | 79,706 | 88,457 | 66,962 | 33,735 | 42,634 | **642,863.64** |
 
 **Total anual por canal (unidades / S/ con IGV)**
 
-| Canal | Pesimista | Base | Optimista |
+| Canal | Pesimista (S/ versión anterior) | Base (precios confirmados) | Optimista (S/ versión anterior) |
 |---|---|---|---|
-| Directo | 26,280 / 114,975.00 | 60,318 / 263,891.25 | 118,416 / 518,070.00 |
-| Ferias y eventos | 2,970 / 12,771.00 | 5,640 / 24,252.00 | 10,650 / 45,795.00 |
+| Directo | 26,280 / 114,975.00 | 60,318 / 245,041.88 | 118,416 / 518,070.00 |
+| Ferias y eventos | 2,970 / 12,771.00 | 5,640 / 27,072.00 | 10,650 / 45,795.00 |
 | Colegios | 2,712 / 8,136.00 | 7,245 / 21,735.00 | 16,065 / 48,195.00 |
-| Naturistas | 1,287 / 4,105.53 | 3,132 / 9,991.08 | 6,356 / 20,275.64 |
+| Naturistas | 1,287 / 4,105.53 | 3,132 / 9,051.48 | 6,356 / 20,275.64 |
 | Supermercados | 0 / 0.00 | 0 / 0.00 | 3,200 / 10,528.00 |
-| **Total** | **33,249 / 139,987.53** | **76,335 / 319,869.33** | **154,687 / 642,863.64** |
+| **Total** | **33,249 / 139,987.53** | **76,335 / 302,900.36** | **154,687 / 642,863.64** |
 
 ### 6.4 Por qué medio se vende cada unidad (escenario base) [HIPÓTESIS de mezcla]
 
@@ -326,15 +332,30 @@ El total financiado es de S/35,000; quedan S/515.76 adicionales en caja.
 
 ### 8.1 Punto de equilibrio
 
-Costos fijos mensuales en el escenario base: administración S/700 + asistente S/800 + marketing promedio S/1,291.67 + depreciación S/65 = **S/2,856.67**. El margen de contribución promedio, con la mezcla de canales del escenario base y el costo de 3,500 u/mes, es de **S/0.82 por unidad** (precio neto promedio S/3.55; producción S/1.85; delivery, pasarela y canal S/0.84; renta S/0.04).
+Costos fijos mensuales en el escenario base: administración S/700 + asistente S/800 + marketing promedio S/1,291.67 + depreciación S/65 = **S/2,856.67**. La contribución promedio por unidad (Excel, hoja Proyeccion), con la mezcla de canales y presentaciones del escenario base, es de **S/0.86 con la opción B** y S/0.91 con la opción C (precio neto promedio de S/3.36 sin IGV, menos costos de producción y de canal). Versión anterior: S/0.82 por unidad y equilibrio de 3,500 u/mes.
 
 | Escenario | Costos fijos al mes (S/) | Punto de equilibrio (u/mes) | En soles netos / con IGV | Primer mes con utilidad | Meses con pérdida |
 |---|---|---|---|---|---|
-| Pesimista | 2,727.50 | 3,390 | 12,095.63 / 14,272.84 | Setiembre 2027 | 9 de 12 (solo setiembre a noviembre dan utilidad) |
-| **Base** | **2,856.67** | **3,500** (unos 583 packs, unos 290 hogares) | **12,428.96 / 14,666.18** | **Abril 2027** | Solo marzo, por la campaña de lanzamiento |
-| Optimista | 3,779.58 | 4,220 | 14,862.62 / 17,537.90 | Abril 2027 | Solo marzo |
+| Pesimista (versión anterior) | 2,727.50 | 3,390 | 12,095.63 / 14,272.84 | Setiembre 2027 | 9 de 12 (solo setiembre a noviembre dan utilidad) |
+| **Base** | **2,856.67** | **3,308** (551 packs de 6, unos 276 hogares) | **11,124 / 13,127** | **Abril 2027** | Solo marzo (−S/420), por la campaña de lanzamiento |
+| Optimista (versión anterior) | 3,779.58 | 4,220 | 14,862.62 / 17,537.90 | Abril 2027 | Solo marzo |
 
-### 8.2 Flujo de caja mensual del año 1 (escenario base, S/ sin IGV)
+**Resultado operativo mensual con los precios confirmados** (Excel, hoja Mensual; escenario base, pack de 6 opción B; S/ sin IGV salvo la primera fila; antes de intereses e impuesto a la renta)
+
+| Concepto | Mar-27 | Abr-27 | May-27 | Jun-27 | Jul-27 | Ago-27 | Set-27 | Oct-27 | Nov-27 | Dic-27 | Ene-28 | Feb-28 | Año 1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Ventas con IGV | 11,079 | 16,278 | 21,101 | 25,011 | 23,158 | 28,004 | 34,643 | 37,081 | 41,168 | 31,431 | 14,878 | 19,070 | 302,900 |
+| Ventas sin IGV | 9,389 | 13,795 | 17,882 | 21,196 | 19,625 | 23,732 | 29,359 | 31,424 | 34,888 | 26,636 | 12,608 | 16,161 | 256,695 |
+| Contribución | 2,437 | 3,543 | 4,589 | 5,422 | 5,042 | 6,117 | 7,519 | 8,035 | 8,951 | 6,880 | 3,246 | 4,135 | 65,918 |
+| Costos fijos | 2,857 | 2,857 | 2,857 | 2,857 | 2,857 | 2,857 | 2,857 | 2,857 | 2,857 | 2,857 | 2,857 | 2,857 | 34,280 |
+| **Resultado operativo** | **−420** | **686** | **1,732** | **2,566** | **2,186** | **3,261** | **4,662** | **5,179** | **6,094** | **4,023** | **390** | **1,278** | **31,638** |
+| Resultado acumulado | −420 | 267 | 1,999 | 4,565 | 6,750 | 10,011 | 14,673 | 19,852 | 25,947 | 29,970 | 30,360 | 31,638 | 31,638 |
+
+Con la opción C (brownies sueltos) el resultado del año es de S/35,083 y el equilibrio, de 3,144 u/mes.
+
+### 8.2 Flujo de caja mensual del año 1 (escenario base, S/ sin IGV) — versión anterior, precios de S/27.00 y S/49.00
+
+Este flujo todavía no se recalcula con los precios confirmados; la caja mínima y el capital de trabajo de S/8,000 deben revisarse con el flujo nuevo. Los resultados mensuales con los precios confirmados están al final de la sección 8.1.
 
 La producción se paga un mes antes, porque es el lote del mes siguiente. Colegios y naturistas se cobran a 30 días.
 
@@ -356,7 +377,7 @@ La producción se paga un mes antes, porque es el lote del mes siguiente. Colegi
 
 El flujo de febrero de 2028 ya incluye la compra del stock de marzo de 2028, que queda como inventario.
 
-**Resumen de los otros escenarios (S/)**
+**Resumen de los otros escenarios (S/, versión anterior)**
 
 | Escenario | Flujo operativo mensual (mar a feb) | Caja mínima | Caja final |
 |---|---|---|---|
@@ -364,6 +385,8 @@ El flujo de febrero de 2028 ya incluye la compra del stock de marzo de 2028, que
 | Optimista | −2,936; 786; 7,665; 13,746; 9,717; 10,042; 17,386; 19,695; 30,847; 28,842; 9,904; 14,290 | 6,088.79 (abril de 2027) | 158,453.78 |
 
 ### 8.3 Resultado del año 1
+
+**Con los precios confirmados (Excel, escenario base):** ventas sin IGV de S/256,695.22; contribución de S/65,917.99 (opción B) menos costos fijos de S/34,280.04, es decir un **resultado operativo de S/31,637.96 (12.3 %)**; con la opción C, S/35,083.20 (13.7 %). No incluye los intereses del préstamo (S/1,721), los gastos preoperativos (S/13,846) ni el impuesto a la renta, que todavía no se recalculan. La tabla siguiente es de la versión anterior (precios de S/27.00 y S/49.00).
 
 | Concepto (S/ sin IGV) | Pesimista | Base | Optimista |
 |---|---|---|---|
@@ -383,7 +406,7 @@ El flujo de febrero de 2028 ya incluye la compra del stock de marzo de 2028, que
 | **Margen neto** | **−22.5 %** | **13.7 %** | **23.1 %** |
 | **Payback de la inversión** (flujo operativo acumulado frente a la inversión) | No se recupera en el año 1 (más de 24 meses) [HIPÓTESIS] | **9 meses de operación (noviembre de 2027)**, 14 meses desde el inicio del proyecto | 6 meses (agosto de 2027) |
 
-**Advertencias.** (1) La utilidad del escenario base supone que los socios no cobran sueldo: si cada uno recibiera S/500 al mes, la utilidad neta bajaría a unos S/10,000. (2) La sensibilidad a lo que falta cotizar es alta: con la maquila a S/0.60 en todos los volúmenes (−S/13,113.93) y el polvo de sangrecita a S/417 por kg (−S/9,188.03), la utilidad antes de impuestos baja a unos S/19,000. (3) **Plan de contingencia para el escenario pesimista:** si a mayo de 2027 hay menos de 200 hogares activos, se suspende el asistente (S/800 al mes), la pauta se reduce a la mitad, cada socio aporta S/2,500 adicionales (S/12,500) y se replantea el precio o el formato antes de seguir.
+**Advertencias** (cifras de la versión anterior, por recalcular). (1) La utilidad del escenario base supone que los socios no cobran sueldo: si cada uno recibiera S/500 al mes, la utilidad neta bajaría a unos S/10,000. (2) La sensibilidad a lo que falta cotizar es alta: con la maquila a S/0.60 en todos los volúmenes (−S/13,113.93) y el polvo de sangrecita a S/417 por kg (−S/9,188.03), la utilidad antes de impuestos baja a unos S/19,000. (3) **Plan de contingencia para el escenario pesimista:** si a mayo de 2027 hay menos de 200 hogares activos, se suspende el asistente (S/800 al mes), la pauta se reduce a la mitad, cada socio aporta S/2,500 adicionales (S/12,500) y se replantea el precio o el formato antes de seguir.
 
 ---
 
@@ -410,13 +433,13 @@ El flujo de febrero de 2028 ya incluye la compra del stock de marzo de 2028, que
 
 | KPI | Meta (base) | Frecuencia |
 |---|---|---|
-| Unidades vendidas al mes | Al menos 3,500 desde abril; 8,000 o más de setiembre a noviembre | Semanal |
+| Unidades vendidas al mes | Al menos 3,308 desde abril (equilibrio); 8,000 o más de setiembre a noviembre | Semanal |
 | Hogares activos (compraron en los últimos 30 días) | 360 en mayo; 700 en diciembre | Mensual |
 | Recompra a 60 días | Al menos 35 % | Mensual |
-| Pedido promedio | Al menos 10 unidades (S/43.75) | Semanal |
+| Pedido promedio | Al menos 10 unidades (S/40.63) | Semanal |
 | Costo de adquisición por cliente (pauta, muestras y POP entre clientes nuevos) | S/15 o menos | Mensual |
-| Costo de producción puesto en almacén | S/1.91 o menos a 3,000 u; S/1.35 o menos a 8,000 u | Por lote |
-| Margen de contribución por unidad | S/0.82 o más | Mensual |
+| Costo de producción puesto en almacén | S/1.65 o menos por unidad en el pack de 6 (opción B) a 3,000 u (versión anterior, opción A: S/1.91 a 3,000 u y S/1.35 a 8,000 u) | Por lote |
+| Margen de contribución por unidad | S/0.86 o más | Mensual |
 | Merma y vencidos | 5 % o menos; vencidos 2 % o menos | Por lote |
 | Colegios y naturistas activos | 5 colegios en noviembre; 8 naturistas en diciembre | Mensual |
 | Aceptación sensorial | Al menos 75 % de caritas 4 y 5 en cada lote nuevo | Trimestral |
