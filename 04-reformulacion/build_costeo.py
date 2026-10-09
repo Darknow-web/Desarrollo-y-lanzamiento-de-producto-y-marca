@@ -73,8 +73,8 @@ for i,(lg,pas,nota) in enumerate([(0.27,1,'Degustación: 1 brownie regalado por 
                                   (0.15,0,'[HIPÓTESIS] Reposición quincenal; cobro por factura')]):
     r=32+i; cell(S,f'A{r}',CH[i]); cell(S,f'B{r}',lg,BLUE,'0.00'); cell(S,f'C{r}',pas,BLUE,'0'); cell(S,f'D{r}',nota)
 section(S,38,'5. Precio que cobra AndiBite por presentación y canal (S/ con IGV, confirmados el 9-oct-2026)',5); header(S,39,['Canal','Unidad individual','Pack de 6','Pack de 12','Nota'])
-for i,(u,p6,p12,nota) in enumerate([(5.00,26.00,48.00,'Precio de lista en físico: el stand cuesta alquiler y personal, por eso es algo mayor que por WhatsApp'),
-                                    (5.00,26.00,48.00,'Mismo precio que en el stand'),
+for i,(u,p6,p12,nota) in enumerate([(5.50,26.00,48.00,'Precio de lista en físico. La unidad suelta (S/5.50) es la compra de prueba y deja más margen; el pack de 6 (S/4.33 por brownie) queda como la compra conveniente'),
+                                    (5.50,26.00,48.00,'Mismo precio que en el stand'),
                                     (4.00,24.90,46.90,'S/4.15 por brownie en el pack de 6, a la par de Fika (S/4.00) y Mamalama (S/4.10) por 20 g. Unidad = caja degustación de 3 (S/12.00)'),
                                     (3.00,0,0,'El alumno paga S/4.00; el concesionario se queda 25 %'),
                                     (0,17.34,0,'AndiBite cobra S/17.34 a la tienda; con 40 % para la tienda, el anaquel queda en S/28.90')]):
@@ -89,10 +89,10 @@ for i,mix in enumerate([(0.60,0.35,0.05),(0.70,0.30,0.00),(0.10,0.60,0.30),(1.00
 cell(S,'A53','Stand: 6 de cada 10 brownies se venden sueltos para probar en el momento. WhatsApp: 60/30/10 del documento 05. Resto: [HIPÓTESIS] según cómo compra cada canal.',BLACK)
 section(S,55,'7. Stands, carritos y ferias',4); header(S,56,['Concepto','Valor','Unidad','Fuente o nota'])
 for r,lab,v,u,src,fill,fmt in [
- (57,'Alquiler del espacio por punto de venta al mes (fines de semana)',500,'S/ al mes','[POR CONFIRMAR] Gestión (15-sep-2023): módulo de 2 x 2 m de S/500 a US$2,500. Pedir cotización a cada mall o cadena (documento 08)',YEL,SOL),
+ (57,'Espacio para el carrito o stand de fin de semana en mall o supermercado, por punto al mes',600,'S/ al mes','Módulo de 2 x 2 m en malls desde S/500 al mes (Gestión, 15-sep-2023); la entrada de un supermercado de Lima Top cuesta algo más (documento 08)',None,SOL),
  (58,'Pago a impulsadora por día de stand',90,'S/ por día','Computrabajo: S/50 a 90 por día de fin de semana (documento 08)',None,SOL),
- (59,'Puntos de venta que atienden los socios (sin pago)',1,'puntos','[HIPÓTESIS] Los 5 socios cubren un punto los fines de semana; los demás llevan impulsadora',YEL,'0'),
- (60,'Costo por feria pagada (2 a 3 días)',1825,'S/ por feria','La Feria de Barranco S/1,650 a 2,000; Bazar CCL S/2,500 + IGV (documento 08)',None,SOL),
+ (59,'Puntos de venta que atienden los socios (sin pago)',2,'puntos','Los 5 socios cubren 2 puntos los fines de semana con turnos rotativos; desde el tercer punto se paga impulsadora',None,'0'),
+ (60,'Stand en feria de emprendimiento (2 a 3 días)',1800,'S/ por feria','Ferias de emprendimiento de Lima: La Feria de Barranco S/1,650 a 2,000; Bazar Navideño CCL S/2,500 + IGV; Navi Fest (documento 08)',None,SOL),
  (61,'Brownies vendidos por feria pagada',700,'unidades','[HIPÓTESIS] Una mype vende unos S/3,000 por feria de PRODUCE (unos 625 brownies)',YEL,NUM),
  (62,'Brownies por evento sin costo (kermés, cumpleaños, feria gratuita)',150,'unidades','[HIPÓTESIS]',YEL,NUM),
  (63,'Lo vendido en físico que vuelve a comprarse por WhatsApp el mes siguiente',0.35,'% de las unidades','[HIPÓTESIS] Recompra con recordatorio por WhatsApp; sin suscripción',YEL,PCT),
@@ -102,7 +102,7 @@ section(S,66,'8. Costos fijos mensuales (S/ sin IGV)',4); header(S,67,['Concepto
 for i,(lab,v,src) in enumerate([('Administración: contador, software, web, teléfono, movilidad, banco',700,'Documento 05, sección 4.1'),
                                 ('Asistente de pedidos y despacho',0,'Los socios atienden WhatsApp y el despacho; las impulsadoras cubren los stands adicionales (Supuestos B58). Versión anterior: S/800'),
                                 ('Marketing: pauta, degustaciones y material de stand (promedio del año)',900,'[HIPÓTESIS] Menos pauta digital que en la versión anterior (S/1,291.67): la captación se hace en el stand'),
-                                ('Depreciación de equipos y carritos (36 meses)','=Inversion!B37/36','Hoja Inversion')]):
+                                ('Depreciación de equipos y carrito (36 meses)','=Inversion!B37/36','Hoja Inversion')]):
     r=68+i; cell(S,f'A{r}',lab); cell(S,f'B{r}',v,GREEN if isinstance(v,str) else BLUE,SOL); cell(S,f'D{r}',src)
 cell(S,'A72','Total costos fijos al mes',bold=True); cell(S,'B72','=SUM(B68:B71)',BLACK,SOL,TOT,bold=True)
 section(S,74,'9. Mezcla de sabores (para planear compras y producción)',4); header(S,75,['Sabor','% de las unidades','','Nota'])
@@ -181,9 +181,9 @@ INV=[('1. Documentos y permisos para vender',None,None,True),
  ('Capital de trabajo (2 meses)',8000,'Documento 05'),
  ('Subtotal arranque','=SUM(B31:B34)',None,'sub'),
  ('5. Activos que se deprecian',None,None,True),
- ('Equipos mínimos y 2 carritos de exhibición con gráfica','=B38+B39',None,'sub'),
+ ('Equipos mínimos y carrito de exhibición con gráfica','=B38+B39',None,'sub'),
  ('Equipos mínimos (balanza, selladora, coolers, kit de feria, POS)',2338,'Documento 05'),
- ('2 carritos de exhibición con vitrina y gráfica (2 × S/2,500)',5000,'[POR CONFIRMAR] Melamina a medida S/1,150 a 1,350 por metro lineal (documento 08)'),
+ ('1 carrito de exhibición con vitrina y gráfica (los otros puntos usan el kit de feria o el módulo del mall)',2500,'Melamina a medida S/1,150 a 1,350 por metro lineal, más vitrina y gráfica (documento 08)'),
 ]
 for i,row in enumerate(INV):
     r=5+i; t,v,src=row[0],row[1],row[2]; kind=row[3] if len(row)>3 else None
@@ -362,15 +362,16 @@ items=[('Unidades vendidas','=Proyeccion!F20','=Proyeccion!F20',NUM),
        ('Punto de equilibrio en packs de 6 equivalentes al mes','=IF(ISNUMBER(B21),B21/6,"No alcanza")','=IF(ISNUMBER(C21),C21/6,"No alcanza")',NUM),
        ('Inversión inicial (incluye todos los documentos y permisos)','=Inversion!B42','=Inversion!B42',SOL0),
        ('Resultado del año 1 menos la inversión (negativo = falta recuperar)','=B18-B23','=C18-C23',SOL0),
-       ('Caja más baja del año, con la cuota del préstamo (opción B)','=MIN(Mensual!B43:M43)','=MIN(Mensual!B43:M43)',SOL0)]
+       ('Caja más baja del año, con la cuota del préstamo (opción B)','=MIN(Mensual!B43:M43)','=MIN(Mensual!B43:M43)',SOL0),
+       ('Meses desde noviembre de 2026 para recuperar la inversión (el año 2 al ritmo de agosto a octubre de 2027)','=IF(B18>=B23,"Dentro del año 1",ROUNDUP(12+(B23-B18)/AVERAGE(Mensual!K37:M37),0))','=IF(C18>=C23,"Dentro del año 1",ROUNDUP(12+(C23-C18)/AVERAGE(Mensual!K38:M38),0))','0')]
 for i,(t,fb,fc,fmt) in enumerate(items):
     rr=12+i; bb=rr in (18,21); cell(R,f'A{rr}',t,bold=bb); cell(R,f'B{rr}',fb,GREEN if '!' in fb else BLACK,fmt,TOT if bb else None,bold=bb); cell(R,f'C{rr}',fc,GREEN if '!' in fc else BLACK,fmt,TOT if bb else None,bold=bb)
-cell(R,'A27','Notas',bold=True)
+cell(R,'A28','Notas',bold=True)
 notes=['La proyección supone que los documentos (S.A.C., marca, registro sanitario, análisis, etiqueta, carnés y póliza) ya están listos en noviembre de 2026. Su costo está en la hoja Inversion.',
-       'La venta física (stands, carritos y ferias) es el canal principal; WhatsApp queda para la recompra, sin suscripción.',
-       'La maquila (S/0.50 por unidad), el polvo de sangrecita y el alquiler de los stands (S/500 por punto al mes) no están cotizados. Cambiarlos en Supuestos apenas lleguen las cotizaciones.',
+       'La venta física (stands, carritos y ferias) es el canal principal; WhatsApp queda para la recompra, sin suscripción. Los socios atienden 2 puntos de venta; el tercero lleva impulsadora.',
+       'La maquila (S/0.50 por unidad) y el polvo de sangrecita no están cotizados con la planta. Cambiarlos en Supuestos apenas lleguen las cotizaciones.',
        'El resultado no incluye sueldos de los socios, intereses del préstamo (hoja Inversion) ni el impuesto a la renta anual.']
-for i,t in enumerate(notes): cell(R,f'A{28+i}',f'{i+1}. {t}')
+for i,t in enumerate(notes): cell(R,f'A{29+i}',f'{i+1}. {t}')
 R.column_dimensions['A'].width=70
 for col in 'BCDEFG': R.column_dimensions[col].width=20
 R.row_dimensions[4].height=42
