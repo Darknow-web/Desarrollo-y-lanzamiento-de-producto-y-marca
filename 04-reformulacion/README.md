@@ -17,13 +17,13 @@ Presentación: `T1-presentacion-AndiBite-2-0.pptx` (editable, se importa en Canv
 
 Costeo por presentación: `Costeo-presentaciones-AndiBite.xlsx` (fórmulas vivas; unidad individual, pack de 6 con opción B y C, pack de 12, proyección mensual y punto de equilibrio). Se regenera con `build_costeo.py`.
 
-## Cifras clave (escenario base; precios confirmados el 9-oct-2026, fuente: Excel de costeo y documento 05)
-- Precios con IGV, venta directa: unidad S/4.00; pack de 6 S/24.90 (S/4.15 por brownie, opción B con bolsitas); pack de 12 S/46.90 (S/3.91 por brownie, 5.8 % menos); caja degustación de 3, S/12.00. Ferias: unidad S/5.00, pack de 6 S/26.00, pack de 12 S/48.00. Quiosco: el alumno paga S/4.00 y AndiBite recibe S/3.00. Tienda naturista: anaquel S/28.90 y AndiBite cobra S/17.34.
+## Cifras clave (modelo v3 del 9-oct-2026: venta física como canal principal y documentos ya listos, pagados en la inversión; fuente: Excel de costeo y documento 05)
+- Precios con IGV. Stand, carrito y ferias: unidad S/5.00, pack de 6 S/26.00, pack de 12 S/48.00. WhatsApp: unidad S/4.00, pack de 6 S/24.90 (S/4.15 por brownie), pack de 12 S/46.90; caja degustación de 3, S/12.00. Quiosco: el alumno paga S/4.00 y AndiBite recibe S/3.00. Tienda naturista: anaquel S/28.90 y AndiBite cobra S/17.34. Sin suscripción.
 - Benchmark por 20 g: AndiBite S/4.15 frente a Nutri H S/3.20 (premio de unos 30 %), Fika S/4.00 y Mamalama S/4.10 (1 a 4 % más).
 - Costo de producción a 3,000 u/mes: S/1.65 por brownie (pack de 6 en bolsitas, S/9.90); unidad suelta S/1.69; pack de 12 S/1.56 por unidad. Versión anterior (opción A): S/1.91 a 3,000 u/mes.
-- Costos fijos: S/2,857 al mes. Punto de equilibrio: 3,308 unidades al mes (551 packs de 6); abril de 2027 es el primer mes con utilidad y marzo cierra en -S/420. Versión anterior: 3,500 u/mes (583 packs).
-- Ventas año 1 (marzo 2027 a febrero 2028): 76,335 unidades y S/302,900 con IGV. Resultado operativo: S/31,638 (12.3 % de las ventas sin IGV), antes de intereses, gastos preoperativos e impuesto a la renta. Versión anterior: S/319,869 con IGV y utilidad neta de S/37,152.
-- Inversión inicial: S/34,484 (S/25,000 de los socios + préstamo de S/10,000), sin cambios. Payback por recalcular: con el resultado acumulado del año 1 faltan unos S/2,846, así que se recupera poco después del año 1 (versión anterior: 9 meses). Los escenarios pesimista y optimista en soles también están por recalcular.
+- Canales del año 1 (unidades): stands y carritos en malls y supermercados 19,565 (41.4 %), WhatsApp 8,773 (18.6 %), ferias y eventos 8,100 (17.2 %), colegios 7,065 (15.0 %), naturistas 3,720 (7.9 %). Costos fijos S/1,804 al mes; stands y ferias S/28,865 al año. Punto de equilibrio: 2,215 unidades al mes (369 packs de 6); solo noviembre y febrero cierran en rojo.
+- Ventas año 1 (noviembre 2026 a octubre 2027): 47,223 unidades y S/198,748 con IGV. Resultado operativo: S/16,816 (10.0 % de las ventas sin IGV), antes de intereses e impuesto a la renta. Versión anterior (WhatsApp como canal principal): 76,335 u y S/302,900.
+- Inversión inicial: S/40,644, con todos los documentos y permisos para vender (S/6,251) y 2 carritos de exhibición. Socios S/25,000 + préstamo de S/16,000 en 24 cuotas de S/898. Caja mínima S/5,009 (febrero de 2027); la inversión se recupera en el año 2.
 - Decisión de producto: lanzar la versión sin octógono (azúcar por debajo de 10 g/100 g con eritritol y plátano), validarla con niños antes.
 
 ## Pendientes críticos antes de ejecutar

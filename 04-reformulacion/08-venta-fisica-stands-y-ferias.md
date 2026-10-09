@@ -9,8 +9,8 @@ Versión 1, 9 de octubre de 2026. Responde a la corrección de la profesora: el 
 1. **Sí es viable estar en un mall de Lima Top o Lima Moderna**, pero por la vía de los **programas para emprendedores y los pop-ups de temporada**, no alquilando un módulo fijo desde el inicio.
 2. **La puerta más barata y con mejor público** son los programas con cupo para emprendedores: Jockey Plaza (Surco), "El Mercadito del Emprendedor" de Larcomar (Miraflores), Open Plaza "Emerge" (Angamos) y la "Placita del Emprendimiento" de Real Plaza. Son gratuitos o de costo simbólico, pero con postulación.
 3. **Las ferias pagadas** (La Feria de Barranco, Bazar Navideño de la CCL) cuestan **S/1,650 a 2,500 por evento** y apenas llegan al equilibrio en su primera edición. Valen como **captación de clientes** (lista de WhatsApp para el recordatorio de recompra), no como fuente de ganancia.
-4. **Límite legal:** un brownie envasado necesita **registro sanitario** para venderse, incluso en una feria; la excepción es solo para productos artesanales de consumo inmediato que no van preenvasados. Antes del RS (marzo de 2027) solo podemos hacer **degustación y registro de interesados**, no venta.
-5. **La fecha clave es la campaña escolar (febrero y marzo de 2027)**: los malls arman ferias de útiles y loncheras justo cuando sale el RS. Hay que postular desde noviembre.
+4. **Documentos:** un brownie envasado necesita registro sanitario, RUC y rotulado completo para venderse en una feria o un mall. En el plan (modelo v3 del 9-oct-2026) **se consideran listos desde noviembre de 2026**: su costo (S/6,251.20) va una sola vez dentro de la inversión inicial y no frena ninguna venta.
+5. **Las fechas clave son Navidad (diciembre de 2026) y la campaña escolar (febrero y marzo de 2027)**: son las únicas ferias pagadas del año 1. El resto del año se vende con 1 a 3 puntos de fin de semana, kermeses y eventos sin costo.
 
 ---
 
@@ -24,7 +24,7 @@ Versión 1, 9 de octubre de 2026. Responde a la corrección de la profesora: el 
 | **La Rambla San Borja**, ferias de temporada | San Borja (zona 7) | Ferias con más de 50 marcas ("Día del Shopping"); La Feria ha ido como itinerante | [POR CONFIRMAR] | Administración del mall | Muy alto (es el distrito de Claudia) |
 | **Open Plaza "Emerge"** | Angamos, Surquillo | Espacios accesibles, capacitación y difusión | "Desde S/15" en la edición de Piura de 2022; en Angamos [POR CONFIRMAR] | Filtro por categoría; contacto [POR CONFIRMAR] (Open Plaza estaría pasando a Mallplaza) | Medio-alto |
 | **Real Plaza, "Placita del Emprendimiento"** | Salaverry (Jesús María) [POR CONFIRMAR] | Ferias de emprendedores; Salaverry tuvo una feria saludable | [POR CONFIRMAR] | Formulario de participación | Medio-alto (zona 6) |
-| **Feria Navideña Jockey** | Surco | Feria anual del 15 al 26 de diciembre (edición 2025) | Por cotizar | hello@neventum.com o @ferianavidadjockey | Alto, pero cae antes del RS |
+| **Feria Navideña Jockey** | Surco | Feria anual del 15 al 26 de diciembre (edición 2025) | Por cotizar | hello@neventum.com o @ferianavidadjockey | Alto |
 | **PRODUCE (Tu Empresa / Perú Produce)** | Malls y parques | Ferias con espacio gratuito para mypes formales | Gratis | gob.pe, programa Tu Empresa | Variable |
 
 **Módulo o isla fija (referencia):** el alquiler en malls súper regionales cuesta de S/110 a 375 por m² al mes, más una parte variable sobre las ventas, mantenimiento y fondo de promoción (Binswanger, Gestión, 5-jun-2026). No hay tarifa publicada para islas, que se cotizan aparte.
@@ -34,8 +34,8 @@ Versión 1, 9 de octubre de 2026. Responde a la corrección de la profesora: el 
 | Feria | Distrito | Costo | ¿Sirve? |
 |---|---|---|---|
 | **La Feria de Barranco** (y sus ediciones itinerantes) | Barranco y malls | S/1,650 a 2,000 por 2 días, sin comisión (2023) | Sí. El visitante gasta de S/75 a 200 |
-| **Bazar Navideño CCL** | Jesús María | S/2,500 + IGV por 3 días (5 al 7 de diciembre de 2025) | Sí, desde que tengamos RS |
-| **Navi Fest** (CCL y Municipalidad de Jesús María) | Jesús María | Módulo de 2 x 2 m con luz; acepta alimentos; precio por cotizar | Sí, desde que tengamos RS |
+| **Bazar Navideño CCL** | Jesús María | S/2,500 + IGV por 3 días (5 al 7 de diciembre de 2025) | Sí |
+| **Navi Fest** (CCL y Municipalidad de Jesús María) | Jesús María | Módulo de 2 x 2 m con luz; acepta alimentos; precio por cotizar | Sí |
 | **Bioferia de Miraflores, Mercado Saludable de La Molina** | Miraflores, La Molina | [POR CONFIRMAR] | **No:** piden certificado orgánico |
 | **Emprende Libre (Pueblo Libre), San Borja Emprende** | Pueblo Libre, San Borja | Gratis | Solo para vecinos del distrito. Sirve si un socio vive allí |
 | **Kermeses de colegios privados** | Zonas 6 y 7 | Por negociar con la APAFA | Sí, pero sin octógono (DS 015-2019-SA) |
@@ -68,13 +68,13 @@ Un mall abre unas 12 horas al día, así que cuidar un stand propio a tiempo com
 
 | Cuándo | Qué | Para qué |
 |---|---|---|
-| **Octubre y noviembre de 2026** | Escribir a Jockey Plaza, Larcomar/La Feria, La Rambla, Open Plaza y Real Plaza Salaverry (plantilla abajo). Constituir AndiBite S.A.C. y sacar RUC | Todas las ferias piden RUC y, para vender, registro sanitario |
-| **Diciembre de 2026** | Visitar Navi Fest, el Bazar CCL y la Feria Navideña Jockey como **investigación**: contar visitantes, fotografiar stands de comida, preguntar precios a los expositores. Si un organizador lo permite, hacer solo degustación gratuita con QR a la lista de espera | Validar el stand sin vender antes del RS |
-| **Febrero y marzo de 2027 (campaña escolar)** | **Primer pop-up pagado o de programa** en Jockey, La Rambla o Larcomar, con el RS en la etiqueta. Mensaje: "la lonchera de marzo" | Es cuando el padre A/B compra para la lonchera |
-| **Abril a junio de 2027** | Una feria o pop-up al mes y kermeses de colegios | Captar familias para la recompra por WhatsApp |
-| **Desde julio de 2027** | Si se pasa de 70 brownies por día, cotizar un módulo por 3 meses (o el premio Emprende Retail) | Pasar de evento a punto fijo |
+| **Octubre y noviembre de 2026** | Escribir a Jockey Plaza, Larcomar/La Feria, La Rambla, Open Plaza y Real Plaza Salaverry (plantilla abajo). Constituir AndiBite S.A.C. y sacar RUC | Primer punto de venta activo en noviembre (lo atienden los socios) |
+| **Diciembre de 2026** | **2 ferias navideñas pagadas** (Bazar CCL y Navi Fest o Feria Navideña Jockey) y 2 puntos de venta de fin de semana, con degustación y QR para captar el WhatsApp | Es el mes más fuerte del arranque: 4,355 brownies en el modelo |
+| **Febrero y marzo de 2027 (campaña escolar)** | 1 feria pagada de campaña escolar y 2 puntos en Jockey, La Rambla, Larcomar o la entrada de Wong o Vivanda. Mensaje: "la lonchera de marzo". Desde marzo entran los quioscos escolares | Es cuando el padre A/B compra para la lonchera |
+| **Abril a julio de 2027** | 2 puntos de fin de semana, 3 a 5 eventos sin costo al mes (kermeses, cumpleaños) | Captar familias para la recompra por WhatsApp |
+| **Desde agosto de 2027** | Tercer punto de venta; si un punto pasa de 70 brownies por día, cotizar un módulo por 3 meses (o el premio Emprende Retail) | Pasar de evento a punto fijo |
 
-**Cambio en la estrategia de canales:** con la indicación de la profesora, el stand se vuelve el canal de **primera compra** (el niño prueba delante del padre y el padre compra ahí). WhatsApp e Instagram pasan a ser el canal de **recompra** (con recordatorio por WhatsApp). El modelo de ingresos no cambia; cambia el orden del embudo. En la presentación TC5-8, la diapositiva 10 (selección del canal) debería decir "stand en mall y ferias para comprar, WhatsApp para volver a comprar".
+**Cambio en la estrategia de canales:** con la indicación de la profesora, el stand se vuelve el canal de **primera compra** (el niño prueba delante del padre y el padre compra ahí). WhatsApp e Instagram pasan a ser el canal de **recompra** (con recordatorio por WhatsApp). Así está ya en el Excel de costeo (modelo v3), en el documento 05 y en la presentación TC5-8 (diapositivas 9 a 11).
 
 ## 6. Plantilla de correo para pedir información
 
@@ -82,7 +82,7 @@ Un mall abre unas 12 horas al día, así que cuidar un stand propio a tiempo com
 >
 > Buenos días, equipo de [nombre del mall]:
 >
-> Somos AndiBite, un emprendimiento peruano de mini brownies de 20 g con sangrecita (hierro hemínico) y granos andinos, pensado para la lonchera de niños de 4 a 11 años. Lo producimos en una planta certificada y estamos tramitando el registro sanitario.
+> Somos AndiBite, un emprendimiento peruano de mini brownies de 20 g con sangrecita (hierro hemínico) y granos andinos, pensado para la lonchera de niños de 4 a 11 años. Lo producimos en una planta certificada y contamos con registro sanitario.
 >
 > Queremos participar en su programa o espacio para emprendedores y en las ferias de la campaña escolar 2027 (febrero y marzo). ¿Podrían indicarnos:
 > 1. las fechas de las próximas convocatorias o ferias;
@@ -95,7 +95,7 @@ Un mall abre unas 12 horas al día, así que cuidar un stand propio a tiempo com
 
 **A quién enviarlo:** emprendedores@jockey-plaza.com.pe · hello@neventum.com (Feria Navideña Jockey) · administración de La Rambla San Borja, Larcomar y Real Plaza Salaverry (por su web o Instagram) · Navi Fest: navifest.pe o 953 816 301 · Bazar CCL: 981 072 478.
 
-## 7. Requisitos que conviene tener listos
+## 7. Documentos que se consideran listos (su costo está en la inversión inicial)
 
 - **RUC** de AndiBite S.A.C. y comprobantes electrónicos.
 - **Registro sanitario DIGESA** del producto (planta con PGH o HACCP). Es obligatorio para vender envasado (DS 007-98-SA).
@@ -147,7 +147,7 @@ A esto se suma el carrito: unos S/1,500 a 3,000 una sola vez. Repartido en 12 me
 1. **Para el carrito**, el camino más realista es el espacio frente a la entrada del súper dentro de un mall, que se alquila al mall por semanas o fines de semana. Es más barato y sirve para medir cuánto se vende.
 2. **Pedir cotización escrita** a InRetail (Plaza Vea y Vivanda), a Cencosud (Wong y Metro), a una agencia de impulso y a 2 o 3 carpinterías.
 3. **Escenario de entrada:** solo fines de semana, con un costo de unos S/1,220 al mes. Hay que vender 76 brownies por día abierto, unos 13 packs.
-4. **Requisito previo:** el registro sanitario. Antes de tenerlo solo se puede hacer degustación.
+4. **Documentos:** el registro sanitario y el RUC se consideran listos (costo en la inversión inicial); llevar copias al pedir el espacio.
 
 Fuentes de esta sección: [Gestión, alquiler de módulos en centros comerciales (15-sep-2023)](https://gestion.pe/economia/mercados/alquiler-de-modulos-en-centros-comerciales-va-en-aumento-precios-y-espacio-ferias-retail-percy-vigil-jose-antonio-contreras-carlos-neuhaus-mega-plaza-open-plaza-accep-asociacion-de-centros-comerciales-y-de-entretenimiento-del-peru-noticia/) · [EVANG, cómo vender en supermercados del Perú (5-jun-2025)](https://evangcorp.com/insights/como-vender-en-supermercados-peru-tottus-plaza-vea-guia) · [Cencosud, quiero ser proveedor](https://www.cencosud.com/quiero-ser-proveedor-de-cencosud) · [GS1 Perú](https://www.gs1pe.org/como-asociarse-gs1-peru) · [Computrabajo, impulsadoras en Lima](https://pe.computrabajo.com/trabajo-de-impulsadoras-de-supermercados-en-lima) · [Melamina Sophie](https://melamina.net.pe/estantes-de-melamina-para-tienda/) · [InRetail, unidades de negocio](https://www.inretail.pe/en/our-company/business-units)
 
