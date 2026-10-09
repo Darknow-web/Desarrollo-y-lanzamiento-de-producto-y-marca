@@ -32,7 +32,7 @@ Versión 1, 3 de octubre de 2026. Documento de consultoría de mercados y finanz
 12. **Payback y caja:** la inversión no se recupera en el año 1: entre el resultado operativo del año (S/20,937.62) y la inversión (S/37,894.24) faltan **S/16,956.62** (opción C: S/15,312.37). Con el año 2 al ritmo de octubre a diciembre de 2027, la inversión se recupera en el **mes 18 (junio de 2028)**; con la opción C, en el mes 17. La caja más baja es de S/3,917.38 en febrero de 2027, con la cuota del préstamo incluida, y la caja al cierre del año 1 es de S/21,902.39.
 13. **Sensibilidad** (resultado operativo del año 1 y mes de recuperación; base: S/20,938 y mes 18): ventas −20 %, S/8,612 y mes 29; ventas +20 %, S/33,262 y mes 13; espacio a S/1,000 por punto al mes, S/9,738 y mes 26; maquila a S/0.55, S/15,395 y mes 21; unidad a S/5.00 en el stand, S/13,153 y mes 23 (tabla en la sección 8.3).
 14. **Régimen tributario:** S.A.C. en el Régimen MYPE Tributario (IGV de 18 %, pago a cuenta de 1 % y renta de 10 % sobre las primeras 15 UIT de utilidad) con facturación electrónica desde el primer día. El coordinador está en planilla como microempresa (REMYPE).
-15. **Lo que se formaliza antes de firmar:** contrato de maquila (tarifa de S/0.45 por brownie y lote mínimo), proveedor de sangrecita fresca (Redondos en Makro, con un segundo proveedor homologado), contratos de espacio de S/600 por punto al mes, aceptación infantil de la versión con eritritol, el rendimiento real por día de cada punto y la póliza de responsabilidad civil [HIPÓTESIS].
+15. **Lo que se formaliza antes de firmar:** contrato de maquila (tarifa de S/0.45 por brownie y lote mínimo), proveedor de sangrecita fresca (Redondos en Makro, con un segundo proveedor homologado), contratos de espacio de S/600 por punto al mes, aceptación infantil de la versión con eritritol, el rendimiento real por día de cada punto y la póliza de responsabilidad civil.
 
 ---
 
@@ -131,7 +131,7 @@ Supuestos de azúcar: plátano con 12.2 g por 100 g (USDA, citado en el document
 | Fase | Actividades | Responsables | Costo | Entregables |
 |---|---|---|---|---|
 | **Fase 0: preparación del producto** | 3 rondas de las fórmulas V-P y V-SO, con prueba de umbral de sangrecita (80, 120 y 160 g de equivalente). Prueba sensorial con al menos 20 niños por sabor (escala de caritas) y prueba triangular con los padres. Focus 2 con precio preguntado después de probar, más una encuesta a 30 padres con Van Westendorp (documento 04). Análisis preliminar de azúcares y hierro de las 2 mejores fórmulas. Cotización a MAKING, Unión, INDDA y Organic Andean Bites. Compra de la sangrecita fresca de pollo (Redondos en Makro, camales con SENASA); el polvo (Malli, Allpa Manta, Nutri H) queda como alternativa. Escalamiento y lote piloto en la planta | Diana (pruebas y escalamiento), Carlos (focus y encuesta), Patricia (cotizaciones y planta) | **S/3,740.81** (hoja Inversion, "desarrollo"): insumos de 3 lotes de prueba S/942.81 (3 × S/314.27, documento 02); endulzantes S/148.00; análisis preliminar S/750.00 (2 × S/375); prueba sensorial S/150.00; desarrollo y lote piloto en la planta S/1,750.00 [POR CONFIRMAR] | Fórmula congelada v3; informe sensorial; decisión sobre el octógono; precio validado; 2 plantas preseleccionadas |
-| **Fase 1: preparación de documentos, marca, puntos de venta y arranque** | Contrato de maquila con confidencialidad (la S.A.C. como titular del RS y la planta como fabricante, a S/0.45 por brownie). Documentos y permisos, considerados listos al abrir ventas: S.A.C. en un CDE de PRODUCE, RUC en el RMT, REMYPE y libro de reclamaciones, marca en clase 30, análisis para el RS, perfil nutricional con hierro, vida útil, etiqueta (declarar "fuente de hierro" solo si el laboratorio mide al menos 2.1 mg por 100 g), RS por VUCE, carnés de sanidad y póliza de responsabilidad civil para stands. Identidad, fotos, web y catálogo de WhatsApp Business. Pedir espacio y cotización a malls, cadenas de supermercados y organizadores de ferias (documento 08). Fabricar 1 carrito con vitrina y gráfica. Compra de equipos y empaque, y primer lote para enero y febrero. Contratar al coordinador(a) en planilla y armar la bolsa de vendedores de stand | Adela (documentos, contrato, planilla y espacios), Patricia (planta, carrito y lote), Angie (identidad y lanzamiento), Carlos (espacios y primeros puntos) | **Documentos y permisos S/6,251.20** (S.A.C. S/150; RUC, REMYPE y libro de reclamaciones S/0; marca S/401.20; revisión legal S/400; análisis para el RS S/1,800; perfil nutricional y hierro S/1,125; vida útil S/1,050; etiqueta S/650; tasa del RS S/0; carnés S/75; póliza S/600 [HIPÓTESIS]). **Marca S/1,250**. **Equipos y 1 carrito S/4,838**. **Arranque S/18,369.30**: empaque S/3,030, stock inicial S/4,135.30, marketing de lanzamiento S/3,204 y capital de trabajo S/8,000 | Contrato firmado; documentos y permisos listos; etiqueta aprobada; 1 carrito; coordinador(a) contratado(a); stock para enero y febrero (3,700 unidades vendidas en el modelo); espacios cotizados |
+| **Fase 1: preparación de documentos, marca, puntos de venta y arranque** | Contrato de maquila con confidencialidad (la S.A.C. como titular del RS y la planta como fabricante, a S/0.45 por brownie). Documentos y permisos, considerados listos al abrir ventas: S.A.C. en un CDE de PRODUCE, RUC en el RMT, REMYPE y libro de reclamaciones, marca en clase 30, análisis para el RS, perfil nutricional con hierro, vida útil, etiqueta (declarar "fuente de hierro" solo si el laboratorio mide al menos 2.1 mg por 100 g), RS por VUCE, carnés de sanidad y póliza de responsabilidad civil para stands. Identidad, fotos, web y catálogo de WhatsApp Business. Pedir espacio y cotización a malls, cadenas de supermercados y organizadores de ferias (documento 08). Fabricar 1 carrito con vitrina y gráfica. Compra de equipos y empaque, y primer lote para enero y febrero. Contratar al coordinador(a) en planilla y armar la bolsa de vendedores de stand | Adela (documentos, contrato, planilla y espacios), Patricia (planta, carrito y lote), Angie (identidad y lanzamiento), Carlos (espacios y primeros puntos) | **Documentos y permisos S/6,251.20** (S.A.C. S/150; RUC, REMYPE y libro de reclamaciones S/0; marca S/401.20; revisión legal S/400; análisis para el RS S/1,800; perfil nutricional y hierro S/1,125; vida útil S/1,050; etiqueta S/650; tasa del RS S/0; carnés S/75; póliza S/600). **Marca S/1,250**. **Equipos y 1 carrito S/4,838**. **Arranque S/18,369.30**: empaque S/3,030, stock inicial S/4,135.30, marketing de lanzamiento S/3,204 y capital de trabajo S/8,000 | Contrato firmado; documentos y permisos listos; etiqueta aprobada; 1 carrito; coordinador(a) contratado(a); stock para enero y febrero (3,700 unidades vendidas en el modelo); espacios cotizados |
 | **Fase 2: venta desde enero de 2027** (año 1: enero a diciembre de 2027) | **Stands y carritos en malls y supermercados**, fines de semana: 1 punto en enero, 2 puntos de febrero a julio y 3 puntos de agosto a diciembre. Todos los puntos llevan un(a) vendedor(a) pagado(a) (S/90 por día de atención); los socios supervisan y rotan por los puntos, sin reemplazar a los vendedores. Degustación en el punto y QR a WhatsApp. **Ferias y eventos:** 1 feria de campaña escolar en febrero y 2 ferias navideñas en diciembre, pagadas (S/1,800 cada una); el resto son eventos sin costo (kermeses, cumpleaños y ferias gratuitas: 40 en el año). **Recompra por WhatsApp e Instagram:** recordatorio al cliente del stand, rutas de delivery los martes y viernes por zona, pack de 12 por pedido (sin suscripción), atendida por el coordinador(a). **Colegios (quiosco)** desde marzo de 2027 y **tiendas naturistas** a consignación o con factura. Producción mensual con control de calidad por lote. GS1 desde el mes 6. Evaluación de góndola (Flora & Fauna o Vivanda) en el mes 9. Cierre de números todos los domingos, con los brownies vendidos por día en cada punto | Carlos (puntos, ventas y colegios), Angie (contenido, pauta y material de stand), Patricia (producción y despacho), Adela (contabilidad, SUNAT, planilla y trámite de espacios), Diana (calidad y nuevos sabores) | Costos fijos de S/2,503.39 al mes (administración S/760, coordinador S/709, marketing S/900 y depreciación S/134.39), más espacio de S/600 por punto al mes (S/16,800 en el año), vendedores de stand (S/23,670 en el año), 3 ferias pagadas (S/5,400) y los costos variables de la sección 4 | 52,786 unidades vendidas en el año; 3 puntos de venta desde agosto; unos 5 colegios y 8 naturistas a fines de 2027 [HIPÓTESIS: 300 u por colegio y 60 u por punto al mes]; resultado acumulado positivo desde abril de 2027; reporte trimestral |
 
 **Calendario del año 1.** Enero se vende con un solo punto (vacaciones); febrero suma el segundo punto y la feria de campaña escolar; marzo incorpora los quioscos con el año escolar; de agosto a diciembre se llega a 3 puntos y diciembre cierra con dos ferias navideñas. El resultado es negativo en enero y febrero y positivo en el resto de los meses (sección 8.2).
@@ -140,96 +140,85 @@ Supuestos de azúcar: plátano con 12.2 g por 100 g (USDA, citado en el document
 
 ## 4. Estructura de costos por unidad y por pack de 6 (maquila, versión V-SO)
 
-### 4.1 Supuestos de cada línea
+### 4.1 Costos de cada línea
 
 | Línea | Valor y fuente |
 |---|---|
-| Insumos | Fórmulas V-SO de la sección 2.3, con precios del documento 02 (Makro y mayoristas) y de los endulzantes (Plaza Vea y Wong), divididos entre 1.18 para quitar el IGV. Promedio de los 3 sabores |
-| Maquila | S/0.60 / 0.50 / 0.40 por unidad, dentro del rango de S/0.40 a 0.60 del documento 03 (UDEP: S/0.83 por empaque de 40 g en 2023) [POR CONFIRMAR] |
-| Empaque individual | Flow pack: S/0.12 / 0.09 / 0.06 [HIPÓTESIS sobre el documento 02] |
-| Etiqueta individual 5x5 | S/0.25 por unidad (Imprenta Peruana, 1,000 unidades, sin IGV, documento 02); S/0.10 con film impreso a 8,000 u/mes [HIPÓTESIS] |
-| Doypack | 16x22 cm a S/0.625 con IGV por 1,000 unidades (documento 02); S/0.55 a 8,000 u/mes |
-| Etiquetas del doypack | Frente y reverso, 7x7 cm, a S/0.36 cada una (1,000 unidades, documento 02) |
-| Control de calidad por lote | S/250 por análisis microbiológico de liberación de lote; 1 lote al mes, y 2 a 8,000 u/mes [HIPÓTESIS] |
-| Transporte planta-almacén | S/80 por viaje; 1, 2 y 4 viajes al mes [HIPÓTESIS] |
-| Almacenamiento | S/0.05 / 0.04 / 0.03 por unidad, pactado con la planta o con un operador logístico, para no necesitar licencia por almacén propio (documento 03) [HIPÓTESIS] |
+| Insumos | **S/0.40 por brownie** (promedio de los 3 sabores), con las fórmulas V-SO de la sección 2.3 y sangrecita fresca de pollo: 175 g crudos por lote de 24 (Redondos, S/11.29 por kg en Makro), que la planta cuece y licúa con los huevos como en la receta del documento 01. El resto de los insumos, con precios del documento 02 (Makro y mayoristas) y de los endulzantes (Plaza Vea y Wong), divididos entre 1.18 para quitar el IGV. Versión anterior, con sangrecita en polvo: S/0.605 a 3,000 u/mes |
+| Maquila | **S/0.45 por brownie de 20 g**: tarifa de referencia de S/20.75 por kg de snack horneado con elaboración y empaque (Organic Andean Bites, documento 03; tesis de la UDEP: S/0.83 por empaque de 40 g en 2023), actualizada a 2027. La planta cuece la sangrecita, mezcla, hornea, corta, pesa y sella la bolsita. Versión anterior: S/0.50 |
+| Empaque individual | Flow pack sin imprimir: S/0.09 por unidad [HIPÓTESIS sobre el documento 02] |
+| Etiqueta individual 5x5 | S/0.25 por unidad, solo en la unidad que se vende suelta (Imprenta Peruana, 1,000 unidades, sin IGV, documento 02). El pack de 6 de la opción B no lleva etiqueta por brownie |
+| Doypack | 16x22 cm a S/0.625 con IGV por 1,000 unidades, es decir S/0.53 sin IGV por envase de 6 (documento 02); el de 12 cuesta S/0.70 [HIPÓTESIS, talla mayor] |
+| Etiquetas del doypack | Frente y reverso, 7x7 cm, a S/0.36 cada una (1,000 unidades, documento 02): S/0.72 por envase |
+| Control de calidad por lote | S/250 por análisis microbiológico de liberación de lote; 1 lote al mes: S/0.083 por unidad a 3,000 u/mes [HIPÓTESIS] |
+| Transporte planta-almacén | S/80 por viaje; 2 viajes al mes: S/0.053 por unidad [HIPÓTESIS] |
+| Almacenamiento | S/0.04 por unidad, pactado con la planta o con un operador logístico, para no necesitar licencia por almacén propio (documento 03) [HIPÓTESIS] |
 | Merma | 5 % de insumos, maquila y empaque [HIPÓTESIS] |
 | Delivery al cliente | Referencia real en Lima Top y Lima Moderna: La Purita cobra S/9.50 + IGV por envío ([La Purita](https://www.lapurita.com/pages/costo-de-delivery), 03-oct-2026); Fika y La Purita ofrecen envío gratis desde S/150. Política de AndiBite: delivery gratis desde 2 packs, y S/6.00 en pedidos de 1 pack. Con un pedido promedio de 10 unidades, el costo neto queda en **S/0.80 por unidad** [HIPÓTESIS sobre ese dato real] |
 | Pasarela de pagos | Culqi: tarjetas nacionales 3.44 % + US$0.20 en línea; Yape 3.44 %; Plin y otras billeteras 3.99 %; PagoEfectivo 3.99 % con mínimo de S/3.50; comisiones inafectas al IGV ([Culqi](https://culqi.com/precios/)). Izipay: link de pago gratis, comisión desde 1.99 % para clientes nuevos y POS desde S/108 ([Izipay](https://www.izipay.pe/)). Mercado Pago [POR CONFIRMAR, página bloqueada]. Con un 15 % de transferencias sin costo, la mezcla da **3 %** del precio con IGV |
 | Comisiones de canal | Quiosco: 25 % para el concesionario [HIPÓTESIS]. Naturista: 40 % (rango de 35 a 50 % del documento 03). Supermercado: 35 % más 5 % de aportes y merma (el brief da 30 a 40 %). Marketplace: 28 % [POR CONFIRMAR, Rappi y Mercado Libre no publican su tarifa] |
-| Marketing fijo | S/800 / 1,300 / 2,000 al mes. La pauta se basa en el plan anterior (S/10 a 20 por día en ventanas de campaña); el CPM de Meta en Lima queda [POR CONFIRMAR]. En el modelo v3, S/900 al mes en promedio del año (pauta, degustaciones y material de stand), porque la captación se hace en el stand [HIPÓTESIS]. |
-| Administración y personal | S/700 al mes (contador S/250 según el rango de S/150 a 400 del documento 03; software S/60; web S/30; teléfono S/60; movilidad S/150; GS1 prorrateado S/85; banco y otros S/65). El asistente a medio tiempo de S/800 de la versión anterior se eliminó: los socios atienden los pedidos por WhatsApp y las impulsadoras, a S/90 por día, cubren los puntos adicionales |
-| Depreciación | Equipos mínimos por S/2,338.00 y 2 carritos por S/5,000.00, es decir S/7,338.00 a 36 meses: S/203.83 al mes (versión anterior: S/65 al mes) |
+| Marketing fijo | **S/900 al mes** en promedio del año (pauta, degustaciones y material de stand), porque la captación se hace en el stand [HIPÓTESIS]. La pauta se basa en el plan anterior (S/10 a 20 por día en ventanas de campaña); el CPM de Meta en Lima queda [POR CONFIRMAR] |
+| Administración | **S/760 al mes**: contador S/250 (rango de S/150 a 400 del documento 03), software S/60, web S/30, teléfono S/60, movilidad S/150, GS1 prorrateado S/85, banco y otros S/65, más S/60 de carnés de sanidad, uniformes y reposición del material de stand |
+| Coordinador(a) comercial y de operaciones | **S/709 al mes**, en planilla, medio tiempo de 4 horas: media remuneración mínima de 2027 (S/1,300 según el DS 015-2026-TR, es decir S/650) más 9 % de EsSalud; microempresa en el REMYPE. Atiende WhatsApp, pedidos y despacho, y lleva el stock a los stands: S/8,508 al año |
+| Vendedores de stand | **S/90 por día de atención**, en todos los puntos de venta (Computrabajo: S/50 a 90 por día de fin de semana, documento 08): S/23,670 al año. Los socios no atienden stands sin pago |
+| Depreciación | Equipos mínimos por S/2,338.00 y 1 carrito por S/2,500.00, es decir S/4,838.00 a 36 meses: S/134.39 al mes |
 | Impuestos | IGV de 18 %; RMT con pago a cuenta de 1 % de los ingresos netos y renta de 10 % hasta 15 UIT de utilidad (S/82,500) y 29.5 % sobre el exceso ([modelo.pe](https://modelo.pe/blog/regimen-mype-tributario-rmt-2026-tasas-limites/); UIT de S/5,500 en el documento 03). Se recomienda el RMT porque paga sobre la utilidad y emite factura, a diferencia del NRUS (documento 03) |
 
-### 4.2 Costo por unidad y por pack de 6
+### 4.2 Costo de producción por presentación
 
-| Concepto (S/ por unidad, sin IGV) | 1,000 u/mes | 3,000 u/mes | 8,000 u/mes |
+El Excel (hoja Costeo) calcula el costo de cada presentación sin IGV, con el control de calidad, el transporte y el almacén prorrateados a 3,000 u/mes.
+
+| Concepto (S/ sin IGV por presentación) | Unidad suelta | Pack de 6, opción B (bolsitas) | Pack de 6, opción C (sueltos) | Pack de 12 |
+|---|---|---|---|---|
+| Insumos (sangrecita fresca, S/0.40 por brownie) | 0.40 | 2.40 | 2.40 | 4.80 |
+| Maquila (S/0.45 por brownie) | 0.45 | 2.70 | 2.70 | 5.40 |
+| Bolsita individual (flow pack) | 0.09 | 0.54 | 0 | 1.08 |
+| Etiqueta individual | 0.25 | 0 | 0 | 0 |
+| Papel manteca separador | 0 | 0 | 0.06 | 0 |
+| Doypack | 0 | 0.53 | 0.53 | 0.70 |
+| Etiquetas del doypack | 0 | 0.72 | 0.72 | 0.72 |
+| Merma 5 % | 0.06 | 0.34 | 0.32 | 0.64 |
+| Control de calidad, transporte y almacén | 0.18 | 1.06 | 1.06 | 2.11 |
+| **Costo de producción por presentación** | **1.43** | **8.29** | **7.79** | **15.45** |
+| **Costo de producción por brownie** | **1.43** | **1.38** | **1.30** | **1.29** |
+| Precio en stand sin IGV (S/5.50, S/26.00 y S/48.00 con IGV) | 4.66 | 22.03 | 22.03 | 40.68 |
+| Margen bruto en stand | 69 % | 62 % | 65 % | 62 % |
+| Precio por WhatsApp sin IGV (S/4.00, S/24.90 y S/46.90 con IGV) | 3.39 | 21.10 | 21.10 | 39.75 |
+| Margen bruto por WhatsApp | 58 % | 61 % | 63 % | 61 % |
+
+El margen bruto no incluye el espacio del stand, el personal, el delivery, la pasarela, las comisiones ni los costos fijos: esos se calculan en las secciones 4.3, 4.4 y 8. Con la V-P (panela), el costo de producción sería algo menor (diferencial de la versión anterior: S/0.11 por unidad a 3,000 u/mes).
+
+**Versión anterior (modelo v3).** Con sangrecita en polvo (insumos de S/0.605), maquila de S/0.50 y a 3,000 u/mes, el pack de 6 de la opción B costaba S/9.90 (S/1.65 por brownie), la unidad suelta S/1.69, el pack de 12 S/18.66 (S/1.56 por unidad) y el pack de 6 de la opción C S/9.39. El costo con la opción A (etiqueta en cada brownie) fue de S/2.52, S/1.91 y S/1.32 por unidad a 1,000, 3,000 y 8,000 u/mes; el modelo v5 trabaja con el volumen de 3,000 u/mes.
+
+### 4.3 Contribución por brownie y por canal
+
+La contribución es el precio sin IGV menos el costo de producción y los costos variables del canal (degustación y movilidad, delivery, pasarela, renta de 1 %), antes del espacio, los vendedores, las ferias y los costos fijos. Se calcula con la mezcla de presentaciones de cada canal (sección 6.1).
+
+| Canal | Ingreso promedio con IGV por brownie | Costo variable de canal (sin IGV) | Contribución por brownie |
 |---|---|---|---|
-| Insumos (3 sabores, sangrecita en polvo) | 0.864 | 0.605 | 0.431 |
-| Maquila [POR CONFIRMAR] | 0.600 | 0.500 | 0.400 |
-| Empaque individual (flow pack) | 0.120 | 0.090 | 0.060 |
-| Etiqueta individual | 0.250 | 0.250 | 0.100 |
-| Doypack (1/6 por unidad) | 0.088 | 0.088 | 0.078 |
-| Etiquetas del doypack (1/6) | 0.120 | 0.120 | 0.067 |
-| Control de calidad por lote | 0.250 | 0.083 | 0.062 |
-| Transporte planta-almacén | 0.080 | 0.053 | 0.040 |
-| Almacenamiento | 0.050 | 0.040 | 0.030 |
-| Merma 5 % | 0.102 | 0.083 | 0.057 |
-| **Costo de producción puesto en almacén** | **2.52** | **1.91** | **1.32** |
-| Delivery al cliente (neto) | 0.80 | 0.80 | 0.80 |
-| Pasarela de pagos (3 % de S/4.50) | 0.14 | 0.14 | 0.14 |
-| Marketing fijo | 0.80 | 0.43 | 0.25 |
-| Administración y personal de apoyo | 1.50 | 0.50 | 0.19 |
-| Depreciación | 0.07 | 0.02 | 0.01 |
-| Renta RMT, pago a cuenta de 1 % | 0.04 | 0.04 | 0.04 |
-| **Costo total por unidad (canal directo)** | **5.86** | **3.84** | **2.74** |
-| **Costo de producción por pack de 6** | **15.15** | **11.48** | **7.95** |
-| **Costo total por pack de 6 (canal directo)** | **35.18** | **23.05** | **16.46** |
-
-Con la V-P (panela), el costo de producción sería de S/2.28, S/1.80 y S/1.28 por unidad (S/13.65, S/10.79 y S/7.66 por pack).
-
-**Nota del 9 de octubre de 2026.** La tabla anterior es de la versión anterior: usa la opción A (etiqueta en cada brownie) y calcula la pasarela sobre S/4.50. Con las presentaciones y precios confirmados, el Excel (hoja Costeo) da, a 3,000 u/mes y sin IGV: unidad suelta S/1.69; pack de 6 opción B S/9.90 (S/1.65 por unidad); pack de 6 opción C (brownies sueltos con papel manteca) S/9.39 (S/1.57 por unidad); pack de 12 S/18.66 (S/1.56 por unidad). Margen bruto en venta directa: 50.0 %, 53.1 %, 55.5 % y 53.1 %, respectivamente.
-
-### 4.3 Margen neto por unidad a los tres precios candidatos, por canal
-
-El margen neto descuenta el costo de producción, los costos variables del canal, la renta de 1 % y los costos fijos prorrateados según el volumen. El porcentaje se calcula sobre el precio sin IGV. *Versión anterior: precios candidatos de S/3.50, S/4.50 y S/5.50 por unidad y costo de la opción A. Los precios confirmados están en la sección 5 y su resultado, en la sección 8.*
-
-| Canal | Precio al público con IGV (unidad / pack de 6) | AndiBite recibe sin IGV por unidad | 1,000 u/mes | 3,000 u/mes | 8,000 u/mes |
-|---|---|---|---|---|---|
-| Directo (WhatsApp e IG) | 3.50 / 21.00 | 2.97 | −2.86 (−96 %) | −0.84 (−28 %) | 0.26 (9 %) |
-| Directo (WhatsApp e IG) | **4.50 / 27.00** | 3.81 | −2.05 (−54 %) | −0.03 (−1 %) | **1.07 (28 %)** |
-| Directo (WhatsApp e IG) | 5.50 / 33.00 | 4.66 | −1.24 (−27 %) | 0.78 (17 %) | 1.88 (40 %) |
-| Ferias y eventos (stand de S/200 por evento, unos S/1.00 por unidad) | 3.50 / 21.00 | 2.97 | −3.04 | −1.02 | 0.08 (3 %) |
-| Ferias y eventos | 4.50 / 27.00 | 3.81 | −2.23 | −0.21 | 0.89 (23 %) |
-| Ferias y eventos | 5.50 / 33.00 | 4.66 | −1.41 | 0.61 (13 %) | 1.71 (37 %) |
-| Colegio (quiosco, 25 %) | 3.50 / 21.00 | 2.22 | −2.84 | −0.82 | 0.28 (10 %) |
-| Colegio (quiosco, 25 %) | 4.50 / 27.00 | 2.86 | −2.21 | −0.19 | 0.91 (24 %) |
-| Colegio (quiosco, 25 %) | 5.50 / 33.00 | 3.50 | −1.58 | 0.44 (10 %) | 1.54 (33 %) |
-| Tienda naturista (40 %) | 3.50 / 21.00 | 1.78 | −3.38 | −1.36 | −0.26 (−9 %) |
-| Tienda naturista (40 %) | 4.50 / 27.00 | 2.29 | −2.89 | −0.87 | 0.23 (6 %) |
-| Tienda naturista (40 %) | 5.50 / 33.00 | 2.80 | −2.41 | −0.38 | 0.71 (15 %) |
-| Supermercado (35 % + 5 %) | 3.50 / 21.00 | 1.78 | −3.28 | −1.26 | −0.16 (−5 %) |
-| Supermercado (35 % + 5 %) | 4.50 / 27.00 | 2.29 | −2.77 | −0.75 | 0.34 (9 %) |
-| Supermercado (35 % + 5 %) | 5.50 / 33.00 | 2.80 | −2.27 | −0.25 | 0.85 (18 %) |
-| Marketplace (28 %) [POR CONFIRMAR] | 4.50 / 27.00 | 2.75 | −2.31 | −0.28 | 0.81 (21 %) |
+| Stands y carritos (malls y supermercados) | S/5.02 | S/0.27 + pasarela de 3 % | **S/2.39** |
+| Ferias y eventos | S/5.15 | S/0.27 + pasarela de 3 % | **S/2.48** |
+| Recompra por WhatsApp e Instagram | S/4.06 | Delivery S/0.80 + pasarela de 3 % | **S/1.13** |
+| Colegios (quiosco, AndiBite recibe S/3.00) | S/3.00 | Ruta semanal S/0.10 | **S/0.99** |
+| Tiendas naturistas (AndiBite cobra S/17.34 por pack) | S/2.89 | Reposición S/0.15 | **S/0.89** |
+| **Promedio** | **S/4.37** | | **S/1.83** |
 
 **Cómo se arma el margen en cada canal.** En venta directa, AndiBite cobra el precio completo, pero paga el delivery, la pasarela y la pauta que trae al cliente. En los canales con intermediario no hay delivery a la casa ni pasarela, pero se entrega entre el 25 y el 40 % del precio. La diferencia de fondo es que en venta directa el costo de canal es casi fijo por pedido (unos S/9.50), así que mejora con pedidos más grandes, mientras que en los otros canales es un porcentaje del precio que no baja con el volumen. Por eso conviene empujar el pack de 12 y la recompra por WhatsApp, y por eso el supermercado necesita un precio en góndola más alto que el directo.
 
-**Lectura.** (1) A 1,000 u/mes ningún precio cubre los costos fijos y la maquila. Esa escala solo sirve como marcha blanca, o directamente no conviene operarla. (2) S/3.50 por unidad (la referencia de la profesora para la marcha blanca) solo deja margen a partir de 8,000 u/mes y en venta directa, así que **no sirve como precio de lista**. (3) A S/4.50 (versión anterior), la venta directa era rentable a partir de unas 3,500 u/mes; con los precios confirmados, el equilibrio es de 2,215 u/mes (sección 8.1). (4) Los canales con intermediario (naturista y supermercado) solo son rentables con precios en góndola de S/5.30 a 5.50 por unidad y volúmenes de 8,000 u/mes o más. Por eso el supermercado queda para el año 2.
+**Lectura.** (1) El stand y la feria dejan más del doble por brownie que la recompra, el colegio o la tienda naturista, porque cobran el precio de lista de físico (S/5.50 la unidad), pero deben pagar el espacio, el vendedor y las ferias (sección 4.4). (2) Un punto de fin de semana con 9 días de atención cuesta S/1,410 al mes (S/600 de espacio y S/810 de vendedor) y se paga con unos 590 brownies al mes, es decir unos 66 por día de atención, a S/2.39 de contribución; la meta es de 80 o más por día. (3) Colegios y tiendas naturistas aportan menos de S/1.00 por brownie: sirven para dar volumen, mostrar la marca ante los padres de un mismo salón y repartir los costos fijos, no como fuente principal de ganancia. (4) Los canales con intermediario solo mejoran con precios en góndola de S/5.30 a 5.50 por unidad y volúmenes altos; por eso el supermercado queda para el año 2.
 
-### 4.4 Costos del canal físico (modelo v3)
+### 4.4 Costos del canal físico (modelo v5)
 
-| Concepto | Valor | Fuente o nota |
+| Concepto | Valor | Fuente de referencia |
 |---|---|---|
-| Alquiler del espacio por punto de venta, fines de semana | S/500 al mes [POR CONFIRMAR] | Módulo de 2 x 2 m desde S/500 hasta US$2,500 (Gestión, 15-sep-2023; documento 08). Ningún mall ni cadena publica tarifa |
-| Impulsadora | S/90 por día de stand, en los puntos que no atienden los socios | Computrabajo: S/50 a 90 por día de fin de semana (documento 08). Los socios cubren 1 punto sin pago [HIPÓTESIS] |
-| Feria pagada | S/1,825 por feria, con 700 unidades vendidas por feria [HIPÓTESIS] | La Feria de Barranco, S/1,650 a 2,000 (punto medio); el Bazar de la CCL cuesta S/2,500 + IGV, es decir S/2,950, S/1,125 más |
+| Espacio por punto de venta (carrito o stand de fin de semana en mall o supermercado) | **S/600 al mes por punto** | Módulo de 2 x 2 m en malls desde S/500 al mes (Gestión, 15-sep-2023); la entrada de un supermercado de Lima Top cuesta algo más (documento 08). Ningún mall ni cadena publica tarifa; se formaliza por contrato |
+| Vendedor(a) de stand | **S/90 por día de atención**, en todos los puntos | Computrabajo: S/50 a 90 por día de fin de semana (documento 08). Los socios supervisan y no cubren puntos sin pago |
+| Stand en feria de emprendimiento (2 a 3 días) | **S/1,800 por feria**; 3 ferias pagadas al año (S/5,400) | La Feria de Barranco S/1,650 a 2,000; Bazar Navideño CCL S/2,500 + IGV (S/2,950); Navi Fest (documento 08). Cada feria vende 700 unidades [HIPÓTESIS: una mype vende unos S/3,000 por feria de PRODUCE] |
 | Evento sin costo (kermés, cumpleaños, feria gratuita) | 150 unidades por evento [HIPÓTESIS] | Documento 08 |
 | Costo variable por unidad en stand y feria | S/0.27, más pasarela de 3 % | Degustación (1 brownie regalado por cada 10 vendidos, S/0.17) más movilidad y bolsas (S/0.10) [HIPÓTESIS] |
-| Contribución antes de alquiler y personal | S/1.87 por brownie en stands y carritos; S/1.93 en ferias y eventos | Excel, hoja Proyeccion |
+| Contribución antes de espacio y personal | S/2.39 por brownie en stands y carritos; S/2.48 en ferias y eventos | Excel, hoja Proyeccion |
 
-En el año 1 el alquiler suma S/12,500 (25 meses-punto por S/500), las impulsadoras S/10,890 y las ferias pagadas S/5,475: **S/28,865 en total, S/0.61 por unidad vendida**. Un punto con impulsadora durante 9 días (S/500 más S/810 = S/1,310 al mes) se paga con unos 700 brownies al mes (78 por día de atención); un punto que atienden los socios (S/500 al mes) se paga con unos 270 (30 por día). El modelo supone 84 brownies por día y por punto en promedio. Las ferias pagadas no se pagan solas (700 brownies dejan unos S/1,350 de contribución frente a S/1,825 de costo): se justifican por los contactos que vuelven por WhatsApp.
+En el año 1 el espacio suma S/16,800 (28 meses-punto por S/600), los vendedores de stand S/23,670 (263 días-punto por S/90) y las ferias pagadas S/5,400: **S/45,870 en total, S/0.87 por unidad vendida**. Un punto con vendedor durante 9 días cuesta S/1,410 al mes y se paga con unos 590 brownies (66 por día de atención). Cada feria pagada (700 brownies a S/2.48 de contribución, unos S/1,740) casi cubre su costo de S/1,800, y además deja contactos que vuelven por WhatsApp. El modelo supone unos 85 brownies por día y por punto en promedio, de 50 en enero a 100 en marzo.
 
 ---
 
@@ -237,110 +226,110 @@ En el año 1 el alquiler suma S/12,500 (25 meses-punto por S/500), las impulsado
 
 | Canal | Formato y precio al público (con IGV) | Precio que recibe AndiBite (con IGV) | Margen del canal | Lógica |
 |---|---|---|---|---|
-| **Stands, carritos y ferias (venta física, canal principal)** | Unidad **S/5.00**; pack de 6 **S/26.00** (S/4.33 por unidad); pack de 12 S/48.00 (S/4.00 por unidad) | Igual | 0 %; alquiler del punto, impulsadora y ferias pagadas se pagan aparte (sección 4.4) | Precio de lista en físico: el stand cuesta alquiler y personal, por eso es algo mayor que por WhatsApp. La unidad suelta (60 % de lo que se vende en el stand) deja que el niño pruebe delante de la madre; el pack de 6 y el de 12 son para llevarse. La caja degustación (S/12.00) queda para regalos y pedidos |
+| **Stands, carritos y ferias (venta física, canal principal)** | Unidad **S/5.50**; pack de 6 **S/26.00** (S/4.33 por unidad); pack de 12 S/48.00 (S/4.00 por unidad) | Igual | 0 %; espacio, vendedores y ferias pagadas se pagan aparte (sección 4.4) | Precio de lista en físico: el stand cuesta espacio y vendedor, por eso es mayor que por WhatsApp. La unidad suelta (60 % de lo que se vende en el stand) deja que el niño pruebe delante de la madre y es la que más margen deja (69 % de margen bruto); el pack de 6 (S/4.33 por brownie) y el de 12 son para llevarse. La caja degustación (S/12.00) queda para regalos y pedidos |
 | **Recompra por WhatsApp e Instagram (delivery)** | Pack de 6: **S/24.90** (S/4.15 por unidad); pack de 12: S/46.90 (S/3.91 por unidad); unidad o caja degustación de 3: S/4.00 por unidad (S/12.00); delivery gratis desde 2 packs | Igual | 0 % (AndiBite asume el delivery y el 3 % de la pasarela) | Calza con la disposición a pagar de Claudia (S/24 a 28 por pack, de S/4 a 5 por unidad, documento 04). El pack de 12 a S/3.91 por unidad atiende a Rodrigo (S/3 a 4). Es más barato que el stand para premiar la recompra de quien ya probó |
 | **Colegios (quiosco)** | Unidad **S/4.00** | S/3.00 | 25 % para el concesionario [HIPÓTESIS, negociar entre 25 y 30 %] | El ancla es el queque de la puerta del colegio (S/2.50 a 3, documento 04). Pagar S/1.00 a 1.50 más se justifica por el hierro y por no tener octógono. Solo entra la V-SO |
-| **Tiendas naturistas** | Pack de 6 en anaquel **S/28.90** (S/4.82 por unidad) | S/17.34 por pack | 40 % | El canal necesita entre 35 y 50 % (documento 03). AndiBite cobra S/17.34 con IGV por pack (S/14.69 sin IGV, S/2.45 por unidad) y deja una contribución de S/3.75 por pack (S/0.63 por unidad, opción B) antes de costos fijos. Es un canal de vitrina, no de volumen |
+| **Tiendas naturistas** | Pack de 6 en anaquel **S/28.90** (S/4.82 por unidad) | S/17.34 por pack | 40 % | El canal necesita entre 35 y 50 % (documento 03). AndiBite cobra S/17.34 con IGV por pack (S/14.69 sin IGV, S/2.45 por unidad) y deja una contribución de S/5.36 por pack (S/0.89 por unidad, opción B) antes de costos fijos. Es un canal de vitrina, no de volumen |
 | **Supermercados en góndola** (año 2) | Pack de 6 **S/32.90** (S/5.48 por unidad) [versión anterior; sin redefinir con los precios confirmados] | S/19.74 por pack | 35 % + 5 % | Exige GS1, factura, homologación y crédito de 30 a 60 días (documento 03). Solo es viable con 8,000 u/mes o más. En el año 1 se vende dentro del supermercado con carrito propio, en el canal de stands |
 
-**Por qué un mismo producto tiene precios distintos según el canal.** En el stand y en la feria el precio es algo mayor que por WhatsApp (S/5.00 frente a S/4.00 la unidad, S/26.00 frente a S/24.90 el pack de 6 y S/48.00 frente a S/46.90 el de 12), porque el punto paga alquiler e impulsadora, y a cambio quien recompra por WhatsApp ahorra. Por regla, el precio al público en tiendas de terceros debe ser igual o mayor que el directo, para que la tienda no compita con la marca ni la marca canibalice a la tienda. En el quiosco se vende la unidad suelta a S/4.00, por debajo del precio del stand, porque es el único canal con ancla de precio de impulso (el queque de la puerta, a S/2.50-3) y porque ahí la compra la hace el niño con su propina, no el adulto. En la tienda naturista el pack sube a S/28.90 en el anaquel para cubrir el 40 % del canal sin destruir la contribución de AndiBite. La diferencia de S/4.00 por pack frente a WhatsApp (S/24.90) es, además, un incentivo para que la familia recurrente migre a la recompra por WhatsApp y al pack de 12, que son los de mayor margen bruto relativo.
+**Por qué un mismo producto tiene precios distintos según el canal.** En el stand y en la feria el precio es mayor que por WhatsApp (S/5.50 frente a S/4.00 la unidad, S/26.00 frente a S/24.90 el pack de 6 y S/48.00 frente a S/46.90 el de 12), porque el punto paga espacio y vendedor, y a cambio quien recompra por WhatsApp ahorra. Por regla, el precio al público en tiendas de terceros debe ser igual o mayor que el directo, para que la tienda no compita con la marca ni la marca canibalice a la tienda. En el quiosco se vende la unidad suelta a S/4.00, por debajo del precio del stand, porque es el único canal con ancla de precio de impulso (el queque de la puerta, a S/2.50-3) y porque ahí la compra la hace el niño con su propina, no el adulto. En la tienda naturista el pack sube a S/28.90 en el anaquel para cubrir el 40 % del canal sin destruir la contribución de AndiBite. La diferencia de S/4.00 por pack frente a WhatsApp (S/24.90) es, además, un incentivo para que la familia recurrente migre a la recompra por WhatsApp y al pack de 12.
 
-**Benchmark por 20 g** (documento 02, precios del 03-oct-2026): Nutri H S/3.20 (galleta con hemoglobina bovina, el competidor más cercano); Siete Dragones S/3.01; Fika S/4.00; Mamalama S/4.10; Bimbo Nutra Bien S/1.67. El pack de 6 por WhatsApp a S/24.90 equivale a S/4.15 por brownie, a la par de Fika (S/4.00) y Mamalama (S/4.10), que se venden en góndola (S/0.15 y S/0.05 más). En el stand, el pack de 6 a S/26.00 (S/4.33 por brownie) queda 6 % a 8 % sobre ellos y la unidad a S/5.00, 22 % a 25 % sobre ellos; es el precio de probar en el momento y se debe validar con el Van Westendorp. La diferencia se justifica por el hierro hemínico, el producto sin octógono y la atención en el punto. Frente a Nutri H, el premio es de 30 % por WhatsApp: hay que comunicar el formato de brownie húmedo y la aceptación infantil probada. **Disposición a pagar del segmento:** el pack quincenal de S/24.90 suma S/49.80 al mes, es decir el 2.8 % del gasto en alimentos de un hogar B (S/1,795) y el 2.2 % de uno A (S/2,214) (APEIM 2025, documento 04). Estos precios se confirman o se ajustan con el Van Westendorp de la fase 0. Si la mediana de "caro, pero lo compraría" queda por debajo de S/4.00 por unidad, se bajan los precios del pack de 6 en el Excel (hoja Supuestos, celdas C40 a C42) y se recalcula el equilibrio, que hoy es de 2,215 u/mes.
+**Benchmark por 20 g** (documento 02, precios del 03-oct-2026): Nutri H S/3.20 (galleta con hemoglobina bovina, el competidor más cercano); Siete Dragones S/3.01; Fika S/4.00; Mamalama S/4.10; Bimbo Nutra Bien S/1.67. El pack de 6 por WhatsApp a S/24.90 equivale a S/4.15 por brownie, a la par de Fika (S/4.00) y Mamalama (S/4.10), que se venden en góndola (S/0.15 y S/0.05 más). En el stand, el pack de 6 a S/26.00 (S/4.33 por brownie) queda 6 % a 8 % sobre ellos y la unidad a S/5.50, 34 % a 38 % sobre ellos; es el precio de probar en el momento y se debe validar con el Van Westendorp. La diferencia se justifica por el hierro hemínico, el producto sin octógono y la atención en el punto. Frente a Nutri H, el premio es de 30 % por WhatsApp: hay que comunicar el formato de brownie húmedo y la aceptación infantil probada. **Disposición a pagar del segmento:** el pack quincenal de S/24.90 suma S/49.80 al mes, es decir el 2.8 % del gasto en alimentos de un hogar B (S/1,795) y el 2.2 % de uno A (S/2,214) (APEIM 2025, documento 04). Estos precios se confirman o se ajustan con el Van Westendorp de la fase 0. Si la mediana de "caro, pero lo compraría" queda por debajo de S/4.00 por unidad, se bajan los precios del pack de 6 en el Excel (hoja Supuestos, celdas C40 a C42) y se recalcula el equilibrio, que hoy es de 2,592 u/mes. Con la unidad a S/5.00 en el stand en lugar de S/5.50, el resultado del año 1 baja a S/13,153 (sección 8.3).
 
 ---
 
-## 6. Ventas del año 1 (noviembre de 2026 a octubre de 2027)
+## 6. Ventas del año 1 (enero a diciembre de 2027)
 
 ### 6.1 Supuestos por canal (escenario base)
 
-Calendario: las ventas físicas empiezan en noviembre de 2026. En los colegios privados de Lima las clases empiezan a inicios de marzo y el año termina a mediados de diciembre [HIPÓTESIS, calendario 2027 de Minedu POR CONFIRMAR]; por eso el quiosco se suma desde marzo de 2027. Enero baja a un solo punto de venta por las vacaciones.
+Calendario: las ventas físicas empiezan en enero de 2027 (mes 1). En los colegios privados de Lima las clases empiezan a inicios de marzo y el año termina a mediados de diciembre [HIPÓTESIS, calendario 2027 de Minedu POR CONFIRMAR]; por eso el quiosco se suma desde marzo de 2027 y baja en diciembre. Enero se vende con un solo punto de venta por las vacaciones.
 
 | Canal | Supuesto (base) |
 |---|---|
-| **Stands y carritos (malls y supermercados)** | Fines de semana. Puntos de venta: 1 en noviembre y enero, 2 en diciembre y de febrero a julio, 3 de agosto a octubre (25 meses-punto). Días de atención por punto: 9 al mes (12 en diciembre y 10 en julio). Brownies por día y por punto: de 50 en los meses de arranque a 100 en marzo (84 en promedio ponderado). Es el 41.4 % de las unidades |
-| **Ferias y eventos** | 3 ferias pagadas (2 navideñas en diciembre y 1 de campaña escolar en febrero) con 700 unidades cada una, y 40 eventos sin costo (kermeses, cumpleaños y ferias gratuitas) con 150 unidades cada uno: 3 en noviembre, 2 en diciembre, 1 en enero, 2 en febrero, 4 en marzo y abril, 5 en mayo, 4 en junio, 3 en julio y 4 de agosto a octubre [HIPÓTESIS] |
-| **Recompra por WhatsApp e Instagram (delivery)** | El 35 % de las unidades vendidas en stands, carritos y ferias el mes anterior vuelve a comprar por WhatsApp, con recordatorio y sin suscripción [HIPÓTESIS]. En noviembre, 150 pedidos de contactos captados en las degustaciones previas [HIPÓTESIS] |
-| **Colegios (quiosco)** | Desde marzo de 2027, de 300 unidades en marzo a 1,500 en octubre (unos 5 colegios de 300 u al mes) [HIPÓTESIS]. Sin venta de noviembre a febrero |
-| **Naturistas** | De 120 unidades en noviembre a 480 en octubre (unos 8 puntos de 60 u al mes) [HIPÓTESIS]. Pack de 6 por consignación o con factura |
+| **Stands y carritos (malls y supermercados)** | Fines de semana, todos con vendedor(a) pagado(a). Puntos de venta: 1 en enero, 2 de febrero a julio, 3 de agosto a diciembre (28 meses-punto). Días de atención por punto: 9 al mes (10 en julio y 12 en diciembre; 263 días-punto en el año). Brownies por día y por punto: de 50 en enero a 100 en marzo (unos 85 en promedio; la meta es 80 o más). Es el 42.9 % de las unidades |
+| **Ferias y eventos** | 3 ferias pagadas (1 de campaña escolar en febrero y 2 navideñas en diciembre) con 700 unidades cada una, y 40 eventos sin costo (kermeses, cumpleaños y ferias gratuitas) con 150 unidades cada uno: 1 en enero, 2 en febrero, 4 en marzo y abril, 5 en mayo, 4 en junio, 3 en julio, 4 en agosto y setiembre, 4 en octubre, 3 en noviembre y 2 en diciembre [HIPÓTESIS] |
+| **Recompra por WhatsApp e Instagram (delivery)** | El 35 % de las unidades vendidas en stands, carritos y ferias el mes anterior vuelve a comprar por WhatsApp, con recordatorio y sin suscripción [HIPÓTESIS]. En enero, 150 pedidos de contactos captados en las degustaciones previas [HIPÓTESIS] |
+| **Colegios (quiosco)** | Desde marzo de 2027, de 300 unidades en marzo a 1,500 en octubre y noviembre (unos 5 colegios de 300 u al mes) y 600 en diciembre [HIPÓTESIS]. Sin venta de enero a febrero |
+| **Naturistas** | De 120 unidades en enero a 480 en diciembre (unos 8 puntos de 60 u al mes) [HIPÓTESIS]. Pack de 6 por consignación o con factura |
 | **Supermercados en góndola** | 0 en el año 1; en el supermercado se vende con carrito propio dentro del canal de stands |
 
-**Cómo se reconcilia con el SOM del documento 04.** El documento 04 calculó 700 hogares núcleo que compran 18 packs al año, es decir 75,600 unidades. El año 1 del modelo vende 47,223 unidades (62 % del SOM), y ya no depende de que cada hogar se registre y recompre cada dos semanas, sino de cuántos brownies se venden por día en cada punto: la venta física es el 58.6 % de las unidades y la recompra por WhatsApp (35 % de lo vendido en físico el mes anterior) es el 18.6 %.
+**Cómo se reconcilia con el SOM del documento 04.** El documento 04 calculó 700 hogares núcleo que compran 18 packs al año, es decir 75,600 unidades. El año 1 del modelo vende 52,786 unidades (70 % del SOM), y ya no depende de que cada hogar se registre y recompre cada dos semanas, sino de cuántos brownies se venden por día en cada punto: la venta física es el 58.2 % de las unidades y la recompra por WhatsApp (35 % de lo vendido en físico el mes anterior) es el 17.4 %.
 
-Presentaciones por canal (Excel, hoja Supuestos, sección 6): en stands, 60 % unidad, 35 % pack de 6 y 5 % pack de 12; en ferias, 70 % unidad y 30 % pack de 6; en WhatsApp, 10 % unidad o caja degustación, 60 % pack de 6 y 30 % pack de 12; en colegios, 100 % unidad; en naturistas, 100 % pack de 6. Precio realizado por unidad con IGV (hoja Proyeccion): S/4.72 en stands, S/4.80 en ferias, S/4.06 por WhatsApp, S/3.00 en colegios y S/2.89 en naturistas (S/4.21 en promedio).
+Presentaciones por canal (Excel, hoja Supuestos, sección 6): en stands, 60 % unidad, 35 % pack de 6 y 5 % pack de 12; en ferias, 70 % unidad y 30 % pack de 6; en WhatsApp, 10 % unidad o caja degustación, 60 % pack de 6 y 30 % pack de 12; en colegios, 100 % unidad; en naturistas, 100 % pack de 6. Ingreso promedio por unidad con IGV (hoja Proyeccion): S/5.02 en stands, S/5.15 en ferias, S/4.06 por WhatsApp, S/3.00 en colegios y S/2.89 en naturistas (S/4.37 en promedio).
 
 ### 6.2 Escenario base, mes a mes
 
-| Concepto | Nov-26 | Dic-26 | Ene-27 | Feb-27 | Mar-27 | Abr-27 | May-27 | Jun-27 | Jul-27 | Ago-27 | Set-27 | Oct-27 | Total año |
+| Concepto | Ene-27 | Feb-27 | Mar-27 | Abr-27 | May-27 | Jun-27 | Jul-27 | Ago-27 | Set-27 | Oct-27 | Nov-27 | Dic-27 | Total año |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Puntos de venta con stand o carrito | 1 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 3 | 3 | 3 | 25 |
-| Días de atención por punto | 9 | 12 | 9 | 9 | 9 | 9 | 9 | 9 | 10 | 9 | 9 | 9 | 112 |
-| Brownies por día y por punto | 50 | 90 | 50 | 80 | 100 | 80 | 85 | 80 | 85 | 85 | 90 | 90 | 84 (promedio) |
-| Stands y carritos (malls y supermercados) | 450 | 2,160 | 450 | 1,440 | 1,800 | 1,440 | 1,530 | 1,440 | 1,700 | 2,295 | 2,430 | 2,430 | 19,565 |
-| Ferias y eventos | 450 | 1,700 | 150 | 1,000 | 600 | 600 | 750 | 600 | 450 | 600 | 600 | 600 | 8,100 |
-| Recompra por WhatsApp e Instagram | 150 | 315 | 1,351 | 210 | 854 | 840 | 714 | 798 | 714 | 753 | 1,013 | 1,061 | 8,773 |
-| Colegios (quiosco) | 0 | 0 | 0 | 0 | 300 | 600 | 765 | 900 | 600 | 1,200 | 1,200 | 1,500 | 7,065 |
+| Puntos de venta con stand o carrito | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 3 | 3 | 3 | 3 | 3 | 28 meses-punto |
+| Días de atención por punto | 9 | 9 | 9 | 9 | 9 | 9 | 10 | 9 | 9 | 9 | 9 | 12 | 112 |
+| Brownies por día y por punto | 50 | 80 | 100 | 80 | 85 | 80 | 85 | 85 | 90 | 90 | 90 | 90 | unos 85 (promedio) |
+| Stands y carritos (malls y supermercados) | 450 | 1,440 | 1,800 | 1,440 | 1,530 | 1,440 | 1,700 | 2,295 | 2,430 | 2,430 | 2,430 | 3,240 | 22,625 |
+| Ferias y eventos | 150 | 1,000 | 600 | 600 | 750 | 600 | 450 | 600 | 600 | 600 | 450 | 1,700 | 8,100 |
+| Recompra por WhatsApp e Instagram | 150 | 210 | 854 | 840 | 714 | 798 | 714 | 753 | 1,013 | 1,061 | 1,061 | 1,008 | 9,176 |
+| Colegios (quiosco) | 0 | 0 | 300 | 600 | 765 | 900 | 600 | 1,200 | 1,200 | 1,500 | 1,500 | 600 | 9,165 |
 | Tiendas naturistas | 120 | 180 | 180 | 240 | 300 | 300 | 360 | 360 | 360 | 420 | 420 | 480 | 3,720 |
-| **Total unidades** | **1,170** | **4,355** | **2,131** | **2,890** | **3,854** | **3,780** | **4,119** | **4,098** | **3,824** | **5,268** | **5,663** | **6,071** | **47,223** |
-| **Ventas con IGV (S/)** | 5,239 | 20,148 | 8,851 | 13,139 | 16,606 | 15,752 | 17,053 | 16,654 | 15,919 | 21,578 | 23,271 | 24,539 | 198,747.70 |
-| Ventas sin IGV (S/) | 4,440 | 17,074 | 7,501 | 11,135 | 14,073 | 13,349 | 14,451 | 14,114 | 13,491 | 18,286 | 19,721 | 20,796 | 168,430.25 |
+| **Total unidades** | **870** | **2,830** | **3,734** | **3,720** | **4,059** | **4,038** | **3,824** | **5,208** | **5,603** | **6,011** | **5,861** | **7,028** | **52,786** |
+| **Ventas con IGV (S/)** | 3,986 | 13,747 | 17,010 | 16,220 | 17,601 | 17,123 | 16,587 | 22,303 | 24,036 | 25,305 | 24,532 | 32,291 | 230,740.38 |
+| Ventas sin IGV (S/) | 3,378 | 11,650 | 14,415 | 13,746 | 14,916 | 14,511 | 14,057 | 18,901 | 20,370 | 21,445 | 20,790 | 27,365 | 195,542.70 |
 
 ### 6.3 Resultado de las ventas por canal y por presentación (año 1, opción B)
 
 | Canal | Unidades | % de las unidades | Ventas con IGV (S/) | % de las ventas | Contribución (S/) | Contribución por unidad (S/) |
 |---|---|---|---|---|---|---|
-| Stands y carritos (malls y supermercados) | 19,565 | 41.4 % | 92,281.58 | 46.4 % | 36,678.08 | 1.87 |
-| Ferias y eventos | 8,100 | 17.2 % | 38,880.00 | 19.6 % | 15,657.25 | 1.93 |
-| Recompra por WhatsApp e Instagram | 8,773 | 18.6 % | 35,640.31 | 17.9 % | 7,553.28 | 0.86 |
-| Colegios (quiosco) | 7,065 | 15.0 % | 21,195.00 | 10.7 % | 5,112.93 | 0.72 |
-| Tiendas naturistas | 3,720 | 7.9 % | 10,750.80 | 5.4 % | 2,325.60 | 0.63 |
-| **Total** | **47,223** | **100 %** | **198,747.70** | **100 %** | **67,327.14** | **1.43** |
+| Stands y carritos (malls y supermercados) | 22,625 | 42.9 % | 113,502.08 | 49.2 % | 53,963.42 | 2.39 |
+| Ferias y eventos | 8,100 | 15.3 % | 41,715.00 | 18.1 % | 20,119.49 | 2.48 |
+| Recompra por WhatsApp e Instagram | 9,176 | 17.4 % | 37,277.50 | 16.2 % | 10,357.12 | 1.13 |
+| Colegios (quiosco) | 9,165 | 17.4 % | 27,495.00 | 11.9 % | 9,086.63 | 0.99 |
+| Tiendas naturistas | 3,720 | 7.0 % | 10,750.80 | 4.7 % | 3,321.63 | 0.89 |
+| **Total** | **52,786** | **100 %** | **230,740.38** | **100 %** | **96,848.29** | **1.83** |
 
-| Presentación | Unidades | Envases vendidos | Ventas con IGV (S/) | % de las unidades |
-|---|---|---|---|---|
-| Unidad individual | 25,351 | 25,351 | 111,749.20 | 53.7 % |
-| Pack de 6 | 18,262 | 3,044 | 72,799.15 | 38.7 % |
-| Pack de 12 | 3,610 | 301 | 14,199.34 | 7.6 % |
+| Presentación | Unidades | Envases vendidos | Ventas con IGV (S/) | % de las unidades | % de las ventas |
+|---|---|---|---|---|---|
+| Unidad individual | 29,328 | 29,328 | 137,012.90 | 55.6 % | 59.4 % |
+| Pack de 6 | 19,574 | 3,262 | 78,443.62 | 37.1 % | 34.0 % |
+| Pack de 12 | 3,884 | 324 | 15,283.86 | 7.4 % | 6.6 % |
 
-**Escenarios.** La versión anterior tenía un escenario pesimista y uno optimista (mar-2027 a feb-2028, con venta directa como canal principal). El Excel actual calcula solo el escenario base; para probar otro escenario se cambian las celdas azules de las hojas Supuestos y Mensual (puntos de venta, días, brownies por día, eventos y alquiler). Las sensibilidades principales están en la sección 8.3.
+**Escenarios.** El Excel calcula solo el escenario base; para probar otro escenario se cambian las celdas azules de las hojas Supuestos y Mensual (puntos de venta, días, brownies por día, eventos y espacio). Las sensibilidades principales están en la sección 8.3.
 
 ### 6.4 Por qué medio se vende cada unidad (escenario base) [HIPÓTESIS de mezcla]
 
 | Canal | Medio de pedido | Unidades | Medio de pago | Medio de entrega |
 |---|---|---|---|---|
-| Stands y carritos | Compra en el punto después de probar (60 % unidad, 35 % pack de 6, 5 % pack de 12); QR a WhatsApp para el recordatorio | 19,565 | Yape o Plin con QR, POS (Izipay P2 Lite SE) y efectivo | Entrega en mano |
+| Stands y carritos | Compra en el punto después de probar (60 % unidad, 35 % pack de 6, 5 % pack de 12); QR a WhatsApp para el recordatorio | 22,625 | Yape o Plin con QR, POS (Izipay P2 Lite SE) y efectivo | Entrega en mano |
 | Ferias y eventos | 3 ferias pagadas (2,100 u) y 40 eventos sin costo, entre kermeses de colegio, cumpleaños y ferias gratuitas (6,000 u) | 8,100 | Ídem | Entrega en mano |
-| Recompra por WhatsApp e Instagram | WhatsApp Business con recordatorio al cliente del punto (35 % de lo vendido en físico el mes anterior) más 150 pedidos del primer mes; Instagram con clic a WhatsApp; pack de 12 por pedido | 8,773 | Yape o Plin, transferencia o tarjeta por link de Culqi o Izipay | Motorizado o courier en rutas de martes y viernes por zona; recojo en un punto acordado; delivery gratis desde 2 packs |
-| Colegios | Pedido B2B del concesionario por WhatsApp o correo; venta al alumno en el quiosco | 7,065 | Factura electrónica; transferencia a 15 o 30 días | Ruta semanal al colegio |
+| Recompra por WhatsApp e Instagram | WhatsApp Business con recordatorio al cliente del punto (35 % de lo vendido en físico el mes anterior) más 150 pedidos del primer mes; Instagram con clic a WhatsApp; pack de 12 por pedido | 9,176 | Yape o Plin, transferencia o tarjeta por link de Culqi o Izipay | Motorizado o courier en rutas de martes y viernes por zona; recojo en un punto acordado; delivery gratis desde 2 packs |
+| Colegios | Pedido B2B del concesionario por WhatsApp o correo; venta al alumno en el quiosco | 9,165 | Factura electrónica; transferencia a 15 o 30 días | Ruta semanal al colegio |
 | Naturistas | Pedido B2B; venta en anaquel | 3,720 | Factura; 30 días o consignación | Reposición quincenal |
 
 ---
 
 ## 7. Inversión inicial y financiamiento
 
-Todo lo que hace falta para vender desde el primer día está aquí, una sola vez (hoja Inversion del Excel). Los documentos y permisos se tratan como ya obtenidos al abrir las ventas en noviembre de 2026; su costo es parte de la inversión, no una condición del calendario.
+Todo lo que hace falta para vender desde el primer día está aquí, una sola vez (hoja Inversion del Excel). Los documentos y permisos se tratan como ya obtenidos al abrir las ventas en enero de 2027; su costo es parte de la inversión, no una condición del calendario.
 
 | Rubro | Detalle | S/ |
 |---|---|---|
-| Documentos y permisos | S.A.C. en un CDE de PRODUCE (notaría) S/150; RUC, Régimen MYPE Tributario, REMYPE y libro de reclamaciones virtual S/0; marca en INDECOPI, clase 30, S/401.20; revisión legal del contrato de maquila S/400; análisis para el registro sanitario S/1,800 (3 × S/600); perfil nutricional y hierro S/1,125 (3 × S/375); estudio de vida útil S/1,050; diseño y validación de la etiqueta S/650; tasa del RS S/0 (documento 03); carnés de sanidad de los 5 socios S/75; póliza de responsabilidad civil para stands S/600 [HIPÓTESIS] | 6,251.20 |
+| Documentos y permisos | S.A.C. en un CDE de PRODUCE (notaría) S/150; RUC, Régimen MYPE Tributario, REMYPE y libro de reclamaciones virtual S/0; marca en INDECOPI, clase 30, S/401.20; revisión legal del contrato de maquila S/400; análisis para el registro sanitario S/1,800 (3 × S/600); perfil nutricional y hierro S/1,125 (3 × S/375); estudio de vida útil S/1,050; diseño y validación de la etiqueta S/650; tasa del RS S/0 (documento 03); carnés de sanidad de los 5 socios S/75; póliza de responsabilidad civil para stands S/600 | 6,251.20 |
 | Desarrollo del producto | Pruebas caseras (insumos de 3 lotes) S/942.81; endulzantes S/148; análisis preliminar de azúcar y hierro S/750; prueba sensorial con niños S/150; desarrollo y lote piloto en la planta S/1,750 [POR CONFIRMAR] (sección 3) | 3,740.81 |
 | Marca | Identidad S/800; fotos de producto S/300; web y dominio S/150 | 1,250.00 |
-| Equipos mínimos y 2 carritos | Equipos S/2,338: balanza S/60; selladora de impulso S/150; 4 moldes S/120; termómetros S/80; 3 coolers S/240; estantería S/350; impresora térmica de lotes S/450; kit de feria (toldo, mesa y banner) S/780; POS S/108. Más 2 carritos de exhibición con vitrina y gráfica, 2 × S/2,500 = S/5,000 [POR CONFIRMAR; melamina a medida de S/1,150 a 1,350 por metro lineal, documento 08] | 7,338.00 |
+| Equipos mínimos y 1 carrito | Equipos S/2,338: balanza S/60; selladora de impulso S/150; 4 moldes S/120; termómetros S/80; 3 coolers S/240; estantería S/350; impresora térmica de lotes S/450; kit de feria (toldo, mesa y banner) S/780; POS S/108. Más 1 carrito de exhibición con vitrina y gráfica, S/2,500 [POR CONFIRMAR; melamina a medida de S/1,150 a 1,350 por metro lineal, documento 08]; los demás puntos usan el kit de feria o el módulo del mall | 4,838.00 |
 | Empaque inicial | Mínimos de compra: 5,000 flow packs S/450; 5,000 etiquetas individuales más troquel S/1,330; 1,000 doypacks S/530; 2,000 etiquetas de doypack S/720 | 3,030.00 |
-| Stock inicial | Para noviembre y diciembre: insumos, maquila, control de calidad, transporte y merma | 4,135.30 |
-| Marketing de lanzamiento (noviembre de 2026) | 600 muestras de degustación S/1,146; 40 packs para influencers S/458; pauta de expectativa S/600; POP S/400; material para ferias y kermeses S/300; video con niños (con consentimiento) S/300 | 3,204.00 |
-| Capital de trabajo de 2 meses | Colchón de caja para los primeros meses de venta; con la cuota del préstamo, la caja mínima del año 1 es de S/5,008.89 (sección 8.2) | 8,000.00 |
-| Imprevistos 10 % | Sobre todo lo anterior | 3,694.93 |
-| **Inversión total** | | **40,644.24** |
+| Stock inicial | Para enero y febrero: insumos, maquila, control de calidad, transporte y merma | 4,135.30 |
+| Marketing de lanzamiento (enero de 2027) | 600 muestras de degustación S/1,146; 40 packs para influencers S/458; pauta de expectativa S/600; POP S/400; material para ferias y kermeses S/300; video con niños (con consentimiento) S/300 | 3,204.00 |
+| Capital de trabajo de 2 meses | Colchón de caja para los primeros meses de venta; con la cuota del préstamo, la caja mínima del año 1 es de S/3,917.38 (sección 8.2) | 8,000.00 |
+| Imprevistos 10 % | Sobre todo lo anterior | 3,444.93 |
+| **Inversión total** | | **37,894.24** |
 
 | Fuente | Monto (S/) | Condición |
 |---|---|---|
-| Aporte de los 5 socios | 25,000.00 (S/5,000 cada uno, 61.5 % de la inversión) | Capital de la S.A.C. Si se constituye por un CDE con capital de hasta 1 UIT (S/5,500), se registra ese capital y el resto se aporta como cuenta por pagar a socios [POR CONFIRMAR con el notario] |
-| Préstamo | 16,000.00 | 24 cuotas de S/897.81 con una TEA de 35 % [POR CONFIRMAR; comparar tasas de microempresa en la SBS]; intereses totales de S/5,547.46; pagos del año 1 de S/10,773.73 (6.4 % de las ventas sin IGV). Se eligen 24 cuotas porque con 12 la cuota (unos S/1,560) se come la caja de los primeros meses. Alternativa: préstamo familiar sin intereses |
+| Aporte de los 5 socios | 25,000.00 (S/5,000 cada uno, 66.0 % de la inversión) | Capital de la S.A.C. Si se constituye por un CDE con capital de hasta 1 UIT (S/5,500), se registra ese capital y el resto se aporta como cuenta por pagar a socios [POR CONFIRMAR con el notario] |
+| Préstamo | 13,000.00 | 24 cuotas de S/729.47 con una TEA de 35 % [POR CONFIRMAR; comparar tasas de microempresa en la SBS]; intereses totales de S/4,507.31; pagos del año 1 de S/8,753.66 (S/5,531.92 de capital y S/3,221.74 de intereses; 4.5 % de las ventas sin IGV). Se eligen 24 cuotas porque con 12 la cuota (unos S/1,270) se come la caja de los primeros meses. Alternativa: préstamo familiar sin intereses |
 | Concurso de ProInnóvate (Startup Perú, línea de emprendimientos innovadores) | Hasta unos S/50,000 no reembolsables en convocatorias anteriores, con aporte de contrapartida del equipo [POR CONFIRMAR: el monto y las bases 2026 no se pudieron verificar porque gob.pe/proinnovate bloqueó la consulta] | **No se cuenta en el plan base**: el concurso tarda de 4 a 6 meses y es competitivo. Si se gana, se prepaga el préstamo y se financia el año 2 (GS1, film impreso y supermercado) |
 
-**Lógica del financiamiento.** Los S/11,242.01 de documentos, desarrollo y marca son riesgo puro (ningún banco los financiaría antes de que exista el producto) y los cubre el aporte de los socios. El préstamo ayuda a pagar lo que se convierte en activo o en caja: los 2 carritos y los equipos (S/7,338), el stock, el empaque y el capital de trabajo. Los pagos del préstamo en el año 1 equivalen al 6.4 % de las ventas sin IGV. La regla para los 5 socios es aportar lo mismo y tener la misma participación (20 % cada uno), y dejar escrito en el estatuto de la S.A.C. cómo se suman aportes adicionales si se activa el plan de contingencia.
+**Lógica del financiamiento.** Los S/11,242.01 de documentos, desarrollo y marca son riesgo puro (ningún banco los financiaría antes de que exista el producto) y los cubre el aporte de los socios. El préstamo ayuda a pagar lo que se convierte en activo o en caja: el carrito y los equipos (S/4,838), el stock, el empaque y el capital de trabajo. Los pagos del préstamo en el año 1 equivalen al 4.5 % de las ventas sin IGV. La regla para los 5 socios es aportar lo mismo y tener la misma participación (20 % cada uno), y dejar escrito en el estatuto de la S.A.C. cómo se suman aportes adicionales si se activa el plan de contingencia.
 
-El total financiado es de S/41,000; quedan S/355.76 adicionales en caja, que sumados al capital de trabajo dan la caja inicial de S/8,355.76 con la que parte la hoja Mensual.
+El total financiado es de S/38,000; quedan S/105.76 adicionales en caja, que sumados al capital de trabajo dan la caja inicial de S/8,105.76 con la que parte la hoja Mensual.
 
 ---
 
@@ -348,62 +337,84 @@ El total financiado es de S/41,000; quedan S/355.76 adicionales en caja, que sum
 
 ### 8.1 Punto de equilibrio
 
-Costos fijos mensuales: administración S/700 + asistente S/0 (los socios atienden los pedidos) + marketing S/900 + depreciación de equipos y carritos S/203.83 = **S/1,803.83**. Además, el alquiler, las impulsadoras y las ferias pagadas (S/28,865 al año, S/0.61 por unidad) se descuentan de la contribución: de los S/1.43 que deja cada unidad antes de esos costos, quedan **S/0.81** (Excel, hoja Resumen).
+Costos fijos mensuales: administración S/760 + coordinador(a) comercial y de operaciones en planilla S/709 + marketing S/900 + depreciación de equipos y carrito S/134.39 = **S/2,503.39**. Además, el espacio, los vendedores de stand y las ferias pagadas (S/45,870 al año, S/0.87 por unidad) se descuentan de la contribución: de los S/1.83 que deja cada unidad antes de esos costos, quedan **S/0.97** (Excel, hoja Resumen).
 
 | Concepto | Opción B (bolsitas) | Opción C (sueltos) |
 |---|---|---|
-| Contribución por unidad después de stands y ferias | S/0.81 | S/0.85 |
-| Costos fijos al mes | S/1,803.83 | S/1,803.83 |
-| **Punto de equilibrio (unidades al mes)** | **2,215** | 2,130 |
-| En packs de 6 equivalentes al mes | 369 | 355 |
-| En soles con IGV al mes (a S/4.21 por unidad en promedio) | unos S/9,300 | unos S/9,000 |
+| Contribución por unidad después de stands y ferias | S/0.97 | S/1.00 |
+| Costos fijos al mes | S/2,503.39 | S/2,503.39 |
+| **Punto de equilibrio (unidades al mes)** | **2,592** | 2,511 |
+| En packs de 6 equivalentes al mes | 432 | 419 |
+| En soles con IGV al mes (a S/4.37 por unidad en promedio) | unos S/11,300 | unos S/11,000 |
 
-El año promedia 3,935 unidades al mes, es decir 78 % más que el equilibrio. El equilibrio es un promedio del año: los meses con una feria pagada (diciembre y febrero) o con un solo punto de venta (noviembre y enero) pueden quedar cerca de cero o en negativo aunque se supere esa cifra. Versión anterior: 3,308 u/mes (551 packs) con venta directa como canal principal.
+El año promedia 4,399 unidades al mes, es decir 70 % más que el equilibrio. El equilibrio es un promedio del año: los meses con un solo punto de venta (enero) o con la feria de campaña escolar y el segundo punto recién abierto (febrero) quedan en negativo aunque el año supere esa cifra. Versión anterior: 2,215 u/mes (369 packs), con costos fijos de S/1,803.83 al mes.
 
 ### 8.2 Resultado operativo y caja mensual del año 1 (escenario base, opción B; S/ sin IGV salvo la primera fila; meses redondeados al sol y totales con centavos; antes de intereses e impuesto a la renta)
 
-| Concepto | Nov-26 | Dic-26 | Ene-27 | Feb-27 | Mar-27 | Abr-27 | May-27 | Jun-27 | Jul-27 | Ago-27 | Set-27 | Oct-27 | Total año |
+| Concepto | Ene-27 | Feb-27 | Mar-27 | Abr-27 | May-27 | Jun-27 | Jul-27 | Ago-27 | Set-27 | Oct-27 | Nov-27 | Dic-27 | Total año |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Ventas con IGV | 5,239 | 20,148 | 8,851 | 13,139 | 16,606 | 15,752 | 17,053 | 16,654 | 15,919 | 21,578 | 23,271 | 24,539 | 198,747.70 |
-| Ventas sin IGV | 4,440 | 17,074 | 7,501 | 11,135 | 14,073 | 13,349 | 14,451 | 14,114 | 13,491 | 18,286 | 19,721 | 20,796 | 168,430.25 |
-| Contribución (opción B) | 1,918 | 7,719 | 2,409 | 4,963 | 5,674 | 5,204 | 5,711 | 5,423 | 5,331 | 7,241 | 7,718 | 8,014 | 67,327.14 |
-| Alquiler de espacios para stands y carritos | −500 | −1,000 | −500 | −1,000 | −1,000 | −1,000 | −1,000 | −1,000 | −1,000 | −1,500 | −1,500 | −1,500 | −12,500 |
-| Impulsadoras | 0 | −1,080 | 0 | −810 | −810 | −810 | −810 | −810 | −900 | −1,620 | −1,620 | −1,620 | −10,890 |
-| Ferias pagadas | 0 | −3,650 | 0 | −1,825 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | −5,475 |
-| Costos fijos | −1,804 | −1,804 | −1,804 | −1,804 | −1,804 | −1,804 | −1,804 | −1,804 | −1,804 | −1,804 | −1,804 | −1,804 | −21,646 |
-| **Resultado operativo (opción B)** | **−386** | **185** | **105** | **−475** | **2,060** | **1,590** | **2,098** | **1,809** | **1,627** | **2,318** | **2,795** | **3,091** | **16,816.14** |
-| Resultado acumulado | −386 | −201 | −96 | −571 | 1,489 | 3,080 | 5,177 | 6,986 | 8,613 | 10,931 | 13,726 | 16,816 | 16,816.14 |
-| Cuota del préstamo (24 cuotas) | −898 | −898 | −898 | −898 | −898 | −898 | −898 | −898 | −898 | −898 | −898 | −898 | −10,773.73 |
-| **Caja al cierre del mes** | **7,276** | **6,767** | **6,178** | **5,009** | **6,375** | **7,272** | **8,675** | **9,790** | **10,723** | **12,347** | **14,448** | **16,844** | **16,844.17** |
+| Ventas con IGV | 3,986 | 13,747 | 17,010 | 16,220 | 17,601 | 17,123 | 16,587 | 22,303 | 24,036 | 25,305 | 24,532 | 32,291 | 230,740.38 |
+| Ventas sin IGV | 3,378 | 11,650 | 14,415 | 13,746 | 14,916 | 14,511 | 14,057 | 18,901 | 20,370 | 21,445 | 20,790 | 27,365 | 195,542.70 |
+| Contribución (opción B) | 1,722 | 6,316 | 7,206 | 6,682 | 7,344 | 6,986 | 6,895 | 9,325 | 9,941 | 10,346 | 9,973 | 14,112 | 96,848.29 |
+| Espacio para stands y carrito | −600 | −1,200 | −1,200 | −1,200 | −1,200 | −1,200 | −1,200 | −1,800 | −1,800 | −1,800 | −1,800 | −1,800 | −16,800 |
+| Vendedores de stand | −810 | −1,620 | −1,620 | −1,620 | −1,620 | −1,620 | −1,800 | −2,430 | −2,430 | −2,430 | −2,430 | −3,240 | −23,670 |
+| Ferias pagadas | 0 | −1,800 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | −3,600 | −5,400 |
+| Costos fijos | −2,503 | −2,503 | −2,503 | −2,503 | −2,503 | −2,503 | −2,503 | −2,503 | −2,503 | −2,503 | −2,503 | −2,503 | −30,040.67 |
+| **Resultado operativo (opción B)** | **−2,191** | **−807** | **1,882** | **1,359** | **2,021** | **1,662** | **1,391** | **2,592** | **3,207** | **3,613** | **3,240** | **2,968** | **20,937.62** |
+| Resultado acumulado | −2,191 | −2,998 | −1,116 | 243 | 2,264 | 3,926 | 5,318 | 7,909 | 11,117 | 14,729 | 17,969 | 20,938 | 20,937.62 |
+| Cuota del préstamo (24 cuotas) | −729 | −729 | −729 | −729 | −729 | −729 | −729 | −729 | −729 | −729 | −729 | −729 | −8,753.66 |
+| **Caja al cierre del mes** | **5,320** | **3,917** | **5,205** | **5,968** | **7,394** | **8,462** | **9,258** | **11,255** | **13,867** | **16,884** | **19,529** | **21,902** | **21,902.39** |
 
-La caja parte de S/8,355.76 (capital de trabajo de S/8,000 más lo que sobra de la inversión) y cada mes suma el resultado y la depreciación (que no sale de caja) y resta la cuota del préstamo, que incluye capital e intereses. Es una caja simplificada [HIPÓTESIS]: no modela el desfase de cobranzas a colegios y naturistas (30 días) ni el pago anticipado de la producción del mes siguiente; esos desfases se deben revisar con el contador cuando haya ventas reales.
+La caja parte de S/8,105.76 (capital de trabajo de S/8,000 más lo que sobra de la inversión) y cada mes suma el resultado y la depreciación (que no sale de caja) y resta la cuota del préstamo, que incluye capital e intereses. Es una caja simplificada [HIPÓTESIS]: no modela el desfase de cobranzas a colegios y naturistas (30 días), el pago anticipado de la producción del mes siguiente ni el pago del impuesto a la renta anual (S/1,967.13, que se paga después del cierre del año); esos desfases se deben revisar con el contador cuando haya ventas reales.
 
-**Lectura.** (1) Noviembre cierra en −S/386: hay un solo punto de venta, 1,170 unidades y los 3 eventos sin costo, y la inversión en marketing de lanzamiento ya está pagada. (2) Diciembre vende 4,355 unidades, pero las dos ferias navideñas pagadas (S/3,650) y la impulsadora del segundo punto (S/1,080) dejan solo S/185. (3) Enero, con un punto y 2,131 unidades (1,351 de recompra por WhatsApp), deja S/105. (4) Febrero cierra en −S/475 por la feria de campaña escolar (S/1,825) y los dos puntos con impulsadora. (5) El resultado acumulado es negativo hasta febrero (−S/571) y positivo desde marzo de 2027 (S/1,489 en marzo). De marzo a octubre el resultado mensual está entre S/1,590 y S/3,091. (6) La caja baja a S/5,008.89 en febrero de 2027, su mínimo, casi tres veces los costos fijos de un mes, y cierra el año en S/16,844.17; el capital de trabajo de S/8,000 es lo que sostiene noviembre y febrero.
+**Lectura.** (1) Enero cierra en −S/2,191: hay un solo punto de venta con su vendedor, 870 unidades y un evento sin costo, y la inversión en marketing de lanzamiento ya está pagada. (2) Febrero cierra en −S/807: abre el segundo punto, que suma espacio y vendedor, y se paga la feria de campaña escolar (S/1,800). (3) El resultado acumulado es negativo hasta marzo (−S/1,116) y positivo desde abril de 2027 (S/243). De marzo a diciembre el resultado mensual está entre S/1,359 y S/3,613. (4) Diciembre vende 7,028 unidades (S/32,291 con IGV) y deja S/2,968 aun con las dos ferias navideñas (S/3,600) y tres puntos de 12 días con vendedor (S/3,240). (5) La caja baja a S/3,917.38 en febrero de 2027, su mínimo (1.6 veces los costos fijos de un mes), y cierra el año en S/21,902.39; el capital de trabajo de S/8,000 es lo que sostiene enero y febrero.
 
-### 8.3 Resultado del año 1 y payback
+### 8.3 Resultado del año 1, utilidad neta, payback y sensibilidad
 
 | Concepto (S/ sin IGV) | Opción B (bolsitas) | Opción C (sueltos) |
 |---|---|---|
-| Ventas sin IGV | 168,430.25 | 168,430.25 |
-| Producción y costos variables de canal | −101,103.11 | −99,569.14 |
-| **Contribución** | **67,327.14** | **68,861.11** |
-| Alquiler de espacios para stands y carritos | −12,500.00 | −12,500.00 |
-| Impulsadoras | −10,890.00 | −10,890.00 |
-| Ferias pagadas | −5,475.00 | −5,475.00 |
-| Administración | −8,400.00 | −8,400.00 |
-| Asistente de pedidos | 0.00 | 0.00 |
+| Ventas sin IGV | 195,542.70 | 195,542.70 |
+| Producción y costos variables de canal | −98,694.41 | −97,050.17 |
+| **Contribución** | **96,848.29** | **98,492.53** |
+| Espacio para stands y carrito | −16,800.00 | −16,800.00 |
+| Vendedores de stand | −23,670.00 | −23,670.00 |
+| Ferias pagadas | −5,400.00 | −5,400.00 |
+| Administración | −9,120.00 | −9,120.00 |
+| Coordinador(a) comercial y de operaciones (planilla) | −8,508.00 | −8,508.00 |
 | Marketing | −10,800.00 | −10,800.00 |
-| Depreciación | −2,446.00 | −2,446.00 |
-| **Resultado operativo** | **16,816.14** | **18,350.11** |
-| **Margen operativo** | **10.0 %** | **10.9 %** |
-| Inversión inicial | −40,644.24 | −40,644.24 |
-| **Resultado del año 1 menos la inversión** | **−23,828.10** | **−22,294.13** |
+| Depreciación | −1,612.67 | −1,612.67 |
+| **Resultado operativo** | **20,937.62** | **22,581.87** |
+| **Margen operativo** | **10.7 %** | **11.5 %** |
+| Inversión inicial | −37,894.24 | −37,894.24 |
+| **Resultado del año 1 menos la inversión** | **−16,956.62** | **−15,312.37** |
 
-El resultado no incluye los intereses del préstamo (S/5,547.46 en total, en 24 cuotas), el impuesto a la renta anual ni sueldos para los socios. Los gastos de documentos, desarrollo y marca ya no se descuentan aparte, como en la versión anterior: son parte de la inversión.
+**De resultado operativo a utilidad neta (año 1, opción B).**
 
-**Payback.** La inversión **no se recupera en el año 1**: faltan S/23,828.10 (opción B). Con el ritmo de octubre de 2027 (S/3,091 al mes) faltarían unos 8 meses más, es decir hacia mediados de 2028 [estimación gruesa; el Excel no proyecta el año 2 ni la estacionalidad de enero y febrero]. Versión anterior: payback de 9 meses de operación (noviembre de 2027), calculado con otro año comercial y otros canales.
+| Concepto | S/ |
+|---|---|
+| Resultado operativo | 20,937.62 |
+| Más: pagos a cuenta de renta (1 % de las ventas sin IGV) ya restados en el costo de canal | +1,955.43 |
+| Menos: intereses del préstamo en el año 1 | −3,221.74 |
+| **Utilidad antes de impuestos** | **19,671.31** |
+| Menos: impuesto a la renta del Régimen MYPE Tributario (10 % hasta 15 UIT de utilidad) | −1,967.13 |
+| **Utilidad neta del año 1** | **17,704.18** |
 
-**Advertencias.** (1) El resultado supone que los socios no cobran sueldo: si cada uno recibiera S/500 al mes (S/30,000 al año), el resultado operativo sería negativo, de unos −S/13,200. (2) **Sensibilidades** (cálculos derivados de la lógica del Excel, no son hojas del modelo): con el alquiler al doble (S/1,000 por punto al mes) el resultado baja S/12,500, a S/4,316; con 20 % menos brownies por día y por punto, baja a unos S/8,450, y llega a cero con 40 % menos; con la maquila a S/0.60 baja unos S/5,000; con una recompra por WhatsApp de 20 % en lugar de 35 %, baja a unos S/13,600. El efecto del polvo de sangrecita a S/417 por kg está por recalcular. (3) **Plan de contingencia:** si el promedio de brownies por día y por punto cae por debajo de 60 durante dos meses seguidos [HIPÓTESIS; el resultado del año llega a cero con unos 50], se cierran los puntos con impulsadora (S/810 al mes por punto), se cancelan las ferias pagadas que falten, se sigue solo con los puntos que atienden los socios, los colegios y los eventos sin costo, y, si la caja baja de un mes de costos fijos, cada socio aporta S/2,500 adicionales (S/12,500) y se replantea el precio o el formato antes de seguir.
+El resultado operativo ya incluye a todo el personal que opera el negocio (vendedores de stand y coordinador en planilla). Los socios son dueños y directorio: no cobran un sueldo operativo y reciben las utilidades que decida distribuir la S.A.C. Los gastos de documentos, desarrollo y marca no se descuentan aparte: son parte de la inversión.
+
+**Payback.** La inversión **no se recupera en el año 1**: faltan S/16,956.62 (opción B). Con el año 2 al ritmo de octubre a diciembre de 2027 (unos S/3,274 al mes), se recupera en el **mes 18 (junio de 2028)**; con la opción C, en el mes 17 [el Excel proyecta el año 2 con ese ritmo y sin estacionalidad de enero y febrero].
+
+**Sensibilidad** (Excel; cada fila cambia un solo dato del escenario base):
+
+| Escenario | Resultado operativo del año 1 | Mes de recuperación de la inversión |
+|---|---|---|
+| Base | S/20,938 | 18 (junio de 2028) |
+| Ventas −20 % | S/8,612 | 29 |
+| Ventas +20 % | S/33,262 | 13 |
+| Espacio a S/1,000 por punto al mes | S/9,738 | 26 |
+| Maquila a S/0.55 por brownie | S/15,395 | 21 |
+| Unidad a S/5.00 en el stand y la feria | S/13,153 | 23 |
+
+**Advertencias.** (1) Todo el personal operativo (vendedores de stand y coordinador) está pagado dentro del resultado; los socios, como dueños y directorio, se remuneran con las utilidades y no con un sueldo operativo. (2) La utilidad neta de S/17,704.18 se calcula después de intereses y renta, pero antes de devolver capital del préstamo (S/5,531.92 en el año 1). (3) **Plan de contingencia:** si el promedio de brownies por día y por punto cae por debajo de 66 durante dos meses seguidos [HIPÓTESIS; es lo que hace falta para pagar el espacio y el vendedor de un punto de 9 días], se cierran los puntos que no cubren sus S/1,410 al mes, se cancelan las ferias pagadas que falten, se sigue con los mejores puntos, los colegios y los eventos sin costo, y, si la caja baja de un mes de costos fijos (S/2,503), cada socio aporta S/2,500 adicionales (S/12,500) y se replantea el precio o el formato antes de seguir.
 
 ---
 
@@ -413,36 +424,37 @@ El resultado no incluye los intereses del préstamo (S/5,547.46 en total, en 24 
 
 | # | Riesgo | Impacto | Mitigación |
 |---|---|---|---|
-| 1 | El alquiler del stand o del carrito no está cotizado (el modelo supone S/500 por punto al mes y ningún mall ni cadena publica tarifa) o el mall no da el espacio | Alto: son S/12,500 al año; al doble, el resultado baja a S/4,316 | Pedir cotización escrita a 5 malls, a InRetail y a Cencosud (plantilla del documento 08); empezar por programas de emprendedores, gratuitos o simbólicos, y pop-ups de fin de semana; cambiar el valor en la hoja Supuestos (B57) apenas lleguen las cotizaciones |
-| 2 | Cada punto vende menos de 80 brownies por día (el modelo supone 84 en promedio, de 50 a 100) | Alto: con 40 % menos el resultado del año llega a cero | Degustación en el punto, elegir pasillos de alto tráfico, medir ventas por día y por hora, mover o cerrar puntos que no rindan; sumar eventos sin costo y colegios; enero y febrero ya suponen menos puntos |
-| 3 | Falta de personal y de tiempo: 5 estudiantes atienden un punto los fines de semana y el resto depende de impulsadoras (S/90 por día), en temporada de exámenes | Medio-alto | Turnos rotativos de los socios, bolsa de 3 o 4 impulsadoras con carné de sanidad y guion de venta, plantillas de WhatsApp Business y producción tercerizada |
-| 4 | Ninguna planta acepta lotes de 3,000 a 5,000 unidades o la maquila supera S/0.60 | Alto: pierde unos S/5,000 al año por cada S/0.10 de más | Cotizar 4 plantas; usar INDDA para las "primeras maquilas"; negociar corridas bimestrales, siempre dentro de la vida útil |
-| 5 | Escasez o precio alto del polvo de sangrecita | Medio-alto: es el insumo crítico | Homologar 2 proveedores (Malli y Allpa Manta) y cotizar polvo de pollo con un camal registrado en SENASA; la AndiBite S.A.C. compra el insumo y se lo entrega a la planta |
+| 1 | El espacio del stand o del carrito cuesta más que los S/600 por punto al mes del plan (ningún mall ni cadena publica tarifa) o el mall no da el espacio | Alto: son S/16,800 al año; a S/1,000 por punto, el resultado baja a S/9,738 y la recuperación pasa al mes 26 | Pedir cotización escrita a 5 malls, a InRetail y a Cencosud (plantilla del documento 08); empezar por programas de emprendedores, gratuitos o simbólicos, y pop-ups de fin de semana; cambiar el valor en la hoja Supuestos (B57) apenas lleguen las cotizaciones |
+| 2 | Cada punto vende menos de 80 brownies por día (el modelo usa unos 85 en promedio, de 50 a 100) | Alto: con ventas 20 % menores el resultado del año baja a S/8,612 y la recuperación pasa al mes 29 | Degustación en el punto, elegir pasillos de alto tráfico, medir ventas por día y por hora, mover o cerrar puntos que no rindan; sumar eventos sin costo y colegios; enero ya supone un solo punto |
+| 3 | Rotación o mala atención de los vendedores de stand (S/90 por día) y falta de tiempo de los socios para supervisar, en temporada de exámenes | Medio-alto | Bolsa de 3 o 4 vendedores con carné de sanidad y guion de venta, turnos de supervisión rotativos de los socios, coordinador(a) en planilla que lleva el stock y los pedidos, plantillas de WhatsApp Business y producción tercerizada |
+| 4 | Ninguna planta acepta lotes de 3,000 a 5,000 unidades o la maquila supera los S/0.45 por brownie | Alto: a S/0.55 el resultado baja a S/15,395 (unos S/5,500 al año por cada S/0.10 de más) y la recuperación pasa al mes 21 | Cotizar 4 plantas; usar INDDA para las "primeras maquilas"; negociar corridas bimestrales, siempre dentro de la vida útil |
+| 5 | Escasez, precio alto o problema de inocuidad de la sangrecita fresca de pollo (Redondos, S/11.29 por kg en Makro) | Medio-alto: es el insumo crítico | Homologar 2 proveedores y cotizar con un camal registrado en SENASA; cadena de frío y cocción en la planta con control por lote; alternativa de polvo de sangrecita (Malli y Allpa Manta) si la planta no puede cocerla; la AndiBite S.A.C. compra el insumo y se lo entrega a la planta |
 | 6 | Los niños rechazan la V-SO (sensación fría del eritritol, poco dulzor) | Alto | Filtro de la fase 0 con la V-P como respaldo; mezcla con alulosa si DIGESA confirma que no cuenta como azúcar; más plátano y canela. El stand permite medirlo en vivo con la degustación |
 | 7 | El laboratorio cuenta la alulosa como azúcar u observa el claim de hierro | Medio | Basar la fórmula en eritritol; declarar "fuente de hierro" solo con análisis; nunca decir "previene la anemia" (D. Leg. 1044, documento 03) |
-| 8 | La recompra por WhatsApp es menor al 35 % de lo vendido en físico el mes anterior | Medio: son 8,773 unidades (18.6 %) y S/7,553 de contribución | Captar el WhatsApp de cada cliente del stand con QR y cupón; recordatorio a los 12 días; rotar un sabor de temporada; si baja de 20 % en dos meses, reforzar el contacto en el punto antes de gastar en pauta |
-| 9 | Caja ajustada: la mínima es S/5,008.89 en febrero de 2027 y la caja es simplificada (sin desfase de cobranzas) | Alto si se combina con los riesgos 1 y 2 | Plan de contingencia (sección 8.3); nada de crédito a canales mientras no haya 2 meses de caja; revisar la caja con el contador cuando haya ventas reales |
+| 8 | La recompra por WhatsApp es menor al 35 % de lo vendido en físico el mes anterior | Medio: son 9,176 unidades (17.4 %) y S/10,357 de contribución | Captar el WhatsApp de cada cliente del stand con QR y cupón; recordatorio a los 12 días; rotar un sabor de temporada; si baja de 20 % en dos meses, reforzar el contacto en el punto antes de gastar en pauta |
+| 9 | Caja ajustada: la mínima es S/3,917.38 en febrero de 2027 y la caja es simplificada (sin desfase de cobranzas) | Alto si se combina con los riesgos 1 y 2 | Plan de contingencia (sección 8.3); nada de crédito a canales mientras no haya 2 meses de caja; revisar la caja con el contador cuando haya ventas reales |
 | 10 | Incidente de inocuidad (moho, vida útil menor a la declarada, mala manipulación en el stand) | Muy alto para una marca infantil | Estudio de vida útil, control de calidad por lote, contramuestras, rotación FIFO, vencimiento corto (60 días) al inicio, carné de sanidad vigente y cadena de manipulación en el stand |
 
 ### 9.2 KPIs del año 1
 
-**Gobierno de los indicadores.** Carlos Inga consolida los KPIs todos los domingos en la hoja de pedidos (el mismo Google Sheets del plan de marketing anterior) y el equipo los revisa en 30 minutos. Hay tres semáforos que obligan a decidir sin esperar el cierre del trimestre: menos de 60 brownies por día y por punto durante dos fines de semana seguidos [HIPÓTESIS], la caja por debajo de un mes de costos fijos y el costo de producción por encima de S/2.10 en dos lotes seguidos. Cualquiera de los tres activa una reunión extraordinaria y, si corresponde, el plan de contingencia de la sección 8.3.
+**Gobierno de los indicadores.** Carlos Inga consolida los KPIs todos los domingos en la hoja de pedidos (el mismo Google Sheets del plan de marketing anterior) y el equipo los revisa en 30 minutos. Hay tres semáforos que obligan a decidir sin esperar el cierre del trimestre: menos de 66 brownies por día y por punto durante dos fines de semana seguidos [HIPÓTESIS], la caja por debajo de un mes de costos fijos y el costo de producción por encima de S/1.60 por brownie en dos lotes seguidos. Cualquiera de los tres activa una reunión extraordinaria y, si corresponde, el plan de contingencia de la sección 8.3.
 
 | KPI | Meta (base) | Frecuencia |
 |---|---|---|
-| Brownies por día y por punto de venta | 80 o más (el modelo supone 84 en promedio: de 50 en los meses de arranque a 100 en marzo) | Cada fin de semana |
-| Unidades vendidas al mes | Al menos 2,215 (equilibrio); promedio de 3,935 en el año; de 5,268 a 6,071 de agosto a octubre | Semanal |
+| Brownies por día y por punto de venta | 80 o más (el modelo usa unos 85 en promedio: de 50 en enero a 100 en marzo) | Cada fin de semana |
+| Unidades vendidas al mes | Al menos 2,592 (equilibrio); promedio de 4,399 en el año; de 5,208 a 7,028 de agosto a diciembre | Semanal |
 | Recompra por WhatsApp | 35 % de las unidades vendidas en físico el mes anterior | Mensual |
-| Puntos de venta activos | 1 en noviembre y enero; 2 en diciembre y de febrero a julio; 3 de agosto a octubre | Mensual |
+| Puntos de venta activos | 1 en enero; 2 de febrero a julio; 3 de agosto a diciembre | Mensual |
 | Brownies por evento | 700 o más en feria pagada; 150 o más en evento sin costo | Por evento |
-| Alquiler por punto | S/500 o menos al mes [POR CONFIRMAR] | Por cotización |
-| Costo de producción puesto en almacén | S/1.65 o menos por unidad en el pack de 6 (opción B) a 3,000 u (versión anterior, opción A: S/1.91 a 3,000 u y S/1.35 a 8,000 u) | Por lote |
-| Contribución por unidad | S/1.43 o más antes de stands y ferias; S/0.81 o más después | Mensual |
-| Resultado operativo mensual | Positivo todos los meses desde marzo de 2027 (el modelo da entre S/1,590 y S/3,091) | Mensual |
+| Espacio por punto | S/600 o menos al mes | Por contrato |
+| Costo de producción puesto en almacén | S/1.38 o menos por brownie en el pack de 6 (opción B; S/8.29 el pack) | Por lote |
+| Contribución por unidad | S/1.83 o más antes de stands y ferias; S/0.97 o más después | Mensual |
+| Resultado operativo mensual | Positivo todos los meses desde marzo de 2027 (el modelo da entre S/1,359 y S/3,613) | Mensual |
+| Utilidad neta del año | S/17,704 (después de intereses y renta) | Trimestral |
 | Merma y vencidos | 5 % o menos; vencidos 2 % o menos | Por lote |
-| Colegios y naturistas activos | Unos 5 colegios y 8 naturistas a octubre de 2027 [HIPÓTESIS] | Mensual |
+| Colegios y naturistas activos | Unos 5 colegios y 8 naturistas a fines de 2027 [HIPÓTESIS] | Mensual |
 | Aceptación sensorial | Al menos 75 % de caritas 4 y 5 en cada lote nuevo | Trimestral |
-| Caja | Al menos 1 mes de costos fijos (S/1,804) en todo momento; el modelo prevé un mínimo de S/5,009 en febrero de 2027 | Semanal |
+| Caja | Al menos 1 mes de costos fijos (S/2,503) en todo momento; el modelo prevé un mínimo de S/3,917 en febrero de 2027 | Semanal |
 | Entregas a tiempo y reclamos | Al menos 95 % a tiempo; menos de 1 % de reclamos en el libro | Mensual |
 
 ---

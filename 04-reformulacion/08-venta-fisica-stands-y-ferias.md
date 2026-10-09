@@ -1,5 +1,7 @@
 # 08. Venta física: stands en centros comerciales y ferias de emprendedores
 
+**9-oct-2026, modelo v5: año 1 de enero a diciembre de 2027, personal operativo pagado, sangrecita fresca y maquila de S/0.45.**
+
 Versión 1, 9 de octubre de 2026. Responde a la corrección de la profesora: el mejor escenario del producto es la **venta en físico**. Investigación web del 9-oct-2026; lo que no se pudo verificar va como [POR CONFIRMAR]. Ningún mall publica tarifas de stands: hay que pedirlas por correo (plantilla en la sección 6).
 
 ---
@@ -7,10 +9,10 @@ Versión 1, 9 de octubre de 2026. Responde a la corrección de la profesora: el 
 ## 1. Conclusión en 5 líneas
 
 1. **Sí es viable estar en un mall de Lima Top o Lima Moderna**, pero por la vía de los **programas para emprendedores y los pop-ups de temporada**, no alquilando un módulo fijo desde el inicio.
-2. **La puerta más barata y con mejor público** son los programas con cupo para emprendedores: Jockey Plaza (Surco), "El Mercadito del Emprendedor" de Larcomar (Miraflores), Open Plaza "Emerge" (Angamos) y la "Placita del Emprendimiento" de Real Plaza. Son gratuitos o de costo simbólico, pero con postulación.
-3. **Las ferias pagadas** (La Feria de Barranco, Bazar Navideño de la CCL) cuestan **S/1,650 a 2,500 por evento** y apenas llegan al equilibrio en su primera edición. Valen como **captación de clientes** (lista de WhatsApp para el recordatorio de recompra), no como fuente de ganancia.
-4. **Documentos:** un brownie envasado necesita registro sanitario, RUC y rotulado completo para venderse en una feria o un mall. En el plan (modelo v3 del 9-oct-2026) **se consideran listos desde noviembre de 2026**: su costo (S/6,251.20) va una sola vez dentro de la inversión inicial y no frena ninguna venta.
-5. **Las fechas clave son Navidad (diciembre de 2026) y la campaña escolar (febrero y marzo de 2027)**: son las únicas ferias pagadas del año 1. El resto del año se vende con 1 a 3 puntos de fin de semana, kermeses y eventos sin costo.
+2. **La puerta más barata y con mejor público** son los programas con cupo para emprendedores: Jockey Plaza (Surco), "El Mercadito del Emprendedor" de Larcomar (Miraflores), Open Plaza "Emerge" (Angamos) y la "Placita del Emprendimiento" de Real Plaza. Son gratuitos o de costo simbólico, pero con postulación. Aun así, el plan presupuesta S/600 al mes por punto de venta, para no depender de que el programa sea gratuito.
+3. **Las ferias pagadas** (La Feria de Barranco, Bazar Navideño de la CCL) cuestan **S/1,650 a 2,500 por evento** (el plan usa S/1,800 por feria) y apenas llegan al equilibrio en su primera edición. Valen como **captación de clientes** (lista de WhatsApp para el recordatorio de recompra), no como fuente de ganancia.
+4. **Documentos:** un brownie envasado necesita registro sanitario, RUC y rotulado completo para venderse en una feria o un mall. En el plan (modelo v5 del 9-oct-2026) **se consideran listos desde enero de 2027**, cuando empiezan las ventas: su costo (S/6,251.20) va una sola vez dentro de la inversión inicial y no frena ninguna venta.
+5. **Las fechas clave son la campaña escolar (febrero de 2027, una feria) y Navidad (diciembre de 2027, dos ferias)**: son las únicas tres ferias pagadas del año 1 (S/1,800 cada una, S/5,400 en total). El resto del año se vende con 1 a 3 puntos de fin de semana, todos con vendedor(a) pagado(a) (S/90 por día), más kermeses y eventos sin costo.
 
 ---
 
@@ -42,39 +44,42 @@ Versión 1, 9 de octubre de 2026. Responde a la corrección de la profesora: el 
 
 ## 4. ¿Cuánto hay que vender para que el stand se pague?
 
-**Supuestos:** ventas como en ferias (70 % unidad a S/5.00 y 30 % pack de 6 a S/26.00). A cada brownie se le restan la producción (S/1.65 a 1.69), la pasarela de 3 %, la renta de 1 % y un brownie de degustación por cada 10 vendidos. Así, **cada brownie vendido en stand deja unos S/2.00 para pagar el espacio y al personal**. El ingreso promedio es de S/4.80 por brownie.
+**Base de cálculo (modelo v5):** ventas como en ferias (70 % unidad a S/5.50 y 30 % pack de 6 a S/26.00). A cada brownie se le restan la producción (S/1.43 la unidad y S/1.38 en el pack de 6), la pasarela de 3 %, la renta de 1 % y un brownie de degustación por cada 10 vendidos. Así, **cada brownie vendido en una feria deja S/2.48 y en un stand S/2.39 para pagar el espacio y al personal**. El ingreso promedio es de S/5.15 por brownie en la feria y S/5.02 en el stand (con IGV).
 
 ### 4.1 Ferias pagadas (por evento)
 
-| Costo del stand | Brownies para no perder | Packs de 6 equivalentes | Venta necesaria | Referencia real |
+| Costo del stand | Brownies para no perder | Packs de 6 equivalentes | Venta necesaria (con IGV) | Referencia real |
 |---|---|---|---|---|
-| S/1,650 (La Feria, 2 días) | 825 (413 por día) | 138 | S/3,960 | Una mype vende de S/2,700 a 3,100 por feria de PRODUCE |
-| S/2,000 (La Feria, 2 días) | 1,000 (500 por día) | 167 | S/4,800 | |
-| S/2,950 (Bazar CCL con IGV, 3 días) | 1,475 (492 por día) | 246 | S/7,080 | |
+| S/1,650 (La Feria, 2 días) | 664 (332 por día) | 111 | S/3,421 | Una mype vende de S/2,700 a 3,100 por feria de PRODUCE |
+| **S/1,800 (costo del plan por feria, 2 a 3 días)** | 725 (363 por día en 2 días) | 121 | S/3,732 | El plan vende 700 por feria y recupera S/1,739 de S/1,800 |
+| S/2,000 (La Feria, 2 días) | 805 (403 por día) | 134 | S/4,147 | |
+| S/2,950 (Bazar CCL con IGV, 3 días) | 1,188 (396 por día) | 198 | S/6,116 | |
 
-**Lectura:** con el promedio de ventas de una mype en feria (unos S/3,000), una feria de S/1,650 a 2,950 deja entre una pérdida chica y una de unos S/1,700. Se justifica si capta familias: con 1 de cada 3 compradores que recompran cada mes por WhatsApp, cada familia deja unos S/10 de contribución por mes en venta directa (12 brownies a S/0.86); 170 familias que recompran cada mes pagan un stand de S/1,650 cada mes.
+**Lectura:** con el promedio de ventas de una mype en feria (unos S/3,000), una feria de S/1,650 a 2,950 deja entre una pérdida chica y una de unos S/1,700. Se justifica si capta familias: con 1 de cada 3 compradores que recompran cada mes por WhatsApp, cada familia deja unos S/14 de contribución por mes en venta directa (12 brownies a S/1.13); unas 133 familias que recompran cada mes pagan un stand de S/1,800 cada mes.
 
 ### 4.2 Módulo en mall (por mes, alquiler y personal)
 
 | Costo mensual total | Brownies al mes | Por día (30 días) | Packs de 6 por día |
 |---|---|---|---|
-| S/2,000 (programa de emprendedor y socios atendiendo) | 1,000 | 33 | 6 |
-| S/4,000 (módulo chico y un asistente) | 2,000 | 67 | 11 |
-| S/6,000 (isla y dos turnos de personal) | 3,000 | 100 | 17 |
+| S/2,000 (espacio y un vendedor de medio mes) | 839 | 28 | 5 |
+| S/4,000 (módulo chico y un asistente) | 1,677 | 56 | 9 |
+| S/6,000 (isla y dos turnos de personal) | 2,516 | 84 | 14 |
 
-Un mall abre unas 12 horas al día, así que cuidar un stand propio a tiempo completo exige personal pagado. Si fuera una persona en remuneración mínima, serían unos S/1,130 al mes más beneficios [verificar la RMV de 2027]. Por eso conviene empezar con **pop-ups de fin de semana o rotaciones de 1 a 3 meses** y pasar a módulo fijo solo si vendemos más de 70 brownies al día.
+**Punto del plan (fines de semana):** espacio de S/600 al mes más 9 días de vendedor(a) a S/90 = S/1,410 al mes, que se pagan con unos 591 brownies al mes, es decir 66 por día de atención (11 packs de 6).
+
+Un mall abre unas 12 horas al día, así que cuidar un stand propio exige personal pagado: en el plan, cada punto de fin de semana lleva un(a) vendedor(a) a S/90 por día. Una persona a tiempo completo en remuneración mínima de 2027 (S/1,300 según el DS 015-2026-TR, más 9 % de EsSalud) costaría unos S/1,417 al mes. Por eso conviene empezar con **pop-ups de fin de semana o rotaciones de 1 a 3 meses** y pasar a módulo fijo solo si vendemos más de 70 brownies al día.
 
 ## 5. Plan recomendado
 
 | Cuándo | Qué | Para qué |
 |---|---|---|
-| **Octubre y noviembre de 2026** | Escribir a Jockey Plaza, Larcomar/La Feria, La Rambla, Open Plaza y Real Plaza Salaverry (plantilla abajo). Constituir AndiBite S.A.C. y sacar RUC | Primer punto de venta activo en noviembre (lo atienden los socios) |
-| **Diciembre de 2026** | **2 ferias navideñas pagadas** (Bazar CCL y Navi Fest o Feria Navideña Jockey) y 2 puntos de venta de fin de semana, con degustación y QR para captar el WhatsApp | Es el mes más fuerte del arranque: 4,355 brownies en el modelo |
-| **Febrero y marzo de 2027 (campaña escolar)** | 1 feria pagada de campaña escolar y 2 puntos en Jockey, La Rambla, Larcomar o la entrada de Wong o Vivanda. Mensaje: "la lonchera de marzo". Desde marzo entran los quioscos escolares | Es cuando el padre A/B compra para la lonchera |
+| **Octubre a diciembre de 2026** | Escribir a Jockey Plaza, Larcomar/La Feria, La Rambla, Open Plaza y Real Plaza Salaverry (plantilla abajo). Constituir AndiBite S.A.C., sacar RUC, firmar los espacios de enero y febrero, contratar al coordinador(a) y a los vendedores de stand, y recibir el lote de enero y febrero | Todo listo para abrir el primer punto el primer fin de semana de enero |
+| **Enero de 2027** | Primer punto de fin de semana (espacio de S/600), con vendedor(a) pagado(a) y degustación con QR para captar el WhatsApp; los socios supervisan | Arranque con un solo punto por las vacaciones: 870 brownies en el modelo |
+| **Febrero y marzo de 2027 (campaña escolar)** | 1 feria pagada de campaña escolar (febrero, S/1,800) y 2 puntos en Jockey, La Rambla, Larcomar o la entrada de Wong o Vivanda. Mensaje: "la lonchera de marzo". Desde marzo entran los quioscos escolares | Es cuando el padre A/B compra para la lonchera |
 | **Abril a julio de 2027** | 2 puntos de fin de semana, 3 a 5 eventos sin costo al mes (kermeses, cumpleaños) | Captar familias para la recompra por WhatsApp |
-| **Desde agosto de 2027** | Tercer punto de venta; si un punto pasa de 70 brownies por día, cotizar un módulo por 3 meses (o el premio Emprende Retail) | Pasar de evento a punto fijo |
+| **Agosto a diciembre de 2027** | Tercer punto de venta; si un punto pasa de 70 brownies por día, cotizar un módulo por 3 meses (o el premio Emprende Retail). En diciembre, **2 ferias navideñas pagadas** (Bazar CCL y Navi Fest o Feria Navideña Jockey) con 3 puntos de fin de semana | Pasar de evento a punto fijo; diciembre es el mes más fuerte del año: 7,028 brownies en el modelo |
 
-**Cambio en la estrategia de canales:** con la indicación de la profesora, el stand se vuelve el canal de **primera compra** (el niño prueba delante del padre y el padre compra ahí). WhatsApp e Instagram pasan a ser el canal de **recompra** (con recordatorio por WhatsApp). Así está ya en el Excel de costeo (modelo v3), en el documento 05 y en la presentación TC5-8 (diapositivas 9 a 11).
+**Cambio en la estrategia de canales:** con la indicación de la profesora, el stand se vuelve el canal de **primera compra** (el niño prueba delante del padre y el padre compra ahí). WhatsApp e Instagram pasan a ser el canal de **recompra** (con recordatorio por WhatsApp). Así está ya en el Excel de costeo (modelo v5), en el documento 05 y en la presentación TC5-8 (diapositivas 9 a 11).
 
 ## 6. Plantilla de correo para pedir información
 
@@ -111,26 +116,26 @@ Investigación del 9-oct-2026. **Ninguna cadena publica un canal ni una tarifa p
 
 | Opción | Costo de referencia | Requisitos | Contacto |
 |---|---|---|---|
-| **Carrito o módulo en el hall o la entrada** | Sin tarifa pública. Referencia en malls: módulo de 2 x 2 m de **S/500 a US$2,500** (periodo no indicado; Gestión, 15-sep-2023) | RS, RUC, evaluación del concepto | Plaza Vea y Vivanda: InRetail (inretail.pe/en/contact). Metro y Wong: Cencosud ([POR CONFIRMAR] el área) |
+| **Carrito o módulo en el hall o la entrada** | Sin tarifa pública. Referencia en malls: módulo de 2 x 2 m de **S/500 a US$2,500** (periodo no indicado; Gestión, 15-sep-2023). El plan usa **S/600 al mes por punto** | RS, RUC, evaluación del concepto | Plaza Vea y Vivanda: InRetail (inretail.pe/en/contact). Metro y Wong: Cencosud ([POR CONFIRMAR] el área) |
 | **Isla en un Real Plaza** | US$55 por m² + IGV, contrato mínimo de 3 años, 2 meses de garantía; el aviso **no permite comida** | Igual | Aviso de alquiler (sin fecha) |
-| **Impulso y degustación en el pasillo** (con el producto ya en góndola) | Impulsadora: **S/50 a 90 por día** en fin de semana; en planilla, S/1,130 a 1,630 al mes. Paquete de agencia: desde S/12,000 al mes para 5 tiendas Tottus | Ser proveedor de la cadena; carné de sanidad | Agencias de trade marketing |
+| **Impulso y degustación en el pasillo** (con el producto ya en góndola) | Vendedor(a) o impulsador(a): **S/50 a 90 por día** en fin de semana (el plan paga S/90); en planilla, unos S/1,417 al mes con la RMV de 2027. Paquete de agencia: desde S/12,000 al mes para 5 tiendas Tottus | Ser proveedor de la cadena; carné de sanidad | Agencias de trade marketing |
 | **Ser proveedor (góndola)** | Margen de la cadena de **20 a 40 %**, aportes de marketing de 3 a 8 % de las ventas y pago a 30-90 días (30 días para mypes por la Ley 31362, salvo pacto escrito) | RUC, RS, código de barras GS1, BPM o HACCP, seguro, fichas técnicas | Plaza Vea y Vivanda: "Cómo ser proveedor" en plazavea.com.pe. Wong y Metro: portalnuevosnegocios.cencosud.com |
 | **Fabricar el carrito** | Melamina a medida: de S/1,150 a 1,350 por metro lineal, instalado. Un carrito de 1.2 a 2 m con vitrina y gráfica costaría unos S/1,500 a 3,000 [estimación, pedir 2 o 3 cotizaciones] | — | Carpinterías en Lima |
 
 ### 8.2 ¿Cuánto hay que vender en el carrito?
 
-Con precios de stand, cada brownie deja unos **S/2.00**. Con los precios de WhatsApp (S/4.00 la unidad y S/24.90 el pack), deja unos **S/1.45** y hace falta vender un 38 % más.
+Con precios de stand (S/5.50 la unidad y S/26.00 el pack), cada brownie deja **S/2.39**. Con los precios de WhatsApp (S/4.00 la unidad y S/24.90 el pack), deja unos **S/1.13** y hace falta vender más del doble para pagar el mismo costo.
 
 | Escenario mensual | Costo al mes | Brownies al mes | Brownies por día abierto | Packs de 6 por día |
 |---|---|---|---|---|
-| Solo fines de semana (8 días): espacio de S/500 e impulsadora a S/90 por día | S/1,220 | 610 | 76 | 13 |
-| Todo el mes: espacio de S/500 y una persona en planilla (unos S/1,500) | S/2,000 | 1,000 | 33 | 6 |
-| Todo el mes: espacio de S/2,500 y dos turnos (unos S/3,000) | S/5,500 | 2,750 | 92 | 15 |
-| Todo el mes, tope del rango: US$2,500 (unos S/8,400) y dos turnos | S/11,400 | 5,700 | 190 | 32 |
+| Solo fines de semana (9 días): espacio de S/600 y vendedor(a) a S/90 por día (punto del plan) | S/1,410 | 591 | 66 | 11 |
+| Todo el mes: espacio de S/600 y una persona en planilla (unos S/1,417) | S/2,017 | 846 | 28 | 5 |
+| Todo el mes: espacio de S/2,500 y dos turnos (unos S/3,000) | S/5,500 | 2,306 | 77 | 13 |
+| Todo el mes, tope del rango: US$2,500 (unos S/8,400) y dos turnos | S/11,400 | 4,780 | 159 | 27 |
 
-A esto se suma el carrito: unos S/1,500 a 3,000 una sola vez. Repartido en 12 meses, son unos S/125 a 250 al mes.
+A esto se suma el carrito: el plan fabrica uno solo, de S/2,500 una sola vez (unos S/69 al mes de depreciación a 36 meses); los otros puntos usan el kit de feria o el módulo del mall.
 
-**Vender en góndola (referencia):** con el pack a S/28.90 en anaquel y 30 % de margen para la cadena, AndiBite cobra unos S/20.23 con IGV. Después de producción, aportes y despacho quedan unos S/0.96 por brownie, la mitad que en un stand propio, y se cobra a 30-90 días. Por eso la góndola queda para el año 2.
+**Vender en góndola (referencia):** con el pack a S/28.90 en anaquel y 30 % de margen para la cadena, AndiBite cobra unos S/20.23 con IGV. Después de producción, aportes y despacho quedaban unos S/0.96 por brownie en la versión anterior (con producción a S/1.65), menos de la mitad de lo que deja un stand propio hoy (S/2.39), y se cobra a 30-90 días. Por eso la góndola queda para el año 2.
 
 ### 8.3 ¿Qué tienda conviene?
 
@@ -146,7 +151,7 @@ A esto se suma el carrito: unos S/1,500 a 3,000 una sola vez. Repartido en 12 me
 
 1. **Para el carrito**, el camino más realista es el espacio frente a la entrada del súper dentro de un mall, que se alquila al mall por semanas o fines de semana. Es más barato y sirve para medir cuánto se vende.
 2. **Pedir cotización escrita** a InRetail (Plaza Vea y Vivanda), a Cencosud (Wong y Metro), a una agencia de impulso y a 2 o 3 carpinterías.
-3. **Escenario de entrada:** solo fines de semana, con un costo de unos S/1,220 al mes. Hay que vender 76 brownies por día abierto, unos 13 packs.
+3. **Escenario de entrada:** solo fines de semana, con un costo de S/1,410 al mes (espacio de S/600 y vendedor(a) a S/90 por día). Hay que vender 66 brownies por día abierto, unos 11 packs.
 4. **Documentos:** el registro sanitario y el RUC se consideran listos (costo en la inversión inicial); llevar copias al pedir el espacio.
 
 Fuentes de esta sección: [Gestión, alquiler de módulos en centros comerciales (15-sep-2023)](https://gestion.pe/economia/mercados/alquiler-de-modulos-en-centros-comerciales-va-en-aumento-precios-y-espacio-ferias-retail-percy-vigil-jose-antonio-contreras-carlos-neuhaus-mega-plaza-open-plaza-accep-asociacion-de-centros-comerciales-y-de-entretenimiento-del-peru-noticia/) · [EVANG, cómo vender en supermercados del Perú (5-jun-2025)](https://evangcorp.com/insights/como-vender-en-supermercados-peru-tottus-plaza-vea-guia) · [Cencosud, quiero ser proveedor](https://www.cencosud.com/quiero-ser-proveedor-de-cencosud) · [GS1 Perú](https://www.gs1pe.org/como-asociarse-gs1-peru) · [Computrabajo, impulsadoras en Lima](https://pe.computrabajo.com/trabajo-de-impulsadoras-de-supermercados-en-lima) · [Melamina Sophie](https://melamina.net.pe/estantes-de-melamina-para-tienda/) · [InRetail, unidades de negocio](https://www.inretail.pe/en/our-company/business-units)

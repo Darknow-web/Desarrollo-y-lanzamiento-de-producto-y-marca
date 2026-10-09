@@ -1,12 +1,14 @@
 # 07. Entregable T1: Canvas, propuesta de valor validada, primera presentación del modelo de negocio y elevator pitch
 
+**9-oct-2026, modelo v5: año 1 de enero a diciembre de 2027, personal operativo pagado, sangrecita fresca y maquila de S/0.45.**
+
 **9-oct-2026: el equipo eliminó por ahora la suscripción; el pack de 12 se vende por pedido.**
 
 Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora para el Grupo 2 (Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas y Adela Robles), curso "Desarrollo y lanzamiento de nuevos productos", profesora Paola Cevallos. Integra los documentos 00 a 06 de esta carpeta y los resúmenes de las semanas 1 a 4 y del focus 1, listo para pasar a diapositivas.
 
 **9-oct-2026: documentos considerados listos (costo en la inversión inicial) y venta física como canal principal.**
 
-**Nota del 9 de octubre de 2026: precios confirmados.** El equipo confirmó los precios finales. Las cifras de precio, ventas, equilibrio y resultado de este documento se alinearon con el Excel `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` y con el documento 05 actualizado. Precios con IGV: venta directa, unidad S/4.00, pack de 6 S/24.90 (S/4.15 por brownie, opción B con bolsitas) y pack de 12 S/46.90; caja degustación de 3, S/12.00; ferias, S/5.00, S/26.00 y S/48.00; quiosco, el alumno paga S/4.00 y AndiBite recibe S/3.00; tienda naturista, anaquel de S/28.90 y AndiBite cobra S/17.34. Año 1 (modelo v3, nov-2026 a oct-2027, con venta física como canal principal y los documentos ya listos, pagados en la inversión): 47,223 u, S/198,748 con IGV y resultado operativo de S/16,816 (10.0 %); equilibrio de 2,215 u/mes; inversión inicial de S/40,644.24. Lo marcado como "versión anterior" (S/27.00, S/49.00, S/4.50, equilibrio de 3,500 u/mes, costo de S/1.91, utilidad neta de S/37,152.32, escenarios pesimista y optimista en soles, payback de 9 meses) se conserva solo como comparación: no se recalculó con los precios confirmados porque el Excel no lo calcula. La marca se mantiene como **AndiBite**.
+**Nota del 9 de octubre de 2026: precios confirmados y modelo v5.** El equipo confirmó los precios finales y cerró el modelo financiero v5. Las cifras de precio, ventas, equilibrio, resultado e inversión de este documento se alinearon con el Excel `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` y con el documento 05 actualizado. Precios con IGV: venta directa, unidad S/4.00, pack de 6 S/24.90 (S/4.15 por brownie, opción B con bolsitas) y pack de 12 S/46.90; caja degustación de 3, S/12.00; stands y ferias, unidad S/5.50, pack de 6 S/26.00 y pack de 12 S/48.00; quiosco, el alumno paga S/4.00 y AndiBite recibe S/3.00; tienda naturista, anaquel de S/28.90 y AndiBite cobra S/17.34. Año 1 (modelo v5, **enero a diciembre de 2027**, con venta física como canal principal, los documentos ya listos y pagados en la inversión, y todo el personal operativo pagado: vendedores de stand a S/90 por día y un coordinador en planilla a S/709 al mes): 52,786 u, S/230,740 con IGV, resultado operativo de S/20,938 (10.7 %) y utilidad neta de S/17,704; equilibrio de 2,592 u/mes; inversión inicial de S/37,894.24. Los socios son dueños y directorio: supervisan y reciben utilidades. Costo de producción con sangrecita fresca de pollo (S/0.40 de insumos) y maquila de S/0.45 por brownie: S/1.38 por brownie en el pack de 6. Lo marcado como "versión anterior" (modelo v3: noviembre de 2026 a octubre de 2027, 47,223 u, S/198,748, resultado de S/16,816, inversión de S/40,644, equilibrio de 2,215 u/mes, unidad a S/5.00, sangrecita en polvo; y antes S/27.00, S/49.00, S/4.50, costo de S/1.91, escenarios pesimista y optimista y payback de 9 meses) se conserva solo como comparación. La marca se mantiene como **AndiBite**.
 
 **Reglas de lectura.** Precio, costo, ventas, inversión y equilibrio vienen del documento 05 y del Excel de costeo (cifras confirmadas el 9-oct-2026), que mandan sobre los demás. [HIPÓTESIS] = supuesto del equipo. [POR CONFIRMAR] = dato sin verificar en fuente primaria. [POR COMPLETAR POR EL EQUIPO] = resultado del focus 2 o del store check que el equipo debe escribir con sus datos reales. Precios al público con IGV; costos y márgenes sin IGV. **Nombre:** AndiBite. El equipo mantuvo AndiBite y no adoptó la ruta "Hemi" que el documento 06 recomendaba; de ese documento se toman la evolución del empaque y de los sabores. Queda pendiente la búsqueda fonética de INDECOPI (clase 30).
 
@@ -34,11 +36,11 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 - **Lonchera resuelta desde el domingo:** porción sellada que no necesita frío, pedido por WhatsApp y recordatorio de recompra.
 
 ### Bloque 3. Canales (por prioridad, con el % de unidades del año 1, escenario base)
-1. **Stands y carritos en malls y supermercados: 41.4 %** (19,565 u). Fines de semana en Jockey Plaza, Larcomar, La Rambla y en la entrada de Wong o Vivanda: 1 punto en noviembre y enero, 2 de diciembre a julio y 3 desde agosto. El niño prueba y el padre compra ahí.
-2. **Recompra por WhatsApp e Instagram: 18.6 %** (8,773 u): 35 % de lo vendido en físico vuelve al mes siguiente, con recordatorio y delivery gratis desde 2 packs.
-3. **Ferias y eventos: 17.2 %** (8,100 u): 2 ferias navideñas y 1 de campaña escolar pagadas; kermeses, cumpleaños y ferias gratuitas.
-4. **Quioscos escolares: 15.0 %** (7,065 u), desde marzo de 2027, hasta 5 colegios.
-5. **Tiendas naturistas: 7.9 %** (3,720 u). La góndola del supermercado entra en el año 2.
+1. **Stands y carritos en malls y supermercados: 42.9 %** (22,625 u). Fines de semana en Jockey Plaza, Larcomar, La Rambla y en la entrada de Wong o Vivanda, siempre con vendedor(a) pagado(a): 1 punto en enero, 2 de febrero a julio y 3 de agosto a diciembre. El niño prueba y el padre compra ahí.
+2. **Recompra por WhatsApp e Instagram: 17.4 %** (9,176 u): 35 % de lo vendido en físico vuelve al mes siguiente, con recordatorio y delivery gratis desde 2 packs.
+3. **Ferias y eventos: 15.3 %** (8,100 u): 1 feria de campaña escolar (febrero) y 2 ferias navideñas (diciembre) pagadas; kermeses, cumpleaños y ferias gratuitas.
+4. **Quioscos escolares: 17.4 %** (9,165 u), desde marzo de 2027, hasta 5 colegios.
+5. **Tiendas naturistas: 7.0 %** (3,720 u). La góndola del supermercado entra en el año 2.
 
 ### Bloque 4. Relación con clientes
 - **Prueba antes de compra en el stand:** degustación gratis y caja de 3 sabores (S/12.00) para llevar: el niño prueba delante del padre.
@@ -50,47 +52,47 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 ### Bloque 5. Fuentes de ingresos
 - **Pack de 6 x 20 g:** S/26.00 en el stand y en ferias (S/4.33 por unidad) y S/24.90 por WhatsApp (S/4.15). Versión anterior: S/27.00.
 - **Pack de 12 "Semana completa"** a S/48.00 en el stand y S/46.90 por WhatsApp (S/3.91 por unidad), pack para la compra quincenal, por pedido, con delivery gratis desde 2 packs. Versión anterior: S/49.00.
-- **Unidad suelta a S/5.00 en el stand** (6 de cada 10 brownies del stand se venden sueltos); caja degustación de 3 a S/12.00.
+- **Unidad suelta a S/5.50 en el stand** (6 de cada 10 brownies del stand se venden sueltos); caja degustación de 3 a S/12.00. Versión anterior: S/5.00.
 - **B2B:** quiosco a S/4.00 al alumno (AndiBite recibe S/3.00); tienda naturista con anaquel de S/28.90 por pack de 6, de los cuales AndiBite cobra S/17.34 (versión anterior: S/31.90).
-- **Año 1 (noviembre 2026 a octubre 2027), base:** 47,223 unidades y **S/198,747.70 con IGV** (S/168,430.25 sin IGV): stands 46.4 %, ferias 19.6 %, WhatsApp 17.9 % y B2B 16.1 % de los ingresos. Versión anterior (WhatsApp como canal principal): 76,335 u y S/302,900.
+- **Año 1 (enero a diciembre de 2027), base:** 52,786 unidades y **S/230,740.38 con IGV** (S/195,542.70 sin IGV): stands 49.2 %, ferias 18.1 %, WhatsApp 16.2 % y B2B 16.6 % de los ingresos. Versión anterior (modelo v3, noviembre de 2026 a octubre de 2027): 47,223 u y S/198,748.
 
 ### Bloque 6. Recursos clave
 - **Fórmula V-SO** en tres sabores sobre una misma base, que permite pedir el RS como grupo [POR CONFIRMAR con DIGESA].
 - **Registro Sanitario a nombre de la AndiBite S.A.C.** (titular) con la planta como fabricante; tasa S/0 (Comunicado 05-2026-DIGESA).
 - **Marca en INDECOPI, clase 30:** S/401.20 con descuento MYPE.
-- **Proveedor homologado de sangrecita en polvo** (Malli, Allpa Manta o camal con registro SENASA).
-- **2 carritos de exhibición con gráfica y kit de stand** (S/5,000 + equipos S/2,338) y equipo de 5 socios que atiende un punto de venta; impulsadoras (S/90 por día) para los demás.
+- **Proveedor homologado de sangrecita fresca de pollo** (Redondos en Makro o un camal con registro SENASA), que la planta cuece y licúa con los huevos; el polvo (Malli, Allpa Manta) queda como alternativa.
+- **1 carrito de exhibición con gráfica y kit de stand** (S/2,500 + equipos S/2,338); **vendedores de stand pagados** (S/90 por día) en todos los puntos y un(a) **coordinador(a) comercial y de operaciones en planilla** (S/709 al mes). Los 5 socios son dueños y directorio: supervisan y reciben utilidades.
 
 ### Bloque 7. Actividades clave
-- **I+D y validación sensorial:** 3 rondas de fórmula y prueba con 20 niños por sabor (fase 0, S/2,215.81).
+- **I+D y validación sensorial:** 3 rondas de fórmula y prueba con 20 niños por sabor (fase 0; desarrollo del producto de S/3,740.81 dentro de la inversión).
 - **Gestión de la maquila:** escalamiento, lote piloto y control por lote (S/250 por análisis microbiológico).
 - **Calidad y documentos al día:** registro sanitario, análisis, etiqueta y carnés ya obtenidos (S/6,251.20 dentro de la inversión inicial); control por lote.
-- **Venta en stands, carritos y ferias:** degustación, cobro con Yape, Plin o tarjeta y registro del WhatsApp de cada cliente para la recompra.
+- **Venta en stands, carritos y ferias** (con vendedores pagados): degustación, cobro con Yape, Plin o tarjeta y registro del WhatsApp de cada cliente para la recompra.
 - **Contenido y venta B2B:** "La revelación" y "Abre el laboratorio" en redes; factura electrónica a concesionarios y naturistas.
 
 ### Bloque 8. Socios clave
-- **Planta maquiladora con línea validada (HACCP o PGH):** MAKING (ya maquila galletas con hierro), Unión (abrió maquila de snacks saludables en agosto de 2026), INDDA-UNALM y Organic Andean Bites. Tarifa supuesta de S/0.40 a 0.60 por unidad [POR CONFIRMAR].
+- **Planta maquiladora con línea validada (HACCP o PGH):** MAKING (ya maquila galletas con hierro), Unión (abrió maquila de snacks saludables en agosto de 2026), INDDA-UNALM y Organic Andean Bites. Tarifa de referencia de S/20.75 por kg de snack horneado con elaboración y empaque (Organic Andean Bites): S/0.45 por brownie en 2027.
 - **Laboratorios INACAL:** SAT Perú y La Molina Calidad Total.
-- **Proveedores:** sangrecita en polvo, insumos de Makro, eritritol con fruto del monje, doypack y etiquetas.
+- **Proveedores:** sangrecita fresca de pollo, insumos de Makro, eritritol con fruto del monje, doypack y etiquetas.
 - **Canal y servicios:** concesionarios, naturistas, ferias, pasarela de pagos, courier, contador (S/250 al mes) y CDE de PRODUCE.
 - **Prescriptores:** nutricionista colegiada y pediatras; en el año 2, ONG Prisma [POR CONFIRMAR].
 
 ### Bloque 9. Estructura de costos
-- **Costo de producción puesto en almacén, con el pack de 6 en bolsitas (opción B), a 3,000 u/mes:** **S/1.65 por brownie (S/9.90 el pack de 6)**; la unidad suelta cuesta S/1.69 y el pack de 12, S/18.66 (S/1.56 por unidad). Versión anterior (opción A, etiqueta en cada brownie): S/2.52 por unidad a 1,000 u/mes, S/1.91 a 3,000 y S/1.32 a 8,000 (pack de 6: S/15.15, S/11.48 y S/7.95).
-- **Costos de stands y ferias:** alquiler de S/500 por punto al mes [POR CONFIRMAR], impulsadora de S/90 por día y S/1,825 por feria pagada: S/28,865 en el año. Cada brownie deja S/1.87 en el stand antes de esos costos y S/0.81 en promedio después.
-- **Costos fijos:** S/1,803.83 al mes (administración S/700, marketing S/900, depreciación S/203.83; asistente S/0); **comisiones de canal:** quiosco 25 %, naturista 40 %.
-- **Inversión inicial: S/40,644.24**, con todos los documentos y permisos (S/6,251.20), S/25,000 de los socios y un préstamo de S/16,000 en 24 cuotas de S/897.81.
-- **Punto de equilibrio: 2,215 unidades al mes** (369 packs de 6 equivalentes). Solo noviembre (−S/386) y febrero (−S/475) cierran en rojo; desde marzo todos los meses ganan. Versión anterior: 3,308 u/mes.
+- **Costo de producción puesto en almacén, con el pack de 6 en bolsitas (opción B):** **S/1.38 por brownie (S/8.29 el pack de 6)**, con insumos de S/0.40 (sangrecita fresca) y maquila de S/0.45; la unidad suelta cuesta S/1.43 y el pack de 12, S/15.45 (S/1.29 por unidad). Versión anterior (sangrecita en polvo, maquila de S/0.50): S/1.65 por brownie (S/9.90 el pack de 6); con la opción A (etiqueta en cada brownie), S/1.91 a 3,000 u/mes.
+- **Costos de stands y ferias:** espacio de S/600 por punto al mes, vendedor(a) de S/90 por día y S/1,800 por feria pagada: S/45,870 en el año. Cada brownie deja S/2.39 en el stand antes de esos costos y S/0.97 en promedio después.
+- **Costos fijos:** S/2,503.39 al mes (administración S/760, coordinador en planilla S/709, marketing S/900, depreciación S/134.39); **comisiones de canal:** quiosco 25 %, naturista 40 %.
+- **Inversión inicial: S/37,894.24**, con todos los documentos y permisos (S/6,251.20), S/25,000 de los socios y un préstamo de S/13,000 en 24 cuotas de S/729.47.
+- **Punto de equilibrio: 2,592 unidades al mes** (432 packs de 6 equivalentes). Solo enero (−S/2,191) y febrero (−S/807) cierran en rojo; desde marzo todos los meses ganan. Resultado operativo del año 1: S/20,937.62; utilidad neta: S/17,704.18. Versión anterior: 2,215 u/mes.
 
 ## 1.2 Tabla resumen de una página
 
 | Socios clave | Actividades clave | Propuesta de valor | Relación con clientes | Segmentos |
 |---|---|---|---|---|
-| Maquila con HACCP (MAKING, Unión, INDDA); malls (Jockey, Larcomar, La Rambla) y supermercados (Wong, Vivanda); laboratorio INACAL; proveedor de sangrecita; organizadores de ferias, concesionarios y naturistas | I+D y prueba sensorial; maquila y calidad por lote; venta en stands, carritos y ferias; recompra por WhatsApp; contenido; B2B | Mini brownie de 20 g con sangrecita: hierro medido (~1.9 mg [HIPÓTESIS]), sin octógono (4.6 a 7.1 g de azúcar por 100 g), 3 sabores, sin frío, que se prueba en el stand | Degustación en el stand; recordatorio de recompra por WhatsApp; QR de lote; mamá embajadora | 46,000 hogares núcleo (60,000 niños) en zonas 6 y 7; 168,000 hogares A/B con niños en Lima; quioscos y naturistas |
+| Maquila con HACCP (MAKING, Unión, INDDA); malls (Jockey, Larcomar, La Rambla) y supermercados (Wong, Vivanda); laboratorio INACAL; proveedor de sangrecita fresca; organizadores de ferias, concesionarios y naturistas | I+D y prueba sensorial; maquila y calidad por lote; venta en stands, carritos y ferias con vendedores pagados; recompra por WhatsApp; contenido; B2B | Mini brownie de 20 g con sangrecita: hierro medido (~1.9 mg [HIPÓTESIS]), sin octógono (4.6 a 7.1 g de azúcar por 100 g), 3 sabores, sin frío, que se prueba en el stand | Degustación en el stand; recordatorio de recompra por WhatsApp; QR de lote; mamá embajadora | 46,000 hogares núcleo (60,000 niños) en zonas 6 y 7; 168,000 hogares A/B con niños en Lima; quioscos y naturistas |
 | **Recursos clave** | | | **Canales** | |
-| Fórmula V-SO; RS de la S.A.C.; marca clase 30; proveedor homologado; 2 carritos de exhibición; equipo de 5 | | | Stands y carritos 41.4 %; WhatsApp 18.6 %; ferias 17.2 %; quioscos 15.0 %; naturistas 7.9 %; góndola en el año 2 | |
+| Fórmula V-SO; RS de la S.A.C.; marca clase 30; proveedor homologado; 1 carrito de exhibición; vendedores y coordinador pagados; 5 socios (directorio) | | | Stands y carritos 42.9 %; WhatsApp 17.4 %; quioscos 17.4 %; ferias 15.3 %; naturistas 7.0 %; góndola en el año 2 | |
 | **Estructura de costos** | | | **Fuentes de ingresos** | |
-| Producción S/1.65 por brownie en el pack de 6; stands y ferias S/28,865 al año; fijos S/1,803.83 al mes; inversión S/40,644.24 con todos los documentos; equilibrio en 2,215 u/mes | | | Stand: unidad S/5.00, pack de 6 S/26.00; WhatsApp: pack de 6 S/24.90, pack de 12 S/46.90; quiosco S/4.00 (AndiBite recibe S/3.00); año 1 S/198,747.70 con IGV y resultado operativo de S/16,816.14 (10.0 %) | |
+| Producción S/1.38 por brownie en el pack de 6; stands y ferias S/45,870 al año; fijos S/2,503.39 al mes; inversión S/37,894.24 con todos los documentos; equilibrio en 2,592 u/mes | | | Stand: unidad S/5.50, pack de 6 S/26.00; WhatsApp: pack de 6 S/24.90, pack de 12 S/46.90; quiosco S/4.00 (AndiBite recibe S/3.00); año 1 S/230,740.38 con IGV, resultado operativo de S/20,937.62 (10.7 %) y utilidad neta de S/17,704.18 | |
 
 ## 1.3 Qué cambió respecto al canvas anterior (15 de setiembre de 2026)
 
@@ -98,10 +100,10 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 |---|---|---|---|
 | **Segmento** | NSE A/B de Lima Moderna como hipótesis, sin cifras | 46,000 hogares núcleo y 60,000 niños, con buyer persona anclado en APEIM, CPI, ENDES e INEI | El techo de Lima Norte (S/3 a 5 por porción) no cubría el costo; el NSE A gasta S/1,709 al mes en educación y salud |
 | **Producto** | Una sola receta | 3 sabores sobre la misma base (Choco Clásico, Choco-Plátano-Canela con cañihua, Choco-Lúcuma) y 2 de temporada en el año 2 | El dolor del jueves pide variedad; una sola línea abarata la corrida |
-| **Octógono** | "Sin octógonos" como deseo, sin fórmula | V-SO con 4.6 a 7.1 g de azúcar por 100 g, filtro en la fase 0 y versión con panela de respaldo | Abre el quiosco (7,245 u en el año 1), calza con el 70 % que teme el "Alto en azúcar" y cuesta S/0.11 más por unidad a 3,000 u/mes |
+| **Octógono** | "Sin octógonos" como deseo, sin fórmula | V-SO con 4.6 a 7.1 g de azúcar por 100 g, filtro en la fase 0 y versión con panela de respaldo | Abre el quiosco (9,165 u en el año 1), calza con el 70 % que teme el "Alto en azúcar" y cuesta S/0.11 más por unidad a 3,000 u/mes (versión anterior) |
 | **Operación** | Taller propio apto para DIGESA | Maquila; la S.A.C. es titular del RS y la planta, fabricante; sin local ni licencia | Evita la certificación del establecimiento, lo más caro; el RS no cobra tasa |
-| **Precio** | Rango de S/18 a 30 por pack | Pack de 6 a S/26.00 en el stand y S/24.90 por WhatsApp, unidad a S/5.00 en el stand, pack de 12 a S/46.90 y quiosco a S/4.00 (AndiBite recibe S/3.00) | A S/3.50 solo hay margen desde 8,000 u/mes (cálculo de la versión anterior); con los precios confirmados el equilibrio es de 3,308 u/mes (versión anterior, a S/27.00: 3,500) |
-| **Canales y calendario** | Presencial prioritario; ventas desde octubre de 2026 | Venta física en stands, carritos y ferias (58.6 %) con recompra por WhatsApp (18.6 %); ventas desde noviembre de 2026, con los documentos ya listos y pagados en la inversión | La profesora indicó que el mejor escenario es la venta en físico: el niño prueba y el padre compra ahí |
+| **Precio** | Rango de S/18 a 30 por pack | Pack de 6 a S/26.00 en el stand y S/24.90 por WhatsApp, unidad a S/5.50 en el stand, pack de 12 a S/46.90 y quiosco a S/4.00 (AndiBite recibe S/3.00) | A S/3.50 solo había margen desde 8,000 u/mes (cálculo de la versión anterior); con los precios confirmados el equilibrio es de 2,592 u/mes |
+| **Canales y calendario** | Presencial prioritario; ventas desde octubre de 2026 | Venta física en stands, carritos y ferias (58.2 %) con recompra por WhatsApp (17.4 %); ventas desde enero de 2027, con los documentos ya listos y pagados en la inversión, y todo el personal operativo pagado | La profesora indicó que el mejor escenario es la venta en físico: el niño prueba y el padre compra ahí |
 | **Marca** | AndyBites, estética infantil y "orgullo peruano" | AndiBite se mantiene como nombre (el equipo no adoptó la ruta "Hemi"), con el dato de hierro en el frente | El 42 % desconfía de lo "saludable" sin cifra (Kantar 2025) |
 
 ---
@@ -197,8 +199,8 @@ Precios por 20 g al 3 de octubre de 2026 (documento 02).
 |---|---|---|---|
 | **Versión sin octógono con niños** | 20 niños o más por sabor (caritas de 5 puntos de 6 a 11 años y de 3 de 4 a 5), comparación a ciegas con la versión con panela | 75 % o más en caritas 4 y 5; 70 % o más "la llevaría en mi lonchera"; 0.5 puntos o menos de diferencia; menos de 8 g de azúcar por 100 g en el análisis preliminar | Versión con panela solo en directo y ferias; V-SO al mes 6 para colegios |
 | **Umbral de sangrecita** | Prueba triangular con padres a 80, 120 y 160 g por lote | Menos de la mitad identifica la muestra distinta | Techo en el nivel anterior |
-| **Maquila** | Cotizar MAKING, Unión, INDDA y Organic Andean Bites | Tarifa de S/0.50 o menos a 3,000 u/mes; lote mínimo de 5,000 u o menos; línea con HACCP vigente; acepta a la S.A.C. como titular; muestras al laboratorio en diciembre | INDDA como puente o corridas bimestrales; con maquila a S/0.60 la utilidad baja, pero sigue positiva |
-| **Precio de S/4.15 por unidad (pack de 6 a S/24.90)** | Encuesta a 30 padres (2.7) | Mediana de "caro, pero lo compraría" de S/4.15 o más; 60 % o más con intención 4 o 5 a S/24.90 | Si la mediana queda bajo S/4.00, se baja el pack de 6 en el Excel (hoja Supuestos) y se recalcula el equilibrio, que hoy es de 3,308 u/mes (versión anterior: pack a S/24.00 y equilibrio en unas 4,660 u/mes) |
+| **Maquila** | Cotizar MAKING, Unión, INDDA y Organic Andean Bites | Tarifa de S/0.45 o menos por brownie; lote mínimo de 5,000 u o menos; línea con HACCP vigente; acepta a la S.A.C. como titular; muestras al laboratorio en diciembre | INDDA como puente o corridas bimestrales; con maquila a S/0.55 el resultado operativo baja a S/15,395, pero sigue positivo |
+| **Precio de S/4.15 por unidad (pack de 6 a S/24.90)** | Encuesta a 30 padres (2.7) | Mediana de "caro, pero lo compraría" de S/4.15 o más; 60 % o más con intención 4 o 5 a S/24.90 | Si la mediana queda bajo S/4.00, se baja el pack de 6 en el Excel (hoja Supuestos) y se recalcula el equilibrio, que hoy es de 2,592 u/mes |
 | **Mochila y vida útil** | 6 h en lonchera sin frío; estudio acelerado | Sin aplastamiento ni condensación; 60 días o más | Vencimiento corto y lotes más frecuentes |
 
 ## 2.7 Encuesta a 30 padres (Google Forms)
@@ -230,12 +232,12 @@ Precios por 20 g al 3 de octubre de 2026 (documento 02).
 | 4 | **Validación** | Cuatro capas de evidencia | Embudo: 10 entrevistas, focus 1, focus 2 con degustación ([POR COMPLETAR POR EL EQUIPO: agrado y precio]) y store check; al lado, lo que falta validar |
 | 5 | **Por qué ahora** | Regulación, demografía y consumo alineados | Línea de tiempo: octógonos de segunda fase (2021), quioscos sin octógono (RM 195-2019), RS sin tasa (julio de 2026), Unión abre maquila de snacks saludables (agosto de 2026). Íconos: 53.1 % de nacimientos de madres de 30 o más en Lima, 49.6 % de matrícula privada, 83 % cambia su compra por octógonos, 39.5 % de hogares "activos" en salud (Kantar 2025) |
 | 6 | **Cliente** | Planifican, leen etiquetas y pagan por evidencia | Ficha de Claudia y su frase de buyer persona: "Yo sé lo que le falta a mi hijo; el problema es que todo lo que le falta, él lo escupe" |
-| 7 | **Mercado** | Nicho concentrado y suficiente | Círculos: **TAM** S/130.9 millones (932,000 hogares); **SAM** S/62.8 millones (168,000); **SAM núcleo** S/17.3 millones (46,000); **SOM** 700 hogares y 75,600 u (documento 04). Al lado: año 1 base de **47,223 u y S/198,747.70 con IGV**, vendidas sobre todo en stands, carritos y ferias (documento 05 y Excel de costeo) |
-| 8 | **Ingresos y canales** | El stand hace probar y vender; WhatsApp hace volver | Tabla de precios (stand y WhatsApp) y dona de canales: 41.4 / 18.6 / 17.2 / 15.0 / 7.9 % |
+| 7 | **Mercado** | Nicho concentrado y suficiente | Círculos: **TAM** S/130.9 millones (932,000 hogares); **SAM** S/62.8 millones (168,000); **SAM núcleo** S/17.3 millones (46,000); **SOM** 700 hogares y 75,600 u (documento 04). Al lado: año 1 base de **52,786 u y S/230,740.38 con IGV**, vendidas sobre todo en stands, carritos y ferias (documento 05 y Excel de costeo) |
+| 8 | **Ingresos y canales** | El stand hace probar y vender; WhatsApp hace volver | Tabla de precios (stand y WhatsApp) y dona de canales: stands 42.9 / WhatsApp 17.4 / quioscos 17.4 / ferias 15.3 / naturistas 7.0 % |
 | 9 | **Operación y regulación** | Sin planta propia, con todos los documentos listos | Tabla de documentos y permisos (S/6,251.20, dentro de la inversión). Diagrama S.A.C. titular, planta fabricante, laboratorio. Reglas de rotulado: "fuente de hierro" solo con análisis, nunca "previene la anemia" |
 | 10 | **Marca** | De "orgullo peruano" a "medido, no prometido" | Antes y después del empaque (hierro en mg en el frente, ficha de hierro, QR por lote; sabores Chispa, Andi y Lúcu). El equipo mantuvo **AndiBite**; la ruta "Hemi" del documento 06 queda solo como referencia de concepto. Advertencia: "Nombre sujeto a búsqueda fonética en INDECOPI, clase 30, S/401.20" |
 | 11 | **Equipo** | Cinco roles que cubren la cadena | Fotos con rol (3.2) |
-| 12 | **Finanzas** | Rentable desde 2,215 u/mes; resultado operativo positivo en el año 1 | Pack de 6 en el stand: S/26.00, S/22.03 sin IGV, S/9.90 de producción y S/9.51 de contribución. Barras de unidades por mes con la línea de 2,215. Inversión S/40,644.24; resultado operativo del año 1 de S/16,816.14 (10.0 %); caja mínima S/5,009 |
+| 12 | **Finanzas** | Rentable desde 2,592 u/mes; resultado operativo y utilidad neta positivos en el año 1, con todo el personal pagado | Pack de 6 en el stand: S/26.00, S/22.03 sin IGV, S/8.29 de producción y S/11.12 de contribución. Barras de unidades por mes con la línea de 2,592. Inversión S/37,894.24; resultado operativo del año 1 de S/20,937.62 (10.7 %); utilidad neta de S/17,704.18; caja mínima S/3,917 |
 | 13 | **Riesgos** | Sabemos qué puede fallar | Matriz de 2 x 2 con los 5 riesgos (3.3) |
 | 14 | **Próximos 90 días** | Lo que haremos y lo que pedimos | Hoja de ruta (3.4) y llamado a la acción |
 
@@ -251,24 +253,25 @@ Precios por 20 g al 3 de octubre de 2026 (documento 02).
 
 ## 3.3 Finanzas y riesgos (diapositivas 12 y 13)
 
-*Tabla de la versión anterior (opción A y precio de S/4.50 por unidad). Con los precios confirmados, a 3,000 u/mes, el precio neto es de S/3.52 por brownie en el pack de 6 y el costo de producción, de S/1.65 (opción B); el Excel no recalcula el costo total ni el margen a 1,000 y 8,000 u/mes.*
+*Margen del pack de 6 (opción B) en dos canales, con los precios confirmados y el costo del modelo v5 (Excel, hojas Costeo y Proyeccion).*
 
-| Venta directa, S/ por unidad sin IGV (versión anterior) | 1,000 u/mes | 3,000 u/mes | 8,000 u/mes |
-|---|---|---|---|
-| Precio neto (S/4.50 con IGV, versión anterior) | 3.81 | 3.81 | 3.81 |
-| Costo de producción | 2.52 | 1.91 | 1.32 |
-| Costo total en venta directa | 5.86 | 3.84 | 2.74 |
-| Margen neto | −2.05 (−54 %) | −0.03 (−1 %) | **1.07 (28 %)** |
+| Pack de 6, S/ sin IGV | Stand (S/26.00 con IGV) | WhatsApp (S/24.90 con IGV) |
+|---|---|---|
+| Precio neto | 22.03 | 21.10 |
+| Costo de producción (S/1.38 por brownie) | 8.29 | 8.29 |
+| Margen bruto | 13.74 (62 %) | 12.81 (61 %) |
+| Costo variable de canal (degustación, delivery, pasarela y renta) | 2.62 | 5.76 |
+| **Contribución antes de espacio y personal** | **11.12** | **7.05** |
 
-**Indicadores (modelo v3, 9-oct-2026):** equilibrio en 2,215 u/mes (369 packs de 6 equivalentes), con S/0.81 por unidad después de stands y ferias y fijos de S/1,803.83 al mes. Inversión de S/40,644.24, que incluye todos los documentos y permisos. Resultado operativo del año 1 (noviembre 2026 a octubre 2027): S/16,816.14 (10.0 % de las ventas sin IGV), antes de intereses e impuesto a la renta. La inversión no se recupera en el año 1: falta S/23,828 frente al resultado operativo. Con el préstamo a 24 cuotas, la caja nunca baja de S/5,009 y cierra el año en S/16,844. Se dice en voz alta: los socios no cobran sueldo en el año 1. **Versión anterior** (WhatsApp como canal principal, año de marzo 2027 a febrero 2028): 76,335 u, S/302,900 y equilibrio de 3,308 u/mes.
+**Indicadores (modelo v5, 9-oct-2026):** equilibrio en 2,592 u/mes (432 packs de 6 equivalentes), con S/0.97 por unidad después de stands y ferias y fijos de S/2,503.39 al mes. Inversión de S/37,894.24, que incluye todos los documentos y permisos. Resultado operativo del año 1 (enero a diciembre de 2027): S/20,937.62 (10.7 % de las ventas sin IGV), ya con vendedores y coordinador pagados; utilidad neta de S/17,704.18 después de S/3,221.74 de intereses y S/1,967.13 de impuesto a la renta. La inversión no se recupera en el año 1 (faltan S/16,957 frente al resultado operativo) y se recupera en el mes 18 (junio de 2028). Con el préstamo a 24 cuotas, la caja nunca baja de S/3,917 y cierra el año en S/21,902. Se dice en voz alta: todo el personal operativo está pagado; los socios son dueños y directorio, y reciben utilidades. **Versión anterior** (modelo v3, noviembre de 2026 a octubre de 2027): 47,223 u, S/198,748, equilibrio de 2,215 u/mes y resultado de S/16,816.
 
 | Riesgo | Mitigación |
 |---|---|
 | Los niños rechazan la V-SO (sensación fría del eritritol) | Filtro de la fase 0 y versión con panela de respaldo |
-| La maquila no acepta lotes de 3,000 a 5,000 u o cobra más de S/0.60 | Cuatro cotizaciones, INDDA como puente, corridas bimestrales |
-| El mall o el súper no da el espacio, o el alquiler supera S/500 por punto | Pedir cotización a 5 lugares (Jockey, Larcomar, La Rambla, Wong, Vivanda); empezar con ferias y kermeses mientras tanto |
-| Cada punto vende menos de 80 brownies por día | Degustación activa, pasillos de alto tráfico, medir ventas por hora; si baja de 60 en dos fines de semana, cambiar de punto |
-| Escenario pesimista (caja de −S/10,731.60, versión anterior) | Con menos de 200 hogares activos en mayo: sin asistente, pauta a la mitad y S/2,500 más por socio |
+| La maquila no acepta lotes de 3,000 a 5,000 u o supera los S/0.45 del plan | Cuatro cotizaciones, INDDA como puente, corridas bimestrales; a S/0.55 el resultado baja a S/15,395 |
+| El mall o el súper no da el espacio, o el espacio supera los S/600 por punto al mes | Pedir cotización a 5 lugares (Jockey, Larcomar, La Rambla, Wong, Vivanda); empezar con ferias y kermeses mientras tanto; a S/1,000 por punto el resultado baja a S/9,738 |
+| Cada punto vende menos de 80 brownies por día | Degustación activa, pasillos de alto tráfico, medir ventas por hora; si baja de 66 en dos fines de semana (lo que paga el espacio y el vendedor de un punto), cambiar de punto |
+| Ventas 20 % menores (resultado operativo de S/8,612 y recuperación en el mes 29) | Cerrar los puntos que no cubren su espacio y su vendedor, pauta a la mitad y, si la caja baja de un mes de costos fijos, S/2,500 más por socio |
 
 ## 3.4 Próximos 90 días (octubre a diciembre de 2026)
 
@@ -278,10 +281,10 @@ Precios por 20 g al 3 de octubre de 2026 (documento 02).
 | 1-4 | Tres rondas de V-SO y versión con panela; umbral de sangrecita | Diana | Fórmula v3 congelada |
 | 3-5 | Sensorial con 20 niños por sabor y encuesta a 30 padres | Diana y Carlos | Informe sensorial y precio validado |
 | 2-6 | S.A.C. en un CDE de PRODUCE, RUC en el RMT, REMYPE y búsqueda fonética | Adela | S.A.C. con RUC y decisión de nombre |
-| 2-6 | Cotizar 4 plantas y 3 proveedores de sangrecita en polvo | Patricia | 2 plantas preseleccionadas |
+| 2-6 | Cotizar 4 plantas y 2 proveedores de sangrecita fresca de pollo (el polvo como alternativa) | Patricia | 2 plantas preseleccionadas |
 | 6 | Análisis preliminar de azúcares y hierro (S/750) | Diana y Adela | Decisión sobre el octógono |
 | 7-10 | Contrato de maquila con confidencialidad; marca en clase 30 | Patricia y Adela | Contrato y solicitud presentados |
-| 10-13 | Lote piloto, cotización de stands y primer punto de venta en noviembre | Patricia, Adela y Carlos | Primer punto activo y 2 ferias navideñas reservadas [HIPÓTESIS] |
+| 10-13 | Lote piloto, firma del espacio de enero, contratación del coordinador(a) y los vendedores, y primer punto de venta en enero de 2027 | Patricia, Adela y Carlos | Primer punto listo para abrir y feria de campaña escolar de febrero reservada [HIPÓTESIS] |
 
 ## 3.5 Guion de 12 minutos
 
@@ -293,13 +296,13 @@ Precios por 20 g al 3 de octubre de 2026 (documento 02).
 | 2:20-3:20 | 4. Validación | Diana | Cuatro capas de evidencia y resultado del focus 2 [POR COMPLETAR POR EL EQUIPO] |
 | 3:20-4:05 | 5. Por qué ahora | Angie | Octógonos, quioscos, RS sin tasa, padres tardíos, matrícula privada |
 | 4:05-4:50 | 6. Cliente | Angie | Claudia y Rodrigo a las 6:00 a. m. |
-| 4:50-5:40 | 7. Mercado | Adela | TAM, SAM y SOM; 47,223 brownies en el año 1, el 1.1 % del núcleo |
+| 4:50-5:40 | 7. Mercado | Adela | TAM, SAM y SOM; 52,786 brownies en el año 1, el 1.2 % del núcleo |
 | 5:40-6:30 | 8. Ingresos y canales | Patricia | Precios por formato y la dona de canales |
 | 6:30-6:55 | 9. Operación | Patricia | Tres fases y por qué no tenemos planta |
 | 6:55-7:25 | 9. Regulación | Adela | S.A.C. titular del RS; qué se puede decir y qué no |
 | 7:25-8:15 | 10. Marca | Angie | Antes y después; por qué se mantiene AndiBite; advertencia de INDECOPI |
 | 8:15-8:45 | 11. Equipo | Diana | Los cinco roles; cada uno levanta la mano |
-| 8:45-10:00 | 12. Finanzas | Carlos | Cascada, equilibrio, inversión, resultado operativo y payback |
+| 8:45-10:00 | 12. Finanzas | Carlos | Cascada, equilibrio, inversión, resultado operativo, utilidad neta y payback |
 | 10:00-10:45 | 13. Riesgos | Adela | Cinco riesgos y la contingencia |
 | 10:45-11:40 | 14. Próximos 90 días | Patricia | Hoja de ruta |
 | 11:40-12:00 | 14. Cierre | Carlos | Llamado a la acción y caja degustación para el jurado |
@@ -324,7 +327,7 @@ Tiempo por integrante: Carlos 2:55, Diana 2:30, Angie 2:20, Patricia 2:10 y Adel
 
 **[0:40-0:50]** Nuestra diferencia: menos de 7.1 gramos de azúcar por 100, así que no lleva octógono. El niño ve un brownie; el padre ve los miligramos.
 
-**[0:50-1:00]** Lo validamos con diez entrevistas, dos focus groups y degustación. Con 2,215 unidades al mes llegamos al equilibrio. Búsquennos en nuestro stand y prueben antes de comprar.
+**[0:50-1:00]** Lo validamos con diez entrevistas, dos focus groups y degustación. Con 2,592 unidades al mes llegamos al equilibrio. Búsquennos en nuestro stand y prueben antes de comprar.
 
 ## 4.2 Versión de 30 segundos
 
@@ -332,7 +335,7 @@ Tiempo por integrante: Carlos 2:55, Diana 2:30, Angie 2:20, Patricia 2:10 y Adel
 
 **[0:10-0:20]** AndiBite es un mini brownie de 20 gramos con sangrecita, hierro medido y sin octógono, en tres sabores, para 46,000 hogares planificados de Lima.
 
-**[0:20-0:30]** Ya lo validamos con entrevistas, focus y degustación. Con stands en malls y supermercados, llegamos al equilibrio con 2,215 unidades al mes. Pruébenlo.
+**[0:20-0:30]** Ya lo validamos con entrevistas, focus y degustación. Con stands en malls y supermercados, llegamos al equilibrio con 2,592 unidades al mes. Pruébenlo.
 
 ## 4.3 Versión disruptiva
 
@@ -344,7 +347,7 @@ Tiempo por integrante: Carlos 2:55, Diana 2:30, Angie 2:20, Patricia 2:10 y Adel
 
 **[0:35-0:50]** Tres sabores, un stand donde el niño prueba antes de comprar y una empresa sin planta propia, con registro sanitario a nuestro nombre.
 
-**[0:50-1:00]** Equilibrio en 2,215 unidades al mes y resultado positivo ya en el primer año. La pregunta no es si los niños necesitan hierro, sino por qué nadie lo había hecho rico.
+**[0:50-1:00]** Equilibrio en 2,592 unidades al mes y resultado positivo ya en el primer año, con todo el equipo operativo pagado. La pregunta no es si los niños necesitan hierro, sino por qué nadie lo había hecho rico.
 
 ## 4.4 Diez preguntas difíciles
 
@@ -352,14 +355,14 @@ Tiempo por integrante: Carlos 2:55, Diana 2:30, Angie 2:20, Patricia 2:10 y Adel
 |---|---|---|
 | 1 | ¿Por qué pagar S/4.15 si Nutri H cuesta S/3.20 por 20 g? | Porque es otra cosa: un brownie que el niño pide, sin octógono, con hierro medido por lote y entregado en casa. Cuesta 1 a 4 % más que Fika y Mamalama (S/4.00 y S/4.10), y el pack quincenal es el 2.2 a 2.8 % del gasto en alimentos de un hogar A o B |
 | 2 | ¿Cómo saben que el niño no detecta la sangrecita? | Se rechazó en salado y se aceptó en dulce (entrevistas y focus 1); el focus 2 dio [POR COMPLETAR POR EL EQUIPO]. La fase 0 lo mide con 20 niños por sabor; la meta es 75 % en caritas 4 y 5 |
-| 3 | ¿Por qué no es rentable a 1,000 u/mes? | Después de stands y ferias, cada brownie deja S/0.81: 1,000 unidades cubren S/810 de los S/1,803.83 de costos fijos. El equilibrio es 2,215 u/mes; por eso noviembre, con un solo punto, cierra en rojo |
+| 3 | ¿Por qué no es rentable a 1,000 u/mes? | Después de stands y ferias, cada brownie deja S/0.97: 1,000 unidades cubren S/970 de los S/2,503.39 de costos fijos. El equilibrio es 2,592 u/mes; por eso enero, con un solo punto, cierra en rojo |
 | 4 | ¿El eritritol es seguro para niños? | La EFSA fijó en 2023 una ingesta admisible de 0.5 g por kg al día: un niño de 18 kg tolera 9 g y un brownie trae 2 a 3 g. Recomendamos 1 unidad al día en la etiqueta |
 | 5 | ¿Y si DIGESA demora el registro? | Hoy no cobra tasa y resuelve en 10 a 20 días con el expediente completo; el cuello de botella es la vida útil, por eso las muestras salen en diciembre. Plan B: gestor a S/236 y campaña de abril |
-| 6 | ¿Qué impide que la planta copie la receta? | Confidencialidad, la S.A.C. como titular del RS y la premezcla de sangrecita con cacao entregada por nosotros |
-| 7 | ¿No es un nicho muy chico? | 46,000 hogares núcleo y 168,000 en el NSE A/B; el año 1 vende 47,223 brownies, el 1.1 % del núcleo. En el año 2 entran la zona 8 y la góndola del supermercado |
+| 6 | ¿Qué impide que la planta copie la receta? | Confidencialidad, la S.A.C. como titular del RS y la sangrecita, que compra y entrega la S.A.C. a la planta |
+| 7 | ¿No es un nicho muy chico? | 46,000 hogares núcleo y 168,000 en el NSE A/B; el año 1 vende 52,786 brownies, el 1.2 % del núcleo. En el año 2 entran la zona 8 y la góndola del supermercado |
 | 8 | ¿Por qué no supermercado desde el inicio? | Con 35 % de margen más 5 % de aportes, a 3,000 u/mes se pierden S/0.75 por unidad; solo funciona desde 8,000 u/mes y con el pack a S/32.90 (cálculo de la versión anterior, por redefinir con los precios confirmados) |
 | 9 | ¿Pueden decir que previene la anemia? | No: es una declaración de reducción de riesgo, sancionable por INDECOPI (D. Leg. 1044). Diremos "fuente de hierro" solo con 2.1 mg por 100 g o más medidos |
-| 10 | ¿Cuándo recuperan la inversión y qué pasa si va mal? | La inversión es de S/40,644 e incluye todos los documentos. El resultado operativo del año 1 es de S/16,816, así que se recupera en el año 2. Con el préstamo a 24 cuotas, la caja nunca baja de S/5,009. Si un punto vende menos de 60 brownies por día, se cambia de lugar; si el alquiler sube al doble, el resultado baja a unos S/4,300 |
+| 10 | ¿Cuándo recuperan la inversión y qué pasa si va mal? | La inversión es de S/37,894 e incluye todos los documentos. El resultado operativo del año 1 es de S/20,938 (utilidad neta de S/17,704 después de intereses y renta) y la inversión se recupera en el mes 18 (junio de 2028). Con el préstamo a 24 cuotas, la caja nunca baja de S/3,917. Si un punto vende menos de 66 brownies por día, se cambia de lugar; si el espacio sube a S/1,000 por punto, el resultado baja a S/9,738 |
 
 ---
 
