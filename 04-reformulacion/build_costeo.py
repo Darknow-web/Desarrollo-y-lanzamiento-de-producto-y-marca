@@ -72,9 +72,9 @@ for i,(lab,lg,pas,nota) in enumerate([(CH[0],0.80,1,'Delivery: S/9.50 por pedido
     r=32+i; cell(S,f'A{r}',lab); cell(S,f'B{r}',lg,BLUE,'0.00'); cell(S,f'C{r}',pas,BLUE,'0'); cell(S,f'D{r}',nota)
 section(S,37,'5. Precio que cobra AndiBite por presentación y canal (S/ con IGV)',5); header(S,38,['Canal','Unidad individual','Pack de 6','Pack de 12','Nota'])
 for i,(u,p6,p12,nota) in enumerate([(4.00,23.50,44.00,'Precios ajustados por el equipo (9-oct-2026). Unidad = caja degustación de 3 (S/12.00) o unidades agregadas al pedido'),
-                                    (5.00,27.00,49.00,'La unidad suelta cuesta más que dentro del pack para empujar el pack'),
+                                    (5.00,25.00,42.00,'Precios ajustados por el equipo (9-oct-2026). La unidad suelta cuesta más que dentro del pack'),
                                     (3.00,0,0,'El alumno paga S/4.00; el concesionario se queda 25 %'),
-                                    (0,19.14,0,'Precio en anaquel S/31.90; la tienda se queda 40 %')]):
+                                    (0,24.00,0,'Precio ajustado por el equipo (9-oct-2026): lo que cobra AndiBite a la tienda. Con 40 % para la tienda, el anaquel quedaría en S/40.00')]):
     r=39+i; cell(S,f'A{r}',CH[i])
     for col,v in zip('BCD',(u,p6,p12)): cell(S,f'{col}{r}',v,BLUE,SOL,YEL if (i==1 and col=='B') else None)
     cell(S,f'E{r}',nota)
