@@ -1,0 +1,48 @@
+.admin { font-family: var(--fuente); max-width: 1200px; margin: 0 auto; padding: 20px; color: var(--texto); }
+.admin-login { min-height: 100dvh; display: grid; place-items: center; }
+.admin-login form { background: #fff; border-radius: 20px; padding: 28px; box-shadow: var(--sombra); display: grid; gap: 12px; width: 100%; max-width: 380px; }
+.admin input, .admin select, .admin textarea { border: 1.5px solid var(--linea); border-radius: 10px; padding: 9px 11px; background: #fff; font-size: 14.5px; width: 100%; }
+.admin textarea { min-height: 70px; }
+.admin button { background: var(--cacao); color: #fff; border-radius: 10px; padding: 9px 16px; font-weight: 700; font-size: 14.5px; }
+.admin button.sec { background: #fff; color: var(--cacao); border: 1.5px solid var(--linea); }
+.admin button:disabled { opacity: .4; }
+.admin-cabeza { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+.admin-cabeza h1 { font-size: 22px; margin-right: auto; }
+.admin-cabeza nav { display: flex; gap: 6px; }
+.admin-cabeza nav button { background: #fff; color: var(--cacao); border: 1.5px solid var(--linea); }
+.admin-cabeza nav button.activo { background: var(--cacao); color: #fff; }
+.admin-salir { background: transparent !important; color: var(--suave) !important; }
+.admin-error { background: var(--ambar-suave); padding: 10px 14px; border-radius: 10px; margin-bottom: 12px; cursor: pointer; }
+.admin-seccion { background: #fff; border-radius: 18px; padding: 18px; box-shadow: var(--sombra); display: grid; gap: 14px; }
+.admin-barra { display: flex; gap: 10px; align-items: end; flex-wrap: wrap; }
+.admin-barra h2 { font-size: 18px; margin-right: auto; align-self: center; }
+.admin-barra label { display: grid; gap: 4px; font-size: 13px; font-weight: 600; color: var(--suave); }
+.admin-barra input { width: 100px; }
+.admin-tabla { width: 100%; border-collapse: collapse; font-size: 14px; }
+.admin-tabla th { text-align: left; color: var(--suave); font-weight: 600; padding: 8px; border-bottom: 2px solid var(--linea); }
+.admin-tabla td { padding: 8px; border-bottom: 1px solid var(--linea); }
+.admin-tabla em { color: var(--ambar); font-style: normal; font-size: 12px; }
+.admin-tabla.editable td { padding: 4px; }
+.admin-nota { color: var(--suave); font-size: 13.5px; }
+.admin-form { border-top: 2px solid var(--linea); padding-top: 14px; display: grid; gap: 12px; }
+.admin-rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.admin-rejilla label { display: grid; gap: 4px; font-size: 13px; font-weight: 600; color: var(--suave); }
+.admin-rejilla .ancho { grid-column: 1 / -1; }
+.admin-rejilla .check { display: flex; gap: 8px; align-items: center; }
+.admin-rejilla .check input { width: auto; }
+.admin-acciones { display: flex; gap: 10px; }
+.hoja-qr { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.etiqueta-qr { border: 1px dashed var(--linea); border-radius: 12px; padding: 10px; display: grid; justify-items: center; gap: 4px; text-align: center; }
+.etiqueta-qr-img { width: 110px; height: 110px; }
+.etiqueta-qr-img svg { width: 100%; height: 100%; }
+.etiqueta-qr strong { font-family: ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: .05em; }
+.etiqueta-qr small { font-size: 10px; color: var(--suave); }
+@media print {
+  @page { size: A4; margin: 10mm; }
+  body { background: #fff; }
+  .no-imprimir { display: none !important; }
+  .admin, .admin-seccion { padding: 0; box-shadow: none; }
+  .hoja-qr { grid-template-columns: repeat(5, 36mm); gap: 3mm; }
+  .etiqueta-qr { width: 36mm; height: 44mm; padding: 2mm; break-inside: avoid; border: .2mm dashed #bbb; }
+  .etiqueta-qr-img { width: 28mm; height: 28mm; }
+}

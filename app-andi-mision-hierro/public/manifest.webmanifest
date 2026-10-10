@@ -1,0 +1,22 @@
+{
+  "name": "Andi, Misión Hierro · AndiBite",
+  "short_name": "Andi",
+  "description": "Hierro medido de tu lote, semáforo de hierro, loncheras y Misión Hierro para niños.",
+  "lang": "es-PE",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF6EE",
+  "theme_color": "#5A2E22",
+  "categories": ["health", "food", "education", "kids"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Escanear envase", "url": "/escanear", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Misión Hierro", "url": "/ninos", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
