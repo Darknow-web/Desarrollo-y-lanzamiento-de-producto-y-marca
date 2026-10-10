@@ -37,13 +37,13 @@ cell(S,'A1','Supuestos del costeo — AndiBite (maquila, escenario de 3,000 unid
 cell(S,'A2','Celdas azules = datos que pueden cambiar. Amarillo = supuestos clave sin cotizar. Montos en soles. Fuente general: 04-reformulacion/05-plan-comercial-y-financiero.md, sección 4.',BLACK,wrap=False)
 section(S,4,'1. Costos de producción por unidad de 20 g (sin IGV)',4); header(S,5,['Concepto','Valor','Unidad','Fuente o nota'])
 rows=[
- (6,'Insumos por unidad (promedio de los 3 sabores, con sangrecita fresca de pollo cocida en la planta)',0.40,'S/ por unidad','Recetas del documento 01: 175 g de sangrecita cruda por lote de 24 (Redondos, S/11.29 por kg en Makro), que la planta cuece y licúa con los huevos; resto de insumos según documento 05 (Makro, mayoristas, Plaza Vea y Wong, sin IGV)',None),
- (7,'Maquila por unidad (la planta cuece la sangrecita, mezcla, hornea, corta, pesa y sella la bolsita)',0.45,'S/ por unidad','Tarifa de maquila de snacks horneados en Lima: S/20.75 por kg de producto terminado, elaboración y empaque incluidos (Organic Andean Bites, documento 03), actualizada a 2027: S/0.45 por brownie de 20 g',None),
+ (6,'Insumos por unidad (promedio de los 3 sabores, con sangrecita de res en polvo liofilizada)',0.605,'S/ por unidad','Receta 5 del documento 01: 22 g de sangrecita en polvo + 98 g de agua por lote de 24 (0.92 g de polvo por brownie). Polvo de res liofilizado con registro sanitario, comprado a granel en bolsas de 1 a 5 kg a S/300 por kg (en sobre de tienda cuesta S/417 a 667 por kg: Malli, Allpa Manta). Resto de insumos según documento 05 (Makro, mayoristas, Plaza Vea y Wong, sin IGV)',None),
+ (7,'Maquila por unidad (la planta hidrata la sangrecita en polvo, mezcla, hornea, corta, pesa y sella la bolsita)',0.45,'S/ por unidad','Tarifa de maquila de snacks horneados en Lima: S/20.75 por kg de producto terminado, elaboración y empaque incluidos (Organic Andean Bites, documento 03), actualizada a 2027: S/0.45 por brownie de 20 g',None),
  (8,'Descuento de maquila si no se empaca cada unidad (opción C)',0.00,'S/ por unidad','[HIPÓTESIS] Dejar en 0 hasta que la planta lo confirme',YEL),
  (9,'Bolsita individual (flow pack sin imprimir)',0.09,'S/ por unidad','Documento 05, tabla 4.2',None),
- (10,'Etiqueta individual con rotulado completo (solo unidad que se vende suelta)',0.25,'S/ por unidad','Imprenta Peruana, 1,000 unidades sin IGV (documento 02)',None),
+ (10,'Etiqueta individual con rotulado completo y código único de la app (solo unidad que se vende suelta)',0.29,'S/ por unidad','Imprenta Peruana, 1,000 unidades sin IGV (documento 02): S/0.25, más S/0.04 por el código único impreso con dato variable (QR de la app Andi, Misión Hierro)',None),
  (11,'Papel manteca separador entre brownies (opción C)',0.01,'S/ por unidad','[HIPÓTESIS] Rollo de supermercado prorrateado',None),
- (12,'Control de calidad por lote, prorrateado por unidad',0.083,'S/ por unidad','S/250 por análisis microbiológico al mes / 3,000 unidades (documento 05)',None),
+ (12,'Control de calidad por lote (microbiológico y hierro medido), prorrateado por unidad',0.142,'S/ por unidad','Cada lote mensual: análisis microbiológico S/250 (documento 05) + hierro por lote S/375 (el resultado se publica en la app) = S/625 / 4,400 unidades al mes en promedio del año 1',None),
  (13,'Transporte planta-almacén por unidad',0.053,'S/ por unidad','2 viajes de S/80 al mes / 3,000 unidades (documento 05)',None),
  (14,'Almacenamiento por unidad',0.04,'S/ por unidad','Pactado con la planta u operador logístico (documento 05)',None),
  (15,'Merma (sobre insumos, maquila y empaque)',0.05,'%','[HIPÓTESIS] Documento 05',None),
@@ -53,9 +53,9 @@ for r,lab,v,u,src,fill in rows:
 section(S,17,'2. Empaque del pack (por envase, sin IGV)',4); header(S,18,['Concepto','Valor','Unidad','Fuente o nota'])
 for r,lab,v,src,fill in [
  (19,'Doypack kraft para 6 unidades',0.53,'S/0.625 con IGV por 1,000 unidades (documento 02)',None),
- (20,'Etiquetas del doypack de 6 (frente y reverso)',0.72,'2 x S/0.36, 1,000 unidades (documento 02)',None),
+ (20,'Etiquetas del doypack de 6 (frente y reverso, con código único de la app)',0.76,'2 x S/0.36, 1,000 unidades (documento 02), más S/0.04 del código único de la app',None),
  (21,'Doypack kraft para 12 unidades',0.70,'[HIPÓTESIS] Talla mayor; cotizar',YEL),
- (22,'Etiquetas del doypack de 12 (frente y reverso)',0.72,'Mismo sticker que el pack de 6',None)]:
+ (22,'Etiquetas del doypack de 12 (frente y reverso, con código único de la app)',0.76,'Mismo sticker que el pack de 6',None)]:
     cell(S,f'A{r}',lab); cell(S,f'B{r}',v,BLUE,'0.00',fill); cell(S,f'C{r}','S/ por envase'); cell(S,f'D{r}',src)
 section(S,24,'3. Impuestos y comisiones',4); header(S,25,['Concepto','Valor','Unidad','Fuente o nota'])
 for r,lab,v,src in [
@@ -73,9 +73,9 @@ for i,(lg,pas,nota) in enumerate([(0.27,1,'Degustación: 1 brownie regalado por 
                                   (0.15,0,'[HIPÓTESIS] Reposición quincenal; cobro por factura')]):
     r=32+i; cell(S,f'A{r}',CH[i]); cell(S,f'B{r}',lg,BLUE,'0.00'); cell(S,f'C{r}',pas,BLUE,'0'); cell(S,f'D{r}',nota)
 section(S,38,'5. Precio que cobra AndiBite por presentación y canal (S/ con IGV, confirmados el 9-oct-2026)',5); header(S,39,['Canal','Unidad individual','Pack de 6','Pack de 12','Nota'])
-for i,(u,p6,p12,nota) in enumerate([(5.50,26.00,48.00,'Precio de lista en físico. La unidad suelta (S/5.50) es la compra de prueba y deja más margen; el pack de 6 (S/4.33 por brownie) queda como la compra conveniente'),
-                                    (5.50,26.00,48.00,'Mismo precio que en el stand'),
-                                    (4.00,24.90,46.90,'S/4.15 por brownie en el pack de 6, a la par de Fika (S/4.00) y Mamalama (S/4.10) por 20 g. Unidad = caja degustación de 3 (S/12.00)'),
+for i,(u,p6,p12,nota) in enumerate([(6.00,27.90,51.90,'Precio de lista en físico. La unidad suelta (S/6.00) es la compra de prueba y deja más margen; el pack de 6 (S/4.65 por brownie) es la compra conveniente. Incluye hierro medido por lote y la app Andi, Misión Hierro'),
+                                    (6.00,27.90,51.90,'Mismo precio que en el stand'),
+                                    (4.00,26.90,49.90,'S/4.48 por brownie en el pack de 6 (Fika S/4.00 y Mamalama S/4.10 por 20 g no miden su hierro ni traen app). Unidad = caja degustación de 3 (S/12.00)'),
                                     (3.00,0,0,'El alumno paga S/4.00; el concesionario se queda 25 %'),
                                     (0,17.34,0,'AndiBite cobra S/17.34 a la tienda; con 40 % para la tienda, el anaquel queda en S/28.90')]):
     r=40+i; cell(S,f'A{r}',CH[i])
@@ -99,7 +99,7 @@ for r,lab,v,u,src,fill,fmt in [
  (64,'Pedidos por WhatsApp del primer mes (lista de espera)',150,'unidades','[HIPÓTESIS]',None,NUM)]:
     cell(S,f'A{r}',lab); cell(S,f'B{r}',v,BLUE,fmt,fill); cell(S,f'C{r}',u); cell(S,f'D{r}',src)
 section(S,66,'8. Costos fijos mensuales (S/ sin IGV)',4); header(S,67,['Concepto','S/ al mes','','Fuente o nota'])
-for i,(lab,v,src) in enumerate([('Administración: contador, software de facturación, web, teléfono, movilidad, GS1, banco, carnés de sanidad y uniformes del personal de stand',760,'Documento 05, sección 4.1 (S/700) más S/60 al mes de carnés de sanidad (S/9 a 20 por persona cada 6 meses), uniformes y reposición del material de stand'),
+for i,(lab,v,src) in enumerate([('Administración: contador, software de facturación, web, teléfono, movilidad, GS1, banco, carnés de sanidad, uniformes del personal de stand y app (servidor, base de datos y mantenimiento)',1010,'Documento 05, sección 4.1 (S/700) más S/60 al mes de carnés de sanidad (S/9 a 20 por persona cada 6 meses), uniformes y reposición del material de stand, más S/250 al mes de la app (Cloud Run y Firestore de Google, envío de recordatorios y mantenimiento de un desarrollador)'),
                                 ('Coordinador(a) comercial y de operaciones (planilla, medio tiempo de 4 horas)',709,'Media remuneración mínima de 2027 (S/1,300 según el DS 015-2026-TR) más 9 % de EsSalud; microempresa en el REMYPE. Atiende WhatsApp, pedidos y despacho, y lleva el stock a los stands'),
                                 ('Marketing: pauta, degustaciones y material de stand (promedio del año)',900,'[HIPÓTESIS] Menos pauta digital que en la versión anterior (S/1,291.67): la captación se hace en el stand'),
                                 ('Depreciación de equipos y carrito (36 meses)','=Inversion!B37/36','Hoja Inversion')]):
@@ -169,14 +169,14 @@ INV=[('1. Documentos y permisos para vender',None,None,True),
  ('Prueba sensorial con niños',150,'Documento 05'),
  ('Desarrollo y lote piloto en la planta',1750,'[POR CONFIRMAR] Documento 05'),
  ('Subtotal desarrollo','=SUM(B19:B23)',None,'sub'),
- ('3. Marca y puntos de venta',None,None,True),
+ ('3. Marca, app y puntos de venta',None,None,True),
  ('Identidad de marca',800,'Documento 05'),
  ('Fotos de producto',300,'Documento 05'),
- ('Web y dominio',150,'Documento 05'),
+ ('Web, dominio y app Andi, Misión Hierro (diseño, desarrollo, pruebas y publicación)',6150,'Web y dominio S/150 (documento 05) más S/6,000 de la app web instalable (PWA) para padres y niños, con desarrollador freelance (documento 09)'),
  ('Subtotal marca','=SUM(B26:B28)',None,'sub'),
  ('4. Arranque de la operación',None,None,True),
- ('Empaque inicial (mínimos de compra)',3030,'Documento 05'),
- ('Stock inicial para enero y febrero',4135.30,'Documento 05'),
+ ('Empaque inicial (mínimos de compra)',3150,'Documento 05, más S/120 de los códigos únicos de la app en las primeras 3,000 etiquetas'),
+ ('Stock inicial para enero y febrero',4800.70,'Documento 05, actualizado al costo con sangrecita en polvo (pack de 6 de S/8.29 a S/9.62)'),
  ('Marketing de lanzamiento (degustaciones, influencers, POP)',3204,'Documento 05'),
  ('Capital de trabajo (2 meses)',8000,'Documento 05'),
  ('Subtotal arranque','=SUM(B31:B34)',None,'sub'),
@@ -378,7 +378,7 @@ for i,(t,f,fmt) in enumerate(net):
 cell(R,'A36','Notas',bold=True)
 notes=['La proyección supone que los documentos (S.A.C., marca, registro sanitario, análisis, etiqueta, carnés y póliza) ya están listos al inicio de ventas (mes 1, enero de 2027). Su costo está en la hoja Inversion.',
        'La venta física (stands, carritos y ferias) es el canal principal; WhatsApp queda para la recompra, sin suscripción. Todos los puntos de venta llevan vendedor(a) pagado(a) y un(a) coordinador(a) en planilla atiende pedidos y despacho.',
-       'Costo de producción con sangrecita fresca de pollo (S/0.40 de insumos por brownie) y maquila de S/0.45 por brownie.',
+       'Costo de producción con sangrecita de res en polvo liofilizada (S/0.605 de insumos por brownie, polvo a S/300 por kg a granel) y maquila de S/0.45 por brownie. Cada envase trae un código único de la app Andi, Misión Hierro.',
        'El resultado operativo ya incluye al personal que opera el negocio (vendedores de stand y coordinador en planilla). La utilidad neta descuenta además los intereses del préstamo y el impuesto a la renta (filas 29 a 34).']
 for i,t in enumerate(notes): cell(R,f'A{37+i}',f'{i+1}. {t}')
 R.column_dimensions['A'].width=70
