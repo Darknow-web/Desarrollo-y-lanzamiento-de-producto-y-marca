@@ -814,50 +814,73 @@ const chartText = () => ({
   T(s, [{ text: 'S/4.48 por brownie', options: { bold: true, fontSize: 20, color: C.accent3, breakLine: true } }, { text: 'Por WhatsApp; S/4.65 en el stand. 12 % más que Fika, con hierro medido por lote y la app Andi.', options: { fontSize: 14, color: C.background1 } }], { x: 7.95, y: 5.4, w: 4.6, h: 1.25, valign: 'middle' });
   s.addNotes('Precios por 20 g consultados el 3 de octubre de 2026 (documento 02): Nutri H S/3.20, Fika S/4.00, Mamalama S/4.10, Siete Dragones S/3.01, Bimbo Nutra Bien S/1.67. AndiBite por WhatsApp: pack de 6 a S/26.90 (S/4.48 por brownie) y pack de 12 a S/49.90 (S/4.16); en el stand, pack de 6 a S/27.90 (S/4.65). Ningún competidor publica el hierro medido de cada lote ni ofrece una app para la familia. Completar con los datos del store check de La Molina.');
 
-  // =============== 26b. PLAN DE MARKETING (GANTT) ===============
-  s = content(S8, 'PLAN DE MARKETING · OCTUBRE DE 2026 A DICIEMBRE DE 2027', 'Qué hacemos cada mes y cuánto invertimos');
+  // =============== 26a. PLAN DE MARKETING: FASES Y OBJETIVOS ===============
+  const PM = require(require('path').join(__dirname, 'plan_mkt.json'));
+  s = content(S8, 'PLAN DE MARKETING · OCTUBRE DE 2026 A DICIEMBRE DE 2027', 'S/24,544 para que nos prueben, compren y vuelvan');
+  // mensajes
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 1.55, w: 12.13, h: 0.95, rectRadius: 0.12, fill: { color: C.text2 }, line: { color: C.text2, width: 0 } });
+  T(s, [{ text: 'MENSAJE CENTRAL', options: { fontSize: 9.5, bold: true, color: C.accent3, charSpacing: 1, breakLine: true } }, { text: '"' + PM.mensajes.central + '"', options: { fontSize: 18, bold: true, italic: true, color: C.background1 } }], { x: 0.85, y: 1.55, w: 3.6, h: 0.95, valign: 'middle' });
+  [['PADRE A · LIMA TOP', PM.mensajes.A], ['PADRE B · LIMA MODERNA', PM.mensajes.B]].forEach((m, i) => {
+    const x = 4.6 + i * 4.08;
+    T(s, [{ text: m[0], options: { fontSize: 9.5, bold: true, color: C.accent5, charSpacing: 1, breakLine: true } }, { text: m[1], options: { fontSize: 13, color: C.background1 } }], { x, y: 1.55, w: 3.95, h: 0.95, valign: 'middle' });
+  });
+  // fases
+  const fcol = [C.accent2, C.accent1, C.accent4, C.text2];
+  PM.fases.forEach((f, i) => {
+    const w = 2.92, x = 0.6 + i * (w + 0.15), y = 2.68, h = 2.45;
+    card(s, x, y, w, h);
+    s.addShape(pres.shapes.RECTANGLE, { x, y, w, h: 0.12, fill: { color: fcol[i] }, line: { color: fcol[i], width: 0 } });
+    T(s, (i + 1) + ' · ' + f.nombre.toUpperCase(), { x: x + 0.2, y: y + 0.24, w: w - 0.3, h: 0.28, fontSize: 11, bold: true, color: fcol[i], charSpacing: 1 });
+    T(s, f.meses, { x: x + 0.2, y: y + 0.52, w: w - 0.3, h: 0.26, fontSize: 11, color: C.accent2 });
+    T(s, f.objetivo, { x: x + 0.2, y: y + 0.82, w: w - 0.3, h: 0.62, fontSize: 13, bold: true, color: C.text2 });
+    T(s, [{ text: 'S/' + f.inversion.toLocaleString('en-US'), options: { fontSize: 20, bold: true, color: C.accent1, breakLine: true } }, { text: 'Meta: ' + f.meta_clave, options: { fontSize: 11, color: C.text1 } }], { x: x + 0.2, y: y + 1.5, w: w - 0.3, h: 0.85, valign: 'top' });
+  });
+  // objetivos
+  T(s, 'OBJETIVOS DEL AÑO 2027', { x: 0.6, y: 5.27, w: 6, h: 0.26, fontSize: 10.5, bold: true, color: C.accent1, charSpacing: 1 });
+  PM.objetivos.forEach((o, i) => {
+    const w = 2.33, x = 0.6 + i * (w + 0.12), y = 5.56, h = 1.32;
+    card(s, x, y, w, h, { r: 0.1, fill: i === 0 ? C.accent1 : C.background1 });
+    T(s, [{ text: o.titulo, options: { fontSize: 11, bold: true, color: i === 0 ? C.accent5 : C.accent2, breakLine: true } }, { text: o.meta, options: { fontSize: 12.5, bold: true, color: i === 0 ? C.background1 : C.text2 } }], { x: x + 0.15, y, w: w - 0.25, h, valign: 'middle' });
+  });
+  s.addNotes('Plan de marketing completo en el documento 04-reformulacion/10-plan-de-marketing-2027.md. Mensaje central: "Hierro medido. Sabor a brownie." Al padre A (Claudia, Lima Top) le hablamos del dato: el hierro medido de su lote. Al padre B (Rodrigo, Lima Moderna) le hablamos de resolver la semana a buen precio: el pack de 12 por WhatsApp sale S/4.16 por brownie. Desde febrero la pauta se reparte mitad en Lima Top y mitad en Lima Moderna. Cuatro fases: prelanzamiento (octubre a diciembre de 2026, S/1,758: lista de espera, video, influencers y material de punto de venta); lanzamiento (enero y febrero, S/5,796: apertura en Jockey y punto 2, feria de campaña escolar; 3,700 brownies); crecer (marzo a julio, S/9,770: quioscos, embajadoras, feria del Día del Niño y fechas clave; 20,320 brownies); expandir (agosto a diciembre, S/7,220: punto 3, 5 colegios y Navidad con cajas por pedido; 28,311 brownies). Total S/24,544: S/0.44 de marketing por brownie en 2027. Objetivos: vender lo del Excel v7 (52,331 brownies y S/244,728); recompra igual al 35 % de lo vendido en físico, con unos 2,300 contactos de WhatsApp con permiso; 30 % de envases escaneados; 230 familias nuevas por embajadoras; 5 colegios con quiosco (2 A y 3 B) y 8 tiendas naturistas. Las metas de contactos, escaneos y colegios son metas propuestas, calculadas en la sección 6.3 del documento 10. Indicadores que se revisan cada domingo: brownies por día y punto (80 a 100), recompra, contactos, escaneos, contactos por feria (50 o más) y familias por embajadoras (20 al mes).');
+
+  // =============== 26b. GANTT DEL PLAN DE MARKETING ===============
+  s = content(S8, 'PLAN DE MARKETING · CRONOGRAMA', 'Qué hacemos cada mes y qué meta buscamos');
   const GM = ['Oct', 'Nov', 'Dic', 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic'];
-  const gx = 3.55, gw = 12.73 - gx, cwm = gw / 15, gy0 = 1.5;
-  const gfases = [[0, 2, 'PRELANZAMIENTO · 2026', C.accent2], [3, 4, 'LANZAMIENTO 2027', C.accent1], [5, 9, 'CRECER: COLEGIOS Y EMBAJADORAS', C.accent4], [10, 14, 'EXPANDIR: 3 PUNTOS', C.text2]];
+  const gx = 4.1, gw = 12.73 - gx, cwm = gw / 15, gy0 = 1.48;
+  const gfases = [[0, 2, 'PRELANZAMIENTO 2026', C.accent2], [3, 4, 'LANZAMIENTO', C.accent1], [5, 9, 'CRECER', C.accent4], [10, 14, 'EXPANDIR', C.text2]];
   gfases.forEach(f => {
-    s.addShape(pres.shapes.RECTANGLE, { x: gx + f[0] * cwm + 0.02, y: gy0, w: (f[1] - f[0] + 1) * cwm - 0.04, h: 0.3, fill: { color: f[3] }, line: { color: f[3], width: 0 } });
-    T(s, f[2], { x: gx + f[0] * cwm, y: gy0, w: (f[1] - f[0] + 1) * cwm, h: 0.3, fontSize: 9, bold: true, align: 'center', valign: 'middle', color: C.background1, charSpacing: 0.5 });
+    s.addShape(pres.shapes.RECTANGLE, { x: gx + f[0] * cwm + 0.02, y: gy0, w: (f[1] - f[0] + 1) * cwm - 0.04, h: 0.28, fill: { color: f[3] }, line: { color: f[3], width: 0 } });
+    T(s, f[2], { x: gx + f[0] * cwm, y: gy0, w: (f[1] - f[0] + 1) * cwm, h: 0.28, fontSize: 9, bold: true, align: 'center', valign: 'middle', color: C.background1, charSpacing: 0.5 });
   });
-  GM.forEach((m, i) => T(s, m, { x: gx + i * cwm, y: gy0 + 0.33, w: cwm, h: 0.24, fontSize: 10, bold: true, align: 'center', color: i < 3 ? C.accent2 : C.text2 }));
-  const gr = [
-    ['Permisos, registro sanitario y etiqueta', [[0, 2]], C.accent2],
-    ['Probar la app y la receta con 10 familias', [[1, 1]], C.accent2],
-    ['Fotos, video y lista de espera en WhatsApp', [[1, 2]], C.accent2],
-    ['Influencers y pauta de expectativa', [[2, 3]], C.accent1],
-    ['Degustación en stands: 1, 2 y 3 puntos', [[3, 3, '1'], [4, 9, '2 puntos'], [10, 14, '3 puntos']], C.accent1],
-    ['Ferias pagadas: escolar y Día del Niño', [[4, 4], [6, 6]], C.accent6],
-    ['Kermeses, cumpleaños y ferias saludables', [[3, 14]], C.accent3],
-    ['Pauta digital (fuerte en feb., abr. y dic.)', [[3, 14]], C.accent5],
-    ['Mamás embajadoras por salón', [[3, 14]], C.accent4],
-    ['App Andi: aviso de recompra y loncheras', [[3, 14]], C.accent4],
-    ['Quioscos escolares y tiendas naturistas', [[3, 4, 'naturistas'], [5, 14, '+ quioscos']], C.accent2],
-  ];
-  const rh = 0.355, ry0 = gy0 + 0.62;
-  for (let i = 0; i < 15; i++) if (i % 2 === 1) s.addShape(pres.shapes.RECTANGLE, { x: gx + i * cwm, y: ry0, w: cwm, h: gr.length * rh, fill: { color: 'F4E6D3' }, line: { color: 'F4E6D3', width: 0 } });
-  s.addShape(pres.shapes.LINE, { x: gx + 3 * cwm, y: gy0 + 0.3, w: 0, h: gr.length * rh + 0.32, line: { color: C.accent1, width: 1.25, dashType: 'dash' } });
-  gr.forEach((r, i) => {
-    const y = ry0 + i * rh;
-    s.addShape(pres.shapes.RECTANGLE, { x: 0.6, y: y + 0.1, w: 0.12, h: rh - 0.2, fill: { color: r[2] }, line: { color: r[2], width: 0 } });
-    T(s, r[0], { x: 0.8, y, w: gx - 0.85, h: rh, fontSize: 10.5, valign: 'middle', color: C.text1 });
-    r[1].forEach(seg => {
-      const strong = r[0].startsWith('Pauta') ? false : true;
-      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: gx + seg[0] * cwm + 0.04, y: y + 0.07, w: (seg[1] - seg[0] + 1) * cwm - 0.08, h: rh - 0.14, rectRadius: 0.1, fill: { color: r[2] }, line: { color: r[2], width: 0 } });
-      if (seg[2]) T(s, seg[2], { x: gx + seg[0] * cwm, y: y + 0.07, w: (seg[1] - seg[0] + 1) * cwm, h: rh - 0.14, fontSize: 9, bold: true, align: 'center', valign: 'middle', color: C.background1 });
+  GM.forEach((m, i) => T(s, m, { x: gx + i * cwm, y: gy0 + 0.31, w: cwm, h: 0.22, fontSize: 9.5, bold: true, align: 'center', color: i < 3 ? C.accent2 : C.text2 }));
+  const gcol = { Preparar: C.accent2, Lanzar: C.accent1, Fidelizar: C.accent4, Crecer: C.accent3 };
+  const rh = 0.305, ry0 = gy0 + 0.56, nr = PM.gantt.length;
+  for (let i = 0; i < 15; i++) if (i % 2 === 1) s.addShape(pres.shapes.RECTANGLE, { x: gx + i * cwm, y: ry0, w: cwm, h: nr * rh, fill: { color: 'F4E6D3' }, line: { color: 'F4E6D3', width: 0 } });
+  s.addShape(pres.shapes.LINE, { x: gx + 3 * cwm, y: gy0 + 0.28, w: 0, h: nr * rh + 0.3, line: { color: C.accent1, width: 1.25, dashType: 'dash' } });
+  let lastG = '';
+  PM.gantt.forEach((r, i) => {
+    const y = ry0 + i * rh, col = gcol[r.grupo];
+    if (r.grupo !== lastG) { T(s, r.grupo.toUpperCase(), { x: 0.6, y: y + 0.02, w: 0.95, h: rh - 0.04, fontSize: 8, bold: true, color: col, valign: 'middle', charSpacing: 0.5 }); lastG = r.grupo; }
+    s.addShape(pres.shapes.RECTANGLE, { x: 1.55, y: y + 0.08, w: 0.07, h: rh - 0.16, fill: { color: col }, line: { color: col, width: 0 } });
+    T(s, r.actividad, { x: 1.68, y, w: gx - 1.72, h: rh, fontSize: 9, valign: 'middle', color: C.text1 });
+    r.segmentos.forEach(sg => {
+      const x0 = gx + sg[0] * cwm + 0.03, w = (sg[1] - sg[0] + 1) * cwm - 0.06;
+      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x0, y: y + 0.05, w, h: rh - 0.1, rectRadius: 0.08, fill: { color: col }, line: { color: col, width: 0 } });
+      if (sg[2]) T(s, sg[2], { x: x0 - 0.05, y: y + 0.05, w: w + 0.1, h: rh - 0.1, fontSize: (sg[1] === sg[0]) ? 7 : 8, bold: true, align: 'center', valign: 'middle', color: r.grupo === 'Crecer' ? C.text2 : C.background1 });
     });
-    if (r[0].startsWith('Pauta')) [4, 6, 14].forEach(k => s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: gx + k * cwm + 0.04, y: y + 0.07, w: cwm - 0.08, h: rh - 0.14, rectRadius: 0.1, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } }));
   });
-  const gasto = [0, 300, 1458, 2506, 3290, 1540, 3610, 1700, 1540, 1380, 1540, 1540, 1540, 1380, 1220];
-  const yg = ry0 + gr.length * rh + 0.08;
-  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: yg, w: 12.13, h: 0.5, rectRadius: 0.08, fill: { color: C.text2 }, line: { color: C.text2, width: 0 } });
-  T(s, [{ text: 'Inversión del mes (S/)', options: { bold: true, breakLine: true } }, { text: 'total S/24,544', options: { fontSize: 9.5, color: C.accent3 } }], { x: 0.8, y: yg, w: gx - 0.85, h: 0.5, fontSize: 11, valign: 'middle', color: C.background1 });
-  gasto.forEach((g, i) => T(s, g ? g.toLocaleString('en-US') : '–', { x: gx + i * cwm, y: yg, w: cwm, h: 0.5, fontSize: 10.5, bold: true, align: 'center', valign: 'middle', color: (i === 4 || i === 6) ? C.accent3 : C.background1 }));
-  T(s, 'Incluye pauta S/700 y embajadoras S/200 al mes, ferias (S/1,800 + vendedor/a 3 días), eventos (vendedor/a + aporte, S/160) y el lanzamiento (S/3,204, ya en la inversión). El espacio y los vendedores de los stands van aparte.', { x: 0.6, y: yg + 0.53, w: 12.13, h: 0.3, fontSize: 9.5, italic: true, color: C.accent2 });
-  s.addNotes('Diagrama de Gantt del plan de marketing, de octubre de 2026 (prelanzamiento) a diciembre de 2027 (fin del año 1). Prelanzamiento (octubre a diciembre de 2026): permisos, registro sanitario y etiqueta; prueba de la app y la receta con 10 familias en noviembre; fotos y video (S/300) y lista de espera por WhatsApp; en diciembre, influencers (40 packs, S/458), pauta de expectativa (S/600) y material de punto de venta (S/400). Lanzamiento (enero y febrero de 2027): primer punto en enero con 600 degustaciones (S/1,146) y material para ferias (S/300); en febrero, segundo punto y feria pagada de campaña escolar. Crecer (marzo a julio): entran los quioscos escolares, las mamás embajadoras toman fuerza con el año escolar y en abril va la feria del Día del Niño Peruano (segundo domingo de abril). Expandir (agosto a diciembre): tercer punto de venta. Todo el año: kermeses, cumpleaños y ferias saludables o municipales (2 a 5 al mes, S/160 cada una con vendedora y aporte), pauta digital de S/700 al mes reforzada en las fechas clave (lonchera de marzo, Día del Niño y regalos de Navidad), S/200 al mes para premiar a las embajadoras, y la app Andi con el aviso de recompra. Inversión por mes: octubre S/0; noviembre S/300; diciembre S/1,458; enero S/2,506; febrero S/3,290; marzo S/1,540; abril S/3,610; mayo S/1,700; junio S/1,540; julio S/1,380; agosto a octubre S/1,540; noviembre S/1,380; diciembre S/1,220. Total S/24,544: S/3,204 del lanzamiento (en la inversión inicial) y S/21,340 del año 1 (pauta y embajadoras S/10,800, ferias S/4,140 y eventos S/6,400). No incluye el espacio ni los vendedores de los stands, que son costos de venta.');
+  const yg = ry0 + nr * rh + 0.07;
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: yg, w: 12.13, h: 0.42, rectRadius: 0.08, fill: { color: C.text2 }, line: { color: C.text2, width: 0 } });
+  T(s, [{ text: 'Inversión del mes (S/)  ', options: { bold: true } }, { text: 'total 24,544', options: { fontSize: 9, color: C.accent3 } }], { x: 0.8, y: yg, w: gx - 0.85, h: 0.42, fontSize: 10.5, valign: 'middle', color: C.background1 });
+  PM.presupuesto_mensual.forEach((g, i) => T(s, g ? g.toLocaleString('en-US') : '–', { x: gx + i * cwm, y: yg, w: cwm, h: 0.42, fontSize: 9.5, bold: true, align: 'center', valign: 'middle', color: (i === 4 || i === 6) ? C.accent3 : C.background1 }));
+  const ym = yg + 0.46;
+  card(s, 0.6, ym, 12.13, 0.5, { r: 0.08, noShadow: true });
+  T(s, 'Meta del mes', { x: 0.8, y: ym, w: gx - 0.85, h: 0.5, fontSize: 10.5, bold: true, valign: 'middle', color: C.text2 });
+  const metaB = ['20 en espera', '50 en espera', '100 en espera', 870, 2830, 3734, 4420, 4304, 4038, 3824, 5208, 5603, 6011, 5861, 5628];
+  metaB.forEach((m, i) => T(s, typeof m === 'number' ? m.toLocaleString('en-US') : m, { x: gx + i * cwm, y: ym, w: cwm, h: 0.5, fontSize: typeof m === 'number' ? 9.5 : 7.5, bold: typeof m === 'number', align: 'center', valign: 'middle', color: typeof m === 'number' ? C.accent1 : C.accent2 }));
+  T(s, 'Inversión: pauta S/700 y embajadoras S/200 al mes, ferias (S/1,800 + vendedor/a 3 días), eventos (S/160) y lanzamiento (S/3,204, ya en la inversión). De oct. a dic. de 2026 la meta es de contactos en lista de espera.', { x: 0.6, y: ym + 0.53, w: 12.13, h: 0.26, fontSize: 8.5, italic: true, color: C.accent2 });
+  s.addNotes('Cronograma de Gantt solo del plan de marketing (documento 10, sección 6). Preparar: redes, WhatsApp Business y lista de espera (octubre a diciembre de 2026); video de lanzamiento con niños, con consentimiento de los padres (noviembre, S/300); influencers (40 packs: 20 del segmento A y 20 del B) y pauta de expectativa (diciembre y enero). Lanzar: apertura de Jockey en enero, del punto 2 (segmento B) en febrero y del punto 3 (segmento A) en agosto; ferias pagadas de campaña escolar (febrero) y Día del Niño Peruano (11 de abril), con meta de 50 contactos de WhatsApp cada una. Fidelizar: recompra por WhatsApp con el aviso de la app (35 % de lo vendido en físico); mamás embajadoras con código (10 fundadoras en enero y febrero, luego 20 familias al mes); campaña "Escanea tu lote" en los stands (de 15 % a 28 % de envases escaneados en el primer semestre, y otra vez al abrir el punto 3). Crecer: quioscos en colegios A y B (1 a 3 de marzo a julio, 4 a 5 desde agosto); eventos sin costo (1 a 5 al mes); campañas del Día de la Madre (9 de mayo), del Padre (20 de junio) y del Día del Niño de agosto (15 de agosto, fecha comercial de los malls); y Navidad con cajas para regalo y empresas, por pedido. La fila de inversión cuadra con el Excel v7 mes a mes (S/24,544 en total). La meta de brownies es la del Excel v7; en el prelanzamiento la meta es de contactos en lista de espera. Pendiente de confirmar: el calendario escolar 2027 del MINEDU, la lista de feriados 2027 en gob.pe, los organizadores de las 2 ferias, los puntos 2 y 3, y el contacto con Innova Schools.');
 
   // =============== 26c. REGLAS PARA CRECER ===============
   pres.addSection({ title: 'Cierre' });

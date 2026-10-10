@@ -1,0 +1,369 @@
+{
+  "objetivos": [
+    {
+      "titulo": "Vender lo que pide el Excel",
+      "meta": "52,331 brownies y S/244,728 con IGV",
+      "cuando": "Ene–dic 2027"
+    },
+    {
+      "titulo": "Recompra por WhatsApp",
+      "meta": "35 % de lo físico; base de 2,300 contactos",
+      "cuando": "Dic 2027"
+    },
+    {
+      "titulo": "Uso de la app",
+      "meta": "30 % de los envases escaneados",
+      "cuando": "Año 2027"
+    },
+    {
+      "titulo": "Mamás embajadoras",
+      "meta": "230 familias nuevas (20 al mes)",
+      "cuando": "Dic 2027"
+    },
+    {
+      "titulo": "Colegios y naturistas",
+      "meta": "5 colegios (2 A y 3 B) y 8 tiendas",
+      "cuando": "Oct y dic 2027"
+    }
+  ],
+  "mensajes": {
+    "central": "Hierro medido. Sabor a brownie.",
+    "A": "Él ve un brownie. Tú ves el hierro medido de su lote.",
+    "B": "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie."
+  },
+  "fases": [
+    {
+      "nombre": "Prelanzamiento",
+      "meses": "Oct–dic 2026",
+      "objetivo": "Lista de espera, video, influencers y POP listos",
+      "inversion": 1758,
+      "meta_clave": "100 contactos en espera"
+    },
+    {
+      "nombre": "Lanzamiento",
+      "meses": "Ene–feb 2027",
+      "objetivo": "Primera compra en Jockey y punto 2",
+      "inversion": 5796,
+      "meta_clave": "3,700 brownies; 50 contactos en feria"
+    },
+    {
+      "nombre": "Crecer",
+      "meses": "Mar–jul 2027",
+      "objetivo": "Quioscos, embajadoras y fechas clave",
+      "inversion": 9770,
+      "meta_clave": "20,320 brownies; 3 colegios"
+    },
+    {
+      "nombre": "Expandir",
+      "meses": "Ago–dic 2027",
+      "objetivo": "Punto 3 (A), 5 colegios y Navidad",
+      "inversion": 7220,
+      "meta_clave": "28,311 brownies; 2,300 contactos"
+    }
+  ],
+  "gantt": [
+    {
+      "grupo": "Preparar",
+      "actividad": "Redes, WhatsApp Business y lista de espera",
+      "segmentos": [
+        [
+          0,
+          2,
+          "Lista de espera"
+        ]
+      ]
+    },
+    {
+      "grupo": "Preparar",
+      "actividad": "Video de lanzamiento con niños (consentido)",
+      "segmentos": [
+        [
+          1,
+          1,
+          "S/300"
+        ]
+      ]
+    },
+    {
+      "grupo": "Preparar",
+      "actividad": "Influencers y pauta de expectativa",
+      "segmentos": [
+        [
+          2,
+          3,
+          "40 packs"
+        ]
+      ]
+    },
+    {
+      "grupo": "Lanzar",
+      "actividad": "Apertura de los puntos 1, 2 y 3",
+      "segmentos": [
+        [
+          3,
+          3,
+          "Jockey"
+        ],
+        [
+          4,
+          4,
+          "Punto 2 (B)"
+        ],
+        [
+          10,
+          10,
+          "Punto 3 (A)"
+        ]
+      ]
+    },
+    {
+      "grupo": "Lanzar",
+      "actividad": "Ferias pagadas con meta de 50 contactos",
+      "segmentos": [
+        [
+          4,
+          4,
+          "Escolar"
+        ],
+        [
+          6,
+          6,
+          "11-abr"
+        ]
+      ]
+    },
+    {
+      "grupo": "Fidelizar",
+      "actividad": "Recompra por WhatsApp con aviso de la app",
+      "segmentos": [
+        [
+          3,
+          14,
+          "35 % de lo físico"
+        ]
+      ]
+    },
+    {
+      "grupo": "Fidelizar",
+      "actividad": "Mamás embajadoras con código",
+      "segmentos": [
+        [
+          3,
+          4,
+          "Fundadoras"
+        ],
+        [
+          5,
+          14,
+          "20 familias/mes"
+        ]
+      ]
+    },
+    {
+      "grupo": "Fidelizar",
+      "actividad": "Campaña \"Escanea tu lote\" en stands",
+      "segmentos": [
+        [
+          3,
+          6,
+          "15 % a 28 %"
+        ],
+        [
+          10,
+          10,
+          "Punto 3"
+        ]
+      ]
+    },
+    {
+      "grupo": "Crecer",
+      "actividad": "Quioscos en colegios A y B",
+      "segmentos": [
+        [
+          5,
+          9,
+          "1 a 3"
+        ],
+        [
+          10,
+          14,
+          "4 a 5"
+        ]
+      ]
+    },
+    {
+      "grupo": "Crecer",
+      "actividad": "Eventos sin costo: kermeses y cumpleaños",
+      "segmentos": [
+        [
+          3,
+          4,
+          "1–2/mes"
+        ],
+        [
+          5,
+          12,
+          "3–5/mes"
+        ],
+        [
+          13,
+          14,
+          "2–3/mes"
+        ]
+      ]
+    },
+    {
+      "grupo": "Crecer",
+      "actividad": "Campañas Madre, Padre y Día del Niño",
+      "segmentos": [
+        [
+          7,
+          7,
+          "9-may"
+        ],
+        [
+          8,
+          8,
+          "20-jun"
+        ],
+        [
+          10,
+          10,
+          "15-ago"
+        ]
+      ]
+    },
+    {
+      "grupo": "Crecer",
+      "actividad": "Navidad: cajas para regalo y empresas",
+      "segmentos": [
+        [
+          13,
+          14,
+          "Por pedido"
+        ]
+      ]
+    }
+  ],
+  "presupuesto_mensual": [
+    0,
+    300,
+    1458,
+    2506,
+    3290,
+    1540,
+    3610,
+    1700,
+    1540,
+    1380,
+    1540,
+    1540,
+    1540,
+    1380,
+    1220
+  ],
+  "metas_mensuales": [
+    {
+      "mes": "Oct-26",
+      "meta": "20 contactos en espera"
+    },
+    {
+      "mes": "Nov-26",
+      "meta": "50 en espera; video listo"
+    },
+    {
+      "mes": "Dic-26",
+      "meta": "100 en espera; 40 influ."
+    },
+    {
+      "mes": "Ene-27",
+      "meta": "870 brownies; base 150"
+    },
+    {
+      "mes": "Feb-27",
+      "meta": "2,830 brownies; feria 50"
+    },
+    {
+      "mes": "Mar-27",
+      "meta": "3,734 brownies; 1 colegio"
+    },
+    {
+      "mes": "Abr-27",
+      "meta": "4,420 brownies; feria 50"
+    },
+    {
+      "mes": "May-27",
+      "meta": "4,304 brownies; 3 colegios"
+    },
+    {
+      "mes": "Jun-27",
+      "meta": "4,038 brownies; base 1,050"
+    },
+    {
+      "mes": "Jul-27",
+      "meta": "3,824 brownies; 30 % QR"
+    },
+    {
+      "mes": "Ago-27",
+      "meta": "5,208 brownies; punto 3"
+    },
+    {
+      "mes": "Set-27",
+      "meta": "5,603 brownies; base 1,648"
+    },
+    {
+      "mes": "Oct-27",
+      "meta": "6,011 brownies; 5 colegios"
+    },
+    {
+      "mes": "Nov-27",
+      "meta": "5,861 brownies; base 2,082"
+    },
+    {
+      "mes": "Dic-27",
+      "meta": "5,628 brownies; base 2,338"
+    }
+  ],
+  "kpis": [
+    {
+      "kpi": "Brownies por día y punto",
+      "meta": "80 a 100",
+      "frecuencia": "Cada fin de semana"
+    },
+    {
+      "kpi": "Brownies del mes",
+      "meta": "Los del Excel v7",
+      "frecuencia": "Semanal"
+    },
+    {
+      "kpi": "Recompra por WhatsApp",
+      "meta": "35 % de lo físico del mes anterior",
+      "frecuencia": "Mensual"
+    },
+    {
+      "kpi": "Contactos con permiso",
+      "meta": "2,338 al cierre de 2027",
+      "frecuencia": "Semanal"
+    },
+    {
+      "kpi": "Envases escaneados",
+      "meta": "30 % en el año",
+      "frecuencia": "Mensual"
+    },
+    {
+      "kpi": "Contactos por feria pagada",
+      "meta": "50 o más",
+      "frecuencia": "Por feria"
+    },
+    {
+      "kpi": "Familias por embajadoras",
+      "meta": "20 al mes",
+      "frecuencia": "Mensual"
+    },
+    {
+      "kpi": "Colegios con quiosco",
+      "meta": "5 en octubre",
+      "frecuencia": "Mensual"
+    }
+  ]
+}

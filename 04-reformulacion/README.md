@@ -6,6 +6,7 @@ Carpeta con el estudio completo para refundar el producto y la marca, hecho como
 
 | # | Documento | Qué responde |
 |---|---|---|
+| 00 | **RESUMEN del proyecto** (`00-RESUMEN-del-proyecto.md`) | Todo el negocio en 10 minutos para una persona nueva, con cifras del modelo v7 |
 | 00 | BRIEF de reformulación | La nueva dirección: sabores, padres conscientes, maquila, empresa real, entregables T1 |
 | 01 | Producto, sabores y recetas | Qué sabores gustan a niños, cómo camuflar la sangrecita, 5 recetas replicables en casa con gramos y pasos, hierro por unidad, plan de prueba sensorial |
 | 02 | Insumos, proveedores y costeo | Precios reales en Lima con links, costo por unidad en 3 escenarios, empaque, competidores y precio por 20 g, lista de compra del lote de prueba |
@@ -16,6 +17,7 @@ Carpeta con el estudio completo para refundar el producto y la marca, hecho como
 | 07 | T1: Canvas, propuesta de valor, validación y pitch | Los cuatro entregables de la semana, listos para diapositivas, con guion de exposición y preguntas difíciles |
 | 08 | Venta física: stands y ferias | Malls, ferias y carrito en supermercado: opciones, costos, cuánto vender y plan |
 | 09 | App "Andi, Misión Hierro" | La innovación tecnológica: funciones para padres y niños, diseño, Ley 30021, tecnología, costos e indicadores. El código de la app está en `../app-andi-mision-hierro/` |
+| 10 | Plan de marketing 2027 | Prelanzamiento y año 1 (octubre de 2026 a diciembre de 2027): objetivos, mensajes para A y B, 4P, 4 fases, plan mes a mes con S/24,544, calendario de fechas clave, KPI y riesgos |
 
 Trabajos de campo 5 a 8: `TC5-8/TC5-8-AndiBite.pptx` y su PDF.
 

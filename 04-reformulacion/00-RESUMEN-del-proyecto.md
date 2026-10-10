@@ -130,19 +130,16 @@ Producirlo cuesta S/1.64 en el pack de 6. El **margen bruto** en el stand (lo qu
 
 ## 9. Plan de marketing en breve
 
-Va de octubre de 2026 a diciembre de 2027 y tiene 4 fases:
-- **Prelanzamiento (2026):** permisos, prueba de la app con familias, fotos, video, influencers y lista de espera.
-- **Lanzamiento (inicio de 2027):** degustación en el stand y ferias.
-- **Crecer (desde marzo):** colegios y mamás embajadoras.
-- **Expandir (desde agosto):** 3 puntos.
+El plan completo está en `10-plan-de-marketing-2027.md` y en las diapositivas 34 y 35 de la TC5-8. Va de octubre de 2026 a diciembre de 2027 y su mensaje central es "Hierro medido. Sabor a brownie.". Al padre A le hablamos del hierro medido de su lote; al padre B, de resolver la lonchera de la semana a S/4.16 por brownie (pack de 12 por WhatsApp).
 
-**El total es S/24,544:**
-- lanzamiento: S/3,204;
-- pauta y embajadoras: S/10,800 (S/900 al mes);
-- ferias: S/4,140;
-- eventos: S/6,400.
+| Fase | Meses | Qué hacemos | Inversión | Meta |
+|---|---|---|---|---|
+| Prelanzamiento | Oct–dic 2026 | Lista de espera, video, influencers y material de punto de venta | S/1,758 | 100 contactos en espera |
+| Lanzamiento | Ene–feb 2027 | Abrir Jockey y el punto 2; feria de campaña escolar | S/5,796 | 3,700 brownies; 50 contactos en la feria |
+| Crecer | Mar–jul 2027 | Quioscos, embajadoras, Día del Niño y fechas clave | S/9,770 | 20,320 brownies; 3 colegios |
+| Expandir | Ago–dic 2027 | Punto 3, 5 colegios y Navidad por pedido | S/7,220 | 28,311 brownies; unos 2,300 contactos |
 
-Los stands van aparte, como costo de venta.
+**Total: S/24,544** (lanzamiento S/3,204; pauta y embajadoras S/10,800; ferias S/4,140; eventos S/6,400), unos S/0.44 de marketing por brownie en 2027. Objetivos del año: vender lo del Excel, recompra igual al 35 % de lo vendido en físico, 30 % de envases escaneados, 230 familias nuevas por embajadoras y 5 colegios con quiosco. Los stands van aparte, como costo de venta.
 
 ## 10. Quién hace qué
 
@@ -185,7 +182,7 @@ Cada paso se da solo cuando se cumple su meta:
 | `02-plan-semanal/`, `03-entregables/` | Plan y borradores de la semana 5 (público anterior) |
 | `04-reformulacion/` 00 a 03 | Brief, recetas, insumos y costeo, maquila y permisos |
 | `04-reformulacion/` 04 a 07 | Público y mercado, plan comercial y financiero, marca, T1 (Canvas y pitch) |
-| `04-reformulacion/` 08 y 09 | Venta física y app |
+| `04-reformulacion/` 08 a 10 | Venta física, app y plan de marketing |
 | `Costeo-presentaciones-AndiBite.xlsx` | **Fuente de verdad de las cifras (v7)** |
 | `TC5-8/TC5-8-AndiBite.pptx` | **Trabajos de campo 5 a 8 con cifras v7** |
 | `T1-presentacion-AndiBite-2-0.pptx` | Presentación T1 (por actualizar) |
