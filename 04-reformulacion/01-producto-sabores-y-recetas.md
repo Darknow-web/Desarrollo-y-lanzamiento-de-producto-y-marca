@@ -2,6 +2,8 @@
 
 > AndiBite 2.0, reformulación del 3 de octubre de 2026. Documento técnico para el Grupo 2 (Desarrollo y lanzamiento de nuevos productos). Lo escribe el consultor de tecnología de alimentos y pastelería. Las cifras de composición vienen de las *Tablas Peruanas de Composición de Alimentos* (CENAN/INS, 10.ª ed., 2017). Las demás fuentes están numeradas al final. Los supuestos van marcados como **[HIPÓTESIS]** y los datos no verificados como **[POR CONFIRMAR]**.
 
+> **Actualización del 10-oct-2026 (modelo v6).** Para la producción por maquila se usa la **receta 5, con sangrecita de res en polvo liofilizada**: 22 g de polvo más 98 g de agua por lote de 24 (unos 0,92 g de polvo por brownie). El polvo se compra listo, a granel (bolsas de 1 a 5 kg) a S/300 por kg, a un proveedor con registro sanitario (tipo Allpa Manta). La planta solo lo hidrata: no recibe ni cuece sangre cruda, la dosis de hierro es estable de lote a lote, no tiene olor y dura más. Las recetas 1 a 4 con sangrecita cocida quedan como recetas de prueba en casa. Se descartaron fabricar nuestro propio polvo (más caro y con más riesgo sanitario) y el polvo de hígado de pollo (unas 3 veces menos hierro que la sangrecita y exceso de vitamina A para niños). Detalle de costos en los documentos 02 y 05.
+
 ## Resumen ejecutivo
 
 - **Por 100 g, la sangrecita de pollo cocida tiene 29,5 mg de hierro, 16 g de proteína y 69 kcal** (CENAN, código F29) [1]. Eso es 3,4 veces el hierro del hígado de pollo (8,56 mg). Casi todo ese hierro es hemínico, la forma que el cuerpo absorbe mejor.
@@ -195,7 +197,7 @@ Precalentar el horno a **180 °C** durante 15 min. Engrasar el molde con aceite 
 ### Receta 4 — Choco-Naranja (temporada)
 Es la R1 con estos cambios: aceite 65 g, **ralladura de 2 naranjas (8 g, solo la parte naranja)**, **30 ml de jugo de naranja** colado y licuado con la sangrecita, vainilla 4 g y chips 30 g. Masa total de 615,5 g, dosificar 22,5 g y hornear a 180 °C durante 14-15 min. El horneado destruye buena parte de la vitamina C del jugo **[HIPÓTESIS]**. Si se busca el efecto de la vitamina C sobre la absorción del hierro, se recomienda acompañar con una fruta cítrica en la lonchera, y esa recomendación no puede presentarse como propiedad del brownie.
 
-### Receta 5 — Versión con sangrecita en polvo (deshidratada o liofilizada)
+### Receta 5 — Versión con sangrecita en polvo (deshidratada o liofilizada): la que se usa en la maquila
 Es la R1 reemplazando los **120 g de sangrecita cocida** de una de estas dos formas:
 
 | Criterio de equivalencia | Cálculo | Cantidad |

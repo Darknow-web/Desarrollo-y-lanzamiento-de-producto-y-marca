@@ -9,6 +9,20 @@ Documento de análisis de costos para la línea de mini brownies de 20 g con bas
 - **Limitación importante:** Mercado Libre Perú bloqueó la consulta automática (HTTP 403). Los precios de ese canal que aparecen abajo vienen solo de extractos de búsqueda y están marcados [POR CONFIRMAR]. Mercado Central, Mesa Redonda y Flora & Fauna no tienen precio público verificable en línea; también quedan [POR CONFIRMAR] y requieren cotización presencial o por WhatsApp.
 - **Etiquetas:** [POR CONFIRMAR] = dato no verificado. [HIPÓTESIS] = estimación del analista.
 
+## 0.1 Decisión del 10-oct-2026 (modelo v6): sangrecita de res en polvo, comprada lista
+
+Este documento costea varios escenarios con precios de octubre. La decisión final del equipo para la maquila es:
+
+| Tema | Decisión | Por qué |
+|---|---|---|
+| **Insumo** | **Sangrecita de res en polvo liofilizada**, receta 5 del documento 01: 22 g de polvo + 98 g de agua por lote de 24 (0.92 g por brownie; unos 51 kg al año) | La planta solo hidrata el polvo: no recibe ni cuece sangre cruda (menos riesgo de *Salmonella* y un HACCP más simple). Dosis de hierro estable, sin olor y más vida útil |
+| **Proveedor y precio** | Proveedor con registro sanitario (tipo Allpa Manta, de res), a granel en bolsas de 1 a 5 kg a **S/300 por kg**. En sobre de tienda cuesta S/417 por kg (Malli, cordero) a S/667 por kg (Allpa Manta) | El sobre de 60 g lleva envase y margen de tienda; la bolsa a granel no |
+| **Costo** | **S/0.605 de insumos por brownie** (antes S/0.40 con sangrecita fresca de pollo). Detalle en el documento 05 y en el Excel | |
+| **¿Fabricar nuestro propio polvo?** | **No.** Costaría igual o más: unos 250 kg de sangrecita al año (S/2,900), una liofilizadora de S/8,000 a 15,000, luz (S/1,500 al año), análisis microbiológico de cada lote de polvo (S/4,800 al año), una persona que la opere (S/3,000 a 4,000) y un local con permiso sanitario: en total S/15,000 a 20,000 al año, más la inversión | Más plata al inicio y el riesgo de fabricar un insumo de origen animal. La planta pediría el mismo certificado que ya trae un proveedor registrado |
+| **¿Polvo de hígado de pollo?** | **No.** | El hígado tiene unas 3 veces menos hierro que la sangrecita (8.56 frente a 29.5 mg por 100 g, CENAN), y una parte no es hemo; harían falta unos 4 g de polvo por brownie, con unos 480 µg de vitamina A (el máximo seguro es 600 µg al día de 1 a 3 años y 900 µg de 4 a 8 años); sabor fuerte y sin proveedor de grado alimentario en Perú |
+
+Los precios de sangrecita fresca de la tabla 1 quedan como referencia para las pruebas caseras (recetas 1 a 4 del documento 01).
+
 ## 1. Tabla de insumos
 
 ### 1.1 Sangrecita (insumo crítico)
