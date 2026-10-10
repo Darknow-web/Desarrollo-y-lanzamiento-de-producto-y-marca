@@ -7,7 +7,7 @@ La presentación tiene 4 recuadros punteados que dicen **IMAGEN 1** a **IMAGEN 4
 | 1 | 6 · Buyer persona Claudia | Retrato de Claudia en su cocina | 3:4 vertical | No |
 | 2 | 7 · Buyer persona Rodrigo | Retrato de Rodrigo cerrando la lonchera | 3:4 vertical | No |
 | 3 | 15 · Cómo una familia nos prueba, vuelve y nos recomienda | Lonchera vista desde arriba con AndiBite y fruta | 9:16 vertical | Sí: `assets/empaque/B1_frente.png` |
-| 4 | 37 · Cierre | Niño en el recreo abriendo su lonchera | 2:3 vertical | Sí: `assets/empaque/B1_frente.png` |
+| 4 | 39 · Cierre | Niño en el recreo abriendo su lonchera | 2:3 vertical | Sí: `assets/empaque/B1_frente.png` |
 
 Los prompts van en inglés porque Nano Banana da mejores resultados así.
 

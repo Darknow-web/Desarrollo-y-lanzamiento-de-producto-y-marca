@@ -245,6 +245,32 @@ El total del mes no cambia. Solo se mueve la mezcla: más pauta en fechas clave 
 
 Desde febrero, la pauta de cada mes se parte 50/50 entre Lima Top (A) y Lima Moderna (B). Una muestra extra cuesta unos S/1.90 (S/1,146 ÷ 600 muestras).
 
+### 6.5 Presupuesto por medio (formato de mezcla de promoción)
+
+El mismo presupuesto, ordenado por tipo de medio: publicidad, ventas personales, promociones y relaciones públicas. Está en `Presupuesto-marketing-AndiBite.xlsx`, con fórmulas y dos gráficos (por tipo de medio y por mes), y en las diapositivas 35 y 36 de la TC5-8.
+
+| Medio | Dónde o con quién | Prelanz. | Ene | Feb | Mar | Abr | May | Jun | Jul | Ago | Set | Oct | Nov | Dic | Total |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **PUBLICIDAD** | | **900** | **450** | **450** | **450** | **400** | **450** | **450** | **300** | **350** | **400** | **400** | **450** | **500** | **5,950** |
+| Pauta en redes sociales | Facebook e Instagram (Meta) | – | 450 | 450 | 450 | 400 | 450 | 450 | 300 | 350 | 400 | 400 | 450 | 500 | 5,050 |
+| Pauta de expectativa | Instagram y TikTok | 600 | – | – | – | – | – | – | – | – | – | – | – | – | 600 |
+| Video de lanzamiento con niños | Redes y stand | 300 | – | – | – | – | – | – | – | – | – | – | – | – | 300 |
+| **VENTAS PERSONALES** | | **–** | **90** | **450** | **360** | **630** | **450** | **360** | **270** | **360** | **360** | **360** | **270** | **180** | **4,140** |
+| Vendedor(a) en ferias pagadas | Feria escolar y Día del Niño | – | – | 270 | – | 270 | – | – | – | – | – | – | – | – | 540 |
+| Vendedor(a) en eventos sin costo | Kermeses y cumpleaños | – | 90 | 180 | 360 | 360 | 450 | 360 | 270 | 360 | 360 | 360 | 270 | 180 | 3,600 |
+| **PROMOCIONES** | | **400** | **1,896** | **450** | **450** | **500** | **450** | **450** | **600** | **550** | **500** | **500** | **450** | **400** | **7,596** |
+| Muestras de degustación (600) | Jockey, evento y pediatras | – | 1,146 | – | – | – | – | – | – | – | – | – | – | – | 1,146 |
+| Degustaciones extra | Stands A y B | – | 50 | 100 | 150 | 150 | 150 | 150 | 250 | 150 | 200 | 150 | 150 | 100 | 1,750 |
+| Material de stand y POP | Stands, ferias y kermeses | 400 | 500 | 150 | 100 | 150 | 100 | 100 | 150 | 200 | 100 | 150 | 100 | 100 | 2,300 |
+| Mamás embajadoras (premio al padre) | Chats de colegio | – | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 2,400 |
+| **RELACIONES PÚBLICAS** | | **458** | **70** | **1,940** | **280** | **2,080** | **350** | **280** | **210** | **280** | **280** | **280** | **210** | **140** | **6,858** |
+| Influencers (40 packs) | Mamás de Instagram A y B | 458 | – | – | – | – | – | – | – | – | – | – | – | – | 458 |
+| Ferias pagadas (stand) | Campaña escolar y Día del Niño | – | – | 1,800 | – | 1,800 | – | – | – | – | – | – | – | – | 3,600 |
+| Aporte a eventos sin costo | Kermeses y ferias saludables | – | 70 | 140 | 280 | 280 | 350 | 280 | 210 | 280 | 280 | 280 | 210 | 140 | 2,800 |
+| **PRESUPUESTO TOTAL** | | **1,758** | **2,506** | **3,290** | **1,540** | **3,610** | **1,700** | **1,540** | **1,380** | **1,540** | **1,540** | **1,540** | **1,380** | **1,220** | **24,544** |
+
+**El presupuesto de marketing de S/900 al mes se mantiene.** Son S/700 de pauta, degustación y material más S/200 de embajadoras (S/10,800 en 2027). El total del plan (S/24,544) suma además el lanzamiento (S/3,204, pagado con la inversión inicial), las ferias pagadas (S/4,140) y los eventos sin costo (S/6,400), que en el Excel v7 ya estaban presupuestados en otras líneas.
+
 ### 6.3 Cómo calculamos las metas de marketing [META PROPUESTA]
 
 - **Contactos nuevos de WhatsApp:** 1 por cada 15 brownies vendidos en stand (más o menos 1 de cada 5 compras de 3 brownies) + 50 por feria pagada (regla de la feria) + 10 por evento sin costo (unos 40 a 50 compradores; 1 de cada 4 o 5 deja su número) + las familias de embajadoras.

@@ -844,6 +844,52 @@ const chartText = () => ({
   });
   s.addNotes('Plan de marketing completo en el documento 04-reformulacion/10-plan-de-marketing-2027.md. Mensaje central: "Hierro medido. Sabor a brownie." Al padre A (Claudia, Lima Top) le hablamos del dato: el hierro medido de su lote. Al padre B (Rodrigo, Lima Moderna) le hablamos de resolver la semana a buen precio: el pack de 12 por WhatsApp sale S/4.16 por brownie. Desde febrero la pauta se reparte mitad en Lima Top y mitad en Lima Moderna. Cuatro fases: prelanzamiento (octubre a diciembre de 2026, S/1,758: lista de espera, video, influencers y material de punto de venta); lanzamiento (enero y febrero, S/5,796: apertura en Jockey y punto 2, feria de campaña escolar; 3,700 brownies); crecer (marzo a julio, S/9,770: quioscos, embajadoras, feria del Día del Niño y fechas clave; 20,320 brownies); expandir (agosto a diciembre, S/7,220: punto 3, 5 colegios y Navidad con cajas por pedido; 28,311 brownies). Total S/24,544: S/0.44 de marketing por brownie en 2027. Objetivos: vender lo del Excel v7 (52,331 brownies y S/244,728); recompra igual al 35 % de lo vendido en físico, con unos 2,300 contactos de WhatsApp con permiso; 30 % de envases escaneados; 230 familias nuevas por embajadoras; 5 colegios con quiosco (2 A y 3 B) y 8 tiendas naturistas. Las metas de contactos, escaneos y colegios son metas propuestas, calculadas en la sección 6.3 del documento 10. Indicadores que se revisan cada domingo: brownies por día y punto (80 a 100), recompra, contactos, escaneos, contactos por feria (50 o más) y familias por embajadoras (20 al mes).');
 
+  // =============== 26a2. PRESUPUESTO DE MARKETING POR MEDIO ===============
+  const PR = require(require('path').join(__dirname, 'presu_mkt.json'));
+  s = content(S8, 'PLAN DE MARKETING · PRESUPUESTO POR MEDIO', 'Presupuesto de marketing por medio y por mes (S/)');
+  const MM = ['Prelanz. 2026', 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic'];
+  const fm = (v) => v ? Math.round(v).toLocaleString('en-US') : '–';
+  const hc = (t, al) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.text2 }, fontSize: 8, align: al || 'center', valign: 'middle' } });
+  const rowsP = [[hc('Medio', 'left'), hc('Dónde o con quién', 'left'), hc('Meses'), hc('Por mes'), ...MM.map(m => hc(m)), hc('Total')]];
+  let tot = new Array(13).fill(0);
+  PR.forEach(([cat, items]) => {
+    const st = new Array(13).fill(0); items.forEach(it => it[2].forEach((v, j) => st[j] += v));
+    const sc = st.reduce((x, y) => x + y, 0);
+    const cf = { color: 'EAD3BC' };
+    rowsP.push([{ text: cat, options: { bold: true, fontSize: 8, color: C.text2, fill: cf } }, { text: '', options: { fill: cf } }, { text: '', options: { fill: cf } }, { text: '', options: { fill: cf } },
+      ...st.map(v => ({ text: fm(v), options: { bold: true, fontSize: 8, align: 'right', color: C.text2, fill: cf } })), { text: fm(sc), options: { bold: true, fontSize: 8.5, align: 'right', color: C.accent1, fill: cf } }]);
+    items.forEach(([n, l, v]) => {
+      const t = v.reduce((x, y) => x + y, 0), mact = v.filter(x => x > 0).length;
+      const f = { color: 'FFFFFF' };
+      rowsP.push([{ text: n, options: { fontSize: 7.5, fill: f } }, { text: l, options: { fontSize: 7, color: C.accent2, fill: f } }, { text: String(mact), options: { fontSize: 7.5, align: 'center', fill: f } }, { text: fm(t / mact), options: { fontSize: 7.5, align: 'right', fill: f } },
+        ...v.map(x => ({ text: fm(x), options: { fontSize: 7.5, align: 'right', fill: f, color: x ? C.text1 : 'B9A089' } })), { text: fm(t), options: { fontSize: 7.5, bold: true, align: 'right', fill: f } }]);
+    });
+    tot = tot.map((x, j) => x + st[j]);
+  });
+  const tf = { color: H.accent1 };
+  rowsP.push([{ text: 'PRESUPUESTO TOTAL', options: { bold: true, fontSize: 8.5, color: C.background1, fill: tf } }, { text: '', options: { fill: tf } }, { text: '', options: { fill: tf } }, { text: '', options: { fill: tf } },
+    ...tot.map(v => ({ text: fm(v), options: { bold: true, fontSize: 8, align: 'right', color: C.background1, fill: tf } })), { text: fm(tot.reduce((x, y) => x + y, 0)), options: { bold: true, fontSize: 9, align: 'right', color: C.background1, fill: tf } }]);
+  s.addTable(rowsP, { x: 0.6, y: 1.5, w: 12.13, colW: [2.15, 1.68, 0.42, 0.55, 0.66, ...new Array(12).fill(0.5), 0.67], rowH: 0.235, border: { type: 'solid', pt: 0.5, color: 'E8D8C4' }, color: C.text1, valign: 'middle', margin: [0, 0.04, 0, 0.04] });
+  card(s, 0.6, 6.12, 12.13, 0.72, { fill: C.text2, r: 0.1 });
+  T(s, [{ text: 'De dónde sale:  ', options: { bold: true, color: C.accent3 } }, { text: 'marketing fijo S/900 al mes (pauta S/700 + embajadoras S/200) = S/10,800  ·  lanzamiento S/3,204 (en la inversión)  ·  ferias pagadas S/4,140  ·  eventos sin costo S/6,400  =  S/24,544' }], { x: 0.85, y: 6.12, w: 11.7, h: 0.72, valign: 'middle', fontSize: 11.5, color: C.background1 });
+  s.addNotes('Presupuesto de marketing en el formato de mezcla de promoción: publicidad, ventas personales, promociones y relaciones públicas. Es el mismo dinero del Excel v7 y del documento 10, ordenado por medio; el detalle editable está en 04-reformulacion/Presupuesto-marketing-AndiBite.xlsx. Publicidad S/5,950: pauta en Facebook e Instagram (S/5,050, de S/300 a 500 al mes, mitad Lima Top y mitad Lima Moderna), pauta de expectativa (S/600) y video de lanzamiento (S/300). Ventas personales S/4,140: vendedor(a) en las 2 ferias pagadas (3 días cada una, S/540) y en los 40 eventos sin costo (S/90 cada uno, S/3,600). Promociones S/7,596: 600 muestras del lanzamiento (S/1,146), degustaciones extra (S/1,750), material de stand y punto de venta (S/2,300) y premios para mamás embajadoras (S/2,400; el premio es para el padre, Ley 30021). Relaciones públicas S/6,858: 40 packs para influencers (S/458), stand en las 2 ferias pagadas (S/3,600) y aporte a los eventos sin costo (S/70 cada uno, S/2,800). El presupuesto de marketing de S/900 al mes se mantiene: son S/700 de pauta, degustación y material más S/200 de embajadoras (S/10,800 en 2027). El total del plan suma, además, el lanzamiento (que se paga con la inversión inicial), las ferias pagadas y los eventos, que en el Excel ya estaban presupuestados en otras líneas. El espacio y los vendedores de los stands de fin de semana no van aquí: son costo de venta.');
+
+  // =============== 26a3. GRÁFICOS DEL PRESUPUESTO ===============
+  s = content(S8, 'PLAN DE MARKETING · PRESUPUESTO', 'Cómo se reparte el presupuesto de marketing');
+  const catT = PR.map(([c, it]) => it.reduce((a2, x) => a2 + x[2].reduce((p, q) => p + q, 0), 0));
+  const catN = ['Publicidad', 'Ventas personales', 'Promociones', 'Relaciones públicas'];
+  s.addChart(pres.charts.BAR, [{ name: 'S/', labels: catN, values: catT }],
+    Object.assign(chartText(), { x: 0.4, y: 1.5, w: 4.9, h: 3.85, barDir: 'col', title: 'Presupuesto por tipo de medio (S/)', chartColors: [H.dk2], showValue: true, dataLabelPosition: 'outEnd', dataLabelFormatCode: '#,##0', valAxisHidden: true, valGridLine: { style: 'none' }, showLegend: false, barGapWidthPct: 55, catAxisLabelFontSize: 10 }));
+  s.addChart(pres.charts.LINE, [{ name: 'Presupuesto del mes', labels: MM, values: tot }],
+    Object.assign(chartText(), { x: 5.4, y: 1.5, w: 7.5, h: 3.85, title: 'Presupuesto de marketing mensual (S/)', chartColors: [H.accent1], lineSize: 3, lineDataSymbol: 'circle', lineDataSymbolSize: 8, showValue: true, dataLabelPosition: 't', dataLabelFormatCode: '#,##0', dataLabelFontSize: 9, valAxisLabelFormatCode: '#,##0', showLegend: false, catAxisLabelFontSize: 9 }));
+  const kc = [['S/900 al mes', 'marketing fijo: pauta S/700 + embajadoras S/200', C.accent1], ['S/3,204', 'lanzamiento, ya pagado en la inversión inicial', C.text2], ['S/4,140', '2 ferias pagadas: febrero y abril', C.text2], ['S/6,400', '40 eventos sin costo: vendedor(a) y aporte', C.text2]];
+  kc.forEach((k, i) => {
+    const w = 2.92, x = 0.6 + i * (w + 0.15), y = 5.5, h = 1.35;
+    card(s, x, y, w, h, { fill: i === 0 ? C.accent1 : C.background1 });
+    T(s, [{ text: k[0], options: { bold: true, fontSize: 22, color: i === 0 ? C.background1 : C.accent1, breakLine: true } }, { text: k[1], options: { fontSize: 11.5, color: i === 0 ? C.background1 : C.accent2 } }], { x: x + 0.22, y, w: w - 0.35, h, valign: 'middle' });
+  });
+  s.addNotes('Por tipo de medio: publicidad S/5,950 (24 %), ventas personales S/4,140 (17 %), promociones S/7,596 (31 %) y relaciones públicas S/6,858 (28 %). Promociones pesa más porque la venta de AndiBite se gana con la prueba: el niño prueba delante del padre (muestras, degustaciones y material del stand) y las mamás embajadoras traen familias nuevas. Por mes, los picos son enero (lanzamiento con 600 muestras), febrero (feria de campaña escolar) y abril (feria del Día del Niño); el resto del año va de S/1,220 a S/1,700. Total S/24,544, unos S/0.44 por brownie vendido en 2027. Las 4 tarjetas muestran de dónde sale el dinero: el presupuesto de marketing de S/900 al mes, el lanzamiento que se paga con la inversión, y las ferias y eventos que el Excel v7 ya tenía presupuestados.');
+
   // =============== 26b. GANTT DEL PLAN DE MARKETING ===============
   s = content(S8, 'PLAN DE MARKETING · CRONOGRAMA', 'Qué hacemos cada mes y qué meta buscamos');
   const GM = ['Oct', 'Nov', 'Dic', 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic'];

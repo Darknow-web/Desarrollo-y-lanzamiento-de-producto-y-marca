@@ -18,6 +18,7 @@ Carpeta con el estudio completo para refundar el producto y la marca, hecho como
 | 08 | Venta física: stands y ferias | Malls, ferias y carrito en supermercado: opciones, costos, cuánto vender y plan |
 | 09 | App "Andi, Misión Hierro" | La innovación tecnológica: funciones para padres y niños, diseño, Ley 30021, tecnología, costos e indicadores. El código de la app está en `../app-andi-mision-hierro/` |
 | 10 | Plan de marketing 2027 | Prelanzamiento y año 1 (octubre de 2026 a diciembre de 2027): objetivos, mensajes para A y B, 4P, 4 fases, plan mes a mes con S/24,544, calendario de fechas clave, KPI y riesgos |
+| — | `Presupuesto-marketing-AndiBite.xlsx` | Presupuesto de marketing por medio (publicidad, ventas personales, promociones y relaciones públicas) y por mes, con gráficos; se regenera con `build_mkt_xlsx.py` y `datos_marketing.py` |
 
 Trabajos de campo 5 a 8: `TC5-8/TC5-8-AndiBite.pptx` y su PDF.
 
