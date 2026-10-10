@@ -134,15 +134,15 @@ const chartText = () => ({
   T(s, 'Grupo 2 · Diana Ayoso · Carlos Inga · Angie Blas · Patricia Cárdenas · Adela Robles', { x: 0.8, y: 5.75, w: 7.6, h: 0.35, fontSize: 14, color: C.background2 });
   T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Cevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
   s.addImage({ path: '/home/user/Desarrollo-y-lanzamiento-de-producto-y-marca/assets/empaque/B1_frente.png', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: 4, shadow: { type: 'outer', color: '000000', opacity: 0.35, blur: 12, offset: 4, angle: 90 } });
-  s.addNotes('Presentamos los trabajos de campo 5 a 8 de AndiBite, el mini brownie de 20 g con sangrecita. Todo sale de la misma base: el público reformulado (padres conscientes y planificados, NSE A/B), el costeo con maquila y los precios confirmados por el equipo el 10 de octubre de 2026 (unidad a S/6.00 y pack de 6 a S/27.90 en el stand). La innovación tecnológica es la app Andi, Misión Hierro, que viene con cada envase.');
+  s.addNotes('Presentamos los trabajos de campo 5 a 8 de AndiBite, el mini brownie de 20 g con sangrecita. Todo sale de la misma base: el público reformulado (padres conscientes y planificados, NSE A/B), el costeo con maquila y los precios confirmados por el equipo el 10 de octubre de 2026 (unidad a S/6.00, caja de 3 sabores a S/16.50 y pack de 6 a S/27.90 en el stand), con el modelo financiero v7. La innovación tecnológica es la app Andi, Misión Hierro, que viene con cada envase.');
 
   // =============== 2. RUTA ===============
-  s = content('Portada', 'RUTA DEL TRABAJO', 'Cuatro trabajos, un solo modelo de negocio');
+  s = content('Portada', 'RUTA DEL TRABAJO', 'Cuatro trabajos, un solo negocio: AndiBite');
   const ruta = [
     ['05', 'FaUsers', 'Cliente y canal', 'Arquetipos, buyer persona, tipos de mercado y canal'],
     ['06', 'FaHandshake', 'Relación e ingresos', 'Cómo captamos y retenemos, y de dónde viene el dinero'],
-    ['07', 'FaThLarge', 'Modelo Canvas', 'Socios, recursos, actividades, costos y los 9 bloques'],
-    ['08', 'FaGift', 'Propuesta de valor', 'Mapa de valor, app Andi y competencia'],
+    ['07', 'FaThLarge', 'Modelo Canvas', 'Socios, recursos, costos, resultados de los años 1 y 2, y el Canvas'],
+    ['08', 'FaGift', 'Propuesta de valor', 'Mapa de valor, app Andi, competencia y plan de marketing'],
   ];
   for (let i = 0; i < 4; i++) {
     const x = 0.6 + i * (2.81 + 0.3), y = 1.75, w = 2.81, h = 3.85;
@@ -189,11 +189,11 @@ const chartText = () => ({
   s.addNotes('Sesión 05: el público objetivo orienta (un rango de edad, NSE y distrito) y el arquetipo conecta (una persona con nombre, dolor y hábito). Regla de 3 de la clase: nombre, dolor y hábito. Le vendemos a Claudia, no a "madres de 32 a 45". Datos: APEIM 2025, CPI 2026 y documento 04.');
 
   // =============== 6. ARQUETIPOS ===============
-  s = content(S5, 'TRABAJO DE CAMPO 5 · ARQUETIPOS DE CLIENTE', 'Tres arquetipos: nombre, dolor y hábito');
+  s = content(S5, 'TRABAJO DE CAMPO 5 · ARQUETIPOS DE CLIENTE', 'Tres clientes tipo: quién es, qué le duele y dónde compra');
   const arq = [
     ['FaShieldAlt', C.accent1, 'Guardiana del Hierro', 'Mamá de 35 a 42, profesional', 'Lee etiquetas; pregunta al pediatra', 'Su hijo rechaza lo nutritivo', 'Pruebas: hierro en mg', 'Wong, Flora & Fauna, Instagram', '30 %', 'Buyer persona: Claudia'],
     ['FaClock', C.accent2, 'El Resolutivo', 'Papá o mamá de 38 a 45, gerente', 'Compra por app y en el súper', 'Mañanas contra el reloj', 'Rapidez y practicidad', 'Supermercado y WhatsApp', '45 %', 'Buyer persona: Rodrigo'],
-    ['FaSchool', C.accent4, 'El Prescriptor (B2B)', 'Quiosco, nutricionista, pediatra', 'Elige qué entra al colegio', 'Productos con octógono', 'Norma y registro sanitario', 'Directo al productor', '25 %', 'Valida la marca'],
+    ['FaSchool', C.accent4, 'El Consejero', 'Quiosco, nutricionista, pediatra', 'Elige qué entra al colegio', 'Productos con octógono', 'Norma y registro sanitario', 'Directo al productor', '25 %', 'Nos recomienda'],
   ];
   for (let i = 0; i < 3; i++) {
     const a = arq[i];
@@ -211,7 +211,7 @@ const chartText = () => ({
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x + 1.95, y: y + 4.3, w: 1.6, h: 0.42, rectRadius: 0.21, fill: { color: C.background2 }, line: { color: C.accent5, width: 1 } });
     T(s, a[9], { x: x + 1.95, y: y + 4.3, w: 1.6, h: 0.42, fontSize: 11, bold: true, align: 'center', valign: 'middle', color: C.text2 });
   }
-  s.addNotes('Partes esenciales de un arquetipo según la sesión 05: nombre, edad y ocupación; hábitos, frustraciones y valores; canales y comportamiento de compra. Guardiana del Hierro (la representa Claudia), El Resolutivo (Rodrigo) y El Prescriptor, que valida la marca ante los otros dos. Los porcentajes son el peso esperado de cada arquetipo en el volumen.');
+  s.addNotes('Partes esenciales de un arquetipo según la sesión 05: nombre, edad y ocupación; hábitos, frustraciones y valores; canales y comportamiento de compra. Guardiana del Hierro (la representa Claudia), El Resolutivo (Rodrigo) y El Consejero (quiosco, nutricionista o pediatra: en marketing se le llama prescriptor), que recomienda la marca a los otros dos. Los porcentajes son el peso esperado de cada arquetipo en el volumen.');
 
   // =============== 7-8. BUYER PERSONAS ===============
   const personas = [
@@ -252,7 +252,7 @@ const chartText = () => ({
   }
 
   // =============== 4. TIPOS DE MERCADO ===============
-  s = content(S5, 'TRABAJO DE CAMPO 5 · TIPOS DE MERCADO', 'Vendemos en el mercado de consumo, a un nicho A/B');
+  s = content(S5, 'TRABAJO DE CAMPO 5 · TIPOS DE MERCADO', 'Vendemos a familias (mercado de consumo), en un nicho A/B');
   const mk = [
     ['FaShoppingBasket', 'Consumo', 'Personas que compran para su familia', 'ELEGIDO', 'Padres A/B que compran la lonchera', 1],
     ['FaIndustry', 'Industrial', 'Empresas que compran para producir', 'NO APLICA', 'No vendemos insumos a otras empresas', 0],
@@ -279,12 +279,12 @@ const chartText = () => ({
   s.addNotes('Tipos de mercado de la sesión 05: consumo, industrial, servicios, gobierno y global. AndiBite vende en el MERCADO DE CONSUMO: personas que compran para su familia y buscan conveniencia y confianza. Industrial y servicios no aplican. Gobierno (programas contra la anemia) y global (peruanos en el exterior) quedan como opción para el año 3, cuando haya volumen y registro de exportación. Dentro del consumo atacamos un nicho (NSE A/B de Lima Top y Moderna) con dos segmentos: salud verificable y ahorro de tiempo.');
 
   // =============== 5. TAM SAM SOM ===============
-  s = content(S5, 'TRABAJO DE CAMPO 5 · TAMAÑO DEL MERCADO', 'Un nicho chico, pero con billetera');
+  s = content(S5, 'TRABAJO DE CAMPO 5 · TAMAÑO DEL MERCADO', 'Un nicho chico que sí invierte en la salud de sus hijos');
   const fun = [
-    [6.6, C.accent5, C.text1, 'TAM · S/130.9 millones', '932 mil hogares · todas las loncheras de Lima'],
-    [5.4, C.accent2, C.background1, 'SAM · S/62.8 millones', '168 mil hogares A/B con niños de 4 a 11'],
+    [6.6, C.accent5, C.text1, 'Mercado total · S/130.9 millones', '932 mil hogares · todas las loncheras de Lima'],
+    [5.4, C.accent2, C.background1, 'Mercado al que apuntamos · S/62.8 M', '168 mil hogares A/B con niños de 4 a 11'],
     [4.2, C.accent1, C.background1, 'Núcleo · S/17.3 millones', '46 mil hogares en Lima Top y Moderna'],
-    [3.0, C.text2, C.background1, 'SOM año 1 · S/0.25 M', '52,786 brownies · 1 a 3 puntos'],
+    [3.0, C.text2, C.background1, 'Meta del año 1 · S/0.24 M', '52,331 brownies · 1 a 3 puntos'],
   ];
   for (let i = 0; i < 4; i++) {
     const [w, f, tc, a, b] = fun[i];
@@ -303,15 +303,15 @@ const chartText = () => ({
     T(s, stats[i][0], { x: x + 0.25, y, w: 1.95, h, valign: 'middle', fontSize: 32, bold: true, color: C.accent1 });
     T(s, [{ text: stats[i][1], options: { breakLine: true } }, { text: stats[i][2], options: { fontSize: 11, color: C.accent2, italic: true } }], { x: x + 2.25, y: y + 0.15, w: w - 2.45, h: h - 0.3, valign: 'middle', fontSize: 14 });
   }
-  s.addNotes('Embudo del documento 04 (APEIM 2025, CPI 2026, INEI, Kantar). TAM: todas las loncheras con horneado o snack envasado de niños de 4 a 11 años en Lima y Callao (S/130.9 millones). SAM: niños de NSE A/B en toda Lima a precio premium (S/62.8 millones). Núcleo: NSE A/B de las zonas 6 y 7 de APEIM (S/17.3 millones). SOM del año 1 (enero a diciembre de 2027): 52,786 brownies y S/246,531 con IGV, vendidos sobre todo en stands, carritos y ferias; es apenas el 1.4 % del núcleo. Ajuste de -5 % por el Censo 2025 aplicado en el documento 04.');
+  s.addNotes('Embudo del documento 04 (APEIM 2025, CPI 2026, INEI, Kantar). En la diapositiva usamos palabras simples para las siglas: mercado total = TAM, mercado al que apuntamos = SAM y meta del año 1 = SOM. TAM: todas las loncheras con horneado o snack envasado de niños de 4 a 11 años en Lima y Callao (S/130.9 millones). SAM: niños de NSE A/B en toda Lima a precio premium (S/62.8 millones). Núcleo: NSE A/B de las zonas 6 y 7 de APEIM (S/17.3 millones). SOM del año 1 (enero a diciembre de 2027): 52,331 brownies y S/244,728 con IGV, vendidos sobre todo en stands, carritos y ferias; es apenas el 1.4 % del núcleo. Ajuste de -5 % por el Censo 2025 aplicado en el documento 04.');
 
   // =============== 9. CANAL: 5 FASES ===============
-  s = content(S5, 'TRABAJO DE CAMPO 5 · CANAL DE DISTRIBUCIÓN', 'El niño prueba en el stand y el padre compra ahí');
+  s = content(S5, 'TRABAJO DE CAMPO 5 · CANAL DE DISTRIBUCIÓN', 'El niño prueba en el stand y el padre compra ahí mismo');
   const fases = [
     ['FaMapMarkerAlt', '1 · Información', 'Stand en mall o súper, Instagram y chat del salón'],
     ['FaSmile', '2 · Evaluación', 'Degustación gratis: el niño prueba delante del padre'],
-    ['FaStore', '3 · Compra', 'Unidad a S/6 o pack a S/27.90, con Yape o tarjeta'],
-    ['FaShoppingBag', '4 · Entrega', 'En el momento; por WhatsApp, delivery gratis desde 2 packs'],
+    ['FaStore', '3 · Compra', 'Unidad S/6, caja de 3 S/16.50 o pack S/27.90, con Yape o tarjeta'],
+    ['FaShoppingBag', '4 · Entrega', 'En el momento; por WhatsApp, entrega 2 días por semana o recojo en el stand'],
     ['FaWhatsapp', '5 · Posventa', 'App Andi: hierro del lote y aviso de recompra'],
   ];
   for (let i = 0; i < 5; i++) {
@@ -322,14 +322,14 @@ const chartText = () => ({
     T(s, fases[i][2], { x, y: y + 1.65, w: w - 0.1, h: 1.2, fontSize: 14, color: C.text1 });
   }
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 4.3, w: 7.6, h: 1.65, rectRadius: 0.12, fill: { color: C.text2 }, line: { color: C.text2, width: 0 } });
-  T(s, [{ text: 'Canal directo · 75.6 %', options: { fontSize: 20, bold: true, color: C.accent3, breakLine: true } }, { text: 'Stands, carrito, ferias y WhatsApp: más esfuerzo, más control. El niño prueba y el padre decide.', options: { fontSize: 15, color: C.background1 } }], { x: 0.95, y: 4.45, w: 7.0, h: 1.4, valign: 'middle' });
+  T(s, [{ text: 'Canal directo · 75.4 %', options: { fontSize: 20, bold: true, color: C.accent3, breakLine: true } }, { text: 'Stands, carrito, ferias y WhatsApp: más esfuerzo, más control. El niño prueba y el padre decide.', options: { fontSize: 15, color: C.background1 } }], { x: 0.95, y: 4.45, w: 7.0, h: 1.4, valign: 'middle' });
   card(s, 8.45, 4.3, 4.28, 1.65);
-  T(s, [{ text: 'Canal indirecto · 24.4 %', options: { fontSize: 20, bold: true, color: C.text2, breakLine: true } }, { text: 'Minoristas: quioscos escolares y naturistas, con comisión de 25 a 40 %', options: { fontSize: 15, color: C.text1 } }], { x: 8.7, y: 4.45, w: 3.85, h: 1.4, valign: 'middle' });
-  s.addNotes('Las cinco fases del canal según Osterwalder. Por indicación de la profesora, la venta física es el mejor escenario: el focus 1 mostró que sin prueba del niño no hay compra, y en el stand el niño prueba delante del padre. La compra se cierra en el stand (fase en rojo). En la posventa, el padre escanea el QR del envase, ve en la app el hierro medido de su lote y recibe el aviso de recompra, que abre WhatsApp con el pedido listo, sin suscripción. Canal directo (sesión 05: sin intermediarios, más esfuerzo y más control) frente a canal indirecto (minoristas que venden por nosotros). Unidades del año 1 (Excel, hoja Mensual): stands y carritos 22,625; WhatsApp 9,176; colegios 9,165; ferias 8,100; naturistas 3,720.');
+  T(s, [{ text: 'Canal indirecto · 24.6 %', options: { fontSize: 20, bold: true, color: C.text2, breakLine: true } }, { text: 'Quioscos escolares y tiendas naturistas, que se quedan del 20 al 36 % del precio', options: { fontSize: 15, color: C.text1 } }], { x: 8.7, y: 4.45, w: 3.85, h: 1.4, valign: 'middle' });
+  s.addNotes('Las cinco fases del canal según Osterwalder. Por indicación de la profesora, la venta física es el mejor escenario: el focus 1 mostró que sin prueba del niño no hay compra, y en el stand el niño prueba delante del padre. La compra se cierra en el stand (fase en rojo). En la posventa, el padre escanea el QR del envase, ve en la app el hierro medido de su lote y recibe el aviso de recompra, que abre WhatsApp con el pedido listo, sin suscripción. Canal directo (sesión 05: sin intermediarios, más esfuerzo y más control) frente a canal indirecto (minoristas que venden por nosotros). Unidades del año 1 (Excel v7, hoja Mensual): stands y carritos 22,625; WhatsApp 9,421; colegios 9,165; ferias y eventos 7,400; naturistas 3,720. Por WhatsApp las entregas se agrupan 2 días por semana por zona, o el padre recoge en el stand: así el delivery baja de S/0.80 a S/0.50 por brownie.');
 
   // =============== 10. SELECCIÓN DE CANAL ===============
-  s = content(S5, 'TRABAJO DE CAMPO 5 · SELECCIÓN DEL CANAL', 'Elegimos la venta física en stands y carritos');
-  s.addChart(pres.charts.DOUGHNUT, [{ name: 'Unidades', labels: ['Stands y carritos', 'WhatsApp (recompra)', 'Ferias y eventos', 'Quioscos escolares', 'Tiendas naturistas'], values: [22625, 9176, 8100, 9165, 3720] }],
+  s = content(S5, 'TRABAJO DE CAMPO 5 · SELECCIÓN DEL CANAL', 'Elegimos vender cara a cara: stands y carritos');
+  s.addChart(pres.charts.DOUGHNUT, [{ name: 'Unidades', labels: ['Stands y carritos', 'WhatsApp (recompra)', 'Ferias y eventos', 'Quioscos escolares', 'Tiendas naturistas'], values: [22625, 9421, 7400, 9165, 3720] }],
     Object.assign(chartText(), { x: 0.4, y: 1.6, w: 5.3, h: 5.1, title: 'Unidades del año 1 por canal', holeSize: 55, chartColors: [H.accent1, H.accent2, H.accent3, H.accent4, H.accent5], showPercent: true, showValue: false, showLegend: true, legendPos: 'b', dataLabelColor: 'FFFFFF', dataLabelFontSize: 13, dataLabelFontBold: true }));
   const hdr = (t) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.text2 }, align: 'center', fontSize: 12 } });
   const rowsT = [
@@ -344,16 +344,16 @@ const chartText = () => ({
   s.addTable(tbl, { x: 6.0, y: 1.7, w: 6.73, colW: [2.23, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75], rowH: 0.45, border: { type: 'solid', pt: 0.75, color: 'E8D8C4' }, color: C.text1, valign: 'middle', margin: 0.05 });
   T(s, 'Puntaje del equipo, de 1 a 5. Prueba = el niño prueba delante del padre.', { x: 6.0, y: 4.92, w: 6.73, h: 0.3, fontSize: 11, italic: true, color: C.accent2 });
   card(s, 6.0, 5.3, 6.73, 1.4, { fill: C.accent1 });
-  T(s, [{ text: '23 de 25 puntos', options: { fontSize: 20, bold: true, breakLine: true } }, { text: 'Stands para que el niño pruebe y el padre compre; ferias en Navidad y campaña escolar; WhatsApp para volver a comprar.', options: { fontSize: 14 } }], { x: 6.3, y: 5.38, w: 6.2, h: 1.25, valign: 'middle', color: C.background1 });
-  s.addNotes('Criterios: margen por brownie (contribución por unidad del Excel antes de alquiler y personal: stand S/2.43, feria S/2.54, WhatsApp S/1.07, quiosco S/0.68, naturista S/0.61), control del mensaje, costo de entrada, alcance del segmento y prueba del niño, que según el focus 1 es la condición para comprar. La góndola del supermercado se queda con 20 a 40 % y paga a 30-90 días: entra en el año 2.');
+  T(s, [{ text: '23 de 25 puntos', options: { fontSize: 20, bold: true, breakLine: true } }, { text: 'Stands para que el niño pruebe y el padre compre; ferias en la campaña escolar y el Día del Niño; WhatsApp para volver a comprar.', options: { fontSize: 14 } }], { x: 6.3, y: 5.38, w: 6.2, h: 1.25, valign: 'middle', color: C.background1 });
+  s.addNotes('Criterios: margen por brownie (lo que deja cada brownie antes del espacio y el personal, Excel v7: stand S/2.41, feria S/2.52, WhatsApp S/1.39, quiosco S/0.86, naturista S/0.80), control del mensaje, costo de entrada, alcance del segmento y prueba del niño, que según el focus 1 es la condición para comprar. La góndola del supermercado se queda con 20 a 40 % y paga a 30-90 días: entra en el año 2.');
 
   // =============== 10b. PUNTOS DE VENTA ===============
-  s = content(S5, 'TRABAJO DE CAMPO 5 · PUNTOS DE VENTA', 'Vendemos donde está la familia: malls, súper y ferias');
+  s = content(S5, 'TRABAJO DE CAMPO 5 · PUNTOS DE VENTA', 'Vamos donde está la familia: malls, súper, ferias y colegios');
   const ptos = [
     ['FaStore', 'Malls de Lima Top', 'Jockey Plaza, Larcomar y La Rambla: programas para emprendedores'],
     ['FaShoppingCart', 'Supermercados', 'Carrito en la entrada de Wong o Vivanda, los fines de semana'],
-    ['FaGift', 'Ferias de temporada', 'Navidad (Bazar CCL, Navi Fest) y campaña escolar'],
-    ['FaSchool', 'Colegios y comunidad', 'Kermeses, cumpleaños y quioscos sin octógono'],
+    ['FaGift', 'Ferias de temporada', 'Campaña escolar (febrero) y Día del Niño (abril)'],
+    ['FaSchool', 'Colegios y comunidad', 'Kermeses, cumpleaños, ferias saludables y quioscos'],
   ];
   for (let i = 0; i < 4; i++) {
     const x = 0.6, y = 1.7 + i * 1.25, w = 4.9, h = 1.1;
@@ -363,11 +363,11 @@ const chartText = () => ({
   }
   s.addChart(pres.charts.BAR, [
     { name: 'Stands y carritos', labels: MESES3, values: [450, 1440, 1800, 1440, 1530, 1440, 1700, 2295, 2430, 2430, 2430, 3240] },
-    { name: 'Ferias y eventos', labels: MESES3, values: [150, 1000, 600, 600, 750, 600, 450, 600, 600, 600, 450, 1700] },
-    { name: 'WhatsApp', labels: MESES3, values: [150, 210, 854, 840, 714, 798, 714, 753, 1013, 1061, 1061, 1008] },
+    { name: 'Ferias y eventos', labels: MESES3, values: [150, 1000, 600, 1300, 750, 600, 450, 600, 600, 600, 450, 300] },
+    { name: 'WhatsApp', labels: MESES3, values: [150, 210, 854, 840, 959, 798, 714, 753, 1013, 1061, 1061, 1008] },
     { name: 'Colegios y naturistas', labels: MESES3, values: [120, 180, 480, 840, 1065, 1200, 960, 1560, 1560, 1920, 1920, 1080] },
   ], Object.assign(chartText(), { x: 5.7, y: 1.6, w: 7.2, h: 5.1, barDir: 'col', barGrouping: 'stacked', title: 'Brownies vendidos al mes por canal (enero a diciembre de 2027)', chartColors: [H.accent1, H.accent3, H.accent2, H.accent4], showValue: false, showLegend: true, legendPos: 'b', valAxisLabelFormatCode: '#,##0', barGapWidthPct: 40 }));
-  s.addNotes('Puntos de venta (documento 08): programas para emprendedores de Jockey Plaza, Larcomar (El Mercadito del Emprendedor) y La Rambla San Borja; carrito en la entrada de Wong o Vivanda; ferias navideñas (Bazar CCL, Navi Fest) y de campaña escolar; kermeses y cumpleaños. Plan: 1 punto en enero, 2 de febrero a julio y 3 de agosto a diciembre de 2027, solo fines de semana. Cada punto lo atiende un(a) vendedor(a) pagado(a) a S/90 por día; el espacio cuesta S/600 por punto al mes y el stand en feria, S/1,800.');
+  s.addNotes('Puntos de venta (documento 08): programas para emprendedores de Jockey Plaza, Larcomar (El Mercadito del Emprendedor) y La Rambla San Borja; carrito en la entrada de Wong o Vivanda; 2 ferias pagadas, de campaña escolar (febrero) y del Día del Niño Peruano (segundo domingo de abril); kermeses, cumpleaños y ferias saludables o municipales, que no cobran stand. Las ferias navideñas se sacaron del plan: con unos 700 brownies, una feria de S/1,800 pierde dinero si no deja clientes que vuelvan. Plan: 1 punto en enero, 2 de febrero a julio y 3 de agosto a diciembre de 2027, solo fines de semana. Cada punto y cada evento lo atiende un(a) vendedor(a) pagado(a) a S/90 por día; el espacio cuesta S/600 por punto al mes y el stand en feria, S/1,800 más 3 días de vendedor(a).');
 
   // =============== 11. SECCIÓN TC6 ===============
   s = await section('TC6 · Relación e ingresos', '06', 'Relación con el cliente e ingresos', 'Tipos de relación · Captar, fidelizar y crecer · Fuentes de ingreso · Ventas del año 1', 'FaHandshake');
@@ -377,8 +377,8 @@ const chartText = () => ({
   // =============== 12. TIPOS DE RELACIÓN ===============
   s = content(S6, 'TRABAJO DE CAMPO 6 · RELACIÓN CON EL CLIENTE', 'Cara a cara en el stand, automática al recomprar');
   const rel = [
-    ['FaComments', 'Asistencia personal', 'FUERTE', 'En el stand: degustación y consejo de sabores; luego por WhatsApp'],
-    ['FaUserTie', 'Asistencia exclusiva', 'APOYO', 'Un socio a cargo de cada colegio y de cada naturista'],
+    ['FaComments', 'Asistencia personal', 'FUERTE', 'En el stand el niño prueba y el padre compra, con el consejo de la vendedora'],
+    ['FaUserTie', 'Asistencia exclusiva', 'APOYO', 'La coordinadora atiende a cada colegio y a cada naturista'],
     ['FaMobileAlt', 'Autoservicio', 'FUERTE', 'App Andi: hierro del lote, loncheras y pedido en un clic'],
     ['FaCalendarCheck', 'Servicio automático', 'FUERTE', 'La app avisa cuando el pack se está acabando'],
     ['FaUsers', 'Comunidades', 'FUERTE', 'Mamá embajadora por salón y comunidad en Instagram'],
@@ -395,14 +395,14 @@ const chartText = () => ({
     T(s, rel[i][2], { x: x + 1.2, y: y + 0.76, w: 0.95, h: 0.28, fontSize: 10, bold: true, align: 'center', valign: 'middle', color: strong ? C.background1 : C.accent2 });
     T(s, rel[i][3], { x: x + 0.3, y: y + 1.3, w: w - 0.6, h: 0.95, fontSize: 15, color: C.text1 });
   }
-  s.addNotes('Los seis tipos de relación de Osterwalder y cómo los usa AndiBite. Las fuertes (asistencia personal en el stand, autoservicio y servicio automático con la app Andi, Misión Hierro, y comunidad de mamás embajadoras) sostienen la recompra; las de apoyo crecen con el volumen. La app calcula cuándo se acaba el pack según cuántos come el niño a la semana y avisa al padre (documento 09). Con los colegios y naturistas la relación es exclusiva: un socio responde por cada cuenta.');
+  s.addNotes('Los seis tipos de relación de Osterwalder y cómo los usa AndiBite. Las fuertes (asistencia personal en el stand, autoservicio y servicio automático con la app Andi, Misión Hierro, y comunidad de mamás embajadoras) sostienen la recompra; las de apoyo crecen con el volumen. La app calcula cuándo se acaba el pack según cuántos come el niño a la semana y avisa al padre (documento 09). Con los colegios y naturistas la relación es exclusiva: la coordinadora (en planilla) responde por cada cuenta. En el stand la compra se cierra ahí mismo; WhatsApp es para volver a comprar.');
 
   // =============== 13. CAPTAR, FIDELIZAR, CRECER ===============
-  s = content(S6, 'TRABAJO DE CAMPO 6 · CICLO DE RELACIÓN', 'Captar, fidelizar y crecer con cada familia');
+  s = content(S6, 'TRABAJO DE CAMPO 6 · CICLO DE RELACIÓN', 'Cómo una familia nos prueba, vuelve y nos recomienda');
   const ciclo = [
-    ['1 · CAPTAR', 'Que lo prueben', 'Degustación gratis en el stand y caja de 3 a S/12 para llevar', '80', 'brownies por día en cada punto de venta'],
+    ['1 · CAPTAR', 'Que lo prueben', 'Degustación gratis en el stand; el padre se lleva la unidad, la caja de 3 sabores o el pack', '80', 'brownies por día en cada punto de venta'],
     ['2 · FIDELIZAR', 'Que vuelvan', 'La app Andi avisa la recompra, arma loncheras y mide el hierro de la semana', '35 %', 'de lo vendido en físico vuelve por WhatsApp'],
-    ['3 · CRECER', 'Que nos recomienden', 'Mamá embajadora por salón y nuevos puntos de venta', '3', 'puntos de venta desde agosto de 2027'],
+    ['3 · CRECER', 'Que nos recomienden', 'Mamá embajadora por salón: recomienda en el chat del colegio con su código', '3', 'puntos de venta desde agosto de 2027'],
   ];
   for (let i = 0; i < 3; i++) {
     const w = 2.95, x = 0.6 + i * (w + 0.35), y = 1.7, h = 5.0;
@@ -415,15 +415,15 @@ const chartText = () => ({
     if (i < 2) { await iconCircle(s, 'FaArrowRight', x + w - 0.05, y + 2.2, 0.45, C.accent3, H.dk2); }
   }
   await imgSlot(s, 3, 10.45, 1.7, 2.28, 5.0, 'Lonchera con AndiBite y fruta');
-  s.addNotes('Captar: en el stand el niño prueba gratis delante del padre, que compra ahí mismo; la caja de 3 sabores (S/12) se lleva para la semana. Fidelizar: la app Andi, Misión Hierro avisa cuando el pack está por acabarse y abre WhatsApp con el pedido listo, sin suscripción; además da el semáforo de hierro y el plan de loncheras de la semana. Crecer: mamá embajadora por salón y paso al pack de 12. Metas del modelo: 80 brownies por día en cada punto, 35 % de lo vendido en físico vuelve por WhatsApp y 3 puntos de venta desde agosto de 2027.' + pn(3, '9:16 · adjuntar la foto del empaque'));
+  s.addNotes('Captar: en el stand el niño prueba gratis delante del padre, que compra ahí mismo: la unidad (S/6.00), la caja de 3 sabores (S/16.50, sin cupón) o el pack de 6 (S/27.90). Fidelizar: la app Andi, Misión Hierro avisa cuando el pack está por acabarse y abre WhatsApp con el pedido listo, sin suscripción; además da el semáforo de hierro y el plan de loncheras de la semana. Crecer: una mamá embajadora por salón recomienda AndiBite en el chat del colegio con su código; por cada familia nueva que llega con su código recibe un pack de regalo o un descuento (S/200 al mes dentro del marketing). El premio es para el padre, nunca para el niño (Ley 30021). Luego se pasa al pack de 12. Metas del modelo: 80 brownies por día en cada punto, 35 % de lo vendido en físico vuelve por WhatsApp y 3 puntos de venta desde agosto de 2027.' + pn(3, '9:16 · adjuntar la foto del empaque'));
 
   // =============== 14. TIPOS DE INGRESO ===============
-  s = content(S6, 'TRABAJO DE CAMPO 6 · FUENTES DE INGRESO', 'Cuatro fuentes de ingreso, una sola línea de producto');
+  s = content(S6, 'TRABAJO DE CAMPO 6 · FUENTES DE INGRESO', 'De dónde viene el dinero: cuatro fuentes, un solo producto');
   const ing = [
-    ['FaStore', 'Venta en stands y carritos', 'Unidades y packs en malls y supermercados', '50.0 %'],
-    ['FaBirthdayCake', 'Ferias y eventos', 'Navidad, campaña escolar, kermeses y cumpleaños', '18.4 %'],
-    ['FaWhatsapp', 'Recompra por WhatsApp', 'Packs de 6 y de 12 con delivery', '16.1 %'],
-    ['FaSchool', 'Venta mayorista (B2B)', 'Quioscos escolares y tiendas naturistas, con factura', '15.5 %'],
+    ['FaStore', 'Venta en stands y carritos', 'Unidades, cajas de 3 y packs en malls y súper', '49.8 %'],
+    ['FaBirthdayCake', 'Ferias y eventos', 'Campaña escolar, Día del Niño, kermeses y cumpleaños', '16.8 %'],
+    ['FaWhatsapp', 'Recompra por WhatsApp', 'Packs de 6 y de 12 con entrega o recojo', '16.7 %'],
+    ['FaSchool', 'Venta a colegios y tiendas', 'Quioscos escolares y tiendas naturistas, con factura', '16.7 %'],
   ];
   for (let i = 0; i < 4; i++) {
     const x = 0.6, y = 1.7 + i * 1.23, w = 6.3, h = 1.08;
@@ -432,55 +432,55 @@ const chartText = () => ({
     T(s, [{ text: ing[i][1], options: { bold: true, fontSize: 16, color: C.text2, breakLine: true } }, { text: ing[i][2], options: { fontSize: 13, color: C.accent2 } }], { x: x + 1.1, y, w: 3.85, h, valign: 'middle' });
     T(s, [{ text: ing[i][3], options: { bold: true, fontSize: 24, color: C.accent1, breakLine: true } }, { text: 'de los ingresos', options: { fontSize: 10, color: C.accent2 } }], { x: x + 5.0, y, w: 1.2, h, valign: 'middle', align: 'right' });
   }
-  const ph = (t) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.text2 }, align: 'center', fontSize: 13 } });
-  const prow = (c, a, b, d, hl) => [{ text: c, options: { bold: true, fontSize: 14, fill: { color: hl ? 'F6DCD5' : 'FFFFFF' } } }, ...[a, b, d].map(v => ({ text: v, options: { align: 'center', fontSize: 14, fill: { color: hl ? 'F6DCD5' : 'FFFFFF' }, bold: hl } }))];
+  const ph = (t) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.text2 }, align: 'center', fontSize: 12 } });
+  const prow = (c, a, b, d, e, hl) => [{ text: c, options: { bold: true, fontSize: 13, fill: { color: hl ? 'F6DCD5' : 'FFFFFF' } } }, ...[a, b, d, e].map(v => ({ text: v, options: { align: 'center', fontSize: 13, fill: { color: hl ? 'F6DCD5' : 'FFFFFF' }, bold: hl } }))];
   s.addTable([
-    [{ text: 'Precio con IGV', options: { bold: true, color: C.background1, fill: { color: C.text2 }, fontSize: 13 } }, ph('Unidad'), ph('Pack de 6'), ph('Pack de 12')],
-    prow('Stand y ferias', 'S/6.00', 'S/27.90', 'S/51.90', true),
-    prow('WhatsApp', 'S/4.00', 'S/26.90', 'S/49.90'),
-    prow('Quiosco escolar', 'S/4.00*', '–', '–'),
-    prow('Tienda naturista', '–', 'S/28.90*', '–'),
-  ], { x: 7.2, y: 1.7, w: 5.53, colW: [1.93, 1.1, 1.25, 1.25], rowH: 0.55, border: { type: 'solid', pt: 0.75, color: 'E8D8C4' }, color: C.text1, valign: 'middle', margin: 0.06 });
+    [{ text: 'Precio con IGV', options: { bold: true, color: C.background1, fill: { color: C.text2 }, fontSize: 12 } }, ph('Unidad'), ph('Caja de 3'), ph('Pack de 6'), ph('Pack de 12')],
+    prow('Stand y ferias', 'S/6.00', 'S/16.50', 'S/27.90', 'S/51.90', true),
+    prow('WhatsApp', '–', 'S/12.00', 'S/26.90', 'S/49.90'),
+    prow('Quiosco escolar', 'S/4.00*', '–', '–', '–'),
+    prow('Tienda naturista', '–', '–', 'S/28.90*', '–'),
+  ], { x: 7.2, y: 1.7, w: 5.53, colW: [1.53, 0.95, 1.0, 1.05, 1.0], rowH: 0.55, border: { type: 'solid', pt: 0.75, color: 'E8D8C4' }, color: C.text1, valign: 'middle', margin: 0.06 });
   card(s, 7.2, 4.75, 5.53, 1.95, { fill: C.background2, noShadow: true });
   T(s, [
     { text: 'Precio fijo por lista', options: { bold: true, fontSize: 15, color: C.text2, breakLine: true } },
     { text: 'Incluye el hierro medido por lote y la app. En el stand se cobra algo más por el alquiler y el personal.', options: { fontSize: 14, breakLine: true } },
-    { text: '* Precio al público. AndiBite recibe S/3.00 en el quiosco y S/17.34 en la naturista.', options: { fontSize: 11, italic: true, color: C.accent2 } },
+    { text: '* Precio al público. AndiBite recibe S/3.20 en el quiosco y S/18.50 en la naturista.', options: { fontSize: 11, italic: true, color: C.accent2 } },
   ], { x: 7.45, y: 4.85, w: 5.05, h: 1.75, valign: 'middle', paraSpaceAfter: 4 });
-  s.addNotes('Tipos de ingreso (Osterwalder): venta de activos en stands y carritos, en ferias y eventos, y por WhatsApp; y venta mayorista B2B. Porcentajes sobre las ventas con IGV del año 1 (S/246,531, enero a diciembre de 2027), hoja Proyeccion del Excel. Mecanismo de precio: fijo por lista, con descuento por volumen. Precios confirmados por el equipo el 10 de octubre de 2026: suben para cubrir la sangrecita en polvo, el análisis de hierro de cada lote y la app.');
+  s.addNotes('Tipos de ingreso (Osterwalder): venta de activos en stands y carritos, en ferias y eventos, y por WhatsApp; y venta a colegios y tiendas (en inglés, B2B). Porcentajes sobre las ventas con IGV del año 1 (S/244,728, enero a diciembre de 2027), hoja Proyeccion del Excel v7. Mecanismo de precio: fijo por lista, con descuento por volumen. La caja de 3 sabores se vende en el stand a S/16.50 (S/5.50 por brownie) y por WhatsApp a S/12.00; por WhatsApp ya no se vende la unidad suelta. Al quiosco le vendemos a S/3.20 (el concesionario se queda 20 % de los S/4.00 que paga el alumno) y a la tienda naturista a S/18.50 (la tienda gana S/10.40 por pack, 36 %). Los precios al público no cambian.');
 
   // =============== 15. INGRESOS EN NÚMEROS ===============
-  s = content(S6, 'TRABAJO DE CAMPO 6 · VENTAS DEL AÑO 1', 'S/246,500 en el primer año de ventas');
-  s.addChart(pres.charts.DOUGHNUT, [{ name: 'Ingreso', labels: ['Unidad', 'Pack de 6', 'Pack de 12'], values: [146635, 83556, 16340] }],
-    Object.assign(chartText(), { x: 0.4, y: 1.6, w: 4.4, h: 4.45, title: 'Ingresos por presentación', holeSize: 55, chartColors: [H.accent1, H.accent2, H.accent3], showPercent: true, showValue: false, showLegend: true, legendPos: 'b', dataLabelColor: 'FFFFFF', dataLabelFontSize: 13, dataLabelFontBold: true }));
+  s = content(S6, 'TRABAJO DE CAMPO 6 · VENTAS DEL AÑO 1', 'S/244,700 en ventas el primer año');
+  s.addChart(pres.charts.DOUGHNUT, [{ name: 'Ingreso', labels: ['Unidad', 'Pack de 6', 'Caja de 3', 'Pack de 12'], values: [123843, 83958, 20282, 16645] }],
+    Object.assign(chartText(), { x: 0.4, y: 1.6, w: 4.4, h: 4.45, title: 'Ingresos por presentación', holeSize: 55, chartColors: [H.accent1, H.accent2, H.accent3, H.accent4], showPercent: true, showValue: false, showLegend: true, legendPos: 'b', dataLabelColor: 'FFFFFF', dataLabelFontSize: 13, dataLabelFontBold: true }));
   const meses = MESES3;
-  s.addChart(pres.charts.BAR, [{ name: 'Ventas con IGV', labels: meses, values: [4286, 14865, 18280, 17333, 18784, 18224, 17710, 23757, 25620, 26901, 26062, 34709] }],
+  s.addChart(pres.charts.BAR, [{ name: 'Ventas con IGV', labels: meses, values: [4280, 14778, 18255, 21279, 19944, 18360, 17792, 23922, 25778, 27131, 26299, 26911] }],
     Object.assign(chartText(), { x: 5.0, y: 1.6, w: 7.9, h: 4.45, barDir: 'col', title: 'Ventas mensuales con IGV (enero a diciembre de 2027)', chartColors: [H.accent2], showValue: true, dataLabelPosition: 'outEnd', dataLabelFormatCode: '0.0,"k"', valAxisLabelFormatCode: '#,##0', showLegend: false, barGapWidthPct: 45, dataLabelFontSize: 11 }));
-  const strip = [['52,786', 'brownies vendidos'], ['3,262 + 324', 'packs de 6 y de 12'], ['S/4.67', 'de ingreso promedio por brownie']];
+  const strip = [['52,331', 'brownies vendidos'], ['3,252 + 1,315', 'packs de 6 y cajas de 3'], ['S/4.68', 'de ingreso promedio por brownie']];
   strip.forEach((t, i) => {
     const w = 3.9, x = 0.6 + i * (w + 0.215);
     card(s, x, 6.12, w, 0.72, { r: 0.1 });
     T(s, [{ text: t[0] + '  ', options: { bold: true, fontSize: 20, color: C.accent1 } }, { text: t[1], options: { fontSize: 13, color: C.accent2 } }], { x: x + 0.25, y: 6.12, w: w - 0.4, h: 0.72, valign: 'middle' });
   });
-  s.addNotes('Datos del Excel (hojas Proyeccion y Mensual). En el stand 6 de cada 10 brownies se venden sueltos a S/6.00, por eso la unidad trae el 59 % de los ingresos. Enero es el mes de arranque (un punto y vacaciones); en febrero entra la campaña escolar, en marzo los colegios, en agosto el tercer punto y diciembre sube con las 2 ferias navideñas.');
+  s.addNotes('Datos del Excel (hojas Proyeccion y Mensual). En el stand 5 de cada 10 brownies se venden sueltos a S/6.00 y 1 de cada 10 sale en la caja de 3 sabores, por eso la unidad trae el 51 % de los ingresos. Además se venden 330 packs de 12. Enero es el mes de arranque (un punto y vacaciones); en febrero entra la feria de campaña escolar, en marzo los colegios, en abril la feria del Día del Niño, en agosto el tercer punto y diciembre tiene 12 días de venta en los 3 puntos, sin ferias pagadas.');
 
   // =============== 16. SECCIÓN TC7 ===============
-  s = await section('TC7 · Canvas', '07', 'Socios, recursos, actividades y costos', 'Socios clave · Recursos clave · Actividades y costos · Punto de equilibrio · Modelo Canvas', 'FaThLarge');
+  s = await section('TC7 · Canvas', '07', 'Socios, recursos, actividades y costos', 'Socios y recursos · Actividades y costos · Punto de equilibrio · Resultados de los años 1 y 2 · Canvas', 'FaThLarge');
   s.addNotes('Trabajo de campo 7: asociaciones, recursos, actividades y costos; presentación del modelo Canvas.');
   const S7 = 'TC7 · Canvas';
 
   // =============== 17. SOCIOS CLAVE ===============
-  s = content(S7, 'TRABAJO DE CAMPO 7 · SOCIOS CLAVE', 'Seis socios que pasan la regla de las 3 C');
+  s = content(S7, 'TRABAJO DE CAMPO 7 · SOCIOS CLAVE', 'Seis aliados que hacen lo que nosotros no podemos');
   s.addShape(pres.shapes.OVAL, { x: 5.42, y: 2.95, w: 2.5, h: 2.5, fill: { color: C.text2 }, line: { color: C.accent5, width: 3 } });
   s.addImage({ path: 'img/logo_light.png', x: 5.77, y: 3.62, w: 1.8, h: 0.62 });
   T(s, 'AndiBite S.A.C.', { x: 5.42, y: 4.4, w: 2.5, h: 0.35, fontSize: 13, bold: true, align: 'center', color: C.accent5 });
   const soc = [
-    ['FaIndustry', 'Planta maquiladora', 'MAKING, Panificadora Unión, INDDA', [0, 1, 1]],
-    ['FaFlask', 'Laboratorio INACAL', 'SAT Perú y La Molina Calidad Total', [1, 1, 1]],
+    ['FaIndustry', 'Planta que fabrica por nosotros', 'MAKING, Panificadora Unión, INDDA', [0, 1, 1]],
+    ['FaFlask', 'Laboratorio acreditado', 'SAT Perú y La Molina Calidad Total', [1, 1, 1]],
     ['FaDrumstickBite', 'Proveedores', 'Sangrecita en polvo con RS, Makro, empaques', [0, 1, 1]],
-    ['FaStore', 'Malls y supermercados', 'Jockey, Larcomar, La Rambla, Wong, Vivanda', [1, 1, 1]],
-    ['FaCalendarCheck', 'Ferias, colegios y naturistas', 'Organizadores, concesionarios y tiendas', [1, 1, 1]],
-    ['FaMobileAlt', 'App y prescriptores', 'Desarrollador, Google Cloud, pediatras', [1, 1, 1]],
+    ['FaStore', 'Dónde vendemos', 'Malls, Wong y Vivanda, ferias, quioscos y naturistas', [1, 1, 1]],
+    ['FaMobileAlt', 'Tecnología', 'Desarrollador de la app y Google Cloud', [0, 1, 1]],
+    ['FaUserMd', 'Quienes nos recomiendan', 'Pediatras y nutricionista', [1, 1, 0]],
   ];
   const cc = ['Conecta', 'Convierte', 'Complementa'];
   for (let i = 0; i < 6; i++) {
@@ -499,7 +499,9 @@ const chartText = () => ({
       T(s, (v ? '✓ ' : '– ') + cc[j], { x: bx, y: y + 0.97, w: 1.0, h: 0.3, fontSize: 9, bold: true, align: 'center', valign: 'middle', color: v ? C.background1 : C.accent2 });
     });
   }
-  s.addNotes('Regla de las 3 C (sesión 07): una alianza es clave si cumple 2 o más: conecta con tu cliente, convierte valor en acción y complementa lo que no tienes. Todos los socios cumplen al menos 2. La planta y los proveedores no conectan con el cliente, pero convierten (producen) y complementan (planta con HACCP que no tenemos). Malls, supermercados y ferias cumplen las 3: tienen el público, permiten vender sin local propio y ponen el espacio. El proveedor de sangrecita de res en polvo liofilizada tiene registro sanitario, así que la planta no manipula sangre cruda. El desarrollador de la app y Google Cloud (servidor y IA del plan de loncheras) complementan lo digital, y la nutricionista y los pediatras conectan y validan.');
+  T(s, [{ text: 'Conecta: ', options: { bold: true } }, { text: 'nos acerca al cliente · ' }, { text: 'Convierte: ', options: { bold: true } }, { text: 'hace posible la venta · ' }, { text: 'Complementa: ', options: { bold: true } }, { text: 'pone lo que no tenemos · RS = registro sanitario · S.A.C. = tipo de empresa' }],
+    { x: 0.6, y: 6.62, w: 12.13, h: 0.3, fontSize: 10.5, color: C.accent2, align: 'center' });
+  s.addNotes('Regla de las 3 C (sesión 07): una alianza es clave si cumple 2 o más: conecta con tu cliente (nos acerca a él), convierte valor en acción (hace posible la venta) y complementa lo que no tienes (pone lo que nos falta). Todos los socios cumplen al menos 2. La planta y los proveedores no conectan con el cliente, pero convierten (producen) y complementan (planta con certificación sanitaria HACCP que no tenemos). Los puntos de venta (malls, supermercados, ferias, quioscos y naturistas) cumplen las 3: tienen el público, permiten vender sin local propio y ponen el espacio. El laboratorio está acreditado por INACAL (el instituto que certifica laboratorios). El proveedor de sangrecita de res en polvo liofilizada tiene registro sanitario, así que la planta no manipula sangre cruda. El desarrollador de la app y Google Cloud (servidor y la IA del plan de loncheras) convierten y complementan lo digital; los pediatras y la nutricionista conectan con los padres y convierten porque su recomendación da confianza.');
 
   // =============== 18. RECURSOS ===============
   s = content(S7, 'TRABAJO DE CAMPO 7 · RECURSOS CLAVE', 'Seis recursos sin los que AndiBite no funciona');
@@ -509,7 +511,7 @@ const chartText = () => ({
     ['FaUsers', 'Humano', 'Vendedores de stand, coordinador y 5 socios', [1, 1, 0]],
     ['FaStore', 'Físico', 'Carrito, kit de feria y stock en la planta', [1, 0, 0]],
     ['FaMobileAlt', 'Digital', 'App Andi, Misión Hierro y base de clientes', [1, 1, 1]],
-    ['FaCoins', 'Financiero', 'S/45,358 de inversión: socios y préstamo', [1, 0, 0]],
+    ['FaCoins', 'Financiero', 'S/40,876 de inversión: socios y préstamo', [1, 0, 0]],
   ];
   const tq = ['Si falta, no funciona', 'Nos diferencia', 'Difícil de copiar'];
   T(s, 'Test rápido de la sesión 07', { x: 7.95, y: 1.55, w: 4.78, h: 0.3, fontSize: 12, bold: true, color: C.accent2 });
@@ -527,110 +529,161 @@ const chartText = () => ({
       T(s, v ? '✓' : '–', { x: cx, y: y + 0.13, w: 0.38, h: 0.38, fontSize: 13, bold: true, align: 'center', valign: 'middle', color: v ? C.background1 : C.accent2 });
     });
   }
-  s.addNotes('Test de la sesión 07: un recurso es clave si respondes sí a 2 de 3 preguntas: si falta, ¿la idea no funciona?, ¿te diferencia?, ¿es difícil de copiar? La fórmula, la marca con registro sanitario y la app Andi, Misión Hierro con su base de clientes pasan las 3: la app junta el hierro medido de cada lote con los hábitos de compra de cada familia, algo que un competidor no copia rápido. Tipos: físicos, digitales, humanos, financieros e intangibles. La inversión inicial de S/45,358 está en la hoja Inversion del Excel: S/25,000 de los socios y un préstamo de S/20,500 en 24 cuotas.');
+  s.addNotes('Test de la sesión 07: un recurso es clave si respondes sí a 2 de 3 preguntas: si falta, ¿la idea no funciona?, ¿te diferencia?, ¿es difícil de copiar? La fórmula, la marca con registro sanitario y la app Andi, Misión Hierro con su base de clientes pasan las 3: la app junta el hierro medido de cada lote con los hábitos de compra de cada familia, algo que un competidor no copia rápido. Tipos: físicos, digitales, humanos, financieros e intangibles. La inversión inicial de S/40,876 está en la hoja Inversion del Excel v7: S/25,000 de los socios y un préstamo de S/16,000 en 24 cuotas, más una línea de crédito de respaldo de S/3,000.');
 
   // =============== 18b. ACTIVIDADES Y COSTOS ===============
-  s = content(S7, 'TRABAJO DE CAMPO 7 · ACTIVIDADES CLAVE', 'Cada actividad clave tiene su costo');
+  s = content(S7, 'TRABAJO DE CAMPO 7 · ACTIVIDADES CLAVE', 'Lo que hacemos cada mes y cuánto nos cuesta');
   const act = [
-    ['FaIndustry', 'Producir con la planta', 'Producción', 'S/1.06 por brownie', 'Variable'],
-    ['FaClipboardCheck', 'Calidad y hierro medido', 'Producción', 'S/625 por lote', 'Variable'],
-    ['FaStore', 'Vender en stands y carrito', 'Resolución', 'S/600 por punto + S/90 por día', 'Escala'],
-    ['FaGift', 'Ferias de temporada', 'Resolución', 'S/1,800 por feria', 'Por evento'],
-    ['FaWhatsapp', 'Recompra y delivery', 'Plataforma', 'S/0.80 por brownie + S/709 al mes', 'Variable y fijo'],
-    ['FaInstagram', 'Contenido y comunidad', 'Plataforma', 'S/900 al mes', 'Fijo'],
-    ['FaMobileAlt', 'Mantener la app Andi', 'Plataforma', 'S/250 al mes + S/0.04 por código', 'Fijo y variable'],
+    ['FaIndustry', 'Producir con la planta', 'Producción', 'S/1.64 por brownie todo incluido (fabricar S/1.06 + empaque y calidad S/0.58)', 'Variable'],
+    ['FaClipboardCheck', 'Calidad y hierro medido', 'Producción', 'S/625 por la producción de cada mes (S/0.12 por brownie)', 'Variable'],
+    ['FaStore', 'Vender en stands y carrito', 'Atender al cliente', 'S/600 por punto al mes + S/90 por día de vendedor(a)', 'Crece con cada punto'],
+    ['FaGift', 'Ferias y eventos', 'Atender al cliente', 'Feria S/1,800 + S/270 de vendedor(a) · evento S/160', 'Por evento'],
+    ['FaWhatsapp', 'Recompra y entregas', 'Mantener canales', 'S/0.50 por brownie (entregas agrupadas por zona)', 'Variable'],
+    ['FaInstagram', 'Contenido y mamás embajadoras', 'Mantener canales', 'S/700 de pauta + S/200 de embajadoras al mes', 'Fijo'],
+    ['FaMobileAlt', 'Mantener la app Andi', 'Mantener canales', 'S/250 al mes + S/0.04 por código impreso', 'Fijo y variable'],
+    ['FaUserTie', 'Administrar el negocio', 'Gestión', 'S/745 de administración + S/709 de la coordinadora al mes', 'Fijo'],
   ];
   const ah = (t) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.text2 }, fontSize: 13 } });
-  s.addTable([[ah('Actividad clave'), ah('Tipo'), ah('Lo que cuesta'), ah('Tipo de costo')],
-    ...act.map((a, i) => [{ text: a[1], options: { bold: true, fontSize: 14, fill: { color: 'FFFFFF' } } }, { text: a[2], options: { fontSize: 13, color: C.accent1, bold: true, fill: { color: 'FFFFFF' } } }, { text: a[3], options: { fontSize: 14, fill: { color: 'FFFFFF' } } }, { text: a[4], options: { fontSize: 13, fill: { color: i % 2 ? 'FFFFFF' : 'FBF3E8' }, color: C.accent2 } }])],
-    { x: 1.4, y: 1.7, w: 11.33, colW: [3.5, 1.9, 3.9, 2.03], rowH: 0.56, border: { type: 'solid', pt: 0.75, color: 'E8D8C4' }, color: C.text1, valign: 'middle', margin: 0.08 });
-  for (let i = 0; i < act.length; i++) await iconCircle(s, act[i][0], 0.72, 1.7 + 0.56 * (i + 1) + 0.06, 0.44, C.accent1, 'FFFFFF');
+  s.addTable([[ah('Actividad clave'), ah('Para qué'), ah('Lo que cuesta'), ah('Tipo de costo')],
+    ...act.map((a, i) => [{ text: a[1], options: { bold: true, fontSize: 13, fill: { color: 'FFFFFF' } } }, { text: a[2], options: { fontSize: 12, color: C.accent1, bold: true, fill: { color: 'FFFFFF' } } }, { text: a[3], options: { fontSize: 13, fill: { color: 'FFFFFF' } } }, { text: a[4], options: { fontSize: 12, fill: { color: i % 2 ? 'FFFFFF' : 'FBF3E8' }, color: C.accent2 } }])],
+    { x: 1.4, y: 1.62, w: 11.33, colW: [2.95, 1.75, 4.75, 1.88], rowH: 0.5, border: { type: 'solid', pt: 0.75, color: 'E8D8C4' }, color: C.text1, valign: 'middle', margin: 0.07 });
+  for (let i = 0; i < act.length; i++) await iconCircle(s, act[i][0], 0.76, 1.62 + 0.5 * (i + 1) + 0.05, 0.4, C.accent1, 'FFFFFF');
   card(s, 0.6, 6.32, 12.13, 0.55, { fill: C.text2, r: 0.27 });
-  T(s, '"Si una actividad parece gratis, estás ignorando un recurso oculto": por eso los stands y los pedidos tienen personal pagado.', { x: 0.9, y: 6.32, w: 11.6, h: 0.55, valign: 'middle', fontSize: 14, italic: true, color: C.background2 });
-  s.addNotes('Sesión 08: toda actividad genera un costo. Tipos de actividad: producción, resolución de problemas y plataforma. Producir cuesta S/0.605 de insumos (sangrecita de res en polvo, comprada lista a S/300 por kg) y S/0.45 de maquila por brownie; la calidad, S/625 por lote (microbiológico S/250 y hierro S/375, que se publica en la app); vender en stands, S/600 por punto al mes de espacio y S/90 por día de vendedor; las ferias, S/1,800 cada una; la recompra, S/0.80 de delivery por brownie y el coordinador en planilla (S/709 al mes); el contenido, S/900 al mes de marketing; y la app, S/250 al mes de servidor y mantenimiento más S/0.04 por código impreso.');
+  T(s, '"Si una actividad parece gratis, estás ignorando un recurso oculto": por eso los stands, los eventos y los pedidos tienen personal pagado.', { x: 0.9, y: 6.32, w: 11.6, h: 0.55, valign: 'middle', fontSize: 14, italic: true, color: C.background2 });
+  s.addNotes('Sesión 08: toda actividad genera un costo. Tipos de actividad de Osterwalder, en palabras simples: producción, atender al cliente (en el libro, "resolución de problemas"), mantener canales (en el libro, "plataforma") y gestión. Producir cuesta S/1.64 por brownie en el pack de 6, todo incluido: fabricar S/1.06 (S/0.605 de insumos con sangrecita de res en polvo a S/300 por kg, y S/0.45 que nos cobra la planta) más S/0.58 de bolsita, doypack, etiquetas con el código de la app, calidad, transporte, almacén y merma. La calidad cuesta S/625 por la producción de cada mes (microbiológico S/250 y hierro S/375, que se publica en la app); el hierro se mide todos los meses hasta junio y cada 2 meses desde julio, cuando la receta ya es estable: en promedio S/0.12 por brownie. Vender en stands: S/600 por punto al mes y S/90 por día de vendedor(a). Ferias pagadas: S/1,800 de stand más 3 días de vendedor(a) (S/270); cada evento sin costo, S/90 de vendedor(a) y S/70 de aporte al organizador. Recompra: S/0.50 por brownie con entregas agrupadas 2 días por semana por zona y recojo en el stand. Contenido: S/700 de pauta y material, y S/200 para premiar a las mamás embajadoras. App: S/250 al mes de servidor y mantenimiento, más S/0.04 por código impreso. Administración: S/745 (contador, facturación, web, teléfono, movilidad, GS1, banco y uniformes) y la coordinadora en planilla, S/709. El carné de sanidad es requisito al contratar, así que no lo paga la empresa.');
 
-  // =============== 19. COSTO DEL PACK ===============
-  s = content(S7, 'TRABAJO DE CAMPO 7 · ESTRUCTURA DE COSTOS', 'El pack de 6 cuesta S/9.98 y en el stand deja S/10.97');
-  s.addChart(pres.charts.BAR, [{ name: 'S/ por pack', labels: ['Merma', 'Calidad, transporte y almacén', 'Empaque y etiquetas', 'Insumos', 'Maquila'], values: [0.41, 1.41, 1.83, 3.63, 2.70] }],
-    Object.assign(chartText(), { x: 0.4, y: 1.6, w: 6.3, h: 5.1, barDir: 'bar', title: 'Costo de producción del pack de 6 (S/ sin IGV)', chartColors: [H.accent2], showValue: true, dataLabelPosition: 'outEnd', dataLabelFormatCode: '"S/"0.00', valAxisHidden: true, valGridLine: { style: 'none' }, showLegend: false, barGapWidthPct: 40, dataLabelFontSize: 13 }));
+  // =============== 19. COSTO POR PRESENTACIÓN ===============
+  s = content(S7, 'TRABAJO DE CAMPO 7 · ESTRUCTURA DE COSTOS', 'Cuánto cuesta y cuánto nos queda de cada presentación');
+  const presL = ['Unidad S/6.00', 'Caja de 3 S/16.50', 'Pack de 6 S/27.90', 'Pack de 12 S/51.90'];
   s.addChart(pres.charts.BAR, [
-    { name: 'Producción', labels: ['Pack de 6 en stand'], values: [9.98] },
-    { name: 'Degustación, pasarela y renta', labels: ['Pack de 6 en stand'], values: [2.69] },
-    { name: 'Contribución', labels: ['Pack de 6 en stand'], values: [10.97] },
-  ], Object.assign(chartText(), { x: 6.9, y: 1.6, w: 3.3, h: 5.1, barDir: 'col', barGrouping: 'stacked', title: 'A dónde va el precio', chartColors: [H.accent2, H.accent5, H.accent1], showValue: true, dataLabelPosition: 'ctr', dataLabelFormatCode: '"S/"0.00', dataLabelColor: 'FFFFFF', dataLabelFontBold: true, valAxisHidden: true, valGridLine: { style: 'none' }, showLegend: true, legendPos: 'b', legendFontSize: 11, barGapWidthPct: 30 }));
-  const cst = [['58 %', 'margen bruto del pack en el stand'], ['S/1.66', 'cuesta producir cada brownie'], ['0', 'plantas propias: pagamos por unidad hecha']];
+    { name: 'Producir', labels: presL, values: [1.72, 1.68, 1.64, 1.54] },
+    { name: 'Vender (degustación, pago con tarjeta y renta)', labels: presL, values: [0.50, 0.48, 0.45, 0.44] },
+    { name: 'Nos queda', labels: presL, values: [2.86, 2.50, 1.85, 1.69] },
+  ], Object.assign(chartText(), { x: 0.4, y: 1.55, w: 6.7, h: 5.2, barDir: 'col', barGrouping: 'stacked', title: 'De cada brownie vendido en el stand (S/ sin IGV)', chartColors: [H.accent2, H.accent5, H.accent1], showValue: true, dataLabelPosition: 'ctr', dataLabelFormatCode: '"S/"0.00', dataLabelColor: 'FFFFFF', dataLabelFontBold: true, dataLabelFontSize: 12, valAxisHidden: true, valGridLine: { style: 'none' }, showLegend: true, legendPos: 'b', legendFontSize: 11, barGapWidthPct: 45 }));
+  const cst = [['S/1.54 a 1.72', 'cuesta producir un brownie, sin planta propia'], ['58 a 66 %', 'margen bruto en el stand'], ['S/1.69 a 2.86', 'nos queda por brownie antes de pagar el stand']];
   cst.forEach((c, i) => {
-    const x = 10.4, y = 1.7 + i * 1.7, w = 2.33, h = 1.5;
+    const x = 7.3, y = 1.6 + i * 1.12, w = 2.55, h = 0.98;
     card(s, x, y, w, h);
-    T(s, [{ text: c[0], options: { bold: true, fontSize: 28, color: C.accent1, breakLine: true } }, { text: c[1], options: { fontSize: 12, color: C.text1 } }], { x: x + 0.2, y: y + 0.1, w: w - 0.35, h: h - 0.2, valign: 'middle' });
+    T(s, [{ text: c[0], options: { bold: true, fontSize: 19, color: C.accent1, breakLine: true } }, { text: c[1], options: { fontSize: 11, color: C.text1 } }], { x: x + 0.18, y, w: w - 0.3, h, valign: 'middle' });
   });
-  s.addNotes('Hoja Costeo del Excel, opción B (cada brownie en bolsita, dentro del doypack). Precio en stand S/27.90 con IGV = S/23.64 sin IGV. Producción S/9.98: insumos S/3.63 (S/0.605 por brownie, con sangrecita de res en polvo liofilizada; la planta solo la hidrata), maquila S/2.70 (S/0.45 por brownie), empaque y etiquetas con el código de la app S/1.83, calidad con hierro medido por lote, transporte y almacén S/1.41 y merma S/0.41. Degustación (1 brownie por cada 10 vendidos), movilidad, pasarela de 3 % y renta de 1 %: S/2.69. Contribución S/10.97 por pack, antes del espacio y del vendedor.');
+  // cascada: del precio a la ganancia final por brownie (promedio del año 1)
+  card(s, 10.05, 1.6, 2.68, 5.15, { fill: C.text2 });
+  T(s, 'DE S/4.68 A LA GANANCIA', { x: 10.25, y: 1.72, w: 2.4, h: 0.3, fontSize: 11, bold: true, color: C.accent3, charSpacing: 1 });
+  T(s, 'Promedio por brownie, año 1', { x: 10.25, y: 2.0, w: 2.4, h: 0.28, fontSize: 10, color: C.accent5 });
+  const cas = [['Precio con IGV', 4.68, 0], ['IGV', -0.71, 1], ['Producir y vender', -2.10, 1], ['Stands, ferias y eventos', -0.98, 1], ['Gastos fijos', -0.63, 1], ['Intereses e impuesto', -0.06, 1], ['Ganancia final', 0.20, 2]];
+  const sc = 1.68 / 4.68; let acc = 0;
+  cas.forEach((c, i) => {
+    const y = 2.42 + i * 0.6;
+    T(s, c[0], { x: 10.25, y, w: 2.4, h: 0.24, fontSize: 10, color: C.background2, bold: c[2] !== 1 });
+    let x0, w;
+    if (c[2] === 0) { x0 = 0; w = c[1]; acc = c[1]; }
+    else if (c[2] === 1) { acc += c[1]; x0 = acc; w = -c[1]; }
+    else { x0 = 0; w = c[1]; }
+    const fillc = c[2] === 0 ? C.accent5 : (c[2] === 2 ? C.accent3 : C.accent1);
+    s.addShape(pres.shapes.RECTANGLE, { x: 10.25 + x0 * sc, y: y + 0.26, w: Math.max(0.03, w * sc), h: 0.22, fill: { color: fillc }, line: { color: fillc, width: 0 } });
+    T(s, (c[1] < 0 ? '−S/' : 'S/') + Math.abs(c[1]).toFixed(2), { x: 11.98, y: y + 0.24, w: 0.66, h: 0.26, fontSize: 10.5, bold: true, align: 'right', valign: 'middle', color: c[2] === 2 ? C.accent3 : C.background1 });
+  });
+  card(s, 7.3, 4.98, 2.55, 1.77, { fill: C.accent1 });
+  T(s, [{ text: 'S/0.20 → S/0.40', options: { bold: true, fontSize: 19, color: C.background1, breakLine: true } }, { text: 'ganancia final por brownie en el año 1 y en el año 2, con 3 puntos todo el año', options: { fontSize: 11, color: C.background1 } }], { x: 7.48, y: 4.98, w: 2.25, h: 1.77, valign: 'middle' });
+  s.addNotes('Hoja Costeo del Excel v7, por brownie y sin IGV (el IGV es del Estado, no nuestro). Producir: S/1.72 la unidad suelta (lleva su etiqueta con el código de la app), S/1.68 en la caja de 3, S/1.64 en el pack de 6 (opción B, cada brownie en su bolsita) y S/1.54 en el pack de 12. Vender: un brownie de degustación por cada 10 vendidos, movilidad, el 3 % del pago con Yape o tarjeta y el 1 % de pago a cuenta de renta. Lo que queda (S/2.86 la unidad, S/2.50 la caja de 3, S/1.85 el pack de 6 y S/1.69 el pack de 12) paga el espacio, al vendedor y los gastos fijos. Margen bruto en el stand: unidad 66 %, caja de 3 64 %, pack de 6 58 % y pack de 12 58 %. Cascada del año 1 (promedio de todos los canales): de S/4.68 que paga el cliente, S/0.71 es IGV, S/2.10 producir y vender, S/0.98 stands, ferias y eventos, S/0.63 gastos fijos y S/0.06 intereses e impuesto: quedan S/0.20 de ganancia final por brownie (utilidad neta de S/10,379 / 52,331 brownies). En el año 2 los gastos fijos se reparten entre más brownies y la ganancia final sube a S/0.40 (S/28,447 / 70,452). Nota: no hay planta propia, se paga por brownie hecho.');
 
   // =============== 19b. DOCUMENTOS E INVERSIÓN ===============
-  s = content(S7, 'TRABAJO DE CAMPO 7 · INVERSIÓN INICIAL', 'Todos los documentos para vender, pagados desde el inicio');
-  const docs = [['Constitución de la S.A.C. (notaría del CDE)', 'S/150'], ['RUC, REMYPE y libro de reclamaciones', 'S/0'], ['Marca en INDECOPI, clase 30', 'S/401'], ['Revisión legal del contrato de maquila', 'S/400'], ['Análisis para el registro sanitario (3 sabores)', 'S/1,800'], ['Perfil nutricional y hierro', 'S/1,125'], ['Estudio de vida útil', 'S/1,050'], ['Etiqueta (rotulado y Ley 30021)', 'S/650'], ['Registro sanitario DIGESA (tasa)', 'S/0'], ['Carnés de sanidad y póliza para stands', 'S/675']];
+  s = content(S7, 'TRABAJO DE CAMPO 7 · INVERSIÓN INICIAL', 'Lo que necesitamos para empezar: S/40,876, con todos los permisos');
+  const docs = [['Crear la empresa (S.A.C.) ante notario', 'S/150'], ['RUC, registro de microempresa y libro de reclamaciones', 'S/0'], ['Marca registrada en INDECOPI (alimentos)', 'S/401'], ['Revisión legal del contrato con la planta', 'S/400'], ['Análisis para el registro sanitario (3 sabores)', 'S/1,800'], ['Perfil nutricional y hierro', 'S/1,125'], ['Estudio de cuánto dura el producto', 'S/1,050'], ['Etiqueta (rotulado y Ley 30021)', 'S/650'], ['Registro sanitario de DIGESA (tasa)', 'S/0'], ['Seguro para los stands (1 año)', 'S/600']];
   const dh = (t, al) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.text2 }, fontSize: 13, align: al } });
   s.addTable([[dh('Documento o permiso', 'left'), dh('Costo', 'right')], ...docs.map(d => [{ text: d[0], options: { fontSize: 13, fill: { color: 'FFFFFF' } } }, { text: d[1], options: { fontSize: 13, align: 'right', fill: { color: 'FFFFFF' } } }]),
-    [{ text: 'Total documentos y permisos', options: { bold: true, fontSize: 14, fill: { color: 'F6DCD5' } } }, { text: 'S/6,251', options: { bold: true, fontSize: 14, align: 'right', color: C.accent1, fill: { color: 'F6DCD5' } } }]],
+    [{ text: 'Total documentos y permisos', options: { bold: true, fontSize: 14, fill: { color: 'F6DCD5' } } }, { text: 'S/6,176', options: { bold: true, fontSize: 14, align: 'right', color: C.accent1, fill: { color: 'F6DCD5' } } }]],
     { x: 0.6, y: 1.65, w: 6.4, colW: [5.2, 1.2], rowH: 0.4, border: { type: 'solid', pt: 0.75, color: 'E8D8C4' }, color: C.text1, valign: 'middle', margin: 0.06 });
-  s.addChart(pres.charts.DOUGHNUT, [{ name: 'Inversión', labels: ['Arranque', 'Equipos y 1 carrito', 'Documentos y permisos', 'Desarrollo del producto', 'Imprevistos', 'Marca y app'], values: [19155, 4838, 6251, 3741, 4123, 7250] }],
-    Object.assign(chartText(), { x: 7.2, y: 1.55, w: 5.7, h: 4.05, title: 'Inversión inicial: S/45,358', holeSize: 50, chartColors: [H.accent2, H.accent3, H.accent1, H.accent4, H.accent5, H.accent6], showPercent: true, showValue: false, showLegend: true, legendPos: 'b', legendFontSize: 10, dataLabelColor: 'FFFFFF', dataLabelFontSize: 11, dataLabelFontBold: true }));
+  s.addChart(pres.charts.DOUGHNUT, [{ name: 'Inversión', labels: ['Arranque', 'Equipos y 1 carrito', 'Documentos y permisos', 'Desarrollo del producto', 'Imprevistos', 'Marca y app'], values: [19155, 4838, 6176, 3741, 3716, 3250] }],
+    Object.assign(chartText(), { x: 7.2, y: 1.55, w: 5.7, h: 4.05, title: 'Inversión inicial: S/40,876', holeSize: 50, chartColors: [H.accent2, H.accent3, H.accent1, H.accent4, H.accent5, H.accent6], showPercent: true, showValue: false, showLegend: true, legendPos: 'b', legendFontSize: 10, dataLabelColor: 'FFFFFF', dataLabelFontSize: 11, dataLabelFontBold: true }));
   card(s, 7.4, 5.7, 5.33, 1.0, { fill: C.text2 });
-  T(s, [{ text: 'Socios S/25,000 · préstamo S/20,500', options: { bold: true, fontSize: 16, color: C.accent3, breakLine: true } }, { text: '24 cuotas de S/1,150 (TEA 35 %)', options: { fontSize: 13, color: C.background1 } }], { x: 7.65, y: 5.7, w: 4.9, h: 1.0, valign: 'middle' });
-  s.addNotes('Hoja Inversion del Excel. Los documentos se consideran listos desde el primer día de ventas (enero de 2027, mes 1): su costo se paga una sola vez dentro de la inversión inicial y no limita la proyección. La póliza de responsabilidad civil para stands cuesta S/600 al año; la tasa del registro sanitario es S/0 con el TUPA 2026. El arranque incluye empaque (S/3,150, con los códigos de la app), stock de enero y febrero (S/4,801, al costo con sangrecita en polvo), marketing de lanzamiento (S/3,204) y capital de trabajo (S/8,000). Marca y app suman S/7,250: identidad S/800, fotos S/300, web y dominio S/150 y la app Andi, Misión Hierro S/6,000 (documento 09).');
+  T(s, [{ text: 'Socios S/25,000 · préstamo S/16,000', options: { bold: true, fontSize: 16, color: C.accent3, breakLine: true } }, { text: '24 cuotas de S/898 (interés de 35 % al año) · línea de crédito de respaldo S/3,000', options: { fontSize: 12, color: C.background1 } }], { x: 7.65, y: 5.7, w: 4.9, h: 1.0, valign: 'middle' });
+  s.addNotes('Hoja Inversion del Excel v7. Los documentos se consideran listos desde el primer día de ventas (enero de 2027, mes 1): su costo se paga una sola vez dentro de la inversión inicial y no limita la proyección. Siglas en palabras simples: S.A.C. es el tipo de empresa (sociedad anónima cerrada), que se crea en un Centro de Desarrollo Empresarial (CDE) de PRODUCE con notario; REMYPE es el registro de micro y pequeña empresa; la marca se registra en la clase 30 de INDECOPI, la de alimentos como pasteles y galletas; el seguro (póliza de responsabilidad civil) lo piden algunos malls y cuesta S/600 al año; la tasa del registro sanitario es S/0 con el TUPA 2026. El carné de sanidad ya no lo paga la empresa: es requisito para contratar a vendedores y coordinadora (ahorro de S/75; hay que verificar que el carné de su distrito valga en cada mall). El arranque incluye empaque (S/3,150, con los códigos de la app), stock de enero y febrero (S/4,801), marketing de lanzamiento (S/3,204) y capital de trabajo (S/8,000). Marca y app suman S/3,250: identidad S/800, fotos S/300, web y dominio S/150 y S/2,000 para terminar y publicar la app Andi, Misión Hierro, porque el prototipo ya funciona (documento 09). Financiamiento: S/25,000 de los 5 socios y un préstamo de S/16,000 a 24 cuotas de S/898 (tasa efectiva anual, TEA, de 35 %). Además se abre una línea de crédito de S/3,000 que solo se usa si las ventas bajan.');
 
   // =============== 20. FIJOS Y EQUILIBRIO ===============
-  s = content(S7, 'TRABAJO DE CAMPO 7 · ESTRUCTURA DE COSTOS', 'Con 3,035 brownies al mes cubrimos todos los costos');
-  s.addChart(pres.charts.DOUGHNUT, [{ name: 'Costos', labels: ['Vendedores de stand', 'Espacio de stands', 'Marketing', 'Administración', 'Coordinador', 'Ferias', 'App Andi', 'Depreciación'], values: [1973, 1400, 900, 760, 709, 450, 250, 134] }],
-    Object.assign(chartText(), { x: 0.4, y: 1.6, w: 4.8, h: 5.1, title: 'Costos de operar al mes (promedio): S/6,576', holeSize: 50, chartColors: [H.accent1, H.accent6, H.accent2, H.accent3, H.accent5, H.accent4, '4F7CAC', 'B9A089'], showValue: true, showPercent: false, dataLabelFormatCode: '"S/"#,##0', showLegend: true, legendPos: 'b', legendFontSize: 10, dataLabelColor: 'FFFFFF', dataLabelFontSize: 10, dataLabelFontBold: true }));
-  const und = [870, 2830, 3734, 3720, 4059, 4038, 3824, 5208, 5603, 6011, 5861, 7028];
+  s = content(S7, 'TRABAJO DE CAMPO 7 · PUNTO DE EQUILIBRIO', 'Cuántos brownies hay que vender cada mes para no perder');
+  s.addChart(pres.charts.DOUGHNUT, [{ name: 'Costos', labels: ['Vendedores de stand', 'Espacio de stands', 'Administración y app', 'Marketing y embajadoras', 'Ferias y eventos', 'Coordinadora', 'Depreciación'], values: [1973, 1400, 995, 900, 878, 709, 134] }],
+    Object.assign(chartText(), { x: 0.4, y: 1.55, w: 4.8, h: 4.75, title: 'Lo que cuesta operar al mes, sin contar la fabricación: S/6,989', titleFontSize: 13, holeSize: 50, chartColors: [H.accent1, H.accent6, H.accent3, H.accent2, H.accent4, H.accent5, 'B9A089'], showValue: true, showPercent: false, dataLabelFormatCode: '"S/"#,##0', showLegend: true, legendPos: 'b', legendFontSize: 10, dataLabelColor: 'FFFFFF', dataLabelFontSize: 10, dataLabelFontBold: true }));
+  const und = [870, 2830, 3734, 4420, 4304, 4038, 3824, 5208, 5603, 6011, 5861, 5628];
+  const beq = [2119, 3495, 3106, 4232, 3499, 3516, 3378, 4204, 4215, 4360, 4318, 4188];
   s.addChart([
     { type: pres.charts.BAR, data: [{ name: 'Brownies vendidos', labels: MESES3, values: und }], options: { chartColors: [H.accent2], barGapWidthPct: 45 } },
-    { type: pres.charts.LINE, data: [{ name: 'Punto de equilibrio (3,035)', labels: MESES3, values: und.map(() => 3035) }], options: { chartColors: [H.accent1], lineSize: 3, lineDataSymbol: 'none' } },
-  ], Object.assign(chartText(), { x: 5.4, y: 1.6, w: 7.5, h: 5.1, title: 'Brownies al mes frente al punto de equilibrio (2027)', showLegend: true, legendPos: 'b', valAxisLabelFormatCode: '#,##0' }));
-  s.addNotes('Tipos de costo (sesión 08): variables (insumos, maquila, empaque, delivery, pasarela), fijos (administración S/760, app S/250, coordinador en planilla S/709, marketing S/900 y depreciación S/134: S/2,753 al mes) y de escala (espacio de S/600 y vendedor de S/90 por día por cada punto de venta que se abre). Stands y ferias del año: espacio S/16,800, vendedores S/23,670 y 3 ferias S/5,400. Cada brownie deja S/0.91 después de stands y ferias; el equilibrio es de 3,035 brownies al mes (506 packs de 6). Enero (un punto) y febrero quedan por debajo.');
+    { type: pres.charts.LINE, data: [{ name: 'Brownies que necesitamos para no perder', labels: MESES3, values: beq }], options: { chartColors: [H.accent1], lineSize: 3, lineDataSymbol: 'circle', lineDataSymbolSize: 6 } },
+  ], Object.assign(chartText(), { x: 5.4, y: 1.55, w: 7.5, h: 4.75, title: 'Brownies al mes frente a los que necesitamos (2027)', showLegend: true, legendPos: 'b', valAxisLabelFormatCode: '#,##0' }));
+  const pts = [['1 punto', '≈ 2,100 al mes', 'enero'], ['2 puntos', '≈ 3,100 a 3,500', 'febrero a julio'], ['3 puntos', '≈ 4,200 a 4,400', 'agosto a diciembre']];
+  pts.forEach((p, i) => {
+    const w = 3.95, x = 0.6 + i * (w + 0.14);
+    card(s, x, 6.38, w, 0.52, { r: 0.1, fill: i === 2 ? C.text2 : C.background1 });
+    T(s, [{ text: p[0] + ': ', options: { bold: true, color: i === 2 ? C.accent3 : C.accent1 } }, { text: p[1] + ' ', options: { bold: true } }, { text: '(' + p[2] + ')', options: { fontSize: 11 } }], { x: x + 0.2, y: 6.38, w: w - 0.3, h: 0.52, valign: 'middle', fontSize: 13, color: i === 2 ? C.background1 : C.text1 });
+  });
+  s.addNotes('Punto de equilibrio: cuántos brownies hay que vender en el mes para que lo que dejan cubra todos los costos de ese mes. Cada punto de venta que se abre sube la valla porque suma espacio (S/600) y vendedor (S/90 por día). Por eso el equilibrio sube en escalones: con 1 punto (enero) hacen falta unos 2,100 brownies; con 2 puntos, de 3,100 a 3,500 (abril llega a 4,232 por la feria del Día del Niño); con 3 puntos, de 4,200 a 4,400. Solo enero y febrero quedan por debajo. Costos de operar al mes, sin contar la fabricación (promedio de 2027, Excel v7): vendedores S/1,973, espacio S/1,400, administración y app S/995 (S/745 + S/250), marketing S/700 y embajadoras S/200, ferias y eventos S/878, coordinadora S/709 y depreciación S/134. El promedio anual que da el Excel es 3,096 brownies al mes (516 packs de 6), pero la línea mes a mes es la que se usa para decidir.');
 
   // =============== 21. RESULTADO ===============
-  s = content(S7, 'TRABAJO DE CAMPO 7 · RESULTADO DEL AÑO 1', 'Solo enero y febrero cierran en rojo');
-  s.addChart(pres.charts.BAR, [{ name: 'Resultado operativo', labels: MESES3, values: [-2456, -1004, 1545, 895, 1508, 1090, 905, 1947, 2553, 2843, 2462, 2565] }],
-    Object.assign(chartText(), { x: 0.4, y: 1.6, w: 8.5, h: 4.95, barDir: 'col', title: 'Resultado operativo mensual de 2027 (S/)', chartColors: [H.accent4], invertedColors: [H.accent1], showValue: true, dataLabelPosition: 'outEnd', dataLabelFormatCode: '#,##0', valAxisLabelFormatCode: '#,##0', showLegend: false, barGapWidthPct: 40, dataLabelFontSize: 11 }));
-  T(s, 'Con todo el personal pagado y la app incluida. La caja nunca baja de S/2,650, ya con la cuota del préstamo.', { x: 0.6, y: 6.58, w: 8.3, h: 0.3, fontSize: 11, italic: true, color: C.accent2 });
-  const kpi = [['S/246,531', 'ventas con IGV'], ['S/14,853', 'resultado operativo (7.1 %)'], ['S/10,676', 'utilidad neta, tras intereses e impuesto'], ['Mes 24', 'recuperamos los S/45,358 invertidos']];
+  s = content(S7, 'TRABAJO DE CAMPO 7 · RESULTADO DEL AÑO 1', 'Desde marzo, todos los meses dan ganancia');
+  const res1 = [-2539, -1513, 1253, 368, 1463, 920, 820, 1818, 2506, 2880, 2662, 2784];
+  s.addChart(pres.charts.BAR, [{ name: 'Resultado operativo', labels: MESES3, values: res1 }],
+    Object.assign(chartText(), { x: 0.4, y: 1.55, w: 8.5, h: 4.75, barDir: 'col', title: 'Ganancia o pérdida de cada mes de 2027 (S/, antes de intereses e impuesto)', chartColors: [H.accent4], invertedColors: [H.accent1], showValue: true, dataLabelPosition: 'outEnd', dataLabelFormatCode: '#,##0', valAxisLabelFormatCode: '#,##0', showLegend: false, barGapWidthPct: 40, dataLabelFontSize: 11 }));
+  card(s, 0.6, 6.38, 8.3, 0.52, { r: 0.1, fill: C.background2, noShadow: true });
+  T(s, [{ text: 'Respaldo: ', options: { bold: true, color: C.accent1 } }, { text: 'la caja más baja es S/2,545 (febrero). Si vendemos 20 % menos, llega a −S/2,188 y la cubre la línea de crédito de S/3,000.' }], { x: 0.8, y: 6.38, w: 8.0, h: 0.52, valign: 'middle', fontSize: 12, color: C.text1 });
+  const kpi = [['S/244,728', 'ventas con IGV'], ['S/13,423', 'resultado operativo (6.5 % de las ventas)'], ['S/10,379', 'utilidad neta: 42 % de lo que pusieron los socios'], ['Año 2: S/28,447', 'de utilidad neta, con 3 puntos todo el año']];
   kpi.forEach((k, i) => {
-    const x = 9.1, y = 1.7 + i * 1.27, w = 3.63, h = 1.1;
-    card(s, x, y, w, h, { fill: i === 2 ? C.accent1 : C.background1 });
-    T(s, [{ text: k[0], options: { bold: true, fontSize: 24, color: i === 2 ? C.background1 : C.accent1, breakLine: true } }, { text: k[1], options: { fontSize: 13, color: i === 2 ? C.background1 : C.accent2 } }], { x: x + 0.25, y, w: w - 0.4, h, valign: 'middle' });
+    const x = 9.1, y = 1.6 + i * 1.33, w = 3.63, h = 1.18;
+    card(s, x, y, w, h, { fill: i === 2 ? C.accent1 : (i === 3 ? C.text2 : C.background1) });
+    T(s, [{ text: k[0], options: { bold: true, fontSize: 22, color: i === 2 ? C.background1 : (i === 3 ? C.accent3 : C.accent1), breakLine: true } }, { text: k[1], options: { fontSize: 12, color: i >= 2 ? C.background1 : C.accent2 } }], { x: x + 0.25, y, w: w - 0.4, h, valign: 'middle' });
   });
-  s.addNotes('Resultado operativo mensual de la opción B (hoja Mensual del Excel), con vendedores en todos los stands y coordinador en planilla. Enero pierde S/2,456 (un solo punto y vacaciones) y febrero S/1,004 (feria de campaña escolar); desde marzo todos los meses ganan. Del resultado operativo (S/14,853) a la utilidad neta: más S/2,089 de pagos a cuenta ya restados, menos S/5,080 de intereses del préstamo y menos S/1,186 de impuesto a la renta (RMT, 10 %): S/10,676. La inversión de S/45,358 se recupera en el mes 24 (diciembre de 2028). Sensibilidad: si las ventas caen 20 %, la caja se vuelve negativa y haría falta una línea de crédito; si suben 20 %, se recupera en el mes 17.');
+  s.addNotes('Resultado operativo mensual de la opción B (hoja Mensual del Excel v7), con vendedores pagados en todos los stands y eventos y coordinadora en planilla. Enero pierde S/2,539 (un solo punto y vacaciones) y febrero S/1,513 (abre el segundo punto y se paga la feria de campaña escolar); desde marzo todos los meses ganan, aunque abril queda justo (S/368) por la feria del Día del Niño. Del resultado operativo (S/13,423) a la utilidad neta: más S/2,074 de pagos a cuenta ya restados, menos S/3,965 de intereses del préstamo y menos S/1,153 de impuesto a la renta (Régimen MYPE Tributario, 10 %): S/10,379. Sobre los S/25,000 de los socios, eso es 42 % en el primer año. La inversión de S/40,876 se recupera en el mes 23 (noviembre de 2028). Riesgos: si las ventas por punto bajan 20 %, el año 1 queda casi en cero (S/608) y la caja baja a −S/2,188: la cubre la línea de crédito de S/3,000. Si suben 20 %, el resultado llega a S/26,237 y se recupera en el mes 17. Si el espacio cuesta S/1,000 por punto, el resultado baja a S/2,223. El año 2 tiene su propia diapositiva.');
+
+  // =============== 21b. AÑO 2 ===============
+  s = content(S7, 'TRABAJO DE CAMPO 7 · RESULTADO DEL AÑO 2', 'Año 2: con 3 puntos todo el año, la utilidad casi se triplica');
+  const res2 = [791, -40, 2779, 2672, 3317, 3023, 2668, 3082, 3023, 3071, 3071, 3001];
+  s.addChart(pres.charts.BAR, [
+    { name: '2027 (año 1)', labels: MESES3, values: res1 },
+    { name: '2028 (año 2)', labels: MESES3, values: res2 },
+  ], Object.assign(chartText(), { x: 0.4, y: 1.55, w: 8.5, h: 4.75, barDir: 'col', title: 'Ganancia o pérdida de cada mes (S/, antes de intereses e impuesto)', chartColors: [H.accent5, H.accent1], showValue: false, valAxisLabelFormatCode: '#,##0', showLegend: true, legendPos: 'b', barGapWidthPct: 35 }));
+  const sup2 = ['3 puntos todo el año', '80 a 90 brownies por día', 'quioscos todo el año escolar', 'mismos precios y costos'];
+  sup2.forEach((t, i) => {
+    const w = 1.98, x = 0.6 + i * (w + 0.13);
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y: 6.42, w, h: 0.45, rectRadius: 0.22, fill: { color: C.background1 }, line: { color: C.accent5, width: 1 } });
+    T(s, t, { x, y: 6.42, w, h: 0.45, fontSize: 11, bold: true, align: 'center', valign: 'middle', color: C.text2 });
+  });
+  const k2 = [['S/322,329', 'ventas con IGV (+32 %)'], ['S/30,459', 'resultado operativo (11.2 % de las ventas)'], ['S/28,447', 'utilidad neta: 2.7 veces la del año 1'], ['Mes 23', 'recuperamos los S/40,876 (noviembre de 2028)']];
+  k2.forEach((k, i) => {
+    const x = 9.1, y = 1.6 + i * 1.33, w = 3.63, h = 1.18;
+    card(s, x, y, w, h, { fill: i === 2 ? C.accent1 : C.background1 });
+    T(s, [{ text: k[0], options: { bold: true, fontSize: 22, color: i === 2 ? C.background1 : C.accent1, breakLine: true } }, { text: k[1], options: { fontSize: 12, color: i === 2 ? C.background1 : C.accent2 } }], { x: x + 0.25, y, w: w - 0.4, h, valign: 'middle' });
+  });
+  s.addNotes('Hoja Anio2 del Excel v7 (enero a diciembre de 2028). Supuestos: los 3 puntos de venta abren todo el año con 80 brownies por día en enero y febrero y 90 el resto (el ritmo con el que cerró 2027); los quioscos escolares venden todo el año escolar; las tiendas naturistas pasan de 480 a 660 brownies al mes; se repiten las ferias de campaña escolar y del Día del Niño; los precios, costos y la mezcla de presentaciones son los mismos de 2027. Es un escenario prudente: no cuenta el cuarto punto ni la maquila más barata, que solo se activan si se cumplen sus metas (ver el cierre). Resultado: 70,452 brownies, S/322,329 de ventas con IGV, S/30,459 de resultado operativo y S/28,447 de utilidad neta (los intereses bajan a S/1,582 porque el préstamo termina en diciembre de 2028). La caja cierra 2028 en S/33,684 con el préstamo pagado. Rentabilidad para los socios: 114 % de su aporte en el año 2. Febrero queda casi en cero (−S/40) por la feria de campaña escolar.');
 
   // =============== 22. CANVAS ===============
-  s = content(S7, 'TRABAJO DE CAMPO 7 · MODELO CANVAS', 'El modelo de negocio de AndiBite en una página');
-  const cw5 = (12.13 - 4 * 0.08) / 5, top = 1.55, th = 3.8, half = (th - 0.08) / 2;
+  s = content(S7, 'TRABAJO DE CAMPO 7 · MODELO CANVAS', 'El negocio en una página: por qué AndiBite funciona');
+  const cw5 = (12.13 - 4 * 0.08) / 5, top = 1.52, th = 3.62, half = (th - 0.08) / 2, bh = 1.22;
   const colX = (i) => 0.6 + i * (cw5 + 0.08);
   const blocks = [
-    ['FaHandshake', 'Socios clave', colX(0), top, cw5, th, ['Planta maquiladora con HACCP', 'Malls, Wong y Vivanda', 'Laboratorio INACAL', 'Sangrecita en polvo con RS', 'Desarrollador y Google Cloud', 'Ferias, colegios y naturistas']],
-    ['FaCogs', 'Actividades clave', colX(1), top, cw5, half, ['Producir con la planta', 'Hierro medido por lote', 'Venta en stands y ferias', 'App y recompra']],
-    ['FaKey', 'Recursos clave', colX(1), top + half + 0.08, cw5, half, ['Fórmula de 3 sabores', 'Marca y registro sanitario', 'App Andi y base de clientes', 'Equipo pagado y S/45,358']],
-    ['FaGift', 'Propuesta de valor', colX(2), top, cw5, th, ['Mini brownie de 20 g con sangrecita', 'Hierro medido por lote', 'App para padres y niños', '3 sabores en un pack', 'Se prueba en el stand']],
-    ['FaHeart', 'Relación con clientes', colX(3), top, cw5, half, ['Degustación en el stand', 'App: lote, loncheras y aviso', 'Asistencia por WhatsApp', 'Mamá embajadora']],
-    ['FaTruck', 'Canales', colX(3), top + half + 0.08, cw5, half, ['Stands y carrito 43 %', 'WhatsApp 17 %', 'Ferias 15 %', 'Colegios y naturistas 24 %']],
-    ['FaUsers', 'Segmentos', colX(4), top, cw5, th, ['Padres A/B de 32 a 45 años', 'Hijos de 4 a 11 en colegio privado', '46,000 hogares en Lima Top y Moderna', 'B2B: quioscos y naturistas']],
-    ['FaCalculator', 'Estructura de costos', colX(0), top + th + 0.08, cw5 * 2.5 + 0.08 * 2, 1.42, ['Producción S/1.66 por brownie · fijos S/2,753 al mes, app incluida', 'Stands y ferias S/45,870 al año · equilibrio 3,035 brownies al mes']],
-    ['FaCoins', 'Fuentes de ingreso', colX(0) + cw5 * 2.5 + 0.08 * 3, top + th + 0.08, 12.13 - (cw5 * 2.5 + 0.08 * 3), 1.42, ['Stand: unidad S/6.00 · pack de 6 S/27.90 · WhatsApp S/26.90', 'Año 1: S/246,531 con IGV · utilidad neta S/10,676']],
+    ['FaHandshake', 'Socios clave', colX(0), top, cw5, th, ['Planta con certificación que fabrica por nosotros', 'Laboratorio que mide el hierro de cada lote', 'Proveedor de sangrecita en polvo con registro sanitario', 'Malls, Wong y Vivanda', 'Pediatras y nutricionista que nos recomiendan']],
+    ['FaCogs', 'Actividades clave', colX(1), top, cw5, half, ['Fabricar sin planta propia', 'Medir y publicar el hierro', 'Vender en stands y ferias', 'Recompra con la app']],
+    ['FaKey', 'Recursos clave', colX(1), top + half + 0.08, cw5, half, ['Receta que esconde la sangrecita', 'Marca y registro sanitario', 'App y datos de cada familia', 'Equipo de venta pagado']],
+    ['FaGift', 'Propuesta de valor', colX(2), top, cw5, th, ['El snack de lonchera con hierro que el niño sí se come', 'Hierro medido en cada lote, visible en la app', 'Sabor a brownie, sin octógono', 'App para padres y juego para niños', 'Se prueba gratis antes de comprar']],
+    ['FaHeart', 'Relación con clientes', colX(3), top, cw5, half, ['Degustación cara a cara', 'La app avisa cuándo recomprar', 'Mamás embajadoras por salón']],
+    ['FaTruck', 'Canales', colX(3), top + half + 0.08, cw5, half, ['Stands y carrito 43 %', 'WhatsApp 18 % · ferias 14 %', 'Colegios y naturistas 25 %']],
+    ['FaUsers', 'Segmentos', colX(4), top, cw5, th, ['Padres A/B de 32 a 45 años que leen etiquetas', 'Hijos de 4 a 11 en colegio privado', '46,000 hogares en Lima Top y Moderna', 'Colegios y tiendas naturistas']],
+    ['FaCalculator', 'Estructura de costos', colX(0), top + th + 0.08, cw5 * 2.5 + 0.08 * 2, bh, ['Producir S/1.64 por brownie, sin comprar planta', 'Stands, ferias y vendedores S/51,010 al año · fijos S/2,738 al mes', 'Equilibrio: 2,100 a 4,400 brownies al mes, según los puntos abiertos']],
+    ['FaCoins', 'Fuentes de ingreso', colX(0) + cw5 * 2.5 + 0.08 * 3, top + th + 0.08, 12.13 - (cw5 * 2.5 + 0.08 * 3), bh, ['Unidad S/6.00 · caja de 3 S/16.50 · pack de 6 S/27.90', 'Año 1: S/244,728 de ventas y S/10,379 de utilidad neta', 'Año 2: S/322,329 de ventas y S/28,447 de utilidad neta']],
   ];
   for (const b of blocks) {
     const [ic, name, x, y, w, h, items] = b;
     const vp = name === 'Propuesta de valor';
     card(s, x, y, w, h, { r: 0.08, fill: vp ? C.accent1 : C.background1 });
-    s.addImage({ data: await icon(ic, vp ? 'FFFFFF' : H.accent1), x: x + 0.12, y: y + 0.12, w: 0.28, h: 0.28 });
-    T(s, name.toUpperCase(), { x: x + 0.48, y: y + 0.1, w: w - 0.55, h: 0.32, valign: 'middle', fontSize: 11, bold: true, color: vp ? C.background1 : C.text2, charSpacing: 1 });
-    T(s, items.map((t, j) => ({ text: t, options: { bullet: { indent: 10 }, breakLine: j < items.length - 1 } })), { x: x + 0.12, y: y + 0.5, w: w - 0.22, h: h - 0.58, fontSize: 13, paraSpaceAfter: 4, color: vp ? C.background1 : C.text1 });
+    s.addImage({ data: await icon(ic, vp ? 'FFFFFF' : H.accent1), x: x + 0.12, y: y + 0.11, w: 0.26, h: 0.26 });
+    T(s, name.toUpperCase(), { x: x + 0.46, y: y + 0.08, w: w - 0.52, h: 0.32, valign: 'middle', fontSize: 11, bold: true, color: vp ? C.background1 : C.text2, charSpacing: 1 });
+    T(s, items.map((t, j) => ({ text: t, options: { bullet: { indent: 9 }, breakLine: j < items.length - 1, bold: vp && j === 0 } })), { x: x + 0.1, y: y + 0.44, w: w - 0.18, h: h - 0.5, fontSize: name.startsWith('Estructura') || name.startsWith('Fuentes') ? 11.5 : 12, paraSpaceAfter: 3, color: vp ? C.background1 : C.text1 });
   }
-  T(s, '"Hierro medido. Sabor a brownie."', { x: colX(2) + 0.12, y: top + th - 0.65, w: cw5 - 0.24, h: 0.55, fontSize: 13, bold: true, italic: true, color: C.accent3 });
-  s.addNotes('Modelo Canvas con los nueve bloques de Osterwalder y Pigneur, actualizado con la venta física como canal principal, los documentos dentro de la inversión inicial, el costeo con maquila y sangrecita de res en polvo, y la app Andi, Misión Hierro como innovación tecnológica (propuesta de valor, relación, recursos, actividades, socios y costos). El detalle de cada bloque está en las diapositivas anteriores y en el documento 04-reformulacion/07.');
+  T(s, '"Hierro medido. Sabor a brownie."', { x: colX(2) + 0.12, y: top + th - 0.62, w: cw5 - 0.24, h: 0.5, fontSize: 13, bold: true, italic: true, color: C.accent3 });
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 6.48, w: 12.13, h: 0.46, rectRadius: 0.23, fill: { color: C.text2 }, line: { color: C.text2, width: 0 } });
+  T(s, [{ text: 'Para el inversionista:  ', options: { bold: true, color: C.accent3 } }, { text: 'margen bruto de 58 a 66 % · sin planta propia · ganancia desde marzo · inversión recuperada en 23 meses · utilidad ×2.7 en el año 2' }], { x: 0.85, y: 6.48, w: 11.7, h: 0.46, valign: 'middle', fontSize: 13, color: C.background1 });
+  s.addNotes('Modelo Canvas con los nueve bloques de Osterwalder y Pigneur, escrito en frases cortas y con las cifras del Excel v7, para que se entienda de un vistazo y muestre por qué el negocio es atractivo. Socios: la planta fabrica por nosotros (no compramos planta), el laboratorio mide el hierro de cada lote, el proveedor vende la sangrecita en polvo con registro sanitario, los malls y supermercados ponen el espacio, y los pediatras y la nutricionista nos recomiendan. Propuesta de valor: el snack de lonchera con hierro que el niño sí se come, con el hierro medido en cada lote y visible en la app, sabor a brownie y sin octógono. Canales (unidades del año 1): stands y carrito 43 %, WhatsApp 18 %, ferias y eventos 14 %, colegios y naturistas 25 %. Costos: S/1.64 por brownie (pack de 6), S/51,010 al año de stands, ferias, eventos y vendedores, S/2,738 al mes de gastos fijos con la app incluida. Ingresos: año 1 S/244,728 y S/10,379 de utilidad neta (42 % del aporte de los socios); año 2 S/322,329 y S/28,447 (114 %). La franja de abajo resume el argumento para un inversionista.');
 
   // =============== 23. SECCIÓN TC8 ===============
-  s = await section('TC8 · Propuesta de valor', '08', 'Mapa de propuesta de valor', 'Perfil del cliente · Mapa de valor · Encaje · App Andi, Misión Hierro · Competencia', 'FaGift');
+  s = await section('TC8 · Propuesta de valor', '08', 'Mapa de propuesta de valor', 'Perfil del cliente · Mapa de valor · Encaje · App Andi, Misión Hierro · Competencia · Plan de marketing', 'FaGift');
   s.addNotes('Trabajo de campo 8: mapa de propuesta de valor (Value Proposition Canvas).');
   const S8 = 'TC8 · Propuesta de valor';
 
@@ -642,7 +695,7 @@ const chartText = () => ({
   s.addShape(pres.shapes.LINE, { x: sq.x + sq.d / 2, y: sq.y + sq.d / 2, w: sq.d / 2, h: 0, line: { color: C.accent2, width: 1.5 } });
   const sect = (x, y, w, h, ttl, items, iconName, hex) => [x, y, w, h, ttl, items, iconName, hex];
   const vm = [
-    sect(sq.x + 0.15, sq.y + 0.2, 2.2, 4.5, 'Productos y servicios', ['Pack de 6 (S/27.90 en stand)', 'Pack de 12 "Semana completa"', 'Caja degustación de 3', 'Stand con degustación gratis', 'App Andi, Misión Hierro'], 'FaBoxOpen', H.accent2),
+    sect(sq.x + 0.15, sq.y + 0.2, 2.2, 4.5, 'Productos y servicios', ['Pack de 6 (S/27.90 en stand)', 'Pack de 12 "Semana completa"', 'Caja de 3 sabores (S/16.50)', 'Stand con degustación gratis', 'App Andi, Misión Hierro'], 'FaBoxOpen', H.accent2),
     sect(sq.x + sq.d / 2 + 0.15, sq.y + 0.2, 2.2, 2.2, 'Creadores de alegrías', ['El niño pide su sabor', 'Hierro del lote en la app', 'Juego educativo de Andi'], 'FaStar', H.accent4),
     sect(sq.x + sq.d / 2 + 0.15, sq.y + sq.d / 2 + 0.2, 2.2, 2.2, 'Aliviadores de dolor', ['Cacao que esconde la sangrecita', 'Loncheras listas en la app', 'Aviso antes de que se acabe'], 'FaFirstAid', H.accent1),
   ];
@@ -668,9 +721,9 @@ const chartText = () => ({
   s.addNotes('Value Proposition Canvas de Osterwalder. A la derecha, el perfil del cliente: trabajos, dolores y alegrías, con evidencia de las 10 entrevistas, el focus 1 y datos secundarios (Ipsos 2025, Kantar 2025, ENDES). A la izquierda, el mapa de valor: productos y servicios (incluida la app Andi, Misión Hierro), aliviadores de dolor y creadores de alegrías. El encaje se detalla en la siguiente diapositiva.');
 
   // =============== 25. ENCAJE ===============
-  s = content(S8, 'TRABAJO DE CAMPO 8 · ENCAJE', 'Cada dolor tiene su aliviador');
-  T(s, 'DOLOR DEL CLIENTE', { x: 0.6, y: 1.6, w: 4, h: 0.3, fontSize: 12, bold: true, color: C.accent6, charSpacing: 1 });
-  T(s, 'ALIVIADOR ANDIBITE', { x: 6.8, y: 1.6, w: 4, h: 0.3, fontSize: 12, bold: true, color: C.text2, charSpacing: 1 });
+  s = content(S8, 'TRABAJO DE CAMPO 8 · ENCAJE', 'Cada problema del padre tiene una respuesta de AndiBite');
+  T(s, 'PROBLEMA DEL PADRE', { x: 0.6, y: 1.6, w: 4, h: 0.3, fontSize: 12, bold: true, color: C.accent6, charSpacing: 1 });
+  T(s, 'LO QUE HACE ANDIBITE', { x: 6.8, y: 1.6, w: 4, h: 0.3, fontSize: 12, bold: true, color: C.text2, charSpacing: 1 });
   T(s, 'EVIDENCIA', { x: 10.95, y: 1.6, w: 1.78, h: 0.3, fontSize: 12, bold: true, color: C.accent2, charSpacing: 1 });
   const fit = [
     ['Lo saludable regresa intacto', 'Cacao y canela esconden la sangrecita', 'Entrevistas y focus 1'],
@@ -726,20 +779,20 @@ const chartText = () => ({
     await iconCircle(s, flujo[i][0], x, y, 1.0, i === 2 ? C.accent1 : C.text2, i === 2 ? 'FFFFFF' : H.accent5);
     T(s, flujo[i][1], { x, y: y + 1.15, w: w - 0.1, h: 0.7, fontSize: 16, bold: true, color: C.text2 });
   }
-  const ac = [['S/6,000', 'inversión: diseño, desarrollo y pruebas'], ['S/250', 'al mes: servidor, IA y mantenimiento'], ['S/0.04', 'por código único impreso'], ['S/375', 'análisis de hierro de cada lote']];
+  const ac = [['S/2,000', 'para terminar y publicar: el prototipo ya funciona'], ['S/250', 'al mes: servidor, IA y mantenimiento'], ['S/0.04', 'por código único impreso'], ['S/375', 'por análisis de hierro (cada 2 meses desde julio)']];
   ac.forEach((c, i) => {
     const w = 2.86, x = 0.6 + i * (w + 0.23), y = 3.75, h = 1.35;
     card(s, x, y, w, h, { fill: i === 0 ? C.accent1 : C.background1 });
     T(s, [{ text: c[0], options: { bold: true, fontSize: 28, color: i === 0 ? C.background1 : C.accent1, breakLine: true } }, { text: c[1], options: { fontSize: 13, color: i === 0 ? C.background1 : C.accent2 } }], { x: x + 0.25, y, w: w - 0.4, h, valign: 'middle' });
   });
   card(s, 0.6, 5.3, 7.4, 1.45, { fill: C.background2, noShadow: true });
-  T(s, [{ text: 'Tecnología', options: { bold: true, fontSize: 15, color: C.text2, breakLine: true } }, { text: 'App web instalable (PWA) · servidor en Google Cloud Run · plan de loncheras con IA de Gemini · funciona sin conexión', options: { fontSize: 14 } }], { x: 0.85, y: 5.3, w: 7.0, h: 1.45, valign: 'middle' });
+  T(s, [{ text: 'Tecnología', options: { bold: true, fontSize: 15, color: C.text2, breakLine: true } }, { text: 'App web: se abre con el QR, sin descargar nada · servidor en Google Cloud · plan de loncheras con IA de Gemini · funciona sin internet', options: { fontSize: 14 } }], { x: 0.85, y: 5.3, w: 7.0, h: 1.45, valign: 'middle' });
   card(s, 8.2, 5.3, 4.53, 1.45, { fill: C.text2 });
   T(s, [{ text: '30 % de envases escaneados', options: { bold: true, fontSize: 17, color: C.accent3, breakLine: true } }, { text: 'Meta del año 1. La mitad de la recompra llega desde el aviso de la app.', options: { fontSize: 13, color: C.background1 } }], { x: 8.45, y: 5.3, w: 4.1, h: 1.45, valign: 'middle' });
-  s.addNotes('Recorrido: el padre compra en el stand, escanea el QR del envase, ve el hierro medido de su lote (el dato que pedían Claudia y el 42 % que desconfía de lo envasado), usa el plan de loncheras y el semáforo durante la semana, y cuando el pack se está acabando la app le avisa y abre WhatsApp con el pedido listo. Costos, ya en el Excel v6: S/6,000 de inversión (diseño e ilustración S/1,500, modo padres y servidor S/2,500, modo niños S/1,500, pruebas y publicación S/500); S/250 al mes de Cloud Run, Firestore, IA y mantenimiento; S/0.04 por código impreso con dato variable; y S/375 por el análisis de hierro de cada lote, que se publica en la app. En total restan unos S/7,500 al resultado del año 1, a cambio de sostener el precio de S/6.00 y empujar la recompra.');
+  s.addNotes('Recorrido: el padre compra en el stand, escanea el QR del envase, ve el hierro medido de su lote (el dato que pedían Claudia y el 42 % que desconfía de lo envasado), usa el plan de loncheras y el semáforo durante la semana, y cuando el pack se está acabando la app le avisa y abre WhatsApp con el pedido listo. Costos, ya en el Excel v7: el prototipo funcional ya está hecho (carpeta app-andi-mision-hierro del repositorio), así que la inversión baja de S/6,000 a S/2,000 para conectar el laboratorio real, probar con 10 familias, revisar los textos legales y publicar; S/250 al mes de Cloud Run, Firestore, IA y mantenimiento; S/0.04 por código impreso con dato variable; y S/375 por análisis de hierro, todos los meses hasta junio y cada 2 meses desde julio, cuando la receta ya es estable. Es una app web instalable (en inglés, PWA): se abre desde el QR del envase sin pasar por una tienda de apps.');
 
   // =============== 26. COMPETENCIA ===============
-  s = content(S8, 'TRABAJO DE CAMPO 8 · FRENTE A LA COMPETENCIA', 'Algo más que Fika, con hierro medido y app propia');
+  s = content(S8, 'TRABAJO DE CAMPO 8 · FRENTE A LA COMPETENCIA', 'Cuesta un poco más que Fika, pero mide su hierro y trae app');
   const comp = ['Bimbo Nutra Bien', 'Siete Dragones', 'Nutri H', 'Fika', 'Mamalama', 'AndiBite pack de 12', 'AndiBite pack de 6'];
   const vals = [1.67, 3.01, 3.20, 4.00, 4.10, 4.16, 4.48];
   const isAB = comp.map(c => c.startsWith('AndiBite'));
@@ -759,21 +812,91 @@ const chartText = () => ({
   T(s, [{ text: 'S/4.48 por brownie', options: { bold: true, fontSize: 20, color: C.accent3, breakLine: true } }, { text: 'Por WhatsApp; S/4.65 en el stand. 12 % más que Fika, con hierro medido por lote y la app Andi.', options: { fontSize: 14, color: C.background1 } }], { x: 7.95, y: 5.4, w: 4.6, h: 1.25, valign: 'middle' });
   s.addNotes('Precios por 20 g consultados el 3 de octubre de 2026 (documento 02): Nutri H S/3.20, Fika S/4.00, Mamalama S/4.10, Siete Dragones S/3.01, Bimbo Nutra Bien S/1.67. AndiBite por WhatsApp: pack de 6 a S/26.90 (S/4.48 por brownie) y pack de 12 a S/49.90 (S/4.16); en el stand, pack de 6 a S/27.90 (S/4.65). Ningún competidor publica el hierro medido de cada lote ni ofrece una app para la familia. Completar con los datos del store check de La Molina.');
 
-  // =============== 27. CIERRE ===============
+  // =============== 26b. PLAN DE MARKETING (GANTT) ===============
+  s = content(S8, 'PLAN DE MARKETING · OCTUBRE DE 2026 A DICIEMBRE DE 2027', 'Qué hacemos cada mes y cuánto invertimos');
+  const GM = ['Oct', 'Nov', 'Dic', 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic'];
+  const gx = 3.55, gw = 12.73 - gx, cwm = gw / 15, gy0 = 1.5;
+  const gfases = [[0, 2, 'PRELANZAMIENTO · 2026', C.accent2], [3, 4, 'LANZAMIENTO 2027', C.accent1], [5, 9, 'CRECER: COLEGIOS Y EMBAJADORAS', C.accent4], [10, 14, 'EXPANDIR: 3 PUNTOS', C.text2]];
+  gfases.forEach(f => {
+    s.addShape(pres.shapes.RECTANGLE, { x: gx + f[0] * cwm + 0.02, y: gy0, w: (f[1] - f[0] + 1) * cwm - 0.04, h: 0.3, fill: { color: f[3] }, line: { color: f[3], width: 0 } });
+    T(s, f[2], { x: gx + f[0] * cwm, y: gy0, w: (f[1] - f[0] + 1) * cwm, h: 0.3, fontSize: 9, bold: true, align: 'center', valign: 'middle', color: C.background1, charSpacing: 0.5 });
+  });
+  GM.forEach((m, i) => T(s, m, { x: gx + i * cwm, y: gy0 + 0.33, w: cwm, h: 0.24, fontSize: 10, bold: true, align: 'center', color: i < 3 ? C.accent2 : C.text2 }));
+  const gr = [
+    ['Permisos, registro sanitario y etiqueta', [[0, 2]], C.accent2],
+    ['Probar la app y la receta con 10 familias', [[1, 1]], C.accent2],
+    ['Fotos, video y lista de espera en WhatsApp', [[1, 2]], C.accent2],
+    ['Influencers y pauta de expectativa', [[2, 3]], C.accent1],
+    ['Degustación en stands: 1, 2 y 3 puntos', [[3, 3, '1'], [4, 9, '2 puntos'], [10, 14, '3 puntos']], C.accent1],
+    ['Ferias pagadas: escolar y Día del Niño', [[4, 4], [6, 6]], C.accent6],
+    ['Kermeses, cumpleaños y ferias saludables', [[3, 14]], C.accent3],
+    ['Pauta digital (fuerte en feb., abr. y dic.)', [[3, 14]], C.accent5],
+    ['Mamás embajadoras por salón', [[3, 14]], C.accent4],
+    ['App Andi: aviso de recompra y loncheras', [[3, 14]], C.accent4],
+    ['Quioscos escolares y tiendas naturistas', [[3, 4, 'naturistas'], [5, 14, '+ quioscos']], C.accent2],
+  ];
+  const rh = 0.355, ry0 = gy0 + 0.62;
+  for (let i = 0; i < 15; i++) if (i % 2 === 1) s.addShape(pres.shapes.RECTANGLE, { x: gx + i * cwm, y: ry0, w: cwm, h: gr.length * rh, fill: { color: 'F4E6D3' }, line: { color: 'F4E6D3', width: 0 } });
+  s.addShape(pres.shapes.LINE, { x: gx + 3 * cwm, y: gy0 + 0.3, w: 0, h: gr.length * rh + 0.32, line: { color: C.accent1, width: 1.25, dashType: 'dash' } });
+  gr.forEach((r, i) => {
+    const y = ry0 + i * rh;
+    s.addShape(pres.shapes.RECTANGLE, { x: 0.6, y: y + 0.1, w: 0.12, h: rh - 0.2, fill: { color: r[2] }, line: { color: r[2], width: 0 } });
+    T(s, r[0], { x: 0.8, y, w: gx - 0.85, h: rh, fontSize: 10.5, valign: 'middle', color: C.text1 });
+    r[1].forEach(seg => {
+      const strong = r[0].startsWith('Pauta') ? false : true;
+      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: gx + seg[0] * cwm + 0.04, y: y + 0.07, w: (seg[1] - seg[0] + 1) * cwm - 0.08, h: rh - 0.14, rectRadius: 0.1, fill: { color: r[2] }, line: { color: r[2], width: 0 } });
+      if (seg[2]) T(s, seg[2], { x: gx + seg[0] * cwm, y: y + 0.07, w: (seg[1] - seg[0] + 1) * cwm, h: rh - 0.14, fontSize: 9, bold: true, align: 'center', valign: 'middle', color: C.background1 });
+    });
+    if (r[0].startsWith('Pauta')) [4, 6, 14].forEach(k => s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: gx + k * cwm + 0.04, y: y + 0.07, w: cwm - 0.08, h: rh - 0.14, rectRadius: 0.1, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } }));
+  });
+  const gasto = [0, 300, 1458, 2506, 3290, 1540, 3610, 1700, 1540, 1380, 1540, 1540, 1540, 1380, 1220];
+  const yg = ry0 + gr.length * rh + 0.08;
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: yg, w: 12.13, h: 0.5, rectRadius: 0.08, fill: { color: C.text2 }, line: { color: C.text2, width: 0 } });
+  T(s, [{ text: 'Inversión del mes (S/)', options: { bold: true, breakLine: true } }, { text: 'total S/24,544', options: { fontSize: 9.5, color: C.accent3 } }], { x: 0.8, y: yg, w: gx - 0.85, h: 0.5, fontSize: 11, valign: 'middle', color: C.background1 });
+  gasto.forEach((g, i) => T(s, g ? g.toLocaleString('en-US') : '–', { x: gx + i * cwm, y: yg, w: cwm, h: 0.5, fontSize: 10.5, bold: true, align: 'center', valign: 'middle', color: (i === 4 || i === 6) ? C.accent3 : C.background1 }));
+  T(s, 'Incluye pauta S/700 y embajadoras S/200 al mes, ferias (S/1,800 + vendedor/a 3 días), eventos (vendedor/a + aporte, S/160) y el lanzamiento (S/3,204, ya en la inversión). El espacio y los vendedores de los stands van aparte.', { x: 0.6, y: yg + 0.53, w: 12.13, h: 0.3, fontSize: 9.5, italic: true, color: C.accent2 });
+  s.addNotes('Diagrama de Gantt del plan de marketing, de octubre de 2026 (prelanzamiento) a diciembre de 2027 (fin del año 1). Prelanzamiento (octubre a diciembre de 2026): permisos, registro sanitario y etiqueta; prueba de la app y la receta con 10 familias en noviembre; fotos y video (S/300) y lista de espera por WhatsApp; en diciembre, influencers (40 packs, S/458), pauta de expectativa (S/600) y material de punto de venta (S/400). Lanzamiento (enero y febrero de 2027): primer punto en enero con 600 degustaciones (S/1,146) y material para ferias (S/300); en febrero, segundo punto y feria pagada de campaña escolar. Crecer (marzo a julio): entran los quioscos escolares, las mamás embajadoras toman fuerza con el año escolar y en abril va la feria del Día del Niño Peruano (segundo domingo de abril). Expandir (agosto a diciembre): tercer punto de venta. Todo el año: kermeses, cumpleaños y ferias saludables o municipales (2 a 5 al mes, S/160 cada una con vendedora y aporte), pauta digital de S/700 al mes reforzada en las fechas clave (lonchera de marzo, Día del Niño y regalos de Navidad), S/200 al mes para premiar a las embajadoras, y la app Andi con el aviso de recompra. Inversión por mes: octubre S/0; noviembre S/300; diciembre S/1,458; enero S/2,506; febrero S/3,290; marzo S/1,540; abril S/3,610; mayo S/1,700; junio S/1,540; julio S/1,380; agosto a octubre S/1,540; noviembre S/1,380; diciembre S/1,220. Total S/24,544: S/3,204 del lanzamiento (en la inversión inicial) y S/21,340 del año 1 (pauta y embajadoras S/10,800, ferias S/4,140 y eventos S/6,400). No incluye el espacio ni los vendedores de los stands, que son costos de venta.');
+
+  // =============== 26c. REGLAS PARA CRECER ===============
   pres.addSection({ title: 'Cierre' });
+  s = content('Cierre', 'CIERRE · CÓMO SEGUIMOS CRECIENDO', 'Crecemos paso a paso: cada inversión se activa con una meta');
+  const reglas = [
+    ['FaStore', '4.º punto de venta', 'Si los 3 puntos venden 85 o más brownies por día durante 3 meses seguidos'],
+    ['FaIndustry', 'Fabricación más barata', 'Al pasar 5,000 brownies al mes, negociar con la planta S/0.40 en vez de S/0.45'],
+    ['FaFileSignature', 'Contrato anual de sangrecita', 'Precio fijo por un año al comprar unos 50 kg de polvo al año'],
+    ['FaBirthdayCake', 'Cajas para fiestas', 'Para cumpleaños y empresas: por pedido con 2 semanas de anticipación, sin costo fijo'],
+    ['FaShoppingCart', 'Góndola en Wong o Vivanda', 'En el año 2, solo si cada punto de venta ya gana dinero por sí solo'],
+    ['FaUserTie', 'Pago variable a vendedores', 'S/60 por día + S/0.30 por brownie vendido: gana más quien vende más'],
+    ['FaGift', 'Repetir una feria pagada', 'Solo si dejó 50 contactos de WhatsApp y cumplió 3 de los 4 criterios'],
+    ['FaShieldAlt', 'Línea de crédito', 'Se usa solo si la caja baja de S/1,000; se devuelve con la venta de los meses fuertes'],
+  ];
+  for (let i = 0; i < reglas.length; i++) {
+    const col = i % 4, row = Math.floor(i / 4);
+    const w = 2.92, h = 2.25, x = 0.6 + col * (w + 0.15), y = 1.62 + row * (h + 0.18);
+    card(s, x, y, w, h, { fill: i === 0 ? C.accent1 : C.background1 });
+    await iconCircle(s, reglas[i][0], x + 0.22, y + 0.22, 0.62, i === 0 ? C.background1 : C.accent1, i === 0 ? H.accent1 : 'FFFFFF');
+    T(s, 'META → ACCIÓN', { x: x + 0.98, y: y + 0.3, w: w - 1.1, h: 0.25, fontSize: 9, bold: true, color: i === 0 ? C.accent5 : C.accent2, charSpacing: 1 });
+    T(s, reglas[i][1], { x: x + 0.22, y: y + 0.95, w: w - 0.4, h: 0.4, fontSize: 15, bold: true, color: i === 0 ? C.background1 : C.text2 });
+    T(s, reglas[i][2], { x: x + 0.22, y: y + 1.38, w: w - 0.4, h: 0.8, fontSize: 12, color: i === 0 ? C.background1 : C.text1 });
+  }
+  card(s, 0.6, 6.42, 12.13, 0.48, { fill: C.text2, r: 0.24 });
+  T(s, [{ text: 'Criterios de una feria pagada: ', options: { bold: true, color: C.accent3 } }, { text: 'padres con hijos de 4 a 11 · buscan comida saludable · temporada escolar · en Lima Top o Moderna' }], { x: 0.85, y: 6.42, w: 11.7, h: 0.48, valign: 'middle', fontSize: 12.5, color: C.background1 });
+  s.addNotes('Reglas para crecer sin arriesgar: ninguna de estas mejoras está dentro del plan base; cada una se activa solo cuando se cumple su meta, y así el Excel muestra un escenario prudente. (1) Cuarto punto de venta: si los 3 puntos venden 85 o más brownies por día durante 3 meses. (2) Fabricación más barata: al pasar 5,000 brownies al mes (el año 2 promedia unos 5,900), negociar con la planta S/0.40 por brownie en vez de S/0.45. (3) Contrato anual del polvo de sangrecita (unos 50 kg al año) para fijar el precio. (4) Cajas para cumpleaños y empresas, por pedido. (5) Góndola en Wong o Vivanda en el año 2, solo si cada punto ya gana por sí solo: el supermercado se queda con 20 a 40 % y paga a 30 a 90 días. (6) Pago variable a vendedores: S/60 por día más S/0.30 por brownie (a 90 brownies por día sale casi lo mismo que hoy, S/87, pero premia al que vende más). (7) Una feria pagada solo se repite si dejó al menos 50 contactos de WhatsApp y cumplió 3 de los 4 criterios: padres con hijos de 4 a 11, que buscan comida saludable, en temporada escolar y en Lima Top o Moderna. (8) La línea de crédito de S/3,000 solo se usa si la caja baja de S/1,000.');
+
+  // =============== 27. CIERRE ===============
   s = pres.addSlide({ masterName: 'CIERRE', sectionTitle: 'Cierre' });
   T(s, 'PROPUESTA DE VALOR EN UNA FRASE', { x: 0.8, y: 0.9, w: 7.4, h: 0.35, fontSize: 13, bold: true, color: C.accent3, charSpacing: 2 });
   s.addText('Hierro medido. Sabor a brownie.', { placeholder: 'title' });
   T(s, 'El snack de lonchera que tu hijo sí se come', { x: 0.8, y: 3.1, w: 7.4, h: 0.5, fontSize: 24, bold: true, color: C.accent5 });
   T(s, 'Para padres planificados que leen etiquetas: mini brownie de 20 g con sangrecita, hierro medido por lote y la app Andi, que acompaña a la familia.', { x: 0.8, y: 3.8, w: 7.4, h: 1.0, fontSize: 17, color: C.background2 });
   T(s, 'PRÓXIMOS PASOS', { x: 0.8, y: 5.55, w: 7.4, h: 0.3, fontSize: 12, bold: true, color: C.accent3, charSpacing: 2 });
-  ['Cargar el focus 2', 'Cotizar polvo y stands', 'Probar la app con familias'].forEach((t, i) => {
+  ['Cargar el focus 2', 'Cotizar ferias y stands', 'Probar la app con familias'].forEach((t, i) => {
     const x = 0.8 + i * 2.55;
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y: 5.95, w: 2.45, h: 0.55, rectRadius: 0.27, fill: { color: C.accent2 }, line: { color: C.accent5, width: 1 } });
     T(s, t, { x, y: 5.95, w: 2.45, h: 0.55, align: 'center', valign: 'middle', fontSize: 13, bold: true, color: C.background2 });
   });
   await imgSlot(s, 4, 8.75, 0.75, 3.95, 6.0, 'Niño abriendo su lonchera con AndiBite', true);
-  s.addNotes('Cierre con la propuesta de valor en una frase y los tres pasos siguientes: cargar los resultados del focus 2; cotizar la sangrecita de res en polvo a granel y los stands (Jockey, Larcomar, La Rambla, Wong, Vivanda); y probar el prototipo de la app Andi, Misión Hierro con 10 familias en noviembre de 2026.' + pn(4, '2:3 · adjuntar la foto del empaque'));
+  s.addNotes('Cierre con la propuesta de valor en una frase y los tres pasos siguientes: cargar los resultados del focus 2; cotizar los stands (Jockey, Larcomar, La Rambla, Wong, Vivanda), la feria del Día del Niño y las ferias saludables, y la sangrecita de res en polvo a granel; y probar el prototipo de la app Andi, Misión Hierro con 10 familias en noviembre de 2026.' + pn(4, '2:3 · adjuntar la foto del empaque'));
 
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);
