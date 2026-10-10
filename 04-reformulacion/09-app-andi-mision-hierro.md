@@ -32,7 +32,7 @@ Versión 1, 10 de octubre de 2026. Responde al pedido de la profesora: el produc
 
 | | Padre o madre (quien compra) | Niño o niña de 4 a 10 años (quien come) |
 |---|---|---|
-| Arquetipo | Claudia (38, San Borja) y Rodrigo (42, La Molina), documento 04 | Matías (7), Luciana (4), Joaquín (9), Emilia (6) |
+| Arquetipo | Claudia (38, San Borja, segmento A) y Rodrigo (40, San Miguel, segmento B), documento 04 | Matías (7), Luciana (4), Joaquín (9), Emilia (6) |
 | Lo que le duele | No sabe cuánto hierro come su hijo; teme el azúcar; se queda sin ideas de lonchera; se olvida de reponer | Le aburre "comer sano"; rechaza lo que se ve "de remedio" |
 | Lo que le da la app | Dato medido, semáforo semanal, loncheras listas, recordatorios y pedido en un clic | Juegos cortos, voz, colores, un personaje amigo y logros por aprender |
 | Tono | Claro, sereno, con datos: "como habla el pediatra" | Alegre, simple, con frases de 5 palabras o menos |

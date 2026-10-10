@@ -23,7 +23,7 @@ Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora pa
 ### Bloque 1. Segmentos de clientes
 - **Núcleo:** padres "conscientes y planificados" de 32 a 45 años, NSE A2, B1 y B2 alto, de Lima Top (zona 7) y Lima Moderna (zona 6), con al menos un hijo de 4 a 11 años en colegio privado: **unos 46,000 hogares y 60,000 niños** (documento 04).
 - **Mercado servible ampliado:** NSE A/B con niños de 4 a 11 en toda Lima, **unos 168,000 hogares y 218,000 niños**, dentro de 706,053 hogares A/B de Lima y Callao (APEIM 2025).
-- **Buyer persona:** Claudia Mendoza, 38 años, San Borja, abogada, dos hijos (7 y 4), madre después de los 30 como el 53.1 % de las madres de Lima. **Secundario:** Rodrigo Salazar, 42, La Molina: "No me vendas salud, véndeme una mañana menos".
+- **Buyer persona:** Claudia Mendoza, 38 años, San Borja, abogada, dos hijos (7 y 4), madre después de los 30 como el 53.1 % de las madres de Lima. **Segmento B:** Rodrigo Salazar, 40, San Miguel, jefe de logística con un hogar de unos S/8,500 al mes (documento 04): "No me vendas salud, véndeme una mañana menos".
 - **Usuario distinto del comprador:** el adulto paga y el niño aprueba; sin pedido del niño no hay recompra (focus 1).
 - **B2B:** concesionarios de quioscos escolares (solo admiten productos sin octógono, RM 195-2019-MINSA) y tiendas naturistas.
 - **Meta del año 1:** 2 a 3 puntos de venta físicos con al menos 80 brownies por día cada uno, 35 % de lo vendido en físico que vuelve por WhatsApp, 5 colegios y 8 naturistas.

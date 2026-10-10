@@ -172,10 +172,11 @@ const chartText = () => ({
   T(s, 'Un grupo', { x: 2.0, y: 2.45, w: 4, h: 0.45, fontSize: 22, bold: true, color: C.text2 });
   T(s, [
     { text: 'Padres de 32 a 45 años', options: { bullet: true, breakLine: true } },
-    { text: 'NSE A y B de Lima Top y Lima Moderna', options: { bullet: true, breakLine: true } },
+    { text: 'NSE A y B: 7 de cada 10 hogares son B', options: { bullet: true, breakLine: true } },
+    { text: 'Viven en Lima Top y Lima Moderna', options: { bullet: true, breakLine: true } },
     { text: 'Hijos de 4 a 11 en colegio privado', options: { bullet: true, breakLine: true } },
     { text: '46,000 hogares núcleo', options: { bullet: true } },
-  ], { x: 0.95, y: 3.25, w: 5.0, h: 2.2, fontSize: 16, paraSpaceAfter: 8, color: C.text1 });
+  ], { x: 0.95, y: 3.15, w: 5.0, h: 2.6, fontSize: 16, paraSpaceAfter: 6, color: C.text1 });
   s.addShape(pres.shapes.RIGHT_ARROW, { x: 6.33, y: 3.9, w: 0.75, h: 0.6, fill: { color: C.accent3 }, line: { color: C.accent3, width: 0 } });
   card(s, 7.2, 1.75, 5.53, 4.9, { fill: C.text2 });
   await iconCircle(s, 'FaUserCircle', 7.5, 2.05, 0.9, C.accent1, 'FFFFFF');
@@ -186,13 +187,13 @@ const chartText = () => ({
     T(s, r[0], { x: 7.55, y: 3.2 + i * 0.82, w: 4.9, h: 0.28, fontSize: 11, bold: true, color: C.accent5, charSpacing: 1 });
     T(s, r[1], { x: 7.55, y: 3.47 + i * 0.82, w: 4.9, h: 0.4, fontSize: 16, bold: true, color: C.background1 });
   });
-  s.addNotes('Sesión 05: el público objetivo orienta (un rango de edad, NSE y distrito) y el arquetipo conecta (una persona con nombre, dolor y hábito). Regla de 3 de la clase: nombre, dolor y hábito. Le vendemos a Claudia, no a "madres de 32 a 45". Datos: APEIM 2025, CPI 2026 y documento 04.');
+  s.addNotes('Sesión 05: el público objetivo orienta (un rango de edad, NSE y distrito) y el arquetipo conecta (una persona con nombre, dolor y hábito). Regla de 3 de la clase: nombre, dolor y hábito. Le vendemos a Claudia y a Rodrigo, no a "madres de 32 a 45". Atendemos a los dos segmentos con el mismo esfuerzo: en Lima Top (zona 7 de APEIM) el 51.4 % de los hogares es B y el 20.2 % es A, y en Lima Moderna (zona 6) 51.7 % B y 11.8 % A; o sea, unos 7 de cada 10 hogares A/B de esas zonas son B. Datos: APEIM 2025, CPI 2026 y documento 04.');
 
   // =============== 6. ARQUETIPOS ===============
   s = content(S5, 'TRABAJO DE CAMPO 5 · ARQUETIPOS DE CLIENTE', 'Tres clientes tipo: quién es, qué le duele y dónde compra');
   const arq = [
     ['FaShieldAlt', C.accent1, 'Guardiana del Hierro', 'Mamá de 35 a 42, profesional', 'Lee etiquetas; pregunta al pediatra', 'Su hijo rechaza lo nutritivo', 'Pruebas: hierro en mg', 'Wong, Flora & Fauna, Instagram', '30 %', 'Buyer persona: Claudia'],
-    ['FaClock', C.accent2, 'El Resolutivo', 'Papá o mamá de 38 a 45, gerente', 'Compra por app y en el súper', 'Mañanas contra el reloj', 'Rapidez y practicidad', 'Supermercado y WhatsApp', '45 %', 'Buyer persona: Rodrigo'],
+    ['FaClock', C.accent2, 'El Resolutivo', 'Papá o mamá de 36 a 45, mando medio', 'Compra por app y en el súper', 'Mañanas contra el reloj', 'Que valga lo que cuesta', 'Plaza Vea, Tottus y WhatsApp', '45 %', 'Buyer persona: Rodrigo'],
     ['FaSchool', C.accent4, 'El Consejero', 'Quiosco, nutricionista, pediatra', 'Elige qué entra al colegio', 'Productos con octógono', 'Norma y registro sanitario', 'Directo al productor', '25 %', 'Nos recomienda'],
   ];
   for (let i = 0; i < 3; i++) {
@@ -211,7 +212,7 @@ const chartText = () => ({
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x + 1.95, y: y + 4.3, w: 1.6, h: 0.42, rectRadius: 0.21, fill: { color: C.background2 }, line: { color: C.accent5, width: 1 } });
     T(s, a[9], { x: x + 1.95, y: y + 4.3, w: 1.6, h: 0.42, fontSize: 11, bold: true, align: 'center', valign: 'middle', color: C.text2 });
   }
-  s.addNotes('Partes esenciales de un arquetipo según la sesión 05: nombre, edad y ocupación; hábitos, frustraciones y valores; canales y comportamiento de compra. Guardiana del Hierro (la representa Claudia), El Resolutivo (Rodrigo) y El Consejero (quiosco, nutricionista o pediatra: en marketing se le llama prescriptor), que recomienda la marca a los otros dos. Los porcentajes son el peso esperado de cada arquetipo en el volumen.');
+  s.addNotes('Partes esenciales de un arquetipo según la sesión 05: nombre, edad y ocupación; hábitos, frustraciones y valores; canales y comportamiento de compra. Guardiana del Hierro (la representa Claudia, segmento A), El Resolutivo (Rodrigo, segmento B) y El Consejero (quiosco, nutricionista o pediatra: en marketing se le llama prescriptor), que recomienda la marca a los otros dos. Los porcentajes son el peso esperado de cada arquetipo en el volumen.');
 
   // =============== 7-8. BUYER PERSONAS ===============
   const personas = [
@@ -219,13 +220,13 @@ const chartText = () => ({
       chips: [['EDAD Y DISTRITO', '38 años · San Borja'], ['OCUPACIÓN', 'Abogada corporativa'], ['FAMILIA', '2 hijos (7 y 4)'], ['INGRESO FAMILIAR', 'S/13,500 al mes'], ['SE INFORMA', 'Pediatra e Instagram'], ['PAGARÍA', 'S/24 a 30 el pack']],
       pain: ['Hemoglobina baja en el control', 'Lo nutritivo regresa intacto'], want: ['Hierro en mg y cero octógonos', 'Que su hijo lo pida solo'],
       quote: '"Todo lo que le hace bien, mi hijo lo escupe."' },
-    { side: 'R', img: 2, name: 'Rodrigo Salazar', tag: 'El papá que resuelve la mañana', imgLabel: 'Retrato de Rodrigo (42, La Molina)',
-      chips: [['EDAD Y DISTRITO', '42 años · La Molina'], ['OCUPACIÓN', 'Gerente de operaciones'], ['FAMILIA', '2 hijos (9 y 6)'], ['INGRESO FAMILIAR', 'S/18,000 al mes'], ['COMPRA', 'Apps, IG y TikTok'], ['PAGARÍA', 'S/18 a 24 por 6 u']],
-      pain: ['Jueves y viernes sin ideas', 'Snacks aplastados en la mochila'], want: ['Que resuelva toda la semana', 'Recordatorio para recomprar'],
+    { side: 'R', img: 2, name: 'Rodrigo Salazar', tag: 'El papá que resuelve la mañana', imgLabel: 'Retrato de Rodrigo (40, San Miguel)',
+      chips: [['EDAD Y DISTRITO', '40 años · San Miguel'], ['OCUPACIÓN', 'Jefe de logística'], ['FAMILIA', '2 hijos (9 y 6)'], ['INGRESO FAMILIAR', 'S/8,500 al mes'], ['COMPRA', 'Plaza Vea y WhatsApp'], ['PAGARÍA', 'S/18 a 24 por 6 u']],
+      pain: ['Jueves y viernes sin ideas', 'Que no le rinda el dinero'], want: ['Que resuelva toda la semana', 'Precio claro por brownie'],
       quote: '"No me vendas salud, véndeme una mañana menos."' },
   ];
   for (const p of personas) {
-    s = content(S5, 'TRABAJO DE CAMPO 5 · BUYER PERSONA ' + (p.img === 1 ? 'PRINCIPAL' : 'SECUNDARIO'), p.name);
+    s = content(S5, 'TRABAJO DE CAMPO 5 · BUYER PERSONA · SEGMENTO ' + (p.img === 1 ? 'A' : 'B'), p.name);
     const ix = p.side === 'L' ? 0.6 : 9.03, cx = p.side === 'L' ? 4.6 : 0.6, cw = 8.13;
     await imgSlot(s, p.img, ix, 1.6, 3.7, 5.1, p.imgLabel);
     T(s, p.tag, { x: cx, y: 1.6, w: cw, h: 0.45, fontSize: 22, italic: true, bold: true, color: C.accent1 });
@@ -248,7 +249,7 @@ const chartText = () => ({
     T(s, p.quote, { x: cx + 0.3, y: 6.0, w: cw - 0.6, h: 0.7, valign: 'middle', fontSize: 18, italic: true, bold: true, color: C.background2 });
     s.addNotes(p.img === 1
       ? 'Claudia Mendoza Ríos, 38 años, San Borja (zona 7 de APEIM, 71.6 % de hogares A/B). Abogada corporativa, casada con Diego, hijos Matías (7) y Luciana (4); fue madre a los 31 y 34, como el 53.1 % de las madres de Lima que tienen hijos después de los 30. Ingreso familiar S/13,500 (hipótesis entre los promedios B y A de APEIM 2025). Objeciones: ¿no sabe a sangrecita?, ¿cuántos mg de hierro?, ¿tiene registro sanitario? Cómo le vendemos: degustación con el niño delante, hierro en mg y registro sanitario visibles.' + pn(1, '3:4')
-      : 'Rodrigo Salazar, 42 años, La Molina. Gerente de operaciones; su esposa viaja por trabajo y él arma las loncheras. Ingreso familiar S/18,000 (hipótesis, A2). No busca salud, busca resolver: un pack que dure la semana, que aguante la mochila y que pueda pedir por WhatsApp con recordatorio. El pack de 12 por WhatsApp a S/49.90 equivale a S/24.95 por cada 6, en el borde de lo que pagaría (S/18 a 24): lo que justifica la diferencia es que la app le arma las loncheras y le avisa antes de que se acabe el pack.' + pn(2, '3:4'));
+      : 'Rodrigo Salazar, 40 años, San Miguel (zona 6 de APEIM, Lima Moderna: 51.7 % de los hogares es B). Representa al segmento B, que son 7 de cada 10 hogares A/B de Lima Top y Moderna. Jefe de logística en una empresa de consumo masivo; su esposa es analista contable y los dos trabajan. Ingreso familiar S/8,500 al mes (hipótesis dentro del NSE B: el promedio B de APEIM 2025 es S/7,787 y el A, S/14,584). Sus hijos de 9 y 6 van a un colegio privado de pensión media (en Lima, de S/400 a 900 al mes por hijo según cuantomecuesta.com, abril de 2026). Él arma las loncheras de la mañana. No busca salud, busca resolver: un pack que dure la semana, que aguante la mochila y que pueda pedir por WhatsApp con recordatorio. Compra en Plaza Vea y Tottus, por apps y por WhatsApp; se entera por el chat del salón. Mira el precio por brownie: el pack de 6 a S/4.48 por WhatsApp está dentro de lo que pagaría (S/18 a 24 por 6, o S/3 a 4 por unidad), y el pack de 12 a S/49.90 (S/24.95 por cada 6) queda en el borde; lo justifican el hierro medido, la app que le arma las loncheras y el aviso antes de que se acabe el pack. Dónde lo encontramos: Real Plaza Salaverry y Open Plaza Angamos, el carrito en Plaza Vea y las kermeses de su colegio.' + pn(2, '3:4'));
   }
 
   // =============== 4. TIPOS DE MERCADO ===============
@@ -350,10 +351,10 @@ const chartText = () => ({
   // =============== 10b. PUNTOS DE VENTA ===============
   s = content(S5, 'TRABAJO DE CAMPO 5 · PUNTOS DE VENTA', 'Vamos donde está la familia: malls, súper, ferias y colegios');
   const ptos = [
-    ['FaStore', 'Malls de Lima Top', 'Jockey Plaza, Larcomar y La Rambla: programas para emprendedores'],
-    ['FaShoppingCart', 'Supermercados', 'Carrito en la entrada de Wong o Vivanda, los fines de semana'],
+    ['FaStore', 'Malls para A y para B', 'Jockey y La Rambla (A y B) · Real Plaza Salaverry y Open Plaza Angamos (B)'],
+    ['FaShoppingCart', 'Supermercados', 'Carrito en Wong o Vivanda (A) y en Plaza Vea (B), los fines de semana'],
     ['FaGift', 'Ferias de temporada', 'Campaña escolar (febrero) y Día del Niño (abril)'],
-    ['FaSchool', 'Colegios y comunidad', 'Kermeses, cumpleaños, ferias saludables y quioscos'],
+    ['FaSchool', 'Colegios de los dos segmentos', 'Quioscos y kermeses en colegios de pensión alta (A) y en cadenas como Innova Schools (B)'],
   ];
   for (let i = 0; i < 4; i++) {
     const x = 0.6, y = 1.7 + i * 1.25, w = 4.9, h = 1.1;
@@ -367,7 +368,7 @@ const chartText = () => ({
     { name: 'WhatsApp', labels: MESES3, values: [150, 210, 854, 840, 959, 798, 714, 753, 1013, 1061, 1061, 1008] },
     { name: 'Colegios y naturistas', labels: MESES3, values: [120, 180, 480, 840, 1065, 1200, 960, 1560, 1560, 1920, 1920, 1080] },
   ], Object.assign(chartText(), { x: 5.7, y: 1.6, w: 7.2, h: 5.1, barDir: 'col', barGrouping: 'stacked', title: 'Brownies vendidos al mes por canal (enero a diciembre de 2027)', chartColors: [H.accent1, H.accent3, H.accent2, H.accent4], showValue: false, showLegend: true, legendPos: 'b', valAxisLabelFormatCode: '#,##0', barGapWidthPct: 40 }));
-  s.addNotes('Puntos de venta (documento 08): programas para emprendedores de Jockey Plaza, Larcomar (El Mercadito del Emprendedor) y La Rambla San Borja; carrito en la entrada de Wong o Vivanda; 2 ferias pagadas, de campaña escolar (febrero) y del Día del Niño Peruano (segundo domingo de abril); kermeses, cumpleaños y ferias saludables o municipales, que no cobran stand. Las ferias navideñas se sacaron del plan: con unos 700 brownies, una feria de S/1,800 pierde dinero si no deja clientes que vuelvan. Plan: 1 punto en enero, 2 de febrero a julio y 3 de agosto a diciembre de 2027, solo fines de semana. Cada punto y cada evento lo atiende un(a) vendedor(a) pagado(a) a S/90 por día; el espacio cuesta S/600 por punto al mes y el stand en feria, S/1,800 más 3 días de vendedor(a).');
+  s.addNotes('Puntos de venta (documento 08), repartidos para llegar con el mismo esfuerzo al padre A y al padre B. Malls: Jockey Plaza y La Rambla San Borja (Lima Top, A y B); Real Plaza Salaverry (Jesús María, Lima Moderna), con la Placita del Emprendimiento del programa Perú Pasión de Intercorp, y Open Plaza Angamos (Surquillo), con el programa Open Emerge de espacios para emprendedores (público B); Larcomar queda como alternativa. Carrito en Wong o Vivanda (A) y en Plaza Vea (B). Orden de apertura: 1.er punto en enero en Jockey (A y B), 2.º punto en febrero en Real Plaza Salaverry u Open Plaza Angamos (B) y 3.er punto en agosto en La Rambla o en el carrito de Wong o Vivanda (A). Colegios: quioscos y kermeses en colegios de pensión alta de Lima Top (A) y en cadenas de pensión media como Innova Schools (39 sedes en Lima, B); un solo acuerdo con una cadena abre varias sedes. El quiosco solo puede vender productos sin octógonos (lineamientos de alimentación saludable del MINSA y la RVM 076-2019-MINEDU), por eso el brownie sin octógono es la llave de entrada; el quiosco lo opera un concesionario elegido por el colegio. 2 ferias pagadas, de campaña escolar (febrero) y del Día del Niño Peruano (segundo domingo de abril); kermeses, cumpleaños y ferias saludables o municipales, que no cobran stand. Las ferias navideñas se sacaron del plan: con unos 700 brownies, una feria de S/1,800 pierde dinero si no deja clientes que vuelvan. Plan: 1 punto en enero, 2 de febrero a julio y 3 de agosto a diciembre de 2027, solo fines de semana. Cada punto y cada evento lo atiende un(a) vendedor(a) pagado(a) a S/90 por día; el espacio cuesta S/600 por punto al mes y el stand en feria, S/1,800 más 3 días de vendedor(a).');
 
   // =============== 11. SECCIÓN TC6 ===============
   s = await section('TC6 · Relación e ingresos', '06', 'Relación con el cliente e ingresos', 'Tipos de relación · Captar, fidelizar y crecer · Fuentes de ingreso · Ventas del año 1', 'FaHandshake');
@@ -478,7 +479,7 @@ const chartText = () => ({
     ['FaIndustry', 'Planta que fabrica por nosotros', 'MAKING, Panificadora Unión, INDDA', [0, 1, 1]],
     ['FaFlask', 'Laboratorio acreditado', 'SAT Perú y La Molina Calidad Total', [1, 1, 1]],
     ['FaDrumstickBite', 'Proveedores', 'Sangrecita en polvo con RS, Makro, empaques', [0, 1, 1]],
-    ['FaStore', 'Dónde vendemos', 'Malls, Wong y Vivanda, ferias, quioscos y naturistas', [1, 1, 1]],
+    ['FaStore', 'Dónde vendemos', 'Malls y súper para A y B, ferias, quioscos y naturistas', [1, 1, 1]],
     ['FaMobileAlt', 'Tecnología', 'Desarrollador de la app y Google Cloud', [0, 1, 1]],
     ['FaUserMd', 'Quienes nos recomiendan', 'Pediatras y nutricionista', [1, 1, 0]],
   ];
@@ -659,13 +660,13 @@ const chartText = () => ({
   const cw5 = (12.13 - 4 * 0.08) / 5, top = 1.52, th = 3.62, half = (th - 0.08) / 2, bh = 1.22;
   const colX = (i) => 0.6 + i * (cw5 + 0.08);
   const blocks = [
-    ['FaHandshake', 'Socios clave', colX(0), top, cw5, th, ['Planta con certificación que fabrica por nosotros', 'Laboratorio que mide el hierro de cada lote', 'Proveedor de sangrecita en polvo con registro sanitario', 'Malls, Wong y Vivanda', 'Pediatras y nutricionista que nos recomiendan']],
+    ['FaHandshake', 'Socios clave', colX(0), top, cw5, th, ['Planta con certificación que fabrica por nosotros', 'Laboratorio que mide el hierro de cada lote', 'Proveedor de sangrecita en polvo con registro sanitario', 'Malls y súper para A y para B', 'Pediatras y nutricionista que nos recomiendan']],
     ['FaCogs', 'Actividades clave', colX(1), top, cw5, half, ['Fabricar sin planta propia', 'Medir y publicar el hierro', 'Vender en stands y ferias', 'Recompra con la app']],
     ['FaKey', 'Recursos clave', colX(1), top + half + 0.08, cw5, half, ['Receta que esconde la sangrecita', 'Marca y registro sanitario', 'App y datos de cada familia', 'Equipo de venta pagado']],
     ['FaGift', 'Propuesta de valor', colX(2), top, cw5, th, ['El snack de lonchera con hierro que el niño sí se come', 'Hierro medido en cada lote, visible en la app', 'Sabor a brownie, sin octógono', 'App para padres y juego para niños', 'Se prueba gratis antes de comprar']],
     ['FaHeart', 'Relación con clientes', colX(3), top, cw5, half, ['Degustación cara a cara', 'La app avisa cuándo recomprar', 'Mamás embajadoras por salón']],
     ['FaTruck', 'Canales', colX(3), top + half + 0.08, cw5, half, ['Stands y carrito 43 %', 'WhatsApp 18 % · ferias 14 %', 'Colegios y naturistas 25 %']],
-    ['FaUsers', 'Segmentos', colX(4), top, cw5, th, ['Padres A/B de 32 a 45 años que leen etiquetas', 'Hijos de 4 a 11 en colegio privado', '46,000 hogares en Lima Top y Moderna', 'Colegios y tiendas naturistas']],
+    ['FaUsers', 'Segmentos', colX(4), top, cw5, th, ['Padres A y B de 32 a 45 que leen etiquetas (7 de cada 10, B)', 'Hijos de 4 a 11 en colegio privado', '46,000 hogares en Lima Top y Moderna', 'Colegios y tiendas naturistas']],
     ['FaCalculator', 'Estructura de costos', colX(0), top + th + 0.08, cw5 * 2.5 + 0.08 * 2, bh, ['Producir S/1.64 por brownie, sin comprar planta', 'Stands, ferias y vendedores S/51,010 al año · fijos S/2,738 al mes', 'Equilibrio: 2,100 a 4,400 brownies al mes, según los puntos abiertos']],
     ['FaCoins', 'Fuentes de ingreso', colX(0) + cw5 * 2.5 + 0.08 * 3, top + th + 0.08, 12.13 - (cw5 * 2.5 + 0.08 * 3), bh, ['Unidad S/6.00 · caja de 3 S/16.50 · pack de 6 S/27.90', 'Año 1: S/244,728 de ventas y S/10,379 de utilidad neta', 'Año 2: S/322,329 de ventas y S/28,447 de utilidad neta']],
   ];
