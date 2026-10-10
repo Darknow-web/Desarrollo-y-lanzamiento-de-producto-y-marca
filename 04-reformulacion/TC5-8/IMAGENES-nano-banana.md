@@ -30,7 +30,7 @@ Photorealistic editorial portrait of a 38-year-old Peruvian woman, a corporate l
 
 ### IMAGEN 2: Rodrigo (3:4)
 ```
-Photorealistic editorial portrait of a 42-year-old Peruvian man, an operations manager from La Molina, Lima. Short dark hair with a few grey strands, light stubble, friendly and practical expression, slightly hurried morning energy. He wears a navy quarter-zip sweater over a light blue shirt and a smartwatch. Early morning in a modern home kitchen: he holds his phone in one hand (a chat app on screen, not legible) while closing a child's school lunchbox with the other. Warm morning light, cream walls, wooden counter, small accents of chocolate brown and brick red. 85mm lens, f/2, shallow depth of field, natural skin texture. Vertical 3:4 composition, waist-up framing. No text, no logos, no watermark.
+Photorealistic editorial portrait of a 40-year-old Peruvian man, a logistics supervisor from San Miguel, Lima, middle-class. Short dark hair with a few grey strands, light stubble, friendly and practical expression, slightly hurried morning energy. He wears a simple grey polo shirt and a basic wristwatch. Early morning in a small, tidy apartment kitchen: he holds his phone in one hand (a chat app on screen, not legible) while closing a child's school lunchbox with the other. Warm morning light, cream walls, wooden counter, small accents of chocolate brown and brick red. 85mm lens, f/2, shallow depth of field, natural skin texture. Vertical 3:4 composition, waist-up framing. No text, no logos, no watermark.
 ```
 
 ### IMAGEN 3: Lonchera (9:16, adjuntar el empaque)
