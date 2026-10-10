@@ -174,8 +174,39 @@ En el stand, el vendedor muestra la app en una tablet: "Escanea y mira el hierro
 
 | Mes | Qué pasa |
 |---|---|
-| Noviembre de 2026 | Prototipo navegable y prueba con 10 familias del focus |
+| Octubre de 2026 | Prototipo funcional terminado (sección 15) |
+| Noviembre de 2026 | Prueba con 10 familias del focus y ajustes |
 | Diciembre de 2026 | Versión final, primeros lotes con código y análisis de hierro |
 | Enero de 2027 (mes 1) | Lanzamiento junto con el primer stand |
 | Junio de 2027 | Primera revisión: indicadores y nuevas recetas de lonchera |
 | Año 2 | Fase 2: realidad aumentada de Andi en la web, si los indicadores lo justifican |
+
+---
+
+## 15. Prototipo funcional
+
+La app ya existe como prototipo casi terminado, lista para publicarse. El código está en `../app-andi-mision-hierro/`, con su guía de instalación y despliegue en el `README.md` de esa carpeta.
+
+| Qué tiene | Detalle |
+|---|---|
+| Modo padres | Bienvenida con consentimiento, perfiles por hijo, lote por QR o código, semáforo de hierro, plan de loncheras (Gemini o recetario), despensa con aviso y pedido por WhatsApp, control de hemoglobina, puntos de venta, ajustes y borrado de datos |
+| Modo niños | Candado para padres, tiempo de juego, mapa con 4 paradas, los 4 juegos con voz, estrellas y traje de Andi |
+| Panel del equipo (`/admin`) | Publicar el análisis de cada lote, generar códigos e imprimir la hoja de QR o bajar el CSV para la imprenta, ver escaneos por lote y editar los puntos de venta |
+| Tecnología | App web instalable que funciona sin conexión; servidor Node.js; datos en Firestore; contenedor para Google Cloud Run |
+| Pruebas | 11 pruebas automáticas de la lógica (códigos, semáforo y loncheras) y un recorrido automático por todas las pantallas |
+
+**Códigos de demostración** (lotes marcados DEMO):
+
+| Código | Lote |
+|---|---|
+| AB-2ANS-GYZ4 | Chispa, pack de 6 |
+| AB-2J7E-4DDY | Andi, pack de 6 |
+| AB-MF83-HSNE | Lúcu, pack de 12 |
+
+Capturas en `../app-andi-mision-hierro/capturas/`. También están en la diapositiva 30 de la TC5-8 y en la 12 de la T1.
+
+**Antes de lanzar:**
+- Cargar los informes reales del laboratorio.
+- Poner el número de WhatsApp y el registro sanitario.
+- Definir el dominio que irá dentro de cada QR.
+- Revisar los textos legales con el abogado.

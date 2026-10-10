@@ -252,6 +252,8 @@ Precios por 20 g al 3 de octubre de 2026 (documento 02).
 | 13 | **Riesgos** | Sabemos qué puede fallar | Matriz de 2 x 2 con los 6 riesgos (3.3) |
 | 14 | **Próximos 90 días** | Lo que haremos y lo que pedimos | Hoja de ruta (3.4) y llamado a la acción |
 
+En el PPT final (`T1-presentacion-AndiBite-2-0.pptx`, 23 diapositivas), la app tiene su propia diapositiva (la 12), con capturas del prototipo funcional: lote, semáforo de hierro y Misión Hierro. Se presenta en 30 segundos, de 5:30 a 6:00, y conviene mostrarla en vivo desde un celular.
+
 ## 3.2 Equipo y roles
 
 | Integrante | Rol | Responsable de |

@@ -712,7 +712,7 @@ const chartText = () => ({
     await iconCircle(s, fk[i][0], 5.85, y, 0.5, i < 4 ? C.accent3 : C.accent5, H.dk2);
     T(s, fk[i][1], { x: 6.5, y, w: 3.35, h: 0.5, valign: 'middle', fontSize: 15, color: C.background1 });
   }
-  await imgSlot(s, 5, 10.15, 1.6, 2.58, 4.45, 'Pantallas de la app');
+  s.addImage({ path: 'img/app-lote.png', x: 10.33, y: 1.5, w: 2.22, h: 4.48 });
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 6.2, w: 12.13, h: 0.6, rectRadius: 0.3, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
   T(s, [{ text: 'Cumple la Ley 30021: ', options: { bold: true } }, { text: 'en el modo niño no hay compras, ni publicidad, ni premios por comprar.' }], { x: 0.9, y: 6.2, w: 11.6, h: 0.6, valign: 'middle', fontSize: 15, color: C.background1 });
   s.addNotes('La innovación tecnológica que pidió la profesora: una app propia que viene con el producto (documento 09). Es una app web instalable (PWA): el padre escanea el QR del envase y se abre, sin descargar nada. Modo padres: ve el hierro medido en laboratorio de su lote, el semáforo de hierro de la semana frente a una referencia por edad, el plan de loncheras (con IA de Gemini), el recordatorio del control de hemoglobina y la recompra en un clic por WhatsApp. Modo niños: Misión Hierro, con Andi, una llamita exploradora; cuatro juegos que enseñan a combinar hierro con vitamina C, superalimentos andinos, mitos y hábitos, con voz para los que no leen. Lo abre el padre y fija el tiempo de juego. Por la Ley 30021 (art. 8), el modo niño no muestra el producto ni premia la compra; Andi nunca dice "come AndiBite". Solo pedimos apodo y edad del niño (Ley 29733).');
