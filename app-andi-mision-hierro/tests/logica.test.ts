@@ -117,7 +117,7 @@ describe('compartir con el otro padre', () => {
     expect(textoHoy('Mateo', { mg: 6.5, referencia: 10, porcentaje: 65 }, ['AndiBite', 'Lentejas', 'Mandarina'], true))
       .toBe('Hoy Mateo lleva 6.5 de 10 mg de hierro (65 %). Comió: AndiBite, Lentejas y Mandarina. Lonchera: volvió vacía. Enviado desde Andi.');
     expect(textoHoy('Mateo', { mg: 0, referencia: 10, porcentaje: 0 }, [], false)).toContain('Comió: nada registrado todavía. Lonchera: sin marcar.');
-    expect(textoSemana('Mateo', { diasConHierro: 4, mgSemana: 31.2, vacias: 3 })).toBe('Semana de Mateo: 4 de 5 días con hierro, 31.2 mg en total. Loncheras vacías: 3. Enviado desde Andi.');
+    expect(textoSemana('Mateo', { diasConHierro: 4, mgSemana: 31.2, vacias: 3 })).toBe('Semana de Mateo: 4 de 7 días con hierro, 31.2 mg en total. Loncheras vacías: 3. Enviado desde Andi.');
     expect(enlaceCompartir('hola a todos')).toBe('https://wa.me/?text=hola%20a%20todos');
   });
 });

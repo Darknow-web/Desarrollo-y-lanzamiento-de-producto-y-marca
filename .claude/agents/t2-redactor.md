@@ -9,7 +9,7 @@ Lee primero `04-reformulacion/T2/HECHOS_v7.md` (sección "Decisiones del 19-oct-
 
 Qué corriges:
 - Frases "espejo" o de plantilla: "X. Y." repetido como eco ("Él ve... Tú ves..." solo se permite en el concepto de campaña, no más de una vez por pantalla), paralelismos forzados, títulos que son dos sustantivos pegados, "No es X. Es Y.".
-- Frases que no tienen sentido para una mamá de Lima o que suenan a traducción ("el brownie que sí vuelve vacío", "sabe a postre", "que pide por gusto", "medido, no prometido", "hierro medido" como gancho).
+- Frases que no tienen sentido para un papá o una mamá de Lima o que suenan a traducción ("el brownie que sí vuelve vacío", "sabe a postre", "que pide por gusto", "medido, no prometido", "hierro medido" como gancho).
 - Jerga de marketing o de informe en pantallas para público ("propuesta de valor", "diferencial", "touchpoint", "ecosistema") cuando se puede decir en simple.
 - Oraciones de más de 20 palabras, dobles negaciones, gerundios encadenados, "el mismo/la misma", "a nivel de", "en base a".
 - Incoherencias del hilo: cada pantalla debe seguir a la anterior (problema → respuesta → cómo lo supimos → cómo funciona → para quién → campaña → prueben → cierre). Si una frase contradice la decisión vigente (slogan, hierro como promesa y no como gancho, 25 entrevistas · 8 focus · 8 mamás · 2 recorridos de tienda, puntos Jockey Plaza, Salaverry y La Molina), márcala.

@@ -21,7 +21,7 @@
 .encabezado h1 { font-size: 17px; font-weight: 700; text-align: center; flex: 1; color: var(--cafe); }
 
 /* Barra de navegación */
-.barra { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(12px + var(--seguro-abajo)); width: calc(100% - 24px); max-width: 520px; height: 72px; background: rgba(255, 255, 255, .94); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-radius: 28px; box-shadow: var(--sombra-fuerte); display: grid; grid-template-columns: repeat(4, 1fr); align-items: center; z-index: 20; padding: 0 6px; }
+.barra { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(12px + var(--seguro-abajo)); width: calc(100% - 24px); max-width: 520px; height: 72px; background: var(--blanco); border-radius: 28px; box-shadow: var(--sombra-fuerte); display: grid; grid-template-columns: repeat(4, 1fr); align-items: center; z-index: 20; padding: 0 6px; }
 .barra-item { display: grid; justify-items: center; gap: 2px; color: var(--cafe-medio); font-size: 11.5px; font-weight: 700; padding: 6px 0; min-height: 56px; align-content: center; border-radius: 18px; }
 .barra-item.activo { color: var(--ladrillo); }
 .barra-item.activo .barra-icono { background: var(--ladrillo-suave); }
@@ -264,10 +264,10 @@ button.punto-dia:not(:disabled):active i { transform: scale(.92); }
 .bienvenida-paso { display: grid; gap: 12px; justify-items: center; text-align: center; }
 .bienvenida-form { justify-self: stretch; text-align: left; }
 .bienvenida-form form { display: grid; gap: 12px; margin-top: 8px; }
-.bienvenida-fila { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: end; }
+.bienvenida-fila { display: grid; grid-template-columns: 1fr; gap: 12px; }
 .bienvenida-fila .campo { margin: 0; }
 .avatares { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.avatares button { height: 56px; border-radius: 16px; background: var(--blanco); box-shadow: inset 0 0 0 1.5px var(--linea); font-size: 26px; transition: transform .15s; }
+.avatares button { min-width: 56px; min-height: 56px; height: 56px; border-radius: 16px; background: var(--blanco); box-shadow: inset 0 0 0 1.5px var(--linea); font-size: 26px; transition: transform .15s; }
 .avatares button.activo { box-shadow: inset 0 0 0 2.5px var(--ladrillo); background: var(--ladrillo-suave); }
 
 /* Despensa */

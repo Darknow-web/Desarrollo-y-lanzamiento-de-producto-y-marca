@@ -129,7 +129,7 @@ export default function Atrapa() {
 
   if (fase === 'inicio') return (
     <InicioJuego juego="atrapa" titulo="Atrapa el hierro" nivel={nivel} max={MAX} marca={m => `${m} puntos`} alJugar={empezar}
-      pista={<><span className="pista-tramo"><span>🫘 🍲 🥬 🥣 🥚 🍗</span> sí</span> &nbsp;·&nbsp; <span className="pista-tramo"><span>🥤 🍬</span> no</span> &nbsp;·&nbsp; <span className="pista-tramo">meta {cfg.objetivo}</span></>} />
+      pista={<><span className="pista-tramo"><span>🫘 🍲 🥬 🥣 🥚 🍗</span> sí</span><span className="pista-tramo"><span>🥤 🍬</span> no</span><span className="pista-tramo">meta {cfg.objetivo}</span></>} />
   );
 
   const golpeado = vista.golpe && performance.now() - vista.golpe < 400;

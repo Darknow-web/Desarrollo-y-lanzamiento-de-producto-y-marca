@@ -38,7 +38,7 @@ export default function Mas() {
       </Tarjeta>
       <nav className="tarjeta enlaces" aria-label="Opciones">
         {enlaces.map(e => <Link key={e.t} to={e.a} className="fila"><Icono n={e.n} /><span><strong>{e.t}</strong><small>{e.d}</small></span><Icono n="derecha" /></Link>)}
-        <div className="fila"><Icono n="corazon" /><span><strong>Papás y mamás que recomiendan</strong><small>Pide en el stand tu código de embajador; el premio es para ti.</small></span></div>
+        <div className="fila"><Icono n="corazon" /><span><strong>Papás y mamás que recomiendan</strong><small>Pide en el stand tu código de embajador; el premio es para ti.</small></span><Icono n="derecha" /></div>
         <Link to="/privacidad" className="fila"><Icono n="escudo" /><span><strong>Privacidad y borrar datos</strong><small>Qué guardamos y cómo borrarlo</small></span><Icono n="derecha" /></Link>
       </nav>
       <Tarjeta>

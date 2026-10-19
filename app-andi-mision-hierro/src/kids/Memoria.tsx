@@ -63,7 +63,7 @@ export default function Memoria() {
 
   if (fase === 'inicio') return (
     <InicioJuego juego="memoria" titulo="Memoria" nivel={nivel} max={MAX} marca={m => `${m} intentos`} alJugar={empezar}
-      pista={<>🃏 {pares} parejas</>} />
+      pista={<span className="pista-tramo">🃏 {pares} parejas</span>} />
   );
 
   return (

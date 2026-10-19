@@ -4,8 +4,8 @@ export interface Alimento { id: string; nombre: string; porcion: string; mg: num
 
 export const ALIMENTOS: Alimento[] = [
   { id: 'sangrecita', nombre: 'Sangrecita', porcion: '2 cucharadas (30 g)', mg: 8.9, hemo: true, emoji: '🍲' },
-  { id: 'bazo', nombre: 'Bazo de res', porcion: '2 cucharadas (30 g)', mg: 8.6, hemo: true, emoji: '🥘' },
-  { id: 'higado', nombre: 'Hígado de pollo', porcion: '2 cucharadas (30 g)', mg: 2.6, hemo: true, emoji: '🍳' },
+  { id: 'bazo', nombre: 'Bazo de res', porcion: '2 cucharadas (30 g)', mg: 8.6, hemo: true, emoji: '🥩' },
+  { id: 'higado', nombre: 'Hígado de pollo', porcion: '2 cucharadas (30 g)', mg: 2.6, hemo: true, emoji: '🍗' },
   { id: 'res', nombre: 'Carne de res', porcion: '1 trozo chico (50 g)', mg: 1.3, hemo: true, emoji: '🥩' },
   { id: 'pescado', nombre: 'Pescado (bonito, jurel)', porcion: '1 trozo chico (50 g)', mg: 0.8, hemo: true, emoji: '🐟' },
   { id: 'pollo', nombre: 'Pollo', porcion: '1 presa chica (50 g)', mg: 0.5, hemo: true, emoji: '🍗' },

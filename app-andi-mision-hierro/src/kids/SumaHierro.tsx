@@ -30,7 +30,7 @@ export default function SumaHierro() {
   );
   if (c.fase === 'inicio') return (
     <InicioJuego juego="sumas" titulo="Suma de hierro" nivel={c.nivel} max={c.NIVELES} marca={m => `${m} de ${c.RONDAS} a la primera`} alJugar={c.empezar}
-      pista={<>🫘 + 🫘 = ? &nbsp;·&nbsp; {NOMBRE_TRAMO[c.tramo]}</>} />
+      pista={<><span className="pista-tramo">🫘 + 🫘 = ?</span><span className="pista-tramo">{NOMBRE_TRAMO[c.tramo]}</span></>} />
   );
 
   const { ficha, grupos } = pregunta;

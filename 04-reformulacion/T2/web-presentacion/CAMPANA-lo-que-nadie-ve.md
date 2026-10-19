@@ -34,7 +34,7 @@ Video: maestro 16:9 de 16 s (`vid/campana_maestro.mp4`), sin texto en la imagen.
      Mateo, 7 años, sobre los nuggets de sangrecita que le preparó su mamá, Lucero.
   3. «Quieres ser la mamá perfecta que da todo orgánico, pero la realidad te aplasta.»
      Vanessa, mamá entrevistada.
-- **Frase que las une:** Esconderlo, disfrazarlo, inventarle un cuento: cada casa tiene su truco, y nadie lo aplaude.
+- **Frase que las une:** Esconderlo, disfrazarlo, inventarle un cuento: cada casa tiene su truco.
 
 ## 3. La idea
 
@@ -45,9 +45,9 @@ Video: maestro 16:9 de 16 s (`vid/campana_maestro.mp4`), sin texto en la imagen.
   Le pusiste nombre de dinosaurio a la sopa.
   El jugo verde fue «de Hulk» toda una semana.
   Y por el hígado inventaste un cuento con final feliz.
-  Nadie aplaude esos trucos. Nadie los ve.
+  Nadie aplaude esos trucos, porque nadie los ve.
   Por eso hicimos uno que ya no necesita cuento:
-  un mini brownie que te vuelve a pedir, con el hierro escondido adentro.
+  un mini brownie que tu hijo te vuelve a pedir, con el hierro escondido adentro.
   Y una app que te muestra, cada día, lo que nadie ve.
 
 - **Firma:** AndiBite. El truco que ya no necesita cuento.

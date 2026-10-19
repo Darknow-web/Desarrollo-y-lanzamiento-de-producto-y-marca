@@ -26,7 +26,7 @@ export default function Layout() {
       </main>
       <nav className="barra" aria-label="Secciones">
         {TABS.map(t => (
-          <NavLink key={t.a} to={t.a} end={t.a === '/'} className={({ isActive }) => `barra-item ${isActive ? 'activo' : ''}`}>
+          <NavLink key={t.a} to={t.a} end={t.a === '/'} className={({ isActive }) => `barra-item ${isActive || (t.a === '/' && pathname.startsWith('/hoy')) ? 'activo' : ''}`}>
             <span className="barra-icono"><Icono n={t.n} tam={22} /></span>
             <span className="barra-texto">{t.t}</span>
           </NavLink>

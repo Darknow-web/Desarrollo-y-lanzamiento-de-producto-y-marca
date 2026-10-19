@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
 import Andi from '../components/Andi';
+import Icono from '../components/Icono';
 import { FONDOS, LOOKS, type Look } from '../data/ninos';
 import { useProgreso } from '../lib/estado';
 import { hablar, sonido } from '../lib/voz';
@@ -57,8 +58,9 @@ export default function Vestir() {
           const tiene = l.comprados.includes(k.id); const puesto = l.look === k.id;
           const regalo = total >= k.nivel; const alcanza = regalo || p.estrellas >= k.estrellas;
           return (
-            <button key={k.id} className={`look ${puesto ? 'puesto' : ''} ${tiene ? 'tiene' : alcanza ? 'alcanza' : 'falta'} ${sacude === k.id ? 'sacude' : ''}`} onClick={() => tocar(k.id, k.estrellas, k.nivel)}
+            <button key={k.id} className={`look ${puesto ? 'puesto' : ''} ${tiene ? 'tiene' : alcanza ? 'alcanza' : 'falta bloqueado'} ${sacude === k.id ? 'sacude' : ''}`} onClick={() => tocar(k.id, k.estrellas, k.nivel)}
               aria-pressed={puesto} aria-label={`${k.nombre}: ${puesto ? 'puesto' : tiene ? 'ponerse' : regalo ? 'regalo por nivel' : `cuesta ${k.estrellas} estrellas o nivel total ${k.nivel}`}`}>
+              {!tiene && !alcanza && <span className="look-candado" aria-hidden="true"><Icono n="candado" tam={14} /></span>}
               <Andi tam={64} look={k.id} titulo="" />
               <span className="look-nombre">{k.nombre}</span>
               <span className="look-precio">{puesto ? '✓ Puesto' : tiene ? 'Ponerme' : regalo ? '🎁 Regalo' : `⭐ ${k.estrellas}`}</span>

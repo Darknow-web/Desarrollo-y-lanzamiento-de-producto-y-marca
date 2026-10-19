@@ -49,7 +49,7 @@ export default function Palabras() {
   );
   if (c.fase === 'inicio') return (
     <InicioJuego juego="palabras" titulo="Palabras de la lonchera" nivel={c.nivel} max={c.NIVELES} marca={m => `${m} de ${c.RONDAS} a la primera`} alJugar={c.empezar}
-      pista={<>🔤 {c.tramo === 'a' ? 'La letra que falta' : c.tramo === 'b' ? 'Ordena las sílabas' : 'Completa y adivina'} &nbsp;·&nbsp; {NOMBRE_TRAMO[c.tramo]}</>} />
+      pista={<><span className="pista-tramo">🔤 {c.tramo === 'a' ? 'La letra que falta' : c.tramo === 'b' ? 'Ordena las sílabas' : 'Completa y adivina'}</span><span className="pista-tramo">{NOMBRE_TRAMO[c.tramo]}</span></>} />
   );
 
   const animo = mal !== null ? 'piensa' : hecho ? 'wow' : 'feliz';

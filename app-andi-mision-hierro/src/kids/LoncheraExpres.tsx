@@ -142,7 +142,7 @@ export default function LoncheraExpres() {
 
   if (fase === 'inicio') return (
     <InicioJuego juego="lonchera" titulo="Lonchera exprés" nivel={nivel} max={MAX} marca={m => `${m} s de sobra`} alJugar={() => { setGanadas(0); setSobra(0); empezarRonda(0); }}
-      pista={<><span className="pista-tramo">🍱 hierro</span> &nbsp;·&nbsp; <span className="pista-tramo">🍊 fruta</span> &nbsp;·&nbsp; <span className="pista-tramo">💧 sin azúcar</span> &nbsp;·&nbsp; <span className="pista-tramo">⏱ {cfg.tiempos[0]} s</span></>} />
+      pista={<><span className="pista-tramo">🍱 hierro</span><span className="pista-tramo">🍊 fruta</span><span className="pista-tramo">💧 sin azúcar</span><span className="pista-tramo">⏱ {cfg.tiempos[0]} s</span></>} />
   );
 
   const pct = Math.max(0, restante / cfg.tiempos[ronda]);

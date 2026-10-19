@@ -134,7 +134,7 @@ export function ResumenSemana({ nino, fecha = hoyISO(), pasada, enHoy }: { nino:
   const referencia = semana.dias[0]?.referencia ?? 10;
   const meta = referencia * 7;
   const avance = Math.min(100, Math.round((hierro.mgSemana / meta) * 100));
-  const enviar = () => compartirTexto(`La semana de ${nino.apodo}`, textoSemana(nino.apodo, { diasConHierro: semana.dias.filter(d => d.conHierro).length, mgSemana: hierro.mgSemana, vacias: semana.vacias }));
+  const enviar = () => compartirTexto(`La semana de ${nino.apodo}`, textoSemana(nino.apodo, { diasConHierro: hierro.diasConHierro, mgSemana: hierro.mgSemana, vacias: semana.vacias }));
   const frase = hierro.color === 'verde' ? 'Semana redonda: casi todos los días con hierro.' : hierro.color === 'ambar' ? 'Buena semana. La meta es 5 días o más con hierro.' : hierro.diasConHierro > 0 ? 'Pocos días con hierro. El lunes seguimos.' : 'Esta semana no registraron hierro.';
   return (
     <section className="reto-hero resumen-semana" aria-labelledby="resumen-titulo">

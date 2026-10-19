@@ -67,7 +67,7 @@ export default function Ingles() {
   );
   if (c.fase === 'inicio') return (
     <InicioJuego juego="ingles" titulo="Inglés de lonchera" nivel={c.nivel} max={c.NIVELES} marca={m => `${m} de ${c.RONDAS} a la primera`} alJugar={c.empezar}
-      pista={<><span className="pista-tramo">🍎 apple</span> &nbsp;·&nbsp; <span className="pista-tramo">{c.tramo === 'a' ? 'Toca la palabra' : c.tramo === 'b' ? 'Une las parejas' : 'Escribe la palabra'}</span> &nbsp;·&nbsp; <span className="pista-tramo">{NOMBRE_TRAMO[c.tramo]}</span></>} />
+      pista={<><span className="pista-tramo">🍎 apple</span><span className="pista-tramo">{c.tramo === 'a' ? 'Toca la palabra' : c.tramo === 'b' ? 'Une las parejas' : 'Escribe la palabra'}</span><span className="pista-tramo">{NOMBRE_TRAMO[c.tramo]}</span></>} />
   );
 
   const animo = mal !== null ? 'piensa' : hecho ? 'wow' : 'feliz';

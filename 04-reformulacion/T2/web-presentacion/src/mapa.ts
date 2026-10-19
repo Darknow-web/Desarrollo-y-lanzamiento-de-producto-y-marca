@@ -1,10 +1,10 @@
-// Mapa de posicionamiento (T2_10 y benchmark T2_02): sabe a remedio o sabe a gusto,
+// Mapa de posicionamiento (T2_10 y benchmark T2_02): sabor de suplemento o sabor de postre,
 // frente a con hierro o sin hierro. Ubicación cualitativa según el benchmark. Se dibuja en SVG.
 type Brand = { n: string; x: number; y: number; ref?: boolean; dx: number; dy: number; anchor?: 'start' | 'end' | 'middle' };
 
 const W = 1000, H = 700;
 const X0 = 70, X1 = 980, Y0 = 16, Y1 = 610;
-const PX = (v: number) => X0 + v * (X1 - X0); // 0 = remedio, 1 = gusto
+const PX = (v: number) => X0 + v * (X1 - X0); // 0 = sabor de suplemento, 1 = sabor de postre
 const PY = (v: number) => Y1 - v * (Y1 - Y0); // 0 = sin hierro, 1 = con hierro
 
 const BRANDS: Brand[] = [
@@ -28,7 +28,7 @@ export function buildMapa(el: HTMLElement): void {
   t.push(`<text class="m-axt" x="${X1}" y="${Y1 + 40}" text-anchor="end">Sabor de postre</text>`);
   t.push(`<text class="m-axt" transform="translate(26 ${Y1 - 10}) rotate(-90)" text-anchor="start">Sin hierro</text>`);
   t.push(`<text class="m-axt" transform="translate(26 ${Y0 + 10}) rotate(-90)" text-anchor="end">Con hierro</text>`);
-  t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y0 + 34}">CON HIERRO, SABOR DE SUPLEMENTO</text>`);
+  t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y0 + 34}">SABOR DE SUPLEMENTO, CON HIERRO</text>`);
   t.push(`<text class="m-ql hot" x="${X1 - 18}" y="${Y0 + 34}" text-anchor="end">SABOR DE POSTRE, CON HIERRO</text>`);
   t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y1 - 18}">SABOR DE SUPLEMENTO, SIN HIERRO</text>`);
   t.push(`<text class="m-ql" x="${X1 - 18}" y="${Y1 - 18}" text-anchor="end">SABOR DE POSTRE, SIN HIERRO</text>`);

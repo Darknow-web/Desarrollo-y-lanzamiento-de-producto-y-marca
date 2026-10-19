@@ -12,9 +12,9 @@ export function textoHoy(apodo: string, hierro: Pick<HierroDia, 'mg' | 'referenc
   return `Hoy ${apodo} lleva ${hierro.mg} de ${hierro.referencia} mg de hierro (${hierro.porcentaje} %). Comió: ${comio}. Lonchera: ${vacia ? 'volvió vacía' : 'sin marcar'}. ${FIRMA}`;
 }
 
-/** "Semana de {apodo}: {diasConHierro} de 5 días con hierro, {mgSemana} mg en total. Loncheras vacías: N." */
+/** "Semana de {apodo}: {diasConHierro} de 7 días con hierro, {mgSemana} mg en total. Loncheras vacías: N." */
 export function textoSemana(apodo: string, semana: { diasConHierro: number; mgSemana: number; vacias: number }) {
-  return `Semana de ${apodo}: ${semana.diasConHierro} de 5 días con hierro, ${semana.mgSemana} mg en total. Loncheras vacías: ${semana.vacias}. ${FIRMA}`;
+  return `Semana de ${apodo}: ${semana.diasConHierro} de 7 días con hierro, ${semana.mgSemana} mg en total. Loncheras vacías: ${semana.vacias}. ${FIRMA}`;
 }
 
 /** Enlace de WhatsApp sin número: el padre elige a quién se lo manda. */
