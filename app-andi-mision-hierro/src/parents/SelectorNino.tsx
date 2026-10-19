@@ -5,6 +5,7 @@ export default function SelectorNino() {
   const ninos = useEstado(e => e.ninos);
   const activo = useEstado(e => ninoActivo(e)?.id);
   if (ninos.length === 0) return <Link to="/bienvenida" className="chip chip-agregar">+ Agregar a tu hijo o hija</Link>;
+  if (ninos.length === 1) return null;
   return (
     <div className="selector-nino" role="radiogroup" aria-label="Hijo o hija">
       {ninos.map(n => (

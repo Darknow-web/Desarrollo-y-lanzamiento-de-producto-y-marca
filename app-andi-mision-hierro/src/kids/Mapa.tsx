@@ -19,8 +19,7 @@ export default function Mapa() {
     <div className="mapa">
       <motion.div className={`mapa-andi fondo-${fondo}`} initial={{ opacity: 0, scale: .94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .35, ease: SUAVE }}
         onClick={() => hablar(p.estrellas ? `Tienes ${p.estrellas} estrella${p.estrellas === 1 ? '' : 's'}. ¿Jugamos?` : '¡Juega, sube de nivel y gana estrellas para vestirme!')}>
-        <Andi tam={150} look={look} className="andi-flota" />
-        <span className="mapa-estrellas" aria-label={`${p.estrellas} estrellas`}>⭐ {p.estrellas}</span>
+        <Andi tam={120} look={look} className="andi-flota" />
       </motion.div>
       <div className="mapa-juegos">
         {PARADAS.map((s, i) => {

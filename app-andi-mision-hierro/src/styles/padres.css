@@ -26,7 +26,7 @@
 
 /* Marca */
 .marca-cabeza { display: flex; justify-content: space-between; align-items: center; padding: 10px 0 0; }
-.marca-cabeza img { width: 150px; height: auto; display: block; }
+.marca-cabeza img { width: 112px; height: auto; display: block; }
 
 /* Escaneo (bloque reutilizable) */
 .zona-escaneo { display: grid; gap: 10px; justify-items: center; }
@@ -55,7 +55,7 @@
 .inicio-saludo { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-top: 4px; }
 .inicio-saludo > div { display: grid; gap: 6px; min-width: 0; }
 .inicio-saludo .kicker { font-size: 11.5px; }
-.inicio-saludo .titulo-pantalla { font-size: 24px; }
+.inicio-saludo .titulo-pantalla { font-size: 20px; }
 .andi-mini { flex: none; margin: -6px -6px -14px 0; }
 .rutas { display: grid; gap: 12px; }
 .ruta { display: flex; align-items: center; gap: 14px; padding: 16px 18px; color: var(--cafe-medio); min-height: 80px; transition: transform .15s, box-shadow .2s; }
@@ -77,7 +77,7 @@
 .reto-hero { background: var(--blanco); border-radius: 26px; box-shadow: var(--sombra); padding: 22px 20px 20px; display: grid; gap: 12px; position: relative; }
 .hero-hoy { justify-items: center; text-align: center; gap: 10px; }
 .hero-hoy .reto-cabeza { justify-self: stretch; }
-.anillo { position: relative; width: 156px; height: 156px; display: grid; place-items: center; margin: 2px 0 0; }
+.anillo { position: relative; width: 132px; height: 132px; display: grid; place-items: center; margin: 2px 0 0; }
 .anillo svg { position: absolute; inset: 0; transform: rotate(-90deg); }
 .anillo-pista { fill: none; stroke: var(--crema-2); stroke-width: 11; }
 .anillo-avance { fill: none; stroke: var(--ladrillo); stroke-width: 11; stroke-linecap: round; transition: stroke .3s; }
@@ -89,7 +89,7 @@
 .anillo-completo .anillo-centro strong { color: var(--oliva-oscuro); }
 .hoy-titulo { font-size: clamp(19px, 5.4vw, 22px); font-weight: 800; letter-spacing: -.015em; color: var(--cafe); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 .reto-hecho .hoy-titulo { color: var(--oliva-oscuro); }
-.acciones-hoy { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; width: 100%; margin-top: 2px; }
+.acciones-hoy { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 8px; width: 100%; margin-top: 2px; }
 .accion-hoy { min-height: 72px; border-radius: 18px; background: var(--crema); color: var(--cafe); display: grid; justify-items: center; align-content: center; gap: 5px; padding: 8px 6px; font-weight: 800; font-size: 12.5px; line-height: 1.1; white-space: nowrap; transition: background .2s, color .2s, box-shadow .2s; }
 .accion-hoy span { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
 .accion-hoy .icono { color: var(--ladrillo); }
@@ -124,7 +124,7 @@
 .punto-dia.hoy i { box-shadow: 0 0 0 2.5px var(--cafe); }
 .punto-dia.hoy span { color: var(--cafe); }
 .punto-dia.sel { background: var(--crema); }
-.punto-dia.futuro { opacity: .4; }
+.punto-dia.futuro { opacity: .6; }
 button.punto-dia { min-height: 56px; }
 button.punto-dia:disabled { cursor: default; }
 button.punto-dia:not(:disabled):active i { transform: scale(.92); }
@@ -139,11 +139,12 @@ button.punto-dia:not(:disabled):active i { transform: scale(.92); }
 .dia-lista .fila { box-shadow: none; padding: 10px 0; border-top: 1px solid var(--linea); border-radius: 0; background: transparent; }
 .dia-lista .fila:first-child { border-top: 0; }
 .dia-detalle .dia-acciones { margin: 2px 0; }
-.dia-detalle .chip { min-height: 48px; }
+.dia-detalle .chip { min-height: 56px; }
 .alimentos-rapidos { grid-template-columns: repeat(2, 1fr); }
-.alimentos-rapidos .alimento { min-height: 72px; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; }
+.alimentos-rapidos .alimento { min-height: 72px; grid-template-columns: auto 1fr; align-items: center; gap: 10px; row-gap: 0; }
+.alimentos-rapidos .alimento > span { grid-row: 1 / 3; }
 .alimentos-rapidos .alimento strong { font-size: 15px; }
-.alimentos-rapidos .alimento em { margin-top: 0; }
+.alimentos-rapidos .alimento em { margin-top: 0; grid-column: 2; white-space: nowrap; }
 .reto-racha { display: inline-flex; align-items: center; gap: 6px; color: var(--cafe-medio); font-weight: 700; font-size: 14px; }
 .reto-racha .icono { color: var(--dorado); }
 .reto-hecho .reto-racha { color: var(--oliva-oscuro); }
@@ -263,7 +264,7 @@ button.punto-dia:not(:disabled):active i { transform: scale(.92); }
 .bienvenida-fila { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: end; }
 .bienvenida-fila .campo { margin: 0; }
 .avatares { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.avatares button { height: 50px; border-radius: 16px; background: var(--blanco); box-shadow: inset 0 0 0 1.5px var(--linea); font-size: 26px; transition: transform .15s; }
+.avatares button { height: 56px; border-radius: 16px; background: var(--blanco); box-shadow: inset 0 0 0 1.5px var(--linea); font-size: 26px; transition: transform .15s; }
 .avatares button.activo { box-shadow: inset 0 0 0 2.5px var(--ladrillo); background: var(--ladrillo-suave); }
 
 /* Despensa */
@@ -418,4 +419,14 @@ button.punto-dia:not(:disabled):active i { transform: scale(.92); }
   .titulo-grande { font-size: 40px; }
 }
 .accion-hoy span { white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.15; text-align: center; font-size: 11.5px; }
-.inicio-saludo .kicker { font-size: 10px; letter-spacing: .08em; }
+.inicio-saludo .kicker { font-size: 10px; letter-spacing: .08em; color: var(--cafe-medio, #6B3A2A); }
+
+.celebra-sub { color: var(--cafe-medio, #6B3A2A); font-weight: 700; margin-top: -6px; }
+
+/* Ajustes del revisor visual */
+.reto .resumen-semana .reto-ver, .reto .resumen-semana .puntos-semana, .reto .resumen-semana .boton-reto { display: none; }
+.armar > .boton { position: sticky; bottom: calc(96px + var(--seguro-abajo, 0px)); z-index: 2; }
+.campo > .paso { justify-self: start; }
+.dia-detalle .chip-activo { background: var(--oliva); color: #fff; }
+.dia-detalle .dia-acciones .chip { flex: 1; justify-content: center; }
+.bienvenida-paso .lead { font-size: 15px; max-width: 34ch; }

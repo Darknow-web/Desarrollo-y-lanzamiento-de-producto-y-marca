@@ -64,7 +64,7 @@ export default function KidsLayout() {
         <Link to="/ninos" className="ninos-titulo">{nino ? <><span aria-hidden="true">{nino.avatar}</span> {nino.apodo}</> : 'Misión Hierro'}</Link>
         <div className="ninos-estado">
           <span className="ninos-estrellas" aria-label={`${estrellas} estrellas`}>⭐ {estrellas}</span>
-          <span className="ninos-reloj" style={{ background: `conic-gradient(#4A2018 ${pct * 360}deg, rgba(74,32,24,.15) 0)` }} aria-label={`Quedan ${Math.ceil(restante / 60000)} minutos`}><i /></span>
+          <span className="ninos-reloj" style={{ background: `conic-gradient(#4A2018 ${pct * 360}deg, rgba(74,32,24,.15) 0)` }} aria-label={`Quedan ${Math.ceil(restante / 60000)} minutos`}><i><Icono n="reloj" tam={16} /></i></span>
         </div>
       </header>
       <main className="ninos-contenido"><Outlet /></main>

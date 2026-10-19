@@ -34,9 +34,9 @@ export default function Memoria() {
 
   const empezar = () => {
     setFichas(repartir(pares)); setHechas([]); setAbiertas([]); setIntentos(0); setDato('Encuentra las parejas de comidas.'); setFase('jugando');
-    hablar(`¡Memoria andina! Nivel ${nivel}: ${pares} parejas.`);
+    hablar(`¡Memoria! Nivel ${nivel}: ${pares} parejas.`);
   };
-  useEffect(() => { if (fase === 'inicio') hablar(`Memoria andina, nivel ${nivel}. Encuentra ${parejasDe(nivel)} parejas.`); }, [fase, nivel]);
+  useEffect(() => { if (fase === 'inicio') hablar(`Memoria, nivel ${nivel}. Encuentra ${parejasDe(nivel)} parejas.`); }, [fase, nivel]);
 
   const tocar = (f: Ficha) => {
     if (abiertas.length === 2 || abiertas.includes(f.k) || hechas.includes(f.id)) return;
@@ -62,7 +62,7 @@ export default function Memoria() {
     alSiguiente={() => { setFin(null); setNivel(n => Math.min(MAX, n + 1)); setFase('inicio'); }} />;
 
   if (fase === 'inicio') return (
-    <InicioJuego juego="memoria" titulo="Memoria andina" nivel={nivel} max={MAX} marca={m => `${m} intentos`} alJugar={empezar}
+    <InicioJuego juego="memoria" titulo="Memoria" nivel={nivel} max={MAX} marca={m => `${m} intentos`} alJugar={empezar}
       pista={<>🃏 {pares} parejas</>} />
   );
 

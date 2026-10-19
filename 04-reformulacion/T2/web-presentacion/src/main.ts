@@ -293,6 +293,8 @@ function updateUi(sec: HTMLElement): void {
   document.body.classList.toggle('theme-dark', dark);
   document.body.classList.toggle('theme-light', !dark);
   uiSec.textContent = sec.dataset.sec ?? '';
+  uiSec.hidden = (sec.querySelector('.kicker')?.textContent ?? '').trim().toLowerCase() === (sec.dataset.sec ?? '').toLowerCase();
+  document.body.classList.toggle('is-hero', sec.id === 's-portada' || sec.id === 's-cierre');
   if (sec.dataset.annex) {
     uiNum.textContent = `Anexo ${sec.dataset.annex} / ${annexSlides.length}`;
     uiBar.style.width = '100%';

@@ -40,7 +40,6 @@ export default function Vestir() {
       <motion.div key={estreno} className={`vestir-escena fondo-${l.fondo}`} initial={{ scale: estreno ? .9 : 1 }} animate={{ scale: 1 }} transition={{ type: 'spring', stiffness: 260, damping: 16 }}>
         <Andi tam={200} look={l.look} animo={estreno ? 'wow' : 'feliz'} className="andi-flota" />
         <div className="vestir-marcas">
-          <span className="mapa-estrellas" aria-label={`${p.estrellas} estrellas`}>⭐ {p.estrellas}</span>
           <span className="mapa-estrellas" aria-label={`Nivel total ${total}`}>🏅 Nivel total {total}</span>
         </div>
       </motion.div>

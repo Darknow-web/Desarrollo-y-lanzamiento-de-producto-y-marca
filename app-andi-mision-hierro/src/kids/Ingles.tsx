@@ -25,7 +25,7 @@ export default function Ingles() {
   const [escrito, setEscrito] = useState<number[]>([]);          // teclas usadas, en orden (escribir)
   const [hecho, setHecho] = useState(false);
 
-  useEffect(() => { if (c.fase === 'inicio') hablar(`Inglés de lonchera, nivel ${c.nivel}. Ocho rondas. ¿Listo?`); }, [c.fase, c.nivel]);
+  useEffect(() => { if (c.fase === 'inicio') hablar(`Inglés de lonchera, nivel ${c.nivel}. Ocho rondas. ¿Empezamos?`); }, [c.fase, c.nivel]);
   useEffect(() => {
     if (c.fase !== 'jugando') return;
     setMarcada(null); setMal(null); setIzq(null); setHechos([]); setEscrito([]); setHecho(false);
@@ -67,7 +67,7 @@ export default function Ingles() {
   );
   if (c.fase === 'inicio') return (
     <InicioJuego juego="ingles" titulo="Inglés de lonchera" nivel={c.nivel} max={c.NIVELES} marca={m => `${m} de ${c.RONDAS} a la primera`} alJugar={c.empezar}
-      pista={<>🍎 apple &nbsp;·&nbsp; {c.tramo === 'a' ? 'Toca la palabra' : c.tramo === 'b' ? 'Une las parejas' : 'Escribe la palabra'} &nbsp;·&nbsp; {NOMBRE_TRAMO[c.tramo]}</>} />
+      pista={<><span className="pista-tramo">🍎 apple</span> &nbsp;·&nbsp; <span className="pista-tramo">{c.tramo === 'a' ? 'Toca la palabra' : c.tramo === 'b' ? 'Une las parejas' : 'Escribe la palabra'}</span> &nbsp;·&nbsp; <span className="pista-tramo">{NOMBRE_TRAMO[c.tramo]}</span></>} />
   );
 
   const animo = mal !== null ? 'piensa' : hecho ? 'wow' : 'feliz';
@@ -80,9 +80,12 @@ export default function Ingles() {
 
       {ronda.tipo === 'elegir' && (
         <>
+          <div className="andi-habla" onClick={() => hablar(`¿Cómo se dice ${ronda.par.es} en inglés?`)}>
+            <Andi tam={70} look={look} animo={animo} />
+            <p className="burbuja">{`¿Cómo se dice ${ronda.par.es} en inglés?`}</p>
+          </div>
           <div className="palabra-emoji" aria-hidden="true">{ronda.par.emoji}</div>
           <p className="palabra-es">{ronda.par.es}</p>
-          <Andi tam={70} look={look} animo={animo} />
           <div className="respuestas texto">
             {ronda.opciones.map(o => <button key={o} className={`respuesta ${marcada === o ? 'bien' : ''} ${mal === o ? 'mal sacude' : ''}`} onClick={() => elegir(o)} lang="en">{o}</button>)}
           </div>
@@ -115,12 +118,15 @@ export default function Ingles() {
 
       {ronda.tipo === 'escribir' && (
         <>
+          <div className="andi-habla" onClick={() => hablar(`Escribe ${ronda.par.es} en inglés.`)}>
+            <Andi tam={70} look={look} animo={animo} />
+            <p className="burbuja">{`Escribe ${ronda.par.es} en inglés.`}</p>
+          </div>
           <div className="palabra-emoji" aria-hidden="true">{ronda.par.emoji}</div>
           <p className="palabra-es">{ronda.par.es}{ronda.pista && <small> · empieza con «{ronda.pista}»</small>}</p>
           <div className={`letras ${mal === 'escrito' ? 'sacude' : ''}`} aria-label="Palabra escrita" lang="en">
             {ronda.par.en.split('').map((_, i) => { const k = escrito[i]; return <span key={i} className={`letra ${k !== undefined ? (hecho ? 'bien' : 'puesta') : 'hueco'}`}>{k !== undefined ? ronda.teclas[k].letra : ''}</span>; })}
           </div>
-          <Andi tam={64} look={look} animo={animo} />
           <div className="teclado" role="group" aria-label="Teclado de letras">
             {ronda.teclas.map(t => <button key={t.k} className={`tecla ${escrito.includes(t.k) ? 'usada' : ''}`} disabled={escrito.includes(t.k) || hecho} onClick={() => teclear(t.k)} aria-label={`Letra ${t.letra}`}>{t.letra}</button>)}
             <button className="tecla borrar" disabled={!escrito.length || hecho} onClick={() => setEscrito(e => e.slice(0, -1))} aria-label="Borrar">⌫</button>

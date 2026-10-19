@@ -26,7 +26,7 @@ export default function Mas() {
 
   return (
     <div className="pantalla mas">
-      <Encabezado titulo="Más" atras="/" />
+      <Encabezado titulo="Más" />
       <Tarjeta>
         <h2>Familia</h2>
         {ninos.map(n => (
@@ -38,7 +38,7 @@ export default function Mas() {
       </Tarjeta>
       <nav className="tarjeta enlaces" aria-label="Opciones">
         {enlaces.map(e => <Link key={e.t} to={e.a} className="fila"><Icono n={e.n} /><span><strong>{e.t}</strong><small>{e.d}</small></span><Icono n="derecha" /></Link>)}
-        <div className="fila"><Icono n="corazon" /><span><strong>Mamás que recomiendan</strong><small>Pregunta en el stand por tu código de embajadora; el premio es para ti.</small></span></div>
+        <div className="fila"><Icono n="corazon" /><span><strong>Papás y mamás que recomiendan</strong><small>Pide en el stand tu código de embajador; el premio es para ti.</small></span></div>
         <Link to="/privacidad" className="fila"><Icono n="escudo" /><span><strong>Privacidad y borrar datos</strong><small>Qué guardamos y cómo borrarlo</small></span><Icono n="derecha" /></Link>
       </nav>
       <Tarjeta>
@@ -55,7 +55,7 @@ export default function Mas() {
       </Tarjeta>
       <Tarjeta className="acerca">
         <h2>Acerca de</h2>
-        <p><strong>Andi</strong> es la app de AndiBite, el mini brownie de 20 g con sangrecita para niños de 4 a 11 años. Versión 2.0.</p>
+        <p><strong>Andi</strong> es la app de AndiBite, el mini brownie de 20 g con sangrecita para niños de 4 a 11 años. Versión 3.0.</p>
         <p className="nota">{SLOGAN} · Lima, Perú.</p>
       </Tarjeta>
       <p className="nota-legal">{NOTA_LEGAL}</p>
@@ -98,7 +98,7 @@ export function Privacidad() {
         <h2>Lo que llega a nuestro servidor</h2>
         <p>El código del envase que escaneas, para mostrarte su lote y contar cuántas veces se escanea. Si usas el plan de loncheras, también el apodo, la edad y lo que tu hijo debe evitar, solo para armar ese plan. Nada más.</p>
         <h2>Modo niños</h2>
-        <p>Misión Hierro no muestra productos, precios ni publicidad, no tiene compras y no premia comprar ni comer el brownie (Ley 30021). Las estrellas se ganan jugando y con la lonchera vacía.</p>
+        <p>Misión Hierro no muestra productos, precios ni publicidad, no tiene compras ni premios por comprar (Ley 30021). Las estrellas se ganan jugando y cuando la lonchera vuelve vacía; la app solo anota el hierro del día, nunca vende.</p>
         <h2>Tus derechos</h2>
         <p>Puedes descargar o borrar tus datos cuando quieras (Ley 29733, de Protección de Datos Personales). Para consultas, escríbenos por WhatsApp desde Mi despensa.</p>
       </Tarjeta>

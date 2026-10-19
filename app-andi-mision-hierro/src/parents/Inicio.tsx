@@ -47,7 +47,7 @@ function Anillo({ mg, referencia, porcentaje }: { mg: number; referencia: number
   const avance = Math.min(1, porcentaje / 100);
   return (
     <div className={`anillo ${completo ? 'anillo-completo' : ''}`} role="img" aria-label={`${porcentaje} % del hierro de hoy: ${mg} de ${referencia} mg`}>
-      <svg viewBox="0 0 128 128" width="156" height="156" aria-hidden="true">
+      <svg viewBox="0 0 128 128" width="132" height="132" aria-hidden="true">
         <circle cx="64" cy="64" r={RADIO} className="anillo-pista" />
         <motion.circle cx="64" cy="64" r={RADIO} className="anillo-avance" strokeDasharray={LARGO}
           initial={reducir ? false : { strokeDashoffset: LARGO }}
@@ -98,9 +98,9 @@ function HeroHoy({ nino }: { nino: Nino }) {
         <motion.button type="button" className={`accion-hoy ${vacia ? 'hecha' : 'principal'}`} onClick={alternarVacia} aria-pressed={vacia} whileTap={{ scale: 0.96 }}>
           <Icono n={vacia ? 'check' : 'lonchera'} tam={22} grosor={vacia ? 3 : 2} /><span>{vacia ? 'Volvió vacía' : 'Volvió vacía hoy'}</span>
         </motion.button>
-        <motion.button type="button" className={`accion-hoy ${lonchera?.dia.hecho ? 'hecha' : ''}`} onClick={alternarPlan} disabled={!lonchera} aria-pressed={!!lonchera?.dia.hecho} whileTap={{ scale: 0.96 }}>
-          <Icono n={lonchera?.dia.hecho ? 'check' : 'sumar'} tam={22} grosor={lonchera?.dia.hecho ? 3 : 2} /><span>Lonchera del plan</span>
-        </motion.button>
+        {lonchera && <motion.button type="button" className={`accion-hoy ${lonchera.dia.hecho ? 'hecha' : ''}`} onClick={alternarPlan} aria-pressed={!!lonchera.dia.hecho} whileTap={{ scale: 0.96 }}>
+          <Icono n={lonchera.dia.hecho ? 'check' : 'sumar'} tam={22} grosor={lonchera.dia.hecho ? 3 : 2} /><span>Lonchera del plan</span>
+        </motion.button>}
         <motion.button type="button" className="accion-hoy" onClick={() => setHoja(true)} whileTap={{ scale: 0.96 }}>
           <Icono n="sumar" tam={22} /><span>Otra comida</span>
         </motion.button>
@@ -135,7 +135,7 @@ export default function Inicio() {
           <p className="kicker">{SLOGAN}</p>
           <h1 className="titulo-pantalla">{SALUDO()}{nino ? `, familia de ${nino.apodo}` : ''}</h1>
         </div>
-        <Andi tam={64} className="andi-mini" />
+        <Andi tam={48} className="andi-mini" />
       </Item>
       {ninos > 1 && <Item><SelectorNino /></Item>}
 

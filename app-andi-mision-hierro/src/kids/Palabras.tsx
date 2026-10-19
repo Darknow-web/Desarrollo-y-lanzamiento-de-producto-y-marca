@@ -21,7 +21,7 @@ export default function Palabras() {
   const [puestas, setPuestas] = useState<number[]>([]);     // sílabas elegidas (índices k)
   const [hecho, setHecho] = useState(false);
 
-  useEffect(() => { if (c.fase === 'inicio') hablar(`Palabras de la lonchera, nivel ${c.nivel}. Ocho palabras. ¿Listo?`); }, [c.fase, c.nivel]);
+  useEffect(() => { if (c.fase === 'inicio') hablar(`Palabras de la lonchera, nivel ${c.nivel}. Ocho palabras. ¿Empezamos?`); }, [c.fase, c.nivel]);
   useEffect(() => {
     if (c.fase !== 'jugando') return;
     setMarcada(null); setMal(null); setPuestas([]); setHecho(false);
@@ -62,11 +62,14 @@ export default function Palabras() {
 
       {ronda.tipo === 'letra' && (
         <>
+          <div className="andi-habla" onClick={() => hablar(`${bonito(ronda.palabra.palabra)}. ¿Qué letra falta?`)}>
+            <Andi tam={70} look={look} animo={animo} />
+            <p className="burbuja">¿Qué letra falta?</p>
+          </div>
           <div className="palabra-emoji" aria-hidden="true">{ronda.palabra.emoji}</div>
           <div className="letras" aria-label={`Palabra ${ronda.mostrada.replace('_', 'con una letra que falta')}`}>
             {ronda.mostrada.split('').map((l, i) => <span key={i} className={`letra ${i === ronda.indice ? (marcada ? 'bien' : 'hueco') : ''}`}>{i === ronda.indice ? (marcada ?? '') : l}</span>)}
           </div>
-          <Andi tam={70} look={look} animo={animo} />
           <div className="respuestas">
             {ronda.opciones.map(o => <button key={o} className={`respuesta ${marcada === o ? 'bien' : ''} ${mal === o ? 'mal sacude' : ''}`} onClick={() => elegir(o, ronda.respuesta)} aria-label={`Letra ${o}`}>{o}</button>)}
           </div>
@@ -75,11 +78,14 @@ export default function Palabras() {
 
       {ronda.tipo === 'silabas' && (
         <>
+          <div className="andi-habla" onClick={() => hablar(`Ordena las sílabas de ${bonito(ronda.palabra.palabra)}.`)}>
+            <Andi tam={70} look={look} animo={animo} />
+            <p className="burbuja">Ordena las sílabas.</p>
+          </div>
           <div className="palabra-emoji" aria-hidden="true">{ronda.palabra.emoji}</div>
           <div className="letras" aria-label="Sílabas puestas">
             {ronda.orden.map((_, i) => { const k = puestas[i]; const f = ronda.fichas.find(x => x.k === k); return <span key={i} className={`letra silaba ${f ? 'bien' : 'hueco'}`}>{f?.texto ?? ''}</span>; })}
           </div>
-          <Andi tam={70} look={look} animo={animo} />
           <div className="silabas">
             {ronda.fichas.map(f => (
               <button key={f.k} className={`respuesta silaba-boton ${puestas.includes(f.k) ? 'puesta' : ''} ${mal === String(f.k) ? 'mal sacude' : ''}`} disabled={puestas.includes(f.k) || hecho} onClick={() => tocarSilaba(f.k, f.texto)} aria-label={`Sílaba ${f.texto}`}>{f.texto}</button>

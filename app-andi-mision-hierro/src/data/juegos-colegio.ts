@@ -16,16 +16,16 @@ export const mezclar = <T,>(a: T[]) => [...a].sort(() => Math.random() - 0.5);
 /* =====================================================================
    SUMA DE HIERRO
    ===================================================================== */
-export interface FichaAlimento { emoji: string; uno: string; varios: string }
+export interface FichaAlimento { emoji: string; uno: string; varios: string; fem?: boolean }
 export const FICHAS: FichaAlimento[] = [
-  { emoji: '🫘', uno: 'lenteja', varios: 'lentejas' },
-  { emoji: '🥚', uno: 'huevo', varios: 'huevos' },
-  { emoji: '🍊', uno: 'mandarina', varios: 'mandarinas' },
-  { emoji: '🥔', uno: 'papa', varios: 'papas' },
-  { emoji: '🍓', uno: 'fresa', varios: 'fresas' },
-  { emoji: '🌽', uno: 'choclo', varios: 'choclos' },
-  { emoji: '🥕', uno: 'zanahoria', varios: 'zanahorias' },
-  { emoji: '🍌', uno: 'plátano', varios: 'plátanos' },
+  { emoji: '🫘', uno: 'lenteja', varios: 'lentejas', fem: true },
+  { emoji: '🥚', uno: 'huevo', varios: 'huevos', fem: false },
+  { emoji: '🍊', uno: 'mandarina', varios: 'mandarinas', fem: true },
+  { emoji: '🥔', uno: 'papa', varios: 'papas', fem: true },
+  { emoji: '🍓', uno: 'fresa', varios: 'fresas', fem: true },
+  { emoji: '🌽', uno: 'choclo', varios: 'choclos', fem: false },
+  { emoji: '🥕', uno: 'zanahoria', varios: 'zanahorias', fem: true },
+  { emoji: '🍌', uno: 'plátano', varios: 'plátanos', fem: false },
 ];
 const NOMBRES = ['Teo', 'Lía', 'Mía', 'Kusi', 'Nico', 'Ana', 'Pablo', 'Inti'];
 export type Operacion = '+' | '-' | '×' | '÷' | 'contar';
@@ -57,24 +57,25 @@ function opcionesNumericas(respuesta: number, salto: number): number[] {
 }
 
 const plural = (n: number, f: FichaAlimento) => `${n} ${n === 1 ? f.uno : f.varios}`;
+const cuantas = (f: FichaAlimento) => (f.fem ? 'Cuántas' : 'Cuántos');
 
 function problemaLinea(op: '+' | '-' | '×' | '÷', a: number, b: number, f: FichaAlimento): string {
   const q = uno(NOMBRES);
   if (op === '+') return uno([
-    `${q} tiene ${plural(a, f)} y le dan ${b} más. ¿Cuántas tiene ahora?`,
-    `En la lonchera hay ${plural(a, f)} y papá o mamá pone ${b} más. ¿Cuántas hay?`,
+    `${q} tiene ${plural(a, f)} y le dan ${b} más. ¿${cuantas(f)} tiene ahora?`,
+    `En la lonchera hay ${plural(a, f)} y papá o mamá pone ${b} más. ¿${cuantas(f)} hay?`,
   ]);
   if (op === '-') return uno([
-    `${q} tiene ${plural(a, f)} y come ${b}. ¿Cuántas le quedan?`,
-    `Había ${plural(a, f)} y ${q} regaló ${b}. ¿Cuántas quedan?`,
+    `${q} tiene ${plural(a, f)} y come ${b}. ¿${cuantas(f)} le quedan?`,
+    `Había ${plural(a, f)} y ${q} regaló ${b}. ¿${cuantas(f)} quedan?`,
   ]);
   if (op === '×') return uno([
-    `Cada lonchera tiene ${plural(a, f)}. ¿Cuántas hay en ${b} loncheras?`,
-    `${q} arma ${b} platos con ${plural(a, f)} cada uno. ¿Cuántas usa?`,
+    `Cada lonchera tiene ${plural(a, f)}. ¿${cuantas(f)} hay en ${b} loncheras?`,
+    `${q} arma ${b} platos con ${plural(a, f)} cada uno. ¿${cuantas(f)} usa?`,
   ]);
   return uno([
-    `${q} reparte ${plural(a, f)} entre ${b} amigos, en partes iguales. ¿Cuántas le toca a cada uno?`,
-    `Hay ${plural(a, f)} para ${b} loncheras iguales. ¿Cuántas van en cada una?`,
+    `${q} reparte ${plural(a, f)} entre ${b} amigos, en partes iguales. ¿${cuantas(f)} le tocan a cada uno?`,
+    `Hay ${plural(a, f)} para ${b} loncheras iguales. ¿${cuantas(f)} van en cada una?`,
   ]);
 }
 
@@ -85,15 +86,15 @@ export function generarSuma(tramo: Tramo, nivel: number, ronda: number): Pregunt
   if (tramo === 'a') {
     if (nivel <= 5) {                     // contar fichas
       const n = entre(1, Math.min(10, 2 + nivel));
-      return { ...base, op: 'contar', titulo: '¿Cuántas hay?', enunciado: `¿Cuántas ${f.varios} hay?`, grupos: [n], respuesta: n, opciones: opcionesNumericas(n, 2) };
+      return { ...base, op: 'contar', titulo: `¿${cuantas(f)} hay?`, enunciado: `¿${cuantas(f)} ${f.varios} hay?`, grupos: [n], respuesta: n, opciones: opcionesNumericas(n, 2) };
     }
     if (nivel <= 14 || ronda % 2 === 0) { // sumar con fichas visibles hasta 10
       const max = Math.min(10, 4 + Math.floor((nivel - 5) * 0.75));
       const a = entre(1, max - 1), b = entre(1, max - a);
-      return { ...base, op: '+', titulo: `${a} + ${b}`, enunciado: `${plural(a, f)} más ${plural(b, f)}. ¿Cuántas hay?`, grupos: [a, b], respuesta: a + b, opciones: opcionesNumericas(a + b, 2) };
+      return { ...base, op: '+', titulo: `${a} + ${b}`, enunciado: `${plural(a, f)} más ${plural(b, f)}. ¿${cuantas(f)} hay?`, grupos: [a, b], respuesta: a + b, opciones: opcionesNumericas(a + b, 2) };
     }
     const a = entre(2, 10), b = entre(1, a);  // quitar (resta) con fichas tachadas
-    return { ...base, op: '-', titulo: `${a} − ${b}`, enunciado: `Hay ${plural(a, f)} y Andi se come ${b}. ¿Cuántas quedan?`, grupos: [a, b], respuesta: a - b, opciones: opcionesNumericas(a - b, 2) };
+    return { ...base, op: '-', titulo: `${a} − ${b}`, enunciado: `Hay ${plural(a, f)} y Andi se come ${b}. ¿${cuantas(f)} quedan?`, grupos: [a, b], respuesta: a - b, opciones: opcionesNumericas(a - b, 2) };
   }
   if (tramo === 'b') {
     const max = nivel <= 5 ? 10 + nivel * 2 : nivel <= 10 ? 20 + (nivel - 5) * 6 : nivel <= 15 ? 50 + (nivel - 10) * 10 : 100;
@@ -103,11 +104,11 @@ export function generarSuma(tramo: Tramo, nivel: number, ronda: number): Pregunt
     if (resta) {
       const a = entre(Math.ceil(max / 3), max), b = entre(1, a - 1);
       const r = a - b;
-      return { ...base, op: '-', titulo: conProblema ? '¿Cuántas quedan?' : `${a} − ${b}`, enunciado: conProblema ? problemaLinea('-', a, b, f) : `${a} menos ${b}`,
+      return { ...base, op: '-', titulo: conProblema ? `¿${cuantas(f)} quedan?` : `${a} − ${b}`, enunciado: conProblema ? problemaLinea('-', a, b, f) : `${a} menos ${b}`,
         grupos: a <= 10 ? [a, b] : undefined, respuesta: r, opciones: opcionesNumericas(r, salto) };
     }
     const a = entre(1, max - 1), b = entre(1, max - a);
-    return { ...base, op: '+', titulo: conProblema ? '¿Cuántas hay?' : `${a} + ${b}`, enunciado: conProblema ? problemaLinea('+', a, b, f) : `${a} más ${b}`,
+    return { ...base, op: '+', titulo: conProblema ? `¿${cuantas(f)} hay?` : `${a} + ${b}`, enunciado: conProblema ? problemaLinea('+', a, b, f) : `${a} más ${b}`,
       grupos: a + b <= 12 ? [a, b] : undefined, respuesta: a + b, opciones: opcionesNumericas(a + b, salto) };
   }
   // tramo c: multiplicaciones, divisiones y problemas de una línea
@@ -125,10 +126,10 @@ export function generarSuma(tramo: Tramo, nivel: number, ronda: number): Pregunt
   }
   if (op === '+') {
     const a = entre(15, 80), b = entre(10, 100 - a > 10 ? 100 - a : 19);
-    return { ...base, op, titulo: '¿Cuántas hay?', enunciado: problemaLinea('+', a, b, f), respuesta: a + b, opciones: opcionesNumericas(a + b, 10) };
+    return { ...base, op, titulo: `¿${cuantas(f)} hay?`, enunciado: problemaLinea('+', a, b, f), respuesta: a + b, opciones: opcionesNumericas(a + b, 10) };
   }
   const a = entre(20, 100), b = entre(5, a - 1);
-  return { ...base, op, titulo: '¿Cuántas quedan?', enunciado: problemaLinea('-', a, b, f), respuesta: a - b, opciones: opcionesNumericas(a - b, 10) };
+  return { ...base, op, titulo: `¿${cuantas(f)} quedan?`, enunciado: problemaLinea('-', a, b, f), respuesta: a - b, opciones: opcionesNumericas(a - b, 10) };
 }
 
 /* =====================================================================
@@ -143,7 +144,7 @@ export const PALABRAS: Palabra[] = [
   P('SOPA', '🍜', 'SO-PA', 'La ___ está caliente.', 'Se come con cuchara y está calientita.'),
   P('MESA', '🪑', 'ME-SA', 'Almorzamos en la ___.', 'Tiene cuatro patas y no camina.'),
   P('VASO', '🥛', 'VA-SO', 'Lleno el ___ con agua.', 'Allí se sirve el agua para beber.'),
-  P('OLLA', '🍲', 'O-LLA', 'Mamá cocina la sopa en la ___.', 'Se pone al fuego para cocinar.'),
+  P('OLLA', '🍲', 'O-LLA', 'Papá cocina la sopa en la ___.', 'Se pone al fuego para cocinar.'),
   P('HUEVO', '🥚', 'HUE-VO', 'Mamá puso un ___ sancochado en mi lonchera.', 'Lo pone la gallina y tiene cáscara.'),
   P('PALTA', '🥑', 'PAL-TA', 'Me gusta el pan con ___.', 'Verde por fuera, cremosa por dentro y con una pepa grande.'),
   P('FRESA', '🍓', 'FRE-SA', 'La ___ es roja y dulce.', 'Fruta roja con puntitos y hojitas verdes.'),
@@ -175,7 +176,7 @@ export const PALABRAS: Palabra[] = [
   P('ESPINACA', '🥬', 'ES-PI-NA-CA', 'La ___ tiene hierro.', 'Hoja verde con hierro que comía un marinero fuerte.'),
   P('CUADERNO', '📒', 'CUA-DER-NO', 'Escribo en mi ___.', 'Tiene hojas para escribir y una pasta.'),
   P('MANDARINA', '🍊', 'MAN-DA-RI-NA', 'Pelé una ___ jugosa en el recreo.', 'Es naranja, pequeña y se pela con los dedos.'),
-  P('ZANAHORIA', '🥕', 'ZA-NA-HO-RIA', 'La ___ es buena para los ojos.', 'Naranja, larga y le gusta a los conejos.'),
+  P('ZANAHORIA', '🥕', 'ZA-NA-HO-RIA', 'La ___ es buena para los ojos.', 'Naranja, larga y les gusta a los conejos.'),
   P('PROFESORA', '👩‍🏫', 'PRO-FE-SO-RA', 'La ___ nos enseña a leer.', 'Enseña en el salón de clase.'),
   P('SANGRECITA', '🍲', 'SAN-GRE-CI-TA', 'La ___ tiene muchísimo hierro.', 'Plato peruano con muchísimo hierro.'),
 ];

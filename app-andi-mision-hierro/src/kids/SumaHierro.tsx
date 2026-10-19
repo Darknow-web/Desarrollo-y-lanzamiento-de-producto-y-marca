@@ -15,7 +15,7 @@ export default function SumaHierro() {
   const [marcada, setMarcada] = useState<number | null>(null);
   const [mal, setMal] = useState<number | null>(null);
 
-  useEffect(() => { if (c.fase === 'inicio') hablar(`Suma de hierro, nivel ${c.nivel}. Ocho preguntas. ¿Listo?`); }, [c.fase, c.nivel]);
+  useEffect(() => { if (c.fase === 'inicio') hablar(`Suma de hierro, nivel ${c.nivel}. Ocho preguntas. ¿Empezamos?`); }, [c.fase, c.nivel]);
   useEffect(() => { if (c.fase === 'jugando') { setMarcada(null); setMal(null); hablar(pregunta.enunciado); } }, [pregunta, c.fase]);
 
   const responder = (n: number) => {
@@ -44,7 +44,7 @@ export default function SumaHierro() {
         <Andi tam={76} look={look} animo={mal !== null ? 'piensa' : marcada !== null ? 'wow' : 'feliz'} />
         <p className="burbuja">{pregunta.enunciado}</p>
       </div>
-      <div className="suma-titulo" aria-hidden="true">{pregunta.titulo}</div>
+      {!pregunta.titulo.startsWith('¿') && <div className="suma-titulo" aria-hidden="true">{pregunta.titulo}</div>}
       {grupos && (
         <div className="fichas" aria-hidden="true">
           {grupos.map((n, g) => (

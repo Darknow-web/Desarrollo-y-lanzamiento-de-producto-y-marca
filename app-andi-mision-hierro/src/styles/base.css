@@ -53,7 +53,7 @@ img, svg { max-width: 100%; }
 .boton-primario { background: var(--ladrillo); color: #fff; box-shadow: 0 8px 20px rgba(186, 64, 54, .25); }
 .boton-primario:hover { background: var(--ladrillo-oscuro); }
 .boton-secundario { background: var(--blanco); color: var(--cafe); box-shadow: inset 0 0 0 1.5px var(--linea), var(--sombra); }
-.boton-suave { background: var(--crema-2); color: var(--cafe); min-height: 48px; padding: 0 18px; font-size: 15px; }
+.boton-suave { background: var(--crema-2); color: var(--cafe); min-height: 56px; padding: 0 18px; font-size: 15px; }
 .boton-peligro { background: transparent; color: var(--ladrillo-oscuro); box-shadow: inset 0 0 0 1.5px #EBC4BE; }
 .boton-oscuro { background: var(--cafe); color: var(--crema); }
 .boton-whatsapp { background: var(--whatsapp); color: #fff; box-shadow: 0 8px 20px rgba(26, 143, 74, .25); }
@@ -84,7 +84,7 @@ img, svg { max-width: 100%; }
 .campo-fila small { color: var(--suave); font-weight: 400; }
 
 .paso { display: inline-flex; align-items: center; background: var(--crema-2); border-radius: 999px; padding: 3px; flex: none; }
-.paso button { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: var(--blanco); color: var(--cafe); box-shadow: var(--sombra); }
+.paso button { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: var(--blanco); color: var(--cafe); box-shadow: var(--sombra); }
 .paso button:disabled { opacity: .35; }
 .paso output { min-width: 38px; text-align: center; font-weight: 800; font-size: 17px; font-variant-numeric: tabular-nums; }
 

@@ -52,6 +52,7 @@ export function Celebracion({ nino, racha, mg, alCerrar }: { nino: Nino; racha: 
           <Andi animo="wow" tam={132} />
         </motion.div>
         <h2>¡Volvió vacía!</h2>
+        <p className="celebra-sub">Esto es lo que nadie ve.</p>
         <p className="celebra-estrella"><Icono n="estrella" tam={22} /> +1 estrella para {nino.apodo}</p>
         {mg ? <p className="celebra-mg"><Icono n="gota" tam={16} /> +{mg} mg de hierro sumados a hoy</p> : null}
         <p className="celebra-racha">{racha >= 2 ? `${racha} días seguidos esta semana` : 'Ya puede usarla en Misión Hierro'}</p>
@@ -125,7 +126,7 @@ function FilaRegistro({ r, alBorrar }: { r: { id: string; alimentoId: string; no
 }
 
 /** "La semana de {apodo}": días con hierro, mg de la semana frente a la referencia × 7, semáforo y el paso siguiente. */
-export function ResumenSemana({ nino, fecha = hoyISO(), pasada }: { nino: Nino; fecha?: string; pasada?: boolean }) {
+export function ResumenSemana({ nino, fecha = hoyISO(), pasada, enHoy }: { nino: Nino; fecha?: string; pasada?: boolean; enHoy?: boolean }) {
   const semana = useRacha(nino.id, fecha);
   const registros = useEstado(e => e.registros);
   const hierro = resumenSemana(registros, nino.id, fecha);
@@ -137,22 +138,22 @@ export function ResumenSemana({ nino, fecha = hoyISO(), pasada }: { nino: Nino; 
     <section className="reto-hero resumen-semana" aria-labelledby="resumen-titulo">
       <div className="reto-cabeza">
         <p className="kicker">El hierro de la semana</p>
-        {!pasada && <Link to="/hoy" className="reto-ver">Ver el día <Icono n="derecha" tam={16} /></Link>}
+        {!pasada && !enHoy && <Link to="/hoy" className="reto-ver">Ver el día <Icono n="derecha" tam={16} /></Link>}
       </div>
-      <h2 id="resumen-titulo" className="reto-titulo">{pasada ? `La semana pasada de ${nino.apodo}` : `La semana de ${nino.apodo}`}</h2>
+      <h2 id="resumen-titulo" className="reto-titulo">{pasada ? `Lo que nadie vio la semana pasada` : `Lo que nadie vio esta semana`}</h2>
       <p className="resumen-cifra"><strong>{hierro.diasConHierro}</strong><span>de 7 días con hierro</span></p>
       <div className="aporte" aria-label={`${hierro.mgSemana} de ${meta} mg en la semana`}>
         <div className="aporte-barra"><i style={{ width: `${avance}%` }} /></div>
         <p><strong>{hierro.mgSemana} mg</strong> de los {meta} mg de la semana</p>
       </div>
-      <PuntosSemana semana={semana} />
+      {!enHoy && <PuntosSemana semana={semana} />}
       <p className="reto-racha">{frase}</p>
       <Link to="/hierro" className={`resumen-semaforo semaforo-${hierro.color}`}>
         <span className="semaforo-luces" aria-hidden="true"><i /><i /><i /></span>
         <span><strong>Semáforo de hierro</strong> · {semana.vacias} {semana.vacias === 1 ? 'lonchera vacía' : 'loncheras vacías'}</span>
         <Icono n="derecha" tam={18} />
       </Link>
-      {!pasada && <Link to="/loncheras" className="boton boton-primario boton-ancho boton-reto"><Icono n="lonchera" tam={22} /><span>Armar las loncheras de la próxima semana</span></Link>}
+      {!pasada && !enHoy && <Link to="/loncheras" className="boton boton-primario boton-ancho boton-reto"><Icono n="lonchera" tam={22} /><span>Armar las loncheras de la próxima semana</span></Link>}
     </section>
   );
 }
@@ -219,7 +220,7 @@ export default function Hoy() {
         <Boton ancho tipo="secundario" icono="sumar" onClick={() => setHoja(true)}>Otra comida con hierro</Boton>
       </Item>
 
-      <Item><ResumenSemana nino={nino} /></Item>
+      <Item><ResumenSemana nino={nino} enHoy /></Item>
       <HojaComida abierta={hoja} alCerrar={() => setHoja(false)} nino={nino} fecha={dia} />
       <AnimatePresence>{celebrando !== undefined && <Celebracion nino={nino} racha={semana.racha} mg={celebrando || undefined} alCerrar={() => setCelebrando(undefined)} />}</AnimatePresence>
     </Cascada>

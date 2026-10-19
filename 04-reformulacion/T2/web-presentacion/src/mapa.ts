@@ -12,7 +12,7 @@ const BRANDS: Brand[] = [
   { n: 'Forticao', x: 0.3, y: 0.66, dx: 20, dy: 8, anchor: 'start' },
   { n: 'Fika', x: 0.84, y: 0.4, dx: 20, dy: 8, anchor: 'start' },
   { n: 'Mamalama', x: 0.6, y: 0.32, dx: 0, dy: -24, anchor: 'middle' },
-  { n: 'Siete Dragones', x: 0.52, y: 0.14, dx: 0, dy: 40, anchor: 'middle', ref: true },
+  { n: 'Siete Dragones', x: 0.52, y: 0.14, dx: 18, dy: 8, anchor: 'start', ref: true },
   { n: 'Bimbo Nutra Bien', x: 0.74, y: 0.12, dx: 0, dy: -24, anchor: 'middle', ref: true },
   { n: 'La Purita', x: 0.93, y: 0.22, dx: 0, dy: -24, anchor: 'middle', ref: true },
 ];

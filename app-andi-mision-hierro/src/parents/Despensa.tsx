@@ -43,7 +43,7 @@ export default function Despensa() {
 
   return (
     <Cascada className="pantalla despensa">
-      <Encabezado titulo="Mi despensa" atras="/" accion={<button className="btn-icono" onClick={() => setHoja(true)} aria-label="Agregar pack"><Icono n="sumar" /></button>} />
+      <Encabezado titulo="Mi despensa" accion={despensa.length > 0 ? <button className="btn-icono" onClick={() => setHoja(true)} aria-label="Agregar pack"><Icono n="sumar" /></button> : undefined} />
 
       {despensa.length === 0 ? (
         <Item className="vacio">
@@ -96,7 +96,7 @@ export default function Despensa() {
         </>
       )}
 
-      <Item as="section" className="tarjeta pedido" >
+      {despensa.length > 0 && <Item as="section" className="tarjeta pedido" >
         <div><p className="kicker">Recompra</p><h2>Pedir por WhatsApp</h2></div>
         <p className="nota">Precios con IGV. Entregas 2 días por semana o recojo en el stand.</p>
         {(Object.keys(PRECIOS) as ClavePedido[]).map(k => (
@@ -110,7 +110,7 @@ export default function Despensa() {
           href={total === 0 ? undefined : enlaceWhatsApp(whatsapp, mensaje)} target="_blank" rel="noopener noreferrer">
           <Icono n="whatsapp" tam={22} /><span>Pedir por WhatsApp</span></a>
         {total > 0 && <p className="pedido-mensaje"><span>Mensaje que se envía:</span> {mensaje}</p>}
-      </Item>
+      </Item>}
       <Agregar abierta={hoja} alCerrar={() => setHoja(false)} />
     </Cascada>
   );
