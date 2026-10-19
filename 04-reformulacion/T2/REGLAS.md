@@ -1,0 +1,10 @@
+# Reglas comunes para los agentes del T2
+
+1. Lee primero `04-reformulacion/T2/HECHOS_v7.md` (fuente de verdad) y `04-reformulacion/T2/CLASE-sesion09.md` (lo que pide la clase). Si otro documento contradice HECHOS_v7, manda HECHOS_v7.
+2. No inventes datos. Todo número, porcentaje o referencia externa lleva fuente confiable (INEI, BCRP, APEIM, MINSA, MINEDU, ENDES, Kantar, Ipsos, CPI, Meta, El Peruano, Gestión, etc.), enlace y fecha, lo más actual posible a octubre de 2026. Si no lo puedes verificar, escribe [POR CONFIRMAR]. Las cifras del negocio salen del Excel v7 y de HECHOS_v7, sin cambiarlas.
+3. No cambies precios, volúmenes, presupuesto (S/24,544; S/900 al mes), puntos de venta, público (A y B con esfuerzo parejo), buyer personas (Claudia A y Rodrigo B) ni mensajes ya decididos. Si propones algo nuevo, márcalo como [PROPUESTA] y explica por qué.
+4. Cuando la clase pide un prompt de IA (🤖), usa el prompt de `CLASE-sesion09.md`: complétalo con los datos de AndiBite, muestra el prompt completado en el documento y entrega el resultado revisado críticamente (qué se corrigió o validó con datos).
+5. Español de Perú, palabras simples, frases cortas, sin emojis. Explica cada sigla la primera vez.
+6. Escribe en Markdown simple para que el conversor a Word funcione: solo `#`, `##`, `###`, párrafos, listas con `-` o `1.`, tablas con `|`, negritas `**`. Sin HTML, sin imágenes, sin notas al pie. Primera línea: `# T2 · #NN Título del tema`. Segunda: una línea con `Responsable: Nombre · Grupo 2 · AndiBite` (si no es de Carlos, agrega ` · Propuesta para revisar`). Termina con una sección `## Fuentes` con enlaces.
+7. Guarda en `04-reformulacion/T2/md/T2_#NN_Tema-corto.md` (por ejemplo `T2_08_Que-le-importa-al-cliente.md`). No hagas commit.
+8. Al terminar responde en 8 a 12 líneas: qué escribiste, qué datos nuevos investigaste (con fuente) y qué queda [POR CONFIRMAR] o contradice otros documentos.
