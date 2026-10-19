@@ -1,5 +1,4 @@
 # T2 · #01 Recap del Canvas T1
-
 Responsable: Diana Ayoso · Grupo 2 · AndiBite · Propuesta para revisar
 
 ## Para qué sirve este punto
@@ -54,9 +53,9 @@ El primer Canvas (15 de setiembre de 2026) era una hipótesis armada con datos d
 
 ## Fuentes
 
-- Diapositiva 22 "Canvas" de la TC5-8: `04-reformulacion/TC5-8/fuente/build.js` y `TC5-8-AndiBite.pptx`.
-- Cifras vigentes: `04-reformulacion/T2/HECHOS_v7.md` (modelo v7, 19-oct-2026) y `Costeo-presentaciones-AndiBite.xlsx`.
-- Canvas anterior y tabla de cambios: `03-entregables/02-business-model-canvas.md` y `04-reformulacion/07-T1-canvas-propuesta-de-valor-validacion-y-pitch.md`, sección 1.3.
+- Diapositiva 22 "Canvas" de la TC5-8: 04-reformulacion/TC5-8/fuente/build.js y TC5-8-AndiBite.pptx.
+- Cifras vigentes: 04-reformulacion/T2/HECHOS_v7.md (modelo v7, 19-oct-2026) y Costeo-presentaciones-AndiBite.xlsx.
+- Canvas anterior y tabla de cambios: 03-entregables/02-business-model-canvas.md y 04-reformulacion/07-T1-canvas-propuesta-de-valor-validacion-y-pitch.md, sección 1.3.
 - ONU. Objetivo 2: Hambre cero, meta 2.2. https://www.un.org/sustainabledevelopment/es/hunger/ (consulta del 19-oct-2026).
 - Banco Mundial, metadatos ODS. Indicador 2.2.3: prevalencia de la anemia en las mujeres de 15 a 49 años. https://worldbank.github.io/sdg-metadata/metadata/es/2-2-3 (consulta del 19-oct-2026).
 - ONU. Objetivo 3: Salud y bienestar. https://www.un.org/sustainabledevelopment/es/health/

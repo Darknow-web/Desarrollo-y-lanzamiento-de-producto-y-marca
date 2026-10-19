@@ -1,5 +1,4 @@
 # T2 · #08 Qué le importa al cliente
-
 Responsable: Patricia Cárdenas · Grupo 2 · AndiBite · Propuesta para revisar
 
 ## Para qué sirve este punto
@@ -49,10 +48,10 @@ Agregamos una cuarta columna con la evidencia de cada fila, para que nada quede 
 
 ## Fuentes
 
-- `01-contexto/03-resumen-entrevistas-profundidad.md` (10 entrevistas, Lima Norte, NSE C/B).
-- `01-contexto/04-resumen-focus-group-1.md` (focus group 1, virtual).
-- `04-reformulacion/04-publico-objetivo-y-buyer-persona-con-datos.md` (versión del 3-oct-2026) y `04-reformulacion/T2/HECHOS_v7.md`.
-- Prompt 1 de la clase: `04-reformulacion/T2/CLASE-sesion09.md` y PPT Sesión 09 de la docente, "Desarrollo y lanzamiento de nuevos productos", Unidad 3 (texto completo del prompt).
+- 01-contexto/03-resumen-entrevistas-profundidad.md (10 entrevistas, Lima Norte, NSE C/B).
+- 01-contexto/04-resumen-focus-group-1.md (focus group 1, virtual).
+- 04-reformulacion/04-publico-objetivo-y-buyer-persona-con-datos.md (versión del 3-oct-2026) y 04-reformulacion/T2/HECHOS_v7.md.
+- Prompt 1 de la clase: 04-reformulacion/T2/CLASE-sesion09.md y PPT Sesión 09 de la docente, "Desarrollo y lanzamiento de nuevos productos", Unidad 3 (texto completo del prompt).
 - Ipsos Perú. "83 % considera que los octógonos tienen impacto en sus compras" (21-feb-2025). https://www.ipsos.com/es-pe/83-considera-que-los-octogonos-tienen-impacto-en-sus-compras
 - Kantar. Consumo saludable en Perú (15-may-2025). https://www.kantar.com/latin-america/inspiracion/consumidor/2025/consumo-saludable-peru-tendencia
 - Kantar. "¿Cuáles alimentos hacen parte de las loncheras escolares en Perú?" (13-mar-2025). https://www.kantar.com/latin-america/inspiracion/consumo-masivo/2025/tendencias-en-lonchera-escolar-en-peru

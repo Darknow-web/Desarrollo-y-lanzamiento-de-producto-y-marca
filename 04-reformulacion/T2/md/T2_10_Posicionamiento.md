@@ -1,5 +1,4 @@
 # T2 · #10 Posicionamiento
-
 Responsable: Patricia Cárdenas · Grupo 2 · AndiBite · Propuesta para revisar
 
 ## Para qué sirve este punto
@@ -117,11 +116,11 @@ La línea que divide el mapa está en 3.
 
 ## Fuentes
 
-- `04-reformulacion/02-insumos-proveedores-y-costeo.md`, sección 4 (precios de la competencia del 3-oct-2026).
-- `03-entregables/07-store-check-la-molina.md`, sección 2 (lista de competidores y atributos).
-- `04-reformulacion/10-plan-de-marketing-2027.md`, secciones 3.2 a 3.4, y `04-reformulacion/06-marca-2-0-e-innovacion.md`, secciones 1 y 6 (donde dice Hemi, léase AndiBite).
-- `04-reformulacion/T2/HECHOS_v7.md` (19-oct-2026).
-- Prompt 3 de la clase: `04-reformulacion/T2/CLASE-sesion09.md` y PPT Sesión 09 de la docente.
+- 04-reformulacion/02-insumos-proveedores-y-costeo.md, sección 4 (precios de la competencia del 3-oct-2026).
+- 03-entregables/07-store-check-la-molina.md, sección 2 (lista de competidores y atributos).
+- 04-reformulacion/10-plan-de-marketing-2027.md, secciones 3.2 a 3.4, y 04-reformulacion/06-marca-2-0-e-innovacion.md, secciones 1 y 6 (donde dice Hemi, léase AndiBite).
+- 04-reformulacion/T2/HECHOS_v7.md (19-oct-2026).
+- Prompt 3 de la clase: 04-reformulacion/T2/CLASE-sesion09.md y PPT Sesión 09 de la docente.
 - Nutri H. Nutri H clásica x 30 (consulta del 19-oct-2026). https://nutrih.pe/producto/nutri-h-clasica-x-30/
 - Fika. Brownie (consulta del 3-oct-2026). https://www.fika.pe/products/brownie-55g
 - Wong. Barra energética chocolate bitter y maca Mamalama, caja de 5 (consulta del 3-oct-2026). https://www.wong.pe/barra-energetica-chocolate-bitter-y-maca-mamalama-caja-5-unid/p

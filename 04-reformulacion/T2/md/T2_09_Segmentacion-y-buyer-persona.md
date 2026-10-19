@@ -1,5 +1,4 @@
 # T2 · #09 Segmentación y buyer persona
-
 Responsable: Patricia Cárdenas · Grupo 2 · AndiBite · Propuesta para revisar
 
 ## Para qué sirve este punto
@@ -97,11 +96,11 @@ Los datos de perfil son los de HECHOS_v7 y no se cambian. Lo que dice [POR VALID
 
 ## Fuentes
 
-- `04-reformulacion/T2/HECHOS_v7.md` (19-oct-2026): público, buyer persona, arquetipos y mercado.
-- `04-reformulacion/04-publico-objetivo-y-buyer-persona-con-datos.md` (3-oct-2026, con el buyer persona B actualizado el 10-oct-2026).
-- `04-reformulacion/10-plan-de-marketing-2027.md`, secciones 3.1 a 3.3.
-- `01-contexto/03-resumen-entrevistas-profundidad.md` y `01-contexto/04-resumen-focus-group-1.md`.
-- Prompt 2 de la clase: `04-reformulacion/T2/CLASE-sesion09.md` y PPT Sesión 09 de la docente.
+- 04-reformulacion/T2/HECHOS_v7.md (19-oct-2026): público, buyer persona, arquetipos y mercado.
+- 04-reformulacion/04-publico-objetivo-y-buyer-persona-con-datos.md (3-oct-2026, con el buyer persona B actualizado el 10-oct-2026).
+- 04-reformulacion/10-plan-de-marketing-2027.md, secciones 3.1 a 3.3.
+- 01-contexto/03-resumen-entrevistas-profundidad.md y 01-contexto/04-resumen-focus-group-1.md.
+- Prompt 2 de la clase: 04-reformulacion/T2/CLASE-sesion09.md y PPT Sesión 09 de la docente.
 - APEIM. Niveles Socioeconómicos 2025 (setiembre de 2025). https://apeim.com.pe/wp-content/uploads/2025/12/Informe-completo-de-NSE-2025.pdf
 - INEI. Estadísticas vitales 2022. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1923/libro.pdf
 - Kantar. Consumo saludable en Perú (15-may-2025). https://www.kantar.com/latin-america/inspiracion/consumidor/2025/consumo-saludable-peru-tendencia
