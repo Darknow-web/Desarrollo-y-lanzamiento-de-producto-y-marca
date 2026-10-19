@@ -165,6 +165,10 @@ Vertical 4:5 photorealistic image, 1080x1350. Close-up of a kraft-paper mural wa
 Vertical 9:16 photorealistic image, 1080x1920, one of three matching frames for an Instagram story. Frame A: an adult mother's hands holding a smartphone in portrait mode, recording herself in a bright Lima kitchen at 7 a.m.; on the counter, a grated carrot next to a slice of homemade cake and a terracotta lunchbox; her face is out of frame, only hands and kitchen. Frame B: an adult father's hand sticking a blank cream sticky note onto a kraft-paper mural full of blank notes. Frame C: a family's hands around a smartphone on a wooden table, thumbs up, with a small sealed matte kraft pouch and the terracotta lunchbox beside it. Same warm daylight, same palette (cocoa brown, kraft, cream, brick red, warm gold), the top 30 percent of each frame calm and uncluttered so a short step text can sit there later. All notes and screens are blank. No readable text, no letters, no logos, no watermark, no children's faces.
 ```
 
+## 4c. Formatos para YouTube
+
+El video maestro V0 (16:9, 16 s) se sube al canal de AndiBite y corre como anuncio en YouTube; los anuncios V1, V2 y V3 (9:16, 8 s) corren como YouTube Shorts además de Instagram y Facebook. No hace falta generar piezas nuevas: son los mismos archivos.
+
 ## 5. Revisión crítica antes de usar
 
 - ¿Cada truco se entiende en un segundo y se ve con cariño (zanahoria en la torta, sopa de dinosaurios, jugo verde con mascarita, el cuento con las bolitas apanadas)? Si parece burla o es confuso, se regenera.

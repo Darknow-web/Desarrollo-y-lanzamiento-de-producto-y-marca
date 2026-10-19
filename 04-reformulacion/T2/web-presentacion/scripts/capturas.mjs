@@ -60,7 +60,7 @@ async function shoot(viewport, prefix, pick) {
 
 const desk = await shoot({ width: 1920, height: 1080 }, 'escritorio');
 const lap = await shoot({ width: 1366, height: 768 }, 'laptop', () => [0, 4, 21, 25]);
-const mob = await shoot({ width: 390, height: 844 }, 'celular', () => [0, 1, 4, 25, 27]);
+const mob = await shoot({ width: 390, height: 844 }, 'celular', () => [0, 1, 4, 25, 27, 29, 30, 32, 33]);
 await browser.close();
 
 for (const [k, r] of Object.entries({ escritorio: desk, laptop: lap, celular: mob })) {

@@ -166,7 +166,7 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
 - **Por tipo de medio:**
   - **Promociones · S/7,596:** las 600 muestras, las degustaciones, el mural y el kit del stand, y los embajadores.
   - **Relaciones públicas · S/6,858:** los 40 influencers, las ferias y los eventos donde el truco se cuenta en voz alta.
-  - **Publicidad · S/5,950:** los anuncios de Claudia, Rodrigo y la familia real, el concurso #LoQueNadieVe y el video maestro.
+  - **Publicidad · S/5,950:** los anuncios de Claudia, Rodrigo y la familia real en Instagram, Facebook y YouTube (S/4,050 en Meta y S/1,000 en YouTube), el concurso #LoQueNadieVe (S/600) y el video maestro (S/300).
   - **Ventas personales · S/4,140:** las personas que atienden, dan a probar y escuchan trucos en las ferias y los 40 eventos.
 
 ## 11. Gantt
@@ -203,10 +203,26 @@ La app es la parte de la idea que «muestra lo que nadie ve». Se ajustan tres t
 ## Notas para el equipo (no van en pantalla)
 
 - **Por qué esta idea:** sale de lo que contaron las familias (el camuflaje es lo único que les funciona, y nadie habla de anemia), valida el esfuerzo del papá y la mamá en vez de corregirlo, y es contable: todos tienen un truco que contar. Es la misma lógica de «Lo estás haciendo bien» de Gloria y de «Del uno al noventa» de Inca Kola.
-- **Lo que no cambia:** presupuesto S/24,544; pauta S/1,605 / S/1,605 / S/1,840; metas 195 / 195 / 223 conversaciones; stands Jockey Plaza (2 y 3 de enero de 2027), Salaverry (febrero) y La Molina (agosto); precios.
+- **Lo que no cambia:** presupuesto S/24,544; pauta por anuncio S/1,605 / S/1,605 / S/1,840 (de los S/5,050, S/4,050 van a Instagram y Facebook y S/1,000 a YouTube, decidido el 19-oct-2026); metas 195 / 195 / 223 conversaciones; stands Jockey Plaza (2 y 3 de enero de 2027), Salaverry (febrero) y La Molina (agosto); precios.
 - **Lo nuevo, que es propuesta para revisar [PROPUESTA]:** el mural de post-its y el video de 10 s en el stand (se pagan con el kit de S/400 y el material de los S/700 al mes); la publicación de «los trucos del año» el 16 de octubre (Día Mundial de la Alimentación, reemplaza a «Abre el laboratorio»); los textos nuevos de la app. Ninguno suma gasto.
 - **La línea «Video con niños» del presupuesto (S/300, nov-26)** se lee como «Video de lanzamiento»: el maestro no tiene niños; mismo monto.
 - **Legal (Ley 30021, art. 8, y Ley 29733):** en video solo hablan adultos; el niño no sale en cámara. La muestra se entrega al adulto. En el stand se graba solo al papá o la mamá, con su permiso firmado ahí mismo (formato de Adela); los post-its no piden nombre ni colegio del niño, y se publican solo con permiso. Influencers con #publicidad (guía del INDECOPI, 2024). Nunca «previene» ni «combate la anemia».
 - **Palabras que se evitan:** «engañar» (decimos «esconder» o «truco»); «su prueba… la tuya…»; frases de dos partes en eco.
 - **Marca registrada:** «de Hulk» queda solo en el manifiesto de la presentación, porque es como lo dicen los papás. En la pauta pagada se dice «superhéroe» o «superpoderes» (Hulk es una marca de Marvel).
 - **Antes de publicar:** revisar que #LoQueNadieVe no lo use otra marca en Perú, y pasar estos textos por el agente `t2-redactor`.
+
+## 11. Orden del capítulo en la presentación (decidido el 19-oct-2026)
+
+1. Portada con el video maestro y el concepto «Lo que nadie ve».
+2. El insight y el manifiesto (la idea).
+3. **La dinámica:** «Cuéntanos tu truco. Funcione o no, cuenta.» En redes (#LoQueNadieVe, etiquetar, la comunidad vota, los 3 más votados abren el mural y el adulto gana un mes de lonchera) y en el stand (cuentas tu truco a cámara o lo escribes en el mural y la degustación va por nuestra cuenta; tu hijo prueba; te llevas tu pack y el QR abre la app).
+4. **Metas con fecha** (redactadas como objetivos medibles, sin decir «SMART»):
+   - 300 trucos contados al 31 de enero de 2027: 150 con #LoQueNadieVe y 150 en el mural de Jockey Plaza.
+   - 100 familias en WhatsApp antes del 2 de enero y 500 seguidores al 31 de diciembre de 2026.
+   - 400,000 personas ven los videos en 2027; 4,100 hacen clic en «Pruébalo» o «Pídelo» y 613 escriben por WhatsApp (195 + 195 + 223). Salen del cálculo del documento 17: CPM S/12.69, CPC S/1.235, 15 % de clic a contacto.
+   - 3,700 brownies en enero y febrero y 52,331 en 2027 (S/244,728).
+   - 35 % de recompra por WhatsApp y 2,300 familias con permiso al 31 de diciembre de 2027.
+5. **La campaña en una pantalla:** S/24,544, quince meses (octubre de 2026 a diciembre de 2027), concepto, 74 % en la calle y 26 % digital, y el gasto por tipo de medio.
+6. **Cuánto cuesta cada cosa:** las doce partidas (anuncios en Instagram y Facebook 4,050; YouTube 1,000; expectativa y premios 600; video maestro 300; influencers 458; 600 muestras 1,146; degustaciones 1,750; mural, cartel, hablador y material 2,300; embajadores 2,400; vendedores 4,140; stand en 2 ferias 3,600; aporte a 40 eventos 2,800).
+7. Las cuatro etapas y el Gantt.
+8. **Los materiales:** los tres anuncios (publicidad en Instagram, Facebook y YouTube Shorts), «Primero lo cuentan ellos» (influencers, pediatras, embajadores y el concurso) y el stand (BTL) con el mural.
