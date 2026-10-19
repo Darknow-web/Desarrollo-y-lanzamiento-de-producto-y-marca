@@ -1,6 +1,6 @@
 // Service worker de Andi, Misión Hierro: la app abre sin conexión y guarda el último lote visto.
-const VERSION = 'andi-v1';
-const NUCLEO = ['/', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/favicon.svg'];
+const VERSION = 'andi-v2';
+const NUCLEO = ['/', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/favicon.svg', '/marca/logo-andibite.png'];
 
 self.addEventListener('install', e => { e.waitUntil(caches.open(VERSION).then(c => c.addAll(NUCLEO)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
@@ -23,7 +23,7 @@ self.addEventListener('fetch', e => {
   if (url.origin === location.origin) {
     if (url.pathname.startsWith('/api/admin')) return;
     if (req.mode === 'navigate') { e.respondWith(redPrimero(req, '/')); return; }
-    if (url.pathname.startsWith('/assets/') || url.pathname.startsWith('/icons/')) { e.respondWith(cachePrimero(req)); return; }
+    if (url.pathname.startsWith('/assets/') || url.pathname.startsWith('/icons/') || url.pathname.startsWith('/marca/')) { e.respondWith(cachePrimero(req)); return; }
     if (url.pathname.startsWith('/api/lotes/') || url.pathname === '/api/puntos' || url.pathname === '/api/config') { e.respondWith(redPrimero(req)); return; }
   }
 });

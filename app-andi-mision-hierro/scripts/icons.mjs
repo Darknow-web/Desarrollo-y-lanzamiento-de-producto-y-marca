@@ -11,7 +11,7 @@ const b = await chromium.launch(process.env.CHROMIUM ? { executablePath: process
 const p = await b.newPage();
 for (const [nombre, tam, lleno] of salidas) {
   await p.setViewportSize({ width: tam, height: tam });
-  const fondo = lleno ? '#5A2E22' : 'transparent';
+  const fondo = lleno ? '#4A2018' : 'transparent';
   const interno = lleno ? svg.replace('rx="116"', 'rx="0"').replace('<g transform="translate(256 286) scale(2.05)', '<g transform="translate(256 290) scale(1.6)') : svg;
   await p.setContent(`<html><body style="margin:0;background:${fondo}">${interno.replace('<svg ', `<svg width="${tam}" height="${tam}" `)}</body></html>`);
   await p.screenshot({ path: new URL(`../public/icons/${nombre}`, import.meta.url).pathname, omitBackground: !lleno });

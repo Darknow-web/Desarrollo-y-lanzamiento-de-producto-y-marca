@@ -64,10 +64,10 @@ export const HABITOS: Habito[] = [
 
 export interface Parada { id: 'plato' | 'memoria' | 'mito' | 'habitos'; lugar: string; juego: string; emoji: string; color: string }
 export const PARADAS: Parada[] = [
-  { id: 'plato', lugar: 'Cusco', juego: 'Arma tu plato fuerte', emoji: '🍽️', color: '#FF7A59' },
-  { id: 'memoria', lugar: 'Lago Titicaca', juego: 'Memoria andina', emoji: '🃏', color: '#3BA7E0' },
-  { id: 'mito', lugar: 'Volcán Misti', juego: '¿Verdad o mito?', emoji: '🤔', color: '#8E5BD8' },
-  { id: 'habitos', lugar: 'Amazonía', juego: 'Ruta de hábitos', emoji: '🌿', color: '#2FA36B' },
+  { id: 'plato', lugar: 'Cusco', juego: 'Arma tu plato fuerte', emoji: '🍽️', color: '#BA4036' },
+  { id: 'memoria', lugar: 'Lago Titicaca', juego: 'Memoria andina', emoji: '🃏', color: '#E3A33B' },
+  { id: 'mito', lugar: 'Volcán Misti', juego: '¿Verdad o mito?', emoji: '🤔', color: '#6B3A2A' },
+  { id: 'habitos', lugar: 'Amazonía', juego: 'Ruta de hábitos', emoji: '🌿', color: '#7C8A3A' },
 ];
 
 /** Piezas del traje de explorador de Andi: se ganan con estrellas, jugando (nunca comprando). */

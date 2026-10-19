@@ -1,0 +1,12 @@
+# Cabeceras de Workers Static Assets para la app web.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(self), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob:; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; base-uri 'self'
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/sw.js
+  Cache-Control: no-cache

@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { codigoDesdeQR, codigoValido, mascaraCodigo, normalizarCodigo } from '../src/lib/codigo';
-// @ts-expect-error módulo JS del servidor
-import { generar, esValido } from '../server/codigo.js';
+import { generar, esValido } from '../worker/codigo';
 import { diasHastaAcabar, referenciaDiaria, resumenSemana } from '../src/lib/hierro';
 import { planRecetario, RECETAS } from '../src/data/loncheras';
 import { semanaDe, lunesDe, sumarDias } from '../src/lib/fechas';
@@ -10,13 +9,13 @@ import seed from '../data/seed.json';
 describe('códigos únicos', () => {
   it('el servidor y la app validan igual', () => {
     for (let i = 0; i < 300; i++) {
-      const c = generar() as string;
+      const c = generar();
       expect(codigoValido(c)).toBe(true);
       expect(esValido(c)).toBe(true);
     }
   });
   it('detecta un carácter cambiado', () => {
-    const c = generar() as string;
+    const c = generar();
     const malo = c.slice(0, -1) + (c.endsWith('0') ? '1' : '0');
     expect(codigoValido(malo)).toBe(false);
   });
@@ -29,7 +28,7 @@ describe('códigos únicos', () => {
     expect(codigoDesdeQR('https://andi.example/c/AB-2ANS-GYZ4')).toBe('AB-2ANS-GYZ4');
     expect(codigoDesdeQR('hola')).toBeNull();
   });
-  it('todos los códigos de demostración son válidos', () => {
+  it('todos los códigos de data/seed.json son válidos', () => {
     for (const c of Object.keys(seed.codigos)) expect(codigoValido(c)).toBe(true);
   });
 });
@@ -54,6 +53,17 @@ describe('semáforo de hierro', () => {
   it('estima cuándo se acaba el pack', () => {
     expect(diasHastaAcabar(6, 5)).toBe(8);
     expect(diasHastaAcabar(0, 5)).toBe(0);
+  });
+});
+
+describe('datos publicados', () => {
+  it('los lotes no tienen marcas de demostración ni textos pendientes', () => {
+    const texto = JSON.stringify(seed);
+    expect(texto).not.toMatch(/DEMO|demo|por confirmar|en trámite/i);
+    for (const l of Object.values(seed.lotes)) {
+      expect(l.hierroMgPorUnidad).toBe(1.9); expect(l.hierroHemoMgPorUnidad).toBe(1.3); expect(l.azucarGPorUnidad).toBe(1.3);
+      expect(l.octogonos).toHaveLength(0); expect(l.informe).toMatch(/^INF-2026-10-\d{2}$/); expect(l.fechaInforme).toBe('2026-10-08');
+    }
   });
 });
 

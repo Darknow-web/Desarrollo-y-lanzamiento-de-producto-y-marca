@@ -20,13 +20,13 @@ export default function Mapa() {
       </div>
       <div className="mapa-terreno">
         <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="mapa-fondo" aria-hidden="true">
-          <defs><linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#7FD3F7" /><stop offset="1" stopColor="#CFF0FF" /></linearGradient></defs>
+          <defs><linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#FBEFD9" /><stop offset="1" stopColor="#F5DCAE" /></linearGradient></defs>
           <rect width="100" height="100" fill="url(#cielo)" />
-          <path d="M0 40 L18 14 L30 30 L46 6 L62 28 L78 10 L100 36 V100 H0Z" fill="#9C7BE0" opacity=".55" />
+          <path d="M0 40 L18 14 L30 30 L46 6 L62 28 L78 10 L100 36 V100 H0Z" fill="#6B3A2A" opacity=".28" />
           <path d="M40 8 L46 6 L52 12 Z M74 13 L78 10 L82 14 Z" fill="#fff" />
-          <path d="M0 52 Q25 40 50 50 T100 46 V100 H0Z" fill="#6CCB8A" />
-          <ellipse cx="72" cy="62" rx="20" ry="6" fill="#3BA7E0" opacity=".9" />
-          <path d="M0 78 Q30 68 60 80 T100 76 V100 H0Z" fill="#2FA36B" />
+          <path d="M0 52 Q25 40 50 50 T100 46 V100 H0Z" fill="#B5BE78" />
+          <ellipse cx="72" cy="62" rx="20" ry="6" fill="#FFF8EC" opacity=".85" />
+          <path d="M0 78 Q30 68 60 80 T100 76 V100 H0Z" fill="#7C8A3A" />
           <path d="M22 72 C34 62 60 70 70 58 S36 44 28 38 S60 28 72 20" fill="none" stroke="#fff" strokeWidth="1.4" strokeDasharray="2.2 2.2" strokeLinecap="round" />
         </svg>
         {PARADAS.map((s, i) => {

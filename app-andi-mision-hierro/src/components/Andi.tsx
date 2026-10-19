@@ -5,7 +5,7 @@ interface Props { piezas?: Pieza[]; animo?: 'feliz' | 'wow' | 'piensa' | 'duerme
 
 export default function Andi({ piezas = [], animo = 'feliz', tam = 160, className = '', titulo = 'Andi, la llamita exploradora' }: Props) {
   const tiene = (p: Pieza) => piezas.includes(p);
-  const lana = '#FFF8EE', borde = '#E8D5BE', cacao = '#5A2E22';
+  const lana = '#FFF8EE', borde = '#E8D5BE', cacao = '#4A2018';
   return (
     <svg viewBox="0 0 240 260" width={tam} height={tam * 260 / 240} className={`andi ${className}`} role="img" aria-label={titulo}>
       <defs>
@@ -16,7 +16,7 @@ export default function Andi({ piezas = [], animo = 'feliz', tam = 160, classNam
         <g>
           <rect x="166" y="138" width="40" height="50" rx="10" fill="#B9733A" />
           <rect x="166" y="138" width="40" height="18" rx="8" fill="#8C4F24" />
-          <circle cx="186" cy="160" r="3.5" fill="#E9B730" />
+          <circle cx="186" cy="160" r="3.5" fill="#E3A33B" />
         </g>
       )}
       <g className="andi-patas" fill="#F3E4CF">
@@ -28,11 +28,11 @@ export default function Andi({ piezas = [], animo = 'feliz', tam = 160, classNam
       <path d="M70 186 q8 8 16 0 q8 8 16 0 q8 8 16 0 q8 8 16 0 q8 8 16 0 q8 8 16 0" fill="none" stroke={borde} strokeWidth="2.5" strokeLinecap="round" />
       {tiene('poncho') && (
         <g>
-          <path d="M68 150 L120 128 L172 150 L166 198 L74 198 Z" fill="#8E5BD8" />
+          <path d="M68 150 L120 128 L172 150 L166 198 L74 198 Z" fill="#BA4036" />
           <g clipPath="url(#andi-poncho)">
-            <rect x="60" y="158" width="120" height="7" fill="#E9B730" />
-            <rect x="60" y="170" width="120" height="5" fill="#2FA36B" />
-            <rect x="60" y="180" width="120" height="7" fill="#FF7A59" />
+            <rect x="60" y="158" width="120" height="7" fill="#E3A33B" />
+            <rect x="60" y="170" width="120" height="5" fill="#7C8A3A" />
+            <rect x="60" y="180" width="120" height="7" fill="#FBF3E8" />
             <path d="M60 194 l8 -6 l8 6 l8 -6 l8 6 l8 -6 l8 6 l8 -6 l8 6 l8 -6 l8 6 l8 -6 l8 6 l8 -6 l8 6" stroke="#FFF" strokeWidth="3" fill="none" />
           </g>
         </g>
@@ -40,8 +40,8 @@ export default function Andi({ piezas = [], animo = 'feliz', tam = 160, classNam
       {tiene('mochila') && <path d="M100 140 Q140 162 172 150" stroke="#8C4F24" strokeWidth="6" fill="none" strokeLinecap="round" />}
       {tiene('medalla') && (
         <g>
-          <path d="M112 142 L120 160 L128 142" fill="#3BA7E0" />
-          <circle cx="120" cy="166" r="12" fill="#E9B730" stroke="#B9733A" strokeWidth="3" />
+          <path d="M112 142 L120 160 L128 142" fill="#7C8A3A" />
+          <circle cx="120" cy="166" r="12" fill="#E3A33B" stroke="#B9733A" strokeWidth="3" />
           <path d="M120 158 l2.6 5.4 5.9 .8 -4.3 4.1 1 5.8 -5.2 -2.8 -5.2 2.8 1 -5.8 -4.3 -4.1 5.9 -.8z" fill="#FFF8EE" />
         </g>
       )}
@@ -58,13 +58,13 @@ export default function Andi({ piezas = [], animo = 'feliz', tam = 160, classNam
       </g>
       {tiene('chullo') && (
         <g>
-          <path d="M70 76 Q72 30 120 26 Q168 30 170 76 Z" fill="#D7392B" />
-          <path d="M70 76 L170 76 L170 64 L70 64 Z" fill="#E9B730" />
+          <path d="M70 76 Q72 30 120 26 Q168 30 170 76 Z" fill="#BA4036" />
+          <path d="M70 76 L170 76 L170 64 L70 64 Z" fill="#E3A33B" />
           <path d="M72 70 l7 -6 l7 6 l7 -6 l7 6 l7 -6 l7 6 l7 -6 l7 6 l7 -6 l7 6 l7 -6 l7 6 l7 -6 l7 6" stroke="#FFF" strokeWidth="3" fill="none" />
           <path d="M84 48 h72" stroke="#FFF" strokeWidth="3" strokeDasharray="6 6" />
-          <path d="M72 74 L62 110 L86 82 Z" fill="#D7392B" /><path d="M168 74 L178 110 L154 82 Z" fill="#D7392B" />
-          <circle cx="62" cy="114" r="6" fill="#E9B730" /><circle cx="178" cy="114" r="6" fill="#E9B730" />
-          <circle cx="120" cy="22" r="10" fill="#E9B730" />
+          <path d="M72 74 L62 110 L86 82 Z" fill="#BA4036" /><path d="M168 74 L178 110 L154 82 Z" fill="#BA4036" />
+          <circle cx="62" cy="114" r="6" fill="#E3A33B" /><circle cx="178" cy="114" r="6" fill="#E3A33B" />
+          <circle cx="120" cy="22" r="10" fill="#E3A33B" />
         </g>
       )}
       <ellipse cx="120" cy="117" rx="27" ry="19" fill="#F4E3D0" />
