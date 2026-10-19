@@ -4,7 +4,7 @@
 
 **9-oct-2026: el equipo eliminó por ahora la suscripción; el pack de 12 se vende por pedido.**
 
-Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora para el Grupo 2 (Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas y Adela Robles), curso "Desarrollo y lanzamiento de nuevos productos", profesora Paola Cevallos. Integra los documentos 00 a 06 de esta carpeta y los resúmenes de las semanas 1 a 4 y del focus 1, listo para pasar a diapositivas.
+Versión 1, 3 de octubre de 2026. Documento de la dirección de la consultora para el Grupo 2 (Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas y Adela Robles), curso "Desarrollo y lanzamiento de nuevos productos", profesora Paola Zevallos. Integra los documentos 00 a 06 de esta carpeta y los resúmenes de las semanas 1 a 4 y del focus 1, listo para pasar a diapositivas.
 
 **9-oct-2026: documentos considerados listos (costo en la inversión inicial) y venta física como canal principal.**
 

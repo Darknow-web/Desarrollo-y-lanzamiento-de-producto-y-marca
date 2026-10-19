@@ -1,6 +1,6 @@
 # AndyBites — Desarrollo y lanzamiento de producto y marca
 
-Carpeta de trabajo del Grupo 2 (Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas, Adela Robles) para el curso de la profesora Paola Cevallos. Producto: **AndyBites**, mini brownie de 20 g con cacao peruano, avena, cañihua y sangrecita liofilizada (hierro), en pack de 6. En la semana 5 el equipo decidió reposicionar el producto hacia un segmento de mayor poder adquisitivo (NSE A/B, Lima Moderna) porque el precio no calzaba con Lima Norte NSE C/B.
+Carpeta de trabajo del Grupo 2 (Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas, Adela Robles) para el curso de la profesora Paola Zevallos. Producto: **AndyBites**, mini brownie de 20 g con cacao peruano, avena, cañihua y sangrecita liofilizada (hierro), en pack de 6. En la semana 5 el equipo decidió reposicionar el producto hacia un segmento de mayor poder adquisitivo (NSE A/B, Lima Moderna) porque el precio no calzaba con Lima Norte NSE C/B.
 
 ## Cómo está organizado
 | Carpeta | Qué contiene | Para qué sirve |

@@ -7,7 +7,7 @@
   s.addText('Plan de marketing', { placeholder: 'title' });
   s.addText('y lanzamiento · T2 · [subtítulo del tema]', { placeholder: 'body' });
   T(s, 'Grupo 2 · Diana Ayoso · Carlos Inga · Angie Blas · Patricia Cárdenas · Adela Robles', { x: 0.8, y: 5.75, w: 7.6, h: 0.35, fontSize: 14, color: C.background2 });
-  T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Cevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
+  T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Zevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
   s.addImage({ path: 'img/B1_frente_s.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: 4 });
   s.addNotes('PLANTILLA · Portada. Cambiar el subtítulo. No mover el logo ni el empaque.');
 

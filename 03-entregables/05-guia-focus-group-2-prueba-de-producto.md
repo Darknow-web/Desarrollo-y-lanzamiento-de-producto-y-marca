@@ -1,6 +1,6 @@
 # Guía de Focus Group 2 — Prueba de producto AndyBites
 
-> Curso: Desarrollo y lanzamiento de nuevos productos. Grupo 2: Diana Ayoso García, Carlos Inga Córdova, Angie Blas Durand, Patricia Cárdenas, Adela Robles Machado. Profesora: Paola Cevallos.
+> Curso: Desarrollo y lanzamiento de nuevos productos. Grupo 2: Diana Ayoso García, Carlos Inga Córdova, Angie Blas Durand, Patricia Cárdenas, Adela Robles Machado. Profesora: Paola Zevallos.
 > Este focus group reemplaza el enfoque exploratorio del Focus 1 por una **prueba de producto real** con degustación, siguiendo la indicación textual de la profesora: "primero hacer probar el producto, luego preguntar cuánto pagarían... eso lo tiene que decir el público, no ustedes."
 
 ---

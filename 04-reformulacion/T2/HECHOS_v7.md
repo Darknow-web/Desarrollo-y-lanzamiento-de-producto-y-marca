@@ -10,7 +10,7 @@
 **Los documentos 01 a 09 todavía tienen cifras del modelo v6 en varias partes:** S/246,531; S/14,853; S/45,358; préstamo S/20,500; 52,786 u; ferias navideñas; app S/6,000; quiosco S/3.00; naturista S/17.34; Rodrigo de La Molina con S/18,000. **Si hay contradicción, manda ESTE archivo.**
 
 ## Equipo y curso
-- **Curso:** "Desarrollo y lanzamiento de nuevos productos", prof. Paola Cevallos. Grupo 2, cinco socios con 20 % cada uno:
+- **Curso:** "Desarrollo y lanzamiento de nuevos productos", prof. Paola Zevallos. Grupo 2, cinco socios con 20 % cada uno:
   - Diana Ayoso: producto, I+D y prueba sensorial.
   - Patricia (Paty) Cárdenas: operaciones (planta, compras, inventario, despacho).
   - Adela (Ade) Robles: regulación, legal y contabilidad.

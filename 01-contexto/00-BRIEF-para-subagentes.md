@@ -3,7 +3,7 @@
 > Documento de contexto compartido. Todo lo que está aquí proviene del Drive del equipo (PDF "Práctica de campo SM4", transcripción de 10 entrevistas a profundidad, transcripción del focus group 1, y 5 audios de clase con las indicaciones de la profesora). Fecha: 15 de septiembre de 2026.
 
 ## 1. El curso y el equipo
-- Curso: **Desarrollo y lanzamiento de nuevos productos** (universidad, Lima, Perú). Profesora: **Paola Cevallos**.
+- Curso: **Desarrollo y lanzamiento de nuevos productos** (universidad, Lima, Perú). Profesora: **Paola Zevallos**.
 - Grupo 2, integrantes: **Diana Ayoso García, Carlos Inga Córdova, Angie Blas Durand, Patricia Cárdenas, Adela Robles Machado**.
 - Ya se entregó la práctica de campo de las semanas 1 a 4 (entrevistas a profundidad → ideación → focus group → producto elegido).
 - **La próxima semana (semana del 21 de septiembre) cada grupo expone 12 a 15 minutos** (indicación textual de la profesora).

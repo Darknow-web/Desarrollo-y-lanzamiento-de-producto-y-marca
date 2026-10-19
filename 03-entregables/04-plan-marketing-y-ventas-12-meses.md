@@ -1,6 +1,6 @@
 # Plan de marketing y ventas AndyBites — Octubre 2026 a septiembre 2027
 
-*Grupo 2 — Curso: Desarrollo y lanzamiento de nuevos productos. Profesora: Paola Cevallos. Segmento objetivo: madres y padres NSE A/B y B+, 30-45 años, Lima Moderna, con hijos de 4 a 11 años en colegios privados con política de lonchera saludable.*
+*Grupo 2 — Curso: Desarrollo y lanzamiento de nuevos productos. Profesora: Paola Zevallos. Segmento objetivo: madres y padres NSE A/B y B+, 30-45 años, Lima Moderna, con hijos de 4 a 11 años en colegios privados con política de lonchera saludable.*
 
 > Nota: las cifras de venta, precio y presupuesto son supuestos marcados como **[HIPÓTESIS]**. No vienen de estudios de mercado sino de los benchmarks levantados en campo, las 10 entrevistas a profundidad y la capacidad real de producción de 5 estudiantes. Se corrigen tras el focus 2 y el primer trimestre.
 

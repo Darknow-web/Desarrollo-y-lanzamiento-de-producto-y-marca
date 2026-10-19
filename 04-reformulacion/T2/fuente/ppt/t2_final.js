@@ -195,7 +195,7 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
   s.addText('Plan de marketing', { placeholder: 'title' });
   s.addText('y lanzamiento · T2 · Unidad 3 · Oct-2026 a dic-2027', { placeholder: 'body' });
   T(s, 'Grupo 2 · Diana Ayoso · Carlos Inga · Angie Blas · Patricia Cárdenas · Adela Robles', { x: 0.8, y: 5.75, w: 7.6, h: 0.35, fontSize: 14, color: C.background2 });
-  T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Cevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
+  T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Zevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
   s.addImage({ path: 'img/B1_frente_s.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: 4 });
   note(s, 'Diana (#21)', 'Buenos días. Somos el Grupo 2 y les presentamos el plan de marketing y lanzamiento de AndiBite, de octubre de 2026 a diciembre de 2027. AndiBite es un mini brownie con sangrecita de res y el hierro medido en cada lote. Carlos unió todo en esta plantilla (#22) y cada socio presenta su parte.');
 

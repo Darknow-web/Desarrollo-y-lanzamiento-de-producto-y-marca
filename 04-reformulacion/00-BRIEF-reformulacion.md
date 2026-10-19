@@ -1,7 +1,7 @@
 # Brief de reformulación — AndiBite 2.0 (3 de octubre de 2026)
 
 ## Contexto previo (leer también `01-contexto/00-BRIEF-para-subagentes.md`)
-- Curso universitario "Desarrollo y lanzamiento de nuevos productos" (Lima, Perú), Grupo 2: Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas, Adela Robles. Profesora Paola Cevallos.
+- Curso universitario "Desarrollo y lanzamiento de nuevos productos" (Lima, Perú), Grupo 2: Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas, Adela Robles. Profesora Paola Zevallos.
 - Producto original: AndiBite, mini brownie de 20 g con cacao peruano, avena, cañihua, plátano y sangrecita liofilizada (hierro hemínico), pack de 6, para loncheras de niños de 4 a 11 años.
 - Hallazgos previos: 10 entrevistas y 2 focus groups. La sangrecita se rechaza en formato salado y se acepta camuflada en dulce; el camuflaje es lo que funciona; el snack debe aguantar la mochila sin frío; nadie dice "anemia" espontáneamente (hablar de hierro, energía y concentración); el precio no calzaba con NSE C de Lima Norte.
 

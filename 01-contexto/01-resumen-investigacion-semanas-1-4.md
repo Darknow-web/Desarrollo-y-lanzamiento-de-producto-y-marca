@@ -9,7 +9,7 @@ Fuente: presentación "Práctica de campo SM4" (PDF), transcripción de las 10 e
 | 2-3 | Reunión creativa del equipo | 4 ideas: Choconutti (trufas), obleas tipo wafer, mini brownies, Cusi Cusi (caja semanal) |
 | 3-4 | Focus group virtual con 5 madres/padres (Sergio, Beverly, Adriana, Rubelis, Estrella, Yamileth; Lucero no pudo participar) | Producto ganador: mini brownie AndyBites |
 
-Equipo: Diana Ayoso García, Carlos Inga Córdova, Angie Blas Durand, Patricia Cárdenas, Adela Robles Machado. Profesora: Paola Cevallos.
+Equipo: Diana Ayoso García, Carlos Inga Córdova, Angie Blas Durand, Patricia Cárdenas, Adela Robles Machado. Profesora: Paola Zevallos.
 
 ## 2. El producto elegido: AndyBites
 - Mini brownie húmedo de cacao peruano y avena, con cañihua andina y sangrecita liofilizada micronizada. Porción de 20 g lista para la lonchera. Plátano para dulzor y textura.

@@ -132,7 +132,7 @@ const chartText = () => ({
   s.addText('Trabajos de campo 5 a 8', { placeholder: 'title' });
   s.addText('Cliente, canal, relación, ingresos, Canvas y propuesta de valor', { placeholder: 'body' });
   T(s, 'Grupo 2 · Diana Ayoso · Carlos Inga · Angie Blas · Patricia Cárdenas · Adela Robles', { x: 0.8, y: 5.75, w: 7.6, h: 0.35, fontSize: 14, color: C.background2 });
-  T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Cevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
+  T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Zevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
   s.addImage({ path: '/home/user/Desarrollo-y-lanzamiento-de-producto-y-marca/assets/empaque/B1_frente.png', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: 4, shadow: { type: 'outer', color: '000000', opacity: 0.35, blur: 12, offset: 4, angle: 90 } });
   s.addNotes('Presentamos los trabajos de campo 5 a 8 de AndiBite, el mini brownie de 20 g con sangrecita. Todo sale de la misma base: el público reformulado (padres conscientes y planificados, NSE A/B), el costeo con maquila y los precios confirmados por el equipo el 10 de octubre de 2026 (unidad a S/6.00, caja de 3 sabores a S/16.50 y pack de 6 a S/27.90 en el stand), con el modelo financiero v7. La innovación tecnológica es la app Andi, Misión Hierro, que viene con cada envase.');
 

@@ -12,7 +12,7 @@ Este punto arma la entrada y la salida del documento final del T2: la portada, e
 | **Título** | AndiBite: plan de marketing y lanzamiento |
 | **Subtítulo** | T2 · Unidad 3 · De octubre de 2026 a diciembre de 2027 |
 | **Curso** | Desarrollo y lanzamiento de nuevos productos |
-| **Profesora** | Paola Cevallos |
+| **Profesora** | Paola Zevallos |
 | **Grupo** | Grupo 2 |
 | **Integrantes** | Diana Ayoso, Carlos Inga, Angie Blas, Patricia Cárdenas y Adela Robles |
 | **Fecha** | Octubre de 2026 |
