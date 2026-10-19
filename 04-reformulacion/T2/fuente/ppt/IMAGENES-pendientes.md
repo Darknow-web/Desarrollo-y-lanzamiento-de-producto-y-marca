@@ -1,4 +1,6 @@
-# Imágenes pendientes de la sustentación T2 (T2_Sustentacion-AndiBite.pptx)
+# Imágenes de la sustentación T2 (T2_Sustentacion-AndiBite.pptx)
+
+**Estado al 19-oct-2026:** no queda ninguna pendiente. Las imágenes 1, 2 y 4 se generaron con Nano Banana (prompts de abajo) y están en `img/deck/imagen_n.jpg`. La IMAGEN 3 (captura del focus 1) no existe, así que la diapositiva 14 usa solo las dos fotos de entrevista.
 
 Cómo se reemplaza un espacio reservado "IMAGEN n":
 

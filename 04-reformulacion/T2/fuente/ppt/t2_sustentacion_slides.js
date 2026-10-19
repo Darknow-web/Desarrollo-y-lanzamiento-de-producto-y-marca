@@ -9,10 +9,10 @@
 // (por ejemplo 1: 'img/deck/imagen_1.jpg'). Si el valor es null, se dibuja el espacio reservado "IMAGEN N".
 // La lista con tamaños y prompts está en IMAGENES-pendientes.md.
 const IMG = {
-  1: null, // diap. 2  · manos armando la lonchera de la mañana (generada)
-  2: null, // diap. 7  · lonchera kraft con el mini brownie (foto real o generada)
+  1: 'img/deck/imagen_1.jpg', // diap. 2  · manos armando la lonchera de la mañana (generada)
+  2: 'img/deck/imagen_2.jpg', // diap. 7  · lonchera kraft con el mini brownie (foto real o generada)
   3: null, // diap. 14 · captura del focus 1 virtual (foto real, evidencia)
-  4: null, // diap. 16 · lonchera que vuelve intacta, a sangre completa (generada)
+  4: 'img/deck/imagen_4.jpg', // diap. 16 · lonchera que vuelve intacta, a sangre completa (generada)
 };
 
 pres.title = 'AndiBite · Sustentación T2';
@@ -323,11 +323,11 @@ function table(s, header, rows, o) {
       T(s, n[0], { x, y, w: 2.7, h: 1.25, fontSize: 80, bold: true, color: K.rojo });
       T(s, n[1], { x, y: y + 1.25, w: 2.7, h: 1.05, fontSize: 24, color: K.tx });
     });
-    await pic(s, 'img/deck/entrevista_1.jpg', 6.4, 1.6, 3.06, 1.92);
-    await pic(s, 'img/deck/entrevista_2.jpg', 9.67, 1.6, 3.06, 1.92);
-    T(s, 'Entrevista en casa', { x: 6.4, y: 3.55, w: 3.06, h: 0.3, fontSize: 12, color: K.cm, align: 'center' });
-    T(s, 'Entrevista en oficina', { x: 9.67, y: 3.55, w: 3.06, h: 0.3, fontSize: 12, color: K.cm, align: 'center' });
-    await slot(s, 3, 6.4, 4.0, 6.33, 2.45, 'Captura del focus 1 virtual (foto real)');
+    // Sin captura del focus 1: las dos entrevistas van apiladas, con su pie al lado.
+    await pic(s, 'img/deck/entrevista_1.jpg', 6.4, 1.6, 3.75, 2.3, { align: 'left', valign: 'top' });
+    T(s, [{ text: 'Entrevista en casa', options: { bold: true, breakLine: true } }, { text: 'de la familia, con la mamá y la hija presentes', options: {} }], { x: 10.35, y: 1.6, w: 2.4, h: 2.3, fontSize: 16, color: K.cm, valign: 'middle' });
+    await pic(s, 'img/deck/entrevista_2.jpg', 6.4, 4.05, 3.75, 2.3, { align: 'left', valign: 'top' });
+    T(s, [{ text: 'Entrevista en oficina', options: { bold: true, breakLine: true } }, { text: '10 entrevistas en las semanas 1 a 4; videos en YouTube y en el Drive', options: {} }], { x: 10.35, y: 4.05, w: 2.4, h: 2.3, fontSize: 16, color: K.cm, valign: 'middle' });
   }
   src(s, '01-contexto/03 y 04 (entrevistas y focus 1 virtual con mamás de Lima Norte, NSE C/B); láminas de la degustación (Canva del grupo); 03-entregables/07 (store check). Videos de 2 entrevistas en YouTube y en el Drive [enlace POR CONFIRMAR].', { y: 6.55, h: 0.45 });
   note(s, 'Angie', 35, 'Hicimos cuatro cosas: 10 entrevistas a profundidad, un focus group virtual con 6 participantes, una degustación del prototipo con 4 madres y un store check en La Molina con precios en línea. Aquí están las capturas de dos entrevistas; los videos están en YouTube y en el Drive.');
