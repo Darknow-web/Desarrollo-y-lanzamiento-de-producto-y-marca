@@ -3,6 +3,16 @@
 // Uso: cat tema.js t2_final_slides.js > t2_final.js && node t2_final.js ../../T2_22_Plan-de-marketing-AndiBite.pptx
 
 const X0 = 0.6, FW = 12.13;
+// Íconos livianos: reemplaza a icon() de tema.js (misma firma, size 96 por defecto) para que el .pptx pese poco.
+async function icon(name, hex, size = 96) {
+  const Comp = fa[name];
+  if (!Comp) throw new Error('icono no existe: ' + name);
+  let svg = RDS.renderToStaticMarkup(React.createElement(Comp, { color: '#' + hex, size }));
+  if (!svg.includes('xmlns')) svg = svg.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
+  const buf = await sharp(Buffer.from(svg)).resize(size, size).png({ compressionLevel: 9, palette: true }).toBuffer();
+  return 'image/png;base64,' + buf.toString('base64');
+}
+const PM = require(require('path').join(__dirname, '../../../TC5-8/fuente/plan_mkt.json'));
 
 // ---------- helpers propios del deck final ----------
 function src(s, t) {
@@ -61,7 +71,7 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
   s.addText('y lanzamiento · T2 · Unidad 3 · Oct-2026 a dic-2027', { placeholder: 'body' });
   T(s, 'Grupo 2 · Diana Ayoso · Carlos Inga · Angie Blas · Patricia Cárdenas · Adela Robles', { x: 0.8, y: 5.75, w: 7.6, h: 0.35, fontSize: 14, color: C.background2 });
   T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Cevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
-  s.addImage({ path: 'img/B1_frente.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: 4 });
+  s.addImage({ path: 'img/B1_frente_s.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: 4 });
   note(s, 'Diana (#21)', 'Buenos días. Somos el Grupo 2 y les presentamos el plan de marketing y lanzamiento de AndiBite, de octubre de 2026 a diciembre de 2027. AndiBite es un mini brownie con sangrecita de res y el hierro medido en cada lote. Carlos unió todo en esta plantilla (#22) y cada socio presenta su parte.');
 
   s = content('Portada', 'AGENDA · 22 PUNTOS EN 8 BLOQUES', 'El recorrido del plan');
@@ -174,7 +184,7 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
   ];
   FD.forEach((f, i) => {
     const w = 5.97, h = 2.38, x = X0 + (i % 2) * (w + 0.19), y = 1.6 + Math.floor(i / 2) * (h + 0.14);
-    labelCard(s, x, y, w, h, f[0], bullets(f[2], 15), { band: f[1], labelColor: C.text2, labelSize: 13, psa: 6 });
+    labelCard(s, x, y, w, h, f[0], bullets(f[2], 17), { band: f[1], labelColor: C.text2, labelSize: 13, psa: 9 });
   });
   src(s, 'T2_04 (FODA de Diana con AI Studio, corregido con HECHOS_v7 y Excel v7); INEI, 26-jun-2026; Plaza Vea, 19-oct-2026; APEIM 2025.');
   note(s, 'Diana (#4)', 'Las fortalezas y debilidades dependen de nosotros; las oportunidades y amenazas vienen del entorno y del PESTEL. La fortaleza que más pesa es el hierro medido por lote. La debilidad más seria es depender de los stands con un marketing chico.');
@@ -189,7 +199,7 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
   ];
   FX.forEach((f, i) => {
     const w = 5.97, h = 2.38, x = X0 + (i % 2) * (w + 0.19), y = 1.6 + Math.floor(i / 2) * (h + 0.14);
-    labelCard(s, x, y, w, h, f[0], bullets(f[2], 15), { band: f[1], labelColor: C.text2, labelSize: 13, psa: 8 });
+    labelCard(s, x, y, w, h, f[0], bullets(f[2], 16.5), { band: f[1], labelColor: C.text2, labelSize: 13, psa: 10 });
   });
   src(s, 'T2_04, sección 2 (FODA cruzado de Diana, transcrito de AI Studio y corregido); las 15 estrategias usan acciones ya decididas del plan.');
   note(s, 'Diana (#4)', 'El FODA cruzado convierte el diagnóstico en acciones. Aquí van dos estrategias por cuadrante; las 15 están en el documento. Ninguna cambia el presupuesto: todas usan lo que ya está en el plan.');
@@ -284,9 +294,9 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
     T(s, [
       { text: SM[i][0], options: { fontSize: 13, bold: true, color: hot ? C.background2 : C.accent1, charSpacing: 1, breakLine: true } },
       { text: SM[i][1], options: { fontSize: 50, bold: true, color: hot ? C.background1 : C.text2, breakLine: true } },
-      { text: SM[i][2], options: { fontSize: 15, color: hot ? C.background1 : C.text1, breakLine: true } },
-      { text: SM[i][3], options: { fontSize: 13, italic: true, color: hot ? C.background2 : C.accent2 } },
-    ], { x: x + 0.3, y: y + 0.3, w: w - 0.6, h: h - 0.5, paraSpaceAfter: 10 });
+      { text: SM[i][2], options: { fontSize: 17, color: hot ? C.background1 : C.text1, breakLine: true } },
+      { text: SM[i][3], options: { fontSize: 14, italic: true, color: hot ? C.background2 : C.accent2 } },
+    ], { x: x + 0.3, y: y + 0.3, w: w - 0.6, h: h - 0.6, paraSpaceAfter: 16, valign: 'middle' });
   }
   src(s, 'T2_07; documento 10 (10-plan-de-marketing-2027.md), sección 2; Excel v7. Contactos y escaneos son metas propuestas del documento 10 y del 09.');
   note(s, 'Ade (#7)', 'Como somos una marca nueva, no medimos participación de mercado: medimos ventas, recompra y captación. Cada objetivo tiene número, fecha y un KPI que se mira cada domingo. El tercero depende de que el laboratorio confirme que no lleva octógono, porque sin eso no entramos a los colegios.');
@@ -382,7 +392,41 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
 
   // #10 Mapa perceptual
   s = content('Estrategia de marca', '#10 MAPA PERCEPTUAL · PRECIO Y EVIDENCIA', 'Casi solos en "premium con prueba"');
-  s.addImage({ path: '../../img/mapa-perceptual.jpg', x: X0, y: 1.6, w: 7.0, h: 4.9 });
+  {
+    // Mapa perceptual nativo (formas), con los datos de T2_10, sección 6.
+    card(s, X0, 1.6, 7.05, 4.95);
+    const mx0 = 1.5, mw = 5.9, my0 = 1.8, mh = 3.75;
+    const MX = (v) => mx0 + (v - 1.25) / 3.75 * mw, MY = (v) => my0 + mh - (v - 0.5) / 5 * mh;
+    s.addShape(pres.shapes.RECTANGLE, { x: mx0, y: my0, w: mw, h: mh, fill: { color: 'FFFFFF' }, line: { color: H.accent5, width: 0.75 } });
+    s.addShape(pres.shapes.LINE, { x: MX(3), y: my0, w: 0, h: mh, line: { color: H.accent5, width: 1.25, dashType: 'dash' } });
+    s.addShape(pres.shapes.LINE, { x: mx0, y: MY(3), w: mw, h: 0, line: { color: H.accent5, width: 1.25, dashType: 'dash' } });
+    [1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5].forEach(v => T(s, 'S/' + v.toFixed(2), { x: MX(v) - 0.4, y: my0 + mh + 0.04, w: 0.8, h: 0.22, fontSize: 10, align: 'center', color: C.accent2 }));
+    [1, 2, 3, 4, 5].forEach(v => T(s, String(v), { x: mx0 - 0.32, y: MY(v) - 0.11, w: 0.22, h: 0.22, fontSize: 10, align: 'right', color: C.accent2 }));
+    T(s, 'Precio por 20 g (S/ con IGV)', { x: mx0, y: my0 + mh + 0.28, w: mw, h: 0.26, fontSize: 11, bold: true, align: 'center', color: C.text2 });
+    T(s, 'Evidencia verificable (1 a 5)', { x: 0.88 - mh / 2, y: my0 + mh / 2 - 0.13, w: mh, h: 0.26, fontSize: 11, bold: true, align: 'center', color: C.text2, rotate: 270 });
+    const q = (t, x, y, al) => T(s, t, { x, y, w: 2.6, h: 0.22, fontSize: 10, bold: true, color: C.accent2, align: al });
+    q('Precio bajo con prueba: vacío', mx0 + 0.08, my0 + 0.06, 'left'); q('Premium con prueba', mx0 + mw - 2.68, my0 + 0.06, 'right');
+    q('Masivo', mx0 + 0.08, my0 + mh - 0.28, 'left'); q('Premium sin prueba', mx0 + mw - 2.68, my0 + mh - 0.28, 'right');
+    const bar = (a, b, y) => s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: MX(a), y: MY(y) - 0.05, w: MX(b) - MX(a), h: 0.1, rectRadius: 0.05, fill: { color: 'EBD9C6' }, line: { color: 'EBD9C6', width: 0 } });
+    const dot = (x, y, d, fill, line, dash) => s.addShape(pres.shapes.OVAL, { x: MX(x) - d / 2, y: MY(y) - d / 2, w: d, h: d, fill: fill ? { color: fill } : { color: 'FFFFFF' }, line: { color: line, width: fill ? 0.5 : 2, dashType: dash ? 'dash' : 'solid' } });
+    const lb = (t, x, y, dx, dy, o = {}) => T(s, t, Object.assign({ x: MX(x) + dx, y: MY(y) + dy, w: 1.9, h: 0.24, fontSize: 11, color: C.text1 }, o));
+    bar(4.16, 4.65, 4); bar(3.50, 4.17, 2);
+    s.addShape(pres.shapes.LINE, { x: MX(4.48), y: MY(5) + 0.14, w: 0, h: MY(4) - MY(5) - 0.28, line: { color: H.accent1, width: 1.5, dashType: 'dash' } });
+    dot(4.48, 5, 0.26, null, H.accent1); dot(4.48, 4, 0.28, H.accent1, H.accent1);
+    dot(3.20, 4, 0.2, H.dk2, H.dk2); dot(4.00, 3, 0.2, H.dk2, H.dk2); dot(4.10, 2, 0.2, H.dk2, H.dk2); dot(1.67, 2, 0.2, H.dk2, H.dk2);
+    dot(3.83, 2, 0.2, null, H.dk2, true); dot(2.11, 3, 0.2, null, H.dk2, true);
+    dot(3.01, 2, 0.15, 'A08C80', 'A08C80'); dot(1.68, 1, 0.15, 'A08C80', 'A08C80');
+    lb('Meta: con informe del laboratorio', 4.48, 5, -2.75, -0.12, { w: 2.55, align: 'right', bold: true, color: C.accent1, fontSize: 11 });
+    lb('AndiBite hoy · S/4.16 a S/4.65', 4.48, 4, -1.25, 0.16, { w: 2.0, align: 'center', bold: true, color: C.accent1, fontSize: 11 });
+    lb('Nutri H', 3.20, 4, 0.14, -0.3);
+    lb('Fika', 4.00, 3, -0.75, -0.3, { w: 0.65, align: 'right' });
+    lb('La Purita*', 2.11, 3, 0.14, -0.3);
+    lb('Forticao (x 40 a x 12)*', 3.83, 2, -0.95, -0.36, { w: 1.9, align: 'center' });
+    lb('Mamalama', 4.10, 2, -0.2, 0.14, { w: 1.2 });
+    lb('Bimbo Nutra Bien', 1.67, 2, 0.14, -0.3);
+    lb('Siete Dragones (ref.)', 3.01, 2, -2.0, 0.08, { w: 1.9, align: 'right', color: C.accent2 });
+    lb('Little Bites (ref.)', 1.68, 1, 0.14, -0.12, { color: C.accent2 });
+  }
   card(s, 7.85, 1.6, 4.88, 4.9);
   T(s, [
     { text: 'LECTURA', options: { fontSize: 12, bold: true, color: C.accent1, charSpacing: 1, breakLine: true } },
@@ -391,7 +435,7 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
     { text: 'El riesgo es el precio: estamos entre los más caros por 20 g.', options: { fontSize: 14.5, bullet: { indent: 16 }, breakLine: true } },
     { text: 'El informe del laboratorio es la base del posicionamiento.', options: { fontSize: 14.5, bullet: { indent: 16 }, bold: true } },
   ], { x: 8.1, y: 1.85, w: 4.4, h: 4.45, paraSpaceAfter: 9 });
-  src(s, 'Precios de T2_02 (tiendas oficiales, 19-oct-2026); escala de evidencia de T2_10. Peso de Forticao y La Purita [POR CONFIRMAR].');
+  src(s, 'Precios de T2_02 (tiendas oficiales, 19-oct-2026); escala de evidencia de T2_10. * Peso supuesto [POR CONFIRMAR]; en gris, marcas de referencia.');
   note(s, 'Paty (#10)', 'El eje horizontal es el precio por 20 gramos y el vertical, la evidencia que el padre puede verificar. Nutri H está cerca, pero nadie publica su análisis por lote. Si no publicamos el informe del laboratorio, nos quedamos al lado de Nutri H, pero más caros.');
 
   // #11 Slogan
@@ -423,7 +467,7 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
     [{ text: 'Imágenes', options: { bold: true, color: C.text2 } }, 'Un dedo escanea el QR y aparece el informe del lote', 'La caja de 12 abierta el domingo, con la semana armada'],
     [{ text: 'Emociones', options: { bold: true, color: C.text2 } }, 'Tranquilidad, confianza, control', 'Alivio, practicidad, complicidad'],
     [{ text: 'Nunca', options: { bold: true, color: C.accent1 } }, 'Miedo o culpa ("tu hijo puede tener anemia")', 'Tono infantil, "superalimento", un niño que pide a cámara'],
-  ], { y: 1.65, rowH: 0.88, fontSize: 14, colW: [1.8, 5.17, 5.16] });
+  ], { y: 1.6, rowH: 0.78, fontSize: 14, colW: [1.8, 5.17, 5.16] });
   franja(s, 'Lo común: la palabra "medido", la lonchera que vuelve vacía y el alivio.', 5.9);
   src(s, 'T2_11, sección 3; Ley 30021, art. 8 (los niños pueden salir comiendo, pero no recomiendan el producto).');
   note(s, 'Paty (#11)', 'Para cada segmento definimos qué palabras, imágenes y emociones debe dejar la marca. A Claudia le habla el dato; a Rodrigo, la semana resuelta. Lo que los une es la lonchera que vuelve vacía y la sensación de alivio.');
@@ -459,7 +503,7 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
     ['"Mini brownie de cacao con sangrecita de res"', '"Superalimento", "100 % saludable"', 'Promesa sin cifra para el 42 % que desconfía'],
     ['"Pídelo por WhatsApp" (al padre)', '"¡Niños, pídanle a su mamá!"', 'Ley 30021, art. 8: menores de 16 años'],
     ['"Él ve un brownie"', '"Engáñalo", "no se va a dar cuenta"', 'Daña la confianza del padre'],
-  ], { y: 1.65, rowH: 0.72, fontSize: 14, colW: [4.4, 3.95, 3.78], colOpt: { 0: { color: C.accent4, bold: true }, 1: { color: C.accent1 } } });
+  ], { y: 1.6, rowH: 0.68, fontSize: 14, colW: [4.4, 3.95, 3.78], colOpt: { 0: { color: C.accent4, bold: true }, 1: { color: C.accent1 } } });
   franja(s, 'Cada pieza pasa un checklist legal de 18 preguntas: diseña Angie, revisa Adela, Carlos confirma precios.', 5.9);
   src(s, 'T2_12, secciones 5.3 y 11; Ley 30021, art. 8; D. Leg. 1044; Kantar, 15-may-2025.');
   note(s, 'Carlos (#12)', 'El tono tiene reglas claras. Hablamos de hierro medido, no de enfermedad, porque "previene la anemia" se puede sancionar como publicidad engañosa. Y siempre le hablamos al adulto, nunca al niño.');
@@ -582,36 +626,19 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
   // #16 7P
   s = content('Mezcla y ejecución', '#16 LAS 7P · LA CAJA DE HERRAMIENTAS', 'Las 7P en una tabla');
   table(s, ['P', 'Qué decidimos', 'Dato clave'], [
-    ['Producto', 'Mini brownie de 20 g con sangrecita; 3 sabores; 4 presentaciones; QR y app', 'Hierro medido por lote (1.9 mg por brownie [POR CONFIRMAR])'],
-    ['Precio', 'Pack de 6: S/27.90 en stand y S/26.90 por WhatsApp; sin descuentos ni suscripción', 'S/4.16 a S/4.48 por brownie por WhatsApp'],
-    ['Plaza', 'Venta física: 3 puntos, Plaza Vea, 5 colegios y 8 naturistas; WhatsApp solo recompra', 'A y B con esfuerzo parejo'],
+    ['Producto', 'Mini brownie de 20 g con sangrecita; 3 sabores; 4 presentaciones; QR y app', 'Hierro medido por lote (1.9 mg [POR CONFIRMAR])'],
+    ['Precio', 'Pack de 6: S/27.90 en stand, S/26.90 por WhatsApp; sin suscripción', 'S/4.16 a S/4.48 por brownie; +1 % a +12 % sobre Fika y Mamalama'],
+    ['Plaza', 'Venta física: 3 puntos, Plaza Vea, 5 colegios, 8 naturistas', 'A y B con esfuerzo parejo'],
     ['Promoción', 'Degustación, 2 ferias, 40 eventos, embajadoras, Meta y 40 influencers', 'BTL 74 % y digital 26 %, sin ATL'],
     ['Personas', 'Vendedores a S/90 por día, coordinadora a S/709 al mes, embajadoras', '100 % capacitados antes de abrir'],
     ['Procesos', 'Degustación, compra, QR, app, contacto, aviso y recompra', '30 % escaneado; 35 % de recompra'],
     ['Evidencia física', 'Empaque con QR, informe del lote, registro sanitario, stand', 'Informe de laboratorio publicado por lote'],
-  ], { y: 1.55, rowH: 0.66, fontSize: 13, colW: [1.9, 6.0, 4.23], colOpt: { 0: { bold: true, color: C.accent1 } } });
+  ], { y: 1.55, rowH: 0.6, fontSize: 13, colW: [1.9, 6.0, 4.23], colOpt: { 0: { bold: true, color: C.accent1 } } });
   src(s, 'T2_16 (preguntas guía de las 7P de la sesión 09); HECHOS_v7; documento 10.');
   note(s, 'Angie (#16)', 'La clase nos da una pregunta por cada P. Lo más importante: la plaza es la venta física y la promoción es sobre todo cara a cara. Las personas también son marketing: los vendedores se capacitan antes de abrir para saber qué se dice y qué no.');
 
-  // #16 Precio
-  s = content('Mezcla y ejecución', '#16 PRECIO · FRENTE A LA COMPETENCIA', 'Pack de 12: al nivel de Fika y Mamalama');
-  const PC = ['Bimbo Nutra Bien · S/1.67', 'Nutri H · S/3.20', 'Fika · S/4.00', 'Mamalama · S/4.10', 'Forticao x 12* · S/4.17', 'AndiBite pack de 12 WhatsApp · S/4.16', 'AndiBite pack de 6 stand · S/4.65'];
-  s.addChart(pres.charts.BAR, [
-    { name: 'AndiBite', labels: PC, values: [0, 0, 0, 0, 0, 4.16, 4.65] },
-    { name: 'Competencia', labels: PC, values: [1.67, 3.20, 4.00, 4.10, 4.17, 0, 0] },
-  ], Object.assign(chartText(), { x: 0.4, y: 1.55, w: 8.3, h: 5.05, barDir: 'bar', barGrouping: 'stacked', title: 'Precio por 20 g, en soles con IGV', chartColors: [H.accent1, H.accent5], showLegend: false, valAxisMinVal: 0, valAxisMaxVal: 5, valAxisMajorUnit: 1, valAxisLabelFormatCode: '"S/"0', catAxisLabelFontSize: 12, barGapWidthPct: 40 }));
-  card(s, 8.85, 1.7, 3.88, 4.75);
-  T(s, [
-    { text: 'LECTURA', options: { fontSize: 12, bold: true, color: C.accent1, charSpacing: 1, breakLine: true } },
-    { text: 'Pack de 12 por WhatsApp: +4 % sobre Fika y +1 % sobre Mamalama.', options: { fontSize: 15, bullet: { indent: 16 }, breakLine: true } },
-    { text: 'Frente a Nutri H, +30 % a +45 %: lo justifican el brownie y la medición por lote.', options: { fontSize: 15, bullet: { indent: 16 }, breakLine: true } },
-    { text: 'Al padre B se le muestra primero el pack de 12.', options: { fontSize: 15, bullet: { indent: 16 } } },
-  ], { x: 9.1, y: 1.95, w: 3.4, h: 4.3, paraSpaceAfter: 10 });
-  src(s, 'Tiendas oficiales, Wong y Plaza Vea, 19-oct-2026 (T2_02); precios de AndiBite de HECHOS_v7; T2_16, sección 2.3. * Peso de Forticao [POR CONFIRMAR].');
-  note(s, 'Angie (#16)', 'Los precios no se cambian. Por 20 gramos, el pack de 12 por WhatsApp cuesta casi lo mismo que Fika y Mamalama. Por ese centavo extra el padre recibe el hierro medido y la app. Bimbo es otro mercado: masivo y sin hierro medido.');
-
   // #17 Presupuesto por canal
-  s = content('Mezcla y ejecución', '#17 PRESUPUESTO · INVERSIÓN POR CANAL', 'S/24,544 en 15 meses, sin cambiar los S/900');
+  s = content('Mezcla y ejecución', '#17 PRESUPUESTO · INVERSIÓN POR CANAL', 'S/24,544 en 15 meses, con S/900 al mes');
   table(s, ['BTL (cara a cara)', 'S/'], [
     ['Vendedores en ferias y eventos', '4,140'], ['Ferias pagadas (stand)', '3,600'], ['Aporte a 40 eventos sin costo', '2,800'], ['Mamás embajadoras (premio al padre)', '2,400'],
     ['Material de stand y POP', '2,300'], ['Degustaciones extra', '1,750'], ['600 muestras de lanzamiento', '1,146'],
@@ -663,21 +690,62 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
   ], { x: 5.1, y: 1.65, w: 7.63, rowH: 0.5, fontSize: 14, colW: [5.4, 2.23], colOpt: { 1: { align: 'center' } } });
   labelCard(s, 5.1, 4.35, 7.63, 2.2, 'ROI DEL NEGOCIO (OTRO INDICADOR)', 'Utilidad neta ÷ aporte de los socios: S/10,379 ÷ S/25,000 = 41.5 % en 2027. La inversión de S/40,876 se recupera en el mes 23.', { size: 15, band: C.accent2 });
   src(s, 'Excel v7, hojas Resumen y Proyeccion (contribución después de stands S/56,824); Presupuesto-marketing-AndiBite.xlsx; T2_17, sección 3.');
-  note(s, 'Angie (#17)', 'El ROI de marketing compara lo que deja la venta con lo que cuesta el marketing. Como parte de la venta ocurriría igual, usamos como cifra principal el escenario en que el marketing explica el 75 %: 74 %. El marketing se paga si explica al menos el 43 %.');
+  note(s, 'Angie (#17)', 'El ROI de marketing compara lo que deja la venta con lo que cuesta el marketing. Como parte de la venta ocurriría igual, la cifra principal es el escenario en que el marketing explica el 75 %: 74 %. El techo es 132 % y el piso 16 %; el marketing se paga si explica al menos el 43 %. Si los stands vendieran 20 % menos, el 74 % bajaría a unos 34 %.');
+
+  // #17 Sensibilidad al costo por contacto (sección nueva de T2_17)
+  s = content('Mezcla y ejecución', '#17 SENSIBILIDAD AL COSTO POR CONTACTO Y VIABILIDAD', 'Con S/8.23 por contacto, el plan sigue rentable');
+  table(s, ['Indicador (2027)', 'CPA S/5 (meta)', 'CPA S/8.23 (base)', 'CPA S/10 (malo)'], [
+    ['Contactos que trae la pauta', '1,010', { text: '613', options: { bold: true } }, '505'],
+    ['Utilidad neta del año 1*', 'S/14,619', { text: 'S/12,955', options: { bold: true } }, 'S/12,499'],
+    ['ROI de marketing, 75 % atribuido*', '88 %', { text: '82 %', options: { bold: true } }, '81 %'],
+    ['Mes en que la pauta se paga sola', 'Mes 13 (ene-28)', { text: 'Mes 18 (jun-28)', options: { bold: true } }, 'Mes 20 (ago-28)'],
+  ], { y: 1.6, w: 8.15, rowH: 0.66, fontSize: 14, colW: [3.17, 1.66, 1.66, 1.66], colOpt: { 0: { bold: true, color: C.text2 }, 1: { align: 'center' }, 2: { align: 'center', color: C.accent1 }, 3: { align: 'center' } } });
+  T(s, '* Estimado: suma lo que deja la pauta. El Excel v7 no le cuenta ventas a la pauta, así que su utilidad (S/10,379), su ROI de marketing (74 %) y el recupero en el mes 23 no cambian con el CPA.', { x: X0, y: 5.05, w: 8.15, h: 0.75, fontSize: 13, italic: true, color: C.accent2 });
+  stat(s, 9.0, 1.6, 3.73, 4.2, 'LÍMITE DE VIABILIDAD', 'S/9.70', 'por contacto: sobre ese costo, la pauta no se paga ni a diciembre de 2028 (con 75 % de atribución).', { bigSize: 44, subSize: 14 });
+  franja(s, 'Plan B [PROPUESTA]: si a fin de febrero el CPA sigue sobre S/8, S/150 al mes de pauta pasan a degustación.', 5.95);
+  src(s, 'T2_17, "Sensibilidad al costo por contacto y viabilidad" [ESTIMADO; supone que 1 de cada 15 contactos pide al mes]; Excel v7 (Mensual, Supuestos, Anio2).');
+  note(s, 'Angie (#17)', 'La pregunta fue cuánto mueve el costo por contacto. Las cifras del Excel no cambian, porque el Excel ya paga la pauta sin contarle ventas. Lo que cambia es una ganancia extra: con S/8.23 la pauta suma unos S/2,576 de utilidad en 2027, y se paga sola en junio de 2028. El límite está en unos S/9.70 por contacto; si en febrero seguimos sobre S/8, pasamos S/150 al mes de pauta a degustación, sin cambiar el total.');
 
   // #18 Gantt
   s = content('Mezcla y ejecución', '#18 DIAGRAMA DE GANTT · 15 MESES', 'Qué hacemos cada mes');
-  s.addImage({ path: '../../img/gantt-marketing.jpg', x: X0, y: 1.6, w: 8.75, h: 4.92 });
-  card(s, 9.55, 1.6, 3.18, 4.92);
-  T(s, [
-    { text: 'HITOS', options: { fontSize: 12, bold: true, color: C.accent1, charSpacing: 1, breakLine: true } },
-    ...[['H1', 'Jockey Plaza, ene'], ['H2', 'Punto 2, feb'], ['H3', 'Punto 3, ago'], ['H4', 'Feria escolar, feb'], ['H5', 'Día del Niño, 11-abr'], ['H6', 'Día de la Madre, 9-may'], ['H7', 'Día del Padre, 20-jun'], ['H8', 'Día del Niño, 15-ago']].flatMap((h, i) => [
-      { text: h[0] + ' ', options: { fontSize: 13.5, bold: true, color: C.accent1 } },
-      { text: h[1], options: Object.assign({ fontSize: 13.5, color: C.text1 }, i < 7 ? { breakLine: true } : {}) },
-    ]),
-  ], { x: 9.8, y: 1.8, w: 2.75, h: 4.55, paraSpaceAfter: 6 });
-  src(s, 'Diapositiva 37 de la TC5-8 (cronograma); T2_18 (12 actividades, responsables e hitos). Fechas de malls y ferias [POR CONFIRMAR].');
-  note(s, 'Angie (#18)', 'El Gantt muestra las 12 actividades en 15 meses, con la inversión y la meta de cada mes. Los hitos son las aperturas de los tres puntos, las dos ferias y las fechas comerciales. Las fechas que dependen de un contrato con el mall o la feria siguen por confirmar.');
+  {
+    // Gantt nativo: mismo código y datos que la TC5-8 (build.js, sección 26b; plan_mkt.json), ajustado al espacio del T2.
+    const GM = ['Oct', 'Nov', 'Dic', 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic'];
+    const gx = 4.1, gw = 12.73 - gx, cwm = gw / 15, gy0 = 1.5;
+    const gfases = [[0, 2, 'PRELANZAMIENTO 2026', C.accent2], [3, 4, 'LANZAMIENTO', C.accent1], [5, 9, 'CRECER', C.accent4], [10, 14, 'EXPANDIR', C.text2]];
+    gfases.forEach(f => {
+      s.addShape(pres.shapes.RECTANGLE, { x: gx + f[0] * cwm + 0.02, y: gy0, w: (f[1] - f[0] + 1) * cwm - 0.04, h: 0.28, fill: { color: f[3] }, line: { color: f[3], width: 0 } });
+      T(s, f[2], { x: gx + f[0] * cwm, y: gy0, w: (f[1] - f[0] + 1) * cwm, h: 0.28, fontSize: 9, bold: true, align: 'center', valign: 'middle', color: C.background1, charSpacing: 0.5 });
+    });
+    GM.forEach((m, i) => T(s, m, { x: gx + i * cwm, y: gy0 + 0.31, w: cwm, h: 0.22, fontSize: 10, bold: true, align: 'center', color: i < 3 ? C.accent2 : C.text2 }));
+    const gcol = { Preparar: C.accent2, Lanzar: C.accent1, Fidelizar: C.accent4, Crecer: C.accent3 };
+    const rh = 0.29, ry0 = gy0 + 0.56, nr = PM.gantt.length;
+    for (let i = 0; i < 15; i++) if (i % 2 === 1) s.addShape(pres.shapes.RECTANGLE, { x: gx + i * cwm, y: ry0, w: cwm, h: nr * rh, fill: { color: 'F4E6D3' }, line: { color: 'F4E6D3', width: 0 } });
+    s.addShape(pres.shapes.LINE, { x: gx + 3 * cwm, y: gy0 + 0.28, w: 0, h: nr * rh + 0.3, line: { color: H.accent1, width: 1.25, dashType: 'dash' } });
+    let lastG = '';
+    PM.gantt.forEach((r, i) => {
+      const y = ry0 + i * rh, col = gcol[r.grupo];
+      if (r.grupo !== lastG) { T(s, r.grupo.toUpperCase(), { x: 0.6, y: y + 0.02, w: 0.95, h: rh - 0.04, fontSize: 9, bold: true, color: col === C.accent3 ? C.accent2 : col, valign: 'middle', charSpacing: 0.5 }); lastG = r.grupo; }
+      s.addShape(pres.shapes.RECTANGLE, { x: 1.55, y: y + 0.07, w: 0.07, h: rh - 0.14, fill: { color: col }, line: { color: col, width: 0 } });
+      T(s, r.actividad, { x: 1.68, y, w: gx - 1.72, h: rh, fontSize: 9, valign: 'middle', color: C.text1 });
+      r.segmentos.forEach(sg => {
+        const x0 = gx + sg[0] * cwm + 0.03, w = (sg[1] - sg[0] + 1) * cwm - 0.06;
+        s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x0, y: y + 0.04, w, h: rh - 0.08, rectRadius: 0.08, fill: { color: col }, line: { color: col, width: 0 } });
+        if (sg[2]) T(s, sg[2], { x: x0 - 0.05, y: y + 0.04, w: w + 0.1, h: rh - 0.08, fontSize: (sg[1] === sg[0]) ? 7.5 : 8.5, bold: true, align: 'center', valign: 'middle', color: r.grupo === 'Crecer' ? C.text2 : C.background1 });
+      });
+    });
+    const yg = ry0 + nr * rh + 0.07;
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: yg, w: 12.13, h: 0.4, rectRadius: 0.08, fill: { color: C.text2 }, line: { color: C.text2, width: 0 } });
+    T(s, [{ text: 'Inversión del mes (S/)  ', options: { bold: true } }, { text: 'total 24,544', options: { fontSize: 10, color: C.accent3 } }], { x: 0.8, y: yg, w: gx - 0.85, h: 0.4, fontSize: 11, valign: 'middle', color: C.background1 });
+    PM.presupuesto_mensual.forEach((g, i) => T(s, g ? g.toLocaleString('en-US') : '–', { x: gx + i * cwm, y: yg, w: cwm, h: 0.4, fontSize: 10, bold: true, align: 'center', valign: 'middle', color: (i === 4 || i === 6) ? C.accent3 : C.background1 }));
+    const ym = yg + 0.45;
+    card(s, 0.6, ym, 12.13, 0.46, { r: 0.08, noShadow: true });
+    T(s, 'Meta del mes (brownies)', { x: 0.8, y: ym, w: gx - 0.85, h: 0.46, fontSize: 11, bold: true, valign: 'middle', color: C.text2 });
+    const metaB = ['20 en espera', '50 en espera', '100 en espera', 870, 2830, 3734, 4420, 4304, 4038, 3824, 5208, 5603, 6011, 5861, 5628];
+    metaB.forEach((m, i) => T(s, typeof m === 'number' ? m.toLocaleString('en-US') : m, { x: gx + i * cwm, y: ym, w: cwm, h: 0.46, fontSize: typeof m === 'number' ? 10 : 8, bold: typeof m === 'number', align: 'center', valign: 'middle', color: typeof m === 'number' ? C.accent1 : C.accent2 }));
+  }
+  src(s, 'T2_18 y TC5-8 (plan_mkt.json, 12 actividades); Excel v7 (metas); Presupuesto-marketing-AndiBite.xlsx (inversión). Fechas de malls y ferias [POR CONFIRMAR].');
+  note(s, 'Angie (#18)', 'El Gantt muestra las 12 actividades en 15 meses, con la inversión y la meta de cada mes; la línea roja marca el lanzamiento en enero. Los hitos son Jockey Plaza en enero, el punto 2 y la feria escolar en febrero, la feria del 11 de abril, el Día de la Madre y del Padre, y el punto 3 con el Día del Niño en agosto. Las fechas que dependen de un contrato con el mall o la feria siguen por confirmar.');
 
   // #19 KPI y semáforo
   s = content('Mezcla y ejecución', '#19 CONTROL DE KPI · TABLERO DE CADA DOMINGO', 'El semáforo de los domingos');
@@ -725,28 +793,28 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
     ['PÚBLICO', '46,000', 'hogares A/B en el núcleo. Claudia (A) y Rodrigo (B), con esfuerzo parejo.'],
     ['CAMPAÑA', 'S/24,544', 'en 15 meses: "Vuelve vacía", 74 % BTL y 26 % digital, sin ATL.'],
     ['METAS 2027', '52,331', 'brownies y S/244,728 con IGV; 35 % de recompra y 5 colegios.'],
-    ['RETORNO', '74 %', 'de ROI de marketing (75 % de atribución). ROI del negocio: 41.5 %. Recupero en el mes 23.'],
+    ['RETORNO', '74 %', 'de ROI de marketing, cifra principal (75 % de atribución). ROI del negocio: 41.5 %. Recupero en el mes 23.'],
   ];
   RE.forEach((r, i) => {
     const w = 3.91, h = 2.4, x = X0 + (i % 3) * (w + 0.2), y = 1.6 + Math.floor(i / 3) * (h + 0.12);
-    stat(s, x, y, w, h, r[0], r[1], r[2], { dark: i === 5, bigSize: 30, subSize: 13, valign: 'top' });
+    stat(s, x, y, w, h, r[0], r[1], r[2], { dark: i === 5, bigSize: 34, subSize: 15, valign: 'middle' });
   });
   src(s, 'T2_21; HECHOS_v7; Excel v7; Presupuesto-marketing-AndiBite.xlsx; INEI, ENDES 2024; T2_17, sección 3.');
-  note(s, 'Diana (#21)', 'En resumen: un problema real, un producto que el niño sí se come y un público que pide pruebas. Con S/24,544 en 15 meses buscamos vender 52,331 brownies en 2027. La meta es prudente: es el 1.4 % del núcleo.');
+  note(s, 'Diana (#21)', 'En resumen: un problema real, un producto que el niño sí se come y un público que pide pruebas. Con S/24,544 en 15 meses buscamos vender 52,331 brownies en 2027, solo el 1.4 % del núcleo. El ROI de marketing es 74 % en su cifra principal y el costo por contacto de la pauta no cambia esa cifra.');
 
   // Conclusiones y riesgos
   s = content('Resumen y cierre', '#21 CIERRE · CONCLUSIONES Y RIESGOS', 'El laboratorio es la base del plan');
   card(s, X0, 1.65, 5.2, 4.9, { fill: C.text2 });
   T(s, [
     { text: '3 CONCLUSIONES', options: { fontSize: 12, bold: true, color: C.accent3, charSpacing: 1, breakLine: true } },
-    { text: 'Una sola línea: insight, posicionamiento, campaña y KPI.', options: { fontSize: 16, color: C.background1, bullet: { indent: 16 }, breakLine: true } },
-    { text: 'Sin informe del lote no hay "hierro medido" ni colegios (17.5 % del año 1).', options: { fontSize: 16, color: C.background1, bullet: { indent: 16 }, breakLine: true } },
-    { text: 'La venta física manda; el marketing es chico y medible.', options: { fontSize: 16, color: C.background1, bullet: { indent: 16 } } },
-  ], { x: 0.9, y: 1.9, w: 4.6, h: 4.45, paraSpaceAfter: 14 });
+    { text: 'Una sola línea: insight, posicionamiento, campaña y KPI.', options: { fontSize: 19, color: C.background1, bullet: { indent: 16 }, breakLine: true } },
+    { text: 'Sin informe del lote no hay "hierro medido" ni colegios (17.5 % del año 1).', options: { fontSize: 19, color: C.background1, bullet: { indent: 16 }, breakLine: true } },
+    { text: 'La venta física manda; el marketing es chico y medible.', options: { fontSize: 19, color: C.background1, bullet: { indent: 16 } } },
+  ], { x: 0.9, y: 1.9, w: 4.6, h: 4.45, paraSpaceAfter: 22 });
   table(s, ['Riesgo', 'Plan B'], [
     ['El laboratorio no confirma "sin octógono"', 'El mensaje es el hierro medido; esos brownies van a eventos y naturistas'],
     ['Los stands venden 20 % menos', 'Línea de crédito de S/3,000 solo si la caja baja de S/1,000'],
-    ['La pauta cuesta más de S/8 por contacto', 'Rondas 5-3-2; si sigue 2 meses, soles a degustación'],
+    ['La pauta cuesta más de S/8 por contacto', 'Rondas 5-3-2; si sigue, S/150 al mes a degustación [PROPUESTA]'],
     ['Rechazo al saber que tiene sangrecita', 'Primero se prueba y después se cuenta'],
   ], { x: 6.05, y: 1.65, w: 6.68, rowH: 1.0, fontSize: 13.5, colW: [2.9, 3.78], colOpt: { 0: { bold: true, color: C.text2 } } });
   src(s, 'T2_21, secciones 4.1 y 4.3; documento 10 (riesgos); T2_06; T2_19.');
@@ -758,7 +826,7 @@ function labelCard(s, x, y, w, h, label, text, o = {}) {
   s.addText('Hierro medido. Sabor a brownie.', { placeholder: 'title' });
   T(s, 'Su prueba: la lonchera vacía. La tuya: el informe de su lote.', { x: 0.8, y: 3.4, w: 7.4, h: 1.0, fontSize: 24, bold: true, color: C.accent5 });
   T(s, 'Gracias · Grupo 2 · AndiBite', { x: 0.8, y: 5.6, w: 7.4, h: 0.4, fontSize: 16, color: C.background2 });
-  s.addImage({ path: 'img/B1_frente.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: -3 });
+  s.addImage({ path: 'img/B1_frente_s.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: -3 });
   note(s, 'Diana (#21)', 'En la lonchera de cada día, el niño da su prueba y el padre tiene la suya. Hierro medido. Sabor a brownie. Muchas gracias; quedamos atentos a sus preguntas.');
 
   await pres.writeFile({ fileName: OUT });
