@@ -46,11 +46,11 @@ Clip A + clip B = 16 s. Al final, un cartón de 2 s sobre el último cuadro con 
 
 | Segundos | Archivo | Texto para ElevenLabs |
 |---|---|---|
-| 0 a 8 | `V0-a.mp3` | «Rallaste zanahoria en la torta. La sopa fue de dinosaurio. Y el jugo verde fue de superhéroe toda una semana.» |
+| 0 a 8 | `V0-a.mp3` | «Rallaste zanahoria dentro de la torta. Le pusiste nombre de dinosaurio a la sopa. El jugo verde fue de superhéroe toda una semana.» |
 | 8 a 13 | `V0-b.mp3` | «Nadie aplaude esos trucos, porque nadie los ve. Por eso hicimos uno que ya no necesita cuento.» |
 | 13 a 16 | `V0-c.mp3` | «AndiBite. Dulce para ellos. Tranquilidad para ti.» |
 
-Dirección: pausado, como quien le habla a alguien que conoce; pausa clara después de «nadie los ve». El cartón final va solo con música.
+Dirección: pausado, como quien le habla a alguien que conoce; pausa clara después de «nadie los ve». La firma cae sobre el cartón final; después, solo música.
 
 ---
 
@@ -89,9 +89,9 @@ Clip A (8 s) + clip B (recortado a 7 s) = 15 s. Cierre sobre el último cuadro: 
 | Segundos | Archivo | Texto para ElevenLabs |
 |---|---|---|
 | 0 a 8 | `V4-a.mp3` | «¿Zanahoria en la torta? ¿Sopa de dinosaurio? ¿Jugo de superhéroe? Todos tenemos un truco para que coman bien. ¿Cuál es el tuyo?» |
-| 8 a 15 | `V4-b.mp3` | «Cuéntanoslo con el hashtag Lo que nadie ve y etiquétanos. Los tres más votados abren nuestro mural y ganan un mes de lonchera. Este diciembre, sí los aplaudimos.» |
+| 8 a 15 | `V4-b.mp3` | «Cuéntanoslo con el hashtag Lo que nadie ve y etiquétanos. Los tres más votados abren nuestro mural en Jockey Plaza y ganan un mes de lonchera. Este diciembre, sí los aplaudimos.» |
 
-Dirección: las tres preguntas rápidas y con sonrisa; «¿Cuál es el tuyo?» lento y directo. El segundo bloque es una invitación de amiga, no un anuncio de premios.
+Dirección: las tres preguntas rápidas y con sonrisa; «¿Cuál es el tuyo?» lento y directo. El segundo bloque es una invitación a participar: tono de amiga que te convence.
 
 ---
 
@@ -125,7 +125,7 @@ Un solo clip de 8 s. Cierre en los últimos 2 s: logo, «Dulce para ellos. Tranq
 |---|---|---|
 | 0 a 3 | `V1-a.mp3` | «Confieso: el jugo verde nunca le dio superpoderes.» |
 | 3 a 6 | `V1-b.mp3` | «El vaso volvía lleno.» |
-| 6 a 8 | `V1-c.mp3` | «Ahora su hierro va en un mini brownie que me pide.» |
+| 6 a 8 | `V1-c.mp3` | «Ahora su hierro va escondido en un mini brownie que me pide.» |
 
 Dirección: confesión con humor, en primera persona; pausa breve después de «Confieso». Lo que no entra en la voz va en el texto de pantalla.
 
@@ -159,7 +159,7 @@ Un solo clip de 8 s. Cierre en los últimos 2 s: logo, slogan y los dos botones.
 
 | Segundos | Archivo | Texto para ElevenLabs |
 |---|---|---|
-| 0 a 3 | `V2-a.mp3` | «Mi truco: el que termina primero elige la música del carro.» |
+| 0 a 3 | `V2-a.mp3` | «Mi truco: el que se lo acaba primero elige la música del carro.» |
 | 3 a 6 | `V2-b.mp3` | «Con la menestra, ni con su canción favorita.» |
 | 6 a 8 | `V2-c.mp3` | «Ahora lleva un mini brownie con hierro. Sin carrera.» |
 
@@ -196,7 +196,7 @@ Un solo clip de 8 s. Cierre: logo, slogan y los dos botones.
 | Segundos | Archivo | Texto |
 |---|---|---|
 | 0 a 3 | `V3-a.mp3` | «Mi truco era decirle que el hígado era carne de dinosaurio.» |
-| 3 a 6 | `V3-b.mp3` | «Ahora no le cuento nada: la lonchera vuelve vacía.» |
+| 3 a 6 | `V3-b.mp3` | «Ahora no le cuento nada: le mando su brownie y la lonchera vuelve vacía.» |
 | 6 a 8 | `V3-c.mp3` | «Y su hierro de cada día lo veo en la app.» |
 
 Dirección: natural, con risa contenida al inicio; no es un locutor, es una mamá o un papá contando algo que le pasó.
@@ -227,9 +227,9 @@ Ninguno: la ficha de la presentación ya pone su nombre, edad y la frase.
 
 | Segundos | Archivo | Texto para ElevenLabs |
 |---|---|---|
-| 0 a 3 | `P1-a.mp3` | «Siete y diez. Leo la etiqueta otra vez.» |
-| 3 a 6 | `P1-b.mp3` | «Todo lo que le hace bien, mi hijo lo deja.» |
-| 6 a 8 | `P1-c.mp3` | «Y mañana, otra vez.» |
+| 0 a 3 | `P1-a.mp3` | «Seis y cuarenta. Todo lo que le hace bien, mi hijo lo deja. Leo la etiqueta otra vez.» |
+| 3 a 5 | `P1-b.mp3` | «Desde la oficina, miro el celular.» |
+| 5 a 8 | `P1-c.mp3` | «Vacía. Por fin, vacía.» |
 
 ---
 
@@ -258,8 +258,8 @@ Ninguno.
 | Segundos | Archivo | Texto para ElevenLabs |
 |---|---|---|
 | 0 a 3 | `P2-a.mp3` | «Seis y cinco. Café, lonchera, llaves.» |
-| 3 a 6 | `P2-b.mp3` | «No me vendas salud. Véndeme una mañana menos.» |
-| 6 a 8 | `P2-c.mp3` | «Y que se lo coma.» |
+| 3 a 5 | `P2-b.mp3` | «No me vendas salud, véndeme una mañana menos.» |
+| 5 a 8 | `P2-c.mp3` | «Doce brownies. Doce mañanas resueltas.» |
 
 ---
 

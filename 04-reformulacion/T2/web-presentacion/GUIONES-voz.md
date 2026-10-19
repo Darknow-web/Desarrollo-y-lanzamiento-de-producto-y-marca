@@ -16,20 +16,20 @@ Reglas que no se negocian: habla siempre un adulto; nunca se dice «combate» ni
 
 | Segundos | Toma | Voz |
 |---|---|---|
-| 0 a 8 | Los cuatro trucos (zanahoria, sopa, jugo, cuento) | «Rallaste zanahoria en la torta. La sopa fue de dinosaurio. Y el jugo verde fue de superhéroe toda una semana.» |
+| 0 a 8 | Los cuatro trucos (zanahoria, sopa, jugo, cuento) | «Rallaste zanahoria dentro de la torta. Le pusiste nombre de dinosaurio a la sopa. El jugo verde fue de superhéroe toda una semana.» |
 | 8 a 13 | La lonchera vuelve vacía, la bolsa kraft | «Nadie aplaude esos trucos, porque nadie los ve. Por eso hicimos uno que ya no necesita cuento.» |
 | 13 a 16 | Último cuadro y cartón «Cuéntanos el tuyo. #LoQueNadieVe» | «AndiBite. Dulce para ellos. Tranquilidad para ti.» |
 
-Dirección: ritmo pausado, como quien le habla a alguien que conoce. Una pausa clara después de «nadie los ve». El cartón final va en silencio, solo con la música.
+Dirección: ritmo pausado, como quien le habla a alguien que conoce. Una pausa clara después de «nadie los ve». La firma cae sobre el cartón final; después, solo música.
 
 ## V4 · Convocatoria del concurso · 9:16 · 15 s · voz Marca
 
 | Segundos | Toma | Voz |
 |---|---|---|
 | 0 a 8 | Montaje de trucos y texto «¿Cuál es tu truco?» | «¿Zanahoria en la torta? ¿Sopa de dinosaurio? ¿Jugo de superhéroe? Todos tenemos un truco para que coman bien. ¿Cuál es el tuyo?» |
-| 8 a 15 | El mural de post-its y el texto de la mecánica | «Cuéntanoslo con el hashtag Lo que nadie ve y etiquétanos. Los tres más votados abren nuestro mural y ganan un mes de lonchera. Este diciembre, sí los aplaudimos.» |
+| 8 a 15 | El mural de post-its y el texto de la mecánica | «Cuéntanoslo con el hashtag Lo que nadie ve y etiquétanos. Los tres más votados abren nuestro mural en Jockey Plaza y ganan un mes de lonchera. Este diciembre, sí los aplaudimos.» |
 
-Dirección: las tres preguntas del inicio van rápidas y con sonrisa; «¿Cuál es el tuyo?» más lento y directo. El segundo bloque es una invitación, no un anuncio de sorteo: tono de amiga que te convence.
+Dirección: las tres preguntas del inicio van rápidas y con sonrisa; «¿Cuál es el tuyo?» más lento y directo. El segundo bloque es una invitación a participar: tono de amiga que te convence.
 
 ## V1 · Anuncio para Claudia · 9:16 · 8 s · voz Claudia
 
@@ -37,7 +37,7 @@ Dirección: las tres preguntas del inicio van rápidas y con sonrisa; «¿Cuál 
 |---|---|---|
 | 0 a 3 | Claudia en su cocina, el vaso verde | «Confieso: el jugo verde nunca le dio superpoderes.» |
 | 3 a 6 | El vaso vuelve lleno, la lonchera | «El vaso volvía lleno.» |
-| 6 a 8 | La bolsa kraft y la app en su mano | «Ahora su hierro va en un mini brownie que me pide.» |
+| 6 a 8 | La bolsa kraft y la app en su mano | «Ahora su hierro va escondido en un mini brownie que me pide.» |
 
 Dirección: primera persona, como una confesión con humor. Pausa breve después de «Confieso». El resto del texto del anuncio («Leí etiquetas, licué espinaca…») va escrito en pantalla, no en la voz: en 8 segundos no entra.
 
@@ -45,7 +45,7 @@ Dirección: primera persona, como una confesión con humor. Pausa breve después
 
 | Segundos | Toma | Voz |
 |---|---|---|
-| 0 a 3 | 6:05 a. m., las llaves, el carro | «Mi truco: el que termina primero elige la música del carro.» |
+| 0 a 3 | 6:05 a. m., las llaves, el carro | «Mi truco: el que se lo acaba primero elige la música del carro.» |
 | 3 a 6 | La lonchera con la menestra | «Con la menestra, ni con su canción favorita.» |
 | 6 a 8 | La bolsa kraft, el pack de 12 | «Ahora lleva un mini brownie con hierro. Sin carrera.» |
 
@@ -56,7 +56,7 @@ Dirección: apurado pero divertido, como si lo contara en el semáforo. «Sin ca
 | Segundos | Toma | Voz |
 |---|---|---|
 | 0 a 3 | La mesa de la casa, el adulto a cámara | «Mi truco era decirle que el hígado era carne de dinosaurio.» |
-| 3 a 6 | La lonchera vacía sobre la mesa | «Ahora no le cuento nada: la lonchera vuelve vacía.» |
+| 3 a 6 | La lonchera vacía sobre la mesa | «Ahora no le cuento nada: le mando su brownie y la lonchera vuelve vacía.» |
 | 6 a 8 | La app en el celular | «Y su hierro de cada día lo veo en la app.» |
 
 Dirección: este se graba con celular el 2 de enero en Jockey Plaza, con una de las tres familias ganadoras, y la voz es la suya. Si lo necesitas antes como muestra, usa ElevenLabs con una voz distinta de Claudia y Rodrigo y márcalo como provisional.
@@ -65,17 +65,17 @@ Dirección: este se graba con celular el 2 de enero en Jockey Plaza, con una de 
 
 | Segundos | Toma | Voz |
 |---|---|---|
-| 0 a 3 | 7:10 a. m., lee la etiqueta | «Siete y diez. Leo la etiqueta otra vez.» |
-| 3 a 6 | La lonchera vuelve con todo | «Todo lo que le hace bien, mi hijo lo deja.» |
-| 6 a 8 | Mira el celular, suspira | «Y mañana, otra vez.» |
+| 0 a 3 | 6:40 a. m., lee la etiqueta de la bolsa en su cocina | «Seis y cuarenta. Todo lo que le hace bien, mi hijo lo deja. Leo la etiqueta otra vez.» |
+| 3 a 5 | En la oficina, mira el celular | «Desde la oficina, miro el celular.» |
+| 5 a 8 | Abre la lonchera: vacía | «Vacía. Por fin, vacía.» |
 
 ## P2 · Rodrigo, un día en su vida · 9:16 · 8 s · voz Rodrigo (solo para la presentación)
 
 | Segundos | Toma | Voz |
 |---|---|---|
-| 0 a 3 | 6:05 a. m., café y lonchera | «Seis y cinco. Café, lonchera, llaves.» |
-| 3 a 6 | Mira el precio por brownie en el celular | «No me vendas salud. Véndeme una mañana menos.» |
-| 6 a 8 | Sale por la puerta | «Y que se lo coma.» |
+| 0 a 3 | 6:05 a. m., la bolsa a la lonchera y las llaves | «Seis y cinco. Café, lonchera, llaves.» |
+| 3 a 5 | En el almacén, escribe un mensaje en el celular | «No me vendas salud, véndeme una mañana menos.» |
+| 5 a 8 | Recibe la caja de 12 en la puerta | «Doce brownies. Doce mañanas resueltas.» |
 
 ## Historias de diciembre (sin video nuevo)
 
