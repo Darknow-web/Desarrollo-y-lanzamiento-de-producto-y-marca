@@ -1,6 +1,7 @@
 # Observaciones de Carlos (19-oct-2026) y estado
 
-Estado: **TERCERA VERIFICACIÓN DEL DIRECTOR, 19-oct-2026, 21:00** (commit `58efd7d`; capturas `capturas/escritorio-01` a `44` y `celular-*` regeneradas en ese commit; capturas de la app `scratchpad/app-capturas4/*.png` de las 20:42–20:47; capturas propias del director `scratchpad/v3/out/50-inicio-finde-semana.png` y `51-enviar-la-semana.png`, tomadas con Playwright sobre el sitio publicado; sitios andibite.cingacordova.workers.dev y andi-app.cingacordova.workers.dev revisados con curl; 32 tests pasan). Resultado: **29 CUMPLIDOS y 2 NO CUMPLIDOS** (26 y 29), más 1 transversal pendiente (hilo). **No se cierra todavía.**
+Estado: **CERRADO. CUARTA VERIFICACIÓN DEL DIRECTOR, 19-oct-2026, 21:05** (commit `8d9f6d5`; capturas `capturas/escritorio-18` y `19` regeneradas en ese commit; capturas de la app `scratchpad/app-capturas5/*.png` de las 20:56–20:58; sitios andibite.cingacordova.workers.dev y andi-app.cingacordova.workers.dev revisados con curl (bundle index-BN0oG-Jj.js e index-WZZZvqJp.css); 32 tests pasan). Resultado: **31 CUMPLIDOS y 0 NO CUMPLIDOS**; las 4 transversales cumplidas.
+Tercera verificación (commit `58efd7d`): 29 cumplidos y 2 no cumplidos (26 y 29), más el hilo.
 Segunda verificación (commit `331f3a6`): 25 cumplidos y 6 no cumplidos. Primera (commit `c7adaf2`): 21 y 10.
 Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como NO CUMPLIDO.
 
@@ -80,16 +81,16 @@ Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como
    **[CUMPLIDO]** .claude/agents/t2-creativo.md, CAMPANA-lo-que-nadie-ve.md y PROMPTS-campana.md. El documento ya no coincide con index.html en dos frases (ver el 26).
 
 26. Agente redactor aplicó la revisión de redacción a todo.
-   **[NO CUMPLIDO]** Resuelto lo de la ronda 2: CAMPANA-lo-que-nadie-ve.md:37, :48 y :50 iguales a index.html:586, :605 y :606; Canvas index.html:308 "La app: el hierro de cada día, loncheras y aviso de recompra" (captura escritorio-14). **Falta:** quedan textos de la app vieja ("el reto"), dos que ven papá y mamá y dos de accesibilidad: (a) app src/parents/Bienvenida.tsx:129, casilla de consentimiento: "Acepto que la app guarde el reto, la despensa…" debe decir "Acepto que la app guarde el hierro de cada día, la despensa y los recordatorios en este teléfono (Ley 29733)…". (b) src/parents/Mas.tsx:97: "el reto de la lonchera" debe decir "el hierro de cada día y las loncheras vacías". (c) index.html:408, alt "Pantalla del reto lonchera vacía" debe decir "Pantalla de inicio con el hierro de hoy". (d) index.html:409, alt "Pantalla del semáforo de hierro semanal" (la imagen es /hoy) debe decir "Pantalla del hierro del día y de la semana". Republicar las dos apps.
+   **[CUMPLIDO]** (a) app src/parents/Bienvenida.tsx:129 "Acepto que la app guarde el hierro de cada día, la despensa y los recordatorios en este teléfono (Ley 29733)…". (b) src/parents/Mas.tsx:97 "el hierro de cada día y las loncheras vacías, sus estrellas…". Los dos textos están en el bundle publicado (index-BN0oG-Jj.js) y "el reto" no aparece en él (0 coincidencias) ni en texto visible de src/ (solo en un comentario de src/kids/progreso.ts:9). (c) index.html:398 alt "Pantalla de inicio con el hierro de hoy" (app_reto.jpg, ahora solo en la 18). (d) index.html:409 alt "Pantalla del hierro del día y de la semana". index.html:408 alt "Pantalla para sumar otra comida con hierro". Los alt publicados son idénticos a los de index.html. Ronda 2 ya cerrada: CAMPANA:37, :48 y :50 iguales a index.html; Canvas :308. Observación menor, sin estado: el título "Semáforo de hierro" sigue en la app (src/parents/Hierro.tsx:23 y :38; Reto.tsx:155); no lo pidió ningún punto, pero si se quiere un solo nombre, sería "El hierro de la semana".
 
 27. Director verificó todos los puntos.
-   **[CUMPLIDO]** Tres verificaciones con evidencia por punto: commits c7adaf2, 331f3a6 y 58efd7d (esta).
+   **[CUMPLIDO]** Cuatro verificaciones con evidencia por punto: commits c7adaf2, 331f3a6, 58efd7d y 8d9f6d5 (esta).
 
 28. Logo AndiBite pequeño en todas las pantallas.
    **[CUMPLIDO, con excepción aceptada]** Está en 38 de 40 pantallas principales y en los 4 anexos (index.html:17). En la portada (1) y el cierre (40) el logo pequeño se oculta (style.css:1273) porque el logo grande ocupa el centro de la pantalla (index.html:60 y :841; capturas escritorio-01 y 40, celular-01). Poner los dos sería repetir la marca. Se acepta la excepción.
 
 29. Ciclo de revisión (/loop) hasta cumplir todo.
-   **[NO CUMPLIDO]** Ronda 1: 10 pendientes; ronda 2: 6 y 2 transversales; ronda 3 (esta): 1 punto (26) y 1 transversal (hilo). Se cierra cuando la lista quede en cero.
+   **[CUMPLIDO]** Ronda 1: 10 pendientes; ronda 2: 6 y 2 transversales; ronda 3: 2 y 1 transversal; ronda 4 (esta, commit 8d9f6d5): 0. Lista en cero, se cierra.
 
 30. App: control de hierro del día mejorado (ver 6).
    **[CUMPLIDO]** Anillo de mg frente a la referencia por edad, "Volvió vacía" y "Otra comida", /hoy con pestaña Inicio activa, envío del día y de la semana con las mismas cifras de la pantalla (app-capturas4/06, 08, 09 y 10; scratchpad/v3/out/50 y 51). Ver el 6.
@@ -100,13 +101,19 @@ Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como
 ## Revisión transversal
 
 - **T1 · Canvas, pantalla 14.** **[CUMPLIDO]** Captura escritorio-14: las 9 cajas muestran todos sus puntos, sin cortes, en letra legible (style.css:1302, de 11 a 18 px).
-- **Coherencia del hilo.** **[NO CUMPLIDO]** Resuelto lo de la ronda 2: public/img/app_pedido.jpg muestra el pack, el total S/26.90, el botón "Pedir por WhatsApp" completo y el mensaje que se envía (mismo md5 en el sitio publicado); escritorio-18 y 19 y celular regenerados con las imágenes nuevas. **Falta:** la pantalla 18 (index.html:398) y la primera de las "cuatro pantallas reales" de la 19 (:408) son la misma imagen, app_reto.jpg (se ve en escritorio-18 y escritorio-19): el público ve la misma pantalla dos veces seguidas y la 19 promete cuatro distintas. Corrección: en :408 usar otra pantalla, por ejemplo app-capturas4/09-hoja-comida.png exportada a public/img/app_comida.jpg (600 × 1298), con pie "Sumar otra comida" y alt "Hoja para sumar otra comida con hierro"; volver a sacar escritorio-19 y republicar.
-- **Papá y mamá.** **[CUMPLIDO]** Presentación y app (punto 9; escritorio-33 "Papás y mamás embajadores"). HECHOS_v7.md:16 "Todo papá y toda mamá en Lima saben…" y :106 "Papás y mamás embajadores… El premio es para el papá o la mamá"; t2-redactor.md:6 y :12 "un papá o una mamá de Lima". Errata en HECHOS_v7.md:16 (no afecta el punto, pero es el discurso que se dice en voz alta): "cuando intenta dárselo" debe ser "cuando intentan dárselo".
-- **Palabras prohibidas.** **[CUMPLIDO]** Grep en index.html, src/ de la presentación, src/ y worker/ de la app, CAMPANA y PROMPTS: no aparecen "supuesto" (solo dentro de "presupuesto"), "estimado", "[POR CONFIRMAR]", "EXPOINNOVA" ni "Hierro medido. Sabor a brownie."; "su prueba… la tuya" solo en la lista de frases que se evitan (CAMPANA:198). Sin frases espejo: CAMPANA:48 ya dice "Nadie aplaude esos trucos, porque nadie los ve.". Nota: CAMPANA:201 dice que HECHOS_v7 todavía tiene "Su prueba…", pero HECHOS_v7.md:21 ya lo reemplazó; borrar esa línea.
+- **Coherencia del hilo.** **[CUMPLIDO]** La 18 muestra Inicio con el botón "Otra comida" (app_reto.jpg, index.html:398; captura escritorio-18) y la 19 abre con lo que pasa al tocarlo: la hoja "¿Qué comió Teo?", pie "Sumar otra comida" (public/img/app_comida.jpg, 600 × 1298, index.html:408; captura escritorio-19). Siguen "El día y la semana", "Plan de loncheras" y "Pedido por WhatsApp": cuatro pantallas distintas, ninguna repite la 18. app_comida.jpg tiene el mismo md5 en el sitio publicado (72fd6fb6…). Ronda 2 ya cerrada: app_pedido.jpg con pack, total S/26.90 y mensaje.
+- **Papá y mamá.** **[CUMPLIDO]** Presentación y app (punto 9; escritorio-33 "Papás y mamás embajadores"). HECHOS_v7.md:16 "Todo papá y toda mamá en Lima saben…" y :106 "Papás y mamás embajadores… El premio es para el papá o la mamá"; t2-redactor.md:6 y :12 "un papá o una mamá de Lima". HECHOS_v7.md:16 ya dice "cuando intentan dárselo".
+- **Palabras prohibidas.** **[CUMPLIDO]** Grep en index.html, src/ de la presentación, src/ y worker/ de la app, CAMPANA y PROMPTS: no aparecen "supuesto" (solo dentro de "presupuesto"), "estimado", "[POR CONFIRMAR]", "EXPOINNOVA" ni "Hierro medido. Sabor a brownie."; "su prueba… la tuya" solo en la lista de frases que se evitan (CAMPANA:198). Sin frases espejo: CAMPANA:48 ya dice "Nadie aplaude esos trucos, porque nadie los ve.". La línea vieja de CAMPANA:201 ("HECHOS_v7 por actualizar…") ya se borró. Ronda 4: grep en index.html publicado, src/ y bundle de la app, sin resultados nuevos.
 
-## Pendientes ordenados por importancia (ronda 3)
+## Cambios del diseñador en esta ronda (no reabren ningún punto)
 
-1. Punto 26: "el reto" en Bienvenida.tsx:129 y Mas.tsx:97; alt de index.html:408 y :409. Republicar las dos apps.
-2. Hilo: en la pantalla 19 (index.html:408) reemplazar app_reto.jpg, que repite la 18, por otra pantalla (09-hoja-comida → app_comida.jpg, pie "Sumar otra comida"); nueva escritorio-19.
-3. Menores, sin estado: HECHOS_v7.md:16 "cuando intentan dárselo"; borrar CAMPANA:201.
-4. Punto 29: cuarta verificación con estos pendientes; si quedan en cero, se cierra.
+- Encabezado de la app opaco: src/styles/padres.css:20 (`background: var(--crema)` y línea inferior), publicado en index-WZZZvqJp.css; captura app-capturas5/42-plan-recetario (las tarjetas ya no se ven a través del título).
+- Pistas de los juegos en pastillas: src/styles/ninos.css:91 y :232 (`.pista-tramo` con fondo crema y bordes redondos), publicado; capturas app-capturas5/17-atrapa y 21-sumas. Textos legibles, nada cortado.
+
+## Cierre (19-oct-2026, 21:05)
+
+1. Cuatro rondas de verificación (c7adaf2, 331f3a6, 58efd7d, 8d9f6d5): de 10 pendientes a 0; los 31 puntos y las 4 transversales cumplen.
+2. La presentación sigue un hilo sin saltos: problema, AndiBite, investigación, producto, app (18 → 19 sin pantallas repetidas), mercado y campaña "Lo que nadie ve".
+3. Presentación y app hablan a papá y mamá; sin "supuesto", "estimado", "[POR CONFIRMAR]", "EXPOINNOVA", el slogan viejo ni frases espejo.
+4. La app publicada muestra el hierro de cada día, envía el día y la semana con las mismas cifras de la pantalla y tiene 7 juegos con niveles; 32 tests pasan.
+5. Queda una observación menor sin estado (nombre "Semáforo de hierro" en la app); no bloquea la entrega a Carlos.
