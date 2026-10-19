@@ -71,7 +71,7 @@ Precio por 20 g = precio del envase ÷ gramos × 20. Por kg = precio ÷ kilos.
 
 ## 5. Qué corregimos del resultado de la IA
 
-- **Precio de AndiBite:** la IA puso S/10.00 por el pack de 6 (S/1.67 por brownie y S/83.33 por kg). Lo correcto es S/27.90 en stand y S/26.90 por WhatsApp (S/4.65 y S/4.48 por brownie; unos S/232.50 por kg). S/1.64 es el costo de producción.
+- **Precio de AndiBite:** el borrador puso S/10.00 por el pack de 6 (S/1.67 por brownie y S/83.33 por kg). Ese es el precio que dijeron las mamás de la degustación, un hallazgo de la investigación, no el precio del plan (no cubre el costo de S/1.64 por brownie). Lo correcto para el benchmark es S/27.90 en stand y S/26.90 por WhatsApp (S/4.65 y S/4.48 por brownie; unos S/232.50 por kg). S/1.64 es el costo de producción.
 - **Hierro de AndiBite:** la IA puso 14 mg por 40 g. Lo correcto es unos 1.9 mg por brownie de 20 g, por confirmar en laboratorio.
 - **Forticao:** existe, pero no como "barra de 40 g a S/30.50 con 12 mg". Es chocolate de leche en frascos de 12 o 40 unidades (S/25.00 y S/70.00).
 - **Nutri H:** no encontramos un "flow pack de 30 g a S/4.00". Se vende en caja de 30 a S/48.00.
