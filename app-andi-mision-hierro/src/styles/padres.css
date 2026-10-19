@@ -11,6 +11,9 @@
 .kicker-dorado { color: var(--dorado); }
 .nota-legal { color: var(--suave); font-size: 12.5px; text-align: center; padding: 8px 12px 0; opacity: .9; }
 .enlace-ancho { width: 100%; }
+.enlace-compartir { color: var(--cafe-medio); font-size: 14px; font-weight: 700; min-height: 44px; justify-self: center; }
+.enlace-compartir .icono { color: var(--ladrillo); }
+.dia-detalle .boton + .boton { margin-top: 8px; }
 .boton-crema { background: var(--crema); color: var(--cafe); }
 .boton-crema:hover { background: #fff; }
 
@@ -282,16 +285,20 @@ button.punto-dia:not(:disabled):active i { transform: scale(.92); }
 .recompra-ya .recompra-icono { color: var(--ladrillo); }
 .item-despensa { display: grid; gap: 12px; padding: 16px; }
 .item-despensa.vacio-item { opacity: .6; }
-.item-fila { display: grid; grid-template-columns: 6px 1fr auto; gap: 12px; align-items: center; }
+.item-fila { display: grid; grid-template-columns: 6px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+.item-fila > .boton { white-space: nowrap; padding: 0 14px; }
 .item-color { align-self: stretch; border-radius: 9px; }
 .item-info { display: grid; gap: 6px; min-width: 0; }
+.item-info > * { min-width: 0; overflow-wrap: anywhere; }
 .item-info strong { color: var(--cafe); }
 .item-info small { color: var(--suave); }
-.enlace-ficha { justify-content: flex-start; min-height: 36px; font-size: 14px; }
+.enlace-ficha { justify-content: flex-start; min-height: 36px; font-size: 14px; white-space: normal; text-align: left; }
 .progreso { height: 8px; border-radius: 9px; background: var(--crema-2); overflow: hidden; }
 .progreso i { display: block; height: 100%; background: var(--oliva); border-radius: 9px; transition: width .4s; }
 .item-ritmo { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 14px; color: var(--suave); padding-left: 18px; }
-.item-ritmo > span { flex: 1; white-space: nowrap; }
+.item-ritmo > span { flex: 1; min-width: 0; }
+.lista > * { min-width: 0; max-width: 100%; }
+.item-despensa { overflow: hidden; }
 .pedido { display: grid; gap: 10px; }
 .pedido h2 { margin: 2px 0 0; font-size: 21px; }
 .pedido-fila { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 10px 0; border-top: 1px solid var(--linea); }

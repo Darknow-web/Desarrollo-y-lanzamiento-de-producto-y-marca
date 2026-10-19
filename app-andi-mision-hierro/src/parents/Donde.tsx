@@ -34,7 +34,7 @@ export default function Donde() {
               <div className="punto-info">
                 <span className={`etiqueta ${abierto ? 'etiqueta-abierto' : ''}`}>{abierto ? 'Abierto' : 'Próximamente'}</span>
                 <h2>{p.nombre}</h2>
-                <p>{p.lugar} · {p.distrito}</p>
+                <p>{p.lugar}{p.distrito !== p.lugar ? ` · ${p.distrito}` : ''}</p>
                 <small>{rango(p.desde, p.hasta)}{p.horario ? ` · ${p.horario}` : ''}</small>
                 {unico && <a className="enlace" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.lugar} ${p.distrito} Lima`)}`} target="_blank" rel="noopener noreferrer"><Icono n="mapa" tam={18} /> Cómo llegar</a>}
               </div>

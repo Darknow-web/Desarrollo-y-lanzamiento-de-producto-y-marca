@@ -8,7 +8,8 @@ import { aviso } from '../components/ui';
 import { Cascada, Item } from '../components/movimiento';
 import SelectorNino from './SelectorNino';
 import { Celebracion, HojaComida, PuntosSemana, ResumenSemana, esFinDeSemana } from './Reto';
-import { desmarcarLoncheraDelPlan, marcarVacia, mgDeLoncheraVacia, ninoActivo, obtener, registrarLoncheraDelPlan, useEstado, useHierroDelDia, useLoncheraDelPlan, useProgreso, useRacha } from '../lib/estado';
+import { desmarcarLoncheraDelPlan, marcarVacia, mgDeLoncheraVacia, ninoActivo, obtener, registrarLoncheraDelPlan, useEstado, useHierroDelDia, useLoncheraDelPlan, useProgreso, useRacha, useRegistrosDelDia } from '../lib/estado';
+import { compartirTexto, textoHoy } from '../lib/compartir';
 import { hoyISO, relativa, sumarDias } from '../lib/fechas';
 import { diasHastaAcabar } from '../lib/hierro';
 import type { Nino } from '../lib/tipos';
@@ -69,9 +70,11 @@ function HeroHoy({ nino }: { nino: Nino }) {
   const hierro = useHierroDelDia(nino.id, hoy);
   const vacia = useEstado(e => Boolean(e.reto[nino.id]?.[hoy]));
   const lonchera = useLoncheraDelPlan(nino.id, hoy);
+  const registros = useRegistrosDelDia(nino.id, hoy);
   const [celebrando, setCelebrando] = useState<number | undefined>();
   const [hoja, setHoja] = useState(false);
   if (esFinDeSemana(hoy)) return <ResumenSemana nino={nino} />;
+  const enviar = () => compartirTexto(`El hierro de hoy de ${nino.apodo}`, textoHoy(nino.apodo, hierro, registros.map(r => r.nombre), vacia));
 
   const completo = hierro.porcentaje >= 100;
   const alternarVacia = () => {
@@ -105,6 +108,7 @@ function HeroHoy({ nino }: { nino: Nino }) {
           <Icono n="sumar" tam={22} /><span>Otra comida</span>
         </motion.button>
       </div>
+      <button type="button" className="enlace enlace-compartir" onClick={enviar}><Icono n="compartir" tam={18} /> Enviar a papá o mamá</button>
       <PuntosSemana semana={semana} />
       <HojaComida abierta={hoja} alCerrar={() => setHoja(false)} nino={nino} fecha={hoy} />
       <AnimatePresence>{celebrando !== undefined && <Celebracion nino={nino} racha={semana.racha} mg={celebrando || undefined} alCerrar={() => setCelebrando(undefined)} />}</AnimatePresence>

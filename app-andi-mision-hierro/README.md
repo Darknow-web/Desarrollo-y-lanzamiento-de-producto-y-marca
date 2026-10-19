@@ -134,7 +134,7 @@ public/      manifest, service worker (funciona sin conexión), cabeceras (_head
 ## Antes de lanzar (pendiente del equipo)
 
 - Crear la base KV y los secretos (`ADMIN_TOKEN`, `ANTHROPIC_API_KEY`) en la cuenta de Cloudflare, y confirmar la dirección pública definitiva antes de imprimir los QR.
-- `scripts/seed.mjs` regenera `data/seed.json` y todavía no incluye el código demo `AB-DEMO-2027`: si lo vuelves a correr, agrégalo a `fijos`.
+- `scripts/seed.mjs` regenera `data/seed.json` e incluye el código demo `AB-DEMO-2027` y los tres stands del plan 2027.
 - Cargar en `/admin` el informe del laboratorio de cada lote nuevo.
 - Revisar los textos legales con el abogado del contrato de maquila.
 - Probar la app con 10 familias, como indica el documento 09.

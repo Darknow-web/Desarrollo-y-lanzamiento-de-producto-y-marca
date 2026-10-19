@@ -161,20 +161,20 @@
    "nombre": "Stand AndiBite",
    "lugar": "Jockey Plaza",
    "distrito": "Surco",
-   "desde": "2027-01-09"
+   "desde": "2027-01-02"
   },
   {
    "id": "p2",
    "nombre": "Stand AndiBite",
-   "lugar": "Real Plaza Salaverry u Open Plaza Angamos",
-   "distrito": "Jesús María o Surquillo",
+   "lugar": "Real Plaza Salaverry",
+   "distrito": "Jesús María",
    "desde": "2027-02-01"
   },
   {
    "id": "p3",
    "nombre": "Stand AndiBite",
-   "lugar": "La Rambla San Borja",
-   "distrito": "San Borja",
+   "lugar": "La Molina",
+   "distrito": "La Molina",
    "desde": "2027-08-01"
   }
  ]

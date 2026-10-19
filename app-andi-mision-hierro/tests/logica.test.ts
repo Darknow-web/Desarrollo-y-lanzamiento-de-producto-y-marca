@@ -6,6 +6,7 @@ import { ALIMENTOS_RAPIDOS, ANDIBITE_ID, HIERRO_ANDIBITE_REF } from '../src/data
 import { planRecetario, RECETAS } from '../src/data/loncheras';
 import { semanaDe, lunesDe, sumarDias } from '../src/lib/fechas';
 import seed from '../data/seed.json';
+import { enlaceCompartir, textoHoy, textoSemana } from '../src/lib/compartir';
 
 describe('códigos únicos', () => {
   it('el servidor y la app validan igual', () => {
@@ -100,6 +101,24 @@ describe('datos publicados', () => {
       expect(l.hierroMgPorUnidad).toBe(1.9); expect(l.hierroHemoMgPorUnidad).toBe(1.3); expect(l.azucarGPorUnidad).toBe(1.3);
       expect(l.octogonos).toHaveLength(0); expect(l.informe).toMatch(/^INF-2026-10-\d{2}$/); expect(l.fechaInforme).toBe('2026-10-08');
     }
+  });
+  it('los puntos de venta son los tres stands del plan 2027', () => {
+    expect(seed.puntos.map(p => [p.lugar, p.distrito, p.desde])).toEqual([
+      ['Jockey Plaza', 'Surco', '2027-01-02'],
+      ['Real Plaza Salaverry', 'Jesús María', '2027-02-01'],
+      ['La Molina', 'La Molina', '2027-08-01'],
+    ]);
+    for (const p of seed.puntos) { expect(p.id).toMatch(/^p\d$/); expect(p.nombre).toBe('Stand AndiBite'); expect(p.lugar).not.toMatch(/\s[uo]\s/); }
+  });
+});
+
+describe('compartir con el otro padre', () => {
+  it('arma el texto del día y de la semana', () => {
+    expect(textoHoy('Mateo', { mg: 6.5, referencia: 10, porcentaje: 65 }, ['AndiBite', 'Lentejas', 'Mandarina'], true))
+      .toBe('Hoy Mateo lleva 6.5 de 10 mg de hierro (65 %). Comió: AndiBite, Lentejas y Mandarina. Lonchera: volvió vacía. Enviado desde Andi.');
+    expect(textoHoy('Mateo', { mg: 0, referencia: 10, porcentaje: 0 }, [], false)).toContain('Comió: nada registrado todavía. Lonchera: sin marcar.');
+    expect(textoSemana('Mateo', { diasConHierro: 4, mgSemana: 31.2, vacias: 3 })).toBe('Semana de Mateo: 4 de 5 días con hierro, 31.2 mg en total. Loncheras vacías: 3. Enviado desde Andi.');
+    expect(enlaceCompartir('hola a todos')).toBe('https://wa.me/?text=hola%20a%20todos');
   });
 });
 

@@ -13,6 +13,7 @@ import { deISO, diaCorto, fechaCorta, hoyISO, nombreDia } from '../lib/fechas';
 import { esAndiBite, resumenSemana } from '../lib/hierro';
 import { ALIMENTOS, ALIMENTOS_RAPIDOS, ANDIBITE, alimentoPorId, type Alimento } from '../data/alimentos';
 import type { Nino } from '../lib/tipos';
+import { compartirTexto, textoHoy, textoSemana } from '../lib/compartir';
 
 /** Sábado o domingo: no hay lonchera, se muestra el resumen de la semana. */
 export const esFinDeSemana = (f = hoyISO()) => { const d = deISO(f).getDay(); return d === 0 || d === 6; };
@@ -133,6 +134,7 @@ export function ResumenSemana({ nino, fecha = hoyISO(), pasada, enHoy }: { nino:
   const referencia = semana.dias[0]?.referencia ?? 10;
   const meta = referencia * 7;
   const avance = Math.min(100, Math.round((hierro.mgSemana / meta) * 100));
+  const enviar = () => compartirTexto(`La semana de ${nino.apodo}`, textoSemana(nino.apodo, { diasConHierro: semana.dias.filter(d => d.conHierro).length, mgSemana: hierro.mgSemana, vacias: semana.vacias }));
   const frase = hierro.color === 'verde' ? 'Semana redonda: casi todos los días con hierro.' : hierro.color === 'ambar' ? 'Buena semana. La meta es 5 días o más con hierro.' : hierro.diasConHierro > 0 ? 'Pocos días con hierro. El lunes seguimos.' : 'Esta semana no registraron hierro.';
   return (
     <section className="reto-hero resumen-semana" aria-labelledby="resumen-titulo">
@@ -153,6 +155,7 @@ export function ResumenSemana({ nino, fecha = hoyISO(), pasada, enHoy }: { nino:
         <span><strong>Semáforo de hierro</strong> · {semana.vacias} {semana.vacias === 1 ? 'lonchera vacía' : 'loncheras vacías'}</span>
         <Icono n="derecha" tam={18} />
       </Link>
+      <button type="button" className="enlace enlace-compartir" onClick={enviar}><Icono n="compartir" tam={18} /> Enviar la semana</button>
       {!pasada && !enHoy && <Link to="/loncheras" className="boton boton-primario boton-ancho boton-reto"><Icono n="lonchera" tam={22} /><span>Armar las loncheras de la próxima semana</span></Link>}
     </section>
   );
@@ -187,6 +190,7 @@ export default function Hoy() {
     const mg = mgDeLoncheraVacia(obtener(), nino.id, dia); // la celebración muestra el AndiBite recién sumado
     if (dia === hoy) setCelebrando(mg ?? 0); else aviso(`+1 estrella para ${nino.apodo}`);
   };
+  const enviar = () => compartirTexto(`El hierro de ${nino.apodo}`, textoHoy(nino.apodo, hierro, registros.map(r => r.nombre), vacia));
   const alternarPlan = () => {
     if (!lonchera) return;
     if (lonchera.dia.hecho) { desmarcarLoncheraDelPlan(nino.id, dia); aviso('Listo, sin marcar'); return; }
@@ -218,6 +222,7 @@ export default function Hoy() {
           {lonchera && <button type="button" className={`chip ${lonchera.dia.hecho ? 'chip-activo' : ''}`} onClick={alternarPlan} aria-pressed={!!lonchera.dia.hecho}><Icono n="check" tam={16} /> {lonchera.dia.hecho ? 'Lonchera del plan' : `Lonchera del plan · ${lonchera.dia.hierroMg} mg`}</button>}
         </div>
         <Boton ancho tipo="secundario" icono="sumar" onClick={() => setHoja(true)}>Otra comida con hierro</Boton>
+        <Boton ancho tipo="secundario" icono="compartir" onClick={enviar}>Enviar a papá o mamá</Boton>
       </Item>
 
       <Item><ResumenSemana nino={nino} enHoy /></Item>

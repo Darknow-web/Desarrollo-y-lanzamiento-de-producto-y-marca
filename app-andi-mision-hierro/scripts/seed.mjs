@@ -31,11 +31,13 @@ const fijos = [
 const UNIDADES = { unidad: 1, pack6: 6, pack12: 12 };
 const codigos = Object.fromEntries(fijos.map(([code, loteId, presentacion]) => [code,
   { code, loteId, presentacion, unidades: UNIDADES[presentacion], creado: '2026-10-08T12:00:00.000Z', escaneos: 0 }]));
+// Código demo para el jurado (sin dígito de control; el Worker lo trata como siempre vigente).
+codigos['AB-DEMO-2027'] = { code: 'AB-DEMO-2027', loteId: 'L2610-CH', presentacion: 'pack6', unidades: 6, creado: '2026-10-19T12:00:00.000Z', escaneos: 0 };
 // Puntos del plan 2027 (HECHOS_v7). La app los muestra como "Próximamente" hasta su fecha.
 const puntos = [
-  { id: 'p1', nombre: 'Stand AndiBite', lugar: 'Jockey Plaza', distrito: 'Surco', desde: '2027-01-09' },
-  { id: 'p2', nombre: 'Stand AndiBite', lugar: 'Real Plaza Salaverry u Open Plaza Angamos', distrito: 'Jesús María o Surquillo', desde: '2027-02-01' },
-  { id: 'p3', nombre: 'Stand AndiBite', lugar: 'La Rambla San Borja', distrito: 'San Borja', desde: '2027-08-01' },
+  { id: 'p1', nombre: 'Stand AndiBite', lugar: 'Jockey Plaza', distrito: 'Surco', desde: '2027-01-02' },
+  { id: 'p2', nombre: 'Stand AndiBite', lugar: 'Real Plaza Salaverry', distrito: 'Jesús María', desde: '2027-02-01' },
+  { id: 'p3', nombre: 'Stand AndiBite', lugar: 'La Molina', distrito: 'La Molina', desde: '2027-08-01' },
 ];
 writeFileSync(new URL('../data/seed.json', import.meta.url), JSON.stringify({ version: 2, lotes, codigos, puntos }, null, 1) + '\n');
-console.log('data/seed.json listo:', Object.keys(lotes).length, 'lotes,', fijos.length, 'códigos,', puntos.length, 'puntos');
+console.log('data/seed.json listo:', Object.keys(lotes).length, 'lotes,', Object.keys(codigos).length, 'códigos,', puntos.length, 'puntos');

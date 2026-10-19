@@ -29,9 +29,9 @@ export function buildMapa(el: HTMLElement): void {
   t.push(`<text class="m-axt" transform="translate(26 ${Y1 - 10}) rotate(-90)" text-anchor="start">Sin hierro</text>`);
   t.push(`<text class="m-axt" transform="translate(26 ${Y0 + 10}) rotate(-90)" text-anchor="end">Con hierro</text>`);
   t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y0 + 34}">CON HIERRO, SABOR DE SUPLEMENTO</text>`);
-  t.push(`<text class="m-ql hot" x="${X1 - 18}" y="${Y0 + 34}" text-anchor="end">RICO Y CON HIERRO</text>`);
-  t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y1 - 18}">SIN HIERRO</text>`);
-  t.push(`<text class="m-ql" x="${X1 - 18}" y="${Y1 - 18}" text-anchor="end">RICO, PERO SIN HIERRO</text>`);
+  t.push(`<text class="m-ql hot" x="${X1 - 18}" y="${Y0 + 34}" text-anchor="end">SABOR DE POSTRE, CON HIERRO</text>`);
+  t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y1 - 18}">SABOR DE SUPLEMENTO, SIN HIERRO</text>`);
+  t.push(`<text class="m-ql" x="${X1 - 18}" y="${Y1 - 18}" text-anchor="end">SABOR DE POSTRE, SIN HIERRO</text>`);
   BRANDS.forEach((b) => {
     const cx = PX(b.x), cy = PY(b.y);
     t.push(`<g class="pop m-pt"><circle class="m-dot${b.ref ? ' ref' : ''}" cx="${cx}" cy="${cy}" r="${b.ref ? 9 : 12}"/>`

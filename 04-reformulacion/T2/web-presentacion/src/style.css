@@ -1297,3 +1297,46 @@ body.is-hero .ui-brand { visibility: hidden; }
 #s-embudo .title { font-size: clamp(28px, calc(3.4 * var(--u)), 72px); }
 .eco { margin-top: calc(1.6 * var(--u)); }
 .eco-meta { margin-bottom: calc(1.6 * var(--u)); }
+
+/* ---- Director: canvas legible, imágenes en 12, 16, 20 y 38 ---- */
+.canvas-pts .cb li { font-size: clamp(11px, calc(.92 * var(--u)), 18px); }
+.cb-pv { font-size: clamp(11px, calc(1.02 * var(--u)), 20px) !important; }
+.finds-img { grid-template-columns: auto repeat(4, 1fr); }
+.find-foto { display: grid; align-items: center; }
+.find-foto img { height: calc(24 * var(--u)); width: auto; border-radius: var(--r); box-shadow: 0 calc(1 * var(--u)) calc(2.6 * var(--u)) rgba(74, 32, 24, .2); }
+.fronts-img { grid-template-columns: auto 1fr; column-gap: calc(3 * var(--u)); }
+.fronts-img > .front { grid-column: 2; }
+.fronts-phone { grid-row: 1 / 4; grid-column: 1; height: calc(36 * var(--u)); align-self: center; background: var(--white); padding: calc(.5 * var(--u)); border-radius: calc(1.2 * var(--u)); border: 1px solid var(--lin); }
+.fronts-phone img { border-radius: calc(.8 * var(--u)); }
+.twocol-img { grid-template-columns: auto 1fr 1fr; gap: calc(3 * var(--u)); }
+.twocol-foto { display: grid; align-items: center; }
+.twocol-foto img { height: calc(28 * var(--u)); width: auto; border-radius: var(--r); box-shadow: 0 calc(1 * var(--u)) calc(2.6 * var(--u)) rgba(74, 32, 24, .2); rotate: -2deg; }
+.team-img { grid-template-columns: 1.1fr repeat(3, 1fr); }
+.media-equipo { grid-row: 1 / 3; aspect-ratio: 4 / 3; align-self: stretch; border-radius: var(--r); }
+.media-equipo .ph { top: 50%; transform: translate(-50%, -50%); white-space: normal; width: 80%; }
+@media (orientation: portrait), (max-width: 700px) {
+  .finds-img, .fronts-img, .twocol-img, .team-img { grid-template-columns: 1fr; }
+  .find-foto, .twocol-foto { display: none; }
+  .fronts-phone { grid-row: auto; height: auto; width: 60%; margin: 0 auto; }
+  .media-equipo { grid-row: auto; }
+}
+/* ---- Ajustes tras capturas: 16, 20, 38 y portada en celular ---- */
+.finds-img { grid-template-columns: auto repeat(4, 1fr); column-gap: calc(1.6 * var(--u)); }
+.find-foto { grid-row: 1 / 4; grid-column: 1; align-self: center; }
+.find-foto img { height: calc(20 * var(--u)); max-height: 44vh; }
+.fronts-img { margin-bottom: 0; }
+.fronts-phone { height: calc(31 * var(--u)); max-height: 60vh; }
+.fronts-phone img { height: 100%; width: auto; object-fit: cover; }
+.team-img { margin-top: calc(1.2 * var(--u)); gap: calc(1.2 * var(--u)); grid-template-columns: 1fr repeat(3, 1fr); }
+.team-img .tm { padding: calc(1.2 * var(--u)) calc(1.5 * var(--u)); }
+.media-equipo { aspect-ratio: auto; height: 100%; min-height: 0; width: 100%; }
+@media (orientation: portrait), (max-width: 700px) {
+  .portada-pack { max-height: 34vh; overflow: hidden; }
+  .portada-pack .pack-img { max-height: 34vh; width: auto; object-fit: contain; }
+  .find-foto { display: none; }
+  .fronts-phone { grid-row: auto; height: auto; max-height: none; }
+  .media-equipo { height: auto; aspect-ratio: 4 / 3; }
+}
+.find-foto img { height: calc(15 * var(--u)); max-height: 36vh; }
+.finds-img .find p { font-size: clamp(13px, calc(1.15 * var(--u)), 22px); }
+.finds-img .find h3 { font-size: clamp(16px, calc(1.6 * var(--u)), 32px); }
