@@ -1,4 +1,4 @@
-// Recetario propio de loncheras (se usa cuando no hay IA o sin conexión).
+// Recetario propio de loncheras de AndiBite: arma el plan en el teléfono, sin servicios externos.
 import { FRUTAS_VITC, HIERRO_ANDIBITE_REF } from './alimentos';
 import type { DiaLonchera } from '../lib/tipos';
 

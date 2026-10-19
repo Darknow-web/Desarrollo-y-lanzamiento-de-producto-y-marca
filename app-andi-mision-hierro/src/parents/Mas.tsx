@@ -9,7 +9,7 @@ import type { Nino } from '../lib/tipos';
 const ENLACES: { a: string; n: NombreIcono; t: string; d: string }[] = [
   { a: '/despensa', n: 'bolsa', t: 'Mi despensa y pedidos', d: 'Cuántos brownies quedan y pedir por WhatsApp' },
   { a: '/hemoglobina', n: 'calendario', t: 'Control de hemoglobina', d: 'Próximo control y resultados' },
-  { a: '/donde', n: 'mapa', t: 'Dónde estamos', d: 'Stands y ferias de la semana' },
+  { a: '/donde', n: 'mapa', t: 'Dónde estamos', d: 'Nuestros stands en Lima' },
   { a: '/ninos', n: 'ninos', t: 'Misión Hierro (modo niños)', d: 'Juegos para aprender a comer hierro' },
   { a: '/privacidad', n: 'escudo', t: 'Privacidad y datos', d: 'Qué guardamos y cómo borrarlo' },
 ];
@@ -23,7 +23,7 @@ export default function Mas() {
 
   return (
     <div className="pantalla mas">
-      <Encabezado titulo="Más" />
+      <Encabezado titulo="Más" atras="/" />
       <Tarjeta>
         <h2>Familia</h2>
         {ninos.map(n => (
@@ -50,8 +50,8 @@ export default function Mas() {
       </Tarjeta>
       <Tarjeta className="acerca">
         <h2>Acerca de</h2>
-        <p><strong>Andi, Misión Hierro</strong> es la app de AndiBite, el mini brownie de 20 g con sangrecita y hierro medido por lote. Versión 1.0.</p>
-        <p className="nota">AndiBite S.A.C. · Lima, Perú. AndiBite aporta hierro; no reemplaza una alimentación variada ni las indicaciones de tu pediatra.</p>
+        <p><strong>Andi, Misión Hierro</strong> es la app de AndiBite, el mini brownie de 20 g con sangrecita y hierro medido por lote. Versión 2.0.</p>
+        <p className="nota">Hierro medido. Sabor a brownie. · Lima, Perú. AndiBite aporta hierro; no reemplaza una alimentación variada ni las indicaciones de tu pediatra.</p>
       </Tarjeta>
       <EditarNino nino={editando} alCerrar={() => setEditando(null)} />
     </div>
@@ -90,7 +90,7 @@ export function Privacidad() {
         <h2>Lo que se queda en tu teléfono</h2>
         <p>El apodo y la edad de tus hijos, lo que registras en el semáforo, tus loncheras, tu despensa y los controles de hemoglobina. No tenemos cuentas ni contraseñas: nada de esto llega a nuestro servidor.</p>
         <h2>Lo que llega a nuestro servidor</h2>
-        <p>Solo el código del envase que escaneas, para mostrarte su lote y contar cuántas veces se escanea cada lote. Si pides un plan de loncheras con IA, enviamos la edad, los gustos y lo que hay que evitar, sin nombre ni apodo.</p>
+        <p>Solo el código del envase que escaneas, para mostrarte su lote y contar cuántas veces se escanea cada lote.</p>
         <h2>Modo niños</h2>
         <p>Misión Hierro no muestra productos, precios ni publicidad, no tiene compras y no premia comprar ni comer el brownie (Ley 30021). El progreso se gana jugando.</p>
         <h2>Tus derechos</h2>

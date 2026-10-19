@@ -9,7 +9,7 @@ interface Codigo { code: string; loteId: string; presentacion: string; escaneos:
 
 const LOTE_VACIO: Partial<Lote> = { id: '', sabor: 'Chispa', fechaProduccion: '', fechaVencimiento: '', hierroMgPorUnidad: 0, hierroHemoMgPorUnidad: 0, azucarGPorUnidad: 0,
   octogonos: [], laboratorio: 'Laboratorio acreditado por INACAL', informe: '', fechaInforme: '', origenSangrecita: 'Sangrecita de res en polvo liofilizada, de proveedor con registro sanitario. La planta solo la hidrata.',
-  registroSanitario: '', planta: 'Planta maquiladora con HACCP (Lima)', alergenos: ['Gluten (avena)', 'Huevo'], ingredientes: '', demo: false };
+  registroSanitario: '', planta: 'Planta maquiladora con HACCP (Lima)', alergenos: ['Gluten (avena)', 'Huevo'], ingredientes: '', pesoUnidadG: 20 };
 
 export default function Admin() {
   const [token, setToken] = useState(() => sessionStorage.getItem('andi.admin') || '');
@@ -69,11 +69,13 @@ function Lotes({ lotes, api, recargar, setError }: { lotes: LoteAdmin[]; api: Ap
   };
   return (
     <section className="admin-seccion">
-      <div className="admin-barra"><h2>Lotes y análisis de laboratorio</h2><button onClick={() => setForm({ ...LOTE_VACIO })}>+ Nuevo lote</button></div>
+      <div className="admin-barra"><h2>Lotes y análisis de laboratorio</h2>
+        <button className="sec" onClick={async () => { if (!confirm('¿Volver a cargar los lotes, códigos y puntos de data/seed.json? Se sobrescriben esos datos.')) return; try { await api('/api/admin/seed', { method: 'POST' }); recargar(); } catch (e) { setError((e as Error).message); } }}>Recargar datos iniciales</button>
+        <button onClick={() => setForm({ ...LOTE_VACIO })}>+ Nuevo lote</button></div>
       <table className="admin-tabla">
         <thead><tr><th>Lote</th><th>Sabor</th><th>Producción</th><th>Hierro (mg/u)</th><th>Códigos</th><th>Escaneados</th><th>Escaneos</th><th /></tr></thead>
         <tbody>{lotes.map(l => (
-          <tr key={l.id}><td>{l.id}{l.demo && <em> demo</em>}</td><td>{l.sabor}</td><td>{l.fechaProduccion}</td><td>{l.hierroMgPorUnidad}</td><td>{l.codigosGenerados}</td>
+          <tr key={l.id}><td>{l.id}</td><td>{l.sabor}</td><td>{l.fechaProduccion}</td><td>{l.hierroMgPorUnidad}</td><td>{l.codigosGenerados}</td>
             <td>{l.codigosGenerados ? `${Math.round((l.codigosEscaneados / l.codigosGenerados) * 100)} %` : '—'}</td><td>{l.escaneosTotales}</td>
             <td><button onClick={() => setForm({ ...l })}>Editar</button></td></tr>
         ))}</tbody>
@@ -87,14 +89,13 @@ function Lotes({ lotes, api, recargar, setError }: { lotes: LoteAdmin[]; api: Ap
             <label><span>Sabor</span><select value={form.sabor} onChange={e => setForm({ ...form, sabor: e.target.value as Lote['sabor'] })}>{['Chispa', 'Andi', 'Lúcu'].map(s => <option key={s}>{s}</option>)}</select></label>
             {campo('fechaProduccion', 'Fecha de producción', 'date')}{campo('fechaVencimiento', 'Vencimiento', 'date')}
             {campo('hierroMgPorUnidad', 'Hierro total (mg por brownie)', 'number', '0.1')}{campo('hierroHemoMgPorUnidad', 'Hierro hemínico (mg por brownie)', 'number', '0.1')}
-            {campo('azucarGPorUnidad', 'Azúcar (g por brownie)', 'number', '0.1')}
+            {campo('azucarGPorUnidad', 'Azúcar (g por brownie)', 'number', '0.1')}{campo('pesoUnidadG', 'Peso del brownie (g)', 'number', '1')}
             {campo('laboratorio', 'Laboratorio')}{campo('informe', 'N.° de informe')}{campo('fechaInforme', 'Fecha del informe', 'date')}
-            {campo('registroSanitario', 'Registro sanitario')}{campo('planta', 'Planta')}
+            {campo('registroSanitario', 'Registro sanitario (uso interno)')}{campo('planta', 'Planta')}
             <label className="ancho"><span>Origen de la sangrecita</span><input value={form.origenSangrecita || ''} onChange={e => setForm({ ...form, origenSangrecita: e.target.value })} /></label>
             <label className="ancho"><span>Octógonos (separados por coma; vacío = ninguno)</span><input value={(form.octogonos || []).join(', ')} onChange={e => setForm({ ...form, octogonos: e.target.value.split(',').map(s => s.trim()) })} /></label>
             <label className="ancho"><span>Alérgenos (separados por coma)</span><input value={(form.alergenos || []).join(', ')} onChange={e => setForm({ ...form, alergenos: e.target.value.split(',').map(s => s.trim()) })} /></label>
             <label className="ancho"><span>Ingredientes</span><textarea value={form.ingredientes || ''} onChange={e => setForm({ ...form, ingredientes: e.target.value })} /></label>
-            <label className="check"><input type="checkbox" checked={!!form.demo} onChange={e => setForm({ ...form, demo: e.target.checked })} /> Lote de demostración</label>
           </div>
           <div className="admin-acciones"><button onClick={guardar}>Guardar lote</button><button className="sec" onClick={() => setForm(null)}>Cancelar</button></div>
         </div>
@@ -136,7 +137,7 @@ function Codigos({ lotes, api, setError, recargar }: { lotes: LoteAdmin[]; api: 
         <h2>Códigos únicos para las etiquetas</h2>
         <label>Lote <select value={loteId} onChange={e => setLoteId(e.target.value)}>{lotes.map(l => <option key={l.id}>{l.id}</option>)}</select></label>
         <label>Presentación <select value={pres} onChange={e => setPres(e.target.value)}><option value="unidad">Unidad</option><option value="pack6">Pack de 6</option><option value="pack12">Pack de 12</option></select></label>
-        <label>Cantidad <input type="number" min={1} max={5000} value={cantidad} onChange={e => setCantidad(Number(e.target.value))} /></label>
+        <label>Cantidad (hasta 500) <input type="number" min={1} max={500} value={cantidad} onChange={e => setCantidad(Number(e.target.value))} /></label>
         <button onClick={generar} disabled={!loteId}>Generar</button>
         <button className="sec" onClick={() => window.print()} disabled={!visibles.length}>Imprimir hoja</button>
         <button className="sec" onClick={csv} disabled={!visibles.length}>Descargar CSV</button>
@@ -159,7 +160,7 @@ function Puntos({ api, setError }: { api: Api; setError: (s: string) => void }) 
   useEffect(() => { api<Punto[]>('/api/admin/puntos').then(setLista).catch(e => setError(e.message)); /* eslint-disable-next-line */ }, []);
   const cambiar = (i: number, k: keyof Punto, v: string) => setLista(lista.map((p, j) => (j === i ? { ...p, [k]: v } : p)));
   const guardar = () => api<Punto[]>('/api/admin/puntos', { method: 'PUT', body: JSON.stringify(lista) }).then(setLista).then(() => setError('Puntos guardados')).catch(e => setError(e.message));
-  const cols: [keyof Punto, string, string][] = [['nombre', 'Nombre', 'text'], ['lugar', 'Lugar', 'text'], ['distrito', 'Distrito', 'text'], ['desde', 'Desde', 'date'], ['hasta', 'Hasta', 'date'], ['horario', 'Horario', 'text'], ['estado', 'Estado', 'text']];
+  const cols: [keyof Punto, string, string][] = [['nombre', 'Nombre', 'text'], ['lugar', 'Lugar', 'text'], ['distrito', 'Distrito', 'text'], ['desde', 'Desde', 'date'], ['hasta', 'Hasta', 'date'], ['horario', 'Horario', 'text']];
   return (
     <section className="admin-seccion">
       <div className="admin-barra"><h2>Stands y ferias</h2>

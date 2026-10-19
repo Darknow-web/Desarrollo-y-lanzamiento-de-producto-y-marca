@@ -47,7 +47,7 @@ export default function Bienvenida() {
                 <div className="avatares">{AVATARES.slice(0, 4).map(a => <button type="button" key={a} className={a === avatar ? 'activo' : ''} onClick={() => setAvatar(a)} aria-label={`Personaje ${a}`} aria-pressed={a === avatar}>{a}</button>)}</div>
               </div>
             </div>
-            <Boton ancho submit deshabilitado={!acepto}>Guardar y seguir</Boton>
+            <Boton ancho submit deshabilitado={!acepto || (consentido && !apodo.trim())}>Guardar y seguir</Boton>
             <button type="button" className="enlace enlace-ancho" onClick={() => ir(volver.replace(/[?&]agregar=1/, ''), { replace: true })}>Ahora no</button>
           </form>
         </Item>

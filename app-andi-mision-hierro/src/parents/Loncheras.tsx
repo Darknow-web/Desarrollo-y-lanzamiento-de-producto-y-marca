@@ -1,25 +1,27 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Icono from '../components/Icono';
 import { Boton, Encabezado, Interruptor, Tarjeta, Vacio, aviso } from '../components/ui';
+import { Cascada, Item } from '../components/movimiento';
 import SelectorNino from './SelectorNino';
 import { actualizar, ninoActivo, nuevoId, useEstado } from '../lib/estado';
 import { hoyISO, lunesDe, semanaDe } from '../lib/fechas';
-import { obtenerConfig, pedirPlanIA } from '../lib/api';
+import { obtenerConfig } from '../lib/api';
+import { enlaceWhatsApp, mensajePedido } from '../lib/whatsapp';
 import { GUSTOS, RESTRICCIONES, cambiarDia, planRecetario } from '../data/loncheras';
 
+/** Plan de loncheras con el recetario propio de AndiBite (una función pura que corre en el teléfono). */
 export default function Loncheras() {
   const nino = useEstado(ninoActivo);
   const plan = useEstado(e => e.loncheras);
-  const [ia, setIa] = useState(false);
-  const [usarIa, setUsarIa] = useState(true);
+  const despensa = useEstado(e => e.despensa);
   const [gustos, setGustos] = useState<string[]>([]);
   const [evitar, setEvitar] = useState<string[]>([]);
   const [conAndi, setConAndi] = useState(true);
-  const [cargando, setCargando] = useState(false);
   const [editar, setEditar] = useState(false);
+  const [whatsapp, setWhatsapp] = useState('51900000000');
   const ir = useNavigate();
-  useEffect(() => { obtenerConfig().then(c => setIa(c.ia)); }, []);
+  useEffect(() => { obtenerConfig().then(c => setWhatsapp(c.whatsapp)); }, []);
 
   if (!nino) return (
     <div className="pantalla"><Encabezado titulo="Loncheras" />
@@ -30,19 +32,10 @@ export default function Loncheras() {
   const vigente = plan && plan.ninoId === nino.id && plan.semana === lunesDe(hoyISO()) && !editar ? plan : null;
   const alternar = (lista: string[], v: string, set: (l: string[]) => void) => set(lista.includes(v) ? lista.filter(x => x !== v) : [...lista, v]);
 
-  const armar = async () => {
-    setCargando(true);
-    const base = { semana: lunesDe(hoyISO()), ninoId: nino.id, comprado: [] as string[] };
-    if (ia && usarIa) {
-      try {
-        const r = await pedirPlanIA({ edad: nino.edad, gustos, evitar: evitar.map(id => RESTRICCIONES.find(x => x.id === id)!.nombre), incluirAndiBite: conAndi });
-        actualizar(e => { e.loncheras = { ...base, fuente: 'ia', dias: r.dias.map(d => ({ ...d, andibite: /andibite/i.test(d.principal + d.fuenteHierro) })), compras: r.compras, consejo: r.consejo }; });
-        setCargando(false); setEditar(false); return;
-      } catch { aviso('La IA no respondió: usamos nuestro recetario'); }
-    }
+  const armar = () => {
     const r = planRecetario({ evitar, incluirAndiBite: conAndi });
-    actualizar(e => { e.loncheras = { ...base, fuente: 'recetario', ...r }; });
-    setCargando(false); setEditar(false);
+    actualizar(e => { e.loncheras = { semana: lunesDe(hoyISO()), ninoId: nino.id, comprado: [], fuente: 'recetario', ...r }; });
+    setEditar(false);
   };
 
   const marcarHecho = (i: number) => actualizar(e => {
@@ -54,53 +47,65 @@ export default function Loncheras() {
 
   const compartir = async () => {
     if (!vigente) return;
-    const t = `Loncheras de ${nino.apodo}:\n` + vigente.dias.map(d => `• ${d.dia}: ${d.principal} + ${d.fruta} + ${d.bebida}`).join('\n') + `\n\nCompras: ${vigente.compras.join(', ')}`;
+    const t = `Loncheras de ${nino.apodo}:\n` + vigente.dias.map(d => `- ${d.dia}: ${d.principal} + ${d.fruta} + ${d.bebida}`).join('\n') + `\n\nCompras: ${vigente.compras.join(', ')}`;
     try { if (navigator.share) await navigator.share({ title: 'Loncheras de la semana', text: t }); else { await navigator.clipboard.writeText(t); aviso('Copiado'); } } catch { /* cancelado */ }
   };
 
+  const conPack = vigente?.dias.filter(d => d.andibite).length || 0;
+  const quedan = despensa.reduce((a, d) => a + d.restantes, 0);
+
   return (
-    <div className="pantalla loncheras">
+    <Cascada className="pantalla loncheras">
       <Encabezado titulo="Loncheras de la semana" accion={vigente ? <button className="btn-icono" onClick={compartir} aria-label="Compartir"><Icono n="compartir" /></button> : undefined} />
-      <SelectorNino />
+      <Item><SelectorNino /></Item>
       {!vigente ? (
-        <Tarjeta className="armar">
+        <Item as="section" className="tarjeta armar">
+          <p className="kicker">Recetario AndiBite</p>
           <h2>Armemos la semana de {nino.apodo}</h2>
-          <p className="nota">Cada día: un principal con hierro, una fruta con vitamina C y una bebida. Nada frito ni con octógono.</p>
-          <div className="campo"><span>Le gusta</span><div className="chips">{GUSTOS.map(g => <button key={g} className={`chip ${gustos.includes(g) ? 'chip-activo' : ''}`} onClick={() => alternar(gustos, g, setGustos)}>{g}</button>)}</div></div>
-          <div className="campo"><span>Evitar (alergias o rechazos)</span><div className="chips">{RESTRICCIONES.map(r => <button key={r.id} className={`chip ${evitar.includes(r.id) ? 'chip-activo chip-evitar' : ''}`} onClick={() => alternar(evitar, r.id, setEvitar)}>{r.nombre}</button>)}</div></div>
+          <p className="nota">Cada día: un principal con hierro, una fruta con vitamina C y una bebida sin azúcar. Nada frito ni con octógono.</p>
+          <div className="campo"><span>Le gusta</span><div className="chips">{GUSTOS.map(g => <button key={g} className={`chip ${gustos.includes(g) ? 'chip-activo' : ''}`} onClick={() => alternar(gustos, g, setGustos)} aria-pressed={gustos.includes(g)}>{g}</button>)}</div></div>
+          <div className="campo"><span>Evitar (alergias o rechazos)</span><div className="chips">{RESTRICCIONES.map(r => <button key={r.id} className={`chip ${evitar.includes(r.id) ? 'chip-activo chip-evitar' : ''}`} onClick={() => alternar(evitar, r.id, setEvitar)} aria-pressed={evitar.includes(r.id)}>{r.nombre}</button>)}</div></div>
           <Interruptor activo={conAndi} alCambiar={setConAndi} etiqueta="Incluir AndiBite" detalle="Como complemento, 2 días como máximo" />
-          {ia && <Interruptor activo={usarIa} alCambiar={setUsarIa} etiqueta="Ideas nuevas con IA" detalle="Gemini arma un plan distinto cada semana" />}
-          <Boton ancho icono="rayo" onClick={armar} deshabilitado={cargando}>{cargando ? 'Armando…' : 'Armar mi semana'}</Boton>
-        </Tarjeta>
+          <Boton ancho icono="lonchera" onClick={armar}>Armar mi semana</Boton>
+        </Item>
       ) : (
         <>
-          <div className="dias-lonchera">
+          <Item className="dias-lonchera">
             {vigente.dias.map((d, i) => (
-              <Tarjeta key={d.dia} className={`dia-lonchera ${d.hecho ? 'hecho' : ''}`}>
-                <div className="dia-cabeza"><strong>{d.dia}</strong><span className="mg">~{d.hierroMg} mg</span></div>
+              <Tarjeta key={d.dia} className={`dia-lonchera ${d.hecho ? 'hecho' : ''} ${d.andibite ? 'con-pack' : ''}`}>
+                <div className="dia-cabeza"><strong>{d.dia}</strong><span className="mg">{d.hierroMg} mg</span></div>
                 <h3>{d.principal}</h3>
-                <p className="acompana"><span>🍊 {d.fruta}</span><span>💧 {d.bebida}</span></p>
+                <p className="acompana"><span>{d.fruta}</span><span aria-hidden="true">·</span><span>{d.bebida}</span></p>
                 <p className="fuente">Hierro de: {d.fuenteHierro}</p>
                 <details><summary>Cómo prepararla</summary><p>{d.preparacion}</p></details>
                 <div className="dia-acciones">
-                  <button className={`chip ${d.hecho ? 'chip-activo' : ''}`} onClick={() => marcarHecho(i)}><Icono n="check" tam={16} /> {d.hecho ? 'Hecha' : 'La llevó'}</button>
-                  {vigente.fuente === 'recetario' && <button className="chip" onClick={() => actualizar(e => { e.loncheras!.dias[i] = cambiarDia(e.loncheras!.dias, i, evitar); })}>Cambiar</button>}
+                  <button className={`chip ${d.hecho ? 'chip-activo' : ''}`} onClick={() => marcarHecho(i)} aria-pressed={!!d.hecho}><Icono n="check" tam={16} /> {d.hecho ? 'La llevó' : 'Marcar: la llevó'}</button>
+                  <button className="chip" onClick={() => actualizar(e => { e.loncheras!.dias[i] = cambiarDia(e.loncheras!.dias, i, evitar); })}>Cambiar</button>
                 </div>
               </Tarjeta>
             ))}
-          </div>
-          <Tarjeta className="compras">
+          </Item>
+          {conPack > 0 && (
+            <Item as="section" className="tarjeta pack-semana">
+              <p className="kicker kicker-dorado">Tu pack para la semana</p>
+              <h2>{conPack} días con AndiBite</h2>
+              <p>{quedan >= conPack ? `Tienes ${quedan} brownies en tu despensa: te alcanza.` : 'Te faltan brownies para esta semana. El pack de 6 por WhatsApp cuesta S/26.90.'}</p>
+              {quedan >= conPack
+                ? <Link to="/despensa" className="boton boton-crema"><Icono n="bolsa" tam={20} /><span>Ver mi despensa</span></Link>
+                : <a className="boton boton-whatsapp" href={enlaceWhatsApp(whatsapp, mensajePedido({ pack6: 1 }, { motivo: `Es para las loncheras de la semana de ${nino.apodo}.` }))} target="_blank" rel="noopener noreferrer"><Icono n="whatsapp" tam={20} /><span>Pedir el pack por WhatsApp</span></a>}
+            </Item>
+          )}
+          <Item as="section" className="tarjeta compras">
             <h2>Lista de compras</h2>
             <ul>{vigente.compras.map(c => {
               const ok = vigente.comprado?.includes(c);
               return <li key={c}><label className={ok ? 'tachado' : ''}><input type="checkbox" checked={!!ok} onChange={() => actualizar(e => { const l = e.loncheras!.comprado ||= []; e.loncheras!.comprado = l.includes(c) ? l.filter(x => x !== c) : [...l, c]; })} />{c}</label></li>;
             })}</ul>
-          </Tarjeta>
-          {vigente.consejo && <Tarjeta className="consejo"><Icono n="info" /><p>{vigente.consejo}</p></Tarjeta>}
-          <p className="nota">{vigente.fuente === 'ia' ? 'Plan armado con IA (Gemini) y reglas de nuestra nutricionista.' : 'Plan de nuestro recetario.'} Hierro aproximado por lonchera.</p>
-          <Boton tipo="secundario" ancho icono="rayo" onClick={() => setEditar(true)}>Armar otra semana</Boton>
+          </Item>
+          <Item><p className="nota centro">Plan del recetario de AndiBite. El hierro de cada lonchera es aproximado (CENAN).</p></Item>
+          <Item><Boton tipo="secundario" ancho icono="lonchera" onClick={() => setEditar(true)}>Armar otra semana</Boton></Item>
         </>
       )}
-    </div>
+    </Cascada>
   );
 }

@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Icono from '../components/Icono';
 import { Boton, Encabezado, Hoja, Interruptor, Tarjeta, Vacio, aviso } from '../components/ui';
 import SelectorNino from './SelectorNino';
+import { Cascada, Contador, Item } from '../components/movimiento';
 import { actualizar, ninoActivo, nuevoId, useEstado } from '../lib/estado';
 import { diaCorto, hoyISO, nombreDia, semanaDe, sumarDias, fechaCorta } from '../lib/fechas';
 import { referenciaDiaria, resumenSemana } from '../lib/hierro';
@@ -32,39 +33,38 @@ export default function Hierro() {
   const esActual = semanaDe(hoy)[0] === semanaDe(semanaRef)[0];
 
   return (
-    <div className="pantalla hierro">
+    <Cascada className="pantalla hierro">
       <Encabezado titulo="Semáforo de hierro" />
-      <SelectorNino />
-      <Tarjeta className={`semaforo-grande semaforo-${r.color}`}>
-        <div className="semaforo-luz grande" aria-hidden="true"><i /><i /><i /></div>
-        <div>
-          <strong>{r.diasConHierro} de 7 días</strong>
-          <p>{r.color === 'verde' ? `${nino.apodo} comió una fuente de hierro casi todos los días. ¡Sigan así!` : r.color === 'ambar' ? 'Vas bien. La meta es 5 días o más con una fuente de hierro.' : 'Suma una fuente de hierro hoy: sangrecita, hígado, menestras o un AndiBite.'}</p>
-        </div>
-      </Tarjeta>
+      <Item><SelectorNino /></Item>
+      <Item as="section" className={`semaforo-hero semaforo-${r.color}`}>
+        <span className="semaforo-luces grande" aria-hidden="true"><i /><i /><i /></span>
+        <p className="semaforo-cifra"><Contador valor={r.diasConHierro} decimales={0} duracion={0.7} /> <span>de 7 días con hierro</span></p>
+        <p className="semaforo-mensaje">{r.color === 'verde' ? `${nino.apodo} comió una fuente de hierro casi todos los días. Sigan así.` : r.color === 'ambar' ? 'Vas bien. La meta es 5 días o más con una fuente de hierro.' : 'Suma una fuente de hierro hoy: sangrecita, hígado, menestras o un AndiBite.'}</p>
+        <p className="semaforo-mg">{r.mgSemana} mg registrados esta semana</p>
+      </Item>
 
-      <div className="semana-nav">
+      <Item className="semana-nav">
         <button className="btn-icono" onClick={() => setSemanaRef(sumarDias(semanaRef, -7))} aria-label="Semana anterior"><Icono n="atras" /></button>
         <span>{esActual ? 'Esta semana' : `Semana del ${fechaCorta(semanaDe(semanaRef)[0])}`}</span>
         <button className="btn-icono" disabled={esActual} onClick={() => setSemanaRef(sumarDias(semanaRef, 7))} aria-label="Semana siguiente"><Icono n="derecha" /></button>
-      </div>
-      <Tarjeta className="grafico-semana">
+      </Item>
+      <Item as="section" className="tarjeta grafico-semana">
         <div className="barras" role="list">
-          <div className="linea-ref" style={{ bottom: `${(ref / max) * 100}%` }}><span>{ref} mg/día: lo que necesita en toda su alimentación</span></div>
+          <div className="linea-ref" style={{ bottom: `calc(40px + ${(ref / max).toFixed(3)} * (100% - 78px))` }}><span>{ref} mg al día en toda su alimentación</span></div>
           {r.dias.map(d => (
             <button key={d.fecha} role="listitem" className={`barra-dia ${d.fecha === diaSel ? 'sel' : ''} ${d.fecha > hoy ? 'futuro' : ''}`}
               onClick={() => setDiaSel(d.fecha)} aria-label={`${nombreDia(d.fecha)}: ${d.mg} mg`} disabled={d.fecha > hoy}>
               <span className="barra-valor">{d.mg > 0 ? d.mg : ''}</span>
               <span className="barra-columna"><i style={{ height: `${(d.mg / max) * 100}%` }} className={d.hemo ? 'hemo' : ''} /></span>
               <span className="barra-dia-nombre">{diaCorto(d.fecha)}</span>
-              <span className="barra-vitc" aria-hidden="true">{d.conVitC ? '🍊' : ''}</span>
+              <span className={`barra-vitc ${d.conVitC ? 'si' : ''}`} aria-hidden="true" />
             </button>
           ))}
         </div>
-        <p className="leyenda"><span><i className="hemo" /> Hierro hemínico</span><span><i /> Otras fuentes</span><span>🍊 Con vitamina C</span></p>
-      </Tarjeta>
+        <p className="leyenda"><span><i className="hemo" /> Hierro hemo</span><span><i /> Otras fuentes</span><span><i className="vitc" /> Con vitamina C</span></p>
+      </Item>
 
-      <section className="lista">
+      <Item as="section" className="lista">
         <div className="lista-cabeza"><h2>{diaSel === hoy ? 'Hoy' : nombreDia(diaSel)[0].toUpperCase() + nombreDia(diaSel).slice(1)}</h2>
           <Boton icono="sumar" tipo="suave" onClick={() => setHoja(true)}>Registrar</Boton></div>
         {delDia.length === 0 ? <p className="nota">Aún no registras fuentes de hierro este día.</p> : delDia.map(x => (
@@ -74,11 +74,11 @@ export default function Hierro() {
             <button className="btn-icono" aria-label={`Borrar ${x.nombre}`} onClick={() => actualizar(e => { e.registros = e.registros.filter(y => y.id !== x.id); })}><Icono n="basura" tam={18} /></button>
           </div>
         ))}
-      </section>
-      <Tarjeta className="consejo"><Icono n="info" /><p>{consejo}</p></Tarjeta>
-      <p className="nota">El semáforo es orientativo: cuenta los días con una fuente de hierro, no reemplaza al pediatra. Los mg son aproximados (Tablas Peruanas de Composición de Alimentos, CENAN).</p>
+      </Item>
+      <Item><Tarjeta className="consejo"><Icono n="info" /><p>{consejo}</p></Tarjeta></Item>
+      <Item><p className="nota">El semáforo es orientativo: cuenta los días con una fuente de hierro, no reemplaza al pediatra. Los mg son aproximados (Tablas Peruanas de Composición de Alimentos, CENAN).</p></Item>
       <Registrar abierta={hoja} alCerrar={() => setHoja(false)} ninoId={nino.id} apodo={nino.apodo} fecha={diaSel} />
-    </div>
+    </Cascada>
   );
 }
 
