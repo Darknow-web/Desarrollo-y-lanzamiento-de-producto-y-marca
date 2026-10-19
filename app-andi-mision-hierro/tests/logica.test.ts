@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { codigoDesdeQR, codigoValido, mascaraCodigo, normalizarCodigo } from '../src/lib/codigo';
 import { generar, esValido } from '../worker/codigo';
-import { diasHastaAcabar, referenciaDiaria, resumenSemana } from '../src/lib/hierro';
+import { armarRegistro, diasHastaAcabar, hierroDelDia, hierroDelLote, referenciaDiaria, resumenSemana } from '../src/lib/hierro';
+import { ALIMENTOS_RAPIDOS, ANDIBITE_ID, HIERRO_ANDIBITE_REF } from '../src/data/alimentos';
 import { planRecetario, RECETAS } from '../src/data/loncheras';
 import { semanaDe, lunesDe, sumarDias } from '../src/lib/fechas';
 import seed from '../data/seed.json';
@@ -53,6 +54,41 @@ describe('semáforo de hierro', () => {
   it('estima cuándo se acaba el pack', () => {
     expect(diasHastaAcabar(6, 5)).toBe(8);
     expect(diasHastaAcabar(0, 5)).toBe(0);
+  });
+});
+
+describe('el hierro de hoy', () => {
+  const hoy = '2026-10-07';
+  const ninos = [{ id: 'n', apodo: 'Mati', edad: 6, avatar: '🦙' }, { id: 'g', apodo: 'Gabo', edad: 10, avatar: '🐻' }];
+  it('suma los registros del día frente a la referencia de la edad', () => {
+    const registros = [
+      { id: '1', ninoId: 'n', fecha: hoy, alimentoId: ANDIBITE_ID, nombre: 'AndiBite', mg: 1.9, hemo: true, conVitC: false },
+      { id: '2', ninoId: 'n', fecha: hoy, alimentoId: 'lentejas', nombre: 'Lentejas', mg: 2.6, hemo: false, conVitC: true },
+      { id: '3', ninoId: 'n', fecha: '2026-10-06', alimentoId: 'sangrecita', nombre: 'Sangrecita', mg: 8.9, hemo: true, conVitC: true },
+      { id: '4', ninoId: 'g', fecha: hoy, alimentoId: 'sangrecita', nombre: 'Sangrecita', mg: 8.9, hemo: true, conVitC: true },
+    ];
+    const h = hierroDelDia({ registros, ninos }, 'n', hoy);
+    expect(h).toEqual({ mg: 4.5, referencia: 10, porcentaje: 45, faltan: 5.5 });
+    expect(hierroDelDia({ registros, ninos }, 'n', '2026-10-08')).toEqual({ mg: 0, referencia: 10, porcentaje: 0, faltan: 10 });
+    const g = hierroDelDia({ registros, ninos }, 'g', hoy);
+    expect(g.referencia).toBe(8); expect(g.porcentaje).toBe(100); expect(g.faltan).toBe(0);
+  });
+  it('arma el registro desde data/alimentos.ts (AndiBite con el hierro del lote si se conoce)', () => {
+    const r = armarRegistro('n', hoy, 'sangrecita', { conVitC: true });
+    expect(r).toMatchObject({ ninoId: 'n', fecha: hoy, nombre: 'Sangrecita', mg: 8.9, hemo: true, conVitC: true });
+    expect(armarRegistro('n', hoy, 'no-existe')).toBeNull();
+    const a = armarRegistro('n', hoy, ANDIBITE_ID, { mg: 2.1, loteId: 'L2610-CH', despensaId: 'd1' });
+    expect(a).toMatchObject({ nombre: 'AndiBite', mg: 2.1, hemo: true, conVitC: false, loteId: 'L2610-CH', despensaId: 'd1' });
+    expect(armarRegistro('n', hoy, ANDIBITE_ID)!.mg).toBe(HIERRO_ANDIBITE_REF);
+  });
+  it('el hierro del lote sale de los lotes publicados o de la referencia', () => {
+    expect(hierroDelLote('L2610-CH')).toBe(1.9);
+    expect(hierroDelLote('no-existe')).toBe(HIERRO_ANDIBITE_REF);
+    expect(hierroDelLote()).toBe(HIERRO_ANDIBITE_REF);
+  });
+  it('la hoja rápida tiene 8 alimentos con hierro', () => {
+    expect(ALIMENTOS_RAPIDOS).toHaveLength(8);
+    for (const a of ALIMENTOS_RAPIDOS) expect(a.mg).toBeGreaterThan(0);
   });
 });
 

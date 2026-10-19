@@ -3,22 +3,34 @@ import { useNavigate } from 'react-router-dom';
 import { AnimatePresence, motion } from 'motion/react';
 import Andi, { type Animo } from '../components/Andi';
 import Celebracion from './Celebracion';
-import { OPCIONES_LONCHERA, type Opcion } from '../data/ninos';
+import InicioJuego from './InicioJuego';
+import { NIVELES_MAX, OPCIONES_LONCHERA, type Opcion } from '../data/ninos';
 import { hablar, sonido } from '../lib/voz';
-import { completarJuego, ninoSesion, useLook } from './progreso';
+import { nivelDe, ninoSesion, registrarIntento, superarNivel, useLook } from './progreso';
 
 const RONDAS = 3;
-const TIEMPO = [20, 17, 14];   // segundos por ronda: cada ronda baja 3
+const MAX = NIVELES_MAX.lonchera;
 const TIPOS: Opcion['tipo'][] = ['principal', 'fruta', 'bebida'];
 const ETIQUETA: Record<Opcion['tipo'], { nombre: string; emoji: string }> = {
   principal: { nombre: 'Con hierro', emoji: '🍱' }, fruta: { nombre: 'Fruta', emoji: '🍊' }, bebida: { nombre: 'Sin azúcar', emoji: '💧' },
 };
 const mezclar = <T,>(a: T[]) => [...a].sort(() => Math.random() - 0.5);
-const uno = <T,>(a: T[]) => a[Math.floor(Math.random() * a.length)];
 
-/** 6 opciones: por cada tipo, una buena y una trampa. */
-function opcionesDeRonda(): Opcion[] {
-  return mezclar(TIPOS.flatMap(t => [uno(OPCIONES_LONCHERA.filter(o => o.tipo === t && o.bien)), uno(OPCIONES_LONCHERA.filter(o => o.tipo === t && !o.bien))]));
+/** Parámetros por nivel (1–10): menos segundos por lonchera y, desde el 5, dos trampas por tipo. */
+export function nivelLonchera(n: number) {
+  const base = Math.max(7, 20 - (n - 1) * 1.4);
+  return {
+    trampas: n >= 5 ? 2 : 1,
+    tiempos: [base, Math.max(6, base - 2), Math.max(5, base - 4)].map(t => Math.round(t)),   // cada ronda baja un poco
+  };
+}
+
+/** Por cada tipo, una buena y `trampas` malas. */
+function opcionesDeRonda(trampas: number): Opcion[] {
+  return mezclar(TIPOS.flatMap(t => [
+    ...mezclar(OPCIONES_LONCHERA.filter(o => o.tipo === t && o.bien)).slice(0, 1),
+    ...mezclar(OPCIONES_LONCHERA.filter(o => o.tipo === t && !o.bien)).slice(0, trampas),
+  ]));
 }
 
 interface Arrastre { id: string; x0: number; y0: number; dx: number; dy: number }
@@ -27,30 +39,33 @@ interface Arrastre { id: string; x0: number; y0: number; dx: number; dy: number 
 export default function LoncheraExpres() {
   const ir = useNavigate();
   const { look } = useLook(ninoSesion());
+  const [nivel, setNivel] = useState(() => nivelDe('lonchera'));
+  const cfg = nivelLonchera(nivel);
   const [fase, setFase] = useState<'inicio' | 'ronda' | 'pausa' | 'fin'>('inicio');
   const [ronda, setRonda] = useState(0);
   const [opciones, setOpciones] = useState<Opcion[]>([]);
   const [puestos, setPuestos] = useState<Partial<Record<Opcion['tipo'], Opcion>>>({});
-  const [restante, setRestante] = useState(TIEMPO[0]);
+  const [restante, setRestante] = useState(cfg.tiempos[0]);
   const [ganadas, setGanadas] = useState(0);
+  const [sobra, setSobra] = useState(0);        // segundos que sobraron en total (mejor marca)
   const [animo, setAnimo] = useState<Animo>('feliz');
   const [sacude, setSacude] = useState<string | null>(null);
   const [arrastre, setArrastre] = useState<Arrastre | null>(null);
-  const [fin, setFin] = useState<{ ganadas: number } | null>(null);
+  const [fin, setFin] = useState<{ ganadas: number; superado: boolean; siguiente?: number } | null>(null);
   const lonchera = useRef<HTMLDivElement>(null);
   const listo = TIPOS.every(t => puestos[t]);
 
-  useEffect(() => { if (fase === 'inicio') hablar('Lonchera exprés. Cuando suene el timbre, pon en la lonchera algo con hierro, una fruta y una bebida sin azúcar.'); }, [fase]);
+  useEffect(() => { if (fase === 'inicio') hablar(`Lonchera exprés, nivel ${nivel}. Cuando suene el timbre, pon en la lonchera algo con hierro, una fruta y una bebida sin azúcar.`); }, [fase, nivel]);
 
   const empezarRonda = (r: number) => {
-    setRonda(r); setOpciones(opcionesDeRonda()); setPuestos({}); setRestante(TIEMPO[r]); setAnimo('feliz'); setFase('ronda');
+    setRonda(r); setOpciones(opcionesDeRonda(cfg.trampas)); setPuestos({}); setRestante(cfg.tiempos[r]); setAnimo('feliz'); setFase('ronda');
     sonido.timbre(); hablar(r === 0 ? '¡Sonó el timbre! Rápido, arma la lonchera.' : '¡Otra vez el timbre! Más rápido.');
   };
 
   // Cuenta regresiva de la ronda
   useEffect(() => {
     if (fase !== 'ronda') return;
-    const t0 = performance.now(); const total = TIEMPO[ronda];
+    const t0 = performance.now(); const total = cfg.tiempos[ronda];
     let ultimo = total;
     const t = setInterval(() => {
       const q = Math.max(0, total - (performance.now() - t0) / 1000);
@@ -60,13 +75,15 @@ export default function LoncheraExpres() {
       if (q <= 0) { clearInterval(t); sonido.mal(); setAnimo('piensa'); hablar('¡Se acabó el tiempo!'); setFase('pausa'); }
     }, 100);
     return () => clearInterval(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fase, ronda]);
 
   // Ronda ganada
   useEffect(() => {
     if (fase !== 'ronda' || !listo) return;
     setFase('pausa'); setAnimo('wow'); sonido.bien(); hablar('¡Lonchera lista!');
-    setGanadas(g => g + 1);
+    setGanadas(g => g + 1); setSobra(s => s + Math.round(restante));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fase, listo]);
 
   // Pasar a la siguiente ronda o terminar
@@ -74,7 +91,12 @@ export default function LoncheraExpres() {
     if (fase !== 'pausa') return;
     const t = setTimeout(() => {
       if (ronda + 1 < RONDAS) empezarRonda(ronda + 1);
-      else { const r = completarJuego('lonchera', ganadas === RONDAS ? 1 : 0); setFin({ ganadas: r.ganadas }); setFase('fin'); }
+      else {
+        const superado = ganadas === RONDAS;
+        if (superado) { const r = superarNivel('lonchera', nivel, { max: MAX, marca: sobra }); setFin({ ganadas: r.ganadas, superado, siguiente: nivel < MAX ? nivel + 1 : undefined }); }
+        else { registrarIntento('lonchera'); setFin({ ganadas: 0, superado }); }
+        setFase('fin');
+      }
     }, 1300);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -110,24 +132,24 @@ export default function LoncheraExpres() {
     if (dentro || toque) soltar(o);
   };
 
+  const reiniciar = () => { setFin(null); setGanadas(0); setSobra(0); setFase('inicio'); };
+
   if (fase === 'fin' && fin) return (
-    <Celebracion titulo={ganadas === RONDAS ? '¡Loncheras perfectas!' : '¡Bien jugado!'} ganadas={fin.ganadas} detalle={`${ganadas} de ${RONDAS} loncheras a tiempo`}
-      alSeguir={() => ir('/ninos')} alRepetir={() => { setFin(null); setGanadas(0); setFase('inicio'); }} />
+    <Celebracion titulo={fin.superado ? '¡Loncheras perfectas!' : '¡Bien jugado!'} ganadas={fin.ganadas} detalle={`${ganadas} de ${RONDAS} loncheras a tiempo`}
+      nivel={nivel} superado={fin.superado} siguiente={fin.siguiente}
+      alSeguir={() => ir('/ninos')} alRepetir={reiniciar} alSiguiente={() => { reiniciar(); setNivel(n => Math.min(MAX, n + 1)); }} />
   );
 
   if (fase === 'inicio') return (
-    <div className="juego juego-inicio">
-      <Andi tam={150} look={look} className="andi-flota" />
-      <h1>Lonchera exprés</h1>
-      <p className="juego-pista">🍱 hierro &nbsp;·&nbsp; 🍊 fruta &nbsp;·&nbsp; 💧 sin azúcar</p>
-      <button className="boton-nino grande" onClick={() => { setGanadas(0); empezarRonda(0); }}>¡Jugar!</button>
-    </div>
+    <InicioJuego juego="lonchera" titulo="Lonchera exprés" nivel={nivel} max={MAX} marca={m => `${m} s de sobra`} alJugar={() => { setGanadas(0); setSobra(0); empezarRonda(0); }}
+      pista={<>🍱 hierro &nbsp;·&nbsp; 🍊 fruta &nbsp;·&nbsp; 💧 sin azúcar &nbsp;·&nbsp; ⏱ {cfg.tiempos[0]} s</>} />
   );
 
-  const pct = Math.max(0, restante / TIEMPO[ronda]);
+  const pct = Math.max(0, restante / cfg.tiempos[ronda]);
   return (
     <div className="juego juego-lonchera">
       <div className="juego-cabeza">
+        <span className="ronda">Nivel {nivel}</span>
         <span className="ronda">Lonchera {ronda + 1} de {RONDAS}</span>
         <span className={`ronda ${restante <= 3 ? 'urgente' : ''}`}>⏱ {Math.ceil(restante)}</span>
       </div>

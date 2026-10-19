@@ -2,9 +2,12 @@ export type Presentacion = 'unidad' | 'pack6' | 'pack12';
 export type Sabor = 'Chispa' | 'Andi' | 'Lúcu';
 
 export interface Nino { id: string; apodo: string; edad: number; avatar: string }
+/** Una comida con hierro de un día: la única fuente del hierro diario del niño. */
 export interface Registro {
   id: string; ninoId: string; fecha: string; alimentoId: string; nombre: string;
   mg: number; hemo: boolean; conVitC: boolean; loteId?: string;
+  /** Pack de la despensa del que se descontó una unidad (para devolverla si se deshace). */
+  despensaId?: string;
 }
 export interface ItemDespensa {
   id: string; presentacion: Presentacion; sabor: Sabor | 'Surtido'; unidades: number; restantes: number;
@@ -24,7 +27,7 @@ export interface ProgresoNino {
 }
 export interface Ajustes { tiempoJuegoMin: number; voz: boolean; avisos: boolean }
 
-/** Reto lonchera vacía: por niño, cada día de colegio (YYYY-MM-DD) marcado true si la lonchera volvió vacía. */
+/** Lonchera vacía: por niño, cada día de colegio (YYYY-MM-DD) marcado true si la lonchera volvió vacía. Al marcar se registra un AndiBite ese día. */
 export type Reto = Record<string, Record<string, boolean>>;
 
 export interface Estado {

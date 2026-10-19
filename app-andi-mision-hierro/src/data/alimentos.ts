@@ -19,6 +19,11 @@ export const ALIMENTOS: Alimento[] = [
 
 export const ANDIBITE_ID = 'andibite';
 export const HIERRO_ANDIBITE_REF = 1.9; // mg por unidad cuando no se conoce el lote
+/** AndiBite como alimento registrable (el mg real sale del lote de la despensa si se conoce). */
+export const ANDIBITE: Alimento = { id: ANDIBITE_ID, nombre: 'AndiBite', porcion: '1 brownie de 20 g', mg: HIERRO_ANDIBITE_REF, hemo: true, emoji: '🍫' };
+/** Los 8 alimentos de la hoja rápida "+ Otra comida" del inicio: un toque y listo. */
+export const ALIMENTOS_RAPIDOS = ['sangrecita', 'higado', 'bazo', 'res', 'pescado', 'lentejas', 'espinaca', 'huevo'].map(id => ALIMENTOS.find(a => a.id === id)!);
+export const alimentoPorId = (id: string): Alimento | undefined => (id === ANDIBITE_ID ? ANDIBITE : ALIMENTOS.find(a => a.id === id));
 
 export const FRUTAS_VITC = ['Mandarina', 'Naranja en gajos', 'Fresas', 'Kiwi', 'Aguaymanto', 'Mango en cubos', 'Piña en trozos', 'Granadilla'];
 

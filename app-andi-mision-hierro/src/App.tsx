@@ -3,7 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-route
 import { MotionConfig } from 'motion/react';
 import Layout from './parents/Layout';
 import Inicio from './parents/Inicio';
-import Reto from './parents/Reto';
+import Hoy from './parents/Reto';
 import Bienvenida from './parents/Bienvenida';
 import Lote from './parents/Lote';
 import Informe from './parents/Informe';
@@ -54,7 +54,8 @@ export default function App() {
           <Route path="/admin" element={<Suspense fallback={null}><Admin /></Suspense>} />
           <Route element={<Layout />}>
             <Route index element={<Inicio />} />
-            <Route path="reto" element={<Reto />} />
+            <Route path="hoy" element={<Hoy />} />
+            <Route path="reto" element={<Navigate to="/hoy" replace />} />
             <Route path="c/:code" element={<Lote />} />
             <Route path="lote/:id" element={<Lote />} />
             <Route path="informe/:id" element={<Informe />} />

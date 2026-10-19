@@ -4,7 +4,7 @@ import Icono from '../components/Icono';
 import { Boton, Encabezado, Interruptor, Paso, Tarjeta, Vacio, aviso } from '../components/ui';
 import { Cascada, Item } from '../components/movimiento';
 import SelectorNino from './SelectorNino';
-import { actualizar, ninoActivo, nuevoId, useEstado } from '../lib/estado';
+import { actualizar, desmarcarLoncheraDelPlan, ninoActivo, registrarLoncheraDelPlan, useEstado } from '../lib/estado';
 import { fechaCorta, hoyISO, lunesDe, semanaDe } from '../lib/fechas';
 import { ErrorApi, obtenerConfig } from '../lib/api';
 import { enlaceWhatsApp, mensajePedido } from '../lib/whatsapp';
@@ -225,12 +225,13 @@ function Recetario({ nino, whatsapp }: { nino: Nino; whatsapp: string }) {
     setEditar(false);
   };
 
-  const marcarHecho = (i: number) => actualizar(e => {
-    const d = e.loncheras!.dias[i]; d.hecho = !d.hecho;
-    const fecha = semanaDe(e.loncheras!.semana)[i];
-    if (d.hecho) e.registros.push({ id: `lon-${e.loncheras!.semana}-${i}-${nuevoId()}`, ninoId: e.loncheras!.ninoId, fecha, alimentoId: 'lonchera', nombre: `Lonchera: ${d.principal}`, mg: d.hierroMg, hemo: /sangrecita|hígado|bazo|res|pescado|carne|pollo|andibite/i.test(d.fuenteHierro), conVitC: true });
-    else e.registros = e.registros.filter(r => !r.id.startsWith(`lon-${e.loncheras!.semana}-${i}-`));
-  });
+  // Marcar que la llevó registra el hierro de esa lonchera en el día (la misma fuente que "El hierro de hoy").
+  const marcarHecho = (i: number) => {
+    if (!vigente) return;
+    const fecha = semanaDe(vigente.semana)[i];
+    if (vigente.dias[i].hecho) desmarcarLoncheraDelPlan(nino.id, fecha);
+    else registrarLoncheraDelPlan(nino.id, fecha);
+  };
 
   const compartir = async () => {
     if (!vigente) return;

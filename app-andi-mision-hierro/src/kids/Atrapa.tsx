@@ -3,21 +3,32 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
 import Andi, { type Animo } from '../components/Andi';
 import Celebracion from './Celebracion';
-import { CAEN, type Cae } from '../data/ninos';
+import InicioJuego from './InicioJuego';
+import { CAEN, NIVELES_MAX, type Cae } from '../data/ninos';
 import { hablar, sonido } from '../lib/voz';
-import { completarJuego, ninoSesion, useLook } from './progreso';
+import { nivelDe, ninoSesion, registrarIntento, superarNivel, useLook } from './progreso';
 
-const DURACION = 45;      // segundos
+const DURACION = 45;      // segundos por nivel
 const VIDAS = 3;
-const UMBRAL = 20;        // puntos para la segunda estrella
+const MAX = NIVELES_MAX.atrapa;
 const ANCHO_LONCHERA = 110; // px
+
+/** Parámetros de cada nivel (1–10): más rápido, más trampas y más puntos que juntar. */
+export function nivelAtrapa(n: number) {
+  return {
+    ritmo: 0.85 + n * 0.1,                 // velocidad de caída
+    cadaMs: 1300 - n * 70,                 // cada cuánto cae algo
+    trampa: 0.2 + n * 0.03,                // probabilidad de trampa
+    objetivo: 10 + n * 2,                  // puntos para superar el nivel
+  };
+}
 
 interface Objeto { k: number; cae: Cae; x: number; y: number }   // x: 0..1 del ancho; y: px desde arriba
 interface Flotante { k: number; x: number; y: number; texto: string; bueno: boolean; hasta: number }
 interface Vista { objetos: Objeto[]; flotantes: Flotante[]; andiX: number; puntos: number; vidas: number; restante: number; animo: Animo; golpe: number }
 
-const elegir = () => {
-  const trampa = Math.random() < 0.3;
+const elegir = (probTrampa: number) => {
+  const trampa = Math.random() < probTrampa;
   const lista = CAEN.filter(c => (c.tipo === 'trampa') === trampa);
   return lista[Math.floor(Math.random() * lista.length)];
 };
@@ -26,23 +37,29 @@ const elegir = () => {
 export default function Atrapa() {
   const ir = useNavigate();
   const { look } = useLook(ninoSesion());
+  const [nivel, setNivel] = useState(() => nivelDe('atrapa'));
   const [fase, setFase] = useState<'inicio' | 'jugando' | 'fin'>('inicio');
   const [vista, setVista] = useState<Vista>({ objetos: [], flotantes: [], andiX: .5, puntos: 0, vidas: VIDAS, restante: DURACION, animo: 'feliz', golpe: 0 });
-  const [fin, setFin] = useState<{ ganadas: number; puntos: number } | null>(null);
+  const [fin, setFin] = useState<{ ganadas: number; puntos: number; superado: boolean; siguiente?: number } | null>(null);
   const area = useRef<HTMLDivElement>(null);
   const juego = useRef({ ...vista, teclas: { izq: false, der: false }, ultimoSpawn: 0, k: 0, t0: 0, ultimoSeg: DURACION, animoHasta: 0, vivo: false });
   const raf = useRef(0);
+  const cfg = nivelAtrapa(nivel);
 
-  const terminar = useCallback((puntos: number) => {
+  const terminar = useCallback((puntos: number, vidas: number) => {
     juego.current.vivo = false; cancelAnimationFrame(raf.current);
-    const r = completarJuego('atrapa', puntos >= UMBRAL ? 1 : 0);
-    setFin({ ganadas: r.ganadas, puntos }); setFase('fin');
-  }, []);
+    const superado = vidas > 0 && puntos >= cfg.objetivo;
+    if (superado) {
+      const r = superarNivel('atrapa', nivel, { max: MAX, marca: puntos });
+      setFin({ ganadas: r.ganadas, puntos, superado, siguiente: nivel < MAX ? nivel + 1 : undefined });
+    } else { registrarIntento('atrapa', puntos); setFin({ ganadas: 0, puntos, superado }); }
+    setFase('fin');
+  }, [cfg.objetivo, nivel]);
 
   const empezar = () => {
     const j = juego.current;
     Object.assign(j, { objetos: [], flotantes: [], andiX: .5, puntos: 0, vidas: VIDAS, restante: DURACION, animo: 'feliz' as Animo, golpe: 0, ultimoSpawn: 0, k: 0, t0: performance.now(), ultimoSeg: DURACION, animoHasta: 0, vivo: true });
-    setFase('jugando'); sonido.bien(); hablar('¡Atrapa el hierro! Esquiva la gaseosa y los caramelos.');
+    setFase('jugando'); sonido.bien(); hablar(`Nivel ${nivel}. Junta ${cfg.objetivo} puntos y esquiva la gaseosa y los caramelos.`);
     let previo = performance.now();
     const paso = (ahora: number) => {
       if (!j.vivo) return;
@@ -51,12 +68,12 @@ export default function Atrapa() {
       const { width: w, height: h } = el.getBoundingClientRect();
       const transcurrido = (ahora - j.t0) / 1000;
       const restante = Math.max(0, DURACION - transcurrido);
-      const ritmo = 1 + Math.min(1.5, transcurrido / DURACION * 1.5);      // la velocidad sube con el tiempo
+      const ritmo = cfg.ritmo * (1 + Math.min(0.5, transcurrido / DURACION * 0.5));      // sube un poco dentro del nivel
       // teclado
       if (j.teclas.izq) j.andiX = Math.max(0.08, j.andiX - 1.1 * dt);
       if (j.teclas.der) j.andiX = Math.min(0.92, j.andiX + 1.1 * dt);
       // caen nuevos
-      if (ahora - j.ultimoSpawn > 1150 / ritmo) { j.ultimoSpawn = ahora; j.objetos.push({ k: j.k++, cae: elegir(), x: 0.1 + Math.random() * 0.8, y: -40 }); }
+      if (ahora - j.ultimoSpawn > cfg.cadaMs / Math.max(1, ritmo / cfg.ritmo)) { j.ultimoSpawn = ahora; j.objetos.push({ k: j.k++, cae: elegir(cfg.trampa), x: 0.1 + Math.random() * 0.8, y: -40 }); }
       // mover y chocar
       const vel = h * 0.26 * ritmo;
       const zonaY1 = h - 108, zonaY2 = h - 44, mitad = ANCHO_LONCHERA / 2 + 10;
@@ -83,7 +100,7 @@ export default function Atrapa() {
       if (seg !== j.ultimoSeg) { j.ultimoSeg = seg; if (seg <= 5 && seg > 0) sonido.tic(); }
       j.restante = restante;
       setVista({ objetos: [...j.objetos], flotantes: [...j.flotantes], andiX: j.andiX, puntos: j.puntos, vidas: j.vidas, restante, animo: j.animo, golpe: j.golpe });
-      if (restante <= 0 || j.vidas <= 0) { terminar(j.puntos); return; }
+      if (restante <= 0 || j.vidas <= 0) { terminar(j.puntos, j.vidas); return; }
       raf.current = requestAnimationFrame(paso);
     };
     raf.current = requestAnimationFrame(paso);
@@ -91,7 +108,7 @@ export default function Atrapa() {
   };
 
   useEffect(() => () => { juego.current.vivo = false; cancelAnimationFrame(raf.current); }, []);
-  useEffect(() => { if (fase === 'inicio') hablar('Atrapa las comidas con hierro en la lonchera. ¿Empezamos?'); }, [fase]);
+  useEffect(() => { if (fase === 'inicio') hablar(`Atrapa el hierro, nivel ${nivel}. Junta ${nivelAtrapa(nivel).objetivo} puntos. ¿Empezamos?`); }, [fase, nivel]);
 
   const mover = (e: PE<HTMLDivElement>) => {
     const el = area.current; if (!el || !juego.current.vivo) return;
@@ -104,17 +121,15 @@ export default function Atrapa() {
   };
 
   if (fase === 'fin' && fin) return (
-    <Celebracion titulo={fin.puntos >= UMBRAL ? '¡Lonchera llena de hierro!' : '¡Buena atrapada!'} ganadas={fin.ganadas} detalle={`${fin.puntos} punto${fin.puntos === 1 ? '' : 's'}`}
-      alSeguir={() => ir('/ninos')} alRepetir={() => { setFin(null); setFase('inicio'); }} />
+    <Celebracion titulo={fin.superado ? '¡Lonchera llena de hierro!' : fin.puntos >= cfg.objetivo ? '¡Cuidado con las trampas!' : '¡Buena atrapada!'} ganadas={fin.ganadas}
+      detalle={`${fin.puntos} de ${cfg.objetivo} punto${cfg.objetivo === 1 ? '' : 's'}`} nivel={nivel} superado={fin.superado} siguiente={fin.siguiente}
+      alSeguir={() => ir('/ninos')} alRepetir={() => { setFin(null); setFase('inicio'); }}
+      alSiguiente={() => { setFin(null); setNivel(n => Math.min(MAX, n + 1)); setFase('inicio'); }} />
   );
 
   if (fase === 'inicio') return (
-    <div className="juego juego-inicio">
-      <Andi tam={150} look={look} className="andi-flota" />
-      <h1>Atrapa el hierro</h1>
-      <p className="juego-pista"><span>🫘 🍲 🥬 🥣 🥚 🍗</span> sí &nbsp;·&nbsp; <span>🥤 🍬</span> no</p>
-      <button className="boton-nino grande" onClick={empezar}>¡Jugar!</button>
-    </div>
+    <InicioJuego juego="atrapa" titulo="Atrapa el hierro" nivel={nivel} max={MAX} marca={m => `${m} puntos`} alJugar={empezar}
+      pista={<><span>🫘 🍲 🥬 🥣 🥚 🍗</span> sí &nbsp;·&nbsp; <span>🥤 🍬</span> no &nbsp;·&nbsp; meta {cfg.objetivo}</>} />
   );
 
   const golpeado = vista.golpe && performance.now() - vista.golpe < 400;
@@ -122,7 +137,7 @@ export default function Atrapa() {
     <div className="juego juego-atrapa">
       <div className="juego-cabeza">
         <span className="ronda">⏱ {Math.ceil(vista.restante)}</span>
-        <span className="ronda">🧺 {vista.puntos}</span>
+        <span className={`ronda ${vista.puntos >= cfg.objetivo ? 'logrado' : ''}`}>🧺 {vista.puntos} / {cfg.objetivo}</span>
         <span className="ronda vidas" aria-label={`${vista.vidas} vidas`}>{'❤️'.repeat(vista.vidas)}{'🤍'.repeat(VIDAS - vista.vidas)}</span>
       </div>
       <div ref={area} className={`atrapa-area ${golpeado ? 'golpe' : ''}`} onPointerMove={mover} onPointerDown={mover} tabIndex={0}

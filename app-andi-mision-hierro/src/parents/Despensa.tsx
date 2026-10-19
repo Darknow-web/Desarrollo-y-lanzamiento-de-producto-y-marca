@@ -3,14 +3,14 @@ import { Link, useNavigate } from 'react-router-dom';
 import Icono from '../components/Icono';
 import { Boton, Encabezado, Hoja, Paso, Tarjeta, aviso } from '../components/ui';
 import { Cascada, Contador, Item } from '../components/movimiento';
-import { actualizar, ninoActivo, nuevoId, obtener, useEstado } from '../lib/estado';
+import { actualizar, ninoActivo, nuevoId, obtener, registrarComida, useEstado } from '../lib/estado';
 import { fechaLarga, hoyISO, nombreDia, relativa, sumarDias } from '../lib/fechas';
 import { diasHastaAcabar } from '../lib/hierro';
 import { obtenerConfig } from '../lib/api';
 import { descargarRecordatorio } from '../lib/ics';
 import { enlaceWhatsApp, mensajePedido, soles, totalPedido, type Pedido } from '../lib/whatsapp';
 import { COLOR_SABOR, NOMBRE_PRESENTACION, PRECIOS, type ClavePedido } from '../data/precios';
-import { ANDIBITE_ID, HIERRO_ANDIBITE_REF } from '../data/alimentos';
+import { ANDIBITE_ID } from '../data/alimentos';
 import type { Presentacion, Sabor } from '../lib/tipos';
 
 const pedidoInicial = (p?: Presentacion): Pedido => (p === 'pack12' ? { pack12: 1 } : { pack6: 1 });
@@ -34,11 +34,12 @@ export default function Despensa() {
   const ultimo = despensa.find(d => d.codigo);
   const mensaje = mensajePedido(pedido, { codigo: ultimo?.codigo, sabor: ultimo && ultimo.sabor !== 'Surtido' ? ultimo.sabor : undefined });
 
-  const comio = (id: string) => actualizar(e => {
-    const d = e.despensa.find(x => x.id === id); if (!d || d.restantes <= 0) return;
-    d.restantes -= 1;
-    if (nino) e.registros.push({ id: nuevoId(), ninoId: nino.id, fecha: hoyISO(), alimentoId: ANDIBITE_ID, nombre: `AndiBite ${d.sabor}`, mg: HIERRO_ANDIBITE_REF, hemo: true, conVitC: false, loteId: d.loteId });
-  });
+  // Comió 1: si hay hijo, se registra como hierro de hoy (y se descuenta del primer pack abierto); si no, solo se descuenta.
+  const comio = (id: string) => {
+    const d = obtener().despensa.find(x => x.id === id); if (!d || d.restantes <= 0) return;
+    if (nino) { const r = registrarComida(nino.id, hoyISO(), ANDIBITE_ID); if (r) aviso(`+${r.mg} mg para ${nino.apodo}`); }
+    else actualizar(e => { const x = e.despensa.find(y => y.id === id); if (x) x.restantes -= 1; });
+  };
 
   return (
     <Cascada className="pantalla despensa">

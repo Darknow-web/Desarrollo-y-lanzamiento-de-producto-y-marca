@@ -45,3 +45,24 @@ export const sonido = {
   /** Tic-tac de los últimos segundos. */
   tic: () => { try { tono(1200, 0, 0.04, 'square', 0.035); } catch { /* sin audio */ } },
 };
+
+/* ---------- Inglés de lonchera: voz en inglés ---------- */
+let vozIngles: SpeechSynthesisVoice | null = null;
+function elegirVozIngles() {
+  const voces = window.speechSynthesis?.getVoices() || [];
+  vozIngles = voces.find(v => v.lang === 'en-US') || voces.find(v => v.lang.startsWith('en')) || null;
+}
+if ('speechSynthesis' in window) {
+  elegirVozIngles();
+  const previo = window.speechSynthesis.onvoiceschanged;
+  window.speechSynthesis.onvoiceschanged = function (this: SpeechSynthesis, ev: Event) { if (typeof previo === 'function') previo.call(this, ev); elegirVozIngles(); };
+}
+/** Lee un texto en inglés (en-US), más despacio para que el niño lo repita. */
+export function hablarEn(texto: string) {
+  if (!vozDisponible() || !obtener().ajustes.voz) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(texto);
+  u.lang = 'en-US'; if (vozIngles) u.voice = vozIngles;
+  u.rate = 0.85; u.pitch = 1.1;
+  window.speechSynthesis.speak(u);
+}

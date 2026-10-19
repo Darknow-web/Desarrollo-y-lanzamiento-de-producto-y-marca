@@ -2,13 +2,17 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Andi from '../components/Andi';
 import Celebracion from './Celebracion';
-import { CARTAS } from '../data/ninos';
+import InicioJuego from './InicioJuego';
+import { CARTAS, NIVELES_MAX } from '../data/ninos';
 import { hablar, sonido } from '../lib/voz';
-import { obtener } from '../lib/estado';
-import { completarJuego, ninoSesion, useLook } from './progreso';
+import { nivelDe, ninoSesion, superarNivel, useLook } from './progreso';
 
 interface Ficha { k: number; id: string; emoji: string; nombre: string; dato: string }
 const mezclar = <T,>(a: T[]) => [...a].sort(() => Math.random() - 0.5);
+const MAX = NIVELES_MAX.memoria;
+/** Parejas por nivel (1–5). */
+export const PAREJAS_NIVEL = [4, 6, 8, 10, 12];
+const parejasDe = (nivel: number) => PAREJAS_NIVEL[Math.min(PAREJAS_NIVEL.length, Math.max(1, nivel)) - 1];
 
 function repartir(pares: number): Ficha[] {
   const elegidas = mezclar(CARTAS).slice(0, pares);
@@ -18,36 +22,54 @@ function repartir(pares: number): Ficha[] {
 export default function Memoria() {
   const ir = useNavigate();
   const { look } = useLook(ninoSesion());
-  const edad = obtener().ninos.find(n => n.id === ninoSesion())?.edad ?? 6;
-  const pares = edad <= 5 ? 4 : edad <= 8 ? 6 : 8;
-  const [fichas, setFichas] = useState(() => repartir(pares));
+  const [nivel, setNivel] = useState(() => nivelDe('memoria'));
+  const pares = parejasDe(nivel);
+  const [fase, setFase] = useState<'inicio' | 'jugando'>('inicio');
+  const [fichas, setFichas] = useState<Ficha[]>([]);
   const [abiertas, setAbiertas] = useState<number[]>([]);
   const [hechas, setHechas] = useState<string[]>([]);
+  const [intentos, setIntentos] = useState(0);
   const [dato, setDato] = useState('Encuentra las parejas de comidas.');
-  const [fin, setFin] = useState<ReturnType<typeof completarJuego> | null>(null);
-  useEffect(() => { hablar('¡Memoria andina! Encuentra las parejas.'); }, []);
+  const [fin, setFin] = useState<{ ganadas: number; intentos: number; siguiente?: number } | null>(null);
+
+  const empezar = () => {
+    setFichas(repartir(pares)); setHechas([]); setAbiertas([]); setIntentos(0); setDato('Encuentra las parejas de comidas.'); setFase('jugando');
+    hablar(`¡Memoria andina! Nivel ${nivel}: ${pares} parejas.`);
+  };
+  useEffect(() => { if (fase === 'inicio') hablar(`Memoria andina, nivel ${nivel}. Encuentra ${parejasDe(nivel)} parejas.`); }, [fase, nivel]);
 
   const tocar = (f: Ficha) => {
     if (abiertas.length === 2 || abiertas.includes(f.k) || hechas.includes(f.id)) return;
     sonido.toque();
     const ab = [...abiertas, f.k]; setAbiertas(ab);
     if (ab.length === 2) {
+      const n = intentos + 1; setIntentos(n);
       const [a, b] = ab.map(k => fichas.find(x => x.k === k)!);
       if (a.id === b.id) {
         setTimeout(() => {
           const h = [...hechas, a.id]; setHechas(h); setAbiertas([]); sonido.bien(); setDato(a.dato); hablar(a.dato);
-          if (h.length === pares) setTimeout(() => setFin(completarJuego('memoria')), 900);
+          if (h.length === pares) setTimeout(() => {
+            const r = superarNivel('memoria', nivel, { max: MAX, marca: n, mejorEs: 'menor' });
+            setFin({ ganadas: r.ganadas, intentos: n, siguiente: nivel < MAX ? nivel + 1 : undefined });
+          }, 900);
         }, 350);
       } else setTimeout(() => setAbiertas([]), 900);
     }
   };
-  if (fin) return <Celebracion titulo="¡Qué buena memoria!" ganadas={fin.ganadas} alSeguir={() => ir('/ninos')}
-    alRepetir={() => { setFin(null); setFichas(repartir(pares)); setHechas([]); setAbiertas([]); }} />;
+
+  if (fin) return <Celebracion titulo="¡Qué buena memoria!" ganadas={fin.ganadas} detalle={`${pares} parejas en ${fin.intentos} intentos`} nivel={nivel} siguiente={fin.siguiente}
+    alSeguir={() => ir('/ninos')} alRepetir={() => { setFin(null); setFase('inicio'); }}
+    alSiguiente={() => { setFin(null); setNivel(n => Math.min(MAX, n + 1)); setFase('inicio'); }} />;
+
+  if (fase === 'inicio') return (
+    <InicioJuego juego="memoria" titulo="Memoria andina" nivel={nivel} max={MAX} marca={m => `${m} intentos`} alJugar={empezar}
+      pista={<>🃏 {pares} parejas</>} />
+  );
 
   return (
     <div className="juego juego-memoria">
       <div className="andi-habla" onClick={() => hablar(dato)}><Andi tam={80} look={look} animo={hechas.length ? 'wow' : 'feliz'} /><p className="burbuja">{dato}</p></div>
-      <div className="tablero">
+      <div className={`tablero ${pares >= 10 ? 'tablero-grande' : ''}`}>
         {fichas.map(f => {
           const visible = abiertas.includes(f.k) || hechas.includes(f.id);
           return (
@@ -58,7 +80,7 @@ export default function Memoria() {
           );
         })}
       </div>
-      <p className="juego-pie">{hechas.length} de {pares} parejas</p>
+      <p className="juego-pie">Nivel {nivel} · {hechas.length} de {pares} parejas · {intentos} intentos</p>
     </div>
   );
 }

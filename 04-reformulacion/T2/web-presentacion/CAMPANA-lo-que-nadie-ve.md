@@ -1,0 +1,201 @@
+# Campaña «Lo que nadie ve»: textos finales del capítulo de campaña
+
+Textos para las 12 pantallas del capítulo 05 de la presentación web, para el jurado y el público. Reemplaza a «Vuelve vacía». Idea decidida con Carlos el 19-oct-2026. Cifras de `HECHOS_v7.md`, T2_13, T2_14 y T2_17 (no cambian). Prompts de imagen y video en `PROMPTS-campana.md`.
+
+**La idea en una frase:** cada papá y cada mamá de Lima inventa trucos para que su hijo coma lo que le hace bien, y nadie ve ese esfuerzo. AndiBite es el truco que ya no necesita cuento: el hierro va escondido en un mini brownie que el niño sí pide, y la app Andi muestra lo que nadie ve en casa, el hierro que el niño lleva cada día.
+
+**Hashtag de campaña:** #LoQueNadieVe («Cuéntanos tu truco»).
+
+**Firma de todas las piezas:** AndiBite. El truco que ya no necesita cuento.
+**Cierre de marca:** Dulce para ellos. Tranquilidad para ti.
+**Llamados:** «Pruébalo en el stand» y «Pídelo por WhatsApp».
+
+**El hilo de los títulos (se leen seguidos como una historia):**
+Lo que nadie ve → Todos tienen un truco → Y entonces hicimos el nuestro → Claudia ya probó todos los trucos → Rodrigo no tiene tiempo para cuentos → Y una familia real cuenta el suyo → En el stand, cada truco se cuenta en voz alta → Primero lo cuentan ellos → El truco corre de casa en casa → S/24,544 para que toda Lima cuente su truco → Detrás de cada truco, quince meses de trabajo → Los que no salen en el video.
+
+---
+
+## 1. Portada del capítulo (sobre el video maestro)
+
+- **Antetítulo:** 05 · La campaña de lanzamiento
+- **Título:** Lo que nadie ve.
+- **Línea:** Cada mañana, en miles de cocinas de Lima, un papá o una mamá inventa un truco para que su hijo coma bien.
+- **Pie pequeño:** #LoQueNadieVe
+
+Video: maestro 16:9 de 16 s (`vid/campana_maestro.mp4`), sin texto en la imagen. El título entra en el segundo 14, sobre el último cuadro (lonchera vacía y bolsa kraft).
+
+## 2. El insight
+
+- **Título:** Todos tienen un truco.
+- **Citas (de las entrevistas a profundidad):**
+  1. «Ella no sabe que es hígado.»
+     Lourdes, mamá entrevistada, que se lo esconde en bolitas o en la sopa.
+  2. «Mamá, eso olía feo y mis amigos me dijeron que parecía carbón.»
+     Mateo, 7 años, sobre los nuggets de sangrecita que le preparó su mamá, Lucero.
+  3. «Quieres ser la mamá perfecta que da todo orgánico, pero la realidad te aplasta.»
+     Vanessa, mamá entrevistada.
+- **Frase que las une:** Esconderlo, disfrazarlo, inventarle un cuento: cada casa tiene su truco, y nadie lo aplaude.
+
+## 3. La idea
+
+- **Título:** Y entonces hicimos el nuestro.
+- **Manifiesto (8 líneas, unos 30 segundos leído):**
+
+  Rallaste zanahoria dentro de la torta.
+  Le pusiste nombre de dinosaurio a la sopa.
+  El jugo verde fue «de Hulk» toda una semana.
+  Y por el hígado inventaste un cuento con final feliz.
+  Nadie aplaude esos trucos. Nadie los ve.
+  Por eso hicimos uno que ya no necesita cuento:
+  un mini brownie que te vuelve a pedir, con el hierro escondido adentro.
+  Y una app que te muestra, cada día, lo que nadie ve.
+
+- **Firma:** AndiBite. El truco que ya no necesita cuento.
+
+## 4. Anuncio para Claudia (Lima Top)
+
+- **Título de pantalla:** Claudia ya probó todos los trucos.
+- **Antetítulo:** Anuncio para Claudia · Lima Top
+- **Gancho (0 a 3 s):** «Confieso: el jugo verde nunca le dio superpoderes.»
+- **Historia (3 a 6 s):** Leí etiquetas, licué espinaca y le inventé un superhéroe. El vaso volvía lleno.
+- **Cierre con producto (6 a 8 s):** Ahora su hierro va escondido en un mini brownie que me pide, y en la app Andi veo cuánto llevó hoy.
+- **Llamados:** Pruébalo en el stand · Pídelo por WhatsApp
+- **Tarjeta:**
+  - Canal: Instagram y Facebook, video vertical de 8 s
+  - Cuándo: enero alrededor de Jockey Plaza; desde febrero, en Lima Top todo 2027
+  - Inversión: S/1,605 de pauta
+  - Meta: 195 conversaciones de WhatsApp
+
+## 5. Anuncio para Rodrigo (Lima Moderna)
+
+- **Título de pantalla:** Rodrigo no tiene tiempo para cuentos.
+- **Antetítulo:** Anuncio para Rodrigo · Lima Moderna
+- **Gancho (0 a 3 s):** «Seis de la mañana. Mi truco: el que se lo acaba primero elige la música del carro.»
+- **Historia (3 a 6 s):** Con el pan funcionaba. Con la menestra de la lonchera, ni con su canción favorita.
+- **Cierre con producto (6 a 8 s):** Ahora lleva un mini brownie con hierro que se come sin carrera. La semana entera en un pack de 12 por WhatsApp, a S/4.16 cada uno.
+- **Llamados:** Pruébalo en el stand · Pídelo por WhatsApp
+- **Tarjeta:**
+  - Canal: Instagram y Facebook, video vertical de 8 s
+  - Cuándo: enero alrededor de Jockey Plaza; desde febrero, en Lima Moderna y cerca de Salaverry, todo 2027
+  - Inversión: S/1,605 de pauta
+  - Meta: 195 conversaciones de WhatsApp
+
+## 6. Testimonial de una familia real
+
+- **Título de pantalla:** Y una familia real cuenta el suyo.
+- **Antetítulo:** Testimonial · «Mi truco era…»
+- **Gancho (0 a 3 s):** «Mi truco era decirle que el hígado era carne de dinosaurio.»
+- **Historia (3 a 6 s):** «Ahora no le cuento nada: le mando su brownie y la lonchera vuelve vacía.»
+- **Cierre con producto (6 a 8 s):** «Lo que antes no veía, su hierro de cada día, ahora lo veo en la app.»
+- **Llamados:** Pruébalo en el stand · Pídelo por WhatsApp
+- **Tarjeta:**
+  - Canal: Instagram y Facebook, video vertical de 8 s
+  - Cómo se hace: grabado con celular en enero, con una familia embajadora; sin costo de producción
+  - Cuándo: desde febrero de 2027, en Lima Top y Lima Moderna
+  - Inversión: S/1,840 de pauta
+  - Meta: 223 conversaciones de WhatsApp
+
+Nota de producción (no va en pantalla): el guion es una referencia. La familia dice su truco real con sus palabras; si su truco es otro, se usa el suyo. Hablan papá y mamá; el niño no sale.
+
+## 7. En el stand
+
+- **Título:** En el stand, cada truco se cuenta en voz alta.
+- **Línea:** Cuéntanos tu truco y pruébalo con tu hijo.
+- **Cómo funciona:**
+  1. Nos cuentas tu truco en 10 segundos a cámara, o lo escribes en un post-it del mural «Lo que nadie ve».
+  2. Tu hijo prueba el mini brownie contigo al lado.
+  3. Te llevas tu pack, y tu truco se queda en el mural.
+- **Cartel de tres líneas:**
+  1. Aquí sí vemos tu truco.
+  2. Cuéntanoslo y pruébalo con tu hijo.
+  3. Dulce para ellos. Tranquilidad para ti.
+- **Hablador de precios:** Pack de 6: S/27.90 · Semana completa (12): S/51.90 · Por WhatsApp: S/49.90, S/4.16 cada uno
+- **Datos:**
+  - 600 muestras para probar: S/1,146
+  - Kit del stand con el mural, el cartel y el hablador: S/400
+  - Jockey Plaza abre el 2 y 3 de enero de 2027
+  - Salaverry en febrero y La Molina en agosto, con el mismo mural
+
+## 8. Primero lo cuentan ellos
+
+- **Título:** Primero lo cuentan ellos.
+- **Línea:** Antes que nosotros, hablan los que ya tienen un truco.
+- **Puntos:**
+  1. **40 influencers con hijos (S/458).** 20 de Lima Top y 20 de Lima Moderna reciben su pack y cuentan su propio truco con #LoQueNadieVe y #publicidad, antes del 10 de enero.
+  2. **10 kits para pediatras y nutricionistas.** En enero, para quienes escuchan más trucos que nadie en la consulta.
+  3. **Papás y mamás embajadores (S/200 al mes).** Pasan su truco y su código en el chat del salón; la meta es 230 familias nuevas en 2027. El premio es para el adulto, nunca para el niño.
+  4. **Expectativa en diciembre (S/600).** «En enero abrimos en Jockey Plaza. Escríbenos tu truco por WhatsApp y entérate primero.»
+
+## 9. Las cuatro etapas
+
+- **Título:** El truco corre de casa en casa.
+- **Línea:** Cuatro etapas, de octubre de 2026 a diciembre de 2027.
+- **Prelanzamiento · oct a dic 2026 · S/1,758**
+  - Instagram y WhatsApp abren con la pregunta «¿Cuál es tu truco?».
+  - El video maestro listo el 30 de noviembre; en diciembre, influencers y expectativa.
+  - Meta: 100 familias que nos escriben por WhatsApp antes del lanzamiento para enterarse primero.
+- **Lanzamiento · ene y feb 2027 · S/5,796**
+  - Jockey Plaza abre el 2 y 3 de enero con el mural y 600 muestras.
+  - Salen los anuncios de Claudia y Rodrigo; se graba el testimonial; arrancan los embajadores.
+  - Febrero: abre Salaverry y vamos a la feria escolar. Meta: 3,700 brownies.
+- **Crecer · mar a jul 2027 · S/9,770**
+  - Entramos a 3 colegios y a la feria del Día del Niño (11 de abril), siempre hablándole al papá y a la mamá.
+  - Día de la Madre (9 de mayo) y Día del Padre (20 de junio): los trucos de mamá y los trucos de papá.
+  - Meta: 20,320 brownies.
+- **Expandir · ago a dic 2027 · S/7,220**
+  - Abre La Molina en agosto, con su mural; el 15 de agosto, tarde de familias en los 3 stands.
+  - El 16 de octubre publicamos los trucos del año; en Navidad, cajas por pedido.
+  - Meta: 28,311 brownies y unas 2,300 familias en nuestro WhatsApp.
+
+## 10. Cuánto cuesta y en qué
+
+- **Título:** S/24,544 para que toda Lima cuente su truco.
+- **Línea:** De octubre de 2026 a diciembre de 2027: S/0.44 por cada brownie vendido.
+- **Por tipo de medio:**
+  - **Promociones · S/7,596:** las 600 muestras, las degustaciones, el mural y el kit del stand, y los embajadores.
+  - **Relaciones públicas · S/6,858:** los 40 influencers, las ferias y los eventos donde el truco se cuenta en voz alta.
+  - **Publicidad · S/5,950:** los anuncios de Claudia, Rodrigo y la familia real, la expectativa de diciembre y el video maestro.
+  - **Ventas personales · S/4,140:** las personas que atienden, dan a probar y escuchan trucos en las ferias y los 40 eventos.
+
+## 11. Gantt
+
+- **Título:** Detrás de cada truco, quince meses de trabajo.
+- **Cambios sugeridos en las filas del Gantt (mismas fechas y responsables):**
+  - «Redes, WhatsApp y lista de espera» → «Redes y WhatsApp: las primeras 100 familias»
+  - «Video «Vuelve vacía»» → «Video «Lo que nadie ve»»
+  - «Mamás embajadoras» → «Papás y mamás embajadores»
+  - «Apertura de stands» → «Stands con el mural»
+
+## 12. El equipo
+
+- **Título:** Los que no salen en el video.
+- **Línea:** Cinco socios y una coordinadora, cada uno con su parte.
+
+---
+
+## Cierre de la presentación
+
+- **Slogan:** Dulce para ellos. Tranquilidad para ti.
+- **Línea debajo del slogan:** Lo que haces cada mañana, por fin se ve.
+
+## Texto de la app Andi (la campaña lo pide)
+
+La app es la parte de la idea que «muestra lo que nadie ve». Se ajustan tres textos:
+
+- **Botón diario (hoy: «Hoy volvió vacía»):** Volvió vacía: sumar su hierro de hoy
+- **Mensaje al tocarlo:** Hoy llevó su hierro en la lonchera. Esto es lo que nadie ve.
+- **Título del resumen del domingo (hoy: «La semana de su hijo»):** Lo que nadie vio esta semana
+
+---
+
+## Notas para el equipo (no van en pantalla)
+
+- **Por qué esta idea:** sale de lo que contaron las familias (el camuflaje es lo único que les funciona, y nadie habla de anemia), valida el esfuerzo del papá y la mamá en vez de corregirlo, y es contable: todos tienen un truco que contar. Es la misma lógica de «Lo estás haciendo bien» de Gloria y de «Del uno al noventa» de Inca Kola.
+- **Lo que no cambia:** presupuesto S/24,544; pauta S/1,605 / S/1,605 / S/1,840; metas 195 / 195 / 223 conversaciones; stands Jockey Plaza (2 y 3 de enero de 2027), Salaverry (febrero) y La Molina (agosto); precios.
+- **Lo nuevo, que es propuesta para revisar [PROPUESTA]:** el mural de post-its y el video de 10 s en el stand (se pagan con el kit de S/400 y el material de los S/700 al mes); la publicación de «los trucos del año» el 16 de octubre (Día Mundial de la Alimentación, reemplaza a «Abre el laboratorio»); los textos nuevos de la app. Ninguno suma gasto.
+- **La línea «Video con niños» del presupuesto (S/300, nov-26)** se lee como «Video de lanzamiento»: el maestro no tiene niños; mismo monto.
+- **Legal (Ley 30021, art. 8, y Ley 29733):** en video solo hablan adultos; el niño no sale en cámara. La muestra se entrega al adulto. En el stand se graba solo al papá o la mamá, con su permiso firmado ahí mismo (formato de Adela); los post-its no piden nombre ni colegio del niño, y se publican solo con permiso. Influencers con #publicidad (guía del INDECOPI, 2024). Nunca «previene» ni «combate la anemia».
+- **Palabras que se evitan:** «engañar» (decimos «esconder» o «truco»); «su prueba… la tuya…»; frases de dos partes en eco.
+- **Marca registrada:** «de Hulk» queda solo en el manifiesto de la presentación, porque es como lo dicen los papás. En la pauta pagada se dice «superhéroe» o «superpoderes» (Hulk es una marca de Marvel).
+- **Antes de publicar:** revisar que #LoQueNadieVe no lo use otra marca en Perú, y pasar estos textos por el agente `t2-redactor`.
+- **HECHOS_v7 por actualizar (cuando Carlos lo pida):** la línea de campaña y el cartel del stand siguen con «Su prueba: la lonchera vacía. La tuya: verlo en la app.»; se reemplazan por esta campaña.

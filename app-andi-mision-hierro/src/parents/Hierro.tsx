@@ -1,13 +1,14 @@
 import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Icono from '../components/Icono';
-import { Boton, Encabezado, Hoja, Interruptor, Tarjeta, Vacio, aviso } from '../components/ui';
+import { Boton, Encabezado, Tarjeta, Vacio, aviso } from '../components/ui';
 import SelectorNino from './SelectorNino';
+import { HojaComida } from './Reto';
 import { Cascada, Contador, Item } from '../components/movimiento';
-import { actualizar, ninoActivo, nuevoId, useEstado } from '../lib/estado';
+import { ninoActivo, quitarRegistro, useEstado } from '../lib/estado';
 import { diaCorto, hoyISO, nombreDia, semanaDe, sumarDias, fechaCorta } from '../lib/fechas';
-import { referenciaDiaria, resumenSemana } from '../lib/hierro';
-import { ALIMENTOS, ANDIBITE_ID, CONSEJOS, HIERRO_ANDIBITE_REF } from '../data/alimentos';
+import { esAndiBite, referenciaDiaria, resumenSemana } from '../lib/hierro';
+import { CONSEJOS, alimentoPorId } from '../data/alimentos';
 
 export default function Hierro() {
   const nino = useEstado(ninoActivo);
@@ -20,7 +21,7 @@ export default function Hierro() {
 
   if (!nino) return (
     <div className="pantalla"><Encabezado titulo="Semáforo de hierro" atras={-1} />
-      <Vacio icono="gota" titulo="Crea el perfil de tu hijo" texto="Así llevamos su semáforo de hierro de la semana.">
+      <Vacio icono="gota" titulo="Crea el perfil de tu hijo" texto="Así papá y mamá ven su semáforo de hierro de la semana.">
         <Boton onClick={() => ir('/bienvenida?volver=/hierro')}>Crear perfil</Boton>
       </Vacio></div>
   );
@@ -39,7 +40,7 @@ export default function Hierro() {
       <Item as="section" className={`semaforo-hero semaforo-${r.color}`}>
         <span className="semaforo-luces grande" aria-hidden="true"><i /><i /><i /></span>
         <p className="semaforo-cifra"><Contador valor={r.diasConHierro} decimales={0} duracion={0.7} className="semaforo-numero" /> <span>de 7 días con hierro</span></p>
-        <p className="semaforo-mensaje">{r.color === 'verde' ? `${nino.apodo} comió una fuente de hierro casi todos los días. Sigan así.` : r.color === 'ambar' ? 'Vas bien. La meta es 5 días o más con una fuente de hierro.' : 'Suma una fuente de hierro hoy: sangrecita, hígado, menestras o un AndiBite.'}</p>
+        <p className="semaforo-mensaje">{r.color === 'verde' ? `${nino.apodo} comió una fuente de hierro casi todos los días. Sigan así, papá y mamá.` : r.color === 'ambar' ? 'Van bien. La meta es 5 días o más con una fuente de hierro.' : 'Sumen una fuente de hierro hoy: sangrecita, hígado, menestras o un AndiBite.'}</p>
         <p className="semaforo-mg">{r.mgSemana} mg registrados esta semana</p>
       </Item>
 
@@ -67,44 +68,18 @@ export default function Hierro() {
       <Item as="section" className="lista">
         <div className="lista-cabeza"><h2>{diaSel === hoy ? 'Hoy' : nombreDia(diaSel)[0].toUpperCase() + nombreDia(diaSel).slice(1)}</h2>
           <Boton icono="sumar" tipo="suave" onClick={() => setHoja(true)}>Registrar</Boton></div>
-        {delDia.length === 0 ? <p className="nota">Aún no registras fuentes de hierro este día.</p> : delDia.map(x => (
+        {delDia.length === 0 ? <p className="nota">Aún no hay fuentes de hierro registradas este día.</p> : delDia.map(x => (
           <div key={x.id} className="fila">
-            <span className="fila-emoji" aria-hidden="true">{x.alimentoId === ANDIBITE_ID ? '🍫' : ALIMENTOS.find(a => a.id === x.alimentoId)?.emoji || '🍽️'}</span>
-            <span><strong>{x.nombre}</strong><small>{x.mg} mg{x.hemo ? ' · hemínico' : ''}{x.conVitC ? ' · con vitamina C' : ''}</small></span>
-            <button className="btn-icono" aria-label={`Borrar ${x.nombre}`} onClick={() => actualizar(e => { e.registros = e.registros.filter(y => y.id !== x.id); })}><Icono n="basura" tam={18} /></button>
+            <span className="fila-emoji" aria-hidden="true">{esAndiBite(x) ? '🍫' : x.alimentoId === 'lonchera' ? '🧺' : alimentoPorId(x.alimentoId)?.emoji || '🍽️'}</span>
+            <span><strong>{x.nombre}</strong><small>{x.mg} mg{x.hemo ? ' · hierro hemo' : ''}{x.conVitC ? ' · con vitamina C' : ''}</small></span>
+            <button className="btn-icono" aria-label={`Borrar ${x.nombre}`} onClick={() => { quitarRegistro(x.id); aviso('Borrado'); }}><Icono n="basura" tam={18} /></button>
           </div>
         ))}
       </Item>
       <Item><Tarjeta className="consejo"><Icono n="info" /><p>{consejo}</p></Tarjeta></Item>
       <Item><p className="nota">El semáforo cuenta los días con una fuente de hierro. Los mg son aproximados (Tablas Peruanas de Composición de Alimentos, CENAN).</p></Item>
-      <Registrar abierta={hoja} alCerrar={() => setHoja(false)} ninoId={nino.id} apodo={nino.apodo} fecha={diaSel} />
+      <HojaComida abierta={hoja} alCerrar={() => setHoja(false)} nino={nino} fecha={diaSel} todos />
     </Cascada>
   );
 }
 
-function Registrar({ abierta, alCerrar, ninoId, apodo, fecha }: { abierta: boolean; alCerrar: () => void; ninoId: string; apodo: string; fecha: string }) {
-  const [sel, setSel] = useState<string | null>(null);
-  const [vitC, setVitC] = useState(true);
-  const opciones = [{ id: ANDIBITE_ID, nombre: 'AndiBite', porcion: '1 brownie de 20 g', mg: HIERRO_ANDIBITE_REF, hemo: true, emoji: '🍫' }, ...ALIMENTOS];
-  const guardar = () => {
-    const a = opciones.find(o => o.id === sel); if (!a) return;
-    actualizar(e => {
-      e.registros.push({ id: nuevoId(), ninoId, fecha, alimentoId: a.id, nombre: a.nombre, mg: a.mg, hemo: a.hemo, conVitC: vitC });
-      if (a.id === ANDIBITE_ID) { const d = e.despensa.find(x => x.restantes > 0); if (d) d.restantes -= 1; }
-    });
-    aviso(`+${a.mg} mg para ${apodo}`); setSel(null); alCerrar();
-  };
-  return (
-    <Hoja abierta={abierta} alCerrar={alCerrar} titulo={`¿Qué comió ${apodo}?`}>
-      <div className="alimentos">
-        {opciones.map(o => (
-          <button key={o.id} className={`alimento ${sel === o.id ? 'sel' : ''}`} onClick={() => setSel(o.id)} aria-pressed={sel === o.id}>
-            <span aria-hidden="true">{o.emoji}</span><strong>{o.nombre}</strong><small>{o.porcion}</small><em>{o.mg} mg</em>
-          </button>
-        ))}
-      </div>
-      <Interruptor activo={vitC} alCambiar={setVitC} etiqueta="Lo acompañó con fruta o verdura con vitamina C" detalle="Mandarina, naranja, fresa, limón, tomate…" />
-      <Boton ancho deshabilitado={!sel} onClick={guardar}>Guardar</Boton>
-    </Hoja>
-  );
-}

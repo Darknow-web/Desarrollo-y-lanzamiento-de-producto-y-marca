@@ -73,8 +73,37 @@
 .ruta-ninos strong { color: var(--crema); font-family: var(--fuente-nino); font-size: 20px; }
 .ruta-ninos small { color: var(--arena); }
 
-/* Reto lonchera vacía */
+/* El hierro de hoy (hero del inicio) y la lonchera vacía */
 .reto-hero { background: var(--blanco); border-radius: 26px; box-shadow: var(--sombra); padding: 22px 20px 20px; display: grid; gap: 12px; position: relative; }
+.hero-hoy { justify-items: center; text-align: center; gap: 10px; }
+.hero-hoy .reto-cabeza { justify-self: stretch; }
+.anillo { position: relative; width: 156px; height: 156px; display: grid; place-items: center; margin: 2px 0 0; }
+.anillo svg { position: absolute; inset: 0; transform: rotate(-90deg); }
+.anillo-pista { fill: none; stroke: var(--crema-2); stroke-width: 11; }
+.anillo-avance { fill: none; stroke: var(--ladrillo); stroke-width: 11; stroke-linecap: round; transition: stroke .3s; }
+.anillo-completo .anillo-avance { stroke: var(--oliva); }
+.anillo-centro { display: grid; justify-items: center; gap: 2px; line-height: 1; }
+.anillo-centro strong { font-family: var(--fuente-titulo); font-size: 44px; font-weight: 800; letter-spacing: -.04em; color: var(--cafe); font-variant-numeric: tabular-nums; }
+.anillo-centro strong small { font-size: 20px; font-weight: 800; letter-spacing: 0; margin-left: 1px; }
+.anillo-centro span { font-size: 13px; font-weight: 700; color: var(--cafe-medio); white-space: nowrap; }
+.anillo-completo .anillo-centro strong { color: var(--oliva-oscuro); }
+.hoy-titulo { font-size: clamp(19px, 5.4vw, 22px); font-weight: 800; letter-spacing: -.015em; color: var(--cafe); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.reto-hecho .hoy-titulo { color: var(--oliva-oscuro); }
+.acciones-hoy { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; width: 100%; margin-top: 2px; }
+.accion-hoy { min-height: 72px; border-radius: 18px; background: var(--crema); color: var(--cafe); display: grid; justify-items: center; align-content: center; gap: 5px; padding: 8px 6px; font-weight: 800; font-size: 12.5px; line-height: 1.1; white-space: nowrap; transition: background .2s, color .2s, box-shadow .2s; }
+.accion-hoy span { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.accion-hoy .icono { color: var(--ladrillo); }
+.accion-hoy.principal { background: var(--ladrillo); color: #fff; box-shadow: 0 8px 20px rgba(186, 64, 54, .25); }
+.accion-hoy.principal .icono { color: #fff; }
+.accion-hoy.hecha { background: var(--oliva); color: #fff; }
+.accion-hoy.hecha .icono { color: #fff; }
+.accion-hoy:disabled { opacity: .45; cursor: not-allowed; }
+.reto-hecho .accion-hoy:not(.principal):not(.hecha) { background: var(--blanco); }
+.celebra-mg { display: inline-flex; align-items: center; gap: 6px; color: var(--ladrillo); font-weight: 800; font-size: 14.5px; }
+.celebra-mg .icono { color: var(--ladrillo); }
+.resumen-semana .aporte { width: 100%; }
+.resumen-semana .aporte p { font-size: 14px; }
+.hero-hoy .puntos-semana { width: 100%; }
 .reto-hero.reto-hecho { background: var(--oliva-suave); box-shadow: none; }
 .reto-invita { justify-items: center; text-align: center; padding-top: 14px; }
 .reto-invita .reto-titulo { max-width: 320px; }
@@ -86,13 +115,35 @@
 .punto-dia { display: grid; justify-items: center; gap: 6px; padding: 2px 0; border-radius: 14px; color: var(--suave); }
 .punto-dia i { width: 38px; height: 38px; border-radius: 50%; background: var(--crema-2); display: grid; place-items: center; color: #fff; transition: background .25s, transform .25s, box-shadow .25s; }
 .punto-dia span { font-size: 12px; font-weight: 800; }
-.punto-dia.vacia i { background: var(--oliva); transform: scale(1.06); }
-.punto-dia.vacia span { color: var(--oliva-oscuro); }
+.punto-dia i b { font-size: 12.5px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.punto-dia.punto-completo i { background: var(--oliva); transform: scale(1.06); }
+.punto-dia.punto-completo span { color: var(--oliva-oscuro); }
+.punto-dia.punto-algo i { background: var(--dorado-suave); color: var(--dorado-oscuro); }
+.punto-dia.punto-algo span { color: var(--dorado-oscuro); }
+.punto-dia.punto-vacia i { background: var(--oliva-suave); }
 .punto-dia.hoy i { box-shadow: 0 0 0 2.5px var(--cafe); }
 .punto-dia.hoy span { color: var(--cafe); }
+.punto-dia.sel { background: var(--crema); }
 .punto-dia.futuro { opacity: .4; }
+button.punto-dia { min-height: 56px; }
 button.punto-dia:disabled { cursor: default; }
 button.punto-dia:not(:disabled):active i { transform: scale(.92); }
+/* /hoy: detalle del día */
+.dia-detalle { display: grid; gap: 10px; }
+.dia-detalle.dia-completo { background: var(--oliva-suave); box-shadow: none; }
+.dia-detalle .reto-cabeza h2 { margin: 0; }
+.dia-mg { font-size: 14px; font-weight: 700; color: var(--cafe-medio); white-space: nowrap; }
+.dia-mg strong { font-family: var(--fuente-titulo); font-size: 22px; color: var(--ladrillo); font-variant-numeric: tabular-nums; }
+.dia-completo .dia-mg strong { color: var(--oliva-oscuro); }
+.dia-lista { display: grid; }
+.dia-lista .fila { box-shadow: none; padding: 10px 0; border-top: 1px solid var(--linea); border-radius: 0; background: transparent; }
+.dia-lista .fila:first-child { border-top: 0; }
+.dia-detalle .dia-acciones { margin: 2px 0; }
+.dia-detalle .chip { min-height: 48px; }
+.alimentos-rapidos { grid-template-columns: repeat(2, 1fr); }
+.alimentos-rapidos .alimento { min-height: 72px; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; }
+.alimentos-rapidos .alimento strong { font-size: 15px; }
+.alimentos-rapidos .alimento em { margin-top: 0; }
 .reto-racha { display: inline-flex; align-items: center; gap: 6px; color: var(--cafe-medio); font-weight: 700; font-size: 14px; }
 .reto-racha .icono { color: var(--dorado); }
 .reto-hecho .reto-racha { color: var(--oliva-oscuro); }

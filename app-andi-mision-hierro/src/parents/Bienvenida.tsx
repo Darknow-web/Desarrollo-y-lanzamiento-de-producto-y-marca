@@ -13,7 +13,7 @@ export const AVATARES = ['🦙', '🐻', '🦊', '🐸', '🐼', '🐯', '🐨',
 /* Dibujos de la bienvenida: trazos simples con la paleta de la marca. */
 function DibujoLonchera() {
   return (
-    <svg viewBox="0 0 200 160" width="200" height="160" role="img" aria-label="Lonchera vacía con un visto">
+    <svg viewBox="0 0 200 160" width="200" height="160" role="img" aria-label="Lonchera vacía con un visto: el hierro del día se suma solo">
       <ellipse cx="100" cy="146" rx="70" ry="7" fill="#4A2018" opacity=".08" />
       <path d="M72 50 q0 -22 28 -22 q28 0 28 22" fill="none" stroke="#4A2018" strokeWidth="7" strokeLinecap="round" />
       <rect x="30" y="48" width="140" height="92" rx="20" fill="#BA4036" />
@@ -53,7 +53,7 @@ function DibujoPack() {
 }
 
 const PANTALLAS: { frase: string; dibujo: ReactNode }[] = [
-  { frase: 'Cada tarde, marca si la lonchera volvió vacía', dibujo: <DibujoLonchera /> },
+  { frase: 'Cada tarde, marca si la lonchera volvió vacía: el hierro del día se suma solo', dibujo: <DibujoLonchera /> },
   { frase: 'Tu hijo juega con Andi y gana estrellas', dibujo: <DibujoAndi /> },
   { frase: 'Pide tu pack por WhatsApp cuando se acabe', dibujo: <DibujoPack /> },
 ];

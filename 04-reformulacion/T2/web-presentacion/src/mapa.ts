@@ -8,8 +8,8 @@ const PX = (v: number) => X0 + v * (X1 - X0); // 0 = remedio, 1 = gusto
 const PY = (v: number) => Y1 - v * (Y1 - Y0); // 0 = sin hierro, 1 = con hierro
 
 const BRANDS: Brand[] = [
-  { n: 'Nutri H (galleta)', x: 0.18, y: 0.82, dx: 20, dy: 8, anchor: 'start' },
-  { n: 'Forticao (chocolate de farmacia)', x: 0.3, y: 0.66, dx: 20, dy: 8, anchor: 'start' },
+  { n: 'Nutri H', x: 0.18, y: 0.82, dx: 20, dy: 8, anchor: 'start' },
+  { n: 'Forticao', x: 0.3, y: 0.66, dx: 20, dy: 8, anchor: 'start' },
   { n: 'Fika', x: 0.84, y: 0.4, dx: 20, dy: 8, anchor: 'start' },
   { n: 'Mamalama', x: 0.6, y: 0.32, dx: 0, dy: -24, anchor: 'middle' },
   { n: 'Siete Dragones', x: 0.52, y: 0.14, dx: 0, dy: 40, anchor: 'middle', ref: true },
@@ -24,14 +24,14 @@ export function buildMapa(el: HTMLElement): void {
   t.push(`<rect class="draw m-axis" x="${X0}" y="${Y0}" width="${X1 - X0}" height="${Y1 - Y0}" rx="10"/>`);
   t.push(`<line class="m-q" x1="${PX(0.5)}" y1="${Y0}" x2="${PX(0.5)}" y2="${Y1}"/>`);
   t.push(`<line class="m-q" x1="${X0}" y1="${PY(0.5)}" x2="${X1}" y2="${PY(0.5)}"/>`);
-  t.push(`<text class="m-axt" x="${X0}" y="${Y1 + 40}" text-anchor="start">Sabe a remedio</text>`);
-  t.push(`<text class="m-axt" x="${X1}" y="${Y1 + 40}" text-anchor="end">Sabe a gusto</text>`);
+  t.push(`<text class="m-axt" x="${X0}" y="${Y1 + 40}" text-anchor="start">Sabor de suplemento</text>`);
+  t.push(`<text class="m-axt" x="${X1}" y="${Y1 + 40}" text-anchor="end">Sabor de postre</text>`);
   t.push(`<text class="m-axt" transform="translate(26 ${Y1 - 10}) rotate(-90)" text-anchor="start">Sin hierro</text>`);
   t.push(`<text class="m-axt" transform="translate(26 ${Y0 + 10}) rotate(-90)" text-anchor="end">Con hierro</text>`);
-  t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y0 + 34}">CON HIERRO, PERO A REMEDIO</text>`);
+  t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y0 + 34}">CON HIERRO, SABOR DE SUPLEMENTO</text>`);
   t.push(`<text class="m-ql hot" x="${X1 - 18}" y="${Y0 + 34}" text-anchor="end">RICO Y CON HIERRO</text>`);
-  t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y1 - 18}">NI RICO NI CON HIERRO</text>`);
-  t.push(`<text class="m-ql" x="${X1 - 18}" y="${Y1 - 18}" text-anchor="end">RICO, SIN HIERRO</text>`);
+  t.push(`<text class="m-ql" x="${X0 + 18}" y="${Y1 - 18}">SIN HIERRO</text>`);
+  t.push(`<text class="m-ql" x="${X1 - 18}" y="${Y1 - 18}" text-anchor="end">RICO, PERO SIN HIERRO</text>`);
   BRANDS.forEach((b) => {
     const cx = PX(b.x), cy = PY(b.y);
     t.push(`<g class="pop m-pt"><circle class="m-dot${b.ref ? ' ref' : ''}" cx="${cx}" cy="${cy}" r="${b.ref ? 9 : 12}"/>`

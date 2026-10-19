@@ -372,11 +372,22 @@ document.addEventListener('keydown', (e) => {
   if (menu.classList.contains('open') && e.key === 'Escape') closeMenu();
 }, true);
 
+// Fichas de Claudia y Rodrigo: "Su mañana" despliega un texto corto
+$$<HTMLButtonElement>('.persona-more').forEach((b) => {
+  b.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const box = b.nextElementSibling as HTMLElement | null;
+    const open = b.getAttribute('aria-expanded') === 'true';
+    b.setAttribute('aria-expanded', open ? 'false' : 'true');
+    if (box) box.hidden = open;
+  });
+});
+
 // Clic en la pantalla: avanza (en el borde izquierdo, retrocede)
 document.querySelector('.reveal')?.addEventListener('click', (e) => {
   const ev = e as MouseEvent;
   const t = ev.target as HTMLElement;
-  if (t.closest('a, button, input, video, .ui, .menu, .qr-card')) return;
+  if (t.closest('a, button, input, video, .ui, .menu, .qr-card, .persona-dia')) return;
   if (window.getSelection()?.toString()) return;
   if (ev.clientX < window.innerWidth * 0.18) deck.prev(); else deck.next();
 });

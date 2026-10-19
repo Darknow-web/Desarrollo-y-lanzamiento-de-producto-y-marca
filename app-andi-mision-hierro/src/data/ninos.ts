@@ -55,24 +55,31 @@ export const OPCIONES_LONCHERA: Opcion[] = [
 ];
 
 /* ---------- Paradas del mapa ---------- */
-export interface Parada { id: 'atrapa' | 'lonchera' | 'memoria' | 'vestir'; juego: string; emoji: string; color: string }
+export type Juego = 'atrapa' | 'lonchera' | 'memoria' | 'vestir' | 'sumas' | 'palabras' | 'ingles';
+export interface Parada { id: Juego; juego: string; emoji: string; color: string; niveles: number }
+/** Niveles máximos por juego (Memoria: 4, 6, 8, 10 y 12 parejas). */
+export const NIVELES_MAX: Record<Juego, number> = { atrapa: 10, lonchera: 10, memoria: 5, vestir: 0, sumas: 20, palabras: 20, ingles: 20 };
 export const PARADAS: Parada[] = [
-  { id: 'atrapa', juego: 'Atrapa el hierro', emoji: '🧺', color: '#BA4036' },
-  { id: 'lonchera', juego: 'Lonchera exprés', emoji: '⏰', color: '#7C8A3A' },
-  { id: 'memoria', juego: 'Memoria', emoji: '🃏', color: '#E3A33B' },
-  { id: 'vestir', juego: 'Viste a Andi', emoji: '🎩', color: '#6B3A2A' },
+  { id: 'atrapa', juego: 'Atrapa el hierro', emoji: '🧺', color: '#BA4036', niveles: 10 },
+  { id: 'lonchera', juego: 'Lonchera exprés', emoji: '⏰', color: '#7C8A3A', niveles: 10 },
+  { id: 'memoria', juego: 'Memoria', emoji: '🃏', color: '#E3A33B', niveles: 5 },
+  { id: 'vestir', juego: 'Viste a Andi', emoji: '🎩', color: '#6B3A2A', niveles: 0 },
+  { id: 'sumas', juego: 'Suma de hierro', emoji: '🔢', color: '#3E7C8A', niveles: 20 },
+  { id: 'palabras', juego: 'Palabras de la lonchera', emoji: '🔤', color: '#8A5A3E', niveles: 20 },
+  { id: 'ingles', juego: 'Inglés de lonchera', emoji: '🗣️', color: '#5A6B8A', niveles: 20 },
 ];
 
 /* ---------- Viste a Andi: looks y fondos (se pagan solo con estrellas ganadas jugando) ---------- */
 export type Look = 'explorador' | 'chef' | 'astronauta' | 'deportista' | 'pijama' | 'fiesta';
-export interface LookInfo { id: Look; nombre: string; emoji: string; estrellas: number }
+/** `nivel`: niveles totales avanzados (suma de todos los juegos) con los que el look se regala sin gastar estrellas. */
+export interface LookInfo { id: Look; nombre: string; emoji: string; estrellas: number; nivel: number }
 export const LOOKS: LookInfo[] = [
-  { id: 'explorador', nombre: 'Exploradora', emoji: '🧭', estrellas: 2 },
-  { id: 'chef', nombre: 'Chef', emoji: '👨‍🍳', estrellas: 3 },
-  { id: 'astronauta', nombre: 'Astronauta', emoji: '🚀', estrellas: 4 },
-  { id: 'deportista', nombre: 'Deportista', emoji: '⚽', estrellas: 5 },
-  { id: 'pijama', nombre: 'Pijama', emoji: '🌙', estrellas: 6 },
-  { id: 'fiesta', nombre: 'Fiesta', emoji: '🎉', estrellas: 8 },
+  { id: 'explorador', nombre: 'Exploradora', emoji: '🧭', estrellas: 2, nivel: 3 },
+  { id: 'chef', nombre: 'Chef', emoji: '👨‍🍳', estrellas: 3, nivel: 8 },
+  { id: 'astronauta', nombre: 'Astronauta', emoji: '🚀', estrellas: 4, nivel: 15 },
+  { id: 'deportista', nombre: 'Deportista', emoji: '⚽', estrellas: 5, nivel: 25 },
+  { id: 'pijama', nombre: 'Pijama', emoji: '🌙', estrellas: 6, nivel: 40 },
+  { id: 'fiesta', nombre: 'Fiesta', emoji: '🎉', estrellas: 8, nivel: 60 },
 ];
 export type Fondo = 'lima' | 'selva' | 'andes' | 'playa';
 export const FONDOS: { id: Fondo; nombre: string; emoji: string }[] = [
