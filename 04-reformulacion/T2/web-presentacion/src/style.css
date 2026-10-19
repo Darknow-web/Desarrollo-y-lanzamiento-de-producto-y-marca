@@ -1402,3 +1402,20 @@ body.is-hero .ui-brand { visibility: hidden; }
 .resumen-datos dd { color: var(--tx); }
 .resumen-datos dt { color: var(--rojo); }
 @media (orientation: portrait), (max-width: 700px) { .etapa li:nth-child(n+2) { display: none; } .etapas { gap: 8px; } }
+
+/* ---- Diseñador: capítulo de campaña ---- */
+#s-gasto .big-md { font-size: clamp(44px, calc(4.2 * var(--u)), 84px); }
+#s-gasto .precio { margin-top: calc(1.6 * var(--u)); }
+#s-gasto .precio-l .lead-dark { max-width: none; text-wrap: balance; }
+.etapa-k { white-space: nowrap; letter-spacing: .06em; }
+#s-equipo .tm { align-items: start; align-content: start; padding-top: calc(1.5 * var(--u)); }
+#s-equipo .tm h3 { text-wrap: balance; }
+.media-bleed .ph { top: 50%; transform: translateY(-50%); width: 38%; aspect-ratio: 16 / 9; display: grid; place-content: center; }
+#s-dinamica .closer { text-wrap: balance; }
+@media (orientation: portrait), (max-width: 700px) {
+  #s-metas .metas { margin-top: 16px; align-content: start; }
+  #s-90 .etapas { margin-top: 16px; }
+  #s-dinamica .frame { justify-content: center; }
+  .etapa-k { white-space: normal; }
+  .media-bleed .ph { width: 70%; }
+}

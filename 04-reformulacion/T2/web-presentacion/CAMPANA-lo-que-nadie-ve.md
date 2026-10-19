@@ -211,12 +211,12 @@ La app es la parte de la idea que «muestra lo que nadie ve». Se ajustan tres t
 - **Marca registrada:** «de Hulk» queda solo en el manifiesto de la presentación, porque es como lo dicen los papás. En la pauta pagada se dice «superhéroe» o «superpoderes» (Hulk es una marca de Marvel).
 - **Antes de publicar:** revisar que #LoQueNadieVe no lo use otra marca en Perú, y pasar estos textos por el agente `t2-redactor`.
 
-## 11. Orden del capítulo en la presentación (decidido el 19-oct-2026)
+## 12. Orden del capítulo en la presentación (decidido el 19-oct-2026)
 
 1. Portada con el video maestro y el concepto «Lo que nadie ve».
 2. El insight y el manifiesto (la idea).
 3. **La dinámica:** «Cuéntanos tu truco. Funcione o no, cuenta.» En redes (#LoQueNadieVe, etiquetar, la comunidad vota, los 3 más votados abren el mural y el adulto gana un mes de lonchera) y en el stand (cuentas tu truco a cámara o lo escribes en el mural y la degustación va por nuestra cuenta; tu hijo prueba; te llevas tu pack y el QR abre la app).
-4. **Metas con fecha** (redactadas como objetivos medibles, sin decir «SMART»):
+4. **Metas con fecha** (cada una con número, cómo se mide y fecha; sin decir «SMART»):
    - 300 trucos contados al 31 de enero de 2027: 150 con #LoQueNadieVe y 150 en el mural de Jockey Plaza.
    - 100 familias en WhatsApp antes del 2 de enero y 500 seguidores al 31 de diciembre de 2026.
    - 400,000 personas ven los videos en 2027; 4,100 hacen clic en «Pruébalo» o «Pídelo» y 613 escriben por WhatsApp (195 + 195 + 223). Salen del cálculo del documento 17: CPM S/12.69, CPC S/1.235, 15 % de clic a contacto.
