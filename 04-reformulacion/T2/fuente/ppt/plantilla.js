@@ -181,7 +181,7 @@ const chartText = () => ({
   pres.addSection({ title: 'Cierre' });
   s = pres.addSlide({ masterName: 'CIERRE', sectionTitle: 'Cierre' });
   T(s, 'SLOGAN', { x: 0.8, y: 0.9, w: 7.4, h: 0.35, fontSize: 13, bold: true, color: C.accent3, charSpacing: 2 });
-  s.addText('[Slogan del #11]', { placeholder: 'title' });
+  s.addText('Hierro medido. Sabor a brownie.', { placeholder: 'title' });
   T(s, 'Frase de cierre o llamado a la acción', { x: 0.8, y: 3.4, w: 7.4, h: 0.5, fontSize: 24, bold: true, color: C.accent5 });
   s.addImage({ path: '/home/user/Desarrollo-y-lanzamiento-de-producto-y-marca/assets/empaque/B1_frente.png', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: -3 });
   s.addNotes('PLANTILLA · Cierre con el slogan.');

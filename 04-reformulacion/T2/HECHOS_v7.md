@@ -23,7 +23,7 @@
 - **Qué es:** mini brownie de 20 g con sangrecita de res en polvo liofilizada (hierro hemo). Se compra lista y a granel, a S/300 por kg, a un proveedor con registro sanitario.
 - **Fabricación:** la planta de maquila solo la hidrata; no hay planta propia. La maquila cuesta S/0.45 por brownie.
 - **Sabores:** Chispa (choco clásico con chispas), Andi (choco, plátano, canela y cañihua) y Lúcu (choco y lúcuma).
-- **Meta "sin octógono":** se confirma en laboratorio [POR CONFIRMAR]. El hierro se mide en laboratorio: cada lote de enero a junio y cada 2 meses desde julio. El resultado se publica en la app. El cálculo da unos 1.9 mg de hierro por brownie, pero se hizo con sangrecita cocida y está [POR CONFIRMAR en laboratorio].
+- **Meta "sin octógono":** con la receta reformulada (4.6 a 7.1 g de azúcar por 100 g según la T1, con eritritol; el límite del octógono es 10 g por 100 g en sólidos) [POR CONFIRMAR en laboratorio]. El documento 03 conserva un cálculo viejo de unos 14 g: no usarlo. El hierro se mide en laboratorio: cada lote de enero a junio y cada 2 meses desde julio. El resultado se publica en la app. El cálculo da unos 1.9 mg de hierro por brownie, pero se hizo con sangrecita cocida y está [POR CONFIRMAR en laboratorio].
 - **Presentaciones:** unidad, caja de 3 sabores, pack de 6 y pack de 12 "Semana completa".
 - **Frases:** "Hierro medido. Sabor a brownie." y "El snack de lonchera que tu hijo sí se come".
 - **Lo que no se dice:** "previene la anemia" (riesgo de publicidad engañosa).
@@ -196,6 +196,7 @@ Documento 09; prototipo funcional en `app-andi-mision-hierro/`. Es una app web i
   - 230 familias nuevas por embajadoras;
   - 5 colegios con quiosco (2 A y 3 B) y 8 tiendas naturistas.
 - **Metas propuestas** (documento 10, sección 6.3): contactos de WhatsApp, escaneos, colegios y seguidores (500 en diciembre de 2026 y 4,000 en diciembre de 2027; es la meta menos respaldada).
+- **Slogan (decidido en el #11):** "Hierro medido. Sabor a brownie." **Territorio de marca (#10):** "Medido, no prometido".
 - **Mensajes:**
   - Central: "Hierro medido. Sabor a brownie."
   - Padre A: "Él ve un brownie. Tú ves el hierro medido de su lote."
@@ -209,7 +210,7 @@ Documento 09; prototipo funcional en `app-andi-mision-hierro/`. Es una app web i
   - Navidad, con cajas por pedido.
 
 ## ODS
-- **Principal: ODS 2 Hambre cero, meta 2.2** (fin de la malnutrición; la anemia se mide con el indicador 2.2.3).
+- **Principal: ODS 2 Hambre cero, meta 2.2** (poner fin a todas las formas de malnutrición). Ojo: el indicador 2.2.3 mide la anemia en mujeres de 15 a 49 años, no en niños; para niños usamos ENDES (Lima Metropolitana 2024: 24.0 % en niños de 6 a 35 meses con el criterio OMS; Perú 2025: 34.9 %).
 - **Complementarios:**
   - ODS 3 Salud y bienestar: menos azúcar, recordatorio de hemoglobina y educación en la app.
   - ODS 8 Trabajo decente: empresa formal con todo el personal pagado.

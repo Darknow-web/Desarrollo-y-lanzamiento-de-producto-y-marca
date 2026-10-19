@@ -210,7 +210,7 @@ El documento 10 tiene el mensaje B con el cierre "resuelta". Aquí manda HECHOS_
 
 ## 6. Slogan
 
-**[SLOGAN: se completa con el #11]**
+****"Hierro medido. Sabor a brownie."** (slogan elegido en el #11)**
 
 Mientras tanto, la referencia es el **mensaje central ya decidido: "Hierro medido. Sabor a brownie."** El slogan del #11 debe poder vivir junto a esta frase en el empaque, el stand y el cierre de la presentación.
 
@@ -359,7 +359,7 @@ Se entrega aparte: `04-reformulacion/T2/T2_12_Plantilla-PPT-AndiBite.pptx` (7 di
 | **Portada** | Café oscuro 4A2018 | Logo en versión clara grande arriba a la izquierda; título de 40 pt en crema; subtítulo de 18 pt en arena; nombres del Grupo 2, curso y profesora; foto del empaque a la derecha, un poco girada |
 | **Sección** | Café oscuro 4A2018 | Número de sección grande (120 pt) en rojo ladrillo; título de 44 pt en crema; subtítulo en arena; círculo café medio con un ícono; logo claro abajo a la izquierda |
 | **Contenido** | Crema FBF3E8 | Kicker de 12 pt en rojo ladrillo y mayúsculas; título de 34 pt en Calibri negrita café oscuro; pie "AndiBite · Grupo 2 · T2 Plan de marketing" de 10 pt en café medio; logo color abajo a la derecha (2.4 cm de ancho) y número de diapositiva |
-| **Cierre** | Café oscuro 4A2018 | Etiqueta "SLOGAN" en dorado; título de 48 pt con el marcador "[Slogan del #11]"; frase de cierre en arena; foto del empaque a la derecha |
+| **Cierre** | Café oscuro 4A2018 | Etiqueta "SLOGAN" en dorado; título de 48 pt con el slogan "Hierro medido. Sabor a brownie."; frase de cierre en arena; foto del empaque a la derecha |
 
 ### 10.3 Diseños de contenido de ejemplo
 
