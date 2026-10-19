@@ -119,6 +119,26 @@ Primer cuadro: F4. Gancho «Mi truco era decirle que el hígado era carne de din
 Vertical 9:16 authentic smartphone-style video, 8 seconds, phone propped on the table, slight handheld wobble, as if a real family recorded their own testimonial, no on-screen text. 0-3 s: the mother and father sit side by side at the light oak table and laugh while she talks to the camera, confessing an old trick; he covers his face for a second, amused. 3-6 s: she opens the terracotta lunchbox and tilts it toward the camera: completely empty, only a folded napkin and a few cocoa crumbs; he nods. 6-8 s: the father lifts the matte kraft pouch next to his smartphone, the screen softly glowing with no readable content, and both smile at each other; hold, the lower half of the frame calm for text. Natural afternoon window light, realistic skin and textures, shallow depth of field, palette kraft, cream, cocoa, warm gold. A child's backpack on an empty chair at the edge, no children, no letters, no logos.
 ```
 
+### V4 · Convocatoria del concurso, 9:16, 15 s (Campaña: pantalla «Primero hablamos nosotros»)
+
+Es la voz de la marca, no un testimonio. Dos clips de 8 s unidos con el comando de concat; el texto en pantalla se agrega después, en la app de edición.
+
+**Clip 1 (0 a 8 s), los trucos.** «Ingredients to video» con F1 y F2 como referencias:
+
+```
+Vertical 9:16 video, 8 seconds, warm photorealistic style, handheld but steady. Fast montage of four tiny kitchen moments in Lima homes at 7 a.m., two seconds each: an adult hand grating carrot into cake batter; a soup bowl being pushed toward the camera while an adult hand makes a dinosaur shadow puppet on the wall; a green juice in a glass with a tiny paper superhero mask taped to it; a terracotta lunchbox being closed. No children on screen, no faces of minors, only adult hands. Palette: cocoa brown, kraft, cream, brick red, warm gold. Upbeat, playful, affectionate. The top 30 percent of each frame stays clean for a headline. No readable text, no logos.
+```
+
+**Clip 2 (8 a 15 s), la invitación.** «Ingredients to video» con S1 (el mural) como referencia:
+
+```
+Vertical 9:16 video, 7 seconds, warm photorealistic style. Slow push-in on a kraft-paper mural covered with blank sticky notes in cream, gold and terracotta; an adult hand sticks one more note in the center and the camera settles on it, slightly out of focus, leaving the center of the frame clean for a text card. Warm daylight, calm, celebratory. No readable text, no letters, no logos, no children.
+```
+
+Texto que va encima (en la edición): «¿Cuál es tu truco?» (clip 1) y «Cuéntanoslo con #LoQueNadieVe y etiquétanos. Los 3 más votados abren nuestro mural en Jockey Plaza y ganan un mes de lonchera.» (clip 2). Cierre: logo y «Este diciembre sí los aplaudimos.»
+
+**Cierre del video maestro V0.** Después de F1, un cartón de 2 s con el texto «Cuéntanos el tuyo. #LoQueNadieVe» sobre el último cuadro, antes del logo.
+
 ## 3. Videos de buyer persona (Google Flow, Veo 3.1)
 
 Para la pantalla de Claudia y Rodrigo (`s-personas`). «Un día en su vida» en 8 s, tres momentos. Usa «Ingredients to video» con el fotograma de la persona (F2 o F3, para que sea la misma cara y la misma ropa) y `empaque_mockup.jpg`. El póster es el primer cuadro.

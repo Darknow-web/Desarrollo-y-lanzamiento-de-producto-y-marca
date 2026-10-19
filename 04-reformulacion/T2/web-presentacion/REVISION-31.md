@@ -1,16 +1,16 @@
 # Observaciones de Carlos (19-oct-2026) y estado
 
-Estado: **CERRADO. SEXTA VERIFICACIÓN DEL DIRECTOR, 19-oct-2026, 22:00** (commit `397656a`: pantalla 36 y nota legal del concurso; capturas regeneradas a las 21:49, entre ellas escritorio-36 y escritorio-41; andibite.cingacordova.workers.dev descargado a las 21:51, igual a index.html salvo las etiquetas del build (index-DQc8vZ2o.js, index-DP_drBz9.css); app sin cambios en esta ronda). Resultado: **31 CUMPLIDOS y 0 NO CUMPLIDOS**; las 4 transversales cumplen.
-Quinta verificación (commit `0ef5cf9`): 28 cumplidos y 3 no cumplidos (21, 25 y 29).
-Cuarta verificación (commit `8d9f6d5`): 31 cumplidos y 0 no cumplidos. Tercera (commit `58efd7d`): 29 y 2 (26 y 29), más el hilo.
-Segunda verificación (commit `331f3a6`): 25 cumplidos y 6 no cumplidos. Primera (commit `c7adaf2`): 21 y 10.
-Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como NO CUMPLIDO. Desde la línea 607 de index.html los números suben en 1 por la línea nueva del manifiesto.
+Estado: **ABIERTO. SÉPTIMA VERIFICACIÓN DEL DIRECTOR, 19-oct-2026, 22:40** (commits `e7b0086` y `19d3f81`: capítulo de campaña reordenado, 43 pantallas + 4 anexos; capturas regeneradas, celular 01, 02, 05, 26, 28, 30, 31, 33 y 34; andibite.cingacordova.workers.dev descargado a las 22:25, igual a index.html salvo las etiquetas del build (index-LmbILwZQ.js, index-CZLrwqa7.css); app sin cambios desde `8d9f6d5`, bundle publicado index-BN0oG-Jj.js). Resultado: **27 CUMPLIDOS y 4 NO CUMPLIDOS (23, 25, 26 y 29)**; de las 5 transversales cumplen 2 (T1 y papá y mamá) y fallan 3 (hilo, palabras y frases espejo, cifras).
+Sexta verificación (commit `397656a`): 31 y 0. Quinta (commit `0ef5cf9`): 28 y 3 (21, 25 y 29).
+Cuarta verificación (commit `8d9f6d5`): 31 y 0. Tercera (commit `58efd7d`): 29 y 2 (26 y 29), más el hilo.
+Segunda verificación (commit `331f3a6`): 25 y 6. Primera (commit `c7adaf2`): 21 y 10.
+Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como NO CUMPLIDO. Numeración de pantallas nueva: 27 portada de campaña … 43 cierre; anexos 44 a 47 (index.html:930, :959, :983 y :1001).
 
 1. Entre la 4 y la 5 aparece AndiBite: el divisor dice "Nuestra respuesta: AndiBite" y la 5 explica brevemente qué es.
-   **[CUMPLIDO]** index.html:106 y :113-131. Capturas escritorio-04 y 05 (regeneradas). Hilo completo revisado en las 40 capturas: problema, AndiBite, investigación, producto, app, mercado y campaña, sin saltos.
+   **[CUMPLIDO]** index.html:102-131 sin cambios. Capturas escritorio-04 y 05 regeneradas. Hilo general de las 43 capturas: problema (1-3), AndiBite (4-5), investigación (6-13), producto (14-16), app (17-21), mercado (22-26), campaña (27-41), pruébenla (42) y cierre (43). Los fallos de hilo dentro de la campaña van en la transversal.
 
 2. Pantalla 6: sin repeticiones con la 5; nada contradictorio; fechas por semanas (S1–S4 entrevistas, S5 focus, S6 degustación, S7 cambio a A y B, hoy T2).
-   **[CUMPLIDO]** index.html:141-145. Captura escritorio-06.
+   **[CUMPLIDO]** index.html:141-145 sin cambios. Captura escritorio-06.
 
 3. Pantalla 10: cada hallazgo muestra qué decisión tomamos con él; título coherente.
    **[CUMPLIDO]** index.html:201-206. Captura escritorio-10.
@@ -21,107 +21,106 @@ Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como
 5. Pantalla 13: la razón "horno, moldes y balanza" explica que lo hace la maquila sin invertir en maquinaria.
    **[CUMPLIDO]** index.html:271. Captura escritorio-13.
 
-6. Propuesta de valor y app: el valor de la app es el control del hierro del día (mg frente a lo que necesita por edad), suma del brownie, de la lonchera y de otras comidas, y el resumen para el padre o la madre que no está en casa. App minimalista.
-   **[CUMPLIDO]** "Enviar a papá o mamá" en Inicio y en /hoy (src/parents/Inicio.tsx; Reto.tsx; app-capturas4/06-inicio y 10-hoy) y "Enviar la semana" en ResumenSemana (Reto.tsx:137 y :158). El mensaje ya usa los mismos días que la pantalla: Reto.tsx:137 pasa `hierro.diasConHierro`, src/lib/compartir.ts:17 dice "de 7 días con hierro" y tests/logica.test.ts:120 lo comprueba. En el sitio publicado (bundle index-CSA3rmli.js) la pantalla de fin de semana muestra "5 de 7 días con hierro, 9.5 mg" y el mensaje enviado dice "Semana de Teo: 5 de 7 días con hierro, 9.5 mg en total. Loncheras vacías: 2." (scratchpad/v3/out/51-enviar-la-semana.png). Observación menor: los puntitos de la semana solo muestran L a V, así que un registro del sábado suma al "5 de 7" pero no tiene puntito.
+6. Propuesta de valor y app: control del hierro del día (mg frente a lo que necesita por edad), suma del brownie, de la lonchera y de otras comidas, y resumen para el padre o la madre que no está en casa. App minimalista.
+   **[CUMPLIDO]** App sin cambios desde 8d9f6d5 (bundle publicado index-BN0oG-Jj.js, el mismo de la sexta). app-capturas5/10-hoy: "1.9 de 10 mg", "Volvió vacía", "Otra comida con hierro", "Enviar a papá o mamá". Evidencia de la cuarta y sexta sigue válida (Reto.tsx:137, src/lib/compartir.ts:17, tests/logica.test.ts:120).
 
 7. Pantalla 15 con impacto visual: foto, título grande, poco texto, animación.
    **[CUMPLIDO]** index.html:336-354. Captura escritorio-15.
 
 8. Pantalla 19: capturas con marco y sombra.
-   **[CUMPLIDO]** index.html:407-412 y captura escritorio-19 (marco blanco redondeado con sombra). El contenido de la 4.ª captura se reporta en la transversal de hilo.
+   **[CUMPLIDO]** index.html:403-412. Captura escritorio-19.
 
 9. Toda la presentación y la app hablan a papá y mamá, no solo a la mamá.
-   **[CUMPLIDO]** Presentación: index.html:95, 289, 301, 305, 310, 345, 366, 394, 423, 569 y 685 ("papá y mamá", "papás y mamás"); las "mamás" que quedan son datos (las 8 de la degustación, :172 y :215) o citas (:582-584). App: ninguna "la mamá" suelta (grep en src/). HECHOS_v7.md:14, :15 y :17 y t2-redactor.md:6 ya dicen "papá y mamá". Lo que queda en HECHOS se reporta en la transversal.
+   **[CUMPLIDO]** Textos nuevos: 27 "un papá o una mamá inventa un truco" (:569), 34 "los trucos de mamá y los trucos de papá" (:728), 39 "papá y mamá publican su truco… el adulto gana" (:834), anexo 2 "con papá o mamá" (:970-971). "La mamá" solo en la cita de Vanessa (:584). App sin "la mamá" suelta (grep en src/).
 
 10. Pantalla 21: una sola cifra de recompra explicada; el 30 % de escaneos no aparece ahí.
-   **[CUMPLIDO]** index.html:452: un solo "35 %" con su explicación ("de lo que se vende en stands, ferias y colegios se vuelve a pedir por WhatsApp"); el bucle va sin cifra (:450) y la 20 dice "Más recompra" sin número (:425). Capturas escritorio-20 y 21.
+   **[CUMPLIDO]** index.html:452 sin cambios. La 31 repite el mismo 35 % (:652), no otra cifra.
 
 11. Buyer persona dinámico: marco de video por persona, menos texto, sin "lo escupe", interacción.
-   **[CUMPLIDO]** index.html:473-494 ("lo deja", botón "Su mañana"). Captura escritorio-23.
+   **[CUMPLIDO]** index.html:468-497. Captura escritorio-23.
 
-12. Pantalla 24: ejes y cuadrantes con lenguaje profesional (sin "sabe a gusto", sin "sabe a remedio"); sin la línea de riesgo.
-   **[CUMPLIDO]** src/mapa.ts:1 y :7 ("sabor de suplemento o sabor de postre"; "0 = sabor de suplemento, 1 = sabor de postre"); los cuatro cuadrantes en el mismo orden, "SABOR DE … , CON/SIN HIERRO" (mapa.ts:31-34, también en el bundle publicado); aria-label de index.html:505 "el único con sabor de postre y con hierro". Título "Sabor o hierro: hasta hoy había que elegir." (:503). Captura escritorio-24.
+12. Pantalla 24: ejes y cuadrantes con lenguaje profesional; sin la línea de riesgo.
+   **[CUMPLIDO]** src/mapa.ts:1, :7 y :31-34 sin cambios. Captura escritorio-24.
 
-13. Pantalla 25: sin "cómo lo calculamos"; hogares explicados en una línea; menos texto en general.
+13. Pantalla 25: sin "cómo lo calculamos"; hogares en una línea; menos texto.
    **[CUMPLIDO]** index.html:516-530. Captura escritorio-25.
 
-14. Stands consistentes en toda la presentación: Jockey Plaza enero, Salaverry febrero, La Molina agosto.
-   **[CUMPLIDO]** Presentación: index.html:555, 648, 714, 737 y 743; la tarjeta del concurso (:687) y la etapa de prelanzamiento (:732) dicen "mural de Jockey Plaza", igual que el stand del 2 de enero. App: data/seed.json y scripts/seed.mjs con p1 Jockey Plaza desde 2027-01-02, p2 Real Plaza Salaverry (Jesús María) y p3 La Molina desde 2027-08-01; `GET https://andi-app.cingacordova.workers.dev/api/puntos` devuelve esos tres.
+14. Stands consistentes: Jockey Plaza enero, Salaverry febrero, La Molina agosto.
+   **[CUMPLIDO]** index.html:555, :621-635 (30: "En el stand · desde el 2 de enero"), :648 (mural de Jockey Plaza al 31 de enero), :725, :731, :795 y :861. App: `GET https://andi-app.cingacordova.workers.dev/api/puntos` (22:30) devuelve p1 Jockey Plaza 2027-01-02, p2 Real Plaza Salaverry 2027-02-01 y p3 La Molina 2027-08-01.
 
 15. Campaña potente y emocional ("Lo que nadie ve"), con propósito; sin "su prueba… la tuya…".
-   **[CUMPLIDO]** index.html:562-846 (pantallas 27 a 38). Grep sin "su prueba" ni "la tuya". El concurso refuerza el propósito: la marca aplaude en público los trucos que nadie ve (index.html:606 y :687).
+   **[CUMPLIDO]** index.html:562-888 (pantallas 27 a 41). Grep sin "su prueba" ni "la tuya" (solo en la lista de frases que se evitan, CAMPANA:210).
 
 16. "Contactos en espera" explicado o eliminado.
-   **[CUMPLIDO]** Eliminado (grep sin resultados).
+   **[CUMPLIDO]** En la presentación, eliminado (grep sin resultados; el anexo 1 dice "100 familias en WhatsApp", :948). Queda en HECHOS_v7.md:204: ver transversal de cifras.
 
-17. Concepto de campaña no genérico; conecta emocionalmente con el público.
-   **[CUMPLIDO]** Insight de los trucos con citas reales (index.html:582-586), manifiesto (:600-610) con la línea nueva "Este diciembre sí los aplaudimos." (:606, captura escritorio-29), #LoQueNadieVe, concurso y mural. Capturas escritorio-27 a 29 y 33.
+17. Concepto de campaña no genérico; conecta emocionalmente.
+   **[CUMPLIDO]** Insight (:576-588), manifiesto (:591-613) y dinámica «Cuéntanos tu truco. Funcione o no, cuenta.» (:616-640). Capturas escritorio-27 a 30.
 
 18. Pantalla 5-3-2 eliminada.
-   **[CUMPLIDO]** Grep sin resultados.
+   **[CUMPLIDO]** Grep sin resultados en index.html.
 
-19. Pantalla del stand: la imagen no tapa el título; lo que antes era "recomendación" es parte de la campaña.
-   **[CUMPLIDO]** Captura escritorio-34: el marco de imagen va debajo del título. "Primero lo cuentan ellos" (index.html:679-690) es la pantalla 33 y va antes del stand (34); su cuarta tarjeta es ahora "Concurso #LoQueNadieVe" (S/600; 1 nov a 20 dic; los 3 más votados abren el mural; S/360 de pauta y S/240 en premios, :687). Captura escritorio-33 y, a 390 px, scratchpad/v5/cel-33.png: texto completo, sin cortes.
+19. Pantalla del stand: la imagen no tapa el título; lo que era "recomendación" es parte de la campaña.
+   **[CUMPLIDO]** Stand es ahora la 40 (:840-869); captura escritorio-40: el marco va debajo del título. "Primero lo cuentan ellos" es la 39 (:826-837), antes del stand (captura escritorio-39).
 
 20. Pantalla de etapas: qué hacemos en cada etapa, con detalle.
-   **[CUMPLIDO]** index.html:725-748; viñeta del prelanzamiento con el concurso (:732), S/1,758 sin cambio (:730). Captura escritorio-35 y scratchpad/v5/cel-35.png.
+   **[CUMPLIDO]** Ahora la 34 (:713-736), tres viñetas y meta por etapa; S/1,758 + 5,796 + 9,770 + 7,220 = 24,544. Captura escritorio-34. Observación: en celular (celular-34) style.css:1404 oculta la 2.ª y 3.ª viñeta, así que en el teléfono la etapa pierde el concurso y las metas; ver observaciones.
 
-21. Pantalla de gasto con cifras y título coherente con el hilo de la campaña; títulos encadenados en todo el capítulo.
-   **[CUMPLIDO]** (sexta) index.html:765 "Los anuncios de Claudia, Rodrigo y la familia real, el concurso #LoQueNadieVe y el video maestro", igual en el sitio publicado y en la captura escritorio-36 (21:49); CAMPANA-lo-que-nadie-ve.md:169 dice lo mismo. Ya coincide con la 33 ("Concurso #LoQueNadieVe", :687) y con el Anexo 1 ("Publicidad (anuncios en Meta, concurso y video)", :863). Cifras sin cambio: título "S/24,544 para que toda Lima cuente su truco." (:754), S/0.44, 7,596 / 6,858 / 5,950 / 4,140 y barras 100/90/78/54 % (:763-766). "Expectativa" solo queda como nombre de la pauta ("S/360 de pauta de expectativa", CAMPANA:128; HECHOS_v7.md:183), no como pieza aparte.
+21. Pantalla de gasto con cifras y título coherente; títulos encadenados en el capítulo.
+   **[CUMPLIDO]** 32 "S/24,544 en quince meses para que toda Lima cuente su truco." (:661) y 33 "En qué se va cada sol de la campaña." (:690). Por tipo de medio 7,596 + 6,858 + 5,950 + 4,140 = 24,544; Publicidad 5,950 = 4,050 + 1,000 + 600 + 300; Digital 26 % = 5,950 + 458 = 6,408; Calle 74 % = 18,136. Las 12 partidas de la 33 (:694-705) suman 24,544. Captura escritorio-32 y 33. Títulos: 27 → 28 → 29 → 30 → 31 → 32 → 33 → 34 → 35 → 39 → 40 → 41 encadenan con "truco"; la 31 "Cinco metas con fecha." es la redacción decidida por Carlos (HECHOS_v7.md:23).
+
 22. Sin textos pequeños sueltos que no transmiten nada.
-   **[CUMPLIDO]** Pantalla 23 sin el pie de 12 px (index.html:468-497; captura escritorio-23). Pantalla 36 sin S/24,544 repetido (captura escritorio-36). Solo queda el .src permitido de la pantalla 3 (:97).
+   **[CUMPLIDO]** Pantallas nuevas 30-33 sin pies sueltos (capturas escritorio-30 a 33). Solo el .src permitido de la pantalla 3 (:97).
 
-23. Imágenes en lugares estratégicos en la mayoría de pantallas, no solo números y texto.
-   **[CUMPLIDO]** 21 de 40 pantallas tienen foto, captura o marco de imagen o video: 1, 3, 5, 8, 11, 12, 15, 16, 18, 19, 20, 23, 25, 27, 29, 30, 31, 32, 34, 38 y 40. Nuevas: 12 (index.html:232), 16 (empaque_mockup.jpg, :362), 20 (app_mapa.jpg, :422) y 38 (marco "FOTO del equipo", :802). Capturas escritorio-12, 16, 20 y 38. Observación: la foto de la 12 (degustacion_3.jpg) es la misma que sale en la tira de la 11; si hay otra foto de la degustación, conviene cambiarla.
+23. Imágenes en lugares estratégicos en la mayoría de pantallas.
+   **[NO CUMPLIDO]** Con 43 pantallas, solo 21 tienen foto, captura o marco de imagen o video: 1, 3, 5, 8, 11, 12, 15, 16, 18, 19, 20, 23, 25, 27, 29, 36, 37, 38, 40, 41 y 43 (grep de `<img`/`data-media` por sección). 21 de 43 es el 49 %, no la mayoría (antes 21 de 40). Las cuatro pantallas nuevas (30 a 33) son solo texto, íconos o tablas. · Falta: imagen o marco de imagen en al menos una pantalla más (22 de 43). Lo más natural: en la 30 (La dinámica, :616-640) un marco `data-media` del mural con trucos o del video de 10 s, o en la 39 (:826-837) un marco de los posts de influencers.
 
 24. Agente de diseño revisó las capturas de las dos apps.
-   **[CUMPLIDO]** .claude/agents/t2-disenador.md. Observación: dejó pasar la 4.ª captura de la pantalla 19 (ver hilo).
+   **[CUMPLIDO]** .claude/agents/t2-disenador.md; su pasada sobre el capítulo está en style.css:1408-1421 ("Diseñador: capítulo de campaña"). Observación: no detectó que la cuenta de imágenes bajó del 50 % (punto 23).
 
 25. Agente creativo de campaña desarrolló la campaña.
-   **[CUMPLIDO]** (sexta) (a) CAMPANA:42 "Manifiesto (9 líneas…)" y el manifiesto tiene 9 líneas (:44-52). (b) CAMPANA:137 "ganan los más votados, sin azar. Adela confirma con la ONAGI (Ministerio del Interior; D. S. 006-2000-IN, reglamento de promociones comerciales) antes del 1 de noviembre si el concurso necesita autorización, y publica las bases."; HECHOS_v7.md:22 dice lo mismo. Ya no afirma que no requiere autorización. Grep en todo el repositorio (sin node_modules ni .git): "MINCETUR" e "ITINCI" solo aparecen en este archivo, en el historial de la revisión. Lo demás del concurso sigue igual que en la quinta: t2-creativo.md:10, CAMPANA 8b (:130-138) y PROMPTS R1 y R2.
+   **[NO CUMPLIDO]** CAMPANA sección 12 (:213-228) tiene el orden nuevo, las 12 partidas y los S/4,050 + S/1,000; CAMPANA:169 y :206 cuadran. Pero CAMPANA:222 dice "400,000 personas ven los videos en 2027" y cita el documento 17 (CPM S/12.69), que calcula **impresiones** (md/T2_17_Presupuesto.md:127: 5,050 ÷ 12.691 × 1,000 = 397,920), no personas; la pantalla 31 dice "vistas" (:650). · Falta: en CAMPANA:222 cambiar "400,000 personas ven los videos en 2027" por "400,000 vistas de los videos en 2027".
+
 26. Agente redactor aplicó la revisión de redacción a todo.
-   **[CUMPLIDO]** (a) app src/parents/Bienvenida.tsx:129 "Acepto que la app guarde el hierro de cada día, la despensa y los recordatorios en este teléfono (Ley 29733)…". (b) src/parents/Mas.tsx:97 "el hierro de cada día y las loncheras vacías, sus estrellas…". Los dos textos están en el bundle publicado (index-BN0oG-Jj.js) y "el reto" no aparece en él (0 coincidencias) ni en texto visible de src/ (solo en un comentario de src/kids/progreso.ts:9). (c) index.html:398 alt "Pantalla de inicio con el hierro de hoy" (app_reto.jpg, ahora solo en la 18). (d) index.html:409 alt "Pantalla del hierro del día y de la semana". index.html:408 alt "Pantalla para sumar otra comida con hierro". Los alt publicados son idénticos a los de index.html. Ronda 2 ya cerrada: CAMPANA:37, :48 y :50 iguales a index.html; Canvas :308. Observación menor, sin estado: el título "Semáforo de hierro" sigue en la app (src/parents/Hierro.tsx:23 y :38; Reto.tsx:155); no lo pidió ningún punto, pero si se quiere un solo nombre, sería "El hierro de la semana".
+   **[NO CUMPLIDO]** La app y los alt siguen como en la sexta. Pero la 30 cierra con "Nadie aplaude esos trucos. Nosotros sí." (index.html:638, captura escritorio-30 y celular-30): es una frase de dos partes en eco, que CAMPANA:210 y t2-redactor.md ("Frases espejo… X. Y. repetido como eco") prohíben, y repite casi palabra por palabra la línea del manifiesto de la pantalla anterior (:605 "Nadie aplaude esos trucos, porque nadie los ve." y :606 "Este diciembre sí los aplaudimos."). · Falta: reemplazar index.html:638 por una línea que lleve a la 31 sin eco, por ejemplo "Cada truco que nos cuentas suma: queremos 300 al 31 de enero."
 
 27. Director verificó todos los puntos.
-   **[CUMPLIDO]** Seis verificaciones con evidencia por punto: commits c7adaf2, 331f3a6, 58efd7d, 8d9f6d5, 0ef5cf9 y 397656a (esta).
+   **[CUMPLIDO]** Siete verificaciones con evidencia por punto: c7adaf2, 331f3a6, 58efd7d, 8d9f6d5, 0ef5cf9, 397656a y 19d3f81 (esta).
+
 28. Logo AndiBite pequeño en todas las pantallas.
-   **[CUMPLIDO, con excepción aceptada]** Está en 38 de 40 pantallas principales y en los 4 anexos (index.html:17). En la portada (1) y el cierre (40) el logo pequeño se oculta (style.css:1273) porque el logo grande ocupa el centro de la pantalla (index.html:60 y :842; capturas escritorio-01 y 40, celular-01). Poner los dos sería repetir la marca. Se acepta la excepción.
+   **[CUMPLIDO, con excepción aceptada]** Visible en las pantallas nuevas 30 a 35 y 39 (capturas) y en los 4 anexos (escritorio-44 a 47). Portada (1) y cierre (43) con el logo grande (escritorio-01 y 43), excepción ya aceptada.
 
 29. Ciclo de revisión (/loop) hasta cumplir todo.
-   **[CUMPLIDO]** Ronda 1: 10 pendientes; ronda 2: 6; ronda 3: 2; ronda 4: 0; ronda 5 (concurso): 3; ronda 6 (esta): 0. El commit 397656a solo cambia una línea de index.html (:765, sin mover las líneas), dos de CAMPANA, una de HECHOS y las capturas, así que no reabre ningún otro punto.
-30. App: control de hierro del día mejorado (ver 6).
-   **[CUMPLIDO]** Anillo de mg frente a la referencia por edad, "Volvió vacía" y "Otra comida", /hoy con pestaña Inicio activa, envío del día y de la semana con las mismas cifras de la pantalla (app-capturas4/06, 08, 09 y 10; scratchpad/v3/out/50 y 51). Ver el 6.
+   **[NO CUMPLIDO]** Ronda 7 (esta) reabre 23, 25 y 26 y tres transversales. · Falta: aplicar las correcciones de los puntos 23, 25 y 26 y de las transversales, regenerar capturas y pasar la octava verificación.
 
-31. Juegos con niveles y duración (30 a 60 min de contenido), tres juegos de colegio por edad.
-   **[CUMPLIDO]** src/data/ninos.ts:61, src/kids/colegio.ts y src/data/juegos-colegio.ts; capturas app-capturas4/16 a 23 (mapa centrado con los 7 juegos y su nivel, cada juego jugando, Viste a Andi con 6 trajes bloqueados por estrellas o nivel).
+30. App: control de hierro del día mejorado (ver 6).
+   **[CUMPLIDO]** Sin cambios; app-capturas5/06, 08, 09 y 10.
+
+31. Juegos con niveles y duración, tres juegos de colegio por edad.
+   **[CUMPLIDO]** Sin cambios; src/data/ninos.ts:61, src/kids/colegio.ts, src/data/juegos-colegio.ts; app-capturas5/16 a 23.
 
 ## Revisión transversal
 
-- **T1 · Canvas, pantalla 14.** **[CUMPLIDO]** Captura escritorio-14 regenerada: las 9 cajas con todos sus puntos, sin cortes (style.css:1302).
-- **Coherencia del hilo.** **[CUMPLIDO]** 18 → 19 sin repetir (escritorio-18 y 19, igual que en la cuarta). Campaña: 29 anuncia "Este diciembre sí los aplaudimos." (:606), 30-32 son los anuncios de 2027, 33 explica el concurso (:687), 34 es el stand donde los 3 trucos ganadores abren el mural el 2 de enero, 35 lo pone en el prelanzamiento (:732), 37 tiene la fila "Influencers y concurso #LoQueNadieVe" de noviembre a enero (:782, `--s:2;--e:4`; enero porque los influencers publican hasta el 10 de enero y los ganadores se anuncian el 2), y HECHOS_v7.md:22 y :183 y CAMPANA 8b dicen lo mismo (1 nov a 20 dic, votos al 31 dic, S/360 + S/240 dentro de los S/600, total S/24,544 y prelanzamiento S/1,758 sin cambio). La 36 ya llama "concurso #LoQueNadieVe" a lo mismo que la 33, la 35, la 37 y el Anexo 1 (sexta verificación). La línea "Nadie aplaude… / Este diciembre sí los aplaudimos." es un eco deliberado y decidido por Carlos (HECHOS_v7.md:22); se acepta.
-- **Papá y mamá.** **[CUMPLIDO]** Concurso: "papá y mamá publican su truco… el adulto gana" (index.html:687), "papá o mamá publica" (HECHOS_v7.md:22; CAMPANA:133), premio siempre para el adulto (CAMPANA:134; t2-redactor.md:26). PROMPTS R2 (:165): manos de una mamá en el cuadro A y de un papá en el B. "La mamá" solo en la cita de Vanessa (index.html:584; CAMPANA:35). App sin "la mamá" suelta (grep en src/ y en el bundle publicado).
-- **Palabras prohibidas.** **[CUMPLIDO]** Grep en index.html, src/, CAMPANA, PROMPTS, el HTML publicado y el bundle de la app: sin "sorteo", "rifa", "supuesto" (solo dentro de "presupuesto"), "estimado", "[POR CONFIRMAR]", "EXPOINNOVA", "Hierro medido. Sabor a brownie." ni "su prueba… la tuya…" (esta solo en la lista de frases que se evitan, CAMPANA:210). "Azar" aparece solo en la nota legal que explica que no es una promoción por azar (CAMPANA:137; HECHOS_v7.md:22). Sexta: lo mismo en el sitio publicado (21:51); tampoco quedan "MINCETUR" ni "ITINCI".
+- **T1 · Canvas, pantalla 14.** **[CUMPLIDO]** Captura escritorio-14 regenerada, 9 cajas sin cortes.
+- **Coherencia del hilo.** **[NO CUMPLIDO]** El orden 27 → 43 es el decidido (HECHOS_v7.md:23) y cada bloque sigue al anterior, pero con la pantalla 30 nueva quedan tres repeticiones:
+  (a) 29 → 30: "Nadie aplaude esos trucos…" se dice en :605 y otra vez en :638 (ver punto 26).
+  (b) 30 → 40: el stand repite los mismos tres pasos. :633 "Tu hijo prueba el mini brownie contigo al lado" = :849 "Tu hijo prueba el mini brownie contigo al lado."; :634 "Te llevas tu pack… tu truco se queda en el mural" ≈ :850 (capturas escritorio-30 y 40). · Falta: quitar la lista `<ol class="pasos">` de la 40 (:847-851) o cambiarla por lo que solo pasa en el stand (permiso firmado para el video, post-it sin nombre del niño, QR de WhatsApp en la bolsa).
+  (c) 30 → 39: la tarjeta del concurso (:834) repite :626 ("Los 3 trucos más votados abren el mural de Jockey Plaza y … gana un mes de lonchera"). · Falta: dejar en :834 solo lo que la 30 no dice: "Del 1 de noviembre al 20 de diciembre. S/360 de pauta y S/240 en premios: un mes de lonchera para cada adulto ganador."
+- **Papá y mamá.** **[CUMPLIDO]** Ver punto 9. Concurso y embajadores con premio para el adulto (:626, :833, :834).
+- **Palabras prohibidas y frases espejo.** **[NO CUMPLIDO]** Grep en index.html, src/ de la presentación y de la app, CAMPANA, PROMPTS y el HTML publicado: sin "SMART" en pantalla (solo en CAMPANA:219, "sin decir «SMART»"), "sorteo", "rifa", "supuesto" (solo dentro de "presupuesto", :930-932), "estimado", "[POR CONFIRMAR]", "EXPOINNOVA" ni el slogan viejo; "azar" solo dentro de "disfrazarlo" (:586) y en la nota legal (CAMPANA:137). Falla por la frase espejo de index.html:638 (ver punto 26).
+- **Cifras (31 ↔ 32 ↔ 33 ↔ 34 ↔ 35 ↔ 36-38 ↔ anexos ↔ CAMPANA ↔ HECHOS).** **[NO CUMPLIDO]** Cuadran en la presentación: 12 partidas = 24,544 (:694-705); 4,050 + 1,000 = 5,050 = 1,605 + 1,605 + 1,840 (:775, :796, :817); 613 = 195 + 195 + 223 (:650, :776, :797, :818, :976); etapas = 24,544 y brownies 3,700 + 20,320 + 28,311 = 52,331 (:717-733, :948-951); Gantt "Anuncios en Meta y YouTube" de enero a diciembre (:750); anexo 1 24 / 17 / 31 / 28 % (:938-941); anexo 3: 42,618 − 24,544 = 18,074 → 74 %, 24,544 ÷ 56,824 = 43 %, 10,379 ÷ 25,000 = 42 % (:990-992). Fallan cuatro cosas:
+  (a) HECHOS_v7.md:176 sigue diciendo "Pauta en Meta por mes… (S/5,050 en el año)", contra la decisión de HECHOS_v7.md:24. · Falta: "Pauta por mes, enero a diciembre: … (S/5,050 en el año: S/4,050 en Instagram y Facebook y S/1,000 en YouTube)".
+  (b) HECHOS_v7.md:204, fase Prelanzamiento, "100 contactos en espera". · Falta: "100 familias en WhatsApp" (como el anexo 1, :948).
+  (c) HECHOS_v7.md:23 dice "400,000 personas ven los videos" y la pantalla 31 dice "vistas"; son impresiones (documento 17, :127). · Falta: "400,000 vistas de los videos" en HECHOS_v7.md:23 (y CAMPANA:222, punto 25).
+  (d) Anexo 2, index.html:973: "Costo por contacto en Meta · S/5 o menos · Más de S/8 por 2 meses: cambiar anuncio". Con la misma tabla, S/5,050 ÷ 613 conversaciones = S/8.24 (documento 17, :131: S/8.23), o sea que el plan arranca por encima de la alerta, y "en Meta" ya no incluye YouTube. · Falta: renombrar a "Costo por conversación desde anuncios (Meta y YouTube)" y mostrar la base del plan, por ejemplo "S/8.23 en el plan (S/5,050 ÷ 613); buscamos S/5", con el umbral de alerta que decida Carlos (el documento 17, :269, propone pasar S/150 al mes a degustación si a fin de febrero sigue sobre S/8).
 
-## Observaciones sin estado (quinta verificación)
+## Observaciones sin estado (séptima verificación)
 
-- Gantt en celular (scratchpad/v5/cel-37.png, 390 px): las etiquetas de los meses se montan ("OCTNOVDIC", "AGOSEP OC") y la barra de Navidad y la columna Responsable quedan fuera de la pantalla. No es nuevo y ningún punto lo pide, pero conviene dar a la 37 desplazamiento horizontal en celular y añadir 33, 35 y 37 a la lista de capturas de celular de scripts/capturas.mjs:63.
-- Los S/240 en premios quedan en "Publicidad" (Anexo 1, :863), mientras que el premio de los embajadores está en "Promociones". Las cifras se dejaron así a propósito (decisión del 19-oct); si la profesora pregunta, un concurso con premio es promoción de ventas.
-- HECHOS_v7.md:183 pone los S/600 en diciembre aunque el concurso empieza el 1 de noviembre; no cambia ningún total.
-
-## Cambios del diseñador en la cuarta ronda (no reabren ningún punto)
-
-- Encabezado de la app opaco: src/styles/padres.css:20 (`background: var(--crema)` y línea inferior), publicado en index-WZZZvqJp.css; captura app-capturas5/42-plan-recetario (las tarjetas ya no se ven a través del título).
-- Pistas de los juegos en pastillas: src/styles/ninos.css:91 y :232 (`.pista-tramo` con fondo crema y bordes redondos), publicado; capturas app-capturas5/17-atrapa y 21-sumas. Textos legibles, nada cortado.
-
-## Cierre de la cuarta ronda (19-oct-2026, 21:05)
-
-Los 31 puntos y las 4 transversales cumplían en el commit 8d9f6d5. La quinta verificación (arriba) reabre 21, 25 y 29 por el concurso.
-
+- Celular: style.css:1404 oculta la 2.ª y 3.ª viñeta de cada etapa (celular-34) y en la 32 y la 33 se ocultan las descripciones por medio y la columna "Cuándo" (celular-33). En proyector no afecta; si la profesora abre el enlace en el teléfono, la 34 pierde el concurso y las metas. La 35 (Gantt) y la 39 siguen fuera de las capturas de celular (scripts/capturas.mjs:63).
+- La 32 dice "En la calle · 74 %: Stands, ferias…", pero el alquiler de los stands (S/600 al mes por punto) no está en los S/24,544; si preguntan, "stands" aquí es la degustación y el material del stand.
+- La 33 pone los S/600 del concurso en "Noviembre y diciembre de 2026" y HECHOS_v7.md:183 los pone en diciembre; no cambia ningún total (ya anotado en la quinta).
+- La 39 ("Primero lo cuentan ellos", Nov-Ene) va después de los anuncios de 2027 (36-38); es el orden decidido (HECHOS_v7.md:23) y el título se lee como "primero en el tiempo", no en la presentación.
 
 ## Cierre de la sexta ronda (19-oct-2026, 22:00)
 
-1. Los 31 puntos y las 4 transversales cumplen en el commit 397656a; la revisión queda cerrada.
-2. El concurso #LoQueNadieVe (1 nov a 20 dic de 2026) tiene el mismo nombre en las pantallas 33, 35, 36 y 37 (la 29 lo anuncia: "Este diciembre sí los aplaudimos."), en el Anexo 1, en CAMPANA y en HECHOS.
-3. Sus cifras no cambian el plan: S/360 de pauta y S/240 en premios dentro de los S/600, total S/24,544 y prelanzamiento S/1,758.
-4. Ganan los 3 trucos más votados, sin azar; el premio es para el adulto (abrir el mural de Jockey Plaza el 2 de enero y un mes de lonchera).
-5. Pendiente fuera de la revisión: Adela confirma con la ONAGI (D. S. 006-2000-IN) antes del 1 de noviembre si hace falta autorización, y publica las bases.
+Los 31 puntos y las 4 transversales cumplían en el commit 397656a. La séptima verificación (arriba, commit 19d3f81) reabre 23, 25, 26 y 29 por el capítulo de campaña reordenado.

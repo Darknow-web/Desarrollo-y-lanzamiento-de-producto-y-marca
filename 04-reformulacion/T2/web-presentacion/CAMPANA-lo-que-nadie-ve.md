@@ -219,10 +219,10 @@ La app es la parte de la idea que «muestra lo que nadie ve». Se ajustan tres t
 4. **Metas con fecha** (cada una con número, cómo se mide y fecha; sin decir «SMART»):
    - 300 trucos contados al 31 de enero de 2027: 150 con #LoQueNadieVe y 150 en el mural de Jockey Plaza.
    - 100 familias en WhatsApp antes del 2 de enero y 500 seguidores al 31 de diciembre de 2026.
-   - 400,000 personas ven los videos en 2027; 4,100 hacen clic en «Pruébalo» o «Pídelo» y 613 escriben por WhatsApp (195 + 195 + 223). Salen del cálculo del documento 17: CPM S/12.69, CPC S/1.235, 15 % de clic a contacto.
+   - 400,000 vistas de los videos en 2027; 4,100 hacen clic en «Pruébalo» o «Pídelo» y 613 escriben por WhatsApp (195 + 195 + 223). Salen del cálculo del documento 17: CPM S/12.69, CPC S/1.235, 15 % de clic a contacto.
    - 3,700 brownies en enero y febrero y 52,331 en 2027 (S/244,728).
    - 35 % de recompra por WhatsApp y 2,300 familias con permiso al 31 de diciembre de 2027.
 5. **La campaña en una pantalla:** S/24,544, quince meses (octubre de 2026 a diciembre de 2027), concepto, 74 % en la calle y 26 % digital, y el gasto por tipo de medio.
 6. **Cuánto cuesta cada cosa:** las doce partidas (anuncios en Instagram y Facebook 4,050; YouTube 1,000; expectativa y premios 600; video maestro 300; influencers 458; 600 muestras 1,146; degustaciones 1,750; mural, cartel, hablador y material 2,300; embajadores 2,400; vendedores 4,140; stand en 2 ferias 3,600; aporte a 40 eventos 2,800).
 7. Las cuatro etapas y el Gantt.
-8. **Los materiales:** los tres anuncios (publicidad en Instagram, Facebook y YouTube Shorts), «Primero lo cuentan ellos» (influencers, pediatras, embajadores y el concurso) y el stand (BTL) con el mural.
+8. **Los materiales:** primero los videos de la marca («Primero hablamos nosotros»: convocatoria del concurso desde el 1 de noviembre con S/360 de pauta; video maestro del 30 de noviembre que cierra con «Cuéntanos el tuyo. #LoQueNadieVe»; historias de diciembre sin costo y presentación de los ganadores el 2 de enero), después los tres anuncios (publicidad en Instagram, Facebook y YouTube Shorts), «Primero lo cuentan ellos» (influencers, pediatras, embajadores y el concurso) y el stand (BTL) con el mural.
