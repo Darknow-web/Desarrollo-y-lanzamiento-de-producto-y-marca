@@ -29,7 +29,7 @@ pres.title = 'AndiBite — T2 Plan de marketing';
 const C = pres.SchemeColor;
 
 // ---------- íconos ----------
-async function icon(name, hex, size = 256) {
+async function icon(name, hex, size = 96) {
   const Comp = fa[name];
   if (!Comp) throw new Error('icono no existe: ' + name);
   let svg = RDS.renderToStaticMarkup(React.createElement(Comp, { color: '#' + hex, size }));

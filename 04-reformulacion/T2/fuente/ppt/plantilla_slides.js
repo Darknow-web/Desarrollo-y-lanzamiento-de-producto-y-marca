@@ -8,7 +8,7 @@
   s.addText('y lanzamiento · T2 · [subtítulo del tema]', { placeholder: 'body' });
   T(s, 'Grupo 2 · Diana Ayoso · Carlos Inga · Angie Blas · Patricia Cárdenas · Adela Robles', { x: 0.8, y: 5.75, w: 7.6, h: 0.35, fontSize: 14, color: C.background2 });
   T(s, 'Desarrollo y lanzamiento de nuevos productos · Prof. Paola Cevallos · Octubre de 2026', { x: 0.8, y: 6.15, w: 7.6, h: 0.35, fontSize: 12, color: C.accent5 });
-  s.addImage({ path: 'img/B1_frente.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: 4 });
+  s.addImage({ path: 'img/B1_frente_s.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: 4 });
   s.addNotes('PLANTILLA · Portada. Cambiar el subtítulo. No mover el logo ni el empaque.');
 
   s = await section('Análisis situacional', '01', 'Análisis situacional', 'PESTEL · Qué le importa al cliente · Benchmark · FODA', 'FaSearch');
@@ -58,7 +58,7 @@
   T(s, 'SLOGAN', { x: 0.8, y: 0.9, w: 7.4, h: 0.35, fontSize: 13, bold: true, color: C.accent3, charSpacing: 2 });
   s.addText('Hierro medido. Sabor a brownie.', { placeholder: 'title' });
   T(s, 'Frase de cierre o llamado a la acción', { x: 0.8, y: 3.4, w: 7.4, h: 0.5, fontSize: 24, bold: true, color: C.accent5 });
-  s.addImage({ path: 'img/B1_frente.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: -3 });
+  s.addImage({ path: 'img/B1_frente_s.jpg', x: 8.75, y: 0.6, w: 4.4, h: 6.12, rotate: -3 });
   s.addNotes('PLANTILLA · Cierre con el slogan.');
 
   await pres.writeFile({ fileName: OUT });

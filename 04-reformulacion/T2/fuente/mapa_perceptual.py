@@ -152,8 +152,8 @@ def dibujar():
              ha="center", va="center", fontsize=9, color=TEXTO, linespacing=1.3)
 
     SALIDA.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(SALIDA, format="jpg", dpi=100, facecolor=CREMA,
-                pil_kwargs={"quality": 80, "optimize": True})
+    fig.savefig(SALIDA, format="jpg", dpi=90, facecolor=CREMA,
+                pil_kwargs={"quality": 62, "optimize": True})  # liviano para subir al Drive
     plt.close(fig)
     print(f"Guardado: {SALIDA} (fuente: {FUENTE})")
 
