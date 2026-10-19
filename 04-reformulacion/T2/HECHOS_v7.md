@@ -57,7 +57,7 @@ Documento 09; prototipo funcional en `app-andi-mision-hierro/`. Es una app web i
 - **Evidencia:**
   - 10 entrevistas y el focus 1 con mamás de Lima Norte, NSE C/B. De ahí salió el cambio de público: el precio no les alcanzaba (S/3 a 5 por porción).
   - Hallazgos: la sangrecita se acepta escondida en algo dulce; sin la prueba del niño no hay compra; nadie dice "anemia" (se habla de hierro y energía).
-  - Degustación del prototipo (focus 2) hecha con el empaque impreso: las madres no percibieron el sabor ni el olor de la sangrecita y dijeron, de forma unánime, que comprarían la bolsa de 6 a S/10.00 (lámina del Canva del grupo; fotos en `T2/img/evidencia/`). [POR CONFIRMAR: cuántas participaron, fecha, lugar y NSE]. Ese precio no cubre ni el costo (S/1.64 por brownie, S/9.84 la bolsa): es una razón más del cambio al segmento A/B, donde el precio (S/26.90 a S/27.90) se valida con la encuesta de 30 padres (documento 07, 2.7). Nunca presentar S/10.00 como precio del plan.
+  - Degustación del prototipo (focus 2) hecha con el empaque impreso: las madres no percibieron el sabor ni el olor de la sangrecita y dijeron, de forma unánime, que comprarían la bolsa de 6 a S/10.00 (lámina del Canva del grupo; fotos en `T2/img/evidencia/`). Participaron 4 madres (fotos). [POR CONFIRMAR: fecha, lugar y NSE]. Ese precio no cubre ni el costo (S/1.64 por brownie, S/9.84 la bolsa): es una razón más del cambio al segmento A/B, donde el precio (S/26.90 a S/27.90) se valida con la encuesta de 30 padres (documento 07, 2.7). Nunca presentar S/10.00 como precio del plan.
 - **Datos:**
   - Anemia en niños de 6 a 35 meses de Lima: 24.0 % (ENDES 2024).
   - Escolares atendidos por el MINSA: 22.5 %.
