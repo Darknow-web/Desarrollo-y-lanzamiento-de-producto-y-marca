@@ -20,6 +20,9 @@ import Atrapa from './kids/Atrapa';
 import LoncheraExpres from './kids/LoncheraExpres';
 import Memoria from './kids/Memoria';
 import Vestir from './kids/Vestir';
+import SumaHierro from './kids/SumaHierro';
+import Palabras from './kids/Palabras';
+import Ingles from './kids/Ingles';
 import { Avisos } from './components/ui';
 import { revisarAvisos } from './lib/avisos';
 
@@ -50,6 +53,9 @@ export default function App() {
             <Route path="lonchera" element={<LoncheraExpres />} />
             <Route path="memoria" element={<Memoria />} />
             <Route path="vestir" element={<Vestir />} />
+            <Route path="sumas" element={<SumaHierro />} />
+            <Route path="palabras" element={<Palabras />} />
+            <Route path="ingles" element={<Ingles />} />
           </Route>
           <Route path="/admin" element={<Suspense fallback={null}><Admin /></Suspense>} />
           <Route element={<Layout />}>

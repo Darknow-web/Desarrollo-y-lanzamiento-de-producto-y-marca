@@ -62,7 +62,7 @@ function problemaLinea(op: '+' | '-' | '×' | '÷', a: number, b: number, f: Fic
   const q = uno(NOMBRES);
   if (op === '+') return uno([
     `${q} tiene ${plural(a, f)} y le dan ${b} más. ¿Cuántas tiene ahora?`,
-    `En la lonchera hay ${plural(a, f)} y mamá pone ${b} más. ¿Cuántas hay?`,
+    `En la lonchera hay ${plural(a, f)} y papá o mamá pone ${b} más. ¿Cuántas hay?`,
   ]);
   if (op === '-') return uno([
     `${q} tiene ${plural(a, f)} y come ${b}. ¿Cuántas le quedan?`,
@@ -200,7 +200,7 @@ export type RondaPalabra = RondaLetra | RondaSilabas | RondaFrase;
 export function generarLetra(nivel: number, evitar: string[] = []): RondaLetra {
   const palabra = uno(palabrasDeNivel(nivel).filter(p => !evitar.includes(p.palabra))) || uno(PALABRAS);
   const letras = palabra.palabra.split('');
-  const candidatos = letras.map((c, i) => i).filter(i => (nivel <= 10 ? esVocal(letras[i]) : true));
+  const candidatos = letras.map((_, i) => i).filter(i => (nivel <= 10 ? esVocal(letras[i]) : true));
   const indice = uno(candidatos.length ? candidatos : letras.map((_, i) => i));
   const respuesta = letras[indice];
   const pool = (esVocal(respuesta) ? VOCALES : CONSONANTES).filter(c => c !== respuesta && c !== respuesta.normalize('NFD')[0]);

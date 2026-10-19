@@ -82,7 +82,10 @@ function guardarNiveles(ninoId: string, v: Niveles) {
   try { localStorage.setItem(CLAVE_NIVELES(ninoId), JSON.stringify(v)); } catch { /* sin almacenamiento */ }
   oyentesNiveles.forEach(o => o());
 }
-const entrada = (ninoId: string, juego: string): NivelJuego => ({ nivel: 1, superados: [], ...(nivelesDe(ninoId)[juego] || {}) });
+const entrada = (ninoId: string, juego: string): NivelJuego => {
+  const e = nivelesDe(ninoId)[juego];
+  return e ? { nivel: e.nivel || 1, mejor: e.mejor, superados: e.superados || [] } : { nivel: 1, superados: [] };
+};
 
 /** Nivel actual (desde 1) de un juego para el niño de la sesión. */
 export const nivelDe = (juego: string, ninoId: string = ninoSesion()) => entrada(ninoId, juego).nivel;

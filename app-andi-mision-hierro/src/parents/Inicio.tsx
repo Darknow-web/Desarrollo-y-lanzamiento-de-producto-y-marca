@@ -8,7 +8,7 @@ import { aviso } from '../components/ui';
 import { Cascada, Item } from '../components/movimiento';
 import SelectorNino from './SelectorNino';
 import { Celebracion, HojaComida, PuntosSemana, ResumenSemana, esFinDeSemana } from './Reto';
-import { desmarcarLoncheraDelPlan, loncheraDelPlan, marcarVacia, mgDeLoncheraVacia, ninoActivo, obtener, registrarLoncheraDelPlan, useEstado, useHierroDelDia, useProgreso, useRacha } from '../lib/estado';
+import { desmarcarLoncheraDelPlan, marcarVacia, mgDeLoncheraVacia, ninoActivo, obtener, registrarLoncheraDelPlan, useEstado, useHierroDelDia, useLoncheraDelPlan, useProgreso, useRacha } from '../lib/estado';
 import { hoyISO, relativa, sumarDias } from '../lib/fechas';
 import { diasHastaAcabar } from '../lib/hierro';
 import type { Nino } from '../lib/tipos';
@@ -68,7 +68,7 @@ function HeroHoy({ nino }: { nino: Nino }) {
   const semana = useRacha(nino.id, hoy);
   const hierro = useHierroDelDia(nino.id, hoy);
   const vacia = useEstado(e => Boolean(e.reto[nino.id]?.[hoy]));
-  const lonchera = useEstado(e => loncheraDelPlan(e, nino.id, hoy));
+  const lonchera = useLoncheraDelPlan(nino.id, hoy);
   const [celebrando, setCelebrando] = useState<number | undefined>();
   const [hoja, setHoja] = useState(false);
   if (esFinDeSemana(hoy)) return <ResumenSemana nino={nino} />;
@@ -96,7 +96,7 @@ function HeroHoy({ nino }: { nino: Nino }) {
       <h2 id="hoy-titulo" className="hoy-titulo" aria-live="polite">{completo ? 'Hoy ya llegó a lo que necesita' : `Le faltan ${hierro.faltan} mg para hoy`}</h2>
       <div className="acciones-hoy" role="group" aria-label="Sumar hierro a hoy">
         <motion.button type="button" className={`accion-hoy ${vacia ? 'hecha' : 'principal'}`} onClick={alternarVacia} aria-pressed={vacia} whileTap={{ scale: 0.96 }}>
-          <Icono n={vacia ? 'check' : 'lonchera'} tam={22} grosor={vacia ? 3 : 2} /><span>{vacia ? 'Volvió vacía' : 'Hoy volvió vacía'}</span>
+          <Icono n={vacia ? 'check' : 'lonchera'} tam={22} grosor={vacia ? 3 : 2} /><span>{vacia ? 'Volvió vacía' : 'Volvió vacía hoy'}</span>
         </motion.button>
         <motion.button type="button" className={`accion-hoy ${lonchera?.dia.hecho ? 'hecha' : ''}`} onClick={alternarPlan} disabled={!lonchera} aria-pressed={!!lonchera?.dia.hecho} whileTap={{ scale: 0.96 }}>
           <Icono n={lonchera?.dia.hecho ? 'check' : 'sumar'} tam={22} grosor={lonchera?.dia.hecho ? 3 : 2} /><span>Lonchera del plan</span>
@@ -116,7 +116,7 @@ export default function Inicio() {
   const nino = useEstado(ninoActivo);
   const ninos = useEstado(e => e.ninos.length);
   const despensa = useEstado(e => e.despensa);
-  const planVigente = useEstado(e => (nino ? loncheraDelPlan(e, nino.id, hoyISO())?.plan ?? null : null));
+  const planVigente = useLoncheraDelPlan(nino?.id || '', hoyISO())?.plan ?? null;
   const progreso = useProgreso(nino?.id || '');
 
   const hoy = hoyISO();

@@ -149,6 +149,11 @@ export function loncheraDelPlan(e: Estado, ninoId: string, fecha = hoyISO()) {
   const i = semanaDe(p.semana).indexOf(fecha);
   return i >= 0 && i < p.dias.length ? { plan: p, dia: p.dias[i], indice: i } : null;
 }
+/** La lonchera del plan de ese día, estable entre renders (solo cambia cuando cambia el plan). */
+export function useLoncheraDelPlan(ninoId: string, fecha = hoyISO()) {
+  const plan = useEstado(e => e.loncheras);
+  return useMemo(() => loncheraDelPlan({ loncheras: plan } as Estado, ninoId, fecha), [plan, ninoId, fecha]);
+}
 const prefijoLonchera = (semana: string, i: number) => `lon-${semana}-${i}-`;
 
 /**

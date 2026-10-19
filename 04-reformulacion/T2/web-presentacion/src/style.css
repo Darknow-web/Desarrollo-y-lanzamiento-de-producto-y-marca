@@ -1182,3 +1182,49 @@ body.theme-light .ui-logo-dark { display: block; }
 .persona-l { font-size: clamp(13px, calc(1.1 * var(--u)), 22px); }
 .persona-v .persona-q { font-size: clamp(15px, calc(1.35 * var(--u)), 27px); }
 #s-personas .title { font-size: clamp(28px, calc(3.6 * var(--u)), 76px); }
+
+/* ---- Capítulo campaña "Lo que nadie ve" ---- */
+.quotes-3 { gap: calc(1.6 * var(--u)); }
+.quotes-3 blockquote p { font-size: clamp(18px, calc(2 * var(--u)), 40px); }
+#s-insight .pill { align-self: stretch; text-align: center; }
+.manif { max-width: min(58%, 1000px); }
+.manifiesto { margin-top: calc(1.6 * var(--u)); display: grid; gap: calc(.55 * var(--u)); }
+.manifiesto p { font-family: var(--f-title); font-weight: 600; font-size: clamp(16px, calc(1.6 * var(--u)), 32px); line-height: 1.25; color: var(--cr); max-width: 40ch; }
+.manifiesto p.strong { font-weight: 800; color: var(--dor); margin-top: calc(.6 * var(--u)) !important; }
+.stand-2 { grid-template-columns: 1.3fr 1fr; align-items: start; margin-top: calc(1.4 * var(--u)); }
+.stand-l { display: flex; flex-direction: column; gap: calc(1.2 * var(--u)); min-width: 0; }
+.stand-l .media-16 { aspect-ratio: 16 / 7.5; }
+.pasos { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(1 * var(--u)); }
+.pasos li { display: flex; gap: .6em; align-items: flex-start; font-size: clamp(13px, calc(1.15 * var(--u)), 23px); line-height: 1.3; color: var(--cr); }
+.pasos b { flex: none; width: 1.7em; height: 1.7em; border-radius: 50%; background: var(--dor); color: var(--cafe); display: grid; place-items: center; font-family: var(--f-title); }
+.etapas { flex: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: calc(1 * var(--u)); margin: calc(1.4 * var(--u)) 0 calc(2 * var(--u)); min-height: 0; }
+.etapa { border-radius: var(--r); padding: calc(1.3 * var(--u)) calc(1.4 * var(--u)); display: flex; flex-direction: column; gap: .4em; color: var(--cr); min-height: 0; }
+.etapa-k { font-family: var(--f-title); font-weight: 800; font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase; opacity: .92; }
+.etapa b { font-family: var(--f-title); font-size: clamp(24px, calc(2.8 * var(--u)), 56px); line-height: 1.05; letter-spacing: -0.03em; }
+.etapa ul { list-style: none; padding: 0; margin: .5em 0 0; display: grid; gap: .5em; }
+.etapa li { position: relative; padding-left: .9em; font-size: clamp(12px, calc(1.08 * var(--u)), 21px); line-height: 1.3; }
+.etapa li::before { content: ""; position: absolute; left: 0; top: .55em; width: .35em; height: .35em; border-radius: 50%; background: currentColor; opacity: .8; }
+.e1 { background: #7A4434; } .e2 { background: var(--cm); } .e3 { background: var(--rojo); } .e4 { background: var(--dor); color: var(--cafe); }
+.gastos { display: grid; gap: calc(1 * var(--u)); margin-top: calc(1.4 * var(--u)); }
+.gi { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: calc(1.4 * var(--u)); align-items: center; padding-top: calc(.8 * var(--u)); border-top: 2px solid var(--lin); }
+.gi b { grid-row: 1 / 3; font-family: var(--f-title); font-size: clamp(22px, calc(2.4 * var(--u)), 48px); color: var(--cafe); letter-spacing: -0.03em; white-space: nowrap; }
+.gi-k { font-family: var(--f-title); font-weight: 800; font-size: var(--fs-label); letter-spacing: .12em; text-transform: uppercase; color: var(--rojo); }
+.gi > span:last-child { font-size: clamp(13px, calc(1.1 * var(--u)), 22px); color: var(--tx); line-height: 1.3; }
+.gasto-img { margin-top: calc(2 * var(--u)); width: min(60%, 320px); }
+.gasto-img img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; border-radius: var(--r); box-shadow: 0 calc(1 * var(--u)) calc(2.6 * var(--u)) rgba(74, 32, 24, .2); rotate: -2deg; }
+@media (orientation: portrait), (max-width: 700px) {
+  .manif { max-width: none; }
+  .stand-2 { grid-template-columns: 1fr; }
+  .pasos { grid-template-columns: 1fr; }
+  .etapas { grid-template-columns: 1fr; }
+  .gasto-img { display: none; }
+}
+#s-gasto .gasto { margin-top: calc(1 * var(--u)); align-content: start; }
+.gasto-img { margin-top: calc(1.2 * var(--u)); width: min(44%, 240px); }
+.gastos { gap: calc(.7 * var(--u)); }
+.gi > span:last-child { font-size: clamp(12px, calc(1 * var(--u)), 20px); }
+.gi b { font-size: clamp(20px, calc(2.1 * var(--u)), 42px); }
+
+.etapas { align-content: start; }
+.etapa { height: auto; }
+.gasto-img { width: min(36%, 200px); }

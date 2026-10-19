@@ -8,7 +8,7 @@ import Icono from '../components/Icono';
 import { Boton, Encabezado, Hoja, Interruptor, aviso } from '../components/ui';
 import { Cascada, Item } from '../components/movimiento';
 import SelectorNino from './SelectorNino';
-import { desmarcarLoncheraDelPlan, loncheraDelPlan, marcarVacia, mgDeLoncheraVacia, ninoActivo, obtener, quitarRegistro, registrarComida, registrarLoncheraDelPlan, useEstado, useHierroDelDia, useProgreso, useRacha, useRegistrosDelDia, type RachaSemana } from '../lib/estado';
+import { desmarcarLoncheraDelPlan, marcarVacia, mgDeLoncheraVacia, ninoActivo, obtener, quitarRegistro, registrarComida, registrarLoncheraDelPlan, useEstado, useHierroDelDia, useLoncheraDelPlan, useProgreso, useRacha, useRegistrosDelDia, type RachaSemana } from '../lib/estado';
 import { deISO, diaCorto, fechaCorta, hoyISO, nombreDia } from '../lib/fechas';
 import { esAndiBite, resumenSemana } from '../lib/hierro';
 import { ALIMENTOS, ALIMENTOS_RAPIDOS, ANDIBITE, alimentoPorId, type Alimento } from '../data/alimentos';
@@ -169,7 +169,7 @@ export default function Hoy() {
   const hierro = useHierroDelDia(nino?.id || '', dia);
   const registros = useRegistrosDelDia(nino?.id || '', dia);
   const progreso = useProgreso(nino?.id || '');
-  const lonchera = useEstado(e => (nino ? loncheraDelPlan(e, nino.id, dia) : null));
+  const lonchera = useLoncheraDelPlan(nino?.id || '', dia);
   const vacia = useEstado(e => Boolean(nino && e.reto[nino.id]?.[dia]));
   const [celebrando, setCelebrando] = useState<number | undefined>();
   const [hoja, setHoja] = useState(false);
