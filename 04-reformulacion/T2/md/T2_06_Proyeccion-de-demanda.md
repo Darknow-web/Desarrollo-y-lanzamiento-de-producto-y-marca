@@ -3,7 +3,7 @@ Responsable: Adela (Ade) Robles · Grupo 2 · AndiBite · Propuesta para revisar
 
 Este tema explica cuántos brownies esperamos vender en 2027, mes a mes y por canal, cómo se calculó, si es coherente con el tamaño del mercado, cuánto crecemos en 2028 y qué pasa si las ventas salen 20 % más bajas o más altas. Todas las cifras de ventas salen del Excel v7 (`Costeo-presentaciones-AndiBite.xlsx`, hojas Mensual y Anio2), sin cambiarlas.
 
-**Siglas.** IGV: impuesto general a las ventas (los precios al público lo incluyen). NSE: nivel socioeconómico. [HIPÓTESIS]: supuesto del equipo que todavía no está medido. [POR CONFIRMAR]: dato sin verificar. [PROPUESTA]: algo nuevo que sugerimos.
+**Siglas.** IGV: impuesto general a las ventas (los precios al público lo incluyen). NSE: nivel socioeconómico. KPI: indicador clave, el número que miramos para saber si vamos bien. ODS: Objetivos de Desarrollo Sostenible. [HIPÓTESIS]: supuesto del equipo que todavía no está medido. [POR CONFIRMAR]: dato sin verificar. [PROPUESTA]: algo nuevo que sugerimos.
 
 ## 1. Resumen en 6 líneas
 

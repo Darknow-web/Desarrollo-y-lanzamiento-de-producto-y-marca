@@ -1,6 +1,8 @@
 # T2 · #11 Slogan y cómo queremos que nos recuerden
 Responsable: Patricia Cárdenas · Grupo 2 · AndiBite · Propuesta para revisar
 
+**Siglas.** POP: material en el punto de venta (carteles, habladores, banners). QR: código que se lee con la cámara del celular. A y B: los dos segmentos del público (Claudia, A; Rodrigo, B). Codex: Codex Alimentarius, las normas de alimentos de la FAO y la OMS. FAO: Organización de las Naciones Unidas para la Alimentación y la Agricultura. OMS: Organización Mundial de la Salud.
+
 ## Para qué sirve este punto
 
 La clase pide el slogan de la campaña y responder "¿cómo queremos que nos recuerden?": qué palabras, imágenes y emociones deben asociar con la marca. Parte del posicionamiento del punto #10: AndiBite es "el brownie con el hierro medido" y su territorio es "Medido, no prometido".
@@ -26,7 +28,7 @@ El mensaje central ya está decidido. Lo evaluamos contra dos frases de marca de
 **Por qué gana la opción 1:**
 - **Corto y con ritmo:** 5 palabras en dos frases paralelas. La primera es la razón (hierro medido) y la segunda es el placer (sabor a brownie). Ese contraste es lo que se recuerda.
 - **Diferenciador:** "medido" es lo que solo AndiBite hace: el análisis de cada lote se publica en la app. Nutri H dice "antianémico"; Fika y Mamalama no hablan de hierro (punto #10).
-- **Sirve para A y para B:** a Claudia le habla "hierro medido" (la prueba); a Rodrigo le habla "sabor a brownie" (el niño se lo come y la lonchera no regresa). Cada segmento tiene además su línea propia (sección 3).
+- **Sirve para A y para B:** a Claudia le habla "hierro medido" (la prueba); a Rodrigo le habla "sabor a brownie" (el niño se lo come y la lonchera no regresa). Cada segmento tiene además su línea propia (sección 2).
 - **Legal:** no promete curar ni prevenir nada y no da una cifra, así que no depende de cuántos mg salgan en el laboratorio. Pierde un punto porque "medido" exige que el informe del laboratorio exista desde el primer lote que se vende. Si no hay informe, no se puede usar.
 
 **Recomendación: mantener "Hierro medido. Sabor a brownie." como slogan final.** "Medido, no prometido" queda como idea del territorio de marca (para la sección de transparencia de la app y los posts de "Abre el laboratorio"). "El snack de lonchera que tu hijo sí se come" queda como frase de apoyo.
@@ -34,7 +36,7 @@ El mensaje central ya está decidido. Lo evaluamos contra dos frases de marca de
 **Cuidados legales del slogan:**
 - No se usa sin el informe del laboratorio del lote [POR CONFIRMAR, primer análisis].
 - No se acompaña de "previene", "combate" ni "cura la anemia".
-- No se acompaña de "alto en hierro" ni de una cifra en mg hasta tener el informe; "fuente de hierro" solo si el laboratorio confirma al menos 2.1 mg por porción (Codex, documento 06, sección 7).
+- No se acompaña de "alto en hierro" ni de una cifra en mg hasta tener el informe; "fuente de hierro" solo si el laboratorio confirma al menos 2.1 mg por 100 g (Codex, documento 06, sección 7).
 - [PROPUESTA] Pedir la búsqueda en INDECOPI (Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual) y registrar el slogan como lema comercial junto con la marca, en la clase 30. La Decisión 486 de la Comunidad Andina permite registrar lemas comerciales. Así nadie más puede usarlo. Costo y plazo [POR CONFIRMAR con Adela].
 
 ## 2. El slogan dentro de la campaña

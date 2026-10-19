@@ -5,6 +5,8 @@ Responsable: Diana Ayoso · Grupo 2 · AndiBite · Propuesta para revisar
 
 La clase pide partir del mapa (el Business Model Canvas del T1) para trazar la ruta (el plan de marketing). Aquí están los 9 bloques tal como quedaron en la diapositiva del Canvas de la TC5-8 (trabajos de campo 5 a 8), con las cifras del modelo v7. Todo lo que sigue en el T2 sale de esta página.
 
+**Siglas.** IGV: impuesto general a las ventas (los precios al público lo incluyen). QR: código que se lee con la cámara del celular. OMS: Organización Mundial de la Salud. INS-CENAN: Instituto Nacional de Salud, Centro Nacional de Alimentación y Nutrición. ODS: Objetivos de Desarrollo Sostenible. TC5-8: trabajos de campo 5 a 8 del curso.
+
 ## Los 9 bloques en frases cortas
 
 | Bloque | Lo que dice el Canvas |
@@ -36,8 +38,8 @@ Las ventas del año 1 equivalen al 1.4 % del valor del núcleo. Lima Top es la z
 Los ODS son los Objetivos de Desarrollo Sostenible de las Naciones Unidas (ONU) para 2030.
 
 - **Principal: ODS 2 Hambre cero, meta 2.2.** La meta dice: "De aquí a 2030, poner fin a todas las formas de malnutrición". El hierro bajo es una forma de malnutrición. AndiBite contribuye con un snack que el niño sí come y que lleva hierro hemo (el de origen animal, que el cuerpo absorbe mejor), medido en cada lote.
-  - El indicador oficial de anemia de esta meta es el **2.2.3**, que mide la anemia en **mujeres de 15 a 49 años**. Para los niños usamos el dato nacional de la ENDES (Encuesta Demográfica y de Salud Familiar del INEI): 24.0 % de anemia en niños de 6 a 35 meses de Lima Metropolitana (ENDES 2024). En escolares de 5 a 11 años de Lima atendidos por el MINSA (Ministerio de Salud) es 22.5 % (INS-CENAN, 2024).
-- **Complemento: ODS 3 Salud y bienestar.** Menos azúcar (meta sin octógono), recordatorio del control de hemoglobina en la app y juegos educativos sobre alimentación en el modo niños.
+  - El indicador oficial de anemia de esta meta es el **2.2.3**, que mide la anemia en **mujeres de 15 a 49 años**. Para los niños usamos la ENDES (Encuesta Demográfica y de Salud Familiar del INEI): 24.0 % de anemia en niños de 6 a 35 meses de Lima Metropolitana (ENDES 2024, criterio OMS 2024) y 34.9 % en el Perú (ENDES 2025). En escolares de 5 a 11 años de Lima atendidos por el MINSA (Ministerio de Salud) es 22.5 % (INS-CENAN, 2024).
+- **Complemento: ODS 3 Salud y bienestar.** Menos azúcar (meta sin octógono: de 4.6 a 7.1 g de azúcar por 100 g con la receta reformulada, por confirmar en laboratorio), recordatorio del control de hemoglobina en la app y juegos educativos sobre alimentación en el modo niños.
 - **Complemento: ODS 8 Trabajo decente.** Empresa formal, con todo el personal pagado: vendedores a S/90 por día y coordinadora en planilla. Calza con la meta 8.3, que pide la formalización de las micro y pequeñas empresas.
 - **Cómo decirlo:** AndiBite "contribuye". Nunca "acaba con la anemia" ni "previene la anemia".
 

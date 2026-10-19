@@ -1,10 +1,9 @@
 # T2 · #12 Manual de marca
-
 Responsable: Carlos Inga · Grupo 2 · AndiBite
 
 Este manual ordena la marca que ya existe: el logo de la TC5-8, los colores y la letra de HECHOS_v7, el empaque de `assets/empaque/`, el tono y las frases del documento 06 (donde decía "Hemi", aquí dice AndiBite) y la app "Andi, Misión Hierro" del documento 09. No crea una marca nueva. Las reglas nuevas que no salen de esos archivos van marcadas **[PROPUESTA]**.
 
-Siglas que usamos: **ODS**, Objetivos de Desarrollo Sostenible de la ONU. **NSE**, nivel socioeconómico. **QR**, código que se lee con la cámara del celular. **POP**, material en el punto de venta (carteles, habladores, banners). **RGB**, los valores de rojo, verde y azul de un color en pantalla. **Hex**, el mismo color escrito en código de seis caracteres. **RS**, Registro Sanitario. **MYPE**, micro y pequeña empresa. **INDECOPI**, Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. **MINSA**, Ministerio de Salud. **DIGESA**, Dirección General de Salud Ambiental. **ENDES**, Encuesta Demográfica y de Salud Familiar del INEI (Instituto Nacional de Estadística e Informática). **CNP**, Colegio de Nutricionistas del Perú. **IA**, inteligencia artificial.
+Siglas que usamos: **ODS**, Objetivos de Desarrollo Sostenible de la ONU. **NSE**, nivel socioeconómico. **QR**, código que se lee con la cámara del celular. **POP**, material en el punto de venta (carteles, habladores, banners). **RGB**, los valores de rojo, verde y azul de un color en pantalla. **Hex**, el mismo color escrito en código de seis caracteres. **RS**, Registro Sanitario. **MYPE**, micro y pequeña empresa. **INDECOPI**, Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. **MINSA**, Ministerio de Salud. **DIGESA**, Dirección General de Salud Ambiental. **ENDES**, Encuesta Demográfica y de Salud Familiar del INEI (Instituto Nacional de Estadística e Informática). **CNP**, Colegio de Nutricionistas del Perú. **IA**, inteligencia artificial. **IGV**, impuesto general a las ventas (los precios al público lo incluyen). **TC5-8**, trabajos de campo 5 a 8 del curso. **NTP**, Norma Técnica Peruana. **Codex**, Codex Alimentarius, las normas de alimentos de la FAO y la OMS. **D.S.**, decreto supremo. **D. Leg.**, decreto legislativo. **RM**, resolución ministerial. **PPT**, presentación de PowerPoint. **WCAG**, pautas de accesibilidad web del W3C.
 
 ## 1. Esencia de marca
 
@@ -49,9 +48,9 @@ AndiBite habla como **una nutricionista amiga que además es mamá**: precisa, t
 ### 1.5 ODS al que contribuye
 
 - **ODS 2 Hambre cero, meta 2.2:** "para 2030, poner fin a todas las formas de malnutrición". AndiBite contribuye con un alimento con hierro hemo que el niño acepta, con el hierro medido y publicado, y con educación sobre el hierro en la app.
-- **Por qué importa en Lima:** la anemia en niños de 6 a 35 meses de Lima Metropolitana fue 24.0 % (ENDES 2024) y 22.5 % en escolares atendidos por el MINSA (documento 04).
+- **Por qué importa en Lima:** la anemia en niños de 6 a 35 meses de Lima Metropolitana fue 24.0 % (ENDES 2024, criterio OMS 2024) y en el Perú 34.9 % (ENDES 2025). En escolares de 5 a 11 años de Lima atendidos por el MINSA fue 22.5 % (documento 04).
 - **Indicador:** la ONU mide la anemia con el indicador 2.2.3, que se calcula en mujeres de 15 a 49 años. En niños, el Perú la mide con la ENDES. Por eso decimos que "contribuimos a la meta 2.2", no que movemos el indicador.
-- **Complementarios:** ODS 3 Salud y bienestar (meta de menos azúcar, recordatorio del control de hemoglobina y educación en la app) y ODS 8 Trabajo decente (empresa formal con todo el personal pagado).
+- **Complementarios:** ODS 3 Salud y bienestar (meta de menos azúcar: de 4.6 a 7.1 g por 100 g con la receta reformulada, por confirmar en laboratorio; recordatorio del control de hemoglobina y educación en la app) y ODS 8 Trabajo decente (empresa formal con todo el personal pagado).
 - **Cómo se dice:** "AndiBite contribuye a la meta 2.2 del ODS 2". Nunca "AndiBite acaba con la anemia".
 
 ## 2. Logotipo
@@ -208,11 +207,11 @@ El documento 10 tiene el mensaje B con el cierre "resuelta". Aquí manda HECHOS_
 | Lonchera, semana, lote, cacao, cañihua, lúcuma | Diminutivos en publicidad: "brownicito", "lonchercita" | Tono adulto (documento 06) |
 | "Caja reciclable", si lo es | "Compostable", "eco" sin certificado | Sería greenwashing sancionable |
 
-## 6. Slogan
+## 6. Slogan y territorio
 
-****"Hierro medido. Sabor a brownie."** (slogan elegido en el #11)**
+**Slogan (decidido en el #11): "Hierro medido. Sabor a brownie."** También es el mensaje central del plan. Vive en el empaque, el stand, el perfil de Instagram y el cierre de cada video.
 
-Mientras tanto, la referencia es el **mensaje central ya decidido: "Hierro medido. Sabor a brownie."** El slogan del #11 debe poder vivir junto a esta frase en el empaque, el stand y el cierre de la presentación.
+**Territorio de marca (decidido en el #10): "Medido, no prometido."** Es la idea de fondo; no reemplaza al slogan. Se usa en el QR del reverso del empaque, en la transparencia de la app y en los posts de "Abre el laboratorio".
 
 Frases de marca disponibles (documento 06, sección 6.1, con AndiBite en lugar de Hemi):
 
@@ -318,7 +317,7 @@ El documento 06 pedía "sin mascotas" en la marca. Esto se mantiene: Andi no es 
 | Tarjeta de embajadora | Tarjeta con código para el padre; el premio es para el padre, nunca para el niño |
 | Carrito (Plaza Vea, Wong o Vivanda) | Melamina de 1.2 a 2 m con vitrina y gráfica (documento 08): costados en café oscuro con logo claro y frente en crema con el mensaje central. Medidas y reglas de cada mall o súper [POR CONFIRMAR] |
 
-El material de punto de venta cuesta S/400 (diciembre de 2026) y el material de ferias S/300 (enero de 2027), según el plan de marketing.
+El material de punto de venta cuesta S/400 (diciembre de 2026) y el material de ferias S/300 (enero de 2027), según el plan de marketing. Ambos están dentro del lanzamiento (S/3,204). El presupuesto de marketing mensual sigue siendo de S/900 (S/700 de pauta, degustación y material más S/200 de embajadoras). El total del plan es S/24,544: S/10,800 de los S/900 de 2027, S/3,204 de lanzamiento, S/4,140 de 2 ferias y S/6,400 de 40 eventos (desglose en el tema #17).
 
 ### 9.3 Redes
 

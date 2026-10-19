@@ -1,6 +1,8 @@
 # T2 · #09 Segmentación y buyer persona
 Responsable: Patricia Cárdenas · Grupo 2 · AndiBite · Propuesta para revisar
 
+**Siglas.** NSE: nivel socioeconómico (A es el más alto). ODS: Objetivos de Desarrollo Sostenible. QR: código que se lee con la cámara del celular. IA: inteligencia artificial. INEI: Instituto Nacional de Estadística e Informática. Kantar: empresa de estudios de mercado.
+
 ## Para qué sirve este punto
 
 La clase dice: "No le vendes a todos. Identifica tribus, no solo demografía." Aquí definimos a quién le vende AndiBite con cinco tipos de variables (geográficas, demográficas, psicográficas, conductuales y tecnológicas), cuánto mide ese mercado y quiénes son los dos buyer persona: Claudia Mendoza (segmento A) y Rodrigo Salazar (segmento B). El esfuerzo hacia A y B es parejo: unos 7 de cada 10 hogares A/B de Lima Top y Lima Moderna son B (APEIM 2025; APEIM es la Asociación Peruana de Empresas de Inteligencia de Mercados).

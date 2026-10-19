@@ -1,6 +1,8 @@
 # T2 · #10 Posicionamiento
 Responsable: Patricia Cárdenas · Grupo 2 · AndiBite · Propuesta para revisar
 
+**Siglas.** NSE: nivel socioeconómico (A es el más alto). IGV: impuesto general a las ventas (los precios al público lo incluyen). ODS: Objetivos de Desarrollo Sostenible. QR: código que se lee con la cámara del celular. IA: inteligencia artificial. RM: resolución ministerial. Kantar: empresa de estudios de mercado.
+
 ## Para qué sirve este punto
 
 La clase pregunta: "¿Cómo quieres que te recuerden?" El posicionamiento es el lugar que AndiBite quiere ocupar en la cabeza del padre frente a la competencia. Usamos el prompt 3 de la sesión 09, completado con los datos de AndiBite, y comparamos con 4 competidores con precios reales y fechados: Nutri H, Fika, Mamalama y Bimbo Nutra Bien.
@@ -21,7 +23,7 @@ A partir de esta información, realiza lo siguiente: 1. Estrategia de posicionam
 
 ## 2. Diferenciación: qué nos hace únicos
 
-1. **Hierro medido, no prometido.** Cada lote se analiza en laboratorio (cada lote de enero a junio y cada 2 meses desde julio) y el resultado se publica en la app. Ningún competidor revisado publica su análisis por lote.
+1. **Medido, no prometido.** Cada lote se analiza en laboratorio (cada lote de enero a junio y cada 2 meses desde julio) y el resultado se publica en la app. Ningún competidor revisado publica su análisis por lote.
 2. **Formato que el niño ya quiere.** Un mini brownie de cacao esconde la sangrecita. Nutri H es una galleta; Fika y Bimbo son brownies pero sin hierro funcional.
 3. **Se prueba antes de comprar.** La venta es cara a cara: el niño prueba en el stand y el padre compra ahí mismo.
 4. **La app "Andi, Misión Hierro".** Plan de loncheras, semáforo de hierro semanal, recordatorio del control de hemoglobina y recompra en 1 clic por WhatsApp. El modo niños educa sin vender (Ley 30021).
@@ -39,7 +41,7 @@ Las tres versiones calzan con la del documento 10 (sección 3.2): mismo segmento
 
 ## 4. Territorio de marca
 
-**"Medido, no prometido."** Es la tranquilidad de lo comprobado en la lonchera.
+**"Medido, no prometido."** (territorio de marca decidido en este punto; el slogan, decidido en el #11, es "Hierro medido. Sabor a brownie.") Es la tranquilidad de lo comprobado en la lonchera.
 
 - **Idea simbólica:** el dato que se puede ver. El lote, el laboratorio y el QR son el símbolo de la marca, igual que el cacao lo es del sabor.
 - **Idea emocional:** el alivio de que el hijo coma bien sin pelear. Para A es tranquilidad ("ya sé lo que come"); para B es tiempo ("una mañana menos").

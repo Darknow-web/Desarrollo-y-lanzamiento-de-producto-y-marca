@@ -3,13 +3,15 @@ Responsable: revisión del grupo · Grupo 2 · AndiBite
 
 Fecha de corte: 19 de octubre de 2026. Este informe revisa lo que hay en la carpeta de Drive del grupo, verifica los datos con fuentes oficiales y propone correcciones amables, alineadas a `HECHOS_v7.md` y a `CLASE-sesion09.md`. Todo lo marcado como [PROPUESTA] es una idea para que el grupo decida. Todo lo marcado como [POR CONFIRMAR] no se pudo verificar.
 
+**Siglas.** PESTEL: análisis del entorno político, económico, social, tecnológico, ambiental y legal. FODA: fortalezas, oportunidades, debilidades y amenazas. ODS: Objetivos de Desarrollo Sostenible de la ONU. INEI: Instituto Nacional de Estadística e Informática. ENDES: Encuesta Demográfica y de Salud Familiar, del INEI. ENAHO: Encuesta Nacional de Hogares. OMS: Organización Mundial de la Salud. MINSA: Ministerio de Salud. BCRP: Banco Central de Reserva del Perú. APEIM: Asociación Peruana de Empresas de Inteligencia de Mercados. DIGESA: Dirección General de Salud Ambiental. INDECOPI: Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. REMYPE: registro de la micro y pequeña empresa. UIT: unidad impositiva tributaria. IGV: impuesto general a las ventas. D.S.: decreto supremo. RM: resolución ministerial. T1: primer trabajo del curso. QR: código que se lee con la cámara del celular. IA: inteligencia artificial.
+
 ## Resumen
 
 - En Drive solo hay un trabajo para revisar: el PESTEL (#3) de Angie. Está bien armado: cubre las 6 dimensiones, tiene 19 variables y cada una tiene su evaluación.
 - Los dos datos con número son correctos. La inflación de 4.28 % es **acumulada de enero a setiembre de 2026**, no de los últimos 12 meses (esa fue de unos 4.5 %). El 82.7 % de hogares limeños con internet es del primer trimestre de 2026 y es correcto.
 - Lo que le falta al PESTEL es respaldo: 17 de 19 variables no tienen ningún dato. En este informe hay un dato con fuente para cada una.
 - Hay cuatro choques con HECHOS_v7 que conviene corregir: la cañihua en todos los sabores, la venta digital como si fuera el canal principal, el octógono como amenaza segura y el apoyo escolar como oportunidad sin condición.
-- Hay un riesgo grande que el PESTEL no nombra: según el documento 03, la receta actual daría un brownie con unos 14 g de azúcar por 100 g, y el límite del octógono es 10 g por 100 g. La meta "sin octógono" depende de reformular y de confirmarlo en laboratorio.
+- Hay un punto que el PESTEL no nombra: la meta "sin octógono" depende de la receta reformulada. Con eritritol, la T1 calcula de 4.6 a 7.1 g de azúcar por 100 g, bajo el límite de 10 g por 100 g de los sólidos. Hay que confirmarlo en laboratorio [POR CONFIRMAR]. El cálculo viejo de unos 14 g del documento 03 ya no se usa (HECHOS_v7).
 
 ## 1. Estado de la carpeta del Drive al 19-oct-2026
 
@@ -21,34 +23,34 @@ Fecha de corte: 19 de octubre de 2026. Este informe revisa lo que hay en la carp
 
 ## 2. Los 22 puntos del T2 y su estado
 
-La clase (`CLASE-sesion09.md`) nombra algunos puntos por su número. Los títulos que no aparecen ahí quedan como [POR CONFIRMAR] hasta que el grupo pase la lista oficial.
+Los títulos son los de la lista oficial del grupo. El responsable es el del reparto.
 
-| # | Punto | Estado al 19-oct-2026 |
-|---|---|---|
-| 1 | [título por confirmar] | Propuesta preparada por Claude (en preparación ahora) |
-| 2 | Benchmark, mínimo 3 competidores (Diana) | Pendiente: Diana pega las imágenes de AI Studio |
-| 3 | PESTEL (Angie) | En revisión: este informe |
-| 4 | FODA y FODA cruzado (Diana) | Pendiente: Diana pega las imágenes de AI Studio |
-| 5 | [título por confirmar] | Propuesta preparada por Claude (en preparación ahora) |
-| 6 | [título por confirmar] | Propuesta preparada por Claude (en preparación ahora) |
-| 7 | [título por confirmar] | Propuesta preparada por Claude (en preparación ahora) |
-| 8 | Qué le importa al cliente (prompt de IA de la clase) | Propuesta preparada por Claude (en preparación ahora) |
-| 9 | Arquetipos de usuario (prompt de IA de la clase) | Propuesta preparada por Claude (en preparación ahora) |
-| 10 | Posicionamiento y mapa perceptual (prompt de IA de la clase) | Propuesta preparada por Claude (en preparación ahora) |
-| 11 | [título por confirmar] | Propuesta preparada por Claude (en preparación ahora) |
-| 12 | Plantilla de PPT (ya existe `T2_12_Plantilla-PPT-AndiBite.pptx`) | Propuesta preparada por Claude (en preparación ahora) |
-| 13 | [título por confirmar] | Pendiente |
-| 14 | Explicación del "5-3-2 AIDA" | Pendiente (la clase lo marca como faltante en el Drive) |
-| 15 | [título por confirmar] | Pendiente |
-| 16 | [título por confirmar] | Propuesta preparada por Claude (en preparación ahora) |
-| 17 | Presupuesto con CPA, ROAS y costos por campaña (prompt de IA de la clase) | Propuesta preparada por Claude (en preparación ahora) |
-| 18 | [título por confirmar] | Propuesta preparada por Claude (en preparación ahora) |
-| 19 | [título por confirmar] | Propuesta preparada por Claude (en preparación ahora) |
-| 20 | Caso NutriSmart | Pendiente (la clase lo marca como faltante en el Drive) |
-| 21 | [título por confirmar] | Pendiente |
-| 22 | [título por confirmar] | Pendiente |
+| # | Punto | Responsable | Estado al 19-oct-2026 |
+|---|---|---|---|
+| 1 | Recap del Canvas T1 | Diana | Hecho, en revisión de congruencia |
+| 2 | Benchmark (mínimo 3 competidores) | Diana | Esperando: Diana pega las imágenes de AI Studio |
+| 3 | PESTEL | Angie | En revisión: este informe |
+| 4 | FODA y FODA cruzado | Diana | Esperando: Diana pega las imágenes de AI Studio |
+| 5 | Datos del mercado en números | Ade | Hecho, en revisión de congruencia |
+| 6 | Proyección de demanda y crecimiento 2027 | Ade | Hecho, en revisión de congruencia |
+| 7 | 3 objetivos SMART y KPI | Ade | Hecho, en revisión de congruencia |
+| 8 | Qué le importa al cliente (prompt de IA de la clase) | Paty | Hecho, en revisión de congruencia |
+| 9 | Segmentación y 2 buyer persona (prompt de IA de la clase) | Paty | Hecho, en revisión de congruencia |
+| 10 | Posicionamiento (prompt de IA de la clase) | Paty | Hecho, en revisión de congruencia |
+| 11 | Slogan y palabras, imágenes y emociones | Paty | Hecho, en revisión de congruencia |
+| 12 | Manual de marca y plantilla de la PPT (ya existe `T2_12_Plantilla-PPT-AndiBite.pptx`) | Carlos | Hecho, en revisión de congruencia |
+| 13 | Concepto de campaña, storytelling y estrategia de comunicación | Carlos | En preparación |
+| 14 | Ecosistema digital, Meta Ads en video (5-3-2 AIDA, testimonios) y cierre por WhatsApp o landing | Carlos | En preparación (la clase marca como faltante en el Drive la explicación del "5-3-2 AIDA") |
+| 15 | Calendario de contenido | Carlos | En preparación |
+| 16 | 7P | Angie | Hecho, en revisión de congruencia |
+| 17 | Presupuesto (inversión por canal, CPA, ROAS y ROI; prompt de IA de la clase) | Angie | Hecho, en revisión de congruencia |
+| 18 | Diagrama de Gantt | Angie | Hecho, en revisión de congruencia |
+| 19 | Control de KPI | Ade | Hecho, en revisión de congruencia |
+| 20 | Resumen del caso NutriSmart | Diana | Esperando el caso NutriSmart (la clase lo marca como faltante en el Drive) |
+| 21 | Portada, resumen ejecutivo y cierre | Diana | Después |
+| 22 | Unir todo en la plantilla | Carlos | Después |
 
-**Conteo:** hecho 0; en revisión 1 (#3); propuesta preparada por Claude 13 (#1, #5, #6, #7, #8, #9, #10, #11, #12, #16, #17, #18, #19); pendiente 8 (#2, #4, #13, #14, #15, #20, #21, #22).
+**Conteo:** hechos y en revisión de congruencia 13 (#1, #5 a #12 y #16 a #19); en revisión del Drive 1 (#3); en preparación 3 (#13, #14 y #15); esperando 3 (#2 y #4 esperan las imágenes de Diana; #20 espera el caso NutriSmart); después 2 (#21 y #22). Total: 22.
 
 ## 3. Revisión del PESTEL de Angie (#3)
 
@@ -88,7 +90,7 @@ La clase pide el PESTEL como primer paso del análisis situacional, antes del be
 | Resumen: L3 incluye "protección de datos"; matriz: L4 es "tributos y datos personales" | Es el mismo tema en dos lugares | Elegir uno. Propuesta: L3 = publicidad y declaraciones nutricionales; L4 = tributos; y los datos personales (Ley 29733) como parte de L3 o L4, pero en un solo lugar |
 | Dimensión "E (ecológico)" y en la matriz "A1, A2, A3" | Es la misma dimensión con dos nombres | Llamarla "A (ambiental)" en las dos partes |
 
-**Aviso importante sobre los octógonos.** El documento 03 calcula para la receta actual unos 14 g de azúcar total por 100 g [HIPÓTESIS], y el límite para alimentos sólidos es 10 g por 100 g. Con esa receta el brownie llevaría el octógono "alto en azúcares", y con octógono no se puede vender en quioscos escolares. Por eso la meta "sin octógono" es una meta de reformulación, no un hecho, y el PESTEL debe decirlo así. Los otros dos nutrientes críticos no serían problema en esa estimación (grasas saturadas cerca de 2.4 g por 100 g y sodio cerca de 110 mg por 100 g, contra límites de 4 g y 400 mg).
+**Aviso sobre los octógonos.** Un sólido lleva el octógono "alto en azúcares" desde 10 g de azúcar total por 100 g. La meta "sin octógono" es una meta de reformulación, no un hecho: con la receta reformulada (con eritritol), la T1 calcula de 4.6 a 7.1 g por 100 g, bajo el límite, y falta confirmarlo en laboratorio [POR CONFIRMAR]. El documento 03 conserva un cálculo viejo de unos 14 g: no se usa (HECHOS_v7). El PESTEL debe decir "meta sin octógono por confirmar".
 
 ### 3.4 Un dato con fuente para cada variable
 
@@ -96,14 +98,14 @@ Los datos van con su fuente y fecha. Si una cifra no se pudo verificar, dice [PO
 
 | Variable | Dato propuesto | Fuente y fecha |
 |---|---|---|
-| P1 Políticas de anemia | Plan Multisectorial para la Prevención y Reducción de la Anemia Materno Infantil 2024-2030, aprobado por el D.S. 002-2024-SA. Parte de 43.6 % de anemia en niños de 6 a 35 meses (ENDES, primer semestre de 2023) | El Peruano, 24-ene-2024 |
-| P1 (situación actual) | La anemia afectó al 34.9 % de los niños de 6 a 35 meses en 2025 (rural 43.2 %, urbana 31.5 %). El 38.7 % consumió suplemento de hierro, 4.9 puntos más que en 2024 | INEI, ENDES 2025, nota del 16-may-2026 |
+| P1 Políticas de anemia | Plan Multisectorial para la Prevención y Reducción de la Anemia Materno Infantil 2024-2030, aprobado por el D.S. 002-2024-SA. Parte de 43.6 % de anemia en niños de 6 a 35 meses (ENDES, primer semestre de 2023, con el criterio anterior de la OMS) | El Peruano, 24-ene-2024 |
+| P1 (situación actual) | La anemia afectó al 34.9 % de los niños de 6 a 35 meses del Perú en 2025, criterio OMS 2024 (rural 43.2 %, urbana 31.5 %). El 38.7 % consumió suplemento de hierro, 4.9 puntos más que en 2024 | INEI, ENDES 2025, nota del 16-may-2026 |
 | P2 Alimentación saludable escolar | Los lineamientos del MINSA (RM 195-2019/MINSA) impiden vender en quioscos y comedores escolares los alimentos que superan los límites de azúcar, sodio, grasas saturadas y grasas trans de la Ley 30021 | Andina, 5-mar-2019; MINSA. Vigencia actual [POR CONFIRMAR] |
 | P3 Apoyo a mypes | PRODUCE financiará 4 ferias "Perú Produce" (Lima, Ucayali, Cusco y Lambayeque) del 11 al 16 de noviembre de 2026, con mypes seleccionadas, incluidas las asistidas por el ITP y ProInnóvate. Requisitos aún sin anunciar. La inscripción en el REMYPE (registro de la micro y pequeña empresa) es gratuita y da descuentos en INDECOPI | Agraria.pe, 23-sep-2026; documento 03 de AndiBite |
 | E1 Inflación | 4.28 % acumulada de enero a setiembre de 2026 en Lima; unos 4.5 % en 12 meses, sobre el rango meta de 1 % a 3 %. En setiembre, alimentos y bebidas no alcohólicas bajaron 0.07 % y el alza del mes vino del transporte por los combustibles | INEI (El Peruano, 1-oct-2026); La Cámara, 2-oct-2026; BCRP vía Infomercado, 9-oct-2026 |
 | E2 Cacao y otros insumos | El cacao cotizó a US$5,645 por tonelada el 16-oct-2026: 2.2 % menos en un mes y 4.2 % menos en un año. Llegó a más de US$13,000 a fines de 2024. La entidad reguladora de Ghana prevé que su producción de 2026/27 caiga al menos 16 % | Trading Economics, 16-oct-2026. La cifra de Ghana es de una nota secundaria [POR CONFIRMAR] |
 | E3 Poder adquisitivo | Ingreso mensual del hogar: A S/14,584; B S/7,787 (y C S/4,180). En Lima Top el 51.4 % de los hogares es B y el 20.2 % es A | APEIM 2025, tomado de HECHOS_v7 |
-| S1 Interés por anemia | Mismas cifras de ENDES 2025 (34.9 %). Importante: ENDES mide niños de 6 a 35 meses; AndiBite apunta a niños de 4 a 11 años. Para escolares, HECHOS_v7 usa 22.5 % (escolares atendidos por el MINSA) | INEI, 16-may-2026; HECHOS_v7 |
+| S1 Interés por anemia | Mismas cifras de ENDES 2025 (34.9 % en el Perú) y, para Lima Metropolitana, 24.0 % en niños de 6 a 35 meses (ENDES 2024, criterio OMS 2024; tema #05). Importante: ENDES mide niños de 6 a 35 meses; AndiBite apunta a niños de 4 a 11 años. Para escolares, HECHOS_v7 usa 22.5 % (escolares atendidos por el MINSA) | INEI, 16-may-2026; HECHOS_v7 |
 | S2 Loncheras prácticas y aceptadas | Evidencia propia: 10 entrevistas y el focus 1 con mamás de Lima Norte (NSE C/B) dicen que sin la prueba del niño no hay compra y que la sangrecita se acepta escondida en algo dulce. El focus 2 con degustación está hecho y los resultados están por cargar | HECHOS_v7. Es evidencia de AndiBite, no de mercado; no vale para todo Lima [POR CONFIRMAR con el focus 2] |
 | S3 Información clara | Según HECHOS_v7, el 83 % cambia su compra por los octógonos (Ipsos 2025) y el 42 % desconfía de lo envasado (Kantar 2025). Además, la norma técnica NTP 209.652:2025 de etiquetado nutricional se aprobó en agosto de 2026 | HECHOS_v7. Yo no pude abrir los estudios de Ipsos y Kantar [POR CONFIRMAR el enlace]. Agraria.pe, 5-ago-2026, vía documento 03 |
 | T1 Internet y móviles | 82.7 % de hogares limeños con internet en el I trimestre de 2026 (78.1 % un año antes). El 91.5 % de los usuarios de internet en Lima se conecta por celular. El 98.4 % de los hogares limeños tenía telefonía móvil en el IV trimestre de 2025 | INEI, 26-jun-2026; El Peruano sobre el INEI, IV trimestre de 2025 |
@@ -113,7 +115,7 @@ Los datos van con su fuente y fecha. Si una cifra no se pudo verificar, dice [PO
 | A2 Residuos de envases | La Ley 30884 regula el plástico de un solo uso y los envases descartables; su reglamento es el D.S. 006-2019-MINAM (El Peruano, 23-ago-2019). El envase del brownie es flow pack individual y caja de 6 | LP Derecho / El Peruano, 2019; documento 03. Si el flow pack entra en la ley [POR CONFIRMAR con Paty] |
 | A3 Pérdidas por conservación y distribución | El brownie se hornea en la planta de maquila y se despacha al almacén de la marca. Meta de vida útil de 60 a 90 días. No hay dato de mermas todavía | Documento 03 [HIPÓTESIS]. Dato de mermas [POR CONFIRMAR con Paty y la maquila] |
 | L1 Requisitos sanitarios | El producto envasado con la marca AndiBite necesita su propio Registro Sanitario ante DIGESA (D.S. 007-98-SA). Hoy el trámite no tiene tasa por el nuevo TUPA del MINSA (D.S. 011-2026-SA, vigente desde el 22-jul-2026); el costo real está en los análisis de laboratorio | Comunicado 05-2026 DIGESA/MINSA, tomado del documento 03 (la página de DIGESA bloqueó mi consulta) [POR CONFIRMAR] |
-| L2 Octógonos | Ley 30021 y Manual de Advertencias Publicitarias (D.S. 012-2018-SA). Desde el 17-sep-2021 un sólido lleva octógono desde 400 mg de sodio, 10 g de azúcar total o 4 g de grasas saturadas por 100 g. Estimación de la receta actual: unos 14 g de azúcar por 100 g | Gestión, 19-sep-2021; documento 03 [HIPÓTESIS]. En 2022 el MINSA publicó un proyecto para cambiar los límites; no encontré que se haya aprobado [POR CONFIRMAR en El Peruano] |
+| L2 Octógonos | Ley 30021 y Manual de Advertencias Publicitarias (D.S. 012-2018-SA). Desde el 17-sep-2021 un sólido lleva octógono desde 400 mg de sodio, 10 g de azúcar total o 4 g de grasas saturadas por 100 g. Receta reformulada con eritritol: de 4.6 a 7.1 g de azúcar por 100 g según la T1 | Gestión, 19-sep-2021; HECHOS_v7 [POR CONFIRMAR en laboratorio]. En 2022 el MINSA publicó un proyecto para cambiar los límites; no encontré que se haya aprobado [POR CONFIRMAR en El Peruano] |
 | L3 Publicidad y declaraciones | El art. 8 de la Ley 30021 regula la publicidad de alimentos dirigida a menores de 16 años. Prohíbe entregarles productos gratis como promoción, por eso las muestras van a los padres. Además, la Ley 29733 de datos personales tiene un nuevo reglamento (D.S. 016-2024-JUS), vigente desde fines de marzo de 2025 | Congreso de la República; documento 03; Garrigues. Fecha exacta de vigencia: 30 de marzo según la mayoría de fuentes [POR CONFIRMAR] |
 | L4 Tributos | Valor de la UIT 2026: S/5,500. Régimen MYPE Tributario: pago a cuenta de 1 % mensual si se vende hasta 300 UIT al año; renta anual de 10 % sobre las primeras 15 UIT de utilidad y 29.5 % sobre el exceso; IGV de 18 %. Desde el 1-jun-2026 quien se inscribe en el RUC emite factura electrónica desde el primer día | MEF, D.S. 301-2025-EF; modelo.pe sobre el RMT 2026 (fuente secundaria, confirmar en SUNAT); documento 03 |
 
@@ -180,7 +182,7 @@ Cada corrección dice qué cambiar y trae la frase nueva.
     - "El producto envasado con la marca AndiBite necesita su propio Registro Sanitario ante DIGESA. El trámite hoy no tiene tasa (D.S. 011-2026-SA, desde el 22-jul-2026); el costo está en los análisis de laboratorio y el estudio de vida útil."
 15. **Octógonos (L2).**
     - Cambiar "Etiquetado y octógonos según composición final (Amenaza)" por:
-    - "Meta 'sin octógono' por confirmar en laboratorio. Un sólido lleva octógono desde 10 g de azúcar total por 100 g (Ley 30021 y Manual de Advertencias, vigente desde el 17-sep-2021). La receta actual estaría cerca de 14 g, por lo que hay que reformularla [HIPÓTESIS]."
+    - "Meta 'sin octógono' por confirmar en laboratorio. Un sólido lleva octógono desde 10 g de azúcar total por 100 g (Ley 30021 y Manual de Advertencias, vigente desde el 17-sep-2021). Con la receta reformulada (eritritol), la T1 calcula de 4.6 a 7.1 g por 100 g, bajo ese límite [POR CONFIRMAR en laboratorio]."
 16. **Publicidad y datos (L3 y L4).**
     - "La publicidad dirigida a menores de 16 años tiene reglas en el art. 8 de la Ley 30021; AndiBite se dirige a padres y madres, y las muestras se entregan a los adultos. Los contactos de WhatsApp son datos personales y se rigen por la Ley 29733 y su nuevo reglamento (D.S. 016-2024-JUS)."
     - "Los tributos de la venta formal (IGV de 18 % y régimen MYPE Tributario) ya están en el plan de costos."
@@ -193,13 +195,13 @@ Cada corrección dice qué cambiar y trae la frase nueva.
 
 ## 5. Queda por confirmar o contradice otros documentos
 
-- **Anemia en Lima:** HECHOS_v7 usa 24.0 % para niños de 6 a 35 meses de Lima (ENDES 2024). No pude verificarlo. Hay dos métodos de cálculo (la directriz de la OMS 2024 da 34.9 % en 2025 a nivel nacional; el método anterior da 43.4 %). Antes de usar la cifra de Lima hay que mirar el cuadro por departamento del INEI y decir qué método se usó [POR CONFIRMAR].
-- **Estudios de Ipsos y Kantar:** no encontré el 83 % (Ipsos 2025) ni el 42 % (Kantar 2025) de HECHOS_v7. Hay que pedir el enlace o el nombre del estudio a quien los puso [POR CONFIRMAR].
+- **Anemia:** ya está verificada en el tema #05. Lima Metropolitana 2024: 24.0 % en niños de 6 a 35 meses (ENDES 2024, criterio OMS 2024; con el criterio anterior sería 32.9 %). Perú 2025: 34.9 % (criterio OMS 2024). El indicador 2.2.3 de los ODS mide la anemia en mujeres de 15 a 49 años, no en niños. El dato de Lima Metropolitana 2025 sigue [POR CONFIRMAR].
+- **Estudios de Ipsos y Kantar:** el tema #05 ya trae los enlaces: Ipsos Perú (21-feb-2025) para el 83 % y Kantar (2025) para el 42 %.
 - **Ley 31919 y D.S. 017-2023-SA:** el documento 03 dice que permiten adhesivos para octógonos a las mypes. Mis búsquedas no lo confirmaron; está en el documento 03 con enlaces [POR CONFIRMAR].
 - **Límites de los octógonos:** los de 10 g de azúcar, 400 mg de sodio y 4 g de grasas saturadas vienen de una nota de Gestión de 2021 y del documento 03. En 2022 hubo un proyecto de cambio; si se aprobó, los límites serían otros [POR CONFIRMAR en El Peruano].
 - **ENFEN:** la cifra del Niño costero sale de una nota de prensa; falta leer el comunicado oficial N.° 16-2026 [POR CONFIRMAR].
 - **Cacao de Ghana y cañihua:** la caída prevista en Ghana viene de una nota secundaria; no hallé ningún dato de cañihua [POR CONFIRMAR].
-- **Coherencia del equipo:** el documento 03 estima que el brownie lleva octógono de azúcar; HECHOS_v7 mantiene la meta "sin octógono" por confirmar. No es una contradicción, pero hay que decidir si se reformula para colegios.
+- **Coherencia del equipo:** el documento 03 todavía conserva un cálculo viejo de unos 14 g de azúcar por 100 g. No se usa. Manda HECHOS_v7: de 4.6 a 7.1 g con la receta reformulada, por confirmar en laboratorio.
 - **Encabezado:** la segunda línea de este informe sigue lo pedido para esta tarea, sin la leyenda "Propuesta para revisar" de la regla 6.
 
 ## Fuentes
