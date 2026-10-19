@@ -6,9 +6,10 @@
   "description": "Presentación web interactiva de AndiBite · Sustentación T2 · Grupo 2",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "preview": "npm run build && wrangler dev --local",
-    "deploy": "npm run build && wrangler deploy",
+    "build": "tsc --noEmit && tsc --noEmit -p worker && vite build",
+    "subir-activos": "node scripts/subir-activos.mjs",
+    "preview": "npm run build && node scripts/subir-activos.mjs --local && wrangler dev --local --port 8788",
+    "deploy": "npm run build && npm run subir-activos && wrangler deploy",
     "capturas": "node scripts/capturas.mjs"
   },
   "dependencies": {
