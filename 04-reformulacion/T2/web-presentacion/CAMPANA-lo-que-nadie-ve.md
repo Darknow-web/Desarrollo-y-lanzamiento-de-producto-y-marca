@@ -198,4 +198,3 @@ La app es la parte de la idea que «muestra lo que nadie ve». Se ajustan tres t
 - **Palabras que se evitan:** «engañar» (decimos «esconder» o «truco»); «su prueba… la tuya…»; frases de dos partes en eco.
 - **Marca registrada:** «de Hulk» queda solo en el manifiesto de la presentación, porque es como lo dicen los papás. En la pauta pagada se dice «superhéroe» o «superpoderes» (Hulk es una marca de Marvel).
 - **Antes de publicar:** revisar que #LoQueNadieVe no lo use otra marca en Perú, y pasar estos textos por el agente `t2-redactor`.
-- **HECHOS_v7 por actualizar (cuando Carlos lo pida):** la línea de campaña y el cartel del stand siguen con «Su prueba: la lonchera vacía. La tuya: verlo en la app.»; se reemplazan por esta campaña.

@@ -17,7 +17,7 @@
 .boton-crema { background: var(--crema); color: var(--cafe); }
 .boton-crema:hover { background: #fff; }
 
-.encabezado { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 0 0; position: sticky; top: 0; background: linear-gradient(var(--crema) 70%, rgba(251, 243, 232, 0)); z-index: 5; margin: 0 -4px; }
+.encabezado { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 0 0; position: sticky; top: 0; background: var(--crema); box-shadow: 0 1px 0 rgba(74, 32, 24, .08); z-index: 5; margin: 0 -4px; padding-bottom: 6px; }
 .encabezado h1 { font-size: 17px; font-weight: 700; text-align: center; flex: 1; color: var(--cafe); }
 
 /* Barra de navegación */
@@ -437,3 +437,5 @@ button.punto-dia:not(:disabled):active i { transform: scale(.92); }
 .dia-detalle .chip-activo { background: var(--oliva); color: #fff; }
 .dia-detalle .dia-acciones .chip { flex: 1; justify-content: center; }
 .bienvenida-paso .lead { font-size: 15px; max-width: 34ch; }
+
+.pantalla.inicio { padding-bottom: 120px; }

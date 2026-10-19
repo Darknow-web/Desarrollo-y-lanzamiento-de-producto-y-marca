@@ -1,7 +1,7 @@
 # Observaciones de Carlos (19-oct-2026) y estado
 
-Estado: **SEGUNDA VERIFICACIÓN DEL DIRECTOR, 19-oct-2026** (revisión del commit `331f3a6`; capturas `capturas/escritorio-01` a `44` y `celular-*` de las 20:23–20:26; capturas de la app `scratchpad/app-capturas3/*.png` de las 20:26–20:31; sitios publicados andibite.cingacordova.workers.dev y andi-app.cingacordova.workers.dev, revisados con curl). Resultado: **25 CUMPLIDOS y 6 NO CUMPLIDOS** (6, 12, 21, 26, 29 y 30), más 2 pendientes transversales.
-Primera verificación (commit `c7adaf2`): 21 cumplidos y 10 no cumplidos.
+Estado: **TERCERA VERIFICACIÓN DEL DIRECTOR, 19-oct-2026, 21:00** (commit `58efd7d`; capturas `capturas/escritorio-01` a `44` y `celular-*` regeneradas en ese commit; capturas de la app `scratchpad/app-capturas4/*.png` de las 20:42–20:47; capturas propias del director `scratchpad/v3/out/50-inicio-finde-semana.png` y `51-enviar-la-semana.png`, tomadas con Playwright sobre el sitio publicado; sitios andibite.cingacordova.workers.dev y andi-app.cingacordova.workers.dev revisados con curl; 32 tests pasan). Resultado: **29 CUMPLIDOS y 2 NO CUMPLIDOS** (26 y 29), más 1 transversal pendiente (hilo). **No se cierra todavía.**
+Segunda verificación (commit `331f3a6`): 25 cumplidos y 6 no cumplidos. Primera (commit `c7adaf2`): 21 y 10.
 Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como NO CUMPLIDO.
 
 1. Entre la 4 y la 5 aparece AndiBite: el divisor dice "Nuestra respuesta: AndiBite" y la 5 explica brevemente qué es.
@@ -20,7 +20,7 @@ Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como
    **[CUMPLIDO]** index.html:271. Captura escritorio-13.
 
 6. Propuesta de valor y app: el valor de la app es el control del hierro del día (mg frente a lo que necesita por edad), suma del brownie, de la lonchera y de otras comidas, y el resumen para el padre o la madre que no está en casa. App minimalista.
-   **[NO CUMPLIDO]** Cumple casi todo: "Enviar a papá o mamá" en Inicio (src/parents/Inicio.tsx:77 y :111; app-capturas3/06-inicio y public/img/app_reto.jpg) y en /hoy (Reto.tsx:193 y :225; captura 10-hoy), "Enviar la semana" en ResumenSemana (Reto.tsx:137 y :158), con navigator.share o wa.me (src/lib/compartir.ts); está en el sitio publicado (el bundle index-6JoC3SJf.js contiene los dos textos). **Falta:** el mensaje de la semana no coincide con lo que se ve en la pantalla. La tarjeta dice "{hierro.diasConHierro} de 7 días con hierro" (Reto.tsx:146), pero el mensaje cuenta solo los días de colegio y dice "de 5 días" (Reto.tsx:137 usa `semana.dias`, que son 5 días, y compartir.ts:17 tiene el "de 5" fijo), mientras suma los mg de los 7 días. Papá ve "6 de 7" y mamá recibe "5 de 5". Corrección: en Reto.tsx:137, `diasConHierro: hierro.diasConHierro`; en compartir.ts:15 y :17, "de 7 días con hierro"; en tests/logica.test.ts:120, el texto esperado. Falta también una captura de "Enviar la semana" (ResumenSemana en fin de semana).
+   **[CUMPLIDO]** "Enviar a papá o mamá" en Inicio y en /hoy (src/parents/Inicio.tsx; Reto.tsx; app-capturas4/06-inicio y 10-hoy) y "Enviar la semana" en ResumenSemana (Reto.tsx:137 y :158). El mensaje ya usa los mismos días que la pantalla: Reto.tsx:137 pasa `hierro.diasConHierro`, src/lib/compartir.ts:17 dice "de 7 días con hierro" y tests/logica.test.ts:120 lo comprueba. En el sitio publicado (bundle index-CSA3rmli.js) la pantalla de fin de semana muestra "5 de 7 días con hierro, 9.5 mg" y el mensaje enviado dice "Semana de Teo: 5 de 7 días con hierro, 9.5 mg en total. Loncheras vacías: 2." (scratchpad/v3/out/51-enviar-la-semana.png). Observación menor: los puntitos de la semana solo muestran L a V, así que un registro del sábado suma al "5 de 7" pero no tiene puntito.
 
 7. Pantalla 15 con impacto visual: foto, título grande, poco texto, animación.
    **[CUMPLIDO]** index.html:336-354. Captura escritorio-15.
@@ -38,7 +38,7 @@ Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como
    **[CUMPLIDO]** index.html:473-494 ("lo deja", botón "Su mañana"). Captura escritorio-23.
 
 12. Pantalla 24: ejes y cuadrantes con lenguaje profesional (sin "sabe a gusto", sin "sabe a remedio"); sin la línea de riesgo.
-   **[NO CUMPLIDO]** Lo visible está bien: título "Sabor o hierro: hasta hoy había que elegir." (index.html:503) y cuadrantes por sabor (src/mapa.ts:31-34); captura escritorio-24. **Falta** lo que se pidió en la ronda anterior: (a) src/mapa.ts:1 sigue diciendo "sabe a remedio o sabe a gusto" y :7 "0 = remedio, 1 = gusto"; deben decir "sabor de suplemento o sabor de postre" y "0 = suplemento, 1 = postre". (b) El aria-label de index.html:505 todavía dice "el único en el cuadrante rico y con hierro"; debe decir "el único con sabor de postre y con hierro". (c) Para que los cuatro cuadrantes digan lo mismo en el mismo orden, mapa.ts:31 debe decir "SABOR DE SUPLEMENTO, CON HIERRO" (hoy dice "CON HIERRO, SABOR DE SUPLEMENTO").
+   **[CUMPLIDO]** src/mapa.ts:1 y :7 ("sabor de suplemento o sabor de postre"; "0 = sabor de suplemento, 1 = sabor de postre"); los cuatro cuadrantes en el mismo orden, "SABOR DE … , CON/SIN HIERRO" (mapa.ts:31-34, también en el bundle publicado); aria-label de index.html:505 "el único con sabor de postre y con hierro". Título "Sabor o hierro: hasta hoy había que elegir." (:503). Captura escritorio-24.
 
 13. Pantalla 25: sin "cómo lo calculamos"; hogares explicados en una línea; menos texto en general.
    **[CUMPLIDO]** index.html:516-530. Captura escritorio-25.
@@ -65,7 +65,7 @@ Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como
    **[CUMPLIDO]** index.html:724-747. Captura escritorio-35.
 
 21. Pantalla de gasto con cifras y título coherente con el hilo de la campaña; títulos encadenados en todo el capítulo.
-   **[NO CUMPLIDO]** Título (index.html:753) y rubros (:762-765) bien; ya no se repite S/24,544. **Falta:** la cifra grande está mal explicada. "S/0.44 por cada brownie vendido, de octubre de 2026 a diciembre de 2027" (:756-757) no cuadra: S/24,544 ÷ 52,331 brownies da S/0.47. El S/0.44 de HECHOS_v7.md:169 y del Anexo 1 (:879) es solo el gasto de 2027 (S/22,786 ÷ 52,331 = S/0.435). Corrección en :757: "por cada brownie vendido en 2027". La otra opción es dejar el periodo y poner "S/0.47". Captura escritorio-36.
+   **[CUMPLIDO]** index.html:757 "por cada brownie vendido en 2027" (S/22,786 ÷ 52,331 = S/0.44, como HECHOS_v7.md:169 y el Anexo 1, :879). Título "S/24,544 para que toda Lima cuente su truco." (:753) y cuatro rubros con barras proporcionales que suman S/24,544 (:762-765: 100, 90, 78 y 54 % de S/7,596). Publicado. Captura escritorio-36.
 
 22. Sin textos pequeños sueltos que no transmiten nada.
    **[CUMPLIDO]** Pantalla 23 sin el pie de 12 px (index.html:468-497; captura escritorio-23). Pantalla 36 sin S/24,544 repetido (captura escritorio-36). Solo queda el .src permitido de la pantalla 3 (:97).
@@ -80,36 +80,33 @@ Formato: `N. [CUMPLIDO|NO CUMPLIDO] evidencia · qué falta`. "Casi" cuenta como
    **[CUMPLIDO]** .claude/agents/t2-creativo.md, CAMPANA-lo-que-nadie-ve.md y PROMPTS-campana.md. El documento ya no coincide con index.html en dos frases (ver el 26).
 
 26. Agente redactor aplicó la revisión de redacción a todo.
-   **[NO CUMPLIDO]** Corregido en la presentación: "que tu hijo te vuelve a pedir" (index.html:606), pantalla 39 (:820), "Ocho mamás" en la 8 y la 11 (:172 y :215) y "Nadie aplaude esos trucos, porque nadie los ve." (:605). **Falta:** (a) CAMPANA-lo-que-nadie-ve.md:50 sigue con "un mini brownie que te vuelve a pedir": debe decir "que tu hijo te vuelve a pedir". (b) CAMPANA:48 sigue con la frase eco "Nadie aplaude esos trucos. Nadie los ve.": debe decir "Nadie aplaude esos trucos, porque nadie los ve.". (c) CAMPANA:37 dice "…cada casa tiene su truco, y nadie lo aplaude.", lo mismo que la 29: hay que quitar ", y nadie lo aplaude" para que diga igual que index.html:586. (d) En el Canvas, index.html:308 dice "La app: reto diario, loncheras y aviso de recompra", que es la app vieja; debe decir "La app: el hierro de cada día, loncheras y aviso de recompra".
+   **[NO CUMPLIDO]** Resuelto lo de la ronda 2: CAMPANA-lo-que-nadie-ve.md:37, :48 y :50 iguales a index.html:586, :605 y :606; Canvas index.html:308 "La app: el hierro de cada día, loncheras y aviso de recompra" (captura escritorio-14). **Falta:** quedan textos de la app vieja ("el reto"), dos que ven papá y mamá y dos de accesibilidad: (a) app src/parents/Bienvenida.tsx:129, casilla de consentimiento: "Acepto que la app guarde el reto, la despensa…" debe decir "Acepto que la app guarde el hierro de cada día, la despensa y los recordatorios en este teléfono (Ley 29733)…". (b) src/parents/Mas.tsx:97: "el reto de la lonchera" debe decir "el hierro de cada día y las loncheras vacías". (c) index.html:408, alt "Pantalla del reto lonchera vacía" debe decir "Pantalla de inicio con el hierro de hoy". (d) index.html:409, alt "Pantalla del semáforo de hierro semanal" (la imagen es /hoy) debe decir "Pantalla del hierro del día y de la semana". Republicar las dos apps.
 
 27. Director verificó todos los puntos.
-   **[CUMPLIDO]** Primera verificación (commit c7adaf2) y esta segunda (commit 331f3a6), con evidencia por punto.
+   **[CUMPLIDO]** Tres verificaciones con evidencia por punto: commits c7adaf2, 331f3a6 y 58efd7d (esta).
 
 28. Logo AndiBite pequeño en todas las pantallas.
    **[CUMPLIDO, con excepción aceptada]** Está en 38 de 40 pantallas principales y en los 4 anexos (index.html:17). En la portada (1) y el cierre (40) el logo pequeño se oculta (style.css:1273) porque el logo grande ocupa el centro de la pantalla (index.html:60 y :841; capturas escritorio-01 y 40, celular-01). Poner los dos sería repetir la marca. Se acepta la excepción.
 
 29. Ciclo de revisión (/loop) hasta cumplir todo.
-   **[NO CUMPLIDO]** En curso: ronda 1 (10 pendientes) y ronda 2 (esta, 6 pendientes y 2 transversales). Se cierra cuando la lista de pendientes quede en cero.
+   **[NO CUMPLIDO]** Ronda 1: 10 pendientes; ronda 2: 6 y 2 transversales; ronda 3 (esta): 1 punto (26) y 1 transversal (hilo). Se cierra cuando la lista quede en cero.
 
 30. App: control de hierro del día mejorado (ver 6).
-   **[NO CUMPLIDO]** Anillo de mg frente a la referencia por edad, tres formas de sumar, /hoy y envío del día bien (capturas 06, 08, 09 y 10). Falta lo mismo que en el 6: el mensaje "Enviar la semana" dice "de 5 días" y la pantalla "de 7 días".
+   **[CUMPLIDO]** Anillo de mg frente a la referencia por edad, "Volvió vacía" y "Otra comida", /hoy con pestaña Inicio activa, envío del día y de la semana con las mismas cifras de la pantalla (app-capturas4/06, 08, 09 y 10; scratchpad/v3/out/50 y 51). Ver el 6.
 
 31. Juegos con niveles y duración (30 a 60 min de contenido), tres juegos de colegio por edad.
-   **[CUMPLIDO]** Sin cambios desde la ronda 1: src/data/ninos.ts:61, src/kids/colegio.ts y src/data/juegos-colegio.ts; capturas app-capturas3/16 a 23 (mapa y 7 juegos jugando).
+   **[CUMPLIDO]** src/data/ninos.ts:61, src/kids/colegio.ts y src/data/juegos-colegio.ts; capturas app-capturas4/16 a 23 (mapa centrado con los 7 juegos y su nivel, cada juego jugando, Viste a Andi con 6 trajes bloqueados por estrellas o nivel).
 
 ## Revisión transversal
 
 - **T1 · Canvas, pantalla 14.** **[CUMPLIDO]** Captura escritorio-14: las 9 cajas muestran todos sus puntos, sin cortes, en letra legible (style.css:1302, de 11 a 18 px).
-- **Coherencia del hilo.** **[NO CUMPLIDO]** Resuelto: 33 "Primero lo cuentan ellos" antes del 34 "En el stand"; la 39 describe la app actual; 20 y 21 sin el 35 % repetido; un solo "nadie aplaude" en la presentación. **Falta:** la 4.ª captura de la pantalla 19, "Pedido por WhatsApp" (public/img/app_pedido.jpg y app-capturas3/43-despensa-pack.png), ya muestra la despensa con el pack, pero el botón "Pedir por WhatsApp" queda tapado por la barra de navegación: solo se lee "RECOMPRA". Corrección: capturar la despensa desplazada hasta que se vea completo el botón de WhatsApp (o recortar la barra inferior) y reemplazar app_pedido.jpg. Además, escritorio-18 y 19 (20:24) son anteriores a las imágenes nuevas app_reto.jpg (20:28) y app_pedido.jpg (20:32): siguen mostrando la despensa vacía y el inicio sin "Enviar a papá o mamá". El sitio publicado sí tiene las imágenes nuevas (mismo md5), pero hay que volver a sacar escritorio-18 y 19 y celular para que la evidencia esté al día.
-- **Papá y mamá.** **[NO CUMPLIDO, fuera de la presentación]** Presentación y app cumplen (punto 9). En HECHOS_v7.md, dentro de las decisiones vigentes, quedan dos cosas: (a) :16, el discurso de un minuto que se dice en la sustentación, empieza "Toda mamá en Lima sabe… Y toda mamá sabe…"; debe decir "Todo papá y toda mamá en Lima saben que su hijo necesita hierro. Y saben lo que pasa cuando intentan dárselo…". (b) :106 dice "Mamás embajadoras… El premio es para el padre"; debe decir "Papás y mamás embajadores… El premio es para el papá o la mamá" (así está en index.html:685). Menor: t2-redactor.md:12, "para una mamá de Lima" debe decir "para un papá o una mamá de Lima".
-- **Palabras prohibidas.** **[CUMPLIDO]** Grep en index.html, src/, la app (src, data, worker), CAMPANA y PROMPTS: no aparecen "supuesto", "estimado", "[POR CONFIRMAR]", "EXPOINNOVA" ni "Hierro medido. Sabor a brownie."; "siempre" ya no acompaña a los 1.9 mg (solo queda en comentarios de código y en el prompt interno de worker/plan.ts:85, que nadie ve en pantalla). Sin frases espejo en la presentación; la única que queda está en CAMPANA:48 (punto 26b).
+- **Coherencia del hilo.** **[NO CUMPLIDO]** Resuelto lo de la ronda 2: public/img/app_pedido.jpg muestra el pack, el total S/26.90, el botón "Pedir por WhatsApp" completo y el mensaje que se envía (mismo md5 en el sitio publicado); escritorio-18 y 19 y celular regenerados con las imágenes nuevas. **Falta:** la pantalla 18 (index.html:398) y la primera de las "cuatro pantallas reales" de la 19 (:408) son la misma imagen, app_reto.jpg (se ve en escritorio-18 y escritorio-19): el público ve la misma pantalla dos veces seguidas y la 19 promete cuatro distintas. Corrección: en :408 usar otra pantalla, por ejemplo app-capturas4/09-hoja-comida.png exportada a public/img/app_comida.jpg (600 × 1298), con pie "Sumar otra comida" y alt "Hoja para sumar otra comida con hierro"; volver a sacar escritorio-19 y republicar.
+- **Papá y mamá.** **[CUMPLIDO]** Presentación y app (punto 9; escritorio-33 "Papás y mamás embajadores"). HECHOS_v7.md:16 "Todo papá y toda mamá en Lima saben…" y :106 "Papás y mamás embajadores… El premio es para el papá o la mamá"; t2-redactor.md:6 y :12 "un papá o una mamá de Lima". Errata en HECHOS_v7.md:16 (no afecta el punto, pero es el discurso que se dice en voz alta): "cuando intenta dárselo" debe ser "cuando intentan dárselo".
+- **Palabras prohibidas.** **[CUMPLIDO]** Grep en index.html, src/ de la presentación, src/ y worker/ de la app, CAMPANA y PROMPTS: no aparecen "supuesto" (solo dentro de "presupuesto"), "estimado", "[POR CONFIRMAR]", "EXPOINNOVA" ni "Hierro medido. Sabor a brownie."; "su prueba… la tuya" solo en la lista de frases que se evitan (CAMPANA:198). Sin frases espejo: CAMPANA:48 ya dice "Nadie aplaude esos trucos, porque nadie los ve.". Nota: CAMPANA:201 dice que HECHOS_v7 todavía tiene "Su prueba…", pero HECHOS_v7.md:21 ya lo reemplazó; borrar esa línea.
 
-## Pendientes ordenados por importancia (ronda 2)
+## Pendientes ordenados por importancia (ronda 3)
 
-1. Puntos 6 y 30: que el mensaje "Enviar la semana" use los mismos días que la pantalla (Reto.tsx:137, compartir.ts:15 y :17, test :120).
-2. Punto 21: corregir la línea del S/0.44 en la pantalla 36 (index.html:757: "por cada brownie vendido en 2027").
-3. Hilo: nueva captura app_pedido.jpg con el botón de WhatsApp visible y volver a sacar escritorio-18, 19 y celular.
-4. Punto 26: CAMPANA:37, :48 y :50; Canvas index.html:308 ("reto diario").
-5. Punto 12: comentario de mapa.ts:1 y :7, aria-label de index.html:505 y orden del cuadrante en mapa.ts:31.
-6. Papá y mamá: HECHOS_v7.md:16 y :106; t2-redactor.md:12.
-7. Punto 29: tercera ronda con estos pendientes.
+1. Punto 26: "el reto" en Bienvenida.tsx:129 y Mas.tsx:97; alt de index.html:408 y :409. Republicar las dos apps.
+2. Hilo: en la pantalla 19 (index.html:408) reemplazar app_reto.jpg, que repite la 18, por otra pantalla (09-hoja-comida → app_comida.jpg, pie "Sumar otra comida"); nueva escritorio-19.
+3. Menores, sin estado: HECHOS_v7.md:16 "cuando intentan dárselo"; borrar CAMPANA:201.
+4. Punto 29: cuarta verificación con estos pendientes; si quedan en cero, se cierra.

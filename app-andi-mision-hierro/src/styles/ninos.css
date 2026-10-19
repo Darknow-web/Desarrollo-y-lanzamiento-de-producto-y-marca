@@ -88,7 +88,7 @@ body.modo-ninos { background: #F7E2BC; }
 .nivel-chip-max { font-size: 15px; color: #6B3A2A; }
 .juego-inicio { padding-top: 10px; gap: 12px; text-align: center; min-height: calc(100dvh - 96px); align-content: center; padding-bottom: 32px; }
 .juego-inicio h1 { font-size: 34px; color: var(--tinta); }
-.juego-pista { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; background: #fff; border-radius: 24px; padding: 8px 18px; font-size: 20px; font-weight: 700; box-shadow: var(--sombra-nino); }
+.juego-pista { display: flex; flex-wrap: wrap; gap: 10px 12px; justify-content: center; background: #fff; border-radius: 24px; padding: 8px 18px; font-size: 20px; font-weight: 700; box-shadow: var(--sombra-nino); }
 .juego-pista span { font-size: 24px; }
 .andi-habla { display: flex; align-items: center; gap: 14px; width: 100%; cursor: pointer; margin-bottom: 16px; }
 .andi-habla .burbuja { flex: 1; }
@@ -229,7 +229,7 @@ body.modo-ninos { background: #F7E2BC; }
 }
 
 /* Ajustes del revisor visual */
-.pista-tramo { white-space: nowrap; }
+.pista-tramo { white-space: nowrap; background: var(--crema); border-radius: 999px; padding: 4px 14px; }
 .respuestas, .opciones, .teclado { margin-top: 32px; margin-bottom: 24px; }
 .juego-colegio, .juego-lonchera { justify-content: center; }
 .juego-memoria { min-height: calc(100dvh - 96px); align-content: center; }

@@ -126,7 +126,7 @@ export default function Bienvenida() {
                   </div>
                   {!consentido && (
                     <label className="casilla"><input type="checkbox" checked={acepto} onChange={e => setAcepto(e.target.checked)} />
-                      <span>Acepto que la app guarde el reto, la despensa y los recordatorios en este teléfono (Ley 29733). Puedo borrarlo todo cuando quiera.</span></label>
+                      <span>Acepto que la app guarde el hierro de cada día, la despensa y los recordatorios en este teléfono (Ley 29733). Puedo borrarlo todo cuando quiera.</span></label>
                   )}
                   <Boton ancho submit deshabilitado={!acepto || (consentido && !apodo.trim())}>Guardar y seguir</Boton>
                   <button type="button" className="enlace enlace-ancho" onClick={() => terminar(false)}>Ahora no</button>

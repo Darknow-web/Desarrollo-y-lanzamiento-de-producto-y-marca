@@ -94,7 +94,7 @@ export function Privacidad() {
       <Encabezado titulo="Privacidad y datos" atras="/mas" />
       <Tarjeta>
         <h2>Lo que se queda en tu teléfono</h2>
-        <p>El apodo y la edad de tus hijos, el reto de la lonchera, sus estrellas, tus loncheras, tu despensa y los controles de hemoglobina. No tenemos cuentas ni contraseñas.</p>
+        <p>El apodo y la edad de tus hijos, el hierro de cada día y las loncheras vacías, sus estrellas, tus loncheras, tu despensa y los controles de hemoglobina. No tenemos cuentas ni contraseñas.</p>
         <h2>Lo que llega a nuestro servidor</h2>
         <p>El código del envase que escaneas, para mostrarte su lote y contar cuántas veces se escanea. Si usas el plan de loncheras, también el apodo, la edad y lo que tu hijo debe evitar, solo para armar ese plan. Nada más.</p>
         <h2>Modo niños</h2>
