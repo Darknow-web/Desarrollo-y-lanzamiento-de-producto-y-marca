@@ -65,6 +65,3 @@ for n, box in [(1, (0, 0, 255, 385)), (2, (10, 0, 290, 395)), (3, (10, 0, 212, 3
 for n, m in ((1, (6, 6, 6, 6)), (2, (16, 12, 12, 16))):
     w, h = Image.open(os.path.join(EVI, 'entrevista-%d.jpg' % n)).size
     rounded(os.path.join(EVI, 'entrevista-%d.jpg' % n), os.path.join(OUT, 'entrevista_%d.jpg' % n), (m[0], m[1], w - m[2], h - m[3]), aspect=1.6, radius=0.05, top=False)
-# Lámina "Validación de precio" del Canva del grupo, sobre café oscuro
-w, h = Image.open(os.path.join(EVI, 'canva-validacion-precio.jpg')).size
-rounded(os.path.join(EVI, 'canva-validacion-precio.jpg'), os.path.join(OUT, 'canva_precio.jpg'), (14, 16, w - 26, h - 10), radius=0.04, bg=(74, 32, 24))
