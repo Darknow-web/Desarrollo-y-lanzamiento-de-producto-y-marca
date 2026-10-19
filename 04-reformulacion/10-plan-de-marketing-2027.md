@@ -253,7 +253,7 @@ El mismo presupuesto, ordenado por tipo de medio: publicidad, ventas personales,
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **PUBLICIDAD** | | **900** | **450** | **450** | **450** | **400** | **450** | **450** | **300** | **350** | **400** | **400** | **450** | **500** | **5,950** |
 | Pauta en redes sociales | Facebook e Instagram (Meta) | – | 450 | 450 | 450 | 400 | 450 | 450 | 300 | 350 | 400 | 400 | 450 | 500 | 5,050 |
-| Pauta de expectativa | Instagram y TikTok | 600 | – | – | – | – | – | – | – | – | – | – | – | – | 600 |
+| Pauta de expectativa | Instagram y Facebook | 600 | – | – | – | – | – | – | – | – | – | – | – | – | 600 |
 | Video de lanzamiento con niños | Redes y stand | 300 | – | – | – | – | – | – | – | – | – | – | – | – | 300 |
 | **VENTAS PERSONALES** | | **–** | **90** | **450** | **360** | **630** | **450** | **360** | **270** | **360** | **360** | **360** | **270** | **180** | **4,140** |
 | Vendedor(a) en ferias pagadas | Feria escolar y Día del Niño | – | – | 270 | – | 270 | – | – | – | – | – | – | – | – | 540 |

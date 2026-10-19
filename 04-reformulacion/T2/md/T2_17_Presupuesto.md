@@ -39,7 +39,7 @@ Comprobación: 5,950 + 4,140 + 7,596 + 6,858 = 24,544. Es la misma tabla de la h
 | Línea | S/ | % del total |
 |---|---|---|
 | Pauta en redes sociales (Meta) | 5,050 | 20.6 % |
-| Pauta de expectativa (Instagram y TikTok) | 600 | 2.4 % |
+| Pauta de expectativa (Instagram y Facebook) | 600 | 2.4 % |
 | Video de lanzamiento con niños | 300 | 1.2 % |
 | Vendedor(a) en ferias pagadas | 540 | 2.2 % |
 | Vendedor(a) en eventos sin costo | 3,600 | 14.7 % |

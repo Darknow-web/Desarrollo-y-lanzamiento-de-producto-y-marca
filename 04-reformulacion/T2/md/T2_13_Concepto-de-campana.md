@@ -63,6 +63,8 @@ Usamos la estructura del héroe y el guía: el héroe es el padre o la madre, no
 
 ### 2.2 La historia contada (versión larga, para la web, la app y la presentación)
 
+Se usa tal cual solo cuando exista el informe del primer lote (sección 4.3); antes, "cada lote se analiza" se dice en futuro.
+
 Son las seis de la mañana. Hay dos loncheras abiertas en la cocina y una sola pregunta: ¿qué le mando que tenga hierro y que sí se coma? Ya probaste el hígado, la sangrecita en puré, la menestra escondida. A la una de la tarde la lonchera vuelve igual que como salió.
 
 AndiBite nació de esa lonchera. Escuchamos a madres de Lima contar lo mismo con otras palabras, y entendimos que el problema no era el hierro, era el formato. Por eso pusimos la sangrecita de res dentro de un mini brownie de cacao. Él ve un brownie. Tú ves el hierro medido de su lote: cada lote se analiza en laboratorio y el resultado está en la app, con el QR del envase.

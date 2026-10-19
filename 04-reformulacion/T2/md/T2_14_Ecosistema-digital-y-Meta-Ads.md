@@ -15,7 +15,7 @@ Regla del mapa: todo lleva a dos lugares, el stand (primera compra) y el WhatsAp
 |---|---|---|---|---|---|
 | **Instagram orgánico** | Propio | Es la vitrina principal. A Claudia (A) la alcanza por nutricionistas y reels de loncheras (#9) | Reels, carruseles e historias del calendario (#15). Biografía con el enlace a WhatsApp y a la página "Dónde estamos y pedido" | Angie | S/0 |
 | **Facebook orgánico** | Propio | Es necesario para pautar (la página de Facebook se conecta con WhatsApp) y llega a papás como Rodrigo (B) | Los mismos reels y carruseles, más eventos del fin de semana | Angie | S/0 |
-| **TikTok orgánico** | Propio | Alcance gratis con los reels ya hechos. No se pauta en TikTok | Se reusan 3 reels por semana de Instagram, con texto en pantalla. Solo contenido para adultos | Angie | S/0 |
+| **TikTok orgánico** | Propio | Alcance gratis con los reels ya hechos. No se pauta en TikTok | Se reusan 2 o 3 reels por semana de Instagram, con texto en pantalla. Solo contenido para adultos | Angie | S/0 |
 | **Meta Ads** (Facebook e Instagram) | Pagado | Llevar al padre al WhatsApp o al stand del fin de semana | 3 anuncios en video con estructura AIDA (sección 4), botón "Enviar mensaje" | Angie (pauta); Adela (visto bueno legal) | S/5,050 en 2027 + S/600 en dic-2026 |
 | **WhatsApp Business** (app gratuita) | Propio | Cierre del pedido y recompra | Catálogo con precios de WhatsApp, etiquetas, respuestas rápidas, mensajes automáticos (sección 5) | Coordinadora (Carlos hasta que entre) | S/0 |
 | **App "Andi, Misión Hierro"** | Propio | La segunda prueba (el informe del lote) y el aviso de recompra | El QR del envase abre "Mi lote", el plan de loncheras, "Dónde estamos" y la recompra en 1 clic | Angie (experiencia); Diana (datos del lote) | Ya en la inversión: S/2,000 para terminar y S/250 al mes |
@@ -41,23 +41,119 @@ Regla del mapa: todo lleva a dos lugares, el stand (primera compra) y el WhatsAp
 
 El paso 7 es la clave del negocio: con el aviso, el cliente escribe primero. Así la conversación es gratis en la app de WhatsApp Business y cumple la Ley 29733, porque el padre decide cuándo pedir.
 
-## 3. "5-3-2 AIDA, testimonios": qué entendemos [POR CONFIRMAR con la profesora]
+## 3. "5-3-2 AIDA, testimonios": la regla de la clase
 
-La profesora pidió "5-3-2 AIDA, testimonios", pero su explicación no está en el Drive (CLASE-sesion09, pendiente). Buscamos qué significa "5-3-2" en marketing de contenidos.
+### 3.1 Qué es la regla 5-3-2
 
-**Lo que encontramos.** La "regla 5-3-2" es una guía de mezcla de publicaciones en redes: **de cada 10 publicaciones, 5 son de contenido de otros o de valor para el público (curaduría), 3 son contenido propio de la marca y 2 son personales o humanas**, que muestran a las personas detrás de la marca. Semrush la describe así (artículo del 22-abr-2015) y la atribuye a un artículo de Business.com; Social Champ y otras guías usan la misma división. Se atribuye a TA McCann, de Gist, en su versión original (5 curadas, 3 propias que no venden y 2 personales). No encontramos ninguna "estructura 5-3-2 por segundos" para video con fuente confiable.
+Según la clase de la sesión 09 (apuntes de Carlos; la explicación escrita todavía no está en el Drive), **cada publicación o anuncio de la campaña se prepara con 5 primeros impactos (ganchos) distintos, 3 cuerpos distintos y 2 llamadas a la acción (CTA) distintas.** Al combinarlos salen **5 × 3 × 2 = 30 versiones** de un mismo anuncio para probar en Meta y quedarse con la que mejor funciona.
 
-**Nuestra interpretación (la que usa este documento y el #15):**
+- **Gancho:** los primeros 3 segundos. Es lo que hace que la persona deje de deslizar.
+- **Cuerpo:** la parte del medio (de los 3 a los 16 segundos). Explica y da la prueba.
+- **CTA** (llamada a la acción, en inglés "call to action"): el cierre que dice qué hacer ahora.
 
-| Parte | De cada 10 publicaciones | Qué es en AndiBite | Ejemplos |
-|---|---|---|---|
-| **5 de valor** | 5 | Contenido útil para el padre, que no vende: ideas de lonchera, cómo leer una etiqueta, hierro con vitamina C, y contenido de otros (guías del MINSA, nutricionistas, preguntas de padres), citado y con permiso | "La lonchera del jueves", carrusel "Cómo leer el octógono en 3 pasos", repost de una nutricionista |
-| **3 propias** | 3 | La marca y el producto: informe del lote, dónde estamos, pack de 12, "La revelación" | "Abre el laboratorio", "Este fin de semana en Jockey Plaza", reel "La revelación" |
-| **2 humanas** | 2 | Las personas: el equipo, la vendedora, la maquila por dentro, embajadoras y **testimonios** de padres | "Conoce a Paty, que revisa cada lote", testimonio de una mamá embajadora |
+### 3.2 Cruce con AIDA y con los testimonios
 
-**Cómo se juntan las tres palabras.** "5-3-2" ordena el contenido orgánico (el #15 lo aplica mes a mes). "AIDA" ordena cada anuncio en video por dentro: Atención en los primeros 3 segundos, Interés, Deseo y Acción al final. "Testimonios" es la prueba social: un anuncio testimonial de padre o madre (sección 4.1) y testimonios en el bloque "2 humanas". AIDA es un modelo clásico de la publicidad, atribuido a Elias St. Elmo Lewis (fines del siglo XIX).
+| Parte del 5-3-2 | Etapa AIDA | Segundos | Qué tiene que lograr | Cómo se mide (#17 y #19) |
+|---|---|---|---|---|
+| **5 ganchos** | **Atención** | 0 a 3 | Que el padre se detenga: la lonchera que vuelve llena o vacía, el jueves a las 6 a. m., el QR del lote | Reproducciones de 3 s ÷ impresiones y CTR |
+| **3 cuerpos** | **Interés y Deseo** | 3 a 16 | Que entienda qué es (brownie con sangrecita), que crea (informe del lote, precio claro) y que lo quiera. **Al menos un cuerpo de cada anuncio es un testimonio** de un padre o una madre real | CTR (meta 1 % o más) y CPC (S/1.24 o menos) |
+| **2 CTA** | **Acción** | 16 a 20 | Que toque "Enviar mensaje": ir al stand este fin de semana o pedir por WhatsApp. El enlace a la página "Dónde estamos y pedido" va en el mensaje de bienvenida | Costo por conversación (meta S/5 o menos; alerta más de S/8) |
 
-Si la profesora explica otro sentido de "5-3-2" (por ejemplo, una estructura de video por segundos), se cambia la sección 3 y el balance del #15; los anuncios de la sección 4 ya siguen AIDA y no cambian.
+AIDA es el modelo clásico de la publicidad (Atención, Interés, Deseo, Acción), atribuido a Elias St. Elmo Lewis a fines del siglo XIX. Los testimonios dan la prueba social: "otro padre lo usa y su hijo se lo come".
+
+**Las 2 CTA usan el mismo botón "Enviar mensaje".** Cambia la promesa, no el destino. Así los 3 anuncios tienen un solo objetivo (conversaciones de WhatsApp) y un solo KPI. Mandar una CTA a la página de pedido exigiría otra campaña con objetivo de tráfico y partiría una pauta que ya es chica; no conviene en el año 1.
+
+### 3.3 Reglas para escribir las variantes
+
+- Todo le habla al adulto. Ningún gancho, cuerpo ni CTA le habla al niño ni le pide que pida el producto (Ley 30021, art. 8). Andi no aparece.
+- Nunca "previene", "combate" ni "cura la anemia", ni "certificado". Tampoco "medido" ni el informe del lote, ni cifras en mg, hasta que exista el informe del primer lote. Las variantes marcadas **(con informe)** esperan ese informe. Mientras tanto se usa el plan B del #13: "El snack de lonchera que tu hijo sí se come".
+- Nada de "¿tu hijo tiene anemia?" ni "¿tu hijo tiene el hierro bajo?" (Meta, atributos personales).
+- "Vuelve vacía" se dice con alivio. No se dice "un buen padre compra AndiBite".
+- Todas cierran con "Hierro medido. Sabor a brownie." (con informe) o con el plan B, más el octógono si el análisis lo exige.
+
+### 3.4 Anuncio A (Claudia, Lima Top): "Él ve un brownie"
+
+| Gancho (0-3 s, Atención) | Imagen | Texto en pantalla o voz |
+|---|---|---|
+| G1 | La lonchera regresa llena a la 1:30 p. m. | "Otra vez volvió llena." |
+| G2 | Un dedo escanea el QR y se abre el informe del lote **(con informe)** | "Este brownie trae el informe de su lote." |
+| G3 | Cacao y sangrecita en polvo cayendo | "Sí, tiene sangrecita. No, no se nota." |
+| G4 | Primer plano de la etiqueta del pack, leída por una mamá | "Tú lees la etiqueta. Aquí también puedes leer el lote." |
+| G5 | Una mamá frente al táper intacto | "Todo lo que le hace bien, lo devuelve." |
+
+| Cuerpo (3-16 s, Interés y Deseo) | Contenido |
+|---|---|
+| C1 "El lote" | "Pusimos sangrecita de res dentro de un brownie de cacao. Cada lote se analiza en laboratorio y el informe está en la app." Texto: "Él ve un brownie. Tú ves el hierro medido de su lote." **(con informe)**. Plan B: "Sangrecita de res dentro de un brownie de cacao. Él solo ve un brownie." |
+| C2 "Testimonio" | Una mamá real de Lima Top: "Lo escaneé en el stand y vi el informe. Y volvió vacía." **(con informe)**. Plan B: "Lo probó en el stand delante de mí. Volvió vacía." |
+| C3 "La revelación" | Padres lo prueban a ciegas y luego se les cuenta que tiene sangrecita. Texto: "Nadie notó la sangrecita." Cierre: "Su prueba: la lonchera vacía. La tuya: el informe de su lote." **(la segunda frase, con informe)** |
+
+| CTA (16-20 s, Acción) | Texto (botón "Enviar mensaje") |
+|---|---|
+| CTA1 "Al stand" | "Pruébalo con tu hijo en Jockey Plaza este fin de semana. Escríbenos y te decimos dónde estamos." |
+| CTA2 "Mira el análisis" | "Escanea y mira el análisis. Escríbenos y te mandamos un informe de lote." **(con informe)**. Plan B: "Escríbenos y te contamos cómo vamos a medir cada lote." |
+
+### 3.5 Anuncio B (Rodrigo, Lima Moderna): "Una mañana menos"
+
+| Gancho (0-3 s, Atención) | Imagen | Texto en pantalla o voz |
+|---|---|---|
+| G1 | 6:05 a. m.: un papá frente a dos loncheras vacías | "Jueves. Seis de la mañana. ¿Qué le mando?" |
+| G2 | El precio en grande sobre la caja de 12 | "S/4.16 por brownie. Toda la semana." |
+| G3 | La mochila llega y la lonchera se abre vacía | "Volvió vacía. Cinco días seguidos." |
+| G4 | Un papá cierra la lonchera con una mano y con la otra sostiene el celular | "Una mañana menos." |
+| G5 | Celular con el aviso de la app | "¿Repetimos el jueves? Tu pack se está acabando." |
+
+| Cuerpo (3-16 s, Interés y Deseo) | Contenido |
+|---|---|
+| C1 "La semana resuelta" | Domingo: la caja de 12 abierta, 3 sabores (Chispa, Andi y Lúcu), la semana armada. "El domingo resuelves la semana. Aguanta la mochila sin frío." |
+| C2 "Testimonio" | Un papá real de Lima Moderna: "Lo pido el domingo por WhatsApp y ya está la semana. Y no regresa." |
+| C3 "Precio claro" | "Pack de 12 por WhatsApp: S/49.90, S/4.16 por brownie. Entregas 2 días por semana o lo recoges en el stand. Te avisamos cuando se acabe." Texto: "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie." |
+
+| CTA (16-20 s, Acción) | Texto (botón "Enviar mensaje") |
+|---|---|
+| CTA1 "Pídelo" | "Pide tu pack de 12 por WhatsApp: S/49.90." |
+| CTA2 "Pruébalo primero" | "¿Primero quieres probarlo? Escríbenos y te decimos en qué stand estamos este fin de semana." |
+
+### 3.6 Anuncio testimonial (versiones A y B): "Volvió vacía"
+
+Los 5 ganchos y los 3 cuerpos salen del mismo testimonio grabado con celular (un padre o una madre real; el niño no habla a cámara y no se le ve la cara). El cuerpo C2 se usa en la versión A y el C3 en la versión B.
+
+| Gancho (0-3 s, Atención) | Imagen | Texto en pantalla o voz del padre |
+|---|---|---|
+| G1 | La mano del padre abre la lonchera: vacía | "Primera vez que vuelve así." |
+| G2 | El padre en su cocina, a cámara | "Le mandaba de todo con hierro y regresaba igual." |
+| G3 | El padre con el brownie partido en la mano | "Yo tampoco creía que tuviera sangrecita." |
+| G4 | El pack de 12 sobre la mesa del desayuno | "Esto es lo que ahora va en su lonchera." |
+| G5 | El padre escanea el QR del envase **(con informe)**; plan B: el padre muestra el reverso del pack | "Mira lo que sale cuando escaneo esto." / Plan B: "Mira lo que dice atrás." |
+
+| Cuerpo (3-16 s, Interés y Deseo) | Contenido |
+|---|---|
+| C1 "La lonchera" (A y B) | "Antes regresaba llena. Es un brownie con sangrecita y él solo ve un brownie. Ahora vuelve vacía." Texto: "Testimonio real de un cliente" |
+| C2 "El informe" (versión A) | "Escaneo el QR y veo el informe de su lote en el celular." **(con informe)**. Plan B: "Lo probó en el stand delante de mí y lo compré ahí." |
+| C3 "La semana" (versión B) | "Lo pido el domingo por WhatsApp, me lo traen y me avisan antes de que se acabe." |
+
+| CTA (16-20 s, Acción) | Texto (botón "Enviar mensaje") |
+|---|---|
+| CTA1 "Al stand" | "Pruébalo este fin de semana en el stand. Escríbenos y te decimos dónde." |
+| CTA2 "El mismo pack" | "Pide el mismo pack: 12 brownies a S/49.90 por WhatsApp." |
+
+Si la familia recibió producto gratis, el texto lleva "#publicidad" (INDECOPI, 2024). El testimonio dice solo lo que vivió el padre: nada de "ya no tiene anemia" ni "rinde más".
+
+### 3.7 Cómo se prueba en Meta sin cambiar los montos
+
+**Por qué no se lanzan las 30 combinaciones a la vez.** Cada anuncio tiene unos S/1,605 a S/1,840 en todo 2027 (sección 4.5), es decir, unas 126,000 a 145,000 impresiones y unas 195 a 223 conversaciones. Repartidas en 30 combinaciones, a cada una le tocarían unas 6 a 7 conversaciones en todo el año: no alcanza para elegir. Por eso se prueba **por partes, en 3 rondas** [PROPUESTA]: primero los 5 ganchos, después los 3 cuerpos con el gancho ganador y al final las 2 CTA con la mejor pareja. Se prueban 10 variantes por anuncio y se llega a la mejor de las 30.
+
+**Herramienta de Meta.** El "creativo dinámico" de Meta deja subir varios videos (hasta 10) y varias opciones de texto principal y de título (hasta 5) en un solo anuncio. Meta los combina y reporta los resultados por pieza. Según guías de terceros, desde 2024 ya no está disponible para el objetivo de Ventas, donde lo reemplaza el "formato flexible", pero sí para Interacción, que es el objetivo de estos anuncios (Jon Loomer; Metricool). [POR CONFIRMAR con la ayuda oficial de Meta: no pudimos abrir la página oficial ni verificar los límites actuales.] Como el gancho y el cuerpo van dentro del video, cada variante es un archivo de video distinto, editado con las mismas tomas (S/0 extra).
+
+| Ronda | Qué se prueba | Cómo se arma en Meta | Mínimo antes de decidir [PROPUESTA] | Gana la variante con |
+|---|---|---|---|---|
+| 1. Ganchos | 5 videos: G1 a G5 con el cuerpo C1 y la CTA1 | Un anuncio con creativo dinámico y 5 videos | 7 días y 1,000 impresiones por gancho (unos S/13 cada uno, con CPM S/12.69) | Más reproducciones de 3 s ÷ impresiones; si hay empate, mejor CTR |
+| 2. Cuerpos | 3 videos: gancho ganador con C1, C2 y C3 | Un anuncio con creativo dinámico y 3 videos | 7 días y 1,000 impresiones por cuerpo | Mejor CTR (1 % o más) y CPC más bajo (S/1.24 o menos) |
+| 3. CTA | 2 videos: la mejor pareja con CTA1 y CTA2 | 2 anuncios separados en el mismo conjunto, para comparar conversaciones limpias | 10 conversaciones por CTA (unos S/82 cada una, con S/8.23 por conversación) | Menor costo por conversación (verde S/5 o menos; amarillo S/5 a 8; rojo más de S/8, #19) |
+
+- **El dinero no cambia:** las rondas se pagan con la pauta del mes de cada anuncio (sección 4.5). Solo cambia qué video recibe esos soles.
+- **Si gana una combinación que sigue por encima de S/8 por conversación durante 2 meses,** se aplica la regla del documento 10: cambiar anuncio o público y pasar parte de esos soles a degustación, sin cambiar el total del mes.
+- **Renovación:** la combinación ganadora corre hasta que el CTR baje de 0.8 %. Entonces se hace otra ronda de 5 ganchos nuevos con el mismo cuerpo y la misma CTA. Está prevista en mayo (Día de la Madre), junio (Día del Padre), agosto (punto 3) y noviembre (Navidad).
+- **Calendario de grabación y prueba:** está en el #15, sección 1.1.
 
 ## 4. Anuncios en video con estructura AIDA
 
@@ -68,6 +164,7 @@ Si la profesora explica otro sentido de "5-3-2" (por ejemplo, una estructura de 
 - **Sin sonido:** todo lo importante va también en texto en pantalla, con subtítulos.
 - **Producción:** los anuncios A y B son cortes del video "Vuelve vacía" de S/300 (noviembre de 2026, #13, sección 2.3). El testimonial se graba con celular en enero de 2027, con familias embajadoras fundadoras. **No suma gasto.**
 - **Cierre de todos:** "Hierro medido. Sabor a brownie.", el botón "Enviar mensaje" y el octógono si el análisis lo exige.
+- **Versión base:** los guiones de 4.1 a 4.3 son la combinación "gancho 1 + cuerpo 1 + CTA 1" de la sección 3. Las otras variantes del 5-3-2 se editan con las mismas tomas.
 - **Hasta tener el informe del primer lote:** no se dice "medido" en el cierre A ni se muestra una cifra en mg; se usa el plan B del #13 ("El snack de lonchera que tu hijo sí se come").
 
 ### 4.1 Anuncio 1: testimonial de padre o madre, "Volvió vacía"
@@ -145,34 +242,34 @@ Si la profesora explica otro sentido de "5-3-2" (por ejemplo, una estructura de 
 
 Comprobación: 1,605 + 1,605 + 1,840 = 5,050. Cada segmento recibe lo mismo: 1,605 + 920 = 2,525.
 
-**KPI con los valores del #17 (no se recalculan).** CPM S/12.58 (US$3.70 × S/3.40), CPC S/1.224, CTR 1.03 %, 15 % de los clics inicia una conversación, costo por conversación (CPA por contacto) S/8.16.
+**KPI con los valores del #17 (no se recalculan).** CPM S/12.69 (US$3.70 × S/3.43), CPC S/1.235, CTR 1.03 %, 15 % de los clics inicia una conversación, costo por conversación (CPA por contacto) S/8.23.
 
 | Anuncio | Pauta 2027 | Impresiones | Clics | Conversaciones de WhatsApp | Costo por conversación |
 |---|---|---|---|---|---|
-| 1. Testimonial (A + B) | S/1,840 | 146,264 | 1,503 | 225 | S/8.16 |
-| 2. Segmento A | S/1,605 | 127,583 | 1,311 | 197 | S/8.16 |
-| 3. Segmento B | S/1,605 | 127,583 | 1,311 | 197 | S/8.16 |
-| **Total** | **S/5,050** | **401,431** | **4,126** | **619** | **S/8.16** |
+| 1. Testimonial (A + B) | S/1,840 | 144,985 | 1,490 | 223 | S/8.23 |
+| 2. Segmento A | S/1,605 | 126,468 | 1,300 | 195 | S/8.23 |
+| 3. Segmento B | S/1,605 | 126,468 | 1,300 | 195 | S/8.23 |
+| **Total** | **S/5,050** | **397,920** | **4,090** | **613** | **S/8.23** |
 
-(Cálculo: impresiones = pauta ÷ 12.58 × 1,000; clics = pauta ÷ 1.224; conversaciones = clics × 15 %. Las cifras totales son las del #17.)
+(Cálculo: impresiones = pauta ÷ 12.691 × 1,000; clics = pauta ÷ 1.2348; conversaciones = clics × 15 %. Las cifras totales son las del #17: 397,920; 4,090 y 613. Los 223.5 del testimonial se redondean a 223 para que la columna sume 613; las impresiones por anuncio suman 1 más por redondeo.)
 
 | KPI | Valor base (#17) | Meta | Alerta y qué se hace |
 |---|---|---|---|
-| CPM | S/12.58 (rango S/10.20 a 15.64) | Dentro del rango | Si pasa de S/15.64, revisar público muy chico o anuncio repetido |
+| CPM | S/12.69 (rango S/10.29 a 15.78) | Dentro del rango | Si pasa de S/15.78, revisar público muy chico o anuncio repetido |
 | CTR | 1.03 % [POR CONFIRMAR] | 1 % o más | Menos de 0.8 %: cambiar los primeros 3 segundos o el texto (#17) |
-| CPC | S/1.224 | S/1.22 o menos | Sube sin que baje el CTR: renovar el video |
-| Costo por conversación | S/8.16 | S/5 o menos (documento 10) | Más de S/8 durante 2 meses: cambiar anuncio o público y pasar soles a degustación, sin cambiar el total del mes (documento 10, KPI 12 del #19) |
+| CPC | S/1.235 | S/1.24 o menos | Sube sin que baje el CTR: renovar el video |
+| Costo por conversación | S/8.23 (ya pasa el límite de alerta; ver #17) | S/5 o menos (documento 10) | Más de S/8 durante 2 meses: cambiar anuncio o público y pasar soles a degustación, sin cambiar el total del mes (documento 10, KPI 12 del #19) |
 | Reproducciones de 3 s ÷ impresiones | Sin dato de Perú | Se fija con el dato de enero [POR CONFIRMAR] | El anuncio con el valor más bajo se apaga en la prueba de 2 anuncios del mes |
 
-**Prueba de cada mes:** 2 versiones del gancho (los primeros 3 s) por segmento. A los 7 días se deja la que tenga menor costo por conversación (documento 10, riesgo 9: "probar 2 anuncios por mes").
+**Prueba de las variantes:** se sigue el 5-3-2 en 3 rondas (ganchos, cuerpos y CTA), como explica la sección 3.7. Esto cumple y amplía el riesgo 9 del documento 10 ("probar 2 anuncios por mes").
 
-**Prelanzamiento (dic-2026, S/600, 300 A y 300 B):** un solo corte de 15 s, "En enero abrimos en Jockey Plaza. Únete a la lista.", con el mismo objetivo de mensajes. Da unos 490 clics y 74 contactos (#17); los 26 que faltan para 100 vienen del orgánico y de los influencers.
+**Prelanzamiento (dic-2026, S/600, 300 A y 300 B):** un solo corte de 15 s, "En enero abrimos en Jockey Plaza. Únete a la lista.", con el mismo objetivo de mensajes. Da unos 490 clics y 73 contactos (#17); los 27 que faltan para 100 vienen del orgánico y de los influencers.
 
 ## 5. Cierre por WhatsApp
 
 ### 5.1 Configuración de WhatsApp Business (app gratuita)
 
-- **Perfil:** logo, "Mini brownies con sangrecita. Hierro medido en cada lote.", horario de atención, enlace a la página "Dónde estamos y pedido" y al Instagram.
+- **Perfil:** logo, "Mini brownies con sangrecita. Hierro medido en cada lote." (hasta tener el informe del primer lote: "Vamos a medir el hierro de cada lote."), horario de atención, enlace a la página "Dónde estamos y pedido" y al Instagram.
 - **Catálogo:** caja de 3 S/12.00; pack de 6 S/26.90; pack de 12 S/49.90 (S/4.16 por brownie). La unidad no se vende por WhatsApp.
 - **Etiquetas [PROPUESTA]:** "Nuevo-anuncio A", "Nuevo-anuncio B", "Lista de espera", "Pedido pendiente", "Pagado", "Entregado", "Recompra", "Embajadora". La etiqueta del anuncio mide qué segmento trajo cada contacto.
 - **Respuestas rápidas** (se escriben con "/"): "/oferta", "/pedido", "/confirmación", "/dondeestamos", "/sangrecita" (respuesta a "¿no sabe a sangrecita?") y "/lote" (cómo escanear el QR).
@@ -225,14 +322,15 @@ Cada anuncio pasa el checklist de 18 preguntas del #12 antes de pautarse: diseñ
 
 ## 8. Qué queda por confirmar
 
-- El sentido de "5-3-2" con la profesora (sección 3).
+- Límites actuales del creativo dinámico de Meta para el objetivo de Interacción (sección 3.7).
+- Explicación escrita del 5-3-2 de la clase, cuando se suba al Drive (hoy se usan los apuntes de Carlos).
 - CTR y conversión de clic a conversación: con Ads Manager en enero de 2027 (#17).
 - Nombres del objetivo y de las opciones de público en Ads Manager, y si se pueden elegir distritos de Lima.
 - Dominio de la app y de la página "Dónde estamos y pedido".
 - Aptitud del stand para Google Business Profile.
 - Redacción exacta del artículo 8 de la Ley 30021 e inscripción del banco de datos ante la ANPD (Adela).
 - Medios de pago por WhatsApp.
-- Contradicción menor: la línea de presupuesto de la pauta de expectativa dice "Instagram y TikTok" (#17 y documento 10, 6.5), pero la acción del documento 10 (fase 1) dice "Instagram y Facebook". Aquí se pauta en Meta (Instagram y Facebook) y TikTok es solo orgánico; el monto (S/600) no cambia.
+- Pauta de expectativa: la línea del Excel de marketing ("Presupuesto de marketing", celda C8) y de las diapositivas 35 y 36 de la TC5-8 dice "Instagram y TikTok". Se corrigió a "Instagram y Facebook" en el #17 y en el documento 10 (6.5), como en la fase 1 del documento 10: Meta no pauta en TikTok y TikTok es solo orgánico. El monto (S/600) no cambia. Queda para Carlos cambiar la etiqueta en el Excel y en las diapositivas.
 
 ## Fuentes
 
@@ -243,9 +341,9 @@ Documentos del proyecto
 - `04-reformulacion/T2/md/T2_09`, `T2_10`, `T2_11`, `T2_12` (secciones 5, 8.3, 9.4 y 11), `T2_13` (secciones 2.3, 3 y 4), `T2_17` (secciones 2.2 a 2.5) y `T2_19`.
 
 Externas (consultadas el 19-oct-2026)
-- Semrush, "The Perfect Posting Ratio For Social Media" (22-abr-2015; regla 5-3-2). https://www.semrush.com/blog/the-perfect-social-media-post-ratio/
-- Business.com, "Explained: The 5-3-2 Rule for Social Media". https://www.business.com/articles/explained-the-5-3-2-rule-for-social-media/
-- Social Champ, "How to Manage Social Media by 5-3-2 Rule". https://www.socialchamp.com/blog/how-5-3-2-rule-can-help-you-manage-social-media/
+- Clase de la sesión 09, regla 5-3-2 (5 ganchos, 3 cuerpos y 2 CTA), según los apuntes de Carlos Inga (19-oct-2026).
+- Jon Loomer, "A Guide to Flexible Ad Format" (creativo dinámico y formato flexible). https://www.jonloomer.com/flexible-ad-format/
+- Metricool, "Flexible Ads Format for Meta: How to Use the Dynamic Creative Ads Replacement". https://metricool.com/flexible-ads-meta/
 - Wikipedia, "Modelo AIDA" (origen atribuido a E. St. Elmo Lewis). https://es.wikipedia.org/wiki/AIDA_(mercadotecnia)
 - Meta, Normas de publicidad: Salud y bienestar (registro de cambios del 22-jul-2026). https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness
 - Meta, Normas de publicidad: Atributos personales. https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes
