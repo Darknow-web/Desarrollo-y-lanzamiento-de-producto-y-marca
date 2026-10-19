@@ -39,7 +39,7 @@ Video: maestro 16:9 de 16 s (`vid/campana_maestro.mp4`), sin texto en la imagen.
 ## 3. La idea
 
 - **Título:** Y entonces hicimos el nuestro.
-- **Manifiesto (8 líneas, unos 30 segundos leído):**
+- **Manifiesto (9 líneas, unos 30 segundos leído):**
 
   Rallaste zanahoria dentro de la torta.
   Le pusiste nombre de dinosaurio a la sopa.
@@ -134,7 +134,7 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
 - **Premio (para el adulto):** su truco abre el mural del stand de Jockey Plaza el 2 de enero, y el adulto gana un mes de lonchera: 4 packs de 12. Los 3 premios cuestan S/236 en producto y salen de los S/240 en premios; no hay dinero en efectivo.
 - **Qué alimenta:** cada participante recibe por mensaje la invitación a la lista de WhatsApp («entérate primero»). Así el concurso empuja la meta de 100 familias y los 500 seguidores de diciembre.
 - **Bases cortas (las publica la cuenta, las revisa Adela):** mayores de edad que viven en Lima; un truco por familia; sin el rostro, el nombre ni el colegio del niño; la marca puede volver a publicar el truco con el nombre de pila del adulto; los ganadores se anuncian el 2 de enero en Jockey Plaza y por mensaje directo.
-- **Legal:** ganan los más votados y no hay azar, así que es un concurso por votos: no requiere la autorización de MINCETUR que sí piden las promociones por azar (D. S. 006-2000-ITINCI). Adela confirma las bases antes del 1 de noviembre. Los influencers que participen marcan su post con #publicidad.
+- **Legal:** ganan los más votados, sin azar. Adela confirma con la ONAGI (Ministerio del Interior; D. S. 006-2000-IN, reglamento de promociones comerciales) antes del 1 de noviembre si el concurso necesita autorización, y publica las bases. Influencers que participen llevan #publicidad.
 - **Textos:** post de convocatoria: «Rallaste la zanahoria, le pusiste nombre a la sopa, inventaste el cuento. Nadie lo vio. Este diciembre sí lo aplaudimos: cuéntanos tu truco (sin tu hijo en cámara) con #LoQueNadieVe y etiquétanos. Los 3 más votados abren nuestro mural en Jockey Plaza y se llevan un mes de lonchera.» Historia «Así participas»: 1) Graba un video corto o toma una foto de tu truco, sin tu hijo en cámara. 2) Publícalo con #LoQueNadieVe y etiqueta a @andibite.pe. 3) Pide a tu familia que le dé «me gusta» en nuestra cuenta.
 
 
@@ -166,7 +166,7 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
 - **Por tipo de medio:**
   - **Promociones · S/7,596:** las 600 muestras, las degustaciones, el mural y el kit del stand, y los embajadores.
   - **Relaciones públicas · S/6,858:** los 40 influencers, las ferias y los eventos donde el truco se cuenta en voz alta.
-  - **Publicidad · S/5,950:** los anuncios de Claudia, Rodrigo y la familia real, la expectativa de diciembre y el video maestro.
+  - **Publicidad · S/5,950:** los anuncios de Claudia, Rodrigo y la familia real, el concurso #LoQueNadieVe y el video maestro.
   - **Ventas personales · S/4,140:** las personas que atienden, dan a probar y escuchan trucos en las ferias y los 40 eventos.
 
 ## 11. Gantt
