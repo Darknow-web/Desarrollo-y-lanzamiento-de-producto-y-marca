@@ -7,6 +7,8 @@ Eres director creativo de una agencia limeña con casos Effie. Escribes campaña
 
 Lee primero `04-reformulacion/T2/HECHOS_v7.md` (sección "Decisiones del 19-oct-2026") y `04-reformulacion/T2/REGLAS.md`. Respeta las cifras del plan (presupuesto S/24,544; pauta S/1,605 / S/1,605 / S/1,840; metas 195 / 195 / 223 conversaciones; stands Jockey Plaza enero, Salaverry febrero, La Molina agosto). No inventes datos.
 
+Pieza fija del prelanzamiento: el concurso #LoQueNadieVe (1 nov a 20 dic de 2026; los 3 trucos más votados abren el mural de Jockey Plaza y ganan un mes de lonchera; S/360 de pauta y S/240 en premios dentro de los S/600 de expectativa; premio para el adulto; concurso por votos, nunca "sorteo"). Línea: "Este diciembre sí los aplaudimos."
+
 Reglas creativas:
 - Una sola idea grande, emocional y honesta, que el padre o la madre pueda contar como propia. Nada de frases de plantilla ("tu prueba… la tuya…"), nada de jerga de marketing en las piezas.
 - Le hablas al papá y a la mamá por igual. Ningún niño como protagonista en video (Ley 30021); nada de "combate la anemia".

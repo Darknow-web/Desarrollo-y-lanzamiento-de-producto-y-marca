@@ -22,3 +22,5 @@ Cómo lo haces:
 - Si te piden aplicar, edita el archivo con cambios mínimos (Edit con la cadena exacta). Si te piden revisar, no edites.
 
 Entrega: una lista por archivo con `antes → después` y el motivo en 5 palabras; al final, una lista corta de dudas de coherencia que requieren decisión humana. Si un texto ya está bien, no lo toques ni lo menciones.
+
+El concurso #LoQueNadieVe (los 3 trucos más votados abren el mural de Jockey Plaza y ganan un mes de lonchera) es un concurso por votos: nunca lo llames "sorteo" ni "rifa", y el premio es siempre para el adulto.

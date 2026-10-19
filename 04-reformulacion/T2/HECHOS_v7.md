@@ -19,6 +19,7 @@
 - **Puntos de venta:** punto 1 Jockey Plaza (enero 2027), punto 2 Salaverry (febrero 2027, zona de Rodrigo), punto 3 La Molina (agosto 2027, familias A). Mismo costo del plan (S/600 al mes por punto más vendedor).
 - **Llamado a la acción:** siempre doble: "Pruébalo en el stand" y "Pídelo por WhatsApp". Meta Ads: "video para los padres".
 - **Campaña (decidida el 19-oct, segunda ronda): "Lo que nadie ve."** Idea: cada papá y cada mamá inventa trucos para que su hijo coma lo que le hace bien y nadie ve ese esfuerzo; AndiBite es "el truco que ya no necesita cuento" y la app muestra el hierro de cada día. Hashtag #LoQueNadieVe. Cartel del stand: "Aquí sí vemos tu truco." / "Cuéntanoslo y pruébalo con tu hijo." / slogan. Línea de cierre: "Lo que haces cada mañana, por fin se ve." Textos completos en `web-presentacion/CAMPANA-lo-que-nadie-ve.md`. Reemplaza a "Vuelve vacía" y a "Su prueba: la lonchera vacía…".
+- **Concurso #LoQueNadieVe (decidido el 19-oct-2026):** del 1 de noviembre al 20 de diciembre de 2026, papá o mamá publica su truco (sin el niño en cámara) con #LoQueNadieVe y etiquetando a @andibite.pe; la marca lo vuelve a publicar y ganan los 3 trucos con más "me gusta" en la cuenta de AndiBite al 31 de diciembre. Premio para el adulto: su truco abre el mural de Jockey Plaza el 2 de enero, y el adulto gana un mes de lonchera (4 packs de 12; S/236 en producto los tres). Sale de los S/600 de expectativa: S/360 de pauta y S/240 en premios; el total S/24,544 y el prelanzamiento S/1,758 no cambian. Es concurso por votos, sin azar, así que no requiere autorización de MINCETUR; Adela confirma las bases antes del 1 de noviembre. Alimenta la meta de 100 familias en WhatsApp. En la presentación va en la pantalla 33 (tarjeta S/600), en la etapa de prelanzamiento, en el manifiesto ("Este diciembre sí los aplaudimos.") y en el Gantt.
 - **FODA cruzado, estrategia FA:** "Diferenciarse con el sabor y el formato lonchera; hablar de hierro, no de anemia." (antes: "con el dato del lote").
 - **Presentación web:** sin líneas de fuente (salvo la cifra de anemia: INS-CENAN 2025, 15.5 % en niños de 5 a 11 años, "1 de cada 6"), sin "supuesto", "estimado" ni "[POR CONFIRMAR]", sin "EXPOINNOVA". Las fechas y metas del plan se presentan como plan, con seguridad.
 - **Documentos que todavía tienen el slogan o el enfoque viejo (se actualizan cuando Carlos lo pida):** T2_01 (Canvas), T2_04 (FA), T2_10, T2_11, T2_12, T2_13, T2_14, T2_15, T2_18, T2_21, `T2_Sustentacion-AndiBite.pptx`, `T2_22_Plan-de-marketing-AndiBite.pptx` y la TC5-8.
@@ -179,7 +180,7 @@ Documento 09; prototipo funcional en `app-andi-mision-hierro/`. Es una app web i
 |---|---|---|
 | Nov-26 | Video con niños | 300 |
 | Dic-26 | Influencers (40 packs: 20 A y 20 B) | 458 |
-| Dic-26 | Pauta de expectativa | 600 |
+| Dic-26 | Pauta de expectativa (360) y premios del concurso #LoQueNadieVe (240) | 600 |
 | Dic-26 | Material de punto de venta (POP) | 400 |
 | Ene-27 | 600 muestras | 1,146 |
 | Ene-27 | Material para ferias | 300 |

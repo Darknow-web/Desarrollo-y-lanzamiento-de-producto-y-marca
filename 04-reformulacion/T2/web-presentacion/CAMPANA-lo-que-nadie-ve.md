@@ -46,7 +46,8 @@ Video: maestro 16:9 de 16 s (`vid/campana_maestro.mp4`), sin texto en la imagen.
   El jugo verde fue «de Hulk» toda una semana.
   Y por el hígado inventaste un cuento con final feliz.
   Nadie aplaude esos trucos, porque nadie los ve.
-  Por eso hicimos uno que ya no necesita cuento:
+  Este diciembre sí los aplaudimos.
+  Y hicimos uno que ya no necesita cuento:
   un mini brownie que tu hijo te vuelve a pedir, con el hierro escondido adentro.
   Y una app que te muestra, cada día, lo que nadie ve.
 
@@ -124,7 +125,18 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
   1. **40 influencers con hijos (S/458).** 20 de Lima Top y 20 de Lima Moderna reciben su pack y cuentan su propio truco con #LoQueNadieVe y #publicidad, antes del 10 de enero.
   2. **10 kits para pediatras y nutricionistas.** En enero, para quienes escuchan más trucos que nadie en la consulta.
   3. **Papás y mamás embajadores (S/200 al mes).** Pasan su truco y su código en el chat del salón; la meta es 230 familias nuevas en 2027. El premio es para el adulto, nunca para el niño.
-  4. **Expectativa en diciembre (S/600).** «En enero abrimos en Jockey Plaza. Escríbenos tu truco por WhatsApp y entérate primero.»
+  4. **Concurso #LoQueNadieVe (S/600: S/360 de pauta de expectativa y S/240 en premios).** Del 1 de noviembre al 20 de diciembre, papá y mamá publican su truco y nos etiquetan; los 3 más votados abren el mural de Jockey Plaza y ganan un mes de lonchera. Cierra con la expectativa: «En enero abrimos en Jockey Plaza. Escríbenos tu truco por WhatsApp y entérate primero.»
+
+### 8b. Concurso #LoQueNadieVe · «Este diciembre sí los aplaudimos.»
+
+- **Por qué:** el manifiesto dice que nadie aplaude esos trucos. En diciembre la marca los aplaude en público. Esa es la razón para publicar, etiquetar y seguir la cuenta antes de que el brownie llegue al stand.
+- **Mecánica:** del 1 de noviembre al 20 de diciembre de 2026, papá o mamá publica su truco (video de 10 segundos o foto, sin el niño en cámara) con #LoQueNadieVe y etiquetando a @andibite.pe. La marca lo vuelve a publicar en su cuenta. Decide la comunidad: ganan los 3 trucos con más «me gusta» en la cuenta de AndiBite al 31 de diciembre.
+- **Premio (para el adulto):** su truco abre el mural del stand de Jockey Plaza el 2 de enero, y el adulto gana un mes de lonchera: 4 packs de 12. Los 3 premios cuestan S/236 en producto y salen de los S/240 en premios; no hay dinero en efectivo.
+- **Qué alimenta:** cada participante recibe por mensaje la invitación a la lista de WhatsApp («entérate primero»). Así el concurso empuja la meta de 100 familias y los 500 seguidores de diciembre.
+- **Bases cortas (las publica la cuenta, las revisa Adela):** mayores de edad que viven en Lima; un truco por familia; sin el rostro, el nombre ni el colegio del niño; la marca puede volver a publicar el truco con el nombre de pila del adulto; los ganadores se anuncian el 2 de enero en Jockey Plaza y por mensaje directo.
+- **Legal:** ganan los más votados y no hay azar, así que es un concurso por votos: no requiere la autorización de MINCETUR que sí piden las promociones por azar (D. S. 006-2000-ITINCI). Adela confirma las bases antes del 1 de noviembre. Los influencers que participen marcan su post con #publicidad.
+- **Textos:** post de convocatoria: «Rallaste la zanahoria, le pusiste nombre a la sopa, inventaste el cuento. Nadie lo vio. Este diciembre sí lo aplaudimos: cuéntanos tu truco (sin tu hijo en cámara) con #LoQueNadieVe y etiquétanos. Los 3 más votados abren nuestro mural en Jockey Plaza y se llevan un mes de lonchera.» Historia «Así participas»: 1) Graba un video corto o toma una foto de tu truco, sin tu hijo en cámara. 2) Publícalo con #LoQueNadieVe y etiqueta a @andibite.pe. 3) Pide a tu familia que le dé «me gusta» en nuestra cuenta.
+
 
 ## 9. Las cuatro etapas
 
@@ -132,7 +144,7 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
 - **Línea:** Cuatro etapas, de octubre de 2026 a diciembre de 2027.
 - **Prelanzamiento · oct a dic 2026 · S/1,758**
   - Instagram y WhatsApp abren con la pregunta «¿Cuál es tu truco?».
-  - El video maestro listo el 30 de noviembre; en diciembre, influencers y expectativa.
+  - Desde noviembre, el concurso #LoQueNadieVe: los 3 trucos más votados abren el mural. Video maestro el 30 de noviembre; influencers en diciembre.
   - Meta: 100 familias que nos escriben por WhatsApp antes del lanzamiento para enterarse primero.
 - **Lanzamiento · ene y feb 2027 · S/5,796**
   - Jockey Plaza abre el 2 y 3 de enero con el mural y 600 muestras.

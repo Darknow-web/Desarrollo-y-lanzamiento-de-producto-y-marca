@@ -149,6 +149,22 @@ Wide 16:9 photorealistic image, 1920x1080, of a small, warm brand stand inside a
 Vertical 4:5 product photograph, 1080x1350. On the light oak counter of the same stand, a small cream tent card (price holder) made of thick kraft-cream cardboard stands next to three small sealed matte kraft pouches, a terracotta lunchbox lid, a pad of blank cream sticky notes and a pen; the card is blank, with a soft brick-red stripe at the top and a small gold dot, and the text area is empty for later editing. Out of focus in the background, a corner of the kraft mural covered with blank sticky notes. Warm daylight from the left, soft shadows, shallow depth of field, premium but warm. Palette: cocoa brown, kraft, cream, brick red, warm gold. No readable text, no letters, no logos, no watermark, no people.
 ```
 
+## 4b. Concurso #LoQueNadieVe para redes (Nano Banana)
+
+Van en Instagram y en la historia destacada «Trucos». El texto del concurso, el hashtag y la cuenta se ponen después, en la app de diseño; la imagen va limpia.
+
+### R1 · Post de convocatoria «Este diciembre sí los aplaudimos» (4:5)
+
+```
+Vertical 4:5 photorealistic image, 1080x1350. Close-up of a kraft-paper mural wall in a warm Lima home-like setting, covered with dozens of blank sticky notes in cream, soft gold, pale terracotta and kraft tones, arranged loosely like a crowd of shared stories; one cream sticky note in the center is slightly lifted by an adult hand holding a pen, about to stick it on. Soft warm daylight from the left, shallow depth of field, a hint of a terracotta lunchbox and a small sealed matte kraft pouch out of focus on a wooden ledge at the bottom (use the attached product photo as reference; plain kraft if the label cannot be reproduced). The upper third of the mural is calmer, with fewer notes, so a headline can sit there later. Palette: cocoa brown, kraft, cream, brick red, warm gold. Warm, honest, celebratory, premium. All sticky notes are blank. No readable text, no letters, no logos, no watermark, no children.
+```
+
+### R2 · Historia «Así participas» (9:16, tres cuadros)
+
+```
+Vertical 9:16 photorealistic image, 1080x1920, one of three matching frames for an Instagram story. Frame A: an adult mother's hands holding a smartphone in portrait mode, recording herself in a bright Lima kitchen at 7 a.m.; on the counter, a grated carrot next to a slice of homemade cake and a terracotta lunchbox; her face is out of frame, only hands and kitchen. Frame B: an adult father's hand sticking a blank cream sticky note onto a kraft-paper mural full of blank notes. Frame C: a family's hands around a smartphone on a wooden table, thumbs up, with a small sealed matte kraft pouch and the terracotta lunchbox beside it. Same warm daylight, same palette (cocoa brown, kraft, cream, brick red, warm gold), the top 30 percent of each frame calm and uncluttered so a short step text can sit there later. All notes and screens are blank. No readable text, no letters, no logos, no watermark, no children's faces.
+```
+
 ## 5. Revisión crítica antes de usar
 
 - ¿Cada truco se entiende en un segundo y se ve con cariño (zanahoria en la torta, sopa de dinosaurios, jugo verde con mascarita, el cuento con las bolitas apanadas)? Si parece burla o es confuso, se regenera.
@@ -159,4 +175,5 @@ Vertical 4:5 product photograph, 1080x1350. On the light oak counter of the same
 - ¿La IA inventó letras en los post-its, el cartel o el envase? Se borra y el texto real lo pone la web.
 - ¿Hay carne cruda, sangre, pastillas o jarabes? Se descarta.
 - ¿El empaque es la bolsa kraft real o kraft liso? Cualquier otra cosa se descarta.
+- En R1 y R2 la IA no debe escribir el hashtag ni la cuenta: van encima, con la tipografía de la marca, junto con «Este diciembre sí los aplaudimos.» y las bases en el pie.
 - Para la pauta real, cada anuncio cierra con «AndiBite. El truco que ya no necesita cuento.», «Dulce para ellos. Tranquilidad para ti.» y los dos botones: «Pruébalo en el stand» y «Pídelo por WhatsApp». En la pauta pagada se dice «superhéroe», no «Hulk».
