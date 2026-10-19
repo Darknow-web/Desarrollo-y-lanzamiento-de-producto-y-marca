@@ -11,7 +11,7 @@ Textos para las 12 pantallas del capítulo 05 de la presentación web, para el j
 **Llamados:** «Pruébalo en el stand» y «Pídelo por WhatsApp».
 
 **El hilo de los títulos (se leen seguidos como una historia):**
-Lo que nadie ve → Todos tienen un truco → Y entonces hicimos el nuestro → Claudia ya probó todos los trucos → Rodrigo no tiene tiempo para cuentos → Y una familia real cuenta el suyo → En el stand, cada truco se cuenta en voz alta → Primero lo cuentan ellos → El truco corre de casa en casa → S/24,544 para que toda Lima cuente su truco → Detrás de cada truco, quince meses de trabajo → Los que no salen en el video.
+Lo que nadie ve → Todos tienen un truco → Y entonces hicimos el nuestro → Claudia ya probó todos los trucos → Rodrigo no tiene tiempo para cuentos → Y una familia real cuenta el suyo → En el stand, cada truco se cuenta en voz alta → Y otros lo cuentan por nosotros → El truco corre de casa en casa → S/24,544 para que toda Lima cuente su truco → Detrás de cada truco, quince meses de trabajo → Los que no salen en el video.
 
 ---
 
@@ -91,7 +91,7 @@ Video: maestro 16:9 de 16 s (`vid/campana_maestro.mp4`), sin texto en la imagen.
 - **Llamados:** Pruébalo en el stand · Pídelo por WhatsApp
 - **Tarjeta:**
   - Canal: Instagram y Facebook, video vertical de 8 s
-  - Cómo se hace: grabado con celular en enero, con una familia embajadora; sin costo de producción
+  - Cómo se hace: grabado con celular el 2 de enero en Jockey Plaza, con una de las tres familias ganadoras del concurso; sin costo de producción
   - Cuándo: desde febrero de 2027, en Lima Top y Lima Moderna
   - Inversión: S/1,840 de pauta
   - Meta: 223 conversaciones de WhatsApp
@@ -103,9 +103,9 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
 - **Título:** En el stand, cada truco se cuenta en voz alta.
 - **Línea:** Cuéntanos tu truco y pruébalo con tu hijo.
 - **Cómo funciona:**
-  1. Nos cuentas tu truco en 10 segundos a cámara, o lo escribes en un post-it del mural «Lo que nadie ve».
-  2. Tu hijo prueba el mini brownie contigo al lado.
-  3. Te llevas tu pack, y tu truco se queda en el mural.
+  1. El mural de post-its y un celular en trípode para grabar el truco en 10 segundos.
+  2. La mesa de degustación: 600 muestras en la apertura, con un vendedor que escucha.
+  3. La caja con los packs y el QR que abre la app antes de salir del stand.
 - **Cartel de tres líneas:**
   1. Aquí sí vemos tu truco.
   2. Cuéntanoslo y pruébalo con tu hijo.
@@ -117,9 +117,9 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
   - Jockey Plaza abre el 2 y 3 de enero de 2027
   - Salaverry en febrero y La Molina en agosto, con el mismo mural
 
-## 8. Primero lo cuentan ellos
+## 8. Y otros lo cuentan por nosotros
 
-- **Título:** Primero lo cuentan ellos.
+- **Título:** Y otros lo cuentan por nosotros.
 - **Línea:** Antes que nosotros, hablan los que ya tienen un truco.
 - **Puntos:**
   1. **40 influencers con hijos (S/458).** 20 de Lima Top y 20 de Lima Moderna reciben su pack y cuentan su propio truco con #LoQueNadieVe y #publicidad, antes del 10 de enero.
@@ -225,4 +225,4 @@ La app es la parte de la idea que «muestra lo que nadie ve». Se ajustan tres t
 5. **La campaña en una pantalla:** S/24,544, quince meses (octubre de 2026 a diciembre de 2027), concepto, 74 % en la calle y 26 % digital, y el gasto por tipo de medio.
 6. **Cuánto cuesta cada cosa:** las doce partidas (anuncios en Instagram y Facebook 4,050; YouTube 1,000; expectativa y premios 600; video maestro 300; influencers 458; 600 muestras 1,146; degustaciones 1,750; mural, cartel, hablador y material 2,300; embajadores 2,400; vendedores 4,140; stand en 2 ferias 3,600; aporte a 40 eventos 2,800).
 7. Las cuatro etapas y el Gantt.
-8. **Los materiales:** primero los videos de la marca («Primero hablamos nosotros»: convocatoria del concurso desde el 1 de noviembre con S/360 de pauta; video maestro del 30 de noviembre que cierra con «Cuéntanos el tuyo. #LoQueNadieVe»; historias de diciembre sin costo y presentación de los ganadores el 2 de enero), después los tres anuncios (publicidad en Instagram, Facebook y YouTube Shorts), «Primero lo cuentan ellos» (influencers, pediatras, embajadores y el concurso) y el stand (BTL) con el mural.
+8. **Los materiales:** primero los videos de la marca («Primero hablamos nosotros»: convocatoria del concurso desde el 1 de noviembre con S/360 de pauta; video maestro del 30 de noviembre que cierra con «Cuéntanos el tuyo. #LoQueNadieVe»; historias de diciembre sin costo y presentación de los ganadores el 2 de enero), después los tres anuncios (publicidad en Instagram, Facebook y YouTube Shorts), «Y otros lo cuentan por nosotros» (influencers, pediatras, embajadores y el concurso) y el stand (BTL) con el mural.
