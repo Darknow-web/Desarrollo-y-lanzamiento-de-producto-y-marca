@@ -15,7 +15,7 @@ export default function Hemoglobina() {
   const [valor, setValor] = useState('');
   const ir = useNavigate();
   if (!nino) return (
-    <div className="pantalla"><Encabezado titulo="Hemoglobina" atras="/" />
+    <div className="pantalla"><Encabezado titulo="Hemoglobina" atras="/mas" />
       <Vacio icono="calendario" titulo="Crea el perfil de tu hijo" texto="Para anotar sus controles y recordarte el próximo."><Boton onClick={() => ir('/bienvenida?volver=/hemoglobina')}>Crear perfil</Boton></Vacio></div>
   );
   const guardar = (f: (h: typeof datos) => void) => actualizar(e => { const h = e.hemoglobina[nino.id] ||= { resultados: [] }; f(h); });
@@ -27,7 +27,7 @@ export default function Hemoglobina() {
 
   return (
     <div className="pantalla hemoglobina">
-      <Encabezado titulo="Control de hemoglobina" atras="/" />
+      <Encabezado titulo="Control de hemoglobina" atras="/mas" />
       <SelectorNino />
       <Tarjeta>
         <h2>Próximo control</h2>

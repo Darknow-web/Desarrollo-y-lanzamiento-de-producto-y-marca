@@ -1,0 +1,29 @@
+/* Plan de loncheras con IA (premium): tarjeta de desbloqueo, resumen y días. Completa los estilos de padres.css. */
+.plan-bloqueado { display: grid; gap: 10px; padding: 28px 22px 22px; text-align: center; justify-items: center; }
+.plan-bloqueado-icono { width: 64px; height: 64px; border-radius: 22px; background: var(--ladrillo-suave); color: var(--ladrillo); display: grid; place-items: center; margin-bottom: 4px; }
+.plan-bloqueado h2 { font-size: 23px; max-width: 22ch; }
+.plan-bloqueado .nota { max-width: 36ch; }
+.plan-bloqueado .boton { margin-top: 10px; }
+.plan-bloqueado .enlace { min-height: 44px; }
+
+.plan-resumen { display: grid; gap: 4px; padding: 0 4px; }
+.plan-renueva { display: inline-flex; align-items: center; gap: 6px; color: var(--suave); font-size: 13.5px; font-weight: 600; margin-top: 4px; }
+.armar .plan-renueva { justify-self: center; margin-top: 6px; }
+.armar .enlace { justify-self: center; min-height: 44px; }
+
+.plan-cargando { display: grid; gap: 8px; text-align: center; justify-items: center; padding: 28px 22px 32px; }
+.plan-cargando .cargando { padding: 12px 0 20px; }
+.plan-cargando h2 { font-size: 21px; max-width: 24ch; }
+.plan-cargando .nota { max-width: 36ch; }
+
+.plan-dia .acompana span { white-space: nowrap; }
+.plan-andi { background: var(--dorado-suave); color: var(--dorado-oscuro); font-weight: 800; font-size: 12.5px; padding: 2px 10px; border-radius: 999px; }
+.plan-ingredientes { color: var(--suave); font-size: 13.5px; margin: 0 0 6px; }
+.plan-pasos { margin: 0; padding-left: 20px; display: grid; gap: 4px; color: var(--texto); }
+.plan-truco { display: flex; gap: 8px; align-items: flex-start; background: var(--oliva-suave); color: var(--oliva-oscuro); border-radius: var(--radio-sm); padding: 10px 12px; font-size: 13.5px; font-weight: 600; margin-top: 4px; }
+.plan-truco .icono { flex: none; margin-top: 2px; }
+
+.plan-compras { display: grid; gap: 12px; }
+.plan-grupo h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .1em; color: var(--suave); font-weight: 800; padding-bottom: 4px; }
+.plan-grupo ul { list-style: none; padding: 0; margin: 0; display: grid; }
+.plan-grupo li:first-child label { border-top: 0; }

@@ -4,6 +4,7 @@ import { Hono, type Context, type Next } from 'hono';
 import { Datos, UNIDADES, hoyLima, type Codigo, type KV, type Lote, type Presentacion, type Punto } from './datos';
 import { esValido, generar, normalizar } from './codigo';
 import { servirActivo, type KVActivos } from './activos';
+import { CODIGO_DEMO, crearPlan, esDemo, vigencia } from './plan';
 
 export interface Env {
   ANDI_KV: KV;
@@ -11,6 +12,8 @@ export interface Env {
   WHATSAPP_NUMBER?: string;
   PUBLIC_URL?: string;
   ADMIN_TOKEN?: string;
+  /** Secreto: clave de la API de Claude para el plan de loncheras (npx wrangler secret put ANTHROPIC_API_KEY). Sin ella, /api/plan responde 503. */
+  ANTHROPIC_API_KEY?: string;
 }
 type Ctx = Context<{ Bindings: Env; Variables: { datos: Datos } }>;
 
@@ -62,17 +65,23 @@ app.get('/api/config', c => c.json({
   publicUrl: c.env.PUBLIC_URL || '',
 }));
 
+// Además del lote, responde desde cuándo vale el plan de loncheras con IA (14 días desde el primer escaneo).
+// El código demo (AB-DEMO-2027, para el jurado) no lleva dígito de control, siempre está vigente y no se consume.
 const verCodigo = async (c: Ctx) => {
-  const code = normalizar(c.req.param('code'));
-  if (!code || !esValido(code)) return c.json({ error: 'codigo_invalido' }, 400);
+  const demo = esDemo(c.req.param('code'));
+  const code = demo ? CODIGO_DEMO : normalizar(c.req.param('code'));
+  if (!code || (!demo && !esValido(code))) return c.json({ error: 'codigo_invalido' }, 400);
   const datos = c.get('datos');
   const cod = await datos.getCodigo(code);
   if (!cod) return c.json({ error: 'codigo_no_encontrado' }, 404);
   const lote = await datos.getLote(cod.loteId);
   if (!lote) return c.json({ error: 'lote_no_encontrado' }, 404);
-  const contar = datos.registrarEscaneo(code).catch(e => console.error('escaneo', e));
-  try { c.executionCtx.waitUntil(contar); } catch { await contar; }
-  return c.json({ codigo: { code: cod.code, presentacion: cod.presentacion, unidades: cod.unidades }, lote: lotePublico(lote) });
+  const { escaneadoEl, planHasta } = vigencia(cod);
+  if (!demo) {
+    const contar = datos.registrarEscaneo(code, escaneadoEl).catch(e => console.error('escaneo', e));
+    try { c.executionCtx.waitUntil(contar); } catch { await contar; }
+  }
+  return c.json({ codigo: { code: cod.code, presentacion: cod.presentacion, unidades: cod.unidades }, lote: lotePublico(lote), escaneadoEl, planHasta });
 };
 app.get('/api/codigos/:code', limitar(60), verCodigo);
 app.get('/api/c/:code', limitar(60), verCodigo);
@@ -82,6 +91,9 @@ app.get('/api/lotes/:id', async c => {
   if (!l) return c.json({ error: 'lote_no_encontrado' }, 404);
   return c.json(lotePublico(l));
 });
+
+// Plan de loncheras con IA (premium): ver worker/plan.ts.
+app.post('/api/plan', limitar(10), crearPlan);
 
 app.get('/api/puntos', async c => {
   const hoy = hoyLima();

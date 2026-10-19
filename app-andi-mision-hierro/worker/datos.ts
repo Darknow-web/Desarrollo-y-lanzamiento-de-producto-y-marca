@@ -3,6 +3,7 @@
 //   lote:<id>            ficha y análisis de laboratorio del lote (JSON)
 //   codigo:<AB-XXXX-XXXX> código del envase (JSON; la metadata repite lote, presentación y escaneos para listar rápido)
 //   escaneos:<loteId>    escaneos por día del lote (JSON { "2026-10-19": 3 })
+//   plan:<codigo>:<semana>:<hash>  plan de loncheras generado con IA (JSON, vence a los 30 días; ver plan.ts)
 //   config:puntos        stands y ferias (JSON)
 //   config:semilla       marca que indica que ya se cargó data/seed.json
 // Si KV está vacío, la primera petición carga data/seed.json.
@@ -12,7 +13,7 @@ import semilla from '../data/seed.json';
 export interface KV {
   get(key: string, type: 'json'): Promise<unknown>;
   get(key: string): Promise<string | null>;
-  put(key: string, value: string, options?: { metadata?: unknown }): Promise<void>;
+  put(key: string, value: string, options?: { metadata?: unknown; expirationTtl?: number }): Promise<void>;
   list(options?: { prefix?: string; cursor?: string; limit?: number }): Promise<{
     keys: { name: string; metadata?: unknown }[]; list_complete: boolean; cursor?: string;
   }>;
@@ -26,7 +27,8 @@ export interface Lote {
   octogonos?: string[]; laboratorio?: string; informe?: string; fechaInforme?: string; origenSangrecita?: string;
   registroSanitario?: string; planta?: string; alergenos?: string[]; ingredientes?: string;
 }
-export interface Codigo { code: string; loteId: string; presentacion: Presentacion; unidades: number; creado: string; escaneos: number; primerEscaneo?: string; ultimoEscaneo?: string }
+/** `escaneadoEl` es la fecha del primer escaneo: desde ahí corren los 14 días del plan de loncheras (`primerEscaneo` es su alias antiguo). */
+export interface Codigo { code: string; loteId: string; presentacion: Presentacion; unidades: number; creado: string; escaneos: number; escaneadoEl?: string; primerEscaneo?: string; ultimoEscaneo?: string }
 export interface Punto { id: string; nombre: string; lugar: string; distrito: string; desde: string; hasta?: string; horario?: string }
 interface Semilla { version: number; lotes: Record<string, Lote>; codigos: Record<string, Codigo>; puntos: Punto[] }
 
@@ -99,10 +101,12 @@ export class Datos {
     });
     return lista.filter(c => !loteId || c.loteId === loteId);
   }
-  async registrarEscaneo(code: string) {
+  /** Suma un escaneo y fija `escaneadoEl` la primera vez (se puede pasar la fecha que ya se le respondió al cliente). */
+  async registrarEscaneo(code: string, escaneadoEl?: string) {
     const c = await this.getCodigo(code); if (!c) return;
     const ahora = new Date().toISOString();
-    const nuevo: Codigo = { ...c, escaneos: (c.escaneos || 0) + 1, primerEscaneo: c.primerEscaneo || ahora, ultimoEscaneo: ahora };
+    const primero = c.escaneadoEl || c.primerEscaneo || escaneadoEl || ahora;
+    const nuevo: Codigo = { ...c, escaneos: (c.escaneos || 0) + 1, escaneadoEl: primero, primerEscaneo: primero, ultimoEscaneo: ahora };
     await this.kv.put(K.codigo(code), JSON.stringify(nuevo), { metadata: metaCodigo(nuevo) });
     const dias = await this.escaneosDe(c.loteId); const hoy = hoyLima();
     dias[hoy] = (dias[hoy] || 0) + 1;

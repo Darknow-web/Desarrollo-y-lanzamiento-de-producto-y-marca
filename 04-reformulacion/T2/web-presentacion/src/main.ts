@@ -29,23 +29,26 @@ injectIcons();
 const mapaEl = $('#mapa');
 if (mapaEl) buildMapa(mapaEl);
 
-async function buildQr(): Promise<void> {
-  const box = $('#qr');
-  const label = $('#qr-url');
-  if (label) label.textContent = APP_URL.replace(/^https?:\/\//, '').replace(/\/$/, '');
+const DEMO_URL = `${APP_URL.replace(/\/$/, '')}/c/AB-DEMO-2027`;
+
+async function buildQr(sel: string, url: string, labelSel?: string): Promise<void> {
+  const box = $(sel);
+  const label = labelSel ? $(labelSel) : null;
+  if (label) label.textContent = url.replace(/^https?:\/\//, '').replace(/\/$/, '');
   if (!box) return;
   try {
-    box.innerHTML = await QRCode.toString(APP_URL, {
+    box.innerHTML = await QRCode.toString(url, {
       type: 'svg',
       margin: 1,
       errorCorrectionLevel: 'M',
       color: { dark: '#3B1A14', light: '#FFFFFF' },
     });
   } catch {
-    box.textContent = APP_URL;
+    box.textContent = url;
   }
 }
-void buildQr();
+void buildQr('#qr', APP_URL, '#qr-url');
+void buildQr('#qr2', DEMO_URL);
 
 // Marcos reservados para las imágenes y el video de la campaña.
 // Si el archivo existe en public/, se muestra; si no, queda el degradado con su etiqueta.
@@ -65,7 +68,7 @@ function setupMedia(): void {
       v.loop = true;
       v.playsInline = true;
       v.preload = 'metadata';
-      v.setAttribute('aria-label', 'Video corto de la campaña Vuelve vacía');
+      v.setAttribute('aria-label', `${label} · ${note}`);
       v.addEventListener('loadeddata', () => m.classList.add('has-media'), { once: true });
       v.addEventListener('error', () => v.remove(), { once: true });
       v.src = m.dataset.video ?? '';

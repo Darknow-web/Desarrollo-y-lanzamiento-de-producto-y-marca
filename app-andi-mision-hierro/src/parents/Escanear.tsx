@@ -7,6 +7,7 @@ import { Cascada, Item } from '../components/movimiento';
 import { codigoDesdeQR, codigoValido, mascaraCodigo } from '../lib/codigo';
 import { useEstado } from '../lib/estado';
 import { fechaCorta } from '../lib/fechas';
+import { desbloquearPlan } from '../lib/plan';
 
 interface Detector { detect(src: CanvasImageSource): Promise<{ rawValue: string }[]> }
 declare global { interface Window { BarcodeDetector?: new (o: { formats: string[] }) => Detector } }
@@ -70,7 +71,8 @@ export function ZonaEscaneo() {
   const soporta = camaraDisponible();
   const valido = codigoValido(texto);
   const completo = texto.replace(/-/g, '').length === 10;
-  const leer = useRef((c: string) => ir(`/c/${c}`)).current;
+  // Cada pack escaneado desbloquea 14 días el plan de loncheras con IA (se guarda en el teléfono).
+  const leer = useRef((c: string) => { desbloquearPlan(c); ir(`/c/${c}`); }).current;
   const fallar = useRef(() => setCamara('error')).current;
 
   return (
@@ -81,7 +83,7 @@ export function ZonaEscaneo() {
           : (
             <motion.div key="botones" className="escaneo-acciones" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
               {soporta && <Boton icono="camara" ancho onClick={() => setCamara('activa')}>Abrir la cámara</Boton>}
-              <Boton icono="qr" ancho tipo={soporta ? 'secundario' : 'primario'} onClick={() => ir(`/c/${CODIGO_MUESTRA}`)}>Probar con un envase de muestra</Boton>
+              <Boton icono="qr" ancho tipo={soporta ? 'secundario' : 'primario'} onClick={() => { desbloquearPlan(CODIGO_MUESTRA); ir(`/c/${CODIGO_MUESTRA}`); }}>Probar con un envase de muestra</Boton>
               {camara === 'error' && <p className="error-texto" role="alert">No pudimos abrir la cámara. Revisa el permiso, o abre la cámara de tu celular y apunta al QR.</p>}
               {!soporta && <p className="nota centro">También puedes abrir la cámara de tu celular y apuntar al QR: tu lote se abre aquí.</p>}
             </motion.div>
@@ -92,7 +94,7 @@ export function ZonaEscaneo() {
         <button type="button" className="enlace" onClick={() => setManual(true)}>Escribir el código del envase</button>
       ) : (
         <motion.form className="tarjeta codigo-manual" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }}
-          onSubmit={e => { e.preventDefault(); if (valido) ir(`/c/${texto}`); }}>
+          onSubmit={e => { e.preventDefault(); if (valido) { desbloquearPlan(texto); ir(`/c/${texto}`); } }}>
           <label htmlFor="codigo"><strong>Código del envase</strong><small>Está debajo del QR: AB-XXXX-XXXX</small></label>
           <input id="codigo" value={texto} inputMode="text" autoCapitalize="characters" autoComplete="off" spellCheck={false} autoFocus
             onChange={e => setTexto(mascaraCodigo(e.target.value))} aria-invalid={completo && !valido} className={completo ? (valido ? 'ok' : 'mal') : ''} />

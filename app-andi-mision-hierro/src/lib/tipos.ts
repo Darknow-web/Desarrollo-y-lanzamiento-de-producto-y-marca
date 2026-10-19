@@ -24,9 +24,14 @@ export interface ProgresoNino {
 }
 export interface Ajustes { tiempoJuegoMin: number; voz: boolean; avisos: boolean }
 
+/** Reto lonchera vacía: por niño, cada día de colegio (YYYY-MM-DD) marcado true si la lonchera volvió vacía. */
+export type Reto = Record<string, Record<string, boolean>>;
+
 export interface Estado {
   version: 1;
   consentimiento?: { fecha: string; avisos: boolean };
+  /** La bienvenida (3 pantallas) se muestra solo la primera vez. */
+  bienvenidaVista?: boolean;
   ninos: Nino[];
   ninoActivo?: string;
   registros: Registro[];
@@ -34,6 +39,7 @@ export interface Estado {
   hemoglobina: Record<string, Hemoglobina>;
   loncheras?: PlanLoncheras;
   progreso: Record<string, ProgresoNino>;
+  reto: Reto;
   ajustes: Ajustes;
   codigosVistos: { code: string; loteId: string; fecha: string }[];
 }

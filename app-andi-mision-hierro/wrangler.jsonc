@@ -26,5 +26,7 @@
     // Dirección pública de la app; va dentro de cada QR (https://.../c/CODIGO). Si el subdominio es otro, cámbialo aquí.
     "PUBLIC_URL": "https://andi-app.cingacordova.workers.dev"
   }
-  // Secreto (no va en este archivo): npx wrangler secret put ADMIN_TOKEN
+  // Secretos (no van en este archivo):
+  //   npx wrangler secret put ADMIN_TOKEN        clave del panel /admin
+  //   npx wrangler secret put ANTHROPIC_API_KEY  clave de la API de Claude para el plan de loncheras con IA (/api/plan); sin ella responde 503
 }

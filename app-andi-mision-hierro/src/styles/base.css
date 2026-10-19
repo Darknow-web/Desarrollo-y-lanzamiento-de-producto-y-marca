@@ -47,7 +47,7 @@ img, svg { max-width: 100%; }
 
 .kicker { font-family: var(--fuente-titulo); font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ladrillo); }
 
-.boton { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 999px; font-weight: 800; font-size: 16px; transition: transform .15s, box-shadow .2s, background .2s; text-align: center; }
+.boton { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 56px; padding: 0 22px; border-radius: 999px; font-weight: 800; font-size: 16px; transition: transform .15s, box-shadow .2s, background .2s; text-align: center; }
 .boton:active:not(:disabled) { transform: scale(.98); }
 .boton:disabled, .boton.deshabilitado { opacity: .45; cursor: not-allowed; pointer-events: none; }
 .boton-primario { background: var(--ladrillo); color: #fff; box-shadow: 0 8px 20px rgba(186, 64, 54, .25); }

@@ -19,8 +19,8 @@ export default function Donde() {
   const hoy = hoyISO();
   return (
     <Cascada className="pantalla donde">
-      <Encabezado titulo="Dónde estamos" atras="/" />
-      <Item><p className="lead">En el stand tu hijo prueba antes de comprar. Estos son nuestros próximos puntos en Lima.</p></Item>
+      <Encabezado titulo="Dónde comprar" atras="/mas" />
+      <Item><p className="lead">En el stand tu hijo prueba antes de comprar. Estos son los próximos puntos en Lima.</p></Item>
       {puntos === null ? <div className="cargando"><i /><i /><i /></div> : puntos.length === 0 ? (
         <Vacio icono="mapa" titulo="Pronto anunciamos nuevos puntos" texto="Mientras tanto, pide por WhatsApp desde tu despensa." />
       ) : puntos.map(p => {

@@ -15,8 +15,8 @@ export default function Informe() {
   const [error, setError] = useState(false);
   useEffect(() => { consultarLote(id).then(setLote).catch(() => setError(true)); }, [id]);
 
-  if (error) return <div className="pantalla"><Encabezado titulo="Informe" atras="/" /><Tarjeta className="error-tarjeta"><Icono n="info" tam={28} /><p>No encontramos el informe de este lote.</p></Tarjeta></div>;
-  if (!lote) return <div className="pantalla"><Encabezado titulo="Informe" atras="/" /><div className="cargando"><i /><i /><i /></div></div>;
+  if (error) return <div className="pantalla"><Encabezado titulo="Informe" atras={-1} /><Tarjeta className="error-tarjeta"><Icono n="info" tam={28} /><p>No encontramos el informe de este lote.</p></Tarjeta></div>;
+  if (!lote) return <div className="pantalla"><Encabezado titulo="Informe" atras={-1} /><div className="cargando"><i /><i /><i /></div></div>;
 
   const peso = lote.pesoUnidadG || 20;
   const filas: [string, string, string][] = [
@@ -34,7 +34,7 @@ export default function Informe() {
       <Encabezado titulo="Informe del laboratorio" atras={-1} accion={<button className="btn-icono" onClick={compartir} aria-label="Compartir"><Icono n="compartir" /></button>} />
       <Item as="section" className="tarjeta documento">
         <div className="documento-cabeza">
-          <div><p className="kicker">Informe de ensayo</p><h1>{lote.informe}</h1></div>
+          <div><p className="kicker">Lo que dice el laboratorio</p><h1>{lote.informe}</h1></div>
           <span className="sello" aria-hidden="true"><Icono n="matraz" tam={26} /></span>
         </div>
         <dl className="documento-datos">

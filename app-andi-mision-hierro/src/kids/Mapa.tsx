@@ -1,48 +1,41 @@
 import type { CSSProperties } from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'motion/react';
 import Andi from '../components/Andi';
 import { useProgreso } from '../lib/estado';
+import { hoyISO } from '../lib/fechas';
 import { hablar } from '../lib/voz';
-import { PARADAS, PIEZAS, piezasDe } from '../data/ninos';
-import { ninoSesion } from './progreso';
+import { PARADAS } from '../data/ninos';
+import { ninoSesion, useLook } from './progreso';
 
-const POS = [{ x: 22, y: 72 }, { x: 70, y: 58 }, { x: 28, y: 38 }, { x: 72, y: 20 }];
+const SUAVE = [0.22, 0.8, 0.24, 1] as const;
 
+/** Mapa de la misión: Andi con su look arriba y un botón grande por juego. */
 export default function Mapa() {
-  const p = useProgreso(ninoSesion());
-  const piezas = piezasDe(p.estrellas);
-  const siguiente = PIEZAS.find(x => p.estrellas < x.estrellas);
+  const id = ninoSesion();
+  const p = useProgreso(id);
+  const { look, fondo } = useLook(id);
+  const hoy = hoyISO();
   return (
     <div className="mapa">
-      <div className="mapa-andi" onClick={() => hablar(siguiente ? `Con ${siguiente.estrellas - p.estrellas} estrellas más me pongo ${siguiente.nombre.toLowerCase()}.` : '¡Tengo todo mi traje de explorador! Gracias.')}>
-        <Andi tam={118} piezas={piezas} className="andi-flota" />
-        <div className="burbuja">{siguiente ? <>Juega y gana estrellas. ¡Con {siguiente.estrellas - p.estrellas} más me pongo {siguiente.nombre.toLowerCase()}!</> : <>¡Ya tengo todo mi traje de explorador!</>}</div>
-      </div>
-      <div className="mapa-terreno">
-        <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="mapa-fondo" aria-hidden="true">
-          <defs><linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#FBEFD9" /><stop offset="1" stopColor="#F5DCAE" /></linearGradient></defs>
-          <rect width="100" height="100" fill="url(#cielo)" />
-          <path d="M0 40 L18 14 L30 30 L46 6 L62 28 L78 10 L100 36 V100 H0Z" fill="#6B3A2A" opacity=".28" />
-          <path d="M40 8 L46 6 L52 12 Z M74 13 L78 10 L82 14 Z" fill="#fff" />
-          <path d="M0 52 Q25 40 50 50 T100 46 V100 H0Z" fill="#B5BE78" />
-          <ellipse cx="72" cy="62" rx="20" ry="6" fill="#FFF8EC" opacity=".85" />
-          <path d="M0 78 Q30 68 60 80 T100 76 V100 H0Z" fill="#7C8A3A" />
-          <path d="M22 72 C34 62 60 70 70 58 S36 44 28 38 S60 28 72 20" fill="none" stroke="#fff" strokeWidth="1.4" strokeDasharray="2.2 2.2" strokeLinecap="round" />
-        </svg>
+      <motion.div className={`mapa-andi fondo-${fondo}`} initial={{ opacity: 0, scale: .94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .35, ease: SUAVE }}
+        onClick={() => hablar(p.estrellas ? `Tienes ${p.estrellas} estrella${p.estrellas === 1 ? '' : 's'}. ¿Jugamos?` : '¡Juega y gana estrellas para vestirme!')}>
+        <Andi tam={150} look={look} className="andi-flota" />
+        <span className="mapa-estrellas" aria-label={`${p.estrellas} estrellas`}>⭐ {p.estrellas}</span>
+      </motion.div>
+      <div className="mapa-juegos">
         {PARADAS.map((s, i) => {
-          const hecho = (p.jugados[s.id] || 0) > 0;
+          const hecho = p.premiados[s.id] === hoy;
           return (
-            <Link key={s.id} to={`/ninos/${s.id}`} className={`parada ${hecho ? 'hecha' : ''}`} style={{ left: `${POS[i].x}%`, top: `${POS[i].y}%`, '--c': s.color } as CSSProperties}
-              onClick={() => hablar(s.juego)} aria-label={`${s.juego}, en ${s.lugar}`}>
-              <span className="parada-emoji" aria-hidden="true">{s.emoji}</span>
-              <span className="parada-nombre">{s.juego}<small>{s.lugar}</small></span>
-              {hecho && <span className="parada-check" aria-hidden="true">⭐</span>}
-            </Link>
+            <motion.div key={s.id} initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .32, delay: .08 + i * .07, ease: SUAVE }}>
+              <Link to={`/ninos/${s.id}`} className={`parada ${hecho ? 'hecha' : ''}`} style={{ '--c': s.color } as CSSProperties} onClick={() => hablar(s.juego)}>
+                <span className="parada-emoji" aria-hidden="true">{s.emoji}</span>
+                <span className="parada-nombre">{s.juego}</span>
+                {hecho && <span className="parada-check" aria-label="Estrella de hoy ganada">⭐</span>}
+              </Link>
+            </motion.div>
           );
         })}
-      </div>
-      <div className="traje">
-        {PIEZAS.map(x => <div key={x.id} className={`traje-pieza ${p.estrellas >= x.estrellas ? 'tiene' : ''}`}><span>{p.estrellas >= x.estrellas ? '✓' : `⭐${x.estrellas}`}</span>{x.nombre}</div>)}
       </div>
     </div>
   );

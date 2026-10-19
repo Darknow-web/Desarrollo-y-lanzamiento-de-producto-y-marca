@@ -69,6 +69,8 @@ export default function Despensa() {
             </div>
           </Item>
 
+          <Item><Link to="/escanear" className="boton boton-secundario boton-ancho"><Icono n="qr" tam={20} /><span>Escanear un pack nuevo</span></Link></Item>
+
           <Item as="section" className="lista">
             {despensa.map(d => (
               <Tarjeta key={d.id} className={`item-despensa ${d.restantes === 0 ? 'vacio-item' : ''}`}>
@@ -78,6 +80,7 @@ export default function Despensa() {
                     <strong>{NOMBRE_PRESENTACION[d.presentacion]} · {d.sabor}</strong>
                     <div className="progreso" aria-hidden="true"><i style={{ width: `${(d.restantes / d.unidades) * 100}%` }} /></div>
                     <small>Quedan {d.restantes} de {d.unidades} · desde {relativa(d.desde)}</small>
+                    {d.codigo && <Link to={`/c/${d.codigo}`} className="enlace enlace-ficha"><Icono n="matraz" tam={16} /> Ficha del lote y laboratorio</Link>}
                   </div>
                   <Boton tipo="suave" onClick={() => comio(d.id)} deshabilitado={d.restantes === 0}>Comió 1</Boton>
                 </div>
@@ -119,7 +122,8 @@ function Agregar({ abierta, alCerrar }: { abierta: boolean; alCerrar: () => void
   const ir = useNavigate();
   return (
     <Hoja abierta={abierta} alCerrar={alCerrar} titulo="Agregar a mi despensa">
-      <p className="nota">Si tienes el envase, mejor escanéalo: así ves el hierro de tu lote.</p>
+      <Link to="/escanear" className="boton boton-secundario boton-ancho" onClick={alCerrar}><Icono n="qr" tam={20} /><span>Escanear el envase</span></Link>
+      <p className="nota centro">O agrégalo a mano:</p>
       <div className="campo"><span>Presentación</span><div className="chips">{(['pack6', 'pack12', 'unidad'] as const).map(p => <button key={p} className={`chip ${p === pres ? 'chip-activo' : ''}`} onClick={() => setPres(p)}>{NOMBRE_PRESENTACION[p]}</button>)}</div></div>
       <div className="campo"><span>Sabor</span><div className="chips">{(['Surtido', 'Chispa', 'Andi', 'Lúcu'] as const).map(s => <button key={s} className={`chip ${s === sabor ? 'chip-activo' : ''}`} onClick={() => setSabor(s)}>{s}</button>)}</div></div>
       <Boton ancho onClick={() => {

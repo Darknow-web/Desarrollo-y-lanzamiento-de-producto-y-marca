@@ -5,7 +5,7 @@ import Celebracion from './Celebracion';
 import { CARTAS } from '../data/ninos';
 import { hablar, sonido } from '../lib/voz';
 import { obtener } from '../lib/estado';
-import { completarJuego, ninoSesion } from './progreso';
+import { completarJuego, ninoSesion, useLook } from './progreso';
 
 interface Ficha { k: number; id: string; emoji: string; nombre: string; dato: string }
 const mezclar = <T,>(a: T[]) => [...a].sort(() => Math.random() - 0.5);
@@ -17,6 +17,7 @@ function repartir(pares: number): Ficha[] {
 
 export default function Memoria() {
   const ir = useNavigate();
+  const { look } = useLook(ninoSesion());
   const edad = obtener().ninos.find(n => n.id === ninoSesion())?.edad ?? 6;
   const pares = edad <= 5 ? 4 : edad <= 8 ? 6 : 8;
   const [fichas, setFichas] = useState(() => repartir(pares));
@@ -40,13 +41,13 @@ export default function Memoria() {
       } else setTimeout(() => setAbiertas([]), 900);
     }
   };
-  if (fin) return <Celebracion titulo="¡Qué buena memoria!" estrella={fin.estrella} piezaNueva={fin.piezaNueva} alSeguir={() => ir('/ninos')}
+  if (fin) return <Celebracion titulo="¡Qué buena memoria!" ganadas={fin.ganadas} alSeguir={() => ir('/ninos')}
     alRepetir={() => { setFin(null); setFichas(repartir(pares)); setHechas([]); setAbiertas([]); }} />;
 
   return (
     <div className="juego juego-memoria">
-      <div className="andi-habla" onClick={() => hablar(dato)}><Andi tam={80} animo={hechas.length ? 'wow' : 'feliz'} /><p className="burbuja">{dato}</p></div>
-      <div className={`tablero cols-${pares <= 4 ? 4 : pares <= 6 ? 4 : 4}`}>
+      <div className="andi-habla" onClick={() => hablar(dato)}><Andi tam={80} look={look} animo={hechas.length ? 'wow' : 'feliz'} /><p className="burbuja">{dato}</p></div>
+      <div className="tablero">
         {fichas.map(f => {
           const visible = abiertas.includes(f.k) || hechas.includes(f.id);
           return (

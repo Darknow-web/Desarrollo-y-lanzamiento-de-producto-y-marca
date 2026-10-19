@@ -145,6 +145,14 @@
    "unidades": 1,
    "creado": "2026-10-08T12:00:00.000Z",
    "escaneos": 0
+  },
+  "AB-DEMO-2027": {
+   "code": "AB-DEMO-2027",
+   "loteId": "L2610-CH",
+   "presentacion": "pack6",
+   "unidades": 6,
+   "creado": "2026-10-19T12:00:00.000Z",
+   "escaneos": 0
   }
  },
  "puntos": [

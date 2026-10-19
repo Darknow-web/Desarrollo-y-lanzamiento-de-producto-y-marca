@@ -4,22 +4,25 @@ import Icono, { type NombreIcono } from '../components/Icono';
 import { Boton, Encabezado, Hoja, Interruptor, Paso, Tarjeta, aviso } from '../components/ui';
 import { actualizar, borrarTodo, obtener, useEstado } from '../lib/estado';
 import { AVATARES } from './Bienvenida';
+import { SLOGAN } from './Inicio';
 import type { Nino } from '../lib/tipos';
 
-const ENLACES: { a: string; n: NombreIcono; t: string; d: string }[] = [
-  { a: '/despensa', n: 'bolsa', t: 'Mi despensa y pedidos', d: 'Cuántos brownies quedan y pedir por WhatsApp' },
-  { a: '/hemoglobina', n: 'calendario', t: 'Control de hemoglobina', d: 'Próximo control y resultados' },
-  { a: '/donde', n: 'mapa', t: 'Dónde estamos', d: 'Nuestros stands en Lima' },
-  { a: '/ninos', n: 'ninos', t: 'Misión Hierro (modo niños)', d: 'Juegos para aprender a comer hierro' },
-  { a: '/privacidad', n: 'escudo', t: 'Privacidad y datos', d: 'Qué guardamos y cómo borrarlo' },
-];
+export const NOTA_LEGAL = 'AndiBite aporta hierro; no reemplaza una alimentación variada ni las indicaciones de tu pediatra.';
 
 export default function Mas() {
   const ninos = useEstado(e => e.ninos);
   const ajustes = useEstado(e => e.ajustes);
+  const ultimo = useEstado(e => e.codigosVistos[0]?.code);
   const [editando, setEditando] = useState<Nino | null>(null);
   const ir = useNavigate();
   const aj = (f: (a: typeof ajustes) => void) => actualizar(e => { f(e.ajustes); });
+
+  const enlaces: { a: string; n: NombreIcono; t: string; d: string }[] = [
+    { a: '/escanear', n: 'qr', t: 'Escanear un pack', d: 'Lee el QR del envase y súmalo a tu despensa' },
+    { a: ultimo ? `/c/${ultimo}` : '/escanear', n: 'matraz', t: 'Ficha del producto y laboratorio', d: ultimo ? 'Tu último lote y lo que dice el laboratorio' : 'Escanea un pack para ver su lote' },
+    { a: '/hemoglobina', n: 'calendario', t: 'Control de hemoglobina', d: 'Próximo control y resultados' },
+    { a: '/donde', n: 'mapa', t: 'Dónde comprar', d: 'Nuestros stands en Lima' },
+  ];
 
   return (
     <div className="pantalla mas">
@@ -33,8 +36,10 @@ export default function Mas() {
         ))}
         <Boton tipo="suave" icono="sumar" onClick={() => ir('/bienvenida?volver=/mas')}>Agregar hijo o hija</Boton>
       </Tarjeta>
-      <nav className="tarjeta enlaces">
-        {ENLACES.map(e => <Link key={e.a} to={e.a} className="fila"><Icono n={e.n} /><span><strong>{e.t}</strong><small>{e.d}</small></span><Icono n="derecha" /></Link>)}
+      <nav className="tarjeta enlaces" aria-label="Opciones">
+        {enlaces.map(e => <Link key={e.t} to={e.a} className="fila"><Icono n={e.n} /><span><strong>{e.t}</strong><small>{e.d}</small></span><Icono n="derecha" /></Link>)}
+        <div className="fila"><Icono n="corazon" /><span><strong>Mamás que recomiendan</strong><small>Pregunta en el stand por tu código de embajadora; el premio es para ti.</small></span></div>
+        <Link to="/privacidad" className="fila"><Icono n="escudo" /><span><strong>Privacidad y borrar datos</strong><small>Qué guardamos y cómo borrarlo</small></span><Icono n="derecha" /></Link>
       </nav>
       <Tarjeta>
         <h2>Ajustes</h2>
@@ -50,9 +55,10 @@ export default function Mas() {
       </Tarjeta>
       <Tarjeta className="acerca">
         <h2>Acerca de</h2>
-        <p><strong>Andi, Misión Hierro</strong> es la app de AndiBite, el mini brownie de 20 g con sangrecita y hierro medido por lote. Versión 2.0.</p>
-        <p className="nota">Hierro medido. Sabor a brownie. · Lima, Perú. AndiBite aporta hierro; no reemplaza una alimentación variada ni las indicaciones de tu pediatra.</p>
+        <p><strong>Andi</strong> es la app de AndiBite, el mini brownie de 20 g con sangrecita para niños de 4 a 11 años. Versión 2.0.</p>
+        <p className="nota">{SLOGAN} · Lima, Perú.</p>
       </Tarjeta>
+      <p className="nota-legal">{NOTA_LEGAL}</p>
       <EditarNino nino={editando} alCerrar={() => setEditando(null)} />
     </div>
   );
@@ -70,7 +76,7 @@ function EditarNino({ nino, alCerrar }: { nino: Nino | null; alCerrar: () => voi
       <Boton ancho deshabilitado={!form.apodo.trim()} onClick={() => { actualizar(e => { const i = e.ninos.findIndex(x => x.id === form.id); e.ninos[i] = { ...form, apodo: form.apodo.trim() }; }); alCerrar(); }}>Guardar</Boton>
       <Boton ancho tipo="peligro" icono="basura" onClick={() => {
         if (!confirm(`¿Borrar a ${nino.apodo} y todos sus registros?`)) return;
-        actualizar(e => { e.ninos = e.ninos.filter(x => x.id !== nino.id); e.registros = e.registros.filter(r => r.ninoId !== nino.id); delete e.hemoglobina[nino.id]; delete e.progreso[nino.id]; if (e.ninoActivo === nino.id) e.ninoActivo = e.ninos[0]?.id; });
+        actualizar(e => { e.ninos = e.ninos.filter(x => x.id !== nino.id); e.registros = e.registros.filter(r => r.ninoId !== nino.id); delete e.hemoglobina[nino.id]; delete e.progreso[nino.id]; delete e.reto[nino.id]; if (e.ninoActivo === nino.id) e.ninoActivo = e.ninos[0]?.id; });
         alCerrar();
       }}>Borrar perfil</Boton>
     </Hoja>
@@ -88,11 +94,11 @@ export function Privacidad() {
       <Encabezado titulo="Privacidad y datos" atras="/mas" />
       <Tarjeta>
         <h2>Lo que se queda en tu teléfono</h2>
-        <p>El apodo y la edad de tus hijos, lo que registras en el semáforo, tus loncheras, tu despensa y los controles de hemoglobina. No tenemos cuentas ni contraseñas: nada de esto llega a nuestro servidor.</p>
+        <p>El apodo y la edad de tus hijos, el reto de la lonchera, sus estrellas, tus loncheras, tu despensa y los controles de hemoglobina. No tenemos cuentas ni contraseñas: nada de esto llega a nuestro servidor.</p>
         <h2>Lo que llega a nuestro servidor</h2>
         <p>Solo el código del envase que escaneas, para mostrarte su lote y contar cuántas veces se escanea cada lote.</p>
         <h2>Modo niños</h2>
-        <p>Misión Hierro no muestra productos, precios ni publicidad, no tiene compras y no premia comprar ni comer el brownie (Ley 30021). El progreso se gana jugando.</p>
+        <p>Misión Hierro no muestra productos, precios ni publicidad, no tiene compras y no premia comprar ni comer el brownie (Ley 30021). Las estrellas se ganan jugando y con la lonchera vacía.</p>
         <h2>Tus derechos</h2>
         <p>Puedes descargar o borrar tus datos cuando quieras (Ley 29733, de Protección de Datos Personales). Para consultas, escríbenos por WhatsApp desde Mi despensa.</p>
       </Tarjeta>

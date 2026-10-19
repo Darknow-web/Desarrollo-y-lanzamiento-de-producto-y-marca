@@ -1,22 +1,23 @@
-/* Modo niños: los colores de la marca en versión alegre, letras grandes y botones enormes. */
+/* Modo niños: la paleta de marca en versión alegre, letras grandes y botones enormes (mínimo 64 px). */
 body.modo-ninos { background: #F7E2BC; }
-.ninos, .puerta, .ninos-elegir, .ninos-descanso { word-spacing: .02em; --cielo: #F5DCAE; --sol: #E3A33B; --monte: #7C8A3A; --quinua: #BA4036; --coral: #BA4036; --tinta: #3B1A14;
+.ninos, .puerta, .ninos-elegir, .ninos-descanso { word-spacing: .02em; --cielo: #F5DCAE; --sol: #E3A33B; --monte: #7C8A3A; --quinua: #BA4036; --coral: #BA4036; --tinta: #3B1A14; --sombra-nino: 0 5px 0 rgba(74, 32, 24, .12);
   font-family: var(--fuente-nino); color: var(--tinta); min-height: 100dvh; }
 .ninos { background: linear-gradient(180deg, #FBF3E8 0%, #F8E7C9 45%, #F5DCAE 100%); display: flex; flex-direction: column; }
 .ninos-barra { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; max-width: 760px; width: 100%; margin: 0 auto; }
-.ninos-salir { width: 48px; height: 48px; border-radius: 16px; background: #fff; color: var(--tinta); box-shadow: 0 4px 0 rgba(74, 32, 24, .12); display: grid; place-items: center; }
+.ninos-salir { width: 48px; height: 48px; border-radius: 16px; background: #fff; color: var(--tinta); box-shadow: var(--sombra-nino); display: grid; place-items: center; }
 .ninos-titulo { font-size: 22px; font-weight: 800; color: var(--tinta); }
 .ninos-estado { display: flex; align-items: center; gap: 8px; }
-.ninos-estrellas { background: #fff; border-radius: 999px; padding: 4px 14px; font-weight: 800; font-size: 20px; box-shadow: 0 4px 0 rgba(74, 32, 24, .12); }
+.ninos-estrellas { background: #fff; border-radius: 999px; padding: 4px 14px; font-weight: 800; font-size: 20px; box-shadow: var(--sombra-nino); }
 .ninos-reloj { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; }
 .ninos-reloj i { width: 24px; height: 24px; border-radius: 50%; background: #FBF3E8; }
 .ninos-contenido { flex: 1; width: 100%; max-width: 760px; margin: 0 auto; padding: 0 14px 24px; }
+.ninos h1, .ninos h2, .ninos h3, .celebracion h1, .ninos-elegir h1, .ninos-descanso h1 { font-family: var(--fuente-nino); letter-spacing: 0; }
+.andi-img { user-select: none; -webkit-user-drag: none; }
 
-.boton-nino { font-family: var(--fuente-nino); font-size: 22px; font-weight: 800; min-height: 62px; padding: 0 28px; border-radius: 22px; background: var(--sol); color: var(--tinta); box-shadow: 0 6px 0 #B57B1C; transition: transform .1s, box-shadow .1s; }
+.boton-nino { font-family: var(--fuente-nino); font-size: 22px; font-weight: 800; min-height: 64px; padding: 0 28px; border-radius: 22px; background: var(--sol); color: var(--tinta); box-shadow: 0 6px 0 #B57B1C; transition: transform .1s, box-shadow .1s; }
 .boton-nino:active { transform: translateY(4px); box-shadow: 0 2px 0 #B57B1C; }
 .boton-nino.secundario { background: #fff; box-shadow: 0 6px 0 rgba(74, 32, 24, .15); }
-.boton-nino.grande { width: 100%; min-height: 72px; font-size: 26px; display: flex; align-items: center; justify-content: center; text-align: center; }
-.juego-plato .boton-nino.grande { margin-top: 26px; }
+.boton-nino.grande { width: 100%; max-width: 360px; min-height: 76px; font-size: 28px; display: flex; align-items: center; justify-content: center; text-align: center; }
 .burbuja { background: #fff; border-radius: 22px; padding: 12px 16px; font-size: 19px; font-weight: 600; line-height: 1.25; position: relative; box-shadow: 0 4px 0 rgba(74, 32, 24, .1); display: flex; gap: 8px; align-items: center; }
 .burbuja::before { content: ''; position: absolute; left: -10px; top: 50%; border: 10px solid transparent; border-right-color: #fff; border-left: 0; transform: translateY(-50%); }
 .burbuja .icono { flex: none; opacity: .6; }
@@ -36,51 +37,92 @@ body.modo-ninos { background: #F7E2BC; }
 .ninos-elegir, .ninos-descanso { align-content: center; gap: 16px; }
 .ninos-descanso p { color: #F5E8D6; font-size: 20px; max-width: 360px; }
 .ninos-lista { display: grid; gap: 12px; width: 100%; max-width: 360px; }
-.ninos-lista button { display: flex; align-items: center; gap: 14px; background: #fff; border-radius: 22px; padding: 12px 18px; font-size: 24px; font-weight: 800; box-shadow: 0 6px 0 rgba(74, 32, 24, .15); }
+.ninos-lista button { display: flex; align-items: center; gap: 14px; background: #fff; border-radius: 22px; padding: 12px 18px; min-height: 64px; font-size: 24px; font-weight: 800; box-shadow: 0 6px 0 rgba(74, 32, 24, .15); }
 .ninos-lista span { font-size: 40px; }
 
-/* Mapa */
-.mapa { display: grid; gap: 14px; }
-.mapa-andi { display: flex; align-items: center; gap: 6px; cursor: pointer; }
-.mapa-andi .burbuja { flex: 1; font-size: 18px; }
-.mapa-terreno { position: relative; aspect-ratio: 4 / 5; max-height: 62vh; width: 100%; border-radius: 32px; overflow: hidden; box-shadow: 0 10px 0 rgba(74, 32, 24, .12), inset 0 0 0 4px rgba(255, 255, 255, .6); }
-.mapa-fondo { position: absolute; inset: 0; width: 100%; height: 100%; }
-.parada { position: absolute; transform: translate(-50%, -50%); display: grid; justify-items: center; gap: 4px; width: 128px; text-align: center; animation: latido 2.4s ease-in-out infinite; }
-.parada:nth-of-type(2) { animation-delay: .3s; } .parada:nth-of-type(3) { animation-delay: .6s; } .parada:nth-of-type(4) { animation-delay: .9s; }
-.parada-emoji { width: 62px; height: 62px; border-radius: 50%; background: var(--c, #FF7A59); border: 5px solid #fff; display: grid; place-items: center; font-size: 34px; line-height: 1; box-shadow: 0 6px 0 rgba(0, 0, 0, .18); }
-.parada-nombre { display: grid; font-weight: 800; font-size: 15px; line-height: 1.05; background: #fff; color: var(--tinta); border-radius: 14px; padding: 5px 10px; box-shadow: 0 4px 0 rgba(74, 32, 24, .12); }
-.parada-nombre small { font-weight: 600; font-size: 12px; color: #6B3A2A; }
-.parada-check { position: absolute; top: -8px; right: 26px; font-size: 22px; }
-@keyframes latido { 0%, 100% { transform: translate(-50%, -50%) scale(1); } 50% { transform: translate(-50%, -50%) scale(1.05); } }
-.traje { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.traje-pieza { background: rgba(255, 255, 255, .6); border-radius: 18px; padding: 8px 4px; text-align: center; font-weight: 700; font-size: 13px; line-height: 1.1; display: grid; gap: 2px; color: #6B3A2A; }
-.traje-pieza span { font-size: 16px; }
-.traje-pieza.tiene { background: #fff; color: var(--tinta); box-shadow: 0 4px 0 rgba(74, 32, 24, .1); }
+/* Fondos de Andi (Viste a Andi y mapa): solo CSS */
+.fondo-lima, .fondo-selva, .fondo-andes, .fondo-playa { position: relative; overflow: hidden; background-color: #DCE9F0; }
+.fondo-lima { background: linear-gradient(180deg, #D8E7EF 0%, #F0F2EF 58%, #C9B9A1 58%, #BBA88D 100%); }
+.fondo-lima::before { content: ''; position: absolute; left: 0; right: 0; bottom: 42%; height: 34%; opacity: .75;
+  background: linear-gradient(90deg, #A4ADB5 0 8%, transparent 8% 12%, #B9C1C7 12% 22%, transparent 22% 26%, #9DA6AE 26% 34%, transparent 34% 38%, #B9C1C7 38% 52%, transparent 52% 56%, #A4ADB5 56% 66%, transparent 66% 70%, #B9C1C7 70% 82%, transparent 82% 86%, #9DA6AE 86% 96%, transparent 96%);
+  -webkit-mask: linear-gradient(180deg, transparent 0 20%, #000 20%); mask: linear-gradient(180deg, transparent 0 20%, #000 20%); }
+.fondo-selva { background: linear-gradient(180deg, #D5EAD3 0%, #BFE0BA 55%, #6F9A48 55%, #5B8439 100%); }
+.fondo-selva::before { content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 28% 36% at 8% 48%, #4F8A3C 60%, transparent 61%), radial-gradient(ellipse 26% 32% at 94% 44%, #5E9A47 60%, transparent 61%), radial-gradient(ellipse 22% 24% at 24% 30%, #7BB062 60%, transparent 61%), radial-gradient(ellipse 20% 26% at 80% 26%, #6CA553 60%, transparent 61%); }
+.fondo-andes { background: linear-gradient(180deg, #BFDDF2 0%, #E6EEF5 55%, #A8B36E 55%, #7C8A3A 100%); }
+.fondo-andes::before { content: ''; position: absolute; inset: 0;
+  background: radial-gradient(circle at 18% 70%, #8C6A4E 28%, transparent 28.5%), radial-gradient(circle at 50% 75%, #7A5A42 32%, transparent 32.5%), radial-gradient(circle at 84% 72%, #8C6A4E 26%, transparent 26.5%), radial-gradient(circle at 50% 44%, #fff 6%, transparent 6.5%), radial-gradient(circle at 18% 43%, #fff 5%, transparent 5.5%);
+  -webkit-mask: linear-gradient(180deg, #000 0 55%, transparent 55%); mask: linear-gradient(180deg, #000 0 55%, transparent 55%); }
+.fondo-playa { background: linear-gradient(180deg, #CDEBF7 0%, #E8F5FB 46%, #5FB7D4 46%, #7CC7DF 58%, #F0DDB0 58%, #E8CF9A 100%); }
+.fondo-playa::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 80% 22%, #FBD56B 9%, transparent 9.5%), radial-gradient(circle at 80% 22%, rgba(251, 213, 107, .35) 14%, transparent 14.5%); }
+.fondo-lima > *, .fondo-selva > *, .fondo-andes > *, .fondo-playa > * { position: relative; }
 
-/* Juegos */
+/* Mapa */
+.mapa { display: grid; gap: 16px; }
+.mapa-andi { display: grid; justify-items: center; align-content: end; gap: 6px; padding: 14px 14px 12px; border-radius: 32px; min-height: 240px; cursor: pointer; box-shadow: var(--sombra-nino), inset 0 0 0 4px rgba(255, 255, 255, .55); }
+.mapa-estrellas { background: #fff; border-radius: 999px; padding: 4px 16px; font-weight: 800; font-size: 20px; box-shadow: var(--sombra-nino); }
+.mapa-juegos { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.parada { position: relative; display: grid; justify-items: center; align-content: center; gap: 8px; min-height: 140px; padding: 14px 10px; border-radius: 26px; background: #fff; text-align: center; box-shadow: 0 7px 0 rgba(74, 32, 24, .12); transition: transform .12s, box-shadow .12s; }
+.parada:active { transform: translateY(4px); box-shadow: 0 3px 0 rgba(74, 32, 24, .12); }
+.parada-emoji { width: 72px; height: 72px; border-radius: 50%; background: var(--c, #BA4036); display: grid; place-items: center; font-size: 38px; line-height: 1; box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .12); }
+.parada-nombre { font-weight: 800; font-size: 19px; line-height: 1.1; color: var(--tinta); }
+.parada-check { position: absolute; top: 8px; right: 10px; font-size: 22px; }
+.parada.hecha { background: #FFF8E6; }
+
+/* Juegos: estructura común */
 .juego { display: grid; gap: 14px; justify-items: center; }
-.juego-cabeza { display: flex; gap: 8px; justify-content: center; }
-.ronda { background: rgba(255, 255, 255, .7); border-radius: 999px; padding: 2px 14px; font-weight: 800; font-size: 17px; }
+.juego-cabeza { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.ronda { background: rgba(255, 255, 255, .8); border-radius: 999px; padding: 4px 16px; font-weight: 800; font-size: 20px; min-width: 72px; text-align: center; }
+.ronda.urgente { background: var(--quinua); color: #fff; }
+.ronda.vidas { letter-spacing: 2px; }
+.juego-inicio { padding-top: 10px; gap: 12px; text-align: center; }
+.juego-inicio h1 { font-size: 34px; color: var(--tinta); }
+.juego-pista { background: #fff; border-radius: 999px; padding: 8px 18px; font-size: 20px; font-weight: 700; box-shadow: var(--sombra-nino); }
+.juego-pista span { font-size: 24px; }
 .andi-habla { display: flex; align-items: center; gap: 8px; width: 100%; cursor: pointer; }
 .andi-habla .burbuja { flex: 1; }
-.plato { position: relative; width: min(290px, 78vw); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, #fff 55%, #F5E8D6 56%, #fff 64%); box-shadow: 0 10px 0 rgba(74, 32, 24, .12); display: flex; flex-wrap: wrap; align-content: center; justify-content: center; gap: 8px; transition: box-shadow .3s; }
-.plato.fuerte { box-shadow: 0 0 0 8px var(--sol), 0 0 40px 8px rgba(227, 163, 59, .55); }
-.plato-vacio { color: #B99A80; font-size: 22px; font-weight: 700; }
-.en-plato { font-size: 64px; animation: cae .35s cubic-bezier(.3, 1.6, .5, 1); }
-@keyframes cae { from { transform: translateY(-80px) scale(.5); opacity: 0; } }
-.plato-etiquetas { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); display: flex; gap: 6px; }
-.plato-etiquetas span { background: #fff; border-radius: 999px; padding: 2px 12px; font-weight: 800; font-size: 15px; color: #8A6A55; box-shadow: 0 3px 0 rgba(74, 32, 24, .1); white-space: nowrap; }
-.plato-etiquetas span.ok { background: var(--monte); color: #fff; }
-.comidas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: 100%; margin-top: 12px; }
-.comida { background: #fff; border-radius: 22px; padding: 10px 4px; display: grid; justify-items: center; font-weight: 800; font-size: 17px; box-shadow: 0 6px 0 rgba(74, 32, 24, .12); transition: transform .1s; }
-.comida span { font-size: 48px; line-height: 1.1; }
-.comida:active { transform: translateY(3px); box-shadow: 0 3px 0 rgba(74, 32, 24, .12); }
-.comida.elegida { background: #FBEBCB; box-shadow: 0 0 0 3px var(--sol), 0 6px 0 rgba(74, 32, 24, .12); }
 .sacude { animation: sacude .4s; }
 @keyframes sacude { 20%, 60% { transform: translateX(-8px); } 40%, 80% { transform: translateX(8px); } }
+.tiempo-barra { width: 100%; height: 14px; border-radius: 999px; background: rgba(255, 255, 255, .7); overflow: hidden; }
+.tiempo-barra i { display: block; height: 100%; border-radius: 999px; background: var(--monte); transition: width .1s linear, background .3s; }
+.tiempo-barra i.poco { background: var(--quinua); }
 
+/* Atrapa el hierro */
+.juego-atrapa { width: 100%; }
+.atrapa-area { position: relative; width: 100%; height: min(64vh, 560px); min-height: 380px; border-radius: 28px; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none; cursor: ew-resize;
+  background: linear-gradient(180deg, #CFE6F3 0%, #EAF3F8 60%, #B9C77A 60%, #9BAA5A 100%); box-shadow: var(--sombra-nino), inset 0 0 0 4px rgba(255, 255, 255, .55); }
+.atrapa-area:focus-visible { outline-offset: -4px; }
+.atrapa-area.golpe { animation: golpe .35s; }
+@keyframes golpe { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.cae { position: absolute; transform: translate(-50%, -50%); font-size: 44px; line-height: 1; filter: drop-shadow(0 4px 2px rgba(74, 32, 24, .18)); pointer-events: none; }
+.flotante { position: absolute; transform: translate(-50%, -50%); font-weight: 800; font-size: 26px; pointer-events: none; }
+.flotante.bueno { color: #55602A; } .flotante.malo { color: var(--quinua); }
+.atrapa-andi { position: absolute; bottom: 6px; transform: translateX(-50%); display: grid; justify-items: center; pointer-events: none; }
+.atrapa-lonchera { height: 50px; margin-top: -56px; border-radius: 12px 12px 16px 16px; background: linear-gradient(180deg, #D0564A, #BA4036); box-shadow: inset 0 4px 0 rgba(255, 255, 255, .25), 0 4px 0 #8A2B23; position: relative; }
+.atrapa-lonchera::before { content: ''; position: absolute; left: 50%; top: -14px; width: 44px; height: 20px; border: 6px solid #8A2B23; border-bottom: 0; border-radius: 14px 14px 0 0; transform: translateX(-50%); }
+.atrapa-lonchera::after { content: ''; position: absolute; left: 10px; right: 10px; top: 12px; height: 6px; border-radius: 3px; background: #E3A33B; }
+
+/* Lonchera exprés */
+.juego-lonchera { width: 100%; }
+.lonchera-escena { display: flex; align-items: flex-end; justify-content: center; gap: 6px; width: 100%; }
+.lonchera-caja { flex: 1; max-width: 420px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 14px 10px 10px; border-radius: 22px; background: linear-gradient(180deg, #D0564A, #BA4036); box-shadow: 0 6px 0 #8A2B23, inset 0 4px 0 rgba(255, 255, 255, .22); position: relative; transition: transform .2s, box-shadow .3s; }
+.lonchera-caja::before { content: ''; position: absolute; left: 50%; top: -14px; width: 70px; height: 22px; border: 7px solid #8A2B23; border-bottom: 0; border-radius: 16px 16px 0 0; transform: translateX(-50%); }
+.lonchera-caja.abierta { transform: scale(1.03); box-shadow: 0 6px 0 #8A2B23, 0 0 0 5px var(--sol); }
+.lonchera-caja.lista { box-shadow: 0 6px 0 #8A2B23, 0 0 0 6px var(--monte); }
+.lonchera-sitio { background: rgba(255, 255, 255, .92); border-radius: 16px; min-height: 84px; display: grid; justify-items: center; align-content: center; gap: 2px; font-size: 40px; line-height: 1; }
+.lonchera-sitio small { font-size: 12px; font-weight: 800; color: #8A6A55; }
+.lonchera-sitio .lonchera-pista { opacity: .3; filter: grayscale(1); }
+.lonchera-sitio.lleno { background: #FFF8E6; }
+.opciones { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: 100%; max-width: 480px; }
+.opcion { position: relative; background: #fff; border-radius: 22px; padding: 10px 4px; min-height: 96px; display: grid; justify-items: center; align-content: center; gap: 2px; font-weight: 800; font-size: 15px; line-height: 1.1; text-align: center; box-shadow: 0 6px 0 rgba(74, 32, 24, .12); touch-action: none; user-select: none; -webkit-user-select: none; transition: transform .12s, opacity .2s; }
+.opcion span { font-size: 44px; line-height: 1.1; }
+.opcion.arrastrando { z-index: 5; box-shadow: 0 14px 24px rgba(74, 32, 24, .25); transition: none; }
+.opcion.puesta { opacity: .35; pointer-events: none; }
+.opcion:disabled { cursor: default; }
+
+/* Memoria */
 .tablero { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%; perspective: 800px; }
-.carta { aspect-ratio: 3 / 4; position: relative; transform-style: preserve-3d; transition: transform .45s cubic-bezier(.3, 1.4, .5, 1); }
+.carta { aspect-ratio: 3 / 4; position: relative; transform-style: preserve-3d; transition: transform .45s cubic-bezier(.3, 1.4, .5, 1); min-height: 64px; }
 .carta.volteada { transform: rotateY(180deg); }
 .carta > span { position: absolute; inset: 0; border-radius: 18px; backface-visibility: hidden; display: grid; place-items: center; align-content: center; box-shadow: 0 5px 0 rgba(74, 32, 24, .15); }
 .carta .carta-dorso { background: repeating-linear-gradient(45deg, var(--quinua), var(--quinua) 10px, #C9564B 10px, #C9564B 20px); font-size: 46px; font-weight: 800; color: rgba(255, 255, 255, .9); }
@@ -89,38 +131,35 @@ body.modo-ninos { background: #F7E2BC; }
 .carta.hecha .carta-cara { background: #ECEFD9; }
 .juego-pie { font-weight: 800; font-size: 18px; color: var(--tinta); }
 
-.frase { background: #fff; border-radius: 26px; padding: 20px; font-size: 26px; font-weight: 800; line-height: 1.2; box-shadow: 0 6px 0 rgba(74, 32, 24, .12); width: 100%; display: flex; gap: 10px; align-items: center; justify-content: center; }
-.mito-botones { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: 100%; }
-.mito-botones button { display: grid; justify-items: center; gap: 4px; min-height: 130px; border-radius: 26px; font-size: 26px; font-weight: 800; color: #fff; }
-.mito-botones span { font-size: 50px; }
-.mito-v { background: var(--monte); box-shadow: 0 7px 0 #55602A; }
-.mito-m { background: var(--quinua); box-shadow: 0 7px 0 #8A2B23; }
-.mito-respuesta { background: #fff; border-radius: 26px; padding: 18px; width: 100%; text-align: center; display: grid; gap: 10px; box-shadow: 0 6px 0 rgba(74, 32, 24, .12); animation: cae .3s; }
-.mito-respuesta strong { font-size: 26px; }
-.mito-respuesta.bien strong { color: #55602A; } .mito-respuesta.casi strong { color: var(--coral); }
-.mito-respuesta p { font-size: 20px; font-weight: 600; }
+/* Viste a Andi */
+.juego-vestir { width: 100%; }
+.vestir-escena { width: 100%; display: grid; justify-items: center; align-content: end; gap: 6px; padding: 12px; min-height: 290px; border-radius: 32px; box-shadow: var(--sombra-nino), inset 0 0 0 4px rgba(255, 255, 255, .55); }
+.fondos { display: flex; gap: 10px; justify-content: center; }
+.fondo-boton { width: 64px; height: 64px; border-radius: 20px; display: grid; place-items: center; font-size: 30px; box-shadow: var(--sombra-nino); transition: transform .12s; }
+.fondo-boton.activo { box-shadow: 0 0 0 4px var(--sol), var(--sombra-nino); transform: scale(1.06); }
+.looks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: 100%; }
+.look { background: #fff; border-radius: 22px; padding: 10px 4px 8px; min-height: 140px; display: grid; justify-items: center; align-content: center; gap: 2px; box-shadow: 0 6px 0 rgba(74, 32, 24, .12); transition: transform .12s; }
+.look:active { transform: translateY(3px); }
+.look-nombre { font-weight: 800; font-size: 16px; }
+.look-precio { font-weight: 800; font-size: 15px; border-radius: 999px; padding: 2px 10px; background: #F5E8D6; color: #8A6A55; }
+.look.alcanza .look-precio { background: var(--sol); color: var(--tinta); }
+.look.falta { opacity: .75; }
+.look.tiene .look-precio { background: #ECEFD9; color: #55602A; }
+.look.puesto { box-shadow: 0 0 0 4px var(--monte), 0 6px 0 rgba(74, 32, 24, .12); }
+.look.puesto .look-precio { background: var(--monte); color: #fff; }
 
-.habitos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; width: 100%; }
-.habito { background: #fff; border-radius: 24px; padding: 14px 8px; display: grid; justify-items: center; gap: 4px; font-weight: 800; font-size: 18px; box-shadow: 0 6px 0 rgba(74, 32, 24, .12); position: relative; }
-.habito span { font-size: 46px; filter: grayscale(.7); opacity: .7; transition: all .2s; }
-.habito.marcado { background: #FBEBCB; box-shadow: 0 0 0 3px var(--sol), 0 6px 0 rgba(74, 32, 24, .12); }
-.habito.marcado span { filter: none; opacity: 1; transform: scale(1.1) rotate(-6deg); }
-.habito.marcado::after { content: '✓'; position: absolute; top: 8px; right: 12px; width: 28px; height: 28px; border-radius: 50%; background: var(--monte); color: #fff; display: grid; place-items: center; font-size: 17px; }
-.semana-habitos { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; width: 100%; }
-.semana-habitos div { background: rgba(255, 255, 255, .6); border-radius: 14px; padding: 6px 0; display: grid; justify-items: center; font-weight: 700; font-size: 14px; }
-.semana-habitos b { font-size: 18px; }
-.semana-habitos .hoy { background: #fff; box-shadow: 0 0 0 3px var(--quinua); }
-
+/* Celebración */
 .celebracion { position: fixed; inset: 0; z-index: 40; background: radial-gradient(circle at 50% 35%, #FFF8EC, #FBEBCB 45%, #F2CF8E); display: grid; place-items: center; align-content: center; gap: 12px; text-align: center; padding: 20px; animation: aparecer .3s; overflow: hidden; }
 .celebracion h1 { font-size: 36px; color: var(--tinta); }
+.celebracion-detalle { font-size: 22px; font-weight: 700; color: #6B3A2A; }
 .celebracion-estrella { font-size: 30px; font-weight: 800; }
-.celebracion-pieza { font-size: 22px; font-weight: 700; background: #fff; border-radius: 999px; padding: 6px 18px; }
+.celebracion-estrella.sin { font-size: 20px; font-weight: 700; background: #fff; border-radius: 999px; padding: 6px 18px; }
 .celebracion-botones { display: grid; gap: 14px; width: 100%; max-width: 320px; margin-top: 8px; }
+@keyframes aparecer { from { opacity: 0; } }
 
 @media (min-width: 720px) {
-  .comidas { grid-template-columns: repeat(6, 1fr); }
-  .habitos { grid-template-columns: repeat(3, 1fr); }
-  .tablero { grid-template-columns: repeat(4, 1fr); max-width: 600px; }
-  .mapa-terreno { aspect-ratio: 16 / 10; }
+  .tablero { max-width: 600px; }
+  .mapa-juegos { grid-template-columns: repeat(4, 1fr); }
+  .opciones { grid-template-columns: repeat(6, 1fr); max-width: none; }
+  .looks { grid-template-columns: repeat(6, 1fr); }
 }
-.ninos h1, .ninos h2, .ninos h3, .celebracion h1, .ninos-elegir h1, .ninos-descanso h1 { font-family: var(--fuente-nino); letter-spacing: 0; }

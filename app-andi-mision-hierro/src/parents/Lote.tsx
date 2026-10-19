@@ -4,6 +4,7 @@ import Icono from '../components/Icono';
 import { Boton, Encabezado, Tarjeta, aviso } from '../components/ui';
 import { Cascada, Contador, Item } from '../components/movimiento';
 import { consultarCodigo, consultarLote, ErrorApi, type RespuestaCodigo } from '../lib/api';
+import { desbloquearPlan } from '../lib/plan';
 import { actualizar, ninoActivo, nuevoId, obtener, useEstado } from '../lib/estado';
 import { fechaLarga, hoyISO } from '../lib/fechas';
 import { referenciaDiaria } from '../lib/hierro';
@@ -37,6 +38,7 @@ export default function Lote() {
       if (!n || !codigoValido(n)) { setError('codigo_invalido'); return; }
       consultarCodigo(n).then(r => {
         setDatos(r);
+        void desbloquearPlan(r.codigo.code);
         actualizar(e => { e.codigosVistos = [{ code: r.codigo.code, loteId: r.lote.id, fecha: hoyISO() }, ...e.codigosVistos.filter(c => c.code !== r.codigo.code)].slice(0, 30); });
       }).catch((e: ErrorApi) => setError(e.codigo));
     } else if (id) {
@@ -61,12 +63,12 @@ export default function Lote() {
 
   if (error) return (
     <div className="pantalla">
-      <Encabezado titulo="Tu lote" atras="/escanear" />
+      <Encabezado titulo="Ficha del producto" atras="/escanear" />
       <Tarjeta className="error-tarjeta"><Icono n="info" tam={28} /><p>{MENSAJES[error] || 'Algo salió mal. Intenta otra vez.'}</p>
         <Boton tipo="secundario" icono="qr" onClick={() => ir('/escanear')}>Escanear otra vez</Boton></Tarjeta>
     </div>
   );
-  if (!datos) return <div className="pantalla"><Encabezado titulo="Tu lote" atras="/" /><div className="cargando" aria-label="Cargando"><i /><i /><i /></div></div>;
+  if (!datos) return <div className="pantalla"><Encabezado titulo="Ficha del producto" atras={-1} /><div className="cargando" aria-label="Cargando"><i /><i /><i /></div></div>;
 
   const { lote } = datos;
   const peso = lote.pesoUnidadG || 20;
@@ -81,11 +83,11 @@ export default function Lote() {
 
   return (
     <Cascada className="pantalla lote">
-      <Encabezado titulo="Tu lote" atras="/" accion={<button className="btn-icono" onClick={compartir} aria-label="Compartir"><Icono n="compartir" /></button>} />
+      <Encabezado titulo="Ficha del producto" atras={-1} accion={<button className="btn-icono" onClick={compartir} aria-label="Compartir"><Icono n="compartir" /></button>} />
 
       <Item as="section" className="lote-hero">
         <p className="kicker lote-kicker"><i style={{ background: COLOR_SABOR[lote.sabor] } as CSSProperties} aria-hidden="true" />Lote {lote.id} · {lote.sabor}</p>
-        <h1 className="lote-titulo">Hierro medido en este lote</h1>
+        <h1 className="lote-titulo">El hierro de este lote</h1>
         <p className="lote-cifra">
           <Contador valor={lote.hierroMgPorUnidad} className="lote-numero" />
           <span className="lote-unidad"><strong>mg</strong><span>por brownie de {peso} g</span></span>
@@ -104,7 +106,7 @@ export default function Lote() {
       </Item>
 
       <Item as="section" className="tarjeta lote-lab">
-        <p className="kicker kicker-dorado">Medido, no prometido</p>
+        <p className="kicker kicker-dorado">Lo que dice el laboratorio</p>
         <h2>{lote.laboratorio}</h2>
         <p>Informe {lote.informe}{lote.fechaInforme ? ` del ${fechaLarga(lote.fechaInforme)}` : ''}</p>
         <Link to={`/informe/${encodeURIComponent(lote.id)}`} className="boton boton-crema"><Icono n="documento" tam={20} /><span>Ver el informe</span></Link>
@@ -132,7 +134,6 @@ export default function Lote() {
           {lote.ingredientes && <div className="ficha-ancha"><dt>Ingredientes</dt><dd>{lote.ingredientes}</dd></div>}
         </dl>
       </Item>
-      <Item><p className="nota-legal">AndiBite aporta hierro; no reemplaza una alimentación variada ni las indicaciones de tu pediatra.</p></Item>
     </Cascada>
   );
 }

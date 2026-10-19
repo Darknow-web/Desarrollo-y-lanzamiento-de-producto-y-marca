@@ -62,16 +62,10 @@ await ir('/'); await foto('15-inicio-con-datos', true, 1000); await anchoPagina(
 await ir('/ninos'); await foto('20-ninos-candado');
 await p.evaluate(() => sessionStorage.setItem('andi.sesion', JSON.stringify({ ninoId: JSON.parse(localStorage.getItem('andi.mision-hierro.v1')).ninos[0].id, inicio: Date.now(), limite: 900000 })));
 await ir('/ninos'); await foto('21-ninos-mapa');
-await ir('/ninos/plato'); await foto('22-plato');
-const hierro = p.locator('.comida').filter({ hasText: /Sangrecita|Lentejas|Huevo|Carne|Pescado|Espinaca|Quinua/ }).first();
-const vitc = p.locator('.comida').filter({ hasText: /Naranja|Fresa|Kiwi|Limón|Tomate|Pimiento/ }).first();
-await hierro.click(); await vitc.click(); await foto('23-plato-fuerte');
+await ir('/ninos/atrapa'); await foto('22-atrapa');
+await ir('/ninos/lonchera'); await foto('23-lonchera-expres');
 await ir('/ninos/memoria'); await p.locator('.carta').nth(0).click(); await p.locator('.carta').nth(1).click(); await foto('24-memoria');
-await ir('/ninos/mito'); await foto('25-mito'); await p.locator('.mito-v').click(); await foto('26-mito-respuesta');
-await ir('/ninos/habitos');
-for (let i = 0; i < 3; i++) await p.locator('.habito').nth(i).click();
-await foto('27-habitos');
-await p.locator('.habito').nth(3).click(); await p.waitForTimeout(900); await foto('28-celebracion');
+await ir('/ninos/vestir'); await foto('25-vestir');
 
 // 8. Escritorio
 const escritorio = await b.newContext({ viewport: { width: 1280, height: 800 }, locale: 'es-PE', timezoneId: 'America/Lima', serviceWorkers: 'block' });

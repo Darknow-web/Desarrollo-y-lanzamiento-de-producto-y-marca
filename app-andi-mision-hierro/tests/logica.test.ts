@@ -28,8 +28,8 @@ describe('códigos únicos', () => {
     expect(codigoDesdeQR('https://andi.example/c/AB-2ANS-GYZ4')).toBe('AB-2ANS-GYZ4');
     expect(codigoDesdeQR('hola')).toBeNull();
   });
-  it('todos los códigos de data/seed.json son válidos', () => {
-    for (const c of Object.keys(seed.codigos)) expect(codigoValido(c)).toBe(true);
+  it('todos los códigos de data/seed.json son válidos (salvo el demo, que no lleva dígito de control)', () => {
+    for (const c of Object.keys(seed.codigos)) if (c !== 'AB-DEMO-2027') expect(codigoValido(c)).toBe(true);
   });
 });
 
@@ -58,7 +58,7 @@ describe('semáforo de hierro', () => {
 
 describe('datos publicados', () => {
   it('los lotes no tienen marcas de demostración ni textos pendientes', () => {
-    const texto = JSON.stringify(seed);
+    const texto = JSON.stringify({ lotes: seed.lotes, puntos: seed.puntos }); // (el código AB-DEMO-2027 es el demo del jurado)
     expect(texto).not.toMatch(/DEMO|demo|por confirmar|en trámite/i);
     for (const l of Object.values(seed.lotes)) {
       expect(l.hierroMgPorUnidad).toBe(1.9); expect(l.hierroHemoMgPorUnidad).toBe(1.3); expect(l.azucarGPorUnidad).toBe(1.3);

@@ -1,16 +1,14 @@
-import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Andi from '../components/Andi';
 import Icono from '../components/Icono';
 import { Cascada, Item } from '../components/movimiento';
 import SelectorNino from './SelectorNino';
-import { ZonaEscaneo } from './Escanear';
-import { ninoActivo, useEstado } from '../lib/estado';
-import { diasEntre, hoyISO, nombreDia, relativa, sumarDias, diaCorto, fechaLarga } from '../lib/fechas';
-import { diasHastaAcabar, resumenSemana } from '../lib/hierro';
-import { consultarPuntos, type RespuestaCodigo } from '../lib/api';
-import type { Punto } from '../lib/tipos';
+import { RetoHero } from './Reto';
+import { ninoActivo, useEstado, useProgreso } from '../lib/estado';
+import { hoyISO, lunesDe, relativa, sumarDias } from '../lib/fechas';
+import { diasHastaAcabar } from '../lib/hierro';
 
+export const SLOGAN = 'Dulce para ellos. Tranquilidad para ti.';
 const SALUDO = () => { const h = new Date().getHours(); return h < 12 ? 'Buenos días' : h < 19 ? 'Buenas tardes' : 'Buenas noches'; };
 
 function Marca() {
@@ -22,132 +20,65 @@ function Marca() {
   );
 }
 
-/** Primera visita (sin escanear): una sola tarea, escanear el envase. */
-function Nuevo() {
+/** Sin hijo registrado: el hero invita a crearlo; el reto empieza ahí. */
+function HeroSinNino() {
   return (
-    <Cascada className="pantalla inicio inicio-nuevo">
-      <Item><Marca /></Item>
-      <Item className="hero-escaneo">
-        <div className="hero-andi"><Andi tam={78} className="andi-flota" /><span className="burbuja-padre">Hola, soy Andi.</span></div>
-        <p className="kicker">Hierro medido. Sabor a brownie.</p>
-        <h1 className="titulo-grande">Escanea el QR de tu envase</h1>
-        <p className="lead">Mira el hierro que midió el laboratorio en tu lote. No necesitas registrarte.</p>
-      </Item>
-      <Item><ZonaEscaneo /></Item>
-      <Item className="lo-que-hay">
-        <p className="kicker kicker-suave">Y además</p>
-        <ul>
-          <li><Icono n="gota" /><span>Semáforo de hierro de la semana</span></li>
-          <li><Icono n="lonchera" /><span>Loncheras con hierro y su lista de compras</span></li>
-          <li><Icono n="bolsa" /><span>Aviso de recompra y pedido por WhatsApp</span></li>
-        </ul>
-      </Item>
-      <Item><p className="nota-legal">AndiBite aporta hierro; no reemplaza una alimentación variada ni las indicaciones de tu pediatra.</p></Item>
-    </Cascada>
+    <section className="reto-hero reto-invita">
+      <Andi tam={96} className="andi-flota" />
+      <p className="kicker">Reto lonchera vacía</p>
+      <h2 className="reto-titulo">Cada día que la lonchera vuelve vacía, tu hijo gana una estrella</h2>
+      <Link to="/bienvenida?volver=/" className="boton boton-primario boton-ancho boton-reto"><Icono n="sumar" tam={22} /><span>Crear el perfil de mi hijo</span></Link>
+    </section>
   );
 }
 
 export default function Inicio() {
   const nino = useEstado(ninoActivo);
-  const registros = useEstado(e => e.registros);
-  const despensa = useEstado(e => e.despensa);
-  const vistos = useEstado(e => e.codigosVistos);
   const ninos = useEstado(e => e.ninos.length);
-  const hemo = useEstado(e => (nino ? e.hemoglobina[nino.id] : undefined));
+  const despensa = useEstado(e => e.despensa);
   const plan = useEstado(e => e.loncheras);
-  const [punto, setPunto] = useState<Punto | null>(null);
-  useEffect(() => { consultarPuntos().then(p => setPunto(p[0] || null)).catch(() => {}); }, []);
-  const ultimo = useMemo(() => {
-    const v = vistos[0]; if (!v) return null;
-    try { const r = JSON.parse(localStorage.getItem(`andi.cache.c.${v.code}`) || 'null') as RespuestaCodigo | null; return { code: v.code, lote: r?.lote }; } catch { return { code: v.code, lote: undefined }; }
-  }, [vistos]);
-
-  if (!vistos.length && !ninos && !despensa.length) return <Nuevo />;
+  const progreso = useProgreso(nino?.id || '');
 
   const hoy = hoyISO();
-  const semana = nino ? resumenSemana(registros, nino.id, hoy) : null;
-  const restantes = despensa.reduce((a, d) => a + d.restantes, 0);
-  const porSemana = despensa.filter(d => d.restantes > 0).reduce((a, d) => Math.max(a, d.porSemana), 0) || 5;
+  const activos = despensa.filter(d => d.restantes > 0);
+  const restantes = activos.reduce((a, d) => a + d.restantes, 0);
+  const porSemana = activos.reduce((a, d) => Math.max(a, d.porSemana), 0) || 5;
   const dias = diasHastaAcabar(restantes, porSemana);
-  const diaLonchera = plan && plan.ninoId === nino?.id ? plan.dias.find(d => d.dia.toLowerCase().startsWith(nombreDia(hoy).slice(0, 3))) : undefined;
+  const seAcaba = despensa.length > 0 && (restantes === 0 || dias <= 2);
+  const planVigente = plan && nino && plan.ninoId === nino.id && plan.semana === lunesDe(hoy) ? plan : null;
+  const hechas = planVigente ? planVigente.dias.filter(d => d.hecho).length : 0;
 
   return (
     <Cascada className="pantalla inicio">
       <Item><Marca /></Item>
       <Item className="inicio-saludo">
         <div>
-          <p className="saludo">{SALUDO()}</p>
-          <h1 className="titulo-pantalla">{nino ? `La semana de ${nino.apodo}` : 'Tu semana con AndiBite'}</h1>
+          <p className="kicker">{SLOGAN}</p>
+          <h1 className="titulo-pantalla">{SALUDO()}{nino ? `, familia de ${nino.apodo}` : ''}</h1>
         </div>
-        <Andi tam={60} className="andi-mini" />
+        <Andi tam={64} className="andi-mini" />
       </Item>
-      {ninos > 0 && <Item><SelectorNino /></Item>}
+      {ninos > 1 && <Item><SelectorNino /></Item>}
 
-      {ultimo && (
-        <Item>
-          <Link to={`/c/${ultimo.code}`} className="tarjeta tarjeta-lote">
-            <span className="kicker kicker-claro">Tu último lote{ultimo.lote ? ` · ${ultimo.lote.sabor}` : ''}</span>
-            <span className="tarjeta-lote-num">{ultimo.lote ? <>{ultimo.lote.hierroMgPorUnidad.toFixed(1)}<small> mg de hierro por brownie</small></> : ultimo.code}</span>
-            <span className="tarjeta-lote-pie">Ver ficha e informe <Icono n="derecha" tam={18} /></span>
-          </Link>
-        </Item>
-      )}
+      <Item>{nino ? <RetoHero nino={nino} /> : <HeroSinNino />}</Item>
 
-      {semana && (
-        <Item>
-          <Link to="/hierro" className={`tarjeta semaforo-resumen semaforo-${semana.color}`}>
-            <div className="semaforo-cabeza">
-              <span className="semaforo-luces" aria-hidden="true"><i /><i /><i /></span>
-              <small>Semáforo de hierro</small>
-            </div>
-            <strong className="semaforo-cifra">{semana.diasConHierro} <span>de 7 días</span></strong>
-            <span className="semaforo-texto">{semana.color === 'verde' ? 'Muy buena semana.' : semana.color === 'ambar' ? 'Vas bien: suma uno o dos días más.' : 'Suma una fuente de hierro hoy.'}</span>
-            <div className="semana-mini" aria-hidden="true">
-              {semana.dias.map(d => <span key={d.fecha} className={`${d.conHierro ? 'lleno' : ''} ${d.fecha === hoy ? 'hoy' : ''}`}>{diaCorto(d.fecha)[0]}</span>)}
-            </div>
-          </Link>
-        </Item>
-      )}
-
-      <Item className="rejilla-2">
-        <Link to="/despensa" className={`tarjeta mini ${restantes > 0 && dias <= 2 ? 'alerta' : ''}`}>
-          <Icono n="bolsa" />
-          <strong>{restantes > 0 ? `${restantes} brownies` : 'Despensa'}</strong>
-          <small>{restantes > 0 ? (dias <= 0 ? 'Se acabó hoy' : `Alcanza hasta ${relativa(sumarDias(hoy, dias))}`) : 'Agrega tu pack'}</small>
+      <Item as="section" className="rutas" aria-label="Secciones">
+        <Link to="/loncheras" className="tarjeta ruta">
+          <span className="ruta-icono"><Icono n="lonchera" /></span>
+          <span className="ruta-texto"><strong>Loncheras de la semana</strong><small>{planVigente ? `Listas: ${hechas} de 5 preparadas` : 'Arma 5 loncheras con hierro en un minuto'}</small></span>
+          <Icono n="derecha" tam={18} />
         </Link>
-        <Link to="/hemoglobina" className={`tarjeta mini ${hemo?.proxima && diasEntre(hoy, hemo.proxima) <= 7 && diasEntre(hoy, hemo.proxima) >= 0 ? 'alerta' : ''}`}>
-          <Icono n="calendario" />
-          <strong>Hemoglobina</strong>
-          <small>{hemo?.proxima ? `Control ${relativa(hemo.proxima)}` : 'Anota el próximo control'}</small>
+        <Link to="/despensa" className={`tarjeta ruta ${seAcaba ? 'ruta-alerta' : ''}`}>
+          <span className="ruta-icono"><Icono n={seAcaba ? 'campana' : 'bolsa'} /></span>
+          <span className="ruta-texto"><strong>Mi despensa y pedido</strong><small>{despensa.length === 0 ? 'Escanea o agrega tu pack' : restantes === 0 ? 'Se acabó el pack: pídelo por WhatsApp' : seAcaba ? `Quedan ${restantes}: es momento de pedir` : `Quedan ${restantes} brownies, hasta ${relativa(sumarDias(hoy, dias))}`}</small></span>
+          <Icono n="derecha" tam={18} />
+        </Link>
+        <Link to="/ninos" className="tarjeta ruta ruta-ninos">
+          <span className="ruta-icono"><Andi tam={40} /></span>
+          <span className="ruta-texto"><strong>Misión Hierro para tu hijo</strong><small>{nino ? `Juegos con Andi · ${progreso.estrellas} ${progreso.estrellas === 1 ? 'estrella' : 'estrellas'}` : 'Juegos con Andi para aprender a comer hierro'}</small></span>
+          <Icono n="candado" tam={18} />
         </Link>
       </Item>
-
-      <Item>
-        <Link to="/loncheras" className="tarjeta lonchera-hoy">
-          <span className="kicker">{diaLonchera ? `Lonchera del ${nombreDia(hoy)}` : 'Loncheras de la semana'}</span>
-          {diaLonchera ? (
-            <><strong>{diaLonchera.principal}</strong><span>{diaLonchera.fruta} · {diaLonchera.bebida} · unos {diaLonchera.hierroMg} mg de hierro</span></>
-          ) : <strong>Arma 5 loncheras con hierro en un minuto</strong>}
-        </Link>
-      </Item>
-
-      <Item>
-        <Link to="/ninos" className="tarjeta tarjeta-ninos">
-          <Andi tam={78} piezas={['chullo']} />
-          <div><strong>Misión Hierro</strong><span>Juegos para que tu hijo aprenda a comer hierro. Sin compras ni publicidad.</span></div>
-          <Icono n="derecha" />
-        </Link>
-      </Item>
-
-      {punto && (
-        <Item>
-          <Link to="/donde" className="tarjeta punto-proximo">
-            <span className="punto-icono"><Icono n="mapa" /></span>
-            <div><small>Próximamente · {fechaLarga(punto.desde)}</small><strong>{punto.nombre}</strong><span>{punto.lugar}</span></div>
-          </Link>
-        </Item>
-      )}
-      <Item><p className="nota-legal">AndiBite aporta hierro; no reemplaza una alimentación variada ni las indicaciones de tu pediatra.</p></Item>
     </Cascada>
   );
 }

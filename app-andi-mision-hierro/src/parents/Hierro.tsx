@@ -19,7 +19,7 @@ export default function Hierro() {
   const consejo = useMemo(() => CONSEJOS[new Date().getDate() % CONSEJOS.length], []);
 
   if (!nino) return (
-    <div className="pantalla"><Encabezado titulo="Semáforo de hierro" />
+    <div className="pantalla"><Encabezado titulo="Semáforo de hierro" atras={-1} />
       <Vacio icono="gota" titulo="Crea el perfil de tu hijo" texto="Así llevamos su semáforo de hierro de la semana.">
         <Boton onClick={() => ir('/bienvenida?volver=/hierro')}>Crear perfil</Boton>
       </Vacio></div>
@@ -34,7 +34,7 @@ export default function Hierro() {
 
   return (
     <Cascada className="pantalla hierro">
-      <Encabezado titulo="Semáforo de hierro" />
+      <Encabezado titulo="Semáforo de hierro" atras={-1} />
       <Item><SelectorNino /></Item>
       <Item as="section" className={`semaforo-hero semaforo-${r.color}`}>
         <span className="semaforo-luces grande" aria-hidden="true"><i /><i /><i /></span>
@@ -76,7 +76,7 @@ export default function Hierro() {
         ))}
       </Item>
       <Item><Tarjeta className="consejo"><Icono n="info" /><p>{consejo}</p></Tarjeta></Item>
-      <Item><p className="nota">El semáforo es orientativo: cuenta los días con una fuente de hierro, no reemplaza al pediatra. Los mg son aproximados (Tablas Peruanas de Composición de Alimentos, CENAN).</p></Item>
+      <Item><p className="nota">El semáforo cuenta los días con una fuente de hierro. Los mg son aproximados (Tablas Peruanas de Composición de Alimentos, CENAN).</p></Item>
       <Registrar abierta={hoja} alCerrar={() => setHoja(false)} ninoId={nino.id} apodo={nino.apodo} fecha={diaSel} />
     </Cascada>
   );

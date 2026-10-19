@@ -5,7 +5,7 @@ import Icono from '../components/Icono';
 import Puerta from './Puerta';
 import { obtener, progresoDe, useEstado } from '../lib/estado';
 import { callar, hablar } from '../lib/voz';
-import { INVITADO, ninoSesion } from './progreso';
+import { INVITADO, ninoSesion, useLook } from './progreso';
 
 interface Sesion { ninoId: string; inicio: number; limite: number }
 const leer = (): Sesion | null => { try { return JSON.parse(sessionStorage.getItem('andi.sesion') || 'null'); } catch { return null; } };
@@ -17,6 +17,7 @@ export default function KidsLayout() {
   const [ahora, setAhora] = useState(Date.now());
   const ninos = useEstado(e => e.ninos);
   const estrellas = useEstado(e => progresoDe(e, sesion?.ninoId || INVITADO).estrellas);
+  const { look } = useLook(sesion?.ninoId || INVITADO);
   const ir = useNavigate();
 
   useEffect(() => { document.body.classList.add('modo-ninos'); return () => { document.body.classList.remove('modo-ninos'); callar(); }; }, []);
@@ -47,7 +48,7 @@ export default function KidsLayout() {
   const restante = Math.max(0, sesion.limite - (ahora - sesion.inicio));
   if (restante === 0) return (
     <div className="ninos-descanso">
-      <Andi tam={190} animo="duerme" piezas={[]} />
+      <Andi tam={190} animo="duerme" look={look} />
       <h1>¡Hora de descansar!</h1>
       <p>Jugamos un montón. Ahora a moverse, tomar agua y comer rico.</p>
       <button className="boton-nino" onClick={() => setSaliendo(true)}>Llamar a papá o mamá</button>

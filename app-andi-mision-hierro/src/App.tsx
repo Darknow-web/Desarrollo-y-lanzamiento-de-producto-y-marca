@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-route
 import { MotionConfig } from 'motion/react';
 import Layout from './parents/Layout';
 import Inicio from './parents/Inicio';
+import Reto from './parents/Reto';
 import Bienvenida from './parents/Bienvenida';
 import Lote from './parents/Lote';
 import Informe from './parents/Informe';
@@ -15,10 +16,10 @@ import Donde from './parents/Donde';
 import Mas, { Privacidad } from './parents/Mas';
 import KidsLayout from './kids/KidsLayout';
 import Mapa from './kids/Mapa';
-import Plato from './kids/Plato';
+import Atrapa from './kids/Atrapa';
+import LoncheraExpres from './kids/LoncheraExpres';
 import Memoria from './kids/Memoria';
-import Mito from './kids/Mito';
-import Habitos from './kids/Habitos';
+import Vestir from './kids/Vestir';
 import { Avisos } from './components/ui';
 import { revisarAvisos } from './lib/avisos';
 
@@ -45,14 +46,15 @@ export default function App() {
           <Route path="/bienvenida" element={<Bienvenida />} />
           <Route path="/ninos" element={<KidsLayout />}>
             <Route index element={<Mapa />} />
-            <Route path="plato" element={<Plato />} />
+            <Route path="atrapa" element={<Atrapa />} />
+            <Route path="lonchera" element={<LoncheraExpres />} />
             <Route path="memoria" element={<Memoria />} />
-            <Route path="mito" element={<Mito />} />
-            <Route path="habitos" element={<Habitos />} />
+            <Route path="vestir" element={<Vestir />} />
           </Route>
           <Route path="/admin" element={<Suspense fallback={null}><Admin /></Suspense>} />
           <Route element={<Layout />}>
             <Route index element={<Inicio />} />
+            <Route path="reto" element={<Reto />} />
             <Route path="c/:code" element={<Lote />} />
             <Route path="lote/:id" element={<Lote />} />
             <Route path="informe/:id" element={<Informe />} />

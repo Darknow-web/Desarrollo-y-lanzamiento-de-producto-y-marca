@@ -36,4 +36,12 @@ export const sonido = {
   bien: () => { try { tono(523, 0, 0.15); tono(659, 0.1, 0.15); tono(784, 0.2, 0.25); } catch { /* sin audio */ } },
   suave: () => { try { tono(330, 0, 0.18, 'triangle', 0.08); } catch { /* sin audio */ } },
   premio: () => { try { [523, 659, 784, 1046].forEach((f, i) => tono(f, i * 0.09, 0.3, 'triangle', 0.1)); } catch { /* sin audio */ } },
+  /** Atrapó algo bueno: un «pop» corto que sube. */
+  atrapa: () => { try { tono(740, 0, 0.07, 'triangle', 0.09); tono(988, 0.06, 0.1, 'triangle', 0.08); } catch { /* sin audio */ } },
+  /** Trampa o error: tono bajo y corto. */
+  mal: () => { try { tono(196, 0, 0.16, 'square', 0.05); tono(150, 0.12, 0.2, 'square', 0.05); } catch { /* sin audio */ } },
+  /** Timbre de escuela: «ding-dong». */
+  timbre: () => { try { tono(880, 0, 0.35, 'sine', 0.12); tono(659, 0.3, 0.5, 'sine', 0.12); } catch { /* sin audio */ } },
+  /** Tic-tac de los últimos segundos. */
+  tic: () => { try { tono(1200, 0, 0.04, 'square', 0.035); } catch { /* sin audio */ } },
 };
