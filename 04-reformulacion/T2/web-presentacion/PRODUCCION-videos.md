@@ -109,7 +109,17 @@ Vertical 9:16 realistic video, 8 seconds, same kitchen, same terracotta lunchbox
 
 ### 2. Unir
 
-Un solo clip de 8 s. Cierre en los últimos 2 s: logo, «Dulce para ellos. Tranquilidad para ti.» y los botones «Pruébalo en el stand» y «Pídelo por WhatsApp».
+Un solo clip de 8 s y, pegada al final, la **pantalla de cierre** (imagen fija de 2 a 3 s generada en Nano Banana, abajo). Así no hay que animar texto en CapCut: clip de Veo + imagen + voz.
+
+### 2b. Nano Banana: pantalla de cierre de V1 (9:16)
+
+Sube como referencias `empaque_mockup.jpg` (la bolsa) y el logo de AndiBite, y pega:
+
+```
+Vertical 9:16 end card for a social video ad, 1080x1920, photorealistic with clean graphic typography. Scene: the same warm Lima kitchen, light oak table, soft morning side light, shallow depth of field. On the table, centered in the lower half: the matte kraft stand-up pouch from the reference image (keep its label exactly as in the reference) standing next to the closed terracotta lunchbox with the brick-red latch, and a smartphone lying face up showing a simple app screen with a soft red progress ring on a cream background (no readable numbers). Background slightly darkened so text reads well. Typography, in Spanish, rendered exactly and without spelling mistakes, in a rounded bold sans-serif in cream white (#FBF3E8): top third, large headline in two lines: "El truco que ya no" / "necesita cuento." Below it, smaller, one line: "Dulce para ellos. Tranquilidad para ti." Middle of the frame, two rounded pill buttons side by side: a solid brick-red pill (#B33A2B) with cream text "Pruébalo en el stand" and an outlined cream pill with cream text "Pídelo por WhatsApp". Bottom: the AndiBite logo from the reference, centered, small, and under it the hashtag "#LoQueNadieVe" in warm gold (#E3A33B). Palette: cocoa brown, kraft, cream, brick red, warm gold. No other text, no children, no watermark, no octagon warning labels, no extra logos.
+```
+
+Revisa que el texto salga sin errores (Nano Banana a veces cambia una letra); si falla, genera de nuevo o corrige esa palabra con la edición por texto («replace the word X with Y»). Esta misma pantalla sirve para V2 y V3 cambiando solo nada: el cierre es igual en los tres anuncios. Para V4 (convocatoria) cambia el titular por "Este diciembre" / "sí los aplaudimos." y los botones por un solo texto: "Cuéntanos tu truco con #LoQueNadieVe y etiquétanos".
 
 ### 3. Texto en pantalla
 
@@ -145,7 +155,7 @@ Vertical 9:16 realistic video, 8 seconds, same kitchen, same terracotta lunchbox
 
 ### 2. Unir
 
-Un solo clip de 8 s. Cierre en los últimos 2 s: logo, slogan y los dos botones.
+Un solo clip de 8 s más la misma pantalla de cierre de V1 (sección 2b del video 3), 2 a 3 s.
 
 ### 3. Texto en pantalla
 
@@ -181,7 +191,7 @@ Vertical 9:16 authentic smartphone-style video, 8 seconds, phone propped on the 
 
 ### 2. Unir
 
-Un solo clip de 8 s. Cierre: logo, slogan y los dos botones.
+Un solo clip de 8 s más la misma pantalla de cierre de V1 (sección 2b del video 3), 2 a 3 s.
 
 ### 3. Texto en pantalla
 

@@ -62,29 +62,30 @@ function setupMedia(): void {
     ph.innerHTML = `${iconSvg(isVideo ? 'play' : 'camera')}<b>${label}</b><span>${note}</span>`;
     m.appendChild(ph);
 
+    // Póster (o imagen fija): se carga siempre que exista; si el video falta, queda la foto.
+    const src = m.dataset.media;
+    if (src) {
+      const img = new Image();
+      img.alt = `${label} · ${note}`;
+      img.decoding = 'async';
+      img.addEventListener('load', () => { if (img.naturalWidth > 0) m.classList.add('has-media'); }, { once: true });
+      img.addEventListener('error', () => img.remove(), { once: true });
+      img.src = src;
+      m.prepend(img);
+    }
     if (isVideo) {
       const v = document.createElement('video');
       v.muted = true;
       v.loop = true;
       v.playsInline = true;
-      v.preload = 'metadata';
+      v.preload = 'auto';
+      if (src) v.poster = src;
       v.setAttribute('aria-label', `${label} · ${note}`);
       v.addEventListener('loadeddata', () => m.classList.add('has-media'), { once: true });
       v.addEventListener('error', () => v.remove(), { once: true });
       v.src = m.dataset.video ?? '';
       m.prepend(v);
-      return;
     }
-    const src = m.dataset.media;
-    if (!src) return;
-    const img = new Image();
-    img.alt = `${label} · ${note}`;
-    img.decoding = 'async';
-    img.loading = 'lazy';
-    img.addEventListener('load', () => { if (img.naturalWidth > 0) m.classList.add('has-media'); }, { once: true });
-    img.addEventListener('error', () => img.remove(), { once: true });
-    img.src = src;
-    m.prepend(img);
   });
 }
 setupMedia();

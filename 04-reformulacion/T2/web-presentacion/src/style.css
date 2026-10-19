@@ -669,6 +669,7 @@ section[data-theme="dark"] .tl-who { color: var(--arena); }
 }
 .media > img, .media > video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; max-width: none; opacity: 0; transition: opacity .6s var(--ease); }
 .media.has-media > img, .media.has-media > video { opacity: 1; }
+.media > video { z-index: 1; }
 .media.has-media .ph { display: none; }
 .ph {
   position: absolute;
