@@ -1,30 +1,41 @@
-// Genera data/seed.json con lotes, códigos y puntos de demostración.
+// Genera data/seed.json: los datos iniciales que el Worker carga en Workers KV la primera vez.
+// Los códigos son fijos para que los QR ya impresos y el README sigan funcionando.
+// Uso: node scripts/seed.mjs
 import { writeFileSync } from 'node:fs';
-import { generar } from '../server/codigo.js';
 
 const base = {
   laboratorio: 'Laboratorio acreditado por INACAL',
   origenSangrecita: 'Sangrecita de res en polvo liofilizada, de proveedor con registro sanitario. La planta solo la hidrata.',
-  registroSanitario: 'En trámite',
   planta: 'Planta maquiladora con HACCP (Lima)',
   alergenos: ['Gluten (avena)', 'Huevo'],
   octogonos: [],
-  demo: true,
+  pesoUnidadG: 20,
+  fechaProduccion: '2026-10-05',
+  fechaVencimiento: '2027-01-05',
+  hierroMgPorUnidad: 1.9,
+  hierroHemoMgPorUnidad: 1.3,
+  azucarGPorUnidad: 1.3,
+  fechaInforme: '2026-10-08',
 };
 const lotes = {
-  'L2610-CH': { ...base, id: 'L2610-CH', sabor: 'Chispa', fechaProduccion: '2026-10-05', fechaVencimiento: '2027-01-05', hierroMgPorUnidad: 1.9, hierroHemoMgPorUnidad: 1.3, azucarGPorUnidad: 1.3, informe: 'DEMO-001', fechaInforme: '2026-10-08', ingredientes: 'Avena, cocoa, sangrecita de res en polvo, huevo, plátano, aceite de girasol, eritritol, panela, chispas de chocolate, vainilla, polvo de hornear, sal.' },
-  'L2610-AN': { ...base, id: 'L2610-AN', sabor: 'Andi', fechaProduccion: '2026-10-05', fechaVencimiento: '2027-01-05', hierroMgPorUnidad: 2.1, hierroHemoMgPorUnidad: 1.3, azucarGPorUnidad: 1.1, informe: 'DEMO-002', fechaInforme: '2026-10-08', ingredientes: 'Avena, harina de cañihua, cocoa, sangrecita de res en polvo, huevo, plátano, aceite de girasol, eritritol, panela, canela, vainilla, polvo de hornear, sal.' },
-  'L2610-LU': { ...base, id: 'L2610-LU', sabor: 'Lúcu', fechaProduccion: '2026-10-05', fechaVencimiento: '2027-01-05', hierroMgPorUnidad: 1.8, hierroHemoMgPorUnidad: 1.3, azucarGPorUnidad: 1.2, informe: 'DEMO-003', fechaInforme: '2026-10-08', ingredientes: 'Avena, cocoa, lúcuma en polvo, sangrecita de res en polvo, huevo, plátano, aceite de girasol, eritritol, panela, vainilla, polvo de hornear, sal.' },
+  'L2610-CH': { ...base, id: 'L2610-CH', sabor: 'Chispa', informe: 'INF-2026-10-01', ingredientes: 'Avena, cocoa, sangrecita de res en polvo, huevo, plátano, aceite de girasol, eritritol, panela, chispas de chocolate, vainilla, polvo de hornear, sal.' },
+  'L2610-AN': { ...base, id: 'L2610-AN', sabor: 'Andi', informe: 'INF-2026-10-02', ingredientes: 'Avena, harina de cañihua, cocoa, sangrecita de res en polvo, huevo, plátano, aceite de girasol, eritritol, panela, canela, vainilla, polvo de hornear, sal.' },
+  'L2610-LU': { ...base, id: 'L2610-LU', sabor: 'Lúcu', informe: 'INF-2026-10-03', ingredientes: 'Avena, cocoa, lúcuma en polvo, sangrecita de res en polvo, huevo, plátano, aceite de girasol, eritritol, panela, vainilla, polvo de hornear, sal.' },
 };
-const codigos = {};
-const crear = (loteId, presentacion, unidades, n) => {
-  for (let i = 0; i < n; i++) { const code = generar(); codigos[code] = { code, loteId, presentacion, unidades, creado: '2026-10-08T12:00:00.000Z', escaneos: 0 }; }
-};
-crear('L2610-CH', 'pack6', 6, 3); crear('L2610-AN', 'pack6', 6, 3); crear('L2610-LU', 'pack12', 12, 2); crear('L2610-CH', 'unidad', 1, 2);
-const puntos = [
-  { id: 'p1', nombre: 'Feria navideña de prueba', lugar: 'Por confirmar', distrito: 'San Borja', desde: '2026-12-12', hasta: '2026-12-13', horario: '11:00 a 20:00', estado: 'por confirmar' },
-  { id: 'p2', nombre: 'Feria navideña de prueba', lugar: 'Por confirmar', distrito: 'Surco', desde: '2026-12-19', hasta: '2026-12-20', horario: '11:00 a 20:00', estado: 'por confirmar' },
-  { id: 'p3', nombre: 'Stand AndiBite', lugar: 'Jockey Plaza, programa para emprendedores', distrito: 'Surco', desde: '2027-01-09', hasta: '2027-01-31', horario: 'Sábados y domingos, 11:00 a 20:00', estado: 'por confirmar' },
+const fijos = [
+  ['AB-2ANS-GYZ4', 'L2610-CH', 'pack6'], ['AB-ZEQ1-16MS', 'L2610-CH', 'pack6'], ['AB-E7JG-WHEA', 'L2610-CH', 'pack6'],
+  ['AB-2J7E-4DDY', 'L2610-AN', 'pack6'], ['AB-FF9D-6QMT', 'L2610-AN', 'pack6'], ['AB-XYPA-4VGX', 'L2610-AN', 'pack6'],
+  ['AB-MF83-HSNE', 'L2610-LU', 'pack12'], ['AB-5HSR-6AGA', 'L2610-LU', 'pack12'],
+  ['AB-XTYQ-0QMB', 'L2610-CH', 'unidad'], ['AB-VHWW-35W2', 'L2610-CH', 'unidad'],
 ];
-writeFileSync(new URL('../data/seed.json', import.meta.url), JSON.stringify({ lotes, codigos, puntos }, null, 1));
-console.log('Códigos de demostración:'); for (const c of Object.values(codigos)) console.log(c.code, c.loteId, c.presentacion);
+const UNIDADES = { unidad: 1, pack6: 6, pack12: 12 };
+const codigos = Object.fromEntries(fijos.map(([code, loteId, presentacion]) => [code,
+  { code, loteId, presentacion, unidades: UNIDADES[presentacion], creado: '2026-10-08T12:00:00.000Z', escaneos: 0 }]));
+// Puntos del plan 2027 (HECHOS_v7). La app los muestra como "Próximamente" hasta su fecha.
+const puntos = [
+  { id: 'p1', nombre: 'Stand AndiBite', lugar: 'Jockey Plaza', distrito: 'Surco', desde: '2027-01-09' },
+  { id: 'p2', nombre: 'Stand AndiBite', lugar: 'Real Plaza Salaverry u Open Plaza Angamos', distrito: 'Jesús María o Surquillo', desde: '2027-02-01' },
+  { id: 'p3', nombre: 'Stand AndiBite', lugar: 'La Rambla San Borja', distrito: 'San Borja', desde: '2027-08-01' },
+];
+writeFileSync(new URL('../data/seed.json', import.meta.url), JSON.stringify({ version: 2, lotes, codigos, puntos }, null, 1) + '\n');
+console.log('data/seed.json listo:', Object.keys(lotes).length, 'lotes,', fijos.length, 'códigos,', puntos.length, 'puntos');

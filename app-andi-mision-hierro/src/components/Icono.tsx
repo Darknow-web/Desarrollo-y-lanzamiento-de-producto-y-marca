@@ -34,6 +34,8 @@ const P: Record<string, string> = {
   copiar: 'M8 8h11v12H8zM5 16V4h11',
   rayo: 'M13 3 5 13h6l-1 8 8-10h-6l1-8Z',
   sol: 'M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0-15v2m0 16v2M4.2 4.2l1.4 1.4m12.8 12.8 1.4 1.4M2 12h2m16 0h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4',
+  documento: 'M7 3h7l4 4v14H7V3Zm7 0v4h4M10 12h5M10 16h5',
+  hoja: 'M5 19c0-8 5-13 14-14-1 9-6 14-14 14Zm0 0 7-7',
   grafico: 'M4 20V4m0 16h16M8 16v-4m4 4V8m4 8v-6',
 };
 export type NombreIcono = keyof typeof P;

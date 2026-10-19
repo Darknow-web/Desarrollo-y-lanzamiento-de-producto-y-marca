@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>AndiBite · Sustentación T2</title>
+  <meta name="description" content="AndiBite: mini brownie de 20 g con sangrecita y el hierro medido por lote. Sustentación T2 del Grupo 2, proyecto EXPOINNOVA." />
+  <meta name="theme-color" content="#4A2018" />
+  <link rel="icon" type="image/png" href="./img/logo_color.png" />
+</head>
+<body class="theme-dark">
+
+<!-- ===================== Interfaz fija ===================== -->
+<div class="ui" aria-label="Controles de la presentación">
+  <div class="ui-progress" aria-hidden="true"><span></span></div>
+  <div class="ui-top">
+    <span class="ui-sec" id="ui-sec">Apertura</span>
+    <div class="ui-btns">
+      <button type="button" class="ui-btn" id="btn-annex" title="Anexos (tecla A)" aria-label="Ir a los anexos">Anexos</button>
+      <button type="button" class="ui-btn ui-icon" id="btn-fs" title="Pantalla completa (tecla F)" aria-label="Pantalla completa">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+      </button>
+      <button type="button" class="ui-btn ui-icon" id="btn-menu" title="Menú de secciones (tecla M)" aria-label="Abrir el menú de secciones" aria-expanded="false" aria-controls="menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="ui-bottom">
+    <button type="button" class="ui-btn ui-icon ui-nav" id="btn-prev" aria-label="Pantalla anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <span class="ui-num" id="ui-num" aria-live="polite">01 / 30</span>
+    <button type="button" class="ui-btn ui-icon ui-nav" id="btn-next" aria-label="Pantalla siguiente">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</div>
+
+<nav class="menu" id="menu" aria-hidden="true" aria-label="Secciones">
+  <div class="menu-inner">
+    <div class="menu-head">
+      <img src="./img/logo_light.png" alt="AndiBite" width="700" height="239" />
+      <button type="button" class="ui-btn ui-icon" id="btn-close" aria-label="Cerrar el menú">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="menu-list" id="menu-list"></div>
+    <p class="menu-keys">← → o espacio: avanzar · clic: avanzar · M: menú · A: anexos · F: pantalla completa · Inicio y Fin</p>
+  </div>
+</nav>
+
+<!-- ===================== Presentación ===================== -->
+<div class="reveal">
+<div class="slides">
+
+<!-- 01 · PORTADA -->
+<section id="s-portada" data-sec="Apertura" data-title="Portada" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <div class="portada-txt">
+      <img class="portada-logo in" src="./img/logo_light.png" alt="AndiBite" width="700" height="239" />
+      <h1 class="portada-h in">Hierro medido.<br />Sabor a brownie.</h1>
+      <p class="lead in">Mini brownie de 20 g con sangrecita y el hierro medido por lote.</p>
+      <div class="portada-team in">
+        <p class="kicker">Sustentación T2 · Proyecto EXPOINNOVA</p>
+        <p>Grupo 2 · Diana Ayoso · Carlos Inga · Angie Blas · Patricia Cárdenas · Adela Robles</p>
+        <p class="muted">Desarrollo y lanzamiento de nuevos productos · Prof. Paola Zevallos · Octubre de 2026</p>
+      </div>
+    </div>
+    <div class="portada-pack">
+      <img class="pack-img float" data-parallax="18" src="./img/empaque_frente.jpg" alt="Empaque kraft de AndiBite, pack de 6 mini brownies" width="900" height="1252" />
+    </div>
+    <p class="hint in" aria-hidden="true">Usa las flechas, haz clic o desliza</p>
+  </div>
+</section>
+
+<!-- 02 · PROBLEMA -->
+<section id="s-problema" data-sec="Apertura" data-title="El problema" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <div class="bleed-wrap">
+      <img class="bleed kenburns" data-parallax="10" src="./img/imagen_4.jpg" alt="Lonchera abierta que regresa intacta junto a una mochila" width="1200" height="670" />
+      <div class="shade shade-left"></div>
+    </div>
+    <div class="problema-txt">
+      <p class="kicker in">El problema</p>
+      <p class="big in"><span data-count="24">24</span><span class="unit"> %</span></p>
+      <p class="lead strong in">de los niños de 6 a 35 meses de Lima tiene anemia.</p>
+      <p class="punch fragment rise">Y lo que tiene hierro<br />vuelve intacto en la lonchera.</p>
+    </div>
+    <p class="src">Fuente: INEI, ENDES 2024, criterio OMS, Lima Metropolitana. La lonchera que vuelve: 10 entrevistas a profundidad, semanas 1 a 4. Foto ilustrativa.</p>
+  </div>
+</section>
+
+<!-- 03 · DE DÓNDE VENIMOS -->
+<section id="s-rumbo" data-sec="Apertura" data-title="Corregimos el rumbo" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">De dónde venimos</p>
+    <h2 class="title in">Corregimos el rumbo con evidencia</h2>
+    <div class="timeline">
+      <svg class="tl-line" viewBox="0 0 1000 10" preserveAspectRatio="none" aria-hidden="true"><line class="draw" x1="0" y1="5" x2="1000" y2="5" /></svg>
+      <ol class="tl-items">
+        <li class="tl-item"><span class="tl-dot pop"></span><p class="tl-when">Semanas 1 a 4</p><p class="tl-what">AndyBites</p><p class="tl-who">mamás de Lima Norte, NSE C/B</p></li>
+        <li class="tl-item"><span class="tl-dot pop"></span><p class="tl-when">Focus 1 y degustación</p><p class="tl-what">Gana el brownie</p><p class="tl-who">el sabor convence; el precio no les alcanza</p></li>
+        <li class="tl-item hot"><span class="tl-dot pop"></span><p class="tl-when">T1 · octubre 2026</p><p class="tl-what">AndiBite</p><p class="tl-who">padres NSE A y B</p></li>
+        <li class="tl-item hot now"><span class="tl-dot pop"></span><p class="tl-when">Hoy · T2</p><p class="tl-what">Plan de marketing</p><p class="tl-who">lanzamiento en enero de 2027</p></li>
+      </ol>
+    </div>
+    <p class="closer in">El cambio de público no fue de gusto: lo pidió la evidencia.</p>
+    <p class="src">Fuente: entrevistas y focus 1 (semanas 1 a 4); degustación del prototipo con 4 madres; T1 (octubre de 2026); plan de marketing 2027.</p>
+  </div>
+</section>
+
+<!-- 04 · DIVISOR CANVAS -->
+<section class="divider" data-auto-animate data-sec="Canvas" data-title="01 · Canvas" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <span class="secnum" data-id="n1">01</span>
+    <div class="div-txt">
+      <h2 class="div-title in">Modelo de negocio Canvas</h2>
+      <p class="lead in">9 bloques que se sostienen entre sí</p>
+    </div>
+  </div>
+</section>
+
+<!-- 05 · CANVAS -->
+<section id="s-canvas" data-auto-animate data-sec="Canvas" data-title="Nueve bloques" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker"><span class="kicker-num" data-id="n1">01</span> Business Model Canvas</p>
+    <h2 class="title in">Nueve bloques, una sola promesa</h2>
+    <div class="canvas">
+      <div class="cb c-socios"><b>8 · Socios clave</b><p>Maquila, laboratorio acreditado por INACAL, proveedor de sangrecita y malls</p></div>
+      <div class="cb c-act"><b>7 · Actividades</b><p>Medir y publicar el hierro; vender en el stand</p></div>
+      <div class="cb c-rec"><b>6 · Recursos</b><p>Receta que esconde la sangrecita; app y marca</p></div>
+      <div class="cb c-prop hot"><b>2 · Propuesta de valor</b><p class="cb-big">Hierro medido. Sabor a brownie.</p><p class="cb-sub">El snack de lonchera que tu hijo sí se come</p></div>
+      <div class="cb c-rel"><b>4 · Relación</b><p>Degustación cara a cara; aviso de recompra</p></div>
+      <div class="cb c-can"><b>3 · Canales</b><p>Stands 43 %, WhatsApp 18 %, colegios 17.5 %</p></div>
+      <div class="cb c-seg"><b>1 · Segmentos</b><p>Padres A y B que leen etiquetas: 46,000 hogares núcleo</p></div>
+      <div class="cb c-cost"><b>9 · Estructura de costos</b><p>S/1.64 por brownie, sin planta propia · marketing S/24,544 en 15 meses</p></div>
+      <div class="cb c-ing"><b>5 · Fuentes de ingreso</b><p>Pack de 6: S/27.90 en stand y S/26.90 por WhatsApp · año 1: S/244,728</p></div>
+    </div>
+    <p class="src">Fuente: Canvas del T1 con cifras del modelo v7 (T2_01) y HECHOS_v7. Ventas con IGV (impuesto general a las ventas). INACAL: Instituto Nacional de Calidad.</p>
+  </div>
+</section>
+
+<!-- 06 · COHERENCIA -->
+<section id="s-cadena" data-sec="Canvas" data-title="La cadena cierra" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <p class="kicker in">Coherencia del Canvas</p>
+    <h2 class="title in">La cadena cierra: del cliente al costo</h2>
+    <div class="chain">
+      <svg class="chain-line" viewBox="0 0 1000 10" preserveAspectRatio="none" aria-hidden="true"><line class="draw" x1="0" y1="5" x2="1000" y2="5" /></svg>
+      <div class="ch in"><span class="ch-k">Cliente</span><span class="ch-n"><span data-count="46000">46,000</span></span><span class="ch-t">hogares A/B núcleo</span></div>
+      <div class="ch in"><span class="ch-k">Propuesta</span><span class="ch-n"><span data-count="1.9" data-dec="1">1.9</span><small> mg</small></span><span class="ch-t">de hierro por brownie, medido por lote</span></div>
+      <div class="ch in"><span class="ch-k">Canal</span><span class="ch-n"><span data-count="43">43</span><small> %</small></span><span class="ch-t">en stands, donde el niño prueba</span></div>
+      <div class="ch in"><span class="ch-k">Ingreso</span><span class="ch-n"><small>S/</small><span data-count="4.48" data-dec="2">4.48</span></span><span class="ch-t">por brownie; 35 % vuelve por WhatsApp</span></div>
+      <div class="ch in"><span class="ch-k">Costo</span><span class="ch-n">58–66<small> %</small></span><span class="ch-t">de margen bruto en el stand</span></div>
+    </div>
+    <p class="pill in">Todo con S/24,544 de marketing en 15 meses: S/0.44 por brownie.</p>
+    <p class="src">Fuente: HECHOS_v7 y Excel v7 (S/4.48 = pack de 6 por WhatsApp, S/26.90 ÷ 6; costo S/1.64 por brownie); análisis de laboratorio acreditado por INACAL; presupuesto de marketing oct-2026 a dic-2027 (T2_17).</p>
+  </div>
+</section>
+
+<!-- 07 · PROPUESTA DE VALOR -->
+<section id="s-propuesta" data-sec="Canvas" data-title="Propuesta de valor" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <div class="side-photo">
+      <img class="kenburns" data-parallax="10" src="./img/imagen_2.jpg" alt="Lonchera kraft con un mini brownie, mandarina y botella de agua" width="1200" height="1788" loading="lazy" />
+    </div>
+    <div class="prop-txt">
+      <p class="kicker in">Propuesta de valor</p>
+      <h2 class="quote-h in">“Él ve un brownie. Tú ves el hierro medido de su lote.”</h2>
+      <div class="diffs">
+        <div class="diff in"><span class="diff-n"><span data-count="1.9" data-dec="1">1.9</span><small> mg</small></span><span class="diff-t">de hierro por brownie de 20 g, medido por un laboratorio acreditado por INACAL</span></div>
+        <div class="diff in"><span class="diff-n">0<small> octógonos</small></span><span class="diff-t">4.6 a 7.1 g de azúcar por 100 g</span></div>
+        <div class="diff in"><span class="diff-n diff-word">Lo prueba primero</span><span class="diff-t">un formato que el niño ya pide, en degustación en el stand</span></div>
+      </div>
+    </div>
+    <p class="src src-left">Fuente: análisis de laboratorio acreditado por INACAL; receta reformulada con eritritol (T1); el octógono de azúcar aplica desde 10 g por 100 g en sólidos (Manual de Advertencias Publicitarias, D.S. 012-2018-SA). Foto ilustrativa.</p>
+  </div>
+</section>
+
+<!-- 08 · DIVISOR DIGITAL -->
+<section class="divider" data-auto-animate data-sec="Transformación digital" data-title="02 · Transformación digital" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <span class="secnum" data-id="n2">02</span>
+    <div class="div-txt">
+      <h2 class="div-title in">Transformación digital</h2>
+      <p class="lead in">La app hace visible lo que medimos</p>
+    </div>
+  </div>
+</section>
+
+<!-- 09 · MEDIDO, NO PROMETIDO -->
+<section id="s-medido" data-auto-animate data-sec="Transformación digital" data-title="Medido, no prometido" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <div class="medido-txt">
+      <p class="kicker"><span class="kicker-num" data-id="n2">02</span> Innovación</p>
+      <h2 class="title in">Medido, no prometido</h2>
+      <p class="lead in">El QR de cada envase abre el análisis de su lote.</p>
+      <div class="steps">
+        <svg class="steps-line" viewBox="0 0 1000 10" preserveAspectRatio="none" aria-hidden="true"><line class="draw" x1="80" y1="5" x2="920" y2="5" /></svg>
+        <span class="steps-dot" aria-hidden="true"></span>
+        <div class="step pop"><i class="ico" data-icon="qr"></i><span>QR único en cada envase</span></div>
+        <div class="step pop"><i class="ico" data-icon="flask"></i><span>Análisis de laboratorio</span></div>
+        <div class="step pop"><i class="ico" data-icon="phone"></i><span>Resultado en la app</span></div>
+      </div>
+      <p class="muted-lead in">Cada lote de enero a junio; cada 2 meses desde julio.</p>
+    </div>
+    <div class="phone phone-hero in"><img src="./img/app_15-inicio_oscuro.jpg" alt="Pantalla de inicio de la app Andi, Misión Hierro" width="600" height="1211" loading="lazy" /></div>
+    <p class="src src-left">Fuente: HECHOS_v7 (frecuencia del análisis); laboratorio acreditado por INACAL; prototipo funcional de la app Andi, Misión Hierro.</p>
+  </div>
+</section>
+
+<!-- 10 · APP 4 PANTALLAS -->
+<section id="s-app" data-sec="Transformación digital" data-title="La app ya funciona" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">Prototipo funcional · app Andi, Misión Hierro</p>
+    <h2 class="title in">La app ya funciona: cuatro pantallas reales</h2>
+    <div class="phones">
+      <figure class="in"><div class="phone"><img src="./img/app_05-lote.jpg" alt="Pantalla Tu lote con el hierro medido" width="600" height="1211" loading="lazy" /></div><figcaption>Hierro del lote</figcaption></figure>
+      <figure class="in"><div class="phone"><img src="./img/app_08-semaforo.jpg" alt="Pantalla Semáforo de hierro semanal" width="600" height="1211" loading="lazy" /></div><figcaption>Semáforo semanal</figcaption></figure>
+      <figure class="in"><div class="phone"><img src="./img/app_10-loncheras-plan.jpg" alt="Pantalla Loncheras de la semana con IA" width="600" height="1211" loading="lazy" /></div><figcaption>Loncheras con IA</figcaption></figure>
+      <figure class="in"><div class="phone"><img src="./img/app_21-ninos-mapa.jpg" alt="Pantalla Misión Hierro, modo niños con Andi la llamita" width="600" height="1211" loading="lazy" /></div><figcaption>Misión Hierro (niños)</figcaption></figure>
+    </div>
+    <p class="src">Fuente: capturas del prototipo funcional (app-andi-mision-hierro). Modo niños sin compras ni publicidad (Ley 30021, art. 8); datos solo en el teléfono (Ley 29733). IA: inteligencia artificial.</p>
+  </div>
+</section>
+
+<!-- 11 · VALOR EN 3 FRENTES -->
+<section id="s-valor" data-sec="Transformación digital" data-title="Valor en tres frentes" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">Valor que genera la tecnología</p>
+    <h2 class="title in">La tecnología crea valor en tres frentes</h2>
+    <div class="fronts">
+      <div class="front in"><span class="front-k">Al padre</span><p>Ve el hierro de su lote y recompra en 1 clic</p></div>
+      <div class="front dark in"><span class="front-k">Al negocio</span><p><b>35 %</b> de recompra · datos de cada escaneo · <b>S/0.04</b> por código</p></div>
+      <div class="front in"><span class="front-k">Frente a la competencia</span><p>Ningún competidor revisado publica su análisis por lote</p></div>
+    </div>
+    <p class="src">Fuente: HECHOS_v7 (recompra = 35 % de lo vendido en físico; S/0.04 por código impreso); matriz de 7 competidores en tiendas oficiales, 19-oct-2026 (T2_10).</p>
+  </div>
+</section>
+
+<!-- 12 · ECOSISTEMA -->
+<section id="s-eco" data-sec="Transformación digital" data-title="Ecosistema digital" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <p class="kicker in">Ecosistema digital</p>
+    <h2 class="title in">Todo lleva al stand y al WhatsApp</h2>
+    <div class="eco">
+      <svg class="eco-svg" viewBox="0 0 1000 250" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <path id="eco-path" class="draw eco-main" d="M100 70 H900" />
+        <path class="draw eco-loop" d="M900 118 V200 H300 V118" />
+        <path class="eco-arrow" d="M292 132 L300 118 L308 132" />
+        <circle class="eco-dot" r="7" cx="100" cy="70" />
+        <circle class="eco-dot2" r="6" cx="900" cy="118" />
+      </svg>
+      <div class="eco-nodes">
+        <div class="eco-n pop"><i class="ico" data-icon="megaphone"></i><b>Meta Ads</b><span>video para adultos</span></div>
+        <div class="eco-n pop"><i class="ico" data-icon="chat"></i><b>WhatsApp</b><span>primer contacto</span></div>
+        <div class="eco-n pop hot"><i class="ico" data-icon="store"></i><b>Stand</b><span>prueba y compra</span></div>
+        <div class="eco-n pop"><i class="ico" data-icon="qr"></i><b>QR del envase</b><span>abre su lote</span></div>
+        <div class="eco-n pop"><i class="ico" data-icon="phone"></i><b>App Andi</b><span>avisa la recompra</span></div>
+      </div>
+      <p class="eco-loop-t in">Recompra en 1 clic: 35 % de lo vendido en físico</p>
+    </div>
+    <div class="eco-meta in"><span class="big-sm"><span data-count="30">30</span> %</span><span>de los envases escaneados: meta de 2027</span></div>
+    <p class="src">Fuente: mapa y recorrido del cliente (T2_14, secciones 1 y 2); HECHOS_v7 (meta de escaneo y recompra). Pauta en Meta: S/5,050 en 2027, 50/50 entre A y B.</p>
+  </div>
+</section>
+
+<!-- 13 · DIVISOR INVESTIGACIÓN -->
+<section class="divider" data-auto-animate data-sec="Investigación" data-title="03 · Investigación cualitativa" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <span class="secnum" data-id="n3">03</span>
+    <div class="div-txt">
+      <h2 class="div-title in">Investigación cualitativa</h2>
+      <p class="lead in">Lo que escuchamos y probamos con las familias</p>
+    </div>
+  </div>
+</section>
+
+<!-- 14 · QUÉ HICIMOS -->
+<section id="s-campo" data-auto-animate data-sec="Investigación" data-title="Qué hicimos" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker"><span class="kicker-num" data-id="n3">03</span> Evidencia del trabajo de campo</p>
+    <h2 class="title in">Escuchamos y probamos antes de decidir</h2>
+    <div class="campo">
+      <div class="counters">
+        <div class="ctr in"><span class="ctr-n" data-count="10">10</span><span class="ctr-t">entrevistas a profundidad</span></div>
+        <div class="ctr in"><span class="ctr-n" data-count="6">6</span><span class="ctr-t">participantes en el focus 1</span></div>
+        <div class="ctr in"><span class="ctr-n" data-count="4">4</span><span class="ctr-t">madres probaron el prototipo</span></div>
+        <div class="ctr in"><span class="ctr-n" data-count="1">1</span><span class="ctr-t">store check en La Molina</span></div>
+      </div>
+      <div class="campo-fotos">
+        <figure class="in"><img data-parallax="6" src="./img/entrevista_1.jpg" alt="Entrevista en casa de una familia, con la mamá y la hija" width="803" height="502" loading="lazy" /><figcaption><b>Entrevista en casa</b> con la mamá y la hija presentes</figcaption></figure>
+        <figure class="in"><img data-parallax="6" src="./img/entrevista_2.jpg" alt="Entrevista en una oficina" width="806" height="504" loading="lazy" /><figcaption><b>Entrevista en oficina</b> · semanas 1 a 4</figcaption></figure>
+      </div>
+    </div>
+    <p class="src">Fuente: entrevistas y focus 1 virtual con mamás de Lima Norte, NSE C/B (01-contexto/03 y 04); degustación del prototipo con 4 madres; store check (03-entregables/07). NSE: nivel socioeconómico.</p>
+  </div>
+</section>
+
+<!-- 15 · CITAS -->
+<section id="s-citas" data-sec="Investigación" data-title="Lo que nos dijeron" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <p class="kicker in">Lo que nos dijeron</p>
+    <h2 class="title in">Las mamás ya buscan cómo esconder el hierro</h2>
+    <div class="quotes">
+      <span class="qmark" aria-hidden="true">“</span>
+      <blockquote class="in"><p>“Mamá, eso olía feo y mis amigos me dijeron que parecía carbón.”</p><cite>Mateo, 7 años, sobre unos nuggets de sangrecita (lo cuenta Lucero, su mamá; entrevista)</cite></blockquote>
+      <blockquote class="in"><p>“Deberían haber más productos así.”</p><cite>Adriana, focus 1, sobre una barrita de sangrecita que su hijo aceptó</cite></blockquote>
+      <blockquote class="in"><p>Eligió el brownie para “engañar” a su hija con algo que le gusta.</p><cite>Rubelis, focus 1, al explicar su voto</cite></blockquote>
+    </div>
+    <p class="src">Fuente: entrevista a Lucero Carrera, Los Olivos (01-contexto/03) y transcripción del focus 1 (01-contexto/04).</p>
+  </div>
+</section>
+
+<!-- 16 · CUATRO HALLAZGOS -->
+<section id="s-hallazgos" data-sec="Investigación" data-title="Cuatro hallazgos" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">Hallazgos</p>
+    <h2 class="title in">Cuatro hallazgos que definieron el producto</h2>
+    <div class="finds">
+      <div class="find in"><span class="find-n">1</span><h3>Lo saludable vuelve intacto</h3><p>La barrera no es saber: es el olor, el color y la textura.</p></div>
+      <div class="find in"><span class="find-n">2</span><h3>Escondida en algo dulce, sí</h3><p>“Para ella eso es chocolate.” Lourdes</p></div>
+      <div class="find in"><span class="find-n">3</span><h3>Sin la prueba del niño no hay compra</h3><p>Por eso vendemos en stands con degustación.</p></div>
+      <div class="find in"><span class="find-n">4</span><h3>Nadie dice “anemia”</h3><p>Hablan de hierro y de energía.</p></div>
+    </div>
+    <p class="src">Fuente: 10 entrevistas a profundidad y focus 1 (01-contexto/03 y 04): nuggets y puré con sangrecita rechazados; barrita de sangrecita aceptada por el hijo de Adriana; entrevista a Lourdes.</p>
+  </div>
+</section>
+
+<!-- 17 · DEGUSTACIÓN -->
+<section id="s-degus" data-sec="Investigación" data-title="Degustación con 4 madres" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">Degustación del prototipo</p>
+    <h2 class="title in">Degustación con 4 madres: no se nota la sangrecita</h2>
+    <div class="strip">
+      <figure class="strip-ph"><img src="./img/degustacion_1.jpg" alt="Madre 1 con el empaque impreso de AndiBite" width="255" height="340" loading="lazy" /></figure>
+      <figure class="strip-ph"><img src="./img/degustacion_2.jpg" alt="Madre 2 con el empaque impreso de AndiBite" width="280" height="373" loading="lazy" /></figure>
+      <figure class="strip-ph"><img src="./img/degustacion_3.jpg" alt="Madre 3 con el empaque impreso de AndiBite" width="202" height="269" loading="lazy" /></figure>
+      <figure class="strip-ph"><img src="./img/degustacion_4.jpg" alt="Madre 4 con el empaque impreso de AndiBite" width="300" height="400" loading="lazy" /></figure>
+    </div>
+    <p class="closer strong in">Sabe a postre de chocolate, sin olor ni sabor a sangrecita.</p>
+    <p class="src">Fuente: degustación del prototipo con el empaque impreso (bolsa kraft): «no se percibe el sabor ni el olor a la sangrecita» (lámina del grupo). Fotos: las 4 madres participantes.</p>
+  </div>
+</section>
+
+<!-- 18 · VALORADO Y POR MEJORAR -->
+<section id="s-valorado" data-sec="Investigación" data-title="Valorado y por mejorar" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">Características</p>
+    <h2 class="title in">Lo que más valoraron y lo que mejoramos</h2>
+    <div class="twocol">
+      <div class="col col-ok">
+        <p class="col-k">Lo más valorado</p>
+        <ul>
+          <li class="in">Que el niño lo pida</li>
+          <li class="in">No se nota la sangrecita</li>
+          <li class="in">Sabor a chocolate</li>
+          <li class="in">Porción lista para la mochila</li>
+        </ul>
+      </div>
+      <div class="col col-fix">
+        <p class="col-k">Por mejorar</p>
+        <ul>
+          <li class="in">Probarlo con niños, no solo con adultos</li>
+          <li class="in">Empaque 2.0: sin personaje y con el dato del lote</li>
+          <li class="in">Una cinta y un color por sabor</li>
+          <li class="in">Hablar de hierro, no de anemia</li>
+        </ul>
+      </div>
+    </div>
+    <p class="src">Fuente: entrevistas y focus 1 (01-contexto/03 y 04); degustación del prototipo; manual de marca, empaque 2.0 (T2_12, sección 9.1).</p>
+  </div>
+</section>
+
+<!-- 19 · EMPATE -->
+<section id="s-empate" data-sec="Investigación" data-title="El brownie empató" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">Aceptación inicial</p>
+    <h2 class="title in">El brownie empató y lo elegimos por viabilidad</h2>
+    <div class="empate">
+      <div class="votes">
+        <p class="big-md in"><span data-count="2">2</span> de 5</p>
+        <p class="lead-dark in">votos en el focus 1: empate con la trufa</p>
+        <div class="vbars">
+          <div class="vbar"><span class="vb-l">Brownie</span><span class="vb-b hot bar" style="--w:100%"></span><span class="vb-n">2</span></div>
+          <div class="vbar"><span class="vb-l">Trufa</span><span class="vb-b bar" style="--w:100%"></span><span class="vb-n">2</span></div>
+          <div class="vbar"><span class="vb-l">Wafer</span><span class="vb-b soft bar" style="--w:50%"></span><span class="vb-n">1</span></div>
+        </div>
+      </div>
+      <div class="reasons">
+        <p class="col-k">Por qué el brownie</p>
+        <div class="reason in"><span>1</span>Se hace con horno, moldes y balanza</div>
+        <div class="reason in"><span>2</span>El chocolate esconde la sangrecita</div>
+        <div class="reason in"><span>3</span>Su precio cabía en lo declarado</div>
+      </div>
+    </div>
+    <p class="pill pill-dark in">Después, la degustación con 4 madres confirmó el sabor.</p>
+    <p class="src">Fuente: focus 1 virtual sin degustación, 6 participantes, votaron 5 (01-contexto/04); por qué ganó el brownie (01-contexto/01); degustación del prototipo.</p>
+  </div>
+</section>
+
+<!-- 20 · DIVISOR MARKETING -->
+<section class="divider" data-auto-animate data-sec="Plan de marketing" data-title="04 · Plan de marketing: etapa 1" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <span class="secnum" data-id="n4">04</span>
+    <div class="div-txt">
+      <h2 class="div-title in">Plan de marketing: etapa 1</h2>
+      <p class="lead in">Para quién, cómo nos ven, cuánto vale y cómo lo contamos</p>
+    </div>
+  </div>
+</section>
+
+<!-- 21 · CLAUDIA Y RODRIGO -->
+<section id="s-personas" data-auto-animate data-sec="Plan de marketing" data-title="Claudia y Rodrigo" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker"><span class="kicker-num" data-id="n4">04</span> Mercado objetivo · A y B con esfuerzo parejo</p>
+    <h2 class="title in">Le hablamos a dos padres: Claudia y Rodrigo</h2>
+    <div class="personas">
+      <article class="persona in">
+        <header><span class="ini">C</span><div><h3>Claudia Mendoza</h3><p>Segmento A · la Guardiana del Hierro</p></div></header>
+        <dl>
+          <div><dt>Edad y distrito</dt><dd>38 años · San Borja (Lima Top)</dd></div>
+          <div><dt>Ocupación</dt><dd>Abogada · 2 hijos de 7 y 4</dd></div>
+          <div><dt>Hogar</dt><dd>S/13,500 al mes</dd></div>
+          <div><dt>Compra en</dt><dd>Wong, Flora &amp; Fauna e Instagram</dd></div>
+          <div><dt>Pagaría</dt><dd>S/24 a 30 por el pack de 6</dd></div>
+        </dl>
+        <p class="persona-q">“Todo lo que le hace bien, mi hijo lo escupe.”</p>
+      </article>
+      <article class="persona in">
+        <header><span class="ini">R</span><div><h3>Rodrigo Salazar</h3><p>Segmento B · el Resolutivo</p></div></header>
+        <dl>
+          <div><dt>Edad y distrito</dt><dd>40 años · San Miguel (Lima Moderna)</dd></div>
+          <div><dt>Ocupación</dt><dd>Jefe de logística · 2 hijos de 9 y 6</dd></div>
+          <div><dt>Hogar</dt><dd>Unos S/8,500 al mes</dd></div>
+          <div><dt>Compra en</dt><dd>Plaza Vea, apps y WhatsApp</dd></div>
+          <div><dt>Pagaría</dt><dd>S/18 a 24 por 6; mira el precio por brownie</dd></div>
+        </dl>
+        <p class="persona-q">“No me vendas salud, véndeme una mañana menos.”</p>
+      </article>
+    </div>
+    <p class="src">Fuente: HECHOS_v7 y T2_09. Padres de 32 a 45 años, NSE A y B, con hijos de 4 a 11 en colegio privado; 7 de cada 10 hogares A/B son B (APEIM 2025). Fichas representativas.</p>
+  </div>
+</section>
+
+<!-- 22 · POSICIONAMIENTO -->
+<section id="s-mapa" data-sec="Plan de marketing" data-title="Posicionamiento" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">Posicionamiento</p>
+    <h2 class="title in">Casi solos en «premium con prueba»</h2>
+    <div class="mapa-wrap">
+      <div class="mapa" id="mapa" role="img" aria-label="Mapa perceptual: precio por 20 g frente a evidencia que el padre puede verificar. AndiBite arriba a la derecha."></div>
+      <div class="mapa-side">
+        <p class="statement in">Para padres A y B que quieren que su hijo coma hierro sin pelear, AndiBite es el mini brownie que sí se come, porque cada lote se analiza y se publica en la app.</p>
+        <p class="col-k in">Slogan</p>
+        <p class="slogan in">Hierro medido. Sabor a brownie.</p>
+        <p class="risk in">Riesgo: estamos entre los más caros por 20 g.</p>
+      </div>
+    </div>
+    <p class="src">Fuente: precios por 20 g en tiendas oficiales, 19-oct-2026 (T2_02); escala de evidencia de 1 a 5 (T2_10, sección 6); en gris, marcas de referencia. AndiBite en 5: hierro medido por lote y publicado.</p>
+  </div>
+</section>
+
+<!-- 23 · EMBUDO -->
+<section id="s-embudo" data-sec="Plan de marketing" data-title="Tamaño del mercado" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <p class="kicker in">Estimación del mercado</p>
+    <h2 class="title in">Para el año 1 basta el 1.4 % del núcleo</h2>
+    <div class="funnel-wrap">
+      <div class="funnel">
+        <div class="lv lv1 grow" style="--w:100%"><b><span data-count="932000">932,000</span> hogares</b><span>Mercado total · S/130.9 millones al año</span></div>
+        <div class="lv lv2 grow" style="--w:84%"><b><span data-count="168000">168,000</span> hogares A/B</b><span>Al que apuntamos: toda Lima · S/62.8 millones</span></div>
+        <div class="lv lv3 grow" style="--w:68%"><b><span data-count="46000">46,000</span> hogares núcleo</b><span>Lima Top y Moderna · S/17.3 millones</span></div>
+        <div class="lv lv4 grow" style="--w:52%"><b>S/<span data-count="244728">244,728</span></b><span>Año 1 · 52,331 brownies</span></div>
+      </div>
+      <div class="assume in">
+        <p class="col-k">Supuestos</p>
+        <p>S/4.48 por brownie</p>
+        <p>35 % vuelve por WhatsApp</p>
+        <p>180 días × 40 % de loncheras</p>
+        <p class="hl">Meta: 1.4 % del núcleo</p>
+      </div>
+    </div>
+    <p class="src">Fuente: T2_05, sección 2 (APEIM 2025, Kantar 2025) y Excel v7. Ocasiones = niños de 4 a 11 × 180 días de clase × 40 % de loncheras con horneado o barrita. Ventas con IGV.</p>
+  </div>
+</section>
+
+<!-- 24 · PRECIO Y CANALES -->
+<section id="s-precio" data-sec="Plan de marketing" data-title="Precio y canales" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker in">Precio y canales</p>
+    <h2 class="title in">Precio claro por brownie y venta cara a cara</h2>
+    <div class="precio">
+      <div class="precio-l">
+        <p class="big-md red in">S/<span data-count="4.48" data-dec="2">4.48</span></p>
+        <p class="lead-dark in">por brownie en el pack de 6 por WhatsApp (S/26.90)</p>
+        <div class="prices">
+          <div class="pr in"><b>S/27.90</b><span>pack de 6 en el stand · S/4.65 c/u</span></div>
+          <div class="pr in"><b>S/49.90</b><span>pack de 12 por WhatsApp · S/4.16 c/u</span></div>
+        </div>
+      </div>
+      <div class="precio-r">
+        <p class="col-k in">Brownies del año 1 por canal</p>
+        <div class="hbars">
+          <div class="hb"><span class="hb-l">Stands</span><span class="hb-b hot bar" style="--w:100%"></span><span class="hb-n">43 %</span></div>
+          <div class="hb"><span class="hb-l">WhatsApp</span><span class="hb-b bar" style="--w:41.9%"></span><span class="hb-n">18 %</span></div>
+          <div class="hb"><span class="hb-l">Colegios</span><span class="hb-b bar" style="--w:40.7%"></span><span class="hb-n">17.5 %</span></div>
+          <div class="hb"><span class="hb-l">Ferias y eventos</span><span class="hb-b bar" style="--w:32.6%"></span><span class="hb-n">14 %</span></div>
+          <div class="hb"><span class="hb-l">Naturistas</span><span class="hb-b bar" style="--w:16.3%"></span><span class="hb-n">7 %</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="src">Fuente: HECHOS_v7 (precios con IGV; brownies por canal del Excel v7). Competencia por 20 g: Fika S/4.00, Mamalama S/4.10, Nutri H S/3.20 (T2_02). Sin suscripción: WhatsApp es para la recompra.</p>
+  </div>
+</section>
+
+<!-- 25 · CAMPAÑA: IDEA CENTRAL -->
+<section id="s-campana" data-auto-animate data-sec="Campaña" data-title="Campaña «Vuelve vacía»" data-theme="dark" data-background-color="#2E130E">
+  <div class="frame">
+    <div class="media media-bleed" data-media="img/campana/campana_4.jpg" data-label="IMAGEN campaña 4" data-note="Portada de la campaña · 16:9"></div>
+    <div class="shade shade-bottom"></div>
+    <div class="camp-txt">
+      <p class="kicker in">Campaña de lanzamiento</p>
+      <h2 class="camp-h" data-id="vv">Vuelve vacía</h2>
+      <p class="camp-line in">Su prueba: la lonchera vacía.<br />La tuya: el informe de su lote.</p>
+      <p class="camp-sign in">Hierro medido. Sabor a brownie.</p>
+    </div>
+    <p class="src">Fuente: concepto de campaña, storytelling y estrategia de comunicación (T2_13, sección 1). Insight: lo nutritivo regresa intacto (entrevistas y focus 1).</p>
+  </div>
+</section>
+
+<!-- 26 · CAMPAÑA: 3 PIEZAS -->
+<section id="s-piezas" data-auto-animate data-sec="Campaña" data-title="Tres piezas" data-theme="dark" data-background-color="#2E130E">
+  <div class="frame">
+    <div class="piezas-head">
+      <h2 class="camp-h camp-h-sm" data-id="vv">Vuelve vacía</h2>
+      <p class="lead in">Una idea, tres piezas, pauta 50/50 entre A y B</p>
+    </div>
+    <div class="piezas">
+      <article class="pieza in">
+        <div class="media" data-media="img/campana/campana_1.jpg" data-label="IMAGEN campaña 1" data-note="Anuncio A · 9:16"></div>
+        <div class="pieza-ov">
+          <span class="pieza-k">Anuncio A · Claudia, Lima Top</span>
+          <p class="pieza-hook">“Otra vez volvió llena.”</p>
+          <p class="pieza-msg">Él ve un brownie. Tú ves el hierro medido de su lote.</p>
+          <span class="pieza-cta">Escanea y mira el análisis</span>
+        </div>
+      </article>
+      <article class="pieza in">
+        <div class="media" data-media="img/campana/campana_2.jpg" data-label="IMAGEN campaña 2" data-note="Anuncio B · 9:16"></div>
+        <div class="pieza-ov">
+          <span class="pieza-k">Anuncio B · Rodrigo, Lima Moderna</span>
+          <p class="pieza-hook">“Jueves. Seis de la mañana. ¿Qué le mando?”</p>
+          <p class="pieza-msg">Una mañana menos: la lonchera de la semana, a S/4.16 por brownie.</p>
+          <span class="pieza-cta">Pídelo por WhatsApp</span>
+        </div>
+      </article>
+      <article class="pieza in">
+        <div class="media" data-media="img/campana/campana_3.jpg" data-label="IMAGEN campaña 3" data-note="Testimonial · 9:16"></div>
+        <div class="pieza-ov">
+          <span class="pieza-k">Testimonial · padre o madre real</span>
+          <p class="pieza-hook">“Primera vez que vuelve así.”</p>
+          <p class="pieza-msg">Es un brownie con sangrecita. Él solo ve un brownie.</p>
+          <span class="pieza-cta">Pruébalo este fin de semana</span>
+        </div>
+      </article>
+    </div>
+    <p class="src">Fuente: anuncios A, B y testimonial (T2_14, secciones 3.4 a 3.6 y 4.1 a 4.3); botón «Enviar mensaje» a WhatsApp; pauta en Meta 50/50 entre Lima Top y Lima Moderna desde febrero de 2027 (HECHOS_v7).</p>
+  </div>
+</section>
+
+<!-- 27 · CAMPAÑA: VIDEO -->
+<section id="s-video" data-sec="Campaña" data-title="El video de la campaña" data-theme="dark" data-background-color="#2E130E">
+  <div class="frame">
+    <p class="kicker in">Video corto · regla 5-3-2</p>
+    <h2 class="title in">Diez segundos: llena, el lote, vacía</h2>
+    <div class="video-wrap">
+      <div class="media media-video in" data-video="vid/campana.mp4" data-media="img/campana/campana_4.jpg" data-label="VIDEO campaña" data-note="Clip de Google Flow · 8 a 10 s · 16:9"></div>
+      <ol class="beats">
+        <li class="beat in"><span class="beat-t">0–3 s · Gancho</span><p>La lonchera vuelve llena</p></li>
+        <li class="beat in"><span class="beat-t">3–7 s · Cuerpo</span><p>El QR abre el informe del lote</p></li>
+        <li class="beat in"><span class="beat-t">7–10 s · Llamado</span><p>Vuelve vacía · Pídelo por WhatsApp</p></li>
+        <li class="beat beat-x in"><span class="beat-t">En Meta</span><p>5 ganchos × 3 cuerpos × 2 llamados = 30 versiones</p></li>
+      </ol>
+    </div>
+    <p class="src">Fuente: regla 5-3-2 de la sesión 09 y AIDA, atención, interés, deseo y acción (T2_14, secciones 3.1 y 3.2); video «Vuelve vacía» de S/300 en noviembre de 2026 (plan de marketing).</p>
+  </div>
+</section>
+
+<!-- 28 · QR -->
+<section id="s-qr" data-sec="Cierre" data-title="Pruébala ahora" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <div class="qr-txt">
+      <p class="kicker in">App Andi, Misión Hierro</p>
+      <h2 class="title title-xl in">Pruébala ahora</h2>
+      <p class="lead-dark in">Escanea con la cámara de tu celular y abre la app.</p>
+      <p class="muted-dark in">Modo padres: hierro del lote, semáforo semanal y loncheras con IA. Modo niños con candado, sin compras.</p>
+    </div>
+    <div class="qr-card pop">
+      <div class="qr" id="qr" role="img" aria-label="Código QR hacia la app"></div>
+      <p class="qr-url" id="qr-url"></p>
+    </div>
+    <p class="src">Fuente: prototipo funcional de la app (app-andi-mision-hierro), app web instalable que se abre con el QR de cada envase.</p>
+  </div>
+</section>
+
+<!-- 29 · PRÓXIMOS 90 DÍAS -->
+<section id="s-90" data-sec="Cierre" data-title="Próximos 90 días" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <p class="kicker in">Próximos 90 días</p>
+    <h2 class="title in">Tres hitos hasta abrir el primer stand</h2>
+    <div class="hitos">
+      <svg class="hitos-line" viewBox="0 0 1000 10" preserveAspectRatio="none" aria-hidden="true"><line class="draw" x1="0" y1="5" x2="1000" y2="5" /></svg>
+      <div class="hito"><span class="tl-dot pop"></span><p class="tl-when">Noviembre 2026</p><p class="tl-what">Grabamos «Vuelve vacía»</p><p class="tl-who">video de 30 s con familias reales: S/300</p></div>
+      <div class="hito"><span class="tl-dot pop"></span><p class="tl-when">Diciembre 2026</p><p class="tl-what">Prelanzamiento</p><p class="tl-who">100 contactos en espera, 40 packs a influencers y S/600 de pauta</p></div>
+      <div class="hito"><span class="tl-dot pop"></span><p class="tl-when">Enero 2027</p><p class="tl-what">Abre Jockey Plaza</p><p class="tl-who">punto 1, con vendedores capacitados</p></div>
+    </div>
+    <p class="src">Fuente: plan de marketing 2027 y desglose del lanzamiento (HECHOS_v7): prelanzamiento de S/1,758 entre octubre y diciembre de 2026; punto 1 en Jockey Plaza desde enero.</p>
+  </div>
+</section>
+
+<!-- 30 · CIERRE -->
+<section id="s-cierre" data-sec="Cierre" data-title="Cierre" data-theme="dark" data-background-color="#4A2018">
+  <div class="frame">
+    <div class="portada-txt">
+      <img class="cierre-logo in" src="./img/logo_light.png" alt="AndiBite" width="700" height="239" loading="lazy" />
+      <h2 class="portada-h cierre-h in">Hierro medido.<br />Sabor a brownie.</h2>
+      <p class="lead in">Su prueba: la lonchera vacía. La tuya: el informe de su lote.</p>
+      <p class="thanks in">Gracias · Grupo 2 · Diana, Carlos, Angie, Patricia y Adela</p>
+      <p class="muted in">Prof. Paola Zevallos · EXPOINNOVA · Anexos con la tecla A</p>
+    </div>
+    <div class="portada-pack">
+      <img class="pack-img pack-img-r float" data-parallax="18" src="./img/empaque_frente.jpg" alt="Empaque kraft de AndiBite" width="900" height="1252" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ANEXOS ===================== -->
+<section id="a-presupuesto" class="annex" data-annex="1" data-sec="Anexos" data-title="Presupuesto de marketing" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker">Anexo 1 · Presupuesto de marketing</p>
+    <h2 class="title title-sm">S/24,544 de octubre de 2026 a diciembre de 2027</h2>
+    <div class="tables2">
+      <table class="tbl">
+        <thead><tr><th>Tipo de medio</th><th class="r">S/</th><th class="r">%</th></tr></thead>
+        <tbody>
+          <tr><td>Publicidad (pauta en Meta, expectativa y video)</td><td class="r">5,950</td><td class="r">24 %</td></tr>
+          <tr><td>Ventas personales (vendedores en ferias y eventos)</td><td class="r">4,140</td><td class="r">17 %</td></tr>
+          <tr><td>Promociones (muestras, degustación, POP, embajadoras)</td><td class="r">7,596</td><td class="r">31 %</td></tr>
+          <tr><td>Relaciones públicas (influencers, ferias y eventos)</td><td class="r">6,858</td><td class="r">28 %</td></tr>
+        </tbody>
+        <tfoot><tr><td>Total</td><td class="r">24,544</td><td class="r">100 %</td></tr></tfoot>
+      </table>
+      <table class="tbl">
+        <thead><tr><th>Fase</th><th>Meses</th><th class="r">S/</th><th>Meta</th></tr></thead>
+        <tbody>
+          <tr><td>Prelanzamiento</td><td>Oct–dic 2026</td><td class="r">1,758</td><td>100 contactos en espera</td></tr>
+          <tr><td>Lanzamiento</td><td>Ene–feb 2027</td><td class="r">5,796</td><td>3,700 brownies</td></tr>
+          <tr><td>Crecer</td><td>Mar–jul 2027</td><td class="r">9,770</td><td>20,320 brownies; 3 colegios</td></tr>
+          <tr><td>Expandir</td><td>Ago–dic 2027</td><td class="r">7,220</td><td>28,311 brownies; unos 2,300 contactos</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="pill pill-dark">S/900 al mes (S/700 de pauta, degustación y material + S/200 de embajadoras) · BTL 74 % y digital 26 %, sin ATL · S/0.44 por brownie en 2027</p>
+    <p class="src">Fuente: T2_17, secciones 1.1 a 1.5; Presupuesto-marketing-AndiBite.xlsx; HECHOS_v7. POP: material en el punto de venta. BTL: medios directos (stand, degustación, eventos). ATL: medios masivos.</p>
+  </div>
+</section>
+
+<section id="a-kpi" class="annex" data-annex="2" data-sec="Anexos" data-title="Control de KPI" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker">Anexo 2 · Control de KPI (indicadores clave)</p>
+    <h2 class="title title-sm">KPI principales y qué hacemos si no se cumplen</h2>
+    <table class="tbl tbl-wide">
+      <thead><tr><th>KPI</th><th>Meta 2027</th><th>Frecuencia</th><th>Si no se cumple</th></tr></thead>
+      <tbody>
+        <tr><td><b>Brownies por día en cada punto</b></td><td>80 a 90; mínimo 65</td><td>Cada fin de semana</td><td>Más degustación o cambiar de punto</td></tr>
+        <tr><td><b>Ventas con IGV</b></td><td>S/244,728 en el año</td><td>Mensual</td><td>Bajo 88 % del Excel: plan de −20 %</td></tr>
+        <tr><td><b>Recompra por WhatsApp</b></td><td>35 % de lo físico</td><td>Mensual</td><td>Reforzar el aviso de la app antes que la pauta</td></tr>
+        <tr><td><b>Contactos con permiso</b></td><td>Unos 2,300 en diciembre</td><td>Semanal</td><td>QR de WhatsApp en el cartel y la bolsa</td></tr>
+        <tr><td><b>Envases escaneados</b></td><td>30 % en el año</td><td>Mensual</td><td>El vendedor escanea con el padre</td></tr>
+        <tr><td><b>Familias por embajadoras</b></td><td>230 en el año</td><td>Mensual</td><td>Más salones o cambiar el premio (al padre)</td></tr>
+        <tr><td><b>Colegios con quiosco</b></td><td>5 (2 A y 3 B)</td><td>Mensual</td><td>Visitar cadenas de pensión media</td></tr>
+        <tr><td><b>Costo por contacto en Meta</b></td><td>S/5 o menos</td><td>Mensual</td><td>Más de S/8 por 2 meses: cambiar anuncio</td></tr>
+      </tbody>
+    </table>
+    <p class="src">Fuente: T2_19, tabla de KPI (17 indicadores; aquí los 8 principales); HECHOS_v7.</p>
+  </div>
+</section>
+
+<section id="a-roi" class="annex" data-annex="3" data-sec="Anexos" data-title="Retorno (ROI)" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker">Anexo 3 · Retorno de la inversión (ROI)</p>
+    <h2 class="title title-sm">ROI del negocio de 42 % y ROI de marketing de 74 %</h2>
+    <table class="tbl tbl-wide">
+      <thead><tr><th>Indicador</th><th>Valor</th><th>Cómo se calcula</th></tr></thead>
+      <tbody>
+        <tr><td><b>ROI del negocio, año 1</b></td><td class="em">41.5 % (42 %)</td><td>Utilidad neta S/10,379 ÷ aporte de los socios S/25,000</td></tr>
+        <tr><td><b>ROI de marketing (75 % atribuido)</b></td><td class="em">74 %</td><td>(S/56,824 × 75 % − S/24,544) ÷ S/24,544; piso 16 %, techo 132 %</td></tr>
+        <tr><td><b>Atribución mínima para no perder</b></td><td class="em">43 %</td><td>S/24,544 ÷ S/56,824 de contribución después de stands</td></tr>
+        <tr><td><b>Resultado operativo, año 1</b></td><td class="em">S/13,423 (6.5 %)</td><td>Excel v7; todos los meses ganan desde marzo</td></tr>
+        <tr><td><b>Inversión inicial</b></td><td class="em">S/40,876</td><td>Socios S/25,000 + préstamo S/16,000; se recupera en el mes 23</td></tr>
+        <tr><td><b>Año 2 (2028)</b></td><td class="em">S/322,329</td><td>70,452 brownies; utilidad neta de S/28,447</td></tr>
+      </tbody>
+    </table>
+    <p class="src">Fuente: T2_17, sección 3 (ROI con el prompt 4 de la clase); HECHOS_v7 y Excel v7. El ROI de marketing depende de la atribución.</p>
+  </div>
+</section>
+
+<section id="a-foda" class="annex" data-annex="4" data-sec="Anexos" data-title="FODA cruzado" data-theme="light" data-background-color="#FBF3E8">
+  <div class="frame">
+    <p class="kicker">Anexo 4 · FODA cruzado (fortalezas, oportunidades, debilidades y amenazas)</p>
+    <h2 class="title title-sm">Cuatro estrategias que ya están en el plan</h2>
+    <div class="foda">
+      <div class="fq fq-fo"><b>FO · Explotar</b><p>Quioscos de colegios con la versión sin octógono (meta: 5). Recompra por WhatsApp con el aviso de la app.</p></div>
+      <div class="fq fq-do"><b>DO · Superar</b><p>Degustación: el niño prueba y el padre decide. Mamás embajadoras: 230 familias nuevas.</p></div>
+      <div class="fq fq-fa"><b>FA · Proteger</b><p>Diferenciarse con el dato del lote, sin decir «combate la anemia». Costo de S/1.64 con maquila.</p></div>
+      <div class="fq fq-da"><b>DA · Mitigar</b><p>Validar en puntos propios antes de la góndola (año 2). Línea de crédito solo si la caja baja de S/1,000.</p></div>
+    </div>
+    <p class="src">Fuente: T2_04, sección 2 (FODA cruzado corregido); HECHOS_v7.</p>
+  </div>
+</section>
+
+</div>
+</div>
+
+<script type="module" src="./src/main.ts"></script>
+</body>
+</html>

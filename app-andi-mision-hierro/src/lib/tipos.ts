@@ -16,7 +16,7 @@ export interface DiaLonchera {
   fuenteHierro: string; preparacion: string; andibite?: boolean; hecho?: boolean;
 }
 export interface PlanLoncheras {
-  semana: string; ninoId: string; fuente: 'ia' | 'recetario'; dias: DiaLonchera[]; compras: string[];
+  semana: string; ninoId: string; fuente: 'recetario'; dias: DiaLonchera[]; compras: string[];
   consejo?: string; comprado?: string[];
 }
 export interface ProgresoNino {
@@ -40,8 +40,8 @@ export interface Estado {
 
 export interface Lote {
   id: string; sabor: Sabor; fechaProduccion: string; fechaVencimiento: string;
-  hierroMgPorUnidad: number; hierroHemoMgPorUnidad?: number; azucarGPorUnidad?: number; octogonos: string[];
+  hierroMgPorUnidad: number; hierroHemoMgPorUnidad?: number; azucarGPorUnidad?: number; pesoUnidadG?: number; octogonos: string[];
   laboratorio?: string; informe?: string; fechaInforme?: string; origenSangrecita?: string;
-  registroSanitario?: string; planta?: string; alergenos: string[]; ingredientes?: string; demo: boolean;
+  registroSanitario?: string; planta?: string; alergenos: string[]; ingredientes?: string;
 }
-export interface Punto { id: string; nombre: string; lugar: string; distrito: string; desde: string; hasta?: string; horario?: string; estado?: string }
+export interface Punto { id: string; nombre: string; lugar: string; distrito: string; desde: string; hasta?: string; horario?: string }

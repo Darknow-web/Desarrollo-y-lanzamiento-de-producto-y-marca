@@ -1,11 +1,16 @@
 import { useEffect, useState, type ReactNode } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { AnimatePresence, motion } from 'motion/react';
 import Icono, { type NombreIcono } from './Icono';
+export { soles } from '../lib/whatsapp';
 
-export function Encabezado({ titulo, atras, accion }: { titulo: string; atras?: string; accion?: ReactNode }) {
+export function Encabezado({ titulo, atras, accion }: { titulo: string; atras?: string | number; accion?: ReactNode }) {
+  const ir = useNavigate();
   return (
     <header className="encabezado">
-      {atras ? <Link to={atras} className="btn-icono" aria-label="Volver"><Icono n="atras" /></Link> : <span className="btn-icono-vacio" />}
+      {typeof atras === 'string' ? <Link to={atras} className="btn-icono" aria-label="Volver"><Icono n="atras" /></Link>
+        : typeof atras === 'number' ? <button className="btn-icono" aria-label="Volver" onClick={() => (window.history.state?.idx > 0 ? ir(atras) : ir('/'))}><Icono n="atras" /></button>
+          : <span className="btn-icono-vacio" />}
       <h1>{titulo}</h1>
       {accion || <span className="btn-icono-vacio" />}
     </header>
@@ -18,7 +23,7 @@ export function Tarjeta({ children, className = '', onClick, as = 'section' }: {
 }
 
 export function Boton({ children, onClick, tipo = 'primario', icono, deshabilitado, ancho, className = '', submit }: {
-  children: ReactNode; onClick?: () => void; tipo?: 'primario' | 'secundario' | 'suave' | 'peligro' | 'whatsapp';
+  children: ReactNode; onClick?: () => void; tipo?: 'primario' | 'secundario' | 'suave' | 'peligro' | 'whatsapp' | 'oscuro';
   icono?: NombreIcono; deshabilitado?: boolean; ancho?: boolean; className?: string; submit?: boolean;
 }) {
   return (
@@ -35,15 +40,19 @@ export function Hoja({ abierta, alCerrar, titulo, children }: { abierta: boolean
     document.addEventListener('keydown', tecla); document.body.classList.add('sin-scroll');
     return () => { document.removeEventListener('keydown', tecla); document.body.classList.remove('sin-scroll'); };
   }, [abierta, alCerrar]);
-  if (!abierta) return null;
   return (
-    <div className="hoja-fondo" onClick={alCerrar}>
-      <div className="hoja" role="dialog" aria-modal="true" aria-label={titulo} onClick={e => e.stopPropagation()}>
-        <div className="hoja-asa" />
-        <div className="hoja-cabeza"><h2>{titulo}</h2><button className="btn-icono" onClick={alCerrar} aria-label="Cerrar"><Icono n="x" /></button></div>
-        <div className="hoja-cuerpo">{children}</div>
-      </div>
-    </div>
+    <AnimatePresence>
+      {abierta && (
+        <motion.div className="hoja-fondo" onClick={alCerrar} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }}>
+          <motion.div className="hoja" role="dialog" aria-modal="true" aria-label={titulo} onClick={e => e.stopPropagation()}
+            initial={{ y: 60, opacity: 0.6 }} animate={{ y: 0, opacity: 1 }} exit={{ y: 60, opacity: 0 }} transition={{ duration: 0.28, ease: [0.22, 0.8, 0.24, 1] }}>
+            <div className="hoja-asa" />
+            <div className="hoja-cabeza"><h2>{titulo}</h2><button className="btn-icono" onClick={alCerrar} aria-label="Cerrar"><Icono n="x" /></button></div>
+            <div className="hoja-cuerpo">{children}</div>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }
 
@@ -88,4 +97,3 @@ export function Vacio({ icono, titulo, texto, children }: { icono: NombreIcono; 
   );
 }
 
-export const soles = (n: number) => `S/${n.toFixed(2)}`;

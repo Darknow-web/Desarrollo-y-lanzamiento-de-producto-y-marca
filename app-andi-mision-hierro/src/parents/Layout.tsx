@@ -1,18 +1,26 @@
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, useLocation, useOutlet } from 'react-router-dom';
+import { AnimatePresence, motion } from 'motion/react';
 import Icono, { type NombreIcono } from '../components/Icono';
+import { transicionPantalla } from '../components/movimiento';
 
 const TABS: { a: string; n: NombreIcono; t: string }[] = [
   { a: '/', n: 'inicio', t: 'Inicio' },
-  { a: '/hierro', n: 'gota', t: 'Hierro' },
+  { a: '/hierro', n: 'gota', t: 'Semáforo' },
   { a: '/escanear', n: 'qr', t: 'Escanear' },
   { a: '/loncheras', n: 'lonchera', t: 'Loncheras' },
-  { a: '/mas', n: 'mas', t: 'Más' },
+  { a: '/despensa', n: 'bolsa', t: 'Despensa' },
 ];
 
 export default function Layout() {
+  const { pathname } = useLocation();
+  const outlet = useOutlet();
   return (
     <div className="padres">
-      <main className="contenido"><Outlet /></main>
+      <main className="contenido">
+        <AnimatePresence mode="wait" initial={false}>
+          <motion.div key={pathname} {...transicionPantalla}>{outlet}</motion.div>
+        </AnimatePresence>
+      </main>
       <nav className="barra" aria-label="Secciones">
         {TABS.map(t => (
           <NavLink key={t.a} to={t.a} end={t.a === '/'} className={({ isActive }) => `barra-item ${t.a === '/escanear' ? 'barra-central' : ''} ${isActive ? 'activo' : ''}`}>

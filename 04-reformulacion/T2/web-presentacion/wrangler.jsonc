@@ -1,0 +1,10 @@
+// Sitio estático en Cloudflare Workers (solo assets, sin código de Worker).
+// Compilar: npm run build  ·  Probar: npm run preview  ·  Publicar: npm run deploy
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "andibite",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
