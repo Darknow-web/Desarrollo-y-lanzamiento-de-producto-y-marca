@@ -15,7 +15,8 @@ body.modo-ninos { background: #F7E2BC; }
 .boton-nino { font-family: var(--fuente-nino); font-size: 22px; font-weight: 800; min-height: 62px; padding: 0 28px; border-radius: 22px; background: var(--sol); color: var(--tinta); box-shadow: 0 6px 0 #B57B1C; transition: transform .1s, box-shadow .1s; }
 .boton-nino:active { transform: translateY(4px); box-shadow: 0 2px 0 #B57B1C; }
 .boton-nino.secundario { background: #fff; box-shadow: 0 6px 0 rgba(74, 32, 24, .15); }
-.boton-nino.grande { width: 100%; min-height: 72px; font-size: 26px; }
+.boton-nino.grande { width: 100%; min-height: 72px; font-size: 26px; display: flex; align-items: center; justify-content: center; text-align: center; }
+.juego-plato .boton-nino.grande { margin-top: 26px; }
 .burbuja { background: #fff; border-radius: 22px; padding: 12px 16px; font-size: 19px; font-weight: 600; line-height: 1.25; position: relative; box-shadow: 0 4px 0 rgba(74, 32, 24, .1); display: flex; gap: 8px; align-items: center; }
 .burbuja::before { content: ''; position: absolute; left: -10px; top: 50%; border: 10px solid transparent; border-right-color: #fff; border-left: 0; transform: translateY(-50%); }
 .burbuja .icono { flex: none; opacity: .6; }
@@ -122,3 +123,4 @@ body.modo-ninos { background: #F7E2BC; }
   .tablero { grid-template-columns: repeat(4, 1fr); max-width: 600px; }
   .mapa-terreno { aspect-ratio: 16 / 10; }
 }
+.ninos h1, .ninos h2, .ninos h3, .celebracion h1, .ninos-elegir h1, .ninos-descanso h1 { font-family: var(--fuente-nino); letter-spacing: 0; }

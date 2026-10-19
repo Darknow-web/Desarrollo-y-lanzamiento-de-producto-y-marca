@@ -203,7 +203,7 @@
 .progreso { height: 8px; border-radius: 9px; background: var(--crema-2); overflow: hidden; }
 .progreso i { display: block; height: 100%; background: var(--oliva); border-radius: 9px; transition: width .4s; }
 .item-ritmo { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 14px; color: var(--suave); padding-left: 18px; }
-.item-ritmo > span { flex: 1; }
+.item-ritmo > span { flex: 1; white-space: nowrap; }
 .pedido { display: grid; gap: 10px; }
 .pedido h2 { margin: 2px 0 0; font-size: 21px; }
 .pedido-fila { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 10px 0; border-top: 1px solid var(--linea); }
@@ -218,8 +218,8 @@
 
 /* Semáforo */
 .semaforo-hero { display: grid; gap: 8px; justify-items: start; padding: 4px 2px 0; }
-.semaforo-hero .semaforo-cifra { font-size: 64px; line-height: 1; margin-top: 8px; }
-.semaforo-hero .semaforo-cifra span { font-size: 18px; }
+.semaforo-hero .semaforo-cifra { font-size: 18px; line-height: 1; margin-top: 10px; display: flex; align-items: baseline; gap: 10px; }
+.semaforo-hero .semaforo-cifra .semaforo-numero { font-family: var(--fuente-titulo); font-size: 72px; font-weight: 800; color: var(--cafe); letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
 .semaforo-mensaje { color: var(--cafe-medio); font-size: 15.5px; max-width: 420px; }
 .semaforo-mg { font-size: 13.5px; font-weight: 700; color: var(--suave); }
 .semana-nav { display: flex; align-items: center; justify-content: space-between; font-weight: 800; color: var(--cafe); }
@@ -325,7 +325,6 @@
 .privacidad .tarjeta p { font-size: 14.5px; color: var(--texto); }
 
 @media (min-width: 720px) {
-  body { background: radial-gradient(1200px 700px at 50% -10%, #F6E6CF, var(--crema) 70%); }
   .contenido { padding-top: 16px; }
   .titulo-grande { font-size: 40px; }
 }

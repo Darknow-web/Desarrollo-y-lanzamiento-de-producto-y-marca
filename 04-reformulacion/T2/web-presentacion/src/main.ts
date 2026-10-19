@@ -16,7 +16,7 @@ import { injectIcons, iconSvg } from './icons';
 import { buildMapa } from './mapa';
 
 // URL de la app para el QR. Se fija al compilar: VITE_APP_URL=https://... npm run build
-const APP_URL: string = (import.meta.env.VITE_APP_URL || 'https://andi-app.workers.dev').trim();
+const APP_URL: string = (import.meta.env.VITE_APP_URL || 'https://andi-app.cingacordova.workers.dev').trim();
 
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const $ = <T extends Element = HTMLElement>(sel: string, root: ParentNode = document) => root.querySelector<T>(sel);

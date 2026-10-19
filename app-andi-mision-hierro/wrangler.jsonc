@@ -2,28 +2,29 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   // Un solo Worker: la app web (Static Assets, modo SPA) y la API (/api/*) con Hono.
   "name": "andi-app",
+  "account_id": "c0dbf17cab3142a5bd3f0af8a450f54b",
   "main": "worker/index.ts",
   "compatibility_date": "2026-10-01",
   "observability": { "enabled": true },
-  "assets": {
-    "directory": "dist",
-    "binding": "ASSETS",
-    "not_found_handling": "single-page-application",
-    // Solo /api/* pasa primero por el Worker; lo demás es la app web.
-    "run_worker_first": ["/api/*"]
-  },
+  // La app web (dist/) se guarda en KV y la sirve el Worker (ver worker/activos.ts y scripts/subir-activos.mjs).
+
   "kv_namespaces": [
+    {
+      // Archivos de la app web, subidos con: npm run subir-activos
+      "binding": "ANDI_ASSETS",
+      "id": "ffc1b392063f46078f82cbcff1309fbd"
+    },
     {
       "binding": "ANDI_KV",
       // Pega aquí el id que devuelve: npx wrangler kv namespace create ANDI_KV
-      "id": "REEMPLAZA_CON_EL_ID_DE_ANDI_KV"
+      "id": "37c5a337b4564a80900bd9e86d6858d6"
     }
   ],
   "vars": {
     // Número de WhatsApp de AndiBite para pedidos: código de país + número, sin "+" ni espacios.
-    "WHATSAPP_NUMBER": "51900000000",
-    // Dirección pública de la app; va dentro de cada QR (https://.../c/CODIGO). Vacío = la dirección del Worker.
-    "PUBLIC_URL": ""
+    "WHATSAPP_NUMBER": "51941371376",
+    // Dirección pública de la app; va dentro de cada QR (https://.../c/CODIGO). Si el subdominio es otro, cámbialo aquí.
+    "PUBLIC_URL": "https://andi-app.cingacordova.workers.dev"
   }
   // Secreto (no va en este archivo): npx wrangler secret put ADMIN_TOKEN
 }

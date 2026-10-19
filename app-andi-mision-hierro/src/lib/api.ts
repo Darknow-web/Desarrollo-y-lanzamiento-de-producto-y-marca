@@ -30,7 +30,7 @@ type Presentacion = 'unidad' | 'pack6' | 'pack12';
 export interface Config { whatsapp: string; publicUrl: string }
 let config: Promise<Config> | null = null;
 export const obtenerConfig = () => (config ??= pedir<Config>('/api/config', undefined, 'andi.cache.config')
-  .catch(() => ({ whatsapp: '51900000000', publicUrl: '' })));
+  .catch(() => ({ whatsapp: '51941371376', publicUrl: '' })));
 
 export interface RespuestaCodigo { codigo: { code: string; presentacion: Presentacion; unidades: number }; lote: Lote }
 const muestraCodigo = (code: string): RespuestaCodigo | null => {

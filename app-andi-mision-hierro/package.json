@@ -11,7 +11,8 @@
     "dev": "concurrently -n api,web -c yellow,cyan \"wrangler dev --local --port 8787\" \"vite\"",
     "build": "tsc --noEmit && vite build",
     "preview": "wrangler dev --local --port 8787",
-    "deploy": "wrangler deploy",
+    "subir-activos": "node scripts/subir-activos.mjs",
+    "deploy": "npm run build && npm run subir-activos && wrangler deploy",
     "test": "vitest run",
     "icons": "node scripts/icons.mjs",
     "capturas": "node scripts/capturas.mjs"

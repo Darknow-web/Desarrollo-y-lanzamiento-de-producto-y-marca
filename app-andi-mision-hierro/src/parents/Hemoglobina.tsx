@@ -4,7 +4,7 @@ import Icono from '../components/Icono';
 import { Boton, Encabezado, Tarjeta, Vacio, aviso } from '../components/ui';
 import SelectorNino from './SelectorNino';
 import { actualizar, ninoActivo, useEstado } from '../lib/estado';
-import { fechaCorta, fechaLarga, hoyISO, relativa } from '../lib/fechas';
+import { diasEntre, fechaCorta, fechaLarga, hoyISO, relativa } from '../lib/fechas';
 import { umbralHemoglobina } from '../lib/hierro';
 import { descargarRecordatorio } from '../lib/ics';
 
@@ -31,7 +31,7 @@ export default function Hemoglobina() {
       <SelectorNino />
       <Tarjeta>
         <h2>Próximo control</h2>
-        {datos.proxima ? <p className="grande"><Icono n="calendario" /> {fechaLarga(datos.proxima)} <small>({relativa(datos.proxima)})</small></p> : <p className="nota">Anota la fecha que te indicó el pediatra y te lo recordamos.</p>}
+        {datos.proxima ? <p className="grande"><Icono n="calendario" /> {fechaLarga(datos.proxima)} {diasEntre(hoyISO(), datos.proxima) <= 7 && <small>({relativa(datos.proxima)})</small>}</p> : <p className="nota">Anota la fecha que te indicó el pediatra y te lo recordamos.</p>}
         <label className="campo"><span>Fecha del control</span><input type="date" value={datos.proxima || ''} min={hoyISO()} onChange={e => guardar(h => { h.proxima = e.target.value || undefined; })} /></label>
         {datos.proxima && <Boton tipo="secundario" icono="calendario" onClick={() => descargarRecordatorio({ titulo: `Control de hemoglobina de ${nino.apodo}`, fecha: datos.proxima!, descripcion: 'Lleva el carné de control. Recordatorio de la app AndiBite.' })}>Agregar a mi calendario</Boton>}
       </Tarjeta>

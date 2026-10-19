@@ -15,7 +15,7 @@ function kvMemoria(): KV & { datos: Map<string, { v: string; m?: unknown }> } {
     },
   } as KV & { datos: Map<string, { v: string; m?: unknown }> };
 }
-const entorno = (): Env => ({ ANDI_KV: kvMemoria(), ADMIN_TOKEN: 'clave-de-prueba', WHATSAPP_NUMBER: '51 987 654 321', PUBLIC_URL: 'https://andi.example' });
+const entorno = (): Env => ({ ANDI_KV: kvMemoria(), ANDI_ASSETS: { get: async () => null }, ADMIN_TOKEN: 'clave-de-prueba', WHATSAPP_NUMBER: '51 987 654 321', PUBLIC_URL: 'https://andi.example' });
 const pedir = (env: Env, ruta: string, init?: RequestInit) => app.request(ruta, init, env);
 
 describe('Worker (API con Hono y KV)', () => {

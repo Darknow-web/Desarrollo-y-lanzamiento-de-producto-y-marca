@@ -11,8 +11,8 @@ const BRANDS: Brand[] = [
   { n: 'Nutri H', x: 3.2, y: 4, dx: -18, dy: 8, anchor: 'end' },
   { n: 'Fika', x: 4.0, y: 3, dx: -18, dy: -14, anchor: 'end' },
   { n: 'Mamalama', x: 4.1, y: 2, dx: 0, dy: 40, anchor: 'middle' },
-  { n: 'Bimbo Nutra Bien', x: 1.67, y: 2, dx: 18, dy: 8, anchor: 'start' },
-  { n: 'Siete Dragones', x: 3.01, y: 2, dx: -18, dy: 8, anchor: 'end', ref: true },
+  { n: 'Bimbo Nutra Bien', x: 1.67, y: 2, dx: 0, dy: 42, anchor: 'start' },
+  { n: 'Siete Dragones', x: 3.01, y: 2, dx: 0, dy: -26, anchor: 'middle', ref: true },
   { n: 'Little Bites', x: 1.68, y: 1, dx: 18, dy: 8, anchor: 'start', ref: true },
 ];
 

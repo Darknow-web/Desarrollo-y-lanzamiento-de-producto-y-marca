@@ -3,10 +3,11 @@
 import { Hono, type Context, type Next } from 'hono';
 import { Datos, UNIDADES, hoyLima, type Codigo, type KV, type Lote, type Presentacion, type Punto } from './datos';
 import { esValido, generar, normalizar } from './codigo';
+import { servirActivo, type KVActivos } from './activos';
 
 export interface Env {
   ANDI_KV: KV;
-  ASSETS?: { fetch(req: Request): Promise<Response> };
+  ANDI_ASSETS: KVActivos;
   WHATSAPP_NUMBER?: string;
   PUBLIC_URL?: string;
   ADMIN_TOKEN?: string;
@@ -57,7 +58,7 @@ app.use('/api/*', async (c, next) => {
 
 app.get('/api/salud', c => c.json({ ok: true }));
 app.get('/api/config', c => c.json({
-  whatsapp: (c.env.WHATSAPP_NUMBER || '51900000000').replace(/\D/g, ''),
+  whatsapp: (c.env.WHATSAPP_NUMBER || '51941371376').replace(/\D/g, ''),
   publicUrl: c.env.PUBLIC_URL || '',
 }));
 
@@ -143,8 +144,8 @@ app.put('/api/admin/puntos', async c => {
 
 app.all('/api/*', c => c.json({ error: 'no_existe' }, 404));
 
-// Cualquier otra ruta que llegue al Worker se entrega a la app web (Static Assets, modo SPA).
-app.all('*', c => (c.env.ASSETS ? c.env.ASSETS.fetch(c.req.raw) : c.text('No encontrado', 404)));
+// Cualquier otra ruta es la app web: se sirve desde KV, en modo SPA.
+app.get('*', c => servirActivo(c.env.ANDI_ASSETS, new URL(c.req.url).pathname));
 
 app.onError((err, c) => { console.error(err); return c.json({ error: 'error_interno' }, 500); });
 

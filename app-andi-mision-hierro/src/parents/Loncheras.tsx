@@ -19,7 +19,7 @@ export default function Loncheras() {
   const [evitar, setEvitar] = useState<string[]>([]);
   const [conAndi, setConAndi] = useState(true);
   const [editar, setEditar] = useState(false);
-  const [whatsapp, setWhatsapp] = useState('51900000000');
+  const [whatsapp, setWhatsapp] = useState('51941371376');
   const ir = useNavigate();
   useEffect(() => { obtenerConfig().then(c => setWhatsapp(c.whatsapp)); }, []);
 
@@ -75,7 +75,7 @@ export default function Loncheras() {
               <Tarjeta key={d.dia} className={`dia-lonchera ${d.hecho ? 'hecho' : ''} ${d.andibite ? 'con-pack' : ''}`}>
                 <div className="dia-cabeza"><strong>{d.dia}</strong><span className="mg">{d.hierroMg} mg</span></div>
                 <h3>{d.principal}</h3>
-                <p className="acompana"><span>{d.fruta}</span><span aria-hidden="true">·</span><span>{d.bebida}</span></p>
+                <p className="acompana">{d.fruta} · {d.bebida}</p>
                 <p className="fuente">Hierro de: {d.fuenteHierro}</p>
                 <details><summary>Cómo prepararla</summary><p>{d.preparacion}</p></details>
                 <div className="dia-acciones">

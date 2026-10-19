@@ -38,7 +38,7 @@ export default function Hierro() {
       <Item><SelectorNino /></Item>
       <Item as="section" className={`semaforo-hero semaforo-${r.color}`}>
         <span className="semaforo-luces grande" aria-hidden="true"><i /><i /><i /></span>
-        <p className="semaforo-cifra"><Contador valor={r.diasConHierro} decimales={0} duracion={0.7} /> <span>de 7 días con hierro</span></p>
+        <p className="semaforo-cifra"><Contador valor={r.diasConHierro} decimales={0} duracion={0.7} className="semaforo-numero" /> <span>de 7 días con hierro</span></p>
         <p className="semaforo-mensaje">{r.color === 'verde' ? `${nino.apodo} comió una fuente de hierro casi todos los días. Sigan así.` : r.color === 'ambar' ? 'Vas bien. La meta es 5 días o más con una fuente de hierro.' : 'Suma una fuente de hierro hoy: sangrecita, hígado, menestras o un AndiBite.'}</p>
         <p className="semaforo-mg">{r.mgSemana} mg registrados esta semana</p>
       </Item>

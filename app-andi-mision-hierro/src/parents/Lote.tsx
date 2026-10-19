@@ -99,7 +99,7 @@ export default function Lote() {
 
       <Item className="lote-datos">
         <div className="dato"><strong>{(lote.hierroHemoMgPorUnidad ?? 0).toFixed(1)}<small> mg</small></strong><span>hierro hemo, el que mejor se absorbe</span></div>
-        <div className="dato"><strong>{(lote.azucarGPorUnidad ?? 0).toFixed(1)}<small> g</small></strong><span>de azúcar por brownie (unos {porCien(lote.azucarGPorUnidad ?? 0, peso)} g por 100 g)</span></div>
+        <div className="dato"><strong>{(lote.azucarGPorUnidad ?? 0).toFixed(1)}<small> g</small></strong><span>de azúcar; unos {porCien(lote.azucarGPorUnidad ?? 0, peso)} g en 100 g</span></div>
         <div className={`dato ${octogonos === 0 ? 'dato-positivo' : ''}`}><strong>{octogonos}</strong><span>{octogonos === 0 ? 'octógonos' : lote.octogonos.join(', ')}</span></div>
       </Item>
 

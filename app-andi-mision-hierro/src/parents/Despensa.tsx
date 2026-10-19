@@ -18,7 +18,7 @@ const pedidoInicial = (p?: Presentacion): Pedido => (p === 'pack12' ? { pack12: 
 export default function Despensa() {
   const despensa = useEstado(e => e.despensa);
   const nino = useEstado(ninoActivo);
-  const [whatsapp, setWhatsapp] = useState('51900000000');
+  const [whatsapp, setWhatsapp] = useState('51941371376');
   const [hoja, setHoja] = useState(false);
   const [pedido, setPedido] = useState<Pedido>(() => pedidoInicial(obtener().despensa[0]?.presentacion));
   useEffect(() => { obtenerConfig().then(c => setWhatsapp(c.whatsapp)); }, []);
