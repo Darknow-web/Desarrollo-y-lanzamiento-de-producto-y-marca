@@ -17,8 +17,8 @@ Reglas que no se negocian: habla siempre un adulto; nunca se dice «combate» ni
 | Segundos | Toma | Voz |
 |---|---|---|
 | 0 a 8 | Los cuatro trucos (zanahoria, sopa, jugo, cuento) | «Rallaste zanahoria dentro de la torta. Le pusiste nombre de dinosaurio a la sopa. El jugo verde fue de superhéroe toda una semana.» |
-| 8 a 13 | La lonchera vuelve vacía, la bolsa kraft | «Nadie aplaude esos trucos, porque nadie los ve. Por eso hicimos uno que ya no necesita cuento.» |
-| 13 a 16 | Último cuadro y cartón «Cuéntanos el tuyo. #LoQueNadieVe» | «AndiBite. Dulce para ellos. Tranquilidad para ti.» |
+| 8 a 14 | La lonchera vuelve vacía, la bolsa kraft | «Nadie aplaude esos trucos, porque nadie los ve. Por eso hicimos uno que ya no necesita cuento.» |
+| 14 a 16 | Cartón final «Cuéntanos el tuyo. #LoQueNadieVe» | «AndiBite. Dulce para ellos. Tranquilidad para ti.» |
 
 Dirección: ritmo pausado, como quien le habla a alguien que conoce. Una pausa clara después de «nadie los ve». La firma cae sobre el cartón final; después, solo música.
 
@@ -27,7 +27,7 @@ Dirección: ritmo pausado, como quien le habla a alguien que conoce. Una pausa c
 | Segundos | Toma | Voz |
 |---|---|---|
 | 0 a 8 | Montaje de trucos y texto «¿Cuál es tu truco?» | «¿Zanahoria en la torta? ¿Sopa de dinosaurio? ¿Jugo de superhéroe? Todos tenemos un truco para que coman bien. ¿Cuál es el tuyo?» |
-| 8 a 15 | El mural de post-its y el texto de la mecánica | «Cuéntanoslo con el hashtag Lo que nadie ve y etiquétanos. Los tres más votados abren nuestro mural en Jockey Plaza y ganan un mes de lonchera. Este diciembre, sí los aplaudimos.» |
+| 8 a 15 | El mural de post-its y el texto de la mecánica | «Cuéntanoslo con el hashtag Lo que nadie ve y etiquétanos. Los tres más votados abren nuestro mural en Jockey Plaza y ganan un mes de lonchera.» |
 
 Dirección: las tres preguntas del inicio van rápidas y con sonrisa; «¿Cuál es el tuyo?» más lento y directo. El segundo bloque es una invitación a participar: tono de amiga que te convence.
 
@@ -65,7 +65,7 @@ Dirección: este se graba con celular el 2 de enero en Jockey Plaza, con una de 
 
 | Segundos | Toma | Voz |
 |---|---|---|
-| 0 a 3 | 6:40 a. m., lee la etiqueta de la bolsa en su cocina | «Seis y cuarenta. Todo lo que le hace bien, mi hijo lo deja. Leo la etiqueta otra vez.» |
+| 0 a 3 | 6:40 a. m., lee la etiqueta de la bolsa en su cocina | «Seis y cuarenta. Todo lo que le hace bien, mi hijo lo deja.» |
 | 3 a 5 | En la oficina, mira el celular | «Desde la oficina, miro el celular.» |
 | 5 a 8 | Abre la lonchera: vacía | «Vacía. Por fin, vacía.» |
 

@@ -32,23 +32,23 @@ Si el clip A sale confuso con cuatro tomas, genera cada truco como clip de 8 s p
 
 ### 2. Unir
 
-Clip A + clip B = 16 s. Al final, un cartón de 2 s sobre el último cuadro con el texto «Cuéntanos el tuyo. #LoQueNadieVe» y después el logo con «Dulce para ellos. Tranquilidad para ti.» (los 2 s del cartón se toman del final del clip B congelado; el video completo queda en 16 s).
+Clip A + clip B = 16 s. Los últimos 2 s (14 a 16) son el cartón final sobre el último cuadro congelado: «Cuéntanos el tuyo. #LoQueNadieVe», el logo y «Dulce para ellos. Tranquilidad para ti.».
 
 ### 3. Texto en pantalla
 
 | Segundos | Texto |
 |---|---|
 | 8 a 13 | «Nadie aplaude esos trucos, porque nadie los ve.» |
-| 13 a 16 | «AndiBite. El truco que ya no necesita cuento.» |
-| Cartón final | «Cuéntanos el tuyo. #LoQueNadieVe» · logo · «Dulce para ellos. Tranquilidad para ti.» |
+| 13 a 14 | «AndiBite. El truco que ya no necesita cuento.» |
+| 14 a 16 (cartón final) | «Cuéntanos el tuyo. #LoQueNadieVe» · logo · «Dulce para ellos. Tranquilidad para ti.» |
 
 ### 4. Voz (voz Marca)
 
 | Segundos | Archivo | Texto para ElevenLabs |
 |---|---|---|
 | 0 a 8 | `V0-a.mp3` | «Rallaste zanahoria dentro de la torta. Le pusiste nombre de dinosaurio a la sopa. El jugo verde fue de superhéroe toda una semana.» |
-| 8 a 13 | `V0-b.mp3` | «Nadie aplaude esos trucos, porque nadie los ve. Por eso hicimos uno que ya no necesita cuento.» |
-| 13 a 16 | `V0-c.mp3` | «AndiBite. Dulce para ellos. Tranquilidad para ti.» |
+| 8 a 14 | `V0-b.mp3` | «Nadie aplaude esos trucos, porque nadie los ve. Por eso hicimos uno que ya no necesita cuento.» |
+| 14 a 16 | `V0-c.mp3` | «AndiBite. Dulce para ellos. Tranquilidad para ti.» |
 
 Dirección: pausado, como quien le habla a alguien que conoce; pausa clara después de «nadie los ve». La firma cae sobre el cartón final; después, solo música.
 
@@ -89,7 +89,7 @@ Clip A (8 s) + clip B (recortado a 7 s) = 15 s. Cierre sobre el último cuadro: 
 | Segundos | Archivo | Texto para ElevenLabs |
 |---|---|---|
 | 0 a 8 | `V4-a.mp3` | «¿Zanahoria en la torta? ¿Sopa de dinosaurio? ¿Jugo de superhéroe? Todos tenemos un truco para que coman bien. ¿Cuál es el tuyo?» |
-| 8 a 15 | `V4-b.mp3` | «Cuéntanoslo con el hashtag Lo que nadie ve y etiquétanos. Los tres más votados abren nuestro mural en Jockey Plaza y ganan un mes de lonchera. Este diciembre, sí los aplaudimos.» |
+| 8 a 15 | `V4-b.mp3` | «Cuéntanoslo con el hashtag Lo que nadie ve y etiquétanos. Los tres más votados abren nuestro mural en Jockey Plaza y ganan un mes de lonchera.» |
 
 Dirección: las tres preguntas rápidas y con sonrisa; «¿Cuál es el tuyo?» lento y directo. El segundo bloque es una invitación a participar: tono de amiga que te convence.
 
@@ -133,7 +133,7 @@ Dirección: confesión con humor, en primera persona; pausa breve después de «
 
 ## Video 4 · V2 · Anuncio para Rodrigo · 9:16 · 8 s
 
-**Dónde va:** Instagram, Facebook y YouTube Shorts; desde febrero en Lima Moderna todo 2027. S/1,605 de pauta, meta 195 conversaciones. Archivo final: `anuncio_b.mp4`.
+**Dónde va:** Instagram, Facebook y YouTube Shorts; enero alrededor de Jockey Plaza y desde febrero en Lima Moderna y cerca de Salaverry. S/1,605 de pauta, meta 195 conversaciones. Archivo final: `anuncio_b.mp4`.
 
 ### 1. Veo 3: un clip
 
@@ -212,7 +212,7 @@ Dirección: natural, con risa contenida al inicio; no es un locutor, es una mam�
 Modo «Ingredients to video», referencias F2 y `empaque_mockup.jpg`:
 
 ```
-Vertical 9:16 realistic video, 8 seconds, the same woman as the reference image (Peruvian mother in her late thirties, lawyer, cream silk blouse), no on-screen text, no logos. 0-3 s: 7:10 a.m. in her bright San Borja kitchen with light oak and cream tiles; she reads the back of a matte kraft pouch carefully, eyebrows slightly raised, like checking a contract, then nods and places it in the open terracotta lunchbox. 3-5 s: late morning in a calm, modern law office with warm light and bookshelves out of focus; between documents she turns her phone over and glances at the softly glowing screen (no readable content) with a small reassured smile. 5-8 s: early evening back in the same kitchen; she opens the terracotta lunchbox: completely empty, a few cocoa crumbs; she exhales and smiles. Smooth match cuts, 35mm look, shallow depth of field, film grain, palette cocoa, kraft, cream, warm gold. The bottom 40 percent of the frame stays calm for text. Adults only, no children, no letters, no logos. No dialogue, ambient sound only.
+Vertical 9:16 realistic video, 8 seconds, the same woman as the reference image (Peruvian mother in her late thirties, lawyer, cream silk blouse), no on-screen text, no logos. 0-3 s: 6:40 a.m. in her bright San Borja kitchen with light oak and cream tiles; she reads the back of a matte kraft pouch carefully, eyebrows slightly raised, like checking a contract, then nods and places it in the open terracotta lunchbox. 3-5 s: late morning in a calm, modern law office with warm light and bookshelves out of focus; between documents she turns her phone over and glances at the softly glowing screen (no readable content) with a small reassured smile. 5-8 s: early evening back in the same kitchen; she opens the terracotta lunchbox: completely empty, a few cocoa crumbs; she exhales and smiles. Smooth match cuts, 35mm look, shallow depth of field, film grain, palette cocoa, kraft, cream, warm gold. The bottom 40 percent of the frame stays calm for text. Adults only, no children, no letters, no logos. No dialogue, ambient sound only.
 ```
 
 ### 2. Unir
@@ -227,7 +227,7 @@ Ninguno: la ficha de la presentación ya pone su nombre, edad y la frase.
 
 | Segundos | Archivo | Texto para ElevenLabs |
 |---|---|---|
-| 0 a 3 | `P1-a.mp3` | «Seis y cuarenta. Todo lo que le hace bien, mi hijo lo deja. Leo la etiqueta otra vez.» |
+| 0 a 3 | `P1-a.mp3` | «Seis y cuarenta. Todo lo que le hace bien, mi hijo lo deja.» |
 | 3 a 5 | `P1-b.mp3` | «Desde la oficina, miro el celular.» |
 | 5 a 8 | `P1-c.mp3` | «Vacía. Por fin, vacía.» |
 
