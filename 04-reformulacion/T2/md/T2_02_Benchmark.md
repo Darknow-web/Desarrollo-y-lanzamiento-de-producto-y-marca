@@ -63,7 +63,7 @@ Precio por 20 g = precio del envase ÷ gramos × 20. Por kg = precio ÷ kilos.
 - **Meta sin octógono** frente a Bimbo, que lleva 1 o 2 octógonos [POR CONFIRMAR el de AndiBite en laboratorio].
 
 **Dónde pierde:**
-- **Precio.** En packs cuesta S/4.16 a S/4.65 por 20 g: más que Fika (S/4.00), Mamalama (S/4.10), Forticao (S/3.50 a S/4.17), Nutri H (S/3.20) y casi 3 veces Bimbo (S/1.67 a S/1.68). Por eso al segmento B se le muestra primero el pack de 12 a S/4.16.
+- **Precio.** En packs cuesta S/4.16 a S/4.65 por 20 g: más que Fika (S/4.00), Mamalama (S/4.10), Nutri H (S/3.20) y casi 3 veces Bimbo (S/1.67 a S/1.68). Frente a Forticao (S/3.50 a S/4.17 [POR CONFIRMAR el peso]) es parecido: el frasco de 12 de Forticao (S/4.17) iguala al pack de 12 de AndiBite (S/4.16). Por eso al segmento B se le muestra primero el pack de 12 a S/4.16.
 - **Cantidad de hierro.** Si los 16.5 mg de Nutri H fueran por 100 g, serían unos 3.3 mg por 20 g, más que los 1.9 mg calculados para AndiBite [POR CONFIRMAR los dos]. La ventaja de AndiBite es la medición publicada, no necesariamente la cantidad.
 - **Todavía no hay informe del laboratorio.** Hasta tenerlo, el hierro y el "sin octógono" son metas.
 - **Distribución.** Bimbo está en todos los supermercados; Mamalama en Wong y Plaza Vea; Forticao en farmacias. AndiBite solo vende en sus puntos, eventos, quioscos y naturistas.

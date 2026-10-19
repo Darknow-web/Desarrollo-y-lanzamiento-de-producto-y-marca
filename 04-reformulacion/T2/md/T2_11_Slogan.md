@@ -27,7 +27,7 @@ El mensaje central ya está decidido. Lo evaluamos contra dos frases de marca de
 
 **Por qué gana la opción 1:**
 - **Corto y con ritmo:** 5 palabras en dos frases paralelas. La primera es la razón (hierro medido) y la segunda es el placer (sabor a brownie). Ese contraste es lo que se recuerda.
-- **Diferenciador:** "medido" es lo que solo AndiBite hace: el análisis de cada lote se publica en la app. Nutri H dice "antianémico"; Fika y Mamalama no hablan de hierro (punto #10).
+- **Diferenciador:** "medido" es lo que solo AndiBite hace: el análisis de cada lote se publica en la app. Nutri H dice "antianémico" y Forticao, "prevenir y combatir la anemia"; Fika, La Purita y Mamalama no prometen hierro (puntos #2 y #10).
 - **Sirve para A y para B:** a Claudia le habla "hierro medido" (la prueba); a Rodrigo le habla "sabor a brownie" (el niño se lo come y la lonchera no regresa). Cada segmento tiene además su línea propia (sección 2).
 - **Legal:** no promete curar ni prevenir nada y no da una cifra, así que no depende de cuántos mg salgan en el laboratorio. Pierde un punto porque "medido" exige que el informe del laboratorio exista desde el primer lote que se vende. Si no hay informe, no se puede usar.
 

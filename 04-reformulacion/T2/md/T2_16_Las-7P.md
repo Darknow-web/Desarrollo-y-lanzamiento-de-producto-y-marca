@@ -14,7 +14,7 @@ Responsable: Angie Blas · Grupo 2 · AndiBite · Propuesta para revisar
 - **Qué es:** mini brownie de 20 g con sangrecita de res en polvo liofilizada (hierro hemo). Se compra lista y a granel, a S/300 por kg, a un proveedor con registro sanitario. La planta de maquila solo la hidrata.
 - **Sabores:** Chispa (choco clásico con chispas), Andi (choco, plátano, canela y cañihua) y Lúcu (choco y lúcuma).
 - **Presentaciones:** unidad, caja de 3 sabores, pack de 6 y pack de 12 "Semana completa".
-- **Qué lo hace único:** cada envase trae un QR único que abre la app "Andi, Misión Hierro" y muestra el hierro medido del laboratorio para ese lote. Los competidores directos (Fika, Mamalama) no miden su hierro ni traen app.
+- **Qué lo hace único:** cada envase trae un QR único que abre la app "Andi, Misión Hierro" y muestra el hierro medido del laboratorio para ese lote. Ningún competidor revisado en el #2 y el #10 publica su hierro medido por lote ni trae app: Nutri H y Forticao declaran hierro, pero no muestran el análisis.
 - **Meta "sin octógono":** se confirma en laboratorio [POR CONFIRMAR]. Hasta entonces se dice "meta: cero octógonos" (con la receta reformulada, la T1 calcula de 4.6 a 7.1 g de azúcar por 100 g; el límite del octógono es 10 g). El cálculo da unos 1.9 mg de hierro por brownie, pero se hizo con sangrecita cocida y está [POR CONFIRMAR en laboratorio]. Ninguna cifra de hierro se publica sin el informe del laboratorio.
 - **Lo que no se dice:** "previene la anemia" (riesgo de publicidad engañosa).
 - **Frases:** "Hierro medido. Sabor a brownie." y "El snack de lonchera que tu hijo sí se come".
@@ -44,17 +44,19 @@ Responsable: Angie Blas · Grupo 2 · AndiBite · Propuesta para revisar
 
 ### 2.3 Comparación con la competencia por 20 g
 
-Precios tomados el 3-oct-2026 (documentos 02 y 05). La diferencia es AndiBite menos el competidor, y entre paréntesis el porcentaje sobre el competidor.
+Precios tomados el 3-oct-2026 (documentos 02 y 05) y revisados en el benchmark (#2) el 19-oct-2026; los de Forticao y La Purita salen del #2. La diferencia es AndiBite menos el competidor, y entre paréntesis el porcentaje sobre el competidor.
 
 | Competidor | Precio por 20 g | Pack de 6 por WhatsApp (S/4.48) | Pack de 12 por WhatsApp (S/4.16) | Pack de 6 en el stand (S/4.65) |
 |---|---|---|---|---|
 | Fika (brownie de 70 g, S/14.00) | S/4.00 | +S/0.48 (+12 %) | +S/0.16 (+4 %) | +S/0.65 (+16 %) |
 | Mamalama (barra energética) | S/4.10 | +S/0.38 (+9 %) | +S/0.06 (+1 %) | +S/0.55 (+13 %) |
+| Forticao (chocolate con hierro hemínico, x 40 a x 12) | S/3.50 a S/4.17 [POR CONFIRMAR el peso] | +S/0.31 a +S/0.98 (+7 % a +28 %) | −S/0.01 a +S/0.66 (0 % a +19 %) | +S/0.48 a +S/1.15 (+12 % a +33 %) |
 | Nutri H (galleta con hemoglobina bovina) | S/3.20 | +S/1.28 (+40 %) | +S/0.96 (+30 %) | +S/1.45 (+45 %) |
-| Siete Dragones (barra de cacao y cañihua) | S/3.01 | +S/1.47 (+49 %) | +S/1.15 (+38 %) | +S/1.64 (+54 %) |
+| Siete Dragones (barra de cacao y cañihua; referencia) | S/3.01 | +S/1.47 (+49 %) | +S/1.15 (+38 %) | +S/1.64 (+54 %) |
+| La Purita (brownies veganos x 8, congelados) | S/2.11 si cada brownie pesa 20 g [POR CONFIRMAR el peso] | +S/2.37 (+112 %) | +S/2.05 (+97 %) | +S/2.54 (+120 %) |
 | Bimbo Nutra Bien (mini brownie) | S/1.67 | +S/2.81 (+168 %) | +S/2.49 (+149 %) | +S/2.98 (+178 %) |
 
-**Cómo se lee.** Contra los dos competidores del mismo nivel de precio (Fika y Mamalama), el pack de 12 por WhatsApp cuesta apenas S/0.06 a S/0.16 más por brownie. Por ese centavo extra, el padre recibe el hierro medido del lote y la app. Frente a Nutri H, el competidor más cercano por llevar hemoglobina, el premio es de 30 % a 40 % y se justifica con el formato de brownie y con la medición por lote. Bimbo es otro mercado (masivo, sin hierro medido). Al padre B se le muestra primero el pack de 12.
+**Cómo se lee.** Contra los competidores del mismo nivel de precio (Fika, Mamalama y el frasco de 12 de Forticao), el pack de 12 por WhatsApp cuesta lo mismo o apenas S/0.06 a S/0.16 más por brownie. Por ese centavo extra, el padre recibe el hierro medido del lote y la app. Frente a Nutri H, el competidor más cercano por llevar hemoglobina, el premio es de 30 % a 40 % y se justifica con el formato de brownie y con la medición por lote. Bimbo es otro mercado (masivo, sin hierro medido). La Purita cuesta menos por brownie, pero va congelada y no publica su peso. Al padre B se le muestra primero el pack de 12.
 
 **Valor percibido.** Claudia (A) pagaría S/24 a 30 por el pack; Rodrigo (B), S/18 a 24 por 6 y mira el precio por brownie. Los precios se confirman con el método Van Westendorp en el focus 2 (documento 05) [POR CONFIRMAR con los resultados, que están por cargar].
 
@@ -163,7 +165,7 @@ El recorrido es una cadena corta, y cada paso alimenta al siguiente:
 
 - Clase: `04-reformulacion/T2/CLASE-sesion09.md` y "PPT Sesión 09 - docente", Unidad 3, Plan de marketing y lanzamiento (Drive del equipo, consultada el 19-oct-2026). Tabla "Los 7P del Marketing" con las preguntas guía. https://drive.google.com/file/d/1RNH7qdIlWUlkhPu4oRH82yNQj-qAZaVf/view
 - HECHOS_v7 (19-oct-2026), `04-reformulacion/10-plan-de-marketing-2027.md` y `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` (modelo v7).
-- Precios de la competencia (consultados el 3-oct-2026, documentos 02 y 05): Fika https://www.fika.pe/products/brownie-55g ; Nutri H https://nutrih.pe/producto/nutri-h-clasica-x-30/ ; Mamalama https://www.wong.pe/barra-energetica-chocolate-bitter-y-maca-mamalama-caja-5-unid/p ; Siete Dragones https://www.plazavea.com.pe/barra-nibs-de-cacao-y-canihua-siete-dragones-caja-5un/p ; Bimbo Nutra Bien https://www.plazavea.com.pe/mini-brownie-nutra-bien-bimbo-180g-paquete-6un/p
+- Precios de la competencia (consultados el 3-oct-2026, documentos 02 y 05): Fika https://www.fika.pe/products/brownie-55g ; Nutri H https://nutrih.pe/producto/nutri-h-clasica-x-30/ ; Mamalama https://www.wong.pe/barra-energetica-chocolate-bitter-y-maca-mamalama-caja-5-unid/p ; Siete Dragones https://www.plazavea.com.pe/barra-nibs-de-cacao-y-canihua-siete-dragones-caja-5un/p ; Bimbo Nutra Bien https://www.plazavea.com.pe/mini-brownie-nutra-bien-bimbo-180g-paquete-6un/p . Forticao (19-oct-2026, #2): https://waala16.meditech.team/shop ; La Purita (19-oct-2026, #2): https://www.lapurita.com/products/brownies-x-8-unds
 - APEIM, *Niveles Socioeconómicos 2025*. https://apeim.com.pe/wp-content/uploads/2025/12/Informe-completo-de-NSE-2025.pdf
 - INDECOPI, *Guía de Publicidad para Influencers* (2024). https://cdn.www.gob.pe/uploads/document/file/6774363/5870366-guia-de-publicidad-para-influencers-2024.pdf
 - Ley 30021 (art. 8, publicidad dirigida a niños) y Ley 29733 (datos personales), citadas en los documentos 06 y 09.
