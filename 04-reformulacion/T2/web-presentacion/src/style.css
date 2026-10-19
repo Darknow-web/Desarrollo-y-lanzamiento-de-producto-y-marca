@@ -1442,3 +1442,4 @@ body.is-hero .ui-brand { visibility: hidden; }
 #s-dinamica .twocol { margin-top: calc(1.6 * var(--u)); }
 .media-conv { height: min(calc(33 * var(--u)), 58vh); }
 .marca { margin-top: calc(1 * var(--u)); align-items: start; }
+@media (orientation: portrait), (max-width: 700px) { .media-conv { height: 36vh; } }

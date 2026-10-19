@@ -11,7 +11,7 @@ Textos para las 12 pantallas del capítulo 05 de la presentación web, para el j
 **Llamados:** «Pruébalo en el stand» y «Pídelo por WhatsApp».
 
 **El hilo de los títulos (se leen seguidos como una historia):**
-Lo que nadie ve → Todos tienen un truco → Y entonces hicimos el nuestro → Claudia ya probó todos los trucos → Rodrigo no tiene tiempo para cuentos → Y una familia real cuenta el suyo → En el stand, cada truco se cuenta en voz alta → Y otros lo cuentan por nosotros → El truco corre de casa en casa → S/24,544 para que toda Lima cuente su truco → Detrás de cada truco, quince meses de trabajo → Los que no salen en el video.
+Lo que nadie ve → Todos tienen un truco → Y entonces hicimos el nuestro → Cuéntanos tu truco. Funcione o no, cuenta → Cinco metas con fecha → S/24,544 en quince meses para que toda Lima cuente su truco → En qué se va cada sol de la campaña → El truco corre de casa en casa → Detrás de cada truco, quince meses de trabajo → Primero hablamos nosotros: «¿Cuál es tu truco?» → Claudia ya probó todos los trucos → Rodrigo no tiene tiempo para cuentos → Y una familia real cuenta el suyo → Y otros lo cuentan por nosotros → En el stand, cada truco se cuenta en voz alta → Los que no salen en el video → Pruébenla → Lo que haces cada mañana, por fin se ve.
 
 ---
 
@@ -120,12 +120,12 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
 ## 8. Y otros lo cuentan por nosotros
 
 - **Título:** Y otros lo cuentan por nosotros.
-- **Línea:** Antes que nosotros, hablan los que ya tienen un truco.
+- **Línea:** Los materiales · quienes lo pasan de boca en boca.
 - **Puntos:**
   1. **40 influencers con hijos (S/458).** 20 de Lima Top y 20 de Lima Moderna reciben su pack y cuentan su propio truco con #LoQueNadieVe y #publicidad, antes del 10 de enero.
   2. **10 kits para pediatras y nutricionistas.** En enero, para quienes escuchan más trucos que nadie en la consulta.
   3. **Papás y mamás embajadores (S/200 al mes).** Pasan su truco y su código en el chat del salón; la meta es 230 familias nuevas en 2027. El premio es para el adulto, nunca para el niño.
-  4. **Concurso #LoQueNadieVe (S/600: S/360 de pauta de expectativa y S/240 en premios).** Del 1 de noviembre al 20 de diciembre, papá y mamá publican su truco y nos etiquetan; los 3 más votados abren el mural de Jockey Plaza y ganan un mes de lonchera. Cierra con la expectativa: «En enero abrimos en Jockey Plaza. Escríbenos tu truco por WhatsApp y entérate primero.»
+  4. **Concurso #LoQueNadieVe (S/600: S/360 de pauta de expectativa y S/240 en premios).** Del 1 de noviembre al 20 de diciembre. S/360 de pauta y S/240 en premios: un mes de lonchera para cada uno de los tres adultos ganadores. Cierra con la expectativa: «En enero abrimos en Jockey Plaza. Escríbenos tu truco por WhatsApp y entérate primero.»
 
 ### 8b. Concurso #LoQueNadieVe · «Este diciembre sí los aplaudimos.»
 
