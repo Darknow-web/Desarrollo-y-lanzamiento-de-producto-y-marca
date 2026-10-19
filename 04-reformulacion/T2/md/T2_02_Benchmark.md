@@ -1,5 +1,5 @@
 # T2 · #02 Benchmark
-Responsable: Diana · Grupo 2 · AndiBite · Propuesta para revisar
+Responsable: Diana Ayoso · Grupo 2 · AndiBite · Propuesta para revisar
 
 **Siglas.** IGV: impuesto general a las ventas (todos los precios lo incluyen). NSE: nivel socioeconómico. QR: código que se lee con la cámara del celular. IA: inteligencia artificial. FAO: Organización de las Naciones Unidas para la Alimentación y la Agricultura. OMS: Organización Mundial de la Salud. MINSA: Ministerio de Salud. VD: valor diario. [POR CONFIRMAR]: dato que no se pudo verificar.
 

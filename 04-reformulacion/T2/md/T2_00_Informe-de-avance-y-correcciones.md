@@ -24,34 +24,35 @@ Fecha de corte: 19 de octubre de 2026. Este informe revisa lo que hay en la carp
 
 ## 2. Los 22 puntos del T2 y su estado
 
-Los títulos son los de la lista oficial del grupo. El responsable es el del reparto.
+Los títulos son los de la lista oficial del grupo. El responsable es el del reparto. Estado actualizado al cierre del 19-oct-2026 (día de la entrega).
 
 | # | Punto | Responsable | Estado al 19-oct-2026 |
 |---|---|---|---|
-| 1 | Recap del Canvas T1 | Diana | Hecho, en revisión de congruencia |
-| 2 | Benchmark (mínimo 3 competidores) | Diana | En revisión: sección 6 de este informe. Versión corregida propuesta en `T2_02_Benchmark.md` |
-| 3 | PESTEL | Angie | En revisión: este informe |
-| 4 | FODA y FODA cruzado | Diana | En revisión: sección 6 de este informe. Están el FODA y el FODA cruzado (este llegó en capturas aparte; falta pegarlo en el Drive). Versión corregida propuesta en `T2_04_FODA-y-FODA-cruzado.md` |
-| 5 | Datos del mercado en números | Ade | Hecho, en revisión de congruencia |
-| 6 | Proyección de demanda y crecimiento 2027 | Ade | Hecho, en revisión de congruencia |
-| 7 | 3 objetivos SMART y KPI | Ade | Hecho, en revisión de congruencia |
-| 8 | Qué le importa al cliente (prompt de IA de la clase) | Paty | Hecho, en revisión de congruencia |
-| 9 | Segmentación y 2 buyer persona (prompt de IA de la clase) | Paty | Hecho, en revisión de congruencia |
-| 10 | Posicionamiento (prompt de IA de la clase) | Paty | Hecho, en revisión de congruencia |
-| 11 | Slogan y palabras, imágenes y emociones | Paty | Hecho, en revisión de congruencia |
-| 12 | Manual de marca y plantilla de la PPT (ya existe `T2_12_Plantilla-PPT-AndiBite.pptx`) | Carlos | Hecho, en revisión de congruencia |
-| 13 | Concepto de campaña, storytelling y estrategia de comunicación | Carlos | En preparación |
-| 14 | Ecosistema digital, Meta Ads en video (5-3-2 AIDA, testimonios) y cierre por WhatsApp o landing | Carlos | En preparación (la clase marca como faltante en el Drive la explicación del "5-3-2 AIDA") |
-| 15 | Calendario de contenido | Carlos | En preparación |
-| 16 | 7P | Angie | Hecho, en revisión de congruencia |
-| 17 | Presupuesto (inversión por canal, CPA, ROAS y ROI; prompt de IA de la clase) | Angie | Hecho, en revisión de congruencia |
-| 18 | Diagrama de Gantt | Angie | Hecho, en revisión de congruencia |
-| 19 | Control de KPI | Ade | Hecho, en revisión de congruencia |
+| 0 | Informe de avance y correcciones (este documento) | Revisión del grupo | Hecho |
+| 1 | Recap del Canvas T1 | Diana | Hecho |
+| 2 | Benchmark (mínimo 3 competidores) | Diana | Hecho (propuesta para revisar): `T2_02_Benchmark.md`, corregido a partir de la sección 6 de este informe |
+| 3 | PESTEL | Angie | En el Drive del grupo (documento de Angie), revisado en la sección 3 de este informe |
+| 4 | FODA y FODA cruzado | Diana | Hecho (propuesta para revisar): `T2_04_FODA-y-FODA-cruzado.md`, corregido a partir de la sección 6. Falta pegar el FODA cruzado en el Drive |
+| 5 | Datos del mercado en números | Ade | Hecho |
+| 6 | Proyección de demanda y crecimiento 2027 | Ade | Hecho |
+| 7 | 3 objetivos SMART y KPI | Ade | Hecho |
+| 8 | Qué le importa al cliente (prompt de IA de la clase) | Paty | Hecho |
+| 9 | Segmentación y 2 buyer persona (prompt de IA de la clase) | Paty | Hecho |
+| 10 | Posicionamiento (prompt de IA de la clase) | Paty | Hecho |
+| 11 | Slogan y palabras, imágenes y emociones | Paty | Hecho |
+| 12 | Manual de marca y plantilla de la PPT (ya existe `T2_12_Plantilla-PPT-AndiBite.pptx`) | Carlos | Hecho |
+| 13 | Concepto de campaña, storytelling y estrategia de comunicación | Carlos | Hecho |
+| 14 | Ecosistema digital, Meta Ads en video (5-3-2 AIDA, testimonios) y cierre por WhatsApp o landing | Carlos | Hecho (la explicación escrita del "5-3-2" sale de los apuntes de Carlos; la de la clase todavía no está en el Drive) |
+| 15 | Calendario de contenido | Carlos | Hecho |
+| 16 | 7P | Angie | Hecho |
+| 17 | Presupuesto (inversión por canal, CPA, ROAS y ROI; prompt de IA de la clase) | Angie | Hecho |
+| 18 | Diagrama de Gantt | Angie | Hecho |
+| 19 | Control de KPI | Ade | Hecho |
 | 20 | Resumen del caso NutriSmart | Diana | Esperando el caso NutriSmart (la clase lo marca como faltante en el Drive) |
-| 21 | Portada, resumen ejecutivo y cierre | Diana | Después |
-| 22 | Unir todo en la plantilla | Carlos | Después |
+| 21 | Portada, resumen ejecutivo y cierre | Diana | Hecho |
+| 22 | Unir todo en la plantilla | Carlos | En armado |
 
-**Conteo:** hechos y en revisión de congruencia 13 (#1, #5 a #12 y #16 a #19); en revisión del Drive 3 (#2 y #4 en la sección 6, #3 en la sección 3); en preparación 3 (#13, #14 y #15); esperando 1 (#20 espera el caso NutriSmart); después 2 (#21 y #22). Total: 22.
+**Conteo:** hechos 20 (#0, #1, #2 y #4 como propuestas para revisar, #5 a #19 y #21); en el Drive y revisado 1 (#3); esperando 1 (#20, el caso NutriSmart); en armado 1 (#22). Total: 23 filas (los 22 puntos más este informe).
 
 ## 3. Revisión del PESTEL de Angie (#3)
 
@@ -258,7 +259,7 @@ Diana, gracias: la estructura del benchmark y del FODA es muy buena y cubre lo q
 | F6 | "Unidad (S/6.00 stand / S/4.00 quiosco), caja de 3 (S/16.50), pack de 6 (S/27.90) y pack de 12" | "Unidad S/6.00 en stand; en el quiosco el alumno paga S/4.00 y AndiBite recibe S/3.20. Caja de 3 sabores S/16.50 (S/12.00 por WhatsApp). Pack de 6 S/27.90 (S/26.90 por WhatsApp). Pack de 12 'Semana completa' S/51.90 (S/49.90 por WhatsApp)." | HECHOS_v7, Precios |
 | D1 | "Presupuesto de S/24,544 para el año 1 (fijo mensual de S/900: pauta en redes S/700 + mamás embajadoras S/200)" | "S/24,544 para 15 meses (octubre de 2026 a diciembre de 2027), unos S/0.44 por brownie. Cada mes hay S/900: S/700 de pauta, degustación y material, y S/200 de embajadoras. De los S/700, la pauta en Meta suma S/5,050 en el año (unos S/421 al mes); el resto va a degustaciones (S/1,750) y material (S/1,600)." | HECHOS_v7, Plan de marketing; T2_17 |
 | D2 | "Prejuicio y barrera mental hacia la sangrecita... antes de degustar" | Correcto como hipótesis, con respaldo de las entrevistas: "sin la prueba del niño no hay compra" y "la sangrecita se acepta escondida". El focus 2 dirá cuánto pesa en A y B [POR CONFIRMAR] | HECHOS_v7, Evidencia |
-| D3 | "49.8 % de los ingresos del año 1 provienen de stands... alquiler (S/600/mes) y vendedoras (S/90/día)" | Casi exacto: los stands y carritos son el 49.9 % de las ventas con IGV (S/122,038 de S/244,728) y el 43 % de los brownies. S/600 al mes por punto y S/90 por día de vendedor(a) son correctos. Agregar: cada punto necesita 65 brownies por día para no perder | Excel v7, hojas Proyeccion y Mensual; HECHOS_v7 |
+| D3 | "49.8 % de los ingresos del año 1 provienen de stands... alquiler (S/600/mes) y vendedoras (S/90/día)" | Casi exacto: los stands y carritos son el 49.9 % de las ventas con IGV (S/122,034 de S/244,728) y el 43 % de los brownies. S/600 al mes por punto y S/90 por día de vendedor(a) son correctos. Agregar: cada punto necesita 65 brownies por día para no perder | Excel v7, hojas Proyeccion y Mensual; HECHOS_v7 |
 | D4 | "Ingreso a Wong y Vivanda reservado para el año 2... comisiones del 20-36 %" | "Sin góndola de supermercado en el año 1. La góndola en Wong o Vivanda solo se evalúa en el año 2 si cada punto ya gana por sí solo (regla para crecer 5). El documento 05 estima la comisión del supermercado en 35 % más 5 % de aportes y merma; el brief da 30 a 40 % [HIPÓTESIS]." El rango 20-36 % no tiene fuente | HECHOS_v7, Reglas para crecer; documento 05, sección 4 |
 | D5 | "Meta del 30 % de envases escaneados... recompra (meta 35 %)" | Correcto. Precisar: el 35 % es la parte de lo vendido en físico que vuelve por WhatsApp el mes siguiente [HIPÓTESIS del Excel], no el 35 % de los clientes | HECHOS_v7; Excel v7, hoja Supuestos |
 | O1 | "46,000 hogares A/B... (Claudia y Rodrigo) con presupuesto mensual de educación/salud de S/1,709. El 83 % cambia su compra por los octógonos" | "Núcleo de 46,000 hogares A/B con niños de 4 a 11 en Lima Top y Lima Moderna (S/17.3 millones al año). El hogar A gasta S/1,709 al mes en educación y salud y el B, S/998 (APEIM 2025). El 83 % dice que los octógonos influyen en sus compras (Ipsos, 21-feb-2025)." S/1,709 es solo del hogar A (Claudia) | HECHOS_v7; T2_05, sección 3; documento 04 |
@@ -307,7 +308,7 @@ Diana, gracias: la estructura del benchmark y del FODA es muy buena y cubre lo q
 
 ### 6.7 Qué lista de competidores usar en el #2 y el #10
 
-El #10 usa Nutri H, Fika, Mamalama y Bimbo Nutra Bien (más Siete Dragones como referencia). Diana usó Nutri H, Forticao, La Purita y Little Bites. Recomendación [PROPUESTA]:
+El #10 usaba Nutri H, Fika, Mamalama y Bimbo Nutra Bien (más Siete Dragones como referencia). Diana usó Nutri H, Forticao, La Purita y Little Bites. Recomendación, ya aplicada en el #2 y el #10 el 19-oct-2026:
 
 - **Núcleo común en el #2 y el #10:** Nutri H, Fika, Mamalama y Bimbo Nutra Bien. Así el benchmark y el mapa perceptual hablan de las mismas marcas.
 - **El #2 suma 2 marcas de Diana que sí existen y aportan:** Forticao (el otro producto con hierro hemínico, en farmacias) y La Purita (brownie premium vegano). Little Bites queda como segunda línea de Bimbo y Siete Dragones como referencia.

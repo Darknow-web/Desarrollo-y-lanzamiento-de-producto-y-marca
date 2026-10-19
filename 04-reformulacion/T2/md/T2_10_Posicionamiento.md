@@ -25,7 +25,7 @@ A partir de esta información, realiza lo siguiente: 1. Estrategia de posicionam
 
 1. **Medido, no prometido.** Cada lote se analiza en laboratorio (cada lote de enero a junio y cada 2 meses desde julio) y el resultado se publica en la app. Ningún competidor revisado publica su análisis por lote.
 2. **Formato que el niño ya quiere.** Un mini brownie de cacao esconde la sangrecita. Los otros dos con hierro hemo son una galleta (Nutri H) y un chocolate de farmacia (Forticao). Fika, La Purita y Bimbo son brownies, pero no prometen hierro.
-3. **Se prueba antes de comprar.** La venta es cara a cara: el niño prueba en el stand y el padre compra ahí mismo.
+3. **Se prueba antes de comprar.** La venta es cara a cara: el padre recibe la muestra en el stand, decide si su hijo prueba y compra ahí mismo.
 4. **La app "Andi, Misión Hierro".** Plan de loncheras, semáforo de hierro semanal, recordatorio del control de hemoglobina y recompra en 1 clic por WhatsApp. El modo niños educa sin vender (Ley 30021).
 5. **Tono adulto y legal.** Hablamos de hierro, no de enfermedad. Nunca decimos "previene la anemia".
 

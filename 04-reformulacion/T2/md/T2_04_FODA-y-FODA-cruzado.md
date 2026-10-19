@@ -1,5 +1,5 @@
 # T2 · #04 FODA y FODA cruzado
-Responsable: Diana · Grupo 2 · AndiBite · Propuesta para revisar
+Responsable: Diana Ayoso · Grupo 2 · AndiBite · Propuesta para revisar
 
 **Siglas.** FODA: fortalezas, oportunidades, debilidades y amenazas. F y D son internas (dependen de AndiBite); O y A son externas (vienen del entorno). NSE: nivel socioeconómico. QR: código que se lee con la cámara del celular. IA: inteligencia artificial. INACAL: Instituto Nacional de Calidad. UNALM: Universidad Nacional Agraria La Molina. MINSA: Ministerio de Salud. RM: resolución ministerial. INEI: Instituto Nacional de Estadística e Informática. APEIM: Asociación Peruana de Empresas de Inteligencia de Mercados. TEA: tasa efectiva anual. SBS: Superintendencia de Banca, Seguros y AFP. ENFEN: comité que vigila el fenómeno El Niño. POP: material en el punto de venta. D. Leg.: decreto legislativo. [POR CONFIRMAR]: dato que no se pudo verificar. [HIPÓTESIS]: supuesto del plan. [PROPUESTA]: idea nueva para que el grupo decida.
 
@@ -23,7 +23,7 @@ La clase llama al FODA la "brújula estratégica" del plan. El FODA dice dónde 
 
 - **D1. Presupuesto de marketing chico.** S/24,544 para 15 meses (octubre de 2026 a diciembre de 2027), unos S/0.44 por brownie. Cada mes hay S/900: S/700 de pauta, degustación y material, y S/200 de embajadoras. La pauta en Meta suma S/5,050 en el año (unos S/421 al mes). Sin publicidad en medios masivos.
 - **D2. Prejuicio hacia la sangrecita.** Algunos padres la asocian con un sabor metálico o con comida que el niño rechaza. Por eso "sin la prueba del niño no hay compra" (entrevistas). Cuánto pesa en A y en B lo dirá el focus 2 [POR CONFIRMAR].
-- **D3. Dependencia de los stands.** Los stands y carritos son el 49.9 % de las ventas con IGV del año 1 (S/122,038 de S/244,728) y el 43 % de los brownies. Cada punto cuesta S/600 al mes más el vendedor o la vendedora a S/90 por día, y necesita 65 brownies por día para no perder.
+- **D3. Dependencia de los stands.** Los stands y carritos son el 49.9 % de las ventas con IGV del año 1 (S/122,034 de S/244,728) y el 43 % de los brownies. Cada punto cuesta S/600 al mes más el vendedor o la vendedora a S/90 por día, y necesita 65 brownies por día para no perder.
 - **D4. Sin góndola de supermercado en el año 1.** La góndola en Wong o Vivanda solo se evalúa en el año 2 si cada punto ya gana por sí solo (regla para crecer 5). El documento 05 estima la comisión del supermercado en 35 % más 5 % de aportes y merma [HIPÓTESIS].
 - **D5. El escaneo del QR hay que enseñarlo.** La meta es que se escanee el 30 % de los envases en el año 1. Sin escaneo, el padre no ve el hierro del lote ni recibe el aviso de recompra.
 - **D6. Punto de equilibrio exigente** [línea nueva, antes en A4]. Hay que vender unos 2,100 brownies al mes con 1 punto, 3,100 a 3,500 con 2 y 4,200 a 4,400 con 3 para no perder. Enero y febrero de 2027 dan pérdida (−S/2,539 y −S/1,513) y la caja más baja es S/2,545 en febrero.

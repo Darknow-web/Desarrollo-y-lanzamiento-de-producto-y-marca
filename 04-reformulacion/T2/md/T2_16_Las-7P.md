@@ -44,7 +44,7 @@ Responsable: Angie Blas · Grupo 2 · AndiBite · Propuesta para revisar
 
 ### 2.3 Comparación con la competencia por 20 g
 
-Precios tomados el 3-oct-2026 (documentos 02 y 05) y revisados en el benchmark (#2) el 19-oct-2026; los de Forticao y La Purita salen del #2. La diferencia es AndiBite menos el competidor, y entre paréntesis el porcentaje sobre el competidor.
+Precios tomados el 3-oct-2026 (documentos 02 y 05) y revisados en el benchmark (#2) el 19-oct-2026; los de Forticao, La Purita y Little Bites salen del #2. La diferencia es AndiBite menos el competidor, y entre paréntesis el porcentaje sobre el competidor.
 
 | Competidor | Precio por 20 g | Pack de 6 por WhatsApp (S/4.48) | Pack de 12 por WhatsApp (S/4.16) | Pack de 6 en el stand (S/4.65) |
 |---|---|---|---|---|
@@ -55,6 +55,7 @@ Precios tomados el 3-oct-2026 (documentos 02 y 05) y revisados en el benchmark (
 | Siete Dragones (barra de cacao y cañihua; referencia) | S/3.01 | +S/1.47 (+49 %) | +S/1.15 (+38 %) | +S/1.64 (+54 %) |
 | La Purita (brownies veganos x 8, congelados) | S/2.11 si cada brownie pesa 20 g [POR CONFIRMAR el peso] | +S/2.37 (+112 %) | +S/2.05 (+97 %) | +S/2.54 (+120 %) |
 | Bimbo Nutra Bien (mini brownie) | S/1.67 | +S/2.81 (+168 %) | +S/2.49 (+149 %) | +S/2.98 (+178 %) |
+| Little Bites (Bimbo; referencia) | S/1.68 | +S/2.80 (+167 %) | +S/2.48 (+148 %) | +S/2.97 (+177 %) |
 
 **Cómo se lee.** Contra los competidores del mismo nivel de precio (Fika, Mamalama y el frasco de 12 de Forticao), el pack de 12 por WhatsApp cuesta lo mismo o apenas S/0.06 a S/0.16 más por brownie. Por ese centavo extra, el padre recibe el hierro medido del lote y la app. Frente a Nutri H, el competidor más cercano por llevar hemoglobina, el premio es de 30 % a 40 % y se justifica con el formato de brownie y con la medición por lote. Bimbo es otro mercado (masivo, sin hierro medido). La Purita cuesta menos por brownie, pero va congelada y no publica su peso. Al padre B se le muestra primero el pack de 12.
 
@@ -165,7 +166,7 @@ El recorrido es una cadena corta, y cada paso alimenta al siguiente:
 
 - Clase: `04-reformulacion/T2/CLASE-sesion09.md` y "PPT Sesión 09 - docente", Unidad 3, Plan de marketing y lanzamiento (Drive del equipo, consultada el 19-oct-2026). Tabla "Los 7P del Marketing" con las preguntas guía. https://drive.google.com/file/d/1RNH7qdIlWUlkhPu4oRH82yNQj-qAZaVf/view
 - HECHOS_v7 (19-oct-2026), `04-reformulacion/10-plan-de-marketing-2027.md` y `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` (modelo v7).
-- Precios de la competencia (consultados el 3-oct-2026, documentos 02 y 05): Fika https://www.fika.pe/products/brownie-55g ; Nutri H https://nutrih.pe/producto/nutri-h-clasica-x-30/ ; Mamalama https://www.wong.pe/barra-energetica-chocolate-bitter-y-maca-mamalama-caja-5-unid/p ; Siete Dragones https://www.plazavea.com.pe/barra-nibs-de-cacao-y-canihua-siete-dragones-caja-5un/p ; Bimbo Nutra Bien https://www.plazavea.com.pe/mini-brownie-nutra-bien-bimbo-180g-paquete-6un/p . Forticao (19-oct-2026, #2): https://waala16.meditech.team/shop ; La Purita (19-oct-2026, #2): https://www.lapurita.com/products/brownies-x-8-unds
+- Precios de la competencia (consultados el 3-oct-2026, documentos 02 y 05): Fika https://www.fika.pe/products/brownie-55g ; Nutri H https://nutrih.pe/producto/nutri-h-clasica-x-30/ ; Mamalama https://www.wong.pe/barra-energetica-chocolate-bitter-y-maca-mamalama-caja-5-unid/p ; Siete Dragones https://www.plazavea.com.pe/barra-nibs-de-cacao-y-canihua-siete-dragones-caja-5un/p ; Bimbo Nutra Bien https://www.plazavea.com.pe/mini-brownie-nutra-bien-bimbo-180g-paquete-6un/p . Forticao (19-oct-2026, #2): https://waala16.meditech.team/shop ; La Purita (19-oct-2026, #2): https://www.lapurita.com/products/brownies-x-8-unds ; Little Bites (19-oct-2026, #2): https://www.plazavea.com.pe/brownie-bimbo-little-bites-caja-130g/p
 - APEIM, *Niveles Socioeconómicos 2025*. https://apeim.com.pe/wp-content/uploads/2025/12/Informe-completo-de-NSE-2025.pdf
 - INDECOPI, *Guía de Publicidad para Influencers* (2024). https://cdn.www.gob.pe/uploads/document/file/6774363/5870366-guia-de-publicidad-para-influencers-2024.pdf
 - Ley 30021 (art. 8, publicidad dirigida a niños) y Ley 29733 (datos personales), citadas en los documentos 06 y 09.

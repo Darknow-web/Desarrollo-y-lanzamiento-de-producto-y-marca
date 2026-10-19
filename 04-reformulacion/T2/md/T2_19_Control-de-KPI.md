@@ -33,7 +33,7 @@ Los KPI 1 a 3 miden el **objetivo 1 (ventas)**, los KPI 4 a 6 el **objetivo 2 (r
 | 9 | Contactos por feria pagada | 50 o más, y 3 de 4 criterios (padres con hijos de 4 a 11, buscan comida saludable, temporada escolar, Lima Top o Moderna) | Por feria | Hoja de contactos y ficha de la feria | Carlos | **Regla 7:** si no cumple, esa feria no se repite en 2028 |
 | 10 | Brownies por evento sin costo | 150 o más | Por evento | Reporte del vendedor | Carlos | Si 2 eventos seguidos del mismo tipo venden menos de 100, se cambia de tipo de evento (por ejemplo, kermés en vez de feria municipal) |
 | 11 | Tiendas naturistas activas | De 2 en enero a 8 en diciembre | Mensual | Pedidos de tiendas | Carlos | Muestras para adultos y ficha de lote en el anaquel |
-| 12 | Pauta: costo por contacto que llega por anuncio | S/5 o menos [META PROPUESTA] | Mensual | Administrador de anuncios de Meta | Angie | Si pasa de S/8 durante 2 meses: cambiar el anuncio o el público y pasar parte de esos soles a degustación, sin cambiar el total del mes |
+| 12 | Pauta: costo por contacto que llega por anuncio (en Meta, "costo por conversación" de WhatsApp: es la misma métrica del #14 y del #17) | S/5 o menos [META PROPUESTA]. Línea base con promedios de mercado: S/8.23 (#17). La meta se busca con las rondas de prueba 5-3-2 (#14, sección 3.7) | Mensual | Administrador de anuncios de Meta | Angie | Si pasa de S/8 durante 2 meses: cambiar el anuncio o el público y pasar parte de esos soles a degustación, sin cambiar el total del mes. En enero se espera un costo cerca de la base porque corren las rondas 2 y 3: la decisión se toma al cierre de febrero |
 | 13 | Seguidores de Instagram | 500 en diciembre de 2026 y 4,000 en diciembre de 2027 [META PROPUESTA] | Mensual | Estadísticas de Instagram | Angie | Es un indicador de apoyo: no se compra pauta solo para seguidores. Se ajusta con el dato real de enero y febrero |
 | 14 | Uso y nota de la app | 40 % de los registrados la usa cada semana; nota de 4.5 de 5 o más (documento 09) | Mensual | Panel de la app (`/admin`) y calificaciones | Angie; Diana | Revisión de la app en junio |
 | 15 | Presupuesto ejecutado | Igual a la serie mensual (S/24,544 en total; unos S/0.44 por brownie en 2027) | Mensual | Hoja de presupuesto (`Presupuesto-marketing-AndiBite.xlsx`) | Adela | **Regla 8:** si la caja baja de S/1,000, se usa la línea de crédito de S/3,000; marketing no gasta más de lo planeado y prioriza la degustación en el stand |
@@ -107,14 +107,14 @@ Las reglas para crecer (HECHOS_v7) se activan solo cuando un KPI llega a su meta
 | 5. Góndola en Wong o Vivanda (año 2) | Cada punto gana por sí solo: ventas por punto sobre 65 por día y resultado operativo positivo | Trimestral, año 2 | El grupo | Se evalúa punto por punto con la fórmula del punto de equilibrio |
 | 6. Pago variable a vendedores (S/60 + S/0.30 por brownie) | KPI 1 y KPI 5 | Revisión de mitad de año (junio) [PROPUESTA] | Carlos y Adela (planilla y legal) | Con 90 brownies al día cuesta S/87 (60 + 0.30 × 90), casi igual a S/90 por día; con 70 baja a S/81 |
 | 7. Repetir una feria pagada | KPI 9: 50 contactos y 3 de 4 criterios | Por feria | Carlos | Si no cumple, no se repite en 2028 |
-| 8. Usar la línea de crédito | Caja por debajo de S/1,000 | Cada domingo (fila 10) | Adela | Solo así se usa la línea de S/3,000. Con −20 % la caja mínima sería −S/2,188 en febrero |
+| 8. Usar la línea de crédito | Caja por debajo de S/1,000 | Cada domingo (fila 10) | Adela | Solo así se usa la línea de S/3,000. Con −20 % en los stands (#06) la caja baja de S/1,000 en abril y llega a −S/2,188 en agosto de 2027 |
 
 ## 6. Riesgos del control y cómo los cubrimos
 
 - **Datos que llegan tarde.** El vendedor reporta cada fin de semana y Carlos consolida el domingo. Si falta un reporte, esa fila se marca amarilla hasta tenerlo.
 - **Metas propuestas sin respaldo fuerte.** Los contactos, los seguidores y el costo por contacto son [META PROPUESTA]. Se ajustan con el dato real de enero y febrero de 2027, sin cambiar los números de ventas del Excel.
 - **Demasiados KPI.** Son 17 en la tabla, pero el tablero semanal usa 12 filas y la reunión dura 30 minutos. Los demás se miran una vez al mes.
-- **Conexión con el FODA (#4).** Cuando el FODA esté listo, cada amenaza y cada debilidad importante debe tener un KPI en esta tabla.
+- **Conexión con el FODA (#4).** El FODA ya está en `T2_04_FODA-y-FODA-cruzado.md`. Sus debilidades y amenazas principales tienen KPI aquí: D3 y D6 (stands y equilibrio) con los KPI 1 a 3; D5 (escaneo) con el KPI 6; D1 (presupuesto chico) con los KPI 12 y 15; F4 y O2 (sin octógono y colegios) con los KPI 8 y 17; A4 (crédito caro) con la fila 10 del tablero.
 
 ## Fuentes
 
@@ -124,4 +124,4 @@ Las reglas para crecer (HECHOS_v7) se activan solo cuando un KPI llega a su meta
 4. AndiBite. `04-reformulacion/Presupuesto-marketing-AndiBite.xlsx`.
 5. AndiBite. `04-reformulacion/09-app-andi-mision-hierro.md` (panel `/admin`, escaneos, uso y nota de la app).
 6. AndiBite. `04-reformulacion/T2/CLASE-sesion09.md` (el control como último paso del plan).
-7. Temas #06 y #07 del T2 (`T2_06_Proyeccion-de-demanda.md` y `T2_07_Objetivos-SMART.md`).
+7. Temas #04, #06, #07, #14 y #17 del T2 (`T2_04_FODA-y-FODA-cruzado.md`, `T2_06_Proyeccion-de-demanda.md`, `T2_07_Objetivos-SMART.md`, `T2_14_Ecosistema-digital-y-Meta-Ads.md` y `T2_17_Presupuesto.md`).

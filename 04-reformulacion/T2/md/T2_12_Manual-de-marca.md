@@ -124,7 +124,7 @@ El documento 06 proponía un "rojo hierro" 9E2B25. Se reemplaza por el rojo ladr
 | Café cacao del logo | 5C301E | 92, 48, 30 | "Andi" del logo y textos café del empaque |
 | Kraft | E8CDB3 | 232, 205, 179 | Fondo del sticker, color del papel kraft |
 | Banda inferior | 5A2421 | 90, 36, 33 | Franja de abajo del frente, con los íconos y el peso neto |
-| Cinta | 702A28 | 112, 42, 40 | Cinta "Sangrecita + Cañihua + Cacao" |
+| Cinta | 702A28 | 112, 42, 40 | Cinta del prototipo "Sangrecita + Cañihua + Cacao". En la versión de venta, ese texto solo va en el sabor Andi; Chispa y Lúcu llevan su propia cinta, porque no tienen cañihua |
 | Pestaña | 632727 | 99, 39, 39 | Pestaña "6 mini brownies" arriba a la derecha |
 | Crema del empaque | F7ECDA | 247, 236, 218 | Textos claros sobre la banda, la cinta y la pestaña |
 | Rojo del empaque | BA4036 | 186, 64, 54 | "Bite" en el sticker (igual al rojo ladrillo) |
@@ -289,7 +289,7 @@ El documento 06 pedía "sin mascotas" en la marca. Esto se mantiene: Andi no es 
 
 | Pieza | Medida | Qué lleva |
 |---|---|---|
-| Bolsa 1, kraft sin ventana | 11.0 x 15.3 cm, 300 dpi | Frente: frase manuscrita "Lo bueno también puede ser delicioso", montañas y logo, "Mini Brownie Nutritivo", cinta "Sangrecita + Cañihua + Cacao", ilustración, banda inferior con íconos y "Peso neto 120 g", pestaña "6 mini brownies". Reverso: "De nuestra tierra, a su lonchera", texto, íconos, paisaje y franja legal |
+| Bolsa 1, kraft sin ventana | 11.0 x 15.3 cm, 300 dpi | Frente: frase manuscrita "Lo bueno también puede ser delicioso", montañas y logo, "Mini Brownie Nutritivo", cinta "Sangrecita + Cañihua + Cacao" (el prototipo es del sabor Andi), ilustración, banda inferior con íconos y "Peso neto 120 g", pestaña "6 mini brownies". Reverso: "De nuestra tierra, a su lonchera", texto, íconos, paisaje y franja legal |
 | Bolsa 2, kraft con ventana | 14.2 x 21.4 cm; ventana de 13 x 4 cm a 5.5 cm del borde inferior [POR CONFIRMAR con la bolsa real] | Igual, con paisaje en lugar de la ilustración y la ventana para ver el producto |
 | Hojas de impresión | A4: 2 stickers por hoja (bolsa 1) o 1 (bolsa 2), con marcas de corte | Imprimir al 100 % |
 | Editables | Archivos PPTX para importar en Canva | Para cambiar textos sin rehacer el diseño |

@@ -131,7 +131,7 @@ Documento 09; prototipo funcional en `app-andi-mision-hierro/`. Es una app web i
   - Préstamo: S/16,000 en 24 cuotas de S/898 (TEA 35 %).
   - Línea de crédito de respaldo: S/3,000.
 - **Recuperación de la inversión:** mes 23 (noviembre de 2028).
-- **Caja mínima:** S/2,545 en febrero. Con 20 % menos ventas baja a −S/2,188, y la cubre la línea de crédito.
+- **Caja mínima:** S/2,545 en febrero. Con 20 % menos ventas por punto (Excel v7, Inversión C53) baja a −S/2,188 en agosto, y la cubre la línea de crédito.
 
 **Por brownie:**
 - Costo: S/1.64 (pack de 6); S/1.54 a 1.72 según la presentación.

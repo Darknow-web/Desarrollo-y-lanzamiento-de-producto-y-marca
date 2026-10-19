@@ -18,7 +18,7 @@ La clase pide partir del mapa (el Business Model Canvas del T1) para trazar la r
 | **5. Fuentes de ingreso** | Unidad S/6.00, caja de 3 S/16.50, pack de 6 S/27.90 (stand, con IGV). Año 1: S/244,728 de ventas y S/10,379 de utilidad neta. Año 2: S/322,329 y S/28,447 |
 | **6. Recursos clave** | Receta que esconde la sangrecita. Marca y registro sanitario. App y datos de cada familia. Equipo de venta pagado |
 | **7. Actividades clave** | Fabricar sin planta propia (maquila). Medir y publicar el hierro. Vender en stands y ferias. Recompra con la app |
-| **8. Socios clave** | Planta con certificación que fabrica por nosotros. Laboratorio que mide el hierro de cada lote. Proveedor de sangrecita en polvo con registro sanitario. Malls y supermercados para A y para B. Pediatras y nutricionista que nos recomiendan |
+| **8. Socios clave** | Planta de maquila que fabrica por nosotros (candidatas: MAKING, Panificadora Unión e INDDA-UNALM [POR CONFIRMAR]). Laboratorio que mide el hierro de cada lote. Proveedor de sangrecita en polvo con registro sanitario. Malls y supermercados para A y para B. Pediatras y nutricionista que nos recomiendan |
 | **9. Estructura de costos** | Producir cuesta S/1.64 por brownie (pack de 6), sin comprar planta. Stands, ferias y vendedores: S/51,010 al año. Gastos fijos: S/2,738 al mes. Equilibrio: de 2,100 a 4,400 brownies al mes, según los puntos abiertos |
 
 **Para el inversionista:** margen bruto de 58 a 66 % en el stand, sin planta propia, ganancia desde marzo de 2027, inversión recuperada en el mes 23 y utilidad 2.7 veces mayor en el año 2.

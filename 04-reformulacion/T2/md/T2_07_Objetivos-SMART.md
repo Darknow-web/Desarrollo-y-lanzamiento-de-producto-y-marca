@@ -3,7 +3,7 @@ Responsable: Adela (Ade) Robles · Grupo 2 · AndiBite · Propuesta para revisar
 
 Un objetivo SMART es un objetivo **E**specífico, **M**edible, **A**lcanzable, **R**elevante y con **T**iempo. KPI significa indicador clave: el número que miramos para saber si vamos bien. IGV es el impuesto general a las ventas (los precios al público lo incluyen). QR es el código que se lee con la cámara del celular. ODS son los Objetivos de Desarrollo Sostenible de la ONU. PESTEL es el análisis del entorno y FODA es el de fortalezas, oportunidades, debilidades y amenazas. En la clase (sesión 09) el ejemplo es: "Incrementar el market share en un 15 % al finalizar el primer semestre del 2025". AndiBite es una marca nueva y todavía no tiene participación de mercado, así que nuestro equivalente es la meta de ventas del año 1, que equivale al **1.4 % del núcleo** del mercado (S/244,728 ÷ S/17.3 millones, tema #05).
 
-Los tres objetivos salen del documento 10 (`10-plan-de-marketing-2027.md`, sección 2) y del Excel v7 (`Costeo-presentaciones-AndiBite.xlsx`). No cambian cifras: las ordenan en tres ideas simples. Responden al análisis situacional disponible hoy: el PESTEL (hecho por Angie), el tema #8 (qué le importa al cliente) y el documento 04 (público y datos de mercado). **El FODA (#4) todavía no está.** Cuando esté, hay que revisar que cada objetivo use una fortaleza o una oportunidad y cubra una debilidad o una amenaza.
+Los tres objetivos salen del documento 10 (`10-plan-de-marketing-2027.md`, sección 2) y del Excel v7 (`Costeo-presentaciones-AndiBite.xlsx`). No cambian cifras: las ordenan en tres ideas simples. Responden al análisis situacional disponible hoy: el PESTEL (hecho por Angie), el tema #8 (qué le importa al cliente) y el documento 04 (público y datos de mercado). El FODA y el FODA cruzado (#4) ya están en `T2_04_FODA-y-FODA-cruzado.md` (propuesta de Diana). Cada objetivo usa una fortaleza o una oportunidad y cubre una debilidad o una amenaza: el objetivo 1 usa F1 y O5 y cubre D3 y D6; el objetivo 2 usa F3 y F7 y cubre D5; el objetivo 3 usa F4 y O2 (colegios) y O4 (recomendación) y cubre D1.
 
 ## 1. Los tres objetivos
 
@@ -60,7 +60,7 @@ El documento 10 tiene 5 objetivos. Aquí se agrupan en 3 para que sean claros y 
 
 | Paso del plan (clase sesión 09) | Dónde se ve |
 |---|---|
-| 1. Análisis situacional (PESTEL, qué le importa al cliente, benchmark, FODA) | PESTEL de Angie, tema #8 y documento 04 disponibles. FODA (#4) pendiente |
+| 1. Análisis situacional (PESTEL, qué le importa al cliente, benchmark, FODA) | PESTEL de Angie, tema #8, benchmark (#2), FODA y FODA cruzado (#4) y documento 04 |
 | 2. Objetivos SMART | Este tema |
 | 3. Segmentación y posicionamiento | Padres A y B (Claudia y Rodrigo), mensaje central "Hierro medido. Sabor a brownie." |
 | 4. Tácticas | 4P del documento 10 y 7P (tema #16) |

@@ -258,12 +258,18 @@ Comprobación: 1,605 + 1,605 + 1,840 = 5,050. Cada segmento recibe lo mismo: 1,6
 | CPM | S/12.69 (rango S/10.29 a 15.78) | Dentro del rango | Si pasa de S/15.78, revisar público muy chico o anuncio repetido |
 | CTR | 1.03 % [POR CONFIRMAR] | 1 % o más | Menos de 0.8 %: cambiar los primeros 3 segundos o el texto (#17) |
 | CPC | S/1.235 | S/1.24 o menos | Sube sin que baje el CTR: renovar el video |
-| Costo por conversación | S/8.23 (ya pasa el límite de alerta; ver #17) | S/5 o menos (documento 10) | Más de S/8 durante 2 meses: cambiar anuncio o público y pasar soles a degustación, sin cambiar el total del mes (documento 10, KPI 12 del #19) |
+| Costo por conversación | S/8.23: línea base con promedios de mercado (ya pasa el límite de alerta; ver abajo y #17) | S/5 o menos (documento 10) | Más de S/8 durante 2 meses: cambiar anuncio o público y pasar soles a degustación, sin cambiar el total del mes (documento 10, KPI 12 del #19) |
 | Reproducciones de 3 s ÷ impresiones | Sin dato de Perú | Se fija con el dato de enero [POR CONFIRMAR] | El anuncio con el valor más bajo se apaga en la prueba de 2 anuncios del mes |
 
 **Prueba de las variantes:** se sigue el 5-3-2 en 3 rondas (ganchos, cuerpos y CTA), como explica la sección 3.7. Esto cumple y amplía el riesgo 9 del documento 10 ("probar 2 anuncios por mes").
 
-**Prelanzamiento (dic-2026, S/600, 300 A y 300 B):** un solo corte de 15 s, "En enero abrimos en Jockey Plaza. Únete a la lista.", con el mismo objetivo de mensajes. Da unos 490 clics y 73 contactos (#17); los 27 que faltan para 100 vienen del orgánico y de los influencers.
+**Costo por conversación: línea base, meta y qué pasa si no baja.**
+- **Es la misma métrica.** El "costo por contacto que llega por anuncio" del documento 10 y del KPI 12 del #19 es el costo por conversación de WhatsApp que reporta Meta: cada conversación iniciada desde el botón "Enviar mensaje" es un contacto. El #17 lo llama "CPA por contacto".
+- **S/8.23 es la línea base,** calculada con promedios de mercado (CPC de Perú de US$0.36 y 15 % de los clics que escriben, #17). No es un resultado medido.
+- **La meta de S/5 se busca con las rondas 5-3-2** (sección 3.7): la ronda 1 elige el gancho que más retiene, la 2 el cuerpo con mejor CTR y CPC, y la 3 la CTA con menor costo por conversación. Con el mismo CPC (S/1.235) hace falta que escriba 1 de cada 4 clics (25 %); con 15 %, el CPC tendría que bajar a unos S/0.75 (S/5 × 0.15). Lo normal es una mezcla de las dos cosas.
+- **Si en enero no baja:** enero es el mes de las rondas 2 y 3, así que un costo de S/8 o más es esperable. La alerta se activa solo si pasa de S/8 durante 2 meses (enero y febrero): se cambia el anuncio o el público y se pasa parte de esos soles a degustación, sin cambiar el total del mes (documento 10). La meta de unos 2,300 contactos no depende de la pauta: se calculó con stands, ferias, eventos y embajadoras (#17), así que un costo alto quita contactos extra, no la meta.
+
+**Prelanzamiento (dic-2026, S/600, 300 A y 300 B):** un solo corte de 15 s, "En enero abrimos en Jockey Plaza. Únete a la lista.", con el mismo objetivo de mensajes. Da unos 490 clics y 73 contactos (#17), a S/8.2 cada uno. La meta de 100 contactos en espera es la lista acumulada al 31-dic-2026, no lo que trae la pauta sola: el documento 10 (sección 6.4) pide 20 en octubre y 50 en noviembre, sin pauta, con el orgánico. La pauta de diciembre necesita sumar unos 50; con la base de 15 % trae unos 73 y con el escenario prudente de 10 %, unos 49. Si a mediados de diciembre la lista va atrasada, se refuerza con las historias y los 40 influencers; el monto de S/600 no cambia.
 
 ## 5. Cierre por WhatsApp
 
@@ -330,7 +336,7 @@ Cada anuncio pasa el checklist de 18 preguntas del #12 antes de pautarse: diseñ
 - Aptitud del stand para Google Business Profile.
 - Redacción exacta del artículo 8 de la Ley 30021 e inscripción del banco de datos ante la ANPD (Adela).
 - Medios de pago por WhatsApp.
-- Pauta de expectativa: la línea del Excel de marketing ("Presupuesto de marketing", celda C8) y de las diapositivas 35 y 36 de la TC5-8 dice "Instagram y TikTok". Se corrigió a "Instagram y Facebook" en el #17 y en el documento 10 (6.5), como en la fase 1 del documento 10: Meta no pauta en TikTok y TikTok es solo orgánico. El monto (S/600) no cambia. Queda para Carlos cambiar la etiqueta en el Excel y en las diapositivas.
+- Pauta de expectativa: va en "Instagram y Facebook" (Meta no pauta en TikTok y TikTok es solo orgánico). Ya está así en el Excel de marketing ("Presupuesto de marketing", celda C8), en el #17 y en el documento 10 (6.5). Las diapositivas 35 y 36 de la TC5-8 todavía dicen "Instagram y TikTok" (`TC5-8/fuente/presu_mkt.json` y `datos_marketing.py`): queda para Carlos. El monto (S/600) no cambia.
 
 ## Fuentes
 

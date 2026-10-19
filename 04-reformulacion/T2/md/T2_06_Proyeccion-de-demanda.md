@@ -124,7 +124,7 @@ Cálculos: 322,329 ÷ 244,728 − 1 = 31.7 %; 70,452 ÷ 52,331 − 1 = 34.6 %; 3
 
 ## 6. Escenario de ±20 %
 
-**Qué se movió.** Se cambian en 20 % hacia abajo o hacia arriba los **brownies por día en cada punto** (fila 7 de la hoja Mensual). La recompra por WhatsApp se recalcula sola (35 % del físico del mes anterior). Ferias, eventos, colegios y naturistas se dejan igual. Esta definición la deducimos al reproducir las cifras con las fórmulas del Excel [PROPUESTA de lectura; confirmar con Carlos].
+**Qué se movió.** Se cambian en 20 % hacia abajo o hacia arriba los **brownies por día en cada punto** (fila 7 de la hoja Mensual). La recompra por WhatsApp se recalcula sola (35 % del físico del mes anterior). Ferias, eventos, colegios y naturistas se dejan igual. Es la definición del Excel v7: la nota 5 de la hoja Resumen y la celda C53 de la hoja Inversion hablan de "20 % menos ventas por punto". Las cifras se reprodujeron con las fórmulas del Excel. Es el mismo escenario que usan HECHOS_v7, el documento 00, el #17 y el #19.
 
 | Escenario | Brownies por día por punto | Brownies en el año | Ventas con IGV | Resultado operativo del año 1 |
 |---|---|---|---|---|
@@ -136,7 +136,7 @@ Cálculo del resultado: nuevo resultado = S/13,423 + (nueva contribución − S/
 
 **Lectura:**
 
-- Con **20 % menos**, el año 1 todavía gana (S/608), pero casi nada. La caja más baja baja de S/2,545 a **−S/2,188** en febrero. La cubre la **línea de crédito de respaldo de S/3,000** (regla 8: se usa solo si la caja cae bajo S/1,000).
+- Con **20 % menos**, el año 1 todavía gana (S/608), pero casi nada. La caja más baja pasa de S/2,545 (febrero, en el plan base) a **−S/2,188** en agosto de 2027: la caja baja de S/1,000 desde abril y toca fondo en agosto. La cubre la **línea de crédito de respaldo de S/3,000** (regla 8: se usa solo si la caja cae bajo S/1,000).
 - Con **20 % más** el resultado casi se duplica (S/26,237, 1.95 veces el base).
 - Por eso el KPI de brownies por día en cada punto (mínimo 65 para no perder) es el más importante del control (tema #19).
 - Bajar de 80 a 65 brownies por día es una caída de 19 %, parecida al escenario de −20 %. Por eso la meta se revisa con el dato real de enero y febrero [HIPÓTESIS: todavía no hay ventas medidas].
@@ -150,10 +150,10 @@ Cálculo del resultado: nuevo resultado = S/13,423 + (nueva contribución − S/
 
 ## Fuentes
 
-1. AndiBite. *Costeo-presentaciones-AndiBite.xlsx*, modelo v7, hojas Mensual (filas 5 a 19 y 29), Anio2, Resumen y Proyeccion (`04-reformulacion/`).
+1. AndiBite. `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx`, modelo v7, hojas Mensual (filas 5 a 19, 29 y 44), Anio2, Resumen (nota 5), Inversion (celda C53) y Proyeccion.
 2. AndiBite. `04-reformulacion/T2/HECHOS_v7.md` (canales, puntos, ferias, eventos y reglas para crecer).
 3. AndiBite. `04-reformulacion/10-plan-de-marketing-2027.md`, secciones 2, 6.3 y 6.4 (metas y supuestos por canal).
 4. AndiBite. `04-reformulacion/04-publico-objetivo-y-buyer-persona-con-datos.md`, sección 1.11 (embudo).
-5. APEIM. *Niveles Socioeconómicos 2025* (setiembre de 2025). https://apeim.com.pe/wp-content/uploads/2025/12/Informe-completo-de-NSE-2025.pdf
-6. CPI. *Market Report N°003: Perú, Población 2026* (marzo de 2026). https://cpi.pe/wp-content/uploads/2026/03/CPI_Market-Report-N°003-Proyecciones-Poblacionales-2025.pdf
+5. APEIM. Niveles Socioeconómicos 2025 (setiembre de 2025). https://apeim.com.pe/wp-content/uploads/2025/12/Informe-completo-de-NSE-2025.pdf
+6. CPI. Market Report N°003: Perú, Población 2026 (marzo de 2026). https://cpi.pe/wp-content/uploads/2026/03/CPI_Market-Report-N°003-Proyecciones-Poblacionales-2025.pdf
 7. INEI. "Censos Nacionales 2025: Lima Metropolitana continúa siendo la provincia más poblada" (10/07/2026). https://www.gob.pe/institucion/inei/noticias/1417313-censos-nacionales-2025-lima-metropolitana-continua-siendo-la-provincia-mas-poblada
