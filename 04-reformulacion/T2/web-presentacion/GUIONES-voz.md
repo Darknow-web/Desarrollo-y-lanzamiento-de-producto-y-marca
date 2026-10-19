@@ -61,7 +61,7 @@ Dirección: apurado pero divertido, como si lo contara en el semáforo. «Sin ca
 
 Dirección: este se graba con celular el 2 de enero en Jockey Plaza, con una de las tres familias ganadoras, y la voz es la suya. Si lo necesitas antes como muestra, usa ElevenLabs con una voz distinta de Claudia y Rodrigo y márcalo como provisional.
 
-## P1 · Claudia, un día en su vida · 9:16 · 8 s · voz Claudia (solo para la presentación)
+## P1 · Claudia, un día en su vida (ya no se usa: la ficha lleva foto)
 
 | Segundos | Toma | Voz |
 |---|---|---|
@@ -69,7 +69,7 @@ Dirección: este se graba con celular el 2 de enero en Jockey Plaza, con una de 
 | 3 a 5 | En la oficina, mira el celular | «Desde la oficina, miro el celular.» |
 | 5 a 8 | Abre la lonchera: vacía | «Vacía. Por fin, vacía.» |
 
-## P2 · Rodrigo, un día en su vida · 9:16 · 8 s · voz Rodrigo (solo para la presentación)
+## P2 · Rodrigo, un día en su vida (ya no se usa: la ficha lleva foto)
 
 | Segundos | Toma | Voz |
 |---|---|---|

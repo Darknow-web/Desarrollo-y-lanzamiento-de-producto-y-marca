@@ -203,7 +203,7 @@ Dirección: natural, con risa contenida al inicio; no es un locutor, es una mam�
 
 ---
 
-## Video 6 · P1 · Claudia, un día en su vida · 9:16 · 8 s (solo para la presentación)
+## Video 6 · P1 · Claudia, un día en su vida · 9:16 · 8 s (ya no se usa: la ficha de la presentación lleva la foto `img/campana/claudia.jpg`)
 
 **Dónde va:** ficha de Claudia en la pantalla de buyer persona. Archivo final: `claudia.mp4` → `public/vid/claudia.mp4`.
 
@@ -233,7 +233,7 @@ Ninguno: la ficha de la presentación ya pone su nombre, edad y la frase.
 
 ---
 
-## Video 7 · P2 · Rodrigo, un día en su vida · 9:16 · 8 s (solo para la presentación)
+## Video 7 · P2 · Rodrigo, un día en su vida · 9:16 · 8 s (ya no se usa: la ficha lleva la foto `img/campana/rodrigo.jpg`)
 
 **Dónde va:** ficha de Rodrigo en la pantalla de buyer persona. Archivo final: `rodrigo.mp4` → `public/vid/rodrigo.mp4`.
 
