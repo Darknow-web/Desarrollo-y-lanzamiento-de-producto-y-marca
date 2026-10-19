@@ -1,6 +1,6 @@
 # Campaña «Lo que nadie ve»: textos finales del capítulo de campaña
 
-Textos para las 12 pantallas del capítulo 05 de la presentación web, para el jurado y el público. Reemplaza a «Vuelve vacía». Idea decidida con Carlos el 19-oct-2026. Cifras de `HECHOS_v7.md`, T2_13, T2_14 y T2_17 (no cambian). Prompts de imagen y video en `PROMPTS-campana.md`.
+Textos para las 18 pantallas del capítulo 05 de la presentación web, para el jurado y el público. Reemplaza a «Vuelve vacía». Idea decidida con Carlos el 19-oct-2026. Cifras de `HECHOS_v7.md`, T2_13, T2_14 y T2_17 (no cambian). Prompts de imagen y video en `PROMPTS-campana.md`.
 
 **La idea en una frase:** cada papá y cada mamá de Lima inventa trucos para que su hijo coma lo que le hace bien, y nadie ve ese esfuerzo. AndiBite es el truco que ya no necesita cuento: el hierro va escondido en un mini brownie que el niño sí pide, y la app Andi muestra lo que nadie ve en casa, el hierro que el niño lleva cada día.
 
@@ -125,7 +125,7 @@ Nota de producción (no va en pantalla): el guion es una referencia. La familia 
   1. **40 influencers con hijos (S/458).** 20 de Lima Top y 20 de Lima Moderna reciben su pack y cuentan su propio truco con #LoQueNadieVe y #publicidad, antes del 10 de enero.
   2. **10 kits para pediatras y nutricionistas.** En enero, para quienes escuchan más trucos que nadie en la consulta.
   3. **Papás y mamás embajadores (S/200 al mes).** Pasan su truco y su código en el chat del salón; la meta es 230 familias nuevas en 2027. El premio es para el adulto, nunca para el niño.
-  4. **Concurso #LoQueNadieVe (S/600: S/360 de pauta de expectativa y S/240 en premios).** Del 1 de noviembre al 20 de diciembre. S/360 de pauta y S/240 en premios: un mes de lonchera para cada uno de los tres adultos ganadores. Cierra con la expectativa: «En enero abrimos en Jockey Plaza. Escríbenos tu truco por WhatsApp y entérate primero.»
+  4. **Concurso #LoQueNadieVe (S/600).** Del 1 de noviembre al 20 de diciembre. S/360 de pauta y S/240 en premios: un mes de lonchera para cada uno de los tres adultos ganadores. Cierra con la expectativa: «En enero abrimos en Jockey Plaza. Escríbenos tu truco por WhatsApp y entérate primero.»
 
 ### 8b. Concurso #LoQueNadieVe · «Este diciembre sí los aplaudimos.»
 
@@ -211,7 +211,7 @@ La app es la parte de la idea que «muestra lo que nadie ve». Se ajustan tres t
 - **Marca registrada:** «de Hulk» queda solo en el manifiesto de la presentación, porque es como lo dicen los papás. En la pauta pagada se dice «superhéroe» o «superpoderes» (Hulk es una marca de Marvel).
 - **Antes de publicar:** revisar que #LoQueNadieVe no lo use otra marca en Perú, y pasar estos textos por el agente `t2-redactor`.
 
-## 12. Orden del capítulo en la presentación (decidido el 19-oct-2026)
+## 13. Orden del capítulo en la presentación (decidido el 19-oct-2026)
 
 1. Portada con el video maestro y el concepto «Lo que nadie ve».
 2. El insight y el manifiesto (la idea).
