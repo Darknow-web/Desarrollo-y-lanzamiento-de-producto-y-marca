@@ -51,7 +51,7 @@ function Celebracion({ nino, racha, alCerrar }: { nino: Nino; racha: number; alC
         </motion.div>
         <h2>¡Volvió vacía!</h2>
         <p className="celebra-estrella"><Icono n="estrella" tam={22} /> +1 estrella para {nino.apodo}</p>
-        <p className="celebra-racha">{racha >= 2 ? `${racha} días seguidos esta semana` : 'Andi ya lo anotó en su mapa'}</p>
+        <p className="celebra-racha">{racha >= 2 ? `${racha} días seguidos esta semana` : 'Ya puede usarla en Misión Hierro'}</p>
         <button className="boton boton-primario boton-ancho" onClick={alCerrar}>Listo</button>
       </motion.div>
     </motion.div>
@@ -80,7 +80,7 @@ export function PuntosSemana({ semana, alTocar }: { semana: RachaSemana; alTocar
 const textoRacha = (s: RachaSemana, hoyVacia: boolean) => {
   if (s.racha >= 2) return `${s.racha} días seguidos esta semana`;
   if (hoyVacia) return 'Primer día de la racha';
-  if (s.vacias > 0) return `${s.vacias} ${s.vacias === 1 ? 'día' : 'días'} vacía esta semana`;
+  if (s.vacias > 0) return `${s.vacias} ${s.vacias === 1 ? 'lonchera vacía' : 'loncheras vacías'} esta semana`;
   return 'Hoy empieza la racha';
 };
 
@@ -101,7 +101,7 @@ export function RetoHero({ nino }: { nino: Nino }) {
         <p className="kicker">Reto lonchera vacía</p>
         <Link to="/reto" className="reto-ver">Ver la semana <Icono n="derecha" tam={16} /></Link>
       </div>
-      <h2 id="reto-titulo" className="reto-titulo">{hoyVacia ? `Hoy la de ${nino.apodo} volvió vacía` : '¿Volvió vacía hoy?'}</h2>
+      <h2 id="reto-titulo" className="reto-titulo">{hoyVacia ? `Hoy la lonchera de ${nino.apodo} volvió vacía` : '¿Volvió vacía hoy?'}</h2>
       <PuntosSemana semana={semana} />
       <p className="reto-racha"><Icono n="rayo" tam={16} /> {textoRacha(semana, hoyVacia)}</p>
       {hoyVacia ? (
@@ -124,7 +124,7 @@ export function ResumenSemana({ nino, fecha = hoyISO(), pasada }: { nino: Nino; 
   const semana = useRacha(nino.id, fecha);
   const registros = useEstado(e => e.registros);
   const hierro = resumenSemana(registros, nino.id, fecha);
-  const frase = semana.vacias >= 4 ? 'Semana redonda, se comió casi todo.' : semana.vacias >= 2 ? 'Buena semana, va agarrando el ritmo.' : semana.vacias === 1 ? 'Un día vacía: el lunes se vuelve a intentar.' : 'Esta semana no se marcó ninguna.';
+  const frase = semana.vacias >= 4 ? 'Semana redonda, se comió casi todo.' : semana.vacias >= 2 ? 'Buena semana, va agarrando el ritmo.' : semana.vacias === 1 ? 'Un día volvió vacía. El lunes seguimos.' : 'Esta semana no marcaron ningún día.';
   return (
     <section className="reto-hero resumen-semana" aria-labelledby="resumen-titulo">
       <p className="kicker">Reto lonchera vacía</p>
@@ -134,10 +134,10 @@ export function ResumenSemana({ nino, fecha = hoyISO(), pasada }: { nino: Nino; 
       <p className="reto-racha">{frase}</p>
       <Link to="/hierro" className={`resumen-semaforo semaforo-${hierro.color}`}>
         <span className="semaforo-luces" aria-hidden="true"><i /><i /><i /></span>
-        <span><strong>Semáforo de hierro:</strong> {hierro.diasConHierro} de 7 días con una fuente de hierro</span>
+        <span><strong>Semáforo de hierro:</strong> {hierro.diasConHierro} de 7 días comió algo con hierro</span>
         <Icono n="derecha" tam={18} />
       </Link>
-      {!pasada && <Link to="/loncheras" className="boton boton-primario boton-ancho boton-reto"><Icono n="lonchera" tam={22} /><span>Armar la lonchera de la próxima semana</span></Link>}
+      {!pasada && <Link to="/loncheras" className="boton boton-primario boton-ancho boton-reto"><Icono n="lonchera" tam={22} /><span>Armar las loncheras de la próxima semana</span></Link>}
     </section>
   );
 }
@@ -168,7 +168,7 @@ export default function Reto() {
     <Cascada className="pantalla reto">
       <Encabezado titulo="Reto lonchera vacía" atras="/" />
       {ninos > 1 && <Item><SelectorNino /></Item>}
-      <Item><p className="lead">Cada día de colegio, toca el día si la lonchera de {nino.apodo} volvió vacía.</p></Item>
+      <Item><p className="lead">Toca cada día de colegio en que la lonchera de {nino.apodo} volvió vacía.</p></Item>
       <Item as="section" className="tarjeta reto-semana">
         <div className="reto-cabeza"><h2>Esta semana</h2><span className="reto-estrellas"><Icono n="estrella" tam={18} /> {progreso.estrellas}</span></div>
         <PuntosSemana semana={semana} alTocar={tocar} />

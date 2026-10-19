@@ -13,7 +13,7 @@ export default function Vestir() {
   const l = useLook(id);
   const [sacude, setSacude] = useState<string | null>(null);
   const [estreno, setEstreno] = useState(0);
-  useEffect(() => { hablar('¡Vísteme! Cada look cuesta estrellas que ganas jugando.'); }, []);
+  useEffect(() => { hablar('¡Vísteme! Elige un traje con las estrellas que ganaste jugando.'); }, []);
 
   const tocar = (look: Look, costo: number) => {
     const tenia = l.comprados.includes(look);

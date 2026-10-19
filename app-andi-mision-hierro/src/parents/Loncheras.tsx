@@ -133,7 +133,7 @@ function PlanConAndi({ nino, codigo, quedan, whatsapp, alNoDisponible, alCambiar
       <Tarjeta className="plan-cargando">
         <div className="cargando" aria-label="Armando el plan"><i /><i /><i /></div>
         <h2>Andi está armando la semana de {nino.apodo}</h2>
-        <p className="nota">Elige recetas con hierro, frutas con vitamina C y arma la lista de compras. Toma menos de un minuto.</p>
+        <p className="nota">Busca recetas con hierro y frutas con vitamina C, y te arma la lista de compras. Toma menos de un minuto.</p>
       </Tarjeta>
     </div>
   );
@@ -145,9 +145,9 @@ function PlanConAndi({ nino, codigo, quedan, whatsapp, alNoDisponible, alCambiar
       <Item as="section" className="tarjeta armar">
         <p className="kicker">Plan con IA · semana del {fechaCorta(semana)}</p>
         <h2>Armemos la semana de {nino.apodo}</h2>
-        <p className="nota">Cada día: un principal con hierro, una fruta con vitamina C y una bebida sin azúcar. Nada frito ni con octógono.</p>
+        <p className="nota">Cada día: un plato con hierro, una fruta con vitamina C y una bebida sin azúcar. Nada frito ni con octógonos.</p>
         <div className="campo"><span>Edad</span><Paso valor={edad} alCambiar={setEdad} min={2} max={13} etiqueta="años" /></div>
-        <div className="campo"><span>Evitar (alergias o rechazos)</span><div className="chips">{RESTRICCIONES.map(r => <button key={r.id} className={`chip ${evitar.includes(r.id) ? 'chip-activo chip-evitar' : ''}`} onClick={() => alternar(r.id)} aria-pressed={evitar.includes(r.id)}>{r.nombre}</button>)}</div></div>
+        <div className="campo"><span>Evitar (alergias o lo que no come)</span><div className="chips">{RESTRICCIONES.map(r => <button key={r.id} className={`chip ${evitar.includes(r.id) ? 'chip-activo chip-evitar' : ''}`} onClick={() => alternar(r.id)} aria-pressed={evitar.includes(r.id)}>{r.nombre}</button>)}</div></div>
         {error && <p className="error-texto" role="alert">{error}</p>}
         <Boton ancho icono="lonchera" onClick={armar}>Armar mi semana con Andi</Boton>
         {ultimo && <button type="button" className="enlace" onClick={() => setEditar(false)}>Ver mi último plan</button>}
@@ -249,9 +249,9 @@ function Recetario({ nino, whatsapp }: { nino: Nino; whatsapp: string }) {
         <Item as="section" className="tarjeta armar">
           <p className="kicker">Recetario AndiBite</p>
           <h2>Armemos la semana de {nino.apodo}</h2>
-          <p className="nota">Cada día: un principal con hierro, una fruta con vitamina C y una bebida sin azúcar. Nada frito ni con octógono.</p>
+          <p className="nota">Cada día: un plato con hierro, una fruta con vitamina C y una bebida sin azúcar. Nada frito ni con octógonos.</p>
           <div className="campo"><span>Le gusta</span><div className="chips">{GUSTOS.map(g => <button key={g} className={`chip ${gustos.includes(g) ? 'chip-activo' : ''}`} onClick={() => alternar(gustos, g, setGustos)} aria-pressed={gustos.includes(g)}>{g}</button>)}</div></div>
-          <div className="campo"><span>Evitar (alergias o rechazos)</span><div className="chips">{RESTRICCIONES.map(r => <button key={r.id} className={`chip ${evitar.includes(r.id) ? 'chip-activo chip-evitar' : ''}`} onClick={() => alternar(evitar, r.id, setEvitar)} aria-pressed={evitar.includes(r.id)}>{r.nombre}</button>)}</div></div>
+          <div className="campo"><span>Evitar (alergias o lo que no come)</span><div className="chips">{RESTRICCIONES.map(r => <button key={r.id} className={`chip ${evitar.includes(r.id) ? 'chip-activo chip-evitar' : ''}`} onClick={() => alternar(evitar, r.id, setEvitar)} aria-pressed={evitar.includes(r.id)}>{r.nombre}</button>)}</div></div>
           <Interruptor activo={conAndi} alCambiar={setConAndi} etiqueta="Incluir AndiBite" detalle="Como complemento, 2 días como máximo" />
           <Boton ancho icono="lonchera" onClick={armar}>Armar mi semana</Boton>
         </Item>
@@ -266,7 +266,7 @@ function Recetario({ nino, whatsapp }: { nino: Nino; whatsapp: string }) {
                 <p className="fuente">Hierro de: {d.fuenteHierro}</p>
                 <details><summary>Cómo prepararla</summary><p>{d.preparacion}</p></details>
                 <div className="dia-acciones">
-                  <button className={`chip ${d.hecho ? 'chip-activo' : ''}`} onClick={() => marcarHecho(i)} aria-pressed={!!d.hecho}><Icono n="check" tam={16} /> {d.hecho ? 'La llevó' : 'Marcar: la llevó'}</button>
+                  <button className={`chip ${d.hecho ? 'chip-activo' : ''}`} onClick={() => marcarHecho(i)} aria-pressed={!!d.hecho}><Icono n="check" tam={16} /> {d.hecho ? 'La llevó' : 'Marcar que la llevó'}</button>
                   <button className="chip" onClick={() => actualizar(e => { e.loncheras!.dias[i] = cambiarDia(e.loncheras!.dias, i, evitar); })}>Cambiar</button>
                 </div>
               </Tarjeta>

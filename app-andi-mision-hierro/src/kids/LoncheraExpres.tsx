@@ -111,7 +111,7 @@ export default function LoncheraExpres() {
   };
 
   if (fase === 'fin' && fin) return (
-    <Celebracion titulo={ganadas === RONDAS ? '¡Rey de la lonchera!' : '¡Lonchera exprés!'} ganadas={fin.ganadas} detalle={`${ganadas} de ${RONDAS} loncheras a tiempo`}
+    <Celebracion titulo={ganadas === RONDAS ? '¡Loncheras perfectas!' : '¡Bien jugado!'} ganadas={fin.ganadas} detalle={`${ganadas} de ${RONDAS} loncheras a tiempo`}
       alSeguir={() => ir('/ninos')} alRepetir={() => { setFin(null); setGanadas(0); setFase('inicio'); }} />
   );
 

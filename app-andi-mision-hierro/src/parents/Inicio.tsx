@@ -65,17 +65,17 @@ export default function Inicio() {
       <Item as="section" className="rutas" aria-label="Secciones">
         <Link to="/loncheras" className="tarjeta ruta">
           <span className="ruta-icono"><Icono n="lonchera" /></span>
-          <span className="ruta-texto"><strong>Loncheras de la semana</strong><small>{planVigente ? `Listas: ${hechas} de 5 preparadas` : 'Arma 5 loncheras con hierro en un minuto'}</small></span>
+          <span className="ruta-texto"><strong>Loncheras de la semana</strong><small>{planVigente ? `${hechas} de 5 listas` : 'Arma 5 loncheras con hierro en un minuto'}</small></span>
           <Icono n="derecha" tam={18} />
         </Link>
         <Link to="/despensa" className={`tarjeta ruta ${seAcaba ? 'ruta-alerta' : ''}`}>
           <span className="ruta-icono"><Icono n={seAcaba ? 'campana' : 'bolsa'} /></span>
-          <span className="ruta-texto"><strong>Mi despensa y pedido</strong><small>{despensa.length === 0 ? 'Escanea o agrega tu pack' : restantes === 0 ? 'Se acabó el pack: pídelo por WhatsApp' : seAcaba ? `Quedan ${restantes}: es momento de pedir` : `Quedan ${restantes} brownies, hasta ${relativa(sumarDias(hoy, dias))}`}</small></span>
+          <span className="ruta-texto"><strong>Mi despensa y pedido</strong><small>{despensa.length === 0 ? 'Escanea o agrega tu pack' : restantes === 0 ? 'Se acabó el pack: pídelo por WhatsApp' : seAcaba ? `Quedan ${restantes}: ya toca pedir` : `Quedan ${restantes} brownies, hasta ${relativa(sumarDias(hoy, dias))}`}</small></span>
           <Icono n="derecha" tam={18} />
         </Link>
         <Link to="/ninos" className="tarjeta ruta ruta-ninos">
           <span className="ruta-icono"><Andi tam={40} /></span>
-          <span className="ruta-texto"><strong>Misión Hierro para tu hijo</strong><small>{nino ? `Juegos con Andi · ${progreso.estrellas} ${progreso.estrellas === 1 ? 'estrella' : 'estrellas'}` : 'Juegos con Andi para aprender a comer hierro'}</small></span>
+          <span className="ruta-texto"><strong>Misión Hierro para tu hijo</strong><small>{nino ? `Juegos con Andi · ${progreso.estrellas} ${progreso.estrellas === 1 ? 'estrella' : 'estrellas'}` : 'Juegos con Andi sobre comidas con hierro'}</small></span>
           <Icono n="candado" tam={18} />
         </Link>
       </Item>

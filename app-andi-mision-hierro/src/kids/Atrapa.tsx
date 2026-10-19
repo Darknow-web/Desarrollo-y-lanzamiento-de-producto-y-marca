@@ -91,7 +91,7 @@ export default function Atrapa() {
   };
 
   useEffect(() => () => { juego.current.vivo = false; cancelAnimationFrame(raf.current); }, []);
-  useEffect(() => { if (fase === 'inicio') hablar('Atrapa el hierro con la lonchera. ¿Listo?'); }, [fase]);
+  useEffect(() => { if (fase === 'inicio') hablar('Atrapa las comidas con hierro en la lonchera. ¿Empezamos?'); }, [fase]);
 
   const mover = (e: PE<HTMLDivElement>) => {
     const el = area.current; if (!el || !juego.current.vivo) return;
@@ -112,7 +112,7 @@ export default function Atrapa() {
     <div className="juego juego-inicio">
       <Andi tam={150} look={look} className="andi-flota" />
       <h1>Atrapa el hierro</h1>
-      <p className="juego-pista"><span>🫘 🍲 🥬 🍫 🥚 🍗</span> sí &nbsp;·&nbsp; <span>🥤 🍬</span> no</p>
+      <p className="juego-pista"><span>🫘 🍲 🥬 🥣 🥚 🍗</span> sí &nbsp;·&nbsp; <span>🥤 🍬</span> no</p>
       <button className="boton-nino grande" onClick={empezar}>¡Jugar!</button>
     </div>
   );

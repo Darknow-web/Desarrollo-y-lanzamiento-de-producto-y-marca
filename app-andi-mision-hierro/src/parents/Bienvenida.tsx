@@ -53,8 +53,8 @@ function DibujoPack() {
 }
 
 const PANTALLAS: { frase: string; dibujo: ReactNode }[] = [
-  { frase: 'Marca si la lonchera volvió vacía', dibujo: <DibujoLonchera /> },
-  { frase: 'Juega con Andi y gana estrellas', dibujo: <DibujoAndi /> },
+  { frase: 'Cada tarde, marca si la lonchera volvió vacía', dibujo: <DibujoLonchera /> },
+  { frase: 'Tu hijo juega con Andi y gana estrellas', dibujo: <DibujoAndi /> },
   { frase: 'Pide tu pack por WhatsApp cuando se acabe', dibujo: <DibujoPack /> },
 ];
 
@@ -113,7 +113,7 @@ export default function Bienvenida() {
             <Cascada className="bienvenida-paso">
               <Item><Andi tam={96} className="andi-flota" /></Item>
               <Item><h1 className="titulo-pantalla">{consentido ? 'Agrega a tu hijo o hija' : '¿Quién va al colegio?'}</h1></Item>
-              <Item><p className="lead">Lo que registres se guarda <strong>solo en este teléfono</strong>; al servidor solo llega el código del envase.</p></Item>
+              <Item><p className="lead">Lo que registres se queda <strong>solo en este teléfono</strong>. Nosotros recibimos el código del envase y, si usas el plan de loncheras, el apodo, la edad y lo que tu hijo debe evitar.</p></Item>
               <Item className="bienvenida-form">
                 <form onSubmit={e => { e.preventDefault(); if (acepto) terminar(true); }}>
                   <label className="campo"><span>Apodo de tu hijo o hija</span>

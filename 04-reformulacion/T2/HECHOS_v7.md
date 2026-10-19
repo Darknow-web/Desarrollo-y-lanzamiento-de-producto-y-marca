@@ -47,11 +47,11 @@ Documento 09; prototipo funcional en `app-andi-mision-hierro/`. Es una app web i
 - **Modo padres:**
   - hierro medido del lote;
   - semáforo de hierro semanal;
-  - plan de loncheras con IA (Gemini);
+  - plan de loncheras con IA (API de Claude, Claude Opus 5.5; se desbloquea 14 días con cada QR escaneado);
   - recordatorio del control de hemoglobina;
   - recompra en 1 clic por WhatsApp, con aviso cuando se acaba el pack;
   - dónde estamos este fin de semana.
-- **Modo niños "Misión Hierro":** Andi, una llamita, con 4 juegos: Arma tu plato fuerte, Memoria andina, ¿Verdad o mito? y Ruta de hábitos. Lo abre el padre con candado y fija el tiempo de juego.
+- **Modo niños "Misión Hierro":** Andi, una llamita exploradora, con 4 juegos: Atrapa el hierro, Lonchera exprés, Memoria y Viste a Andi (desde el 19-oct-2026; antes: Arma tu plato, Memoria andina, ¿Verdad o mito? y Ruta de hábitos). Lo abre el padre con candado y fija el tiempo de juego.
 - **Leyes:** cumple la Ley 30021, art. 8 (sin compras, sin publicidad ni premios por comprar en el modo niños) y la Ley 29733 (datos en el teléfono).
 - **Costos:** S/2,000 para terminar (el prototipo ya está hecho), S/250 al mes y S/0.04 por código impreso.
 - **Meta:** 30 % de los envases escaneados en el año 1.
@@ -210,10 +210,10 @@ Documento 09; prototipo funcional en `app-andi-mision-hierro/`. Es una app web i
   - 230 familias nuevas por embajadoras;
   - 5 colegios con quiosco (2 A y 3 B) y 8 tiendas naturistas.
 - **Metas propuestas** (documento 10, sección 6.3): contactos de WhatsApp, escaneos, colegios y seguidores (500 en diciembre de 2026 y 4,000 en diciembre de 2027; es la meta menos respaldada).
-- **Slogan (decidido en el #11):** "Hierro medido. Sabor a brownie." **Territorio de marca (#10):** "Medido, no prometido".
+- **Slogan (decidido en el #11, reemplazado el 19-oct-2026):** vigente "Dulce para ellos. Tranquilidad para ti."; el anterior, "Hierro medido. Sabor a brownie.", queda como frase de ficha. **Territorio de marca (#10):** "hierro sin pelear cada mañana" (antes "Medido, no prometido").
 - **Mensajes:**
-  - Central: "Hierro medido. Sabor a brownie."
-  - Padre A: "Él ve un brownie. Tú ves el hierro medido de su lote."
+  - Central: "Dulce para ellos. Tranquilidad para ti." (antes "Hierro medido. Sabor a brownie.")
+  - Padre A: "Él ve un brownie. Tú ves la lonchera vacía." (antes "...el hierro medido de su lote")
   - Padre B: "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie."
 - **Fechas clave 2027:**
   - campaña escolar: febrero;

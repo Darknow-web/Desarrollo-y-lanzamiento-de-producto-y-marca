@@ -48,7 +48,7 @@ export default function Despensa() {
         <Item className="vacio">
           <div className="vacio-icono"><Icono n="bolsa" tam={30} /></div>
           <h3>Tu despensa está vacía</h3>
-          <p>Escanea el QR de tu pack y tócale "Agregar a mi despensa". Te avisamos antes de que se acabe.</p>
+          <p>Escanea el QR de tu pack y toca "Agregar a mi despensa". Te avisamos antes de que se acabe.</p>
           <Link to="/escanear" className="boton boton-primario"><Icono n="qr" tam={20} /><span>Escanear mi pack</span></Link>
           <button className="enlace" onClick={() => setHoja(true)}>Agregarlo a mano</button>
         </Item>
@@ -63,8 +63,8 @@ export default function Despensa() {
           <Item as="section" className={`tarjeta recompra ${pronto ? 'recompra-ya' : ''}`}>
             <span className="recompra-icono"><Icono n={pronto ? 'campana' : 'calendario'} /></span>
             <div>
-              <strong>{pronto ? 'Es momento de pedir' : `Te avisamos ${relativa(avisoDia)}`}</strong>
-              <p>{pronto ? 'Pídelo hoy y llega en la próxima entrega.' : `Dos días antes de que se acabe (${fechaLarga(avisoDia)}).`}</p>
+              <strong>{pronto ? 'Ya toca pedir' : `Te avisamos ${relativa(avisoDia)}`}</strong>
+              <p>{pronto ? 'Pídelo hoy y te llega en la próxima entrega.' : `Dos días antes de que se acabe (${fechaLarga(avisoDia)}).`}</p>
               {!pronto && <button className="enlace" onClick={() => descargarRecordatorio({ titulo: 'Pedir AndiBite', fecha: avisoDia, descripcion: 'Tu pack se acaba en 2 días. Pídelo por WhatsApp desde la app.' })}>Agregar a mi calendario</button>}
             </div>
           </Item>
@@ -85,7 +85,7 @@ export default function Despensa() {
                   <Boton tipo="suave" onClick={() => comio(d.id)} deshabilitado={d.restantes === 0}>Comió 1</Boton>
                 </div>
                 <div className="item-ritmo">
-                  <span>Come por semana</span>
+                  <span>Brownies a la semana</span>
                   <Paso valor={d.porSemana} min={1} max={14} etiqueta="brownies por semana" alCambiar={v => actualizar(e => { e.despensa.find(x => x.id === d.id)!.porSemana = v; })} />
                   <button className="btn-icono" aria-label="Quitar de la despensa" onClick={() => actualizar(e => { e.despensa = e.despensa.filter(x => x.id !== d.id); })}><Icono n="basura" tam={18} /></button>
                 </div>

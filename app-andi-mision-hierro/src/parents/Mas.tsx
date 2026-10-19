@@ -48,7 +48,7 @@ export default function Mas() {
         <Interruptor activo={ajustes.voz} alCambiar={v => aj(a => { a.voz = v; })} etiqueta="Voz de Andi" detalle="Lee en voz alta en el modo niños" />
         <Interruptor activo={ajustes.avisos} alCambiar={async v => {
           if (v && 'Notification' in window && Notification.permission !== 'granted') {
-            const p = await Notification.requestPermission(); if (p !== 'granted') { aviso('Permiso de avisos no concedido'); return; }
+            const p = await Notification.requestPermission(); if (p !== 'granted') { aviso('No se activaron los avisos'); return; }
           }
           aj(a => { a.avisos = v; });
         }} etiqueta="Avisos" detalle="Cuando se acaba el pack o se acerca un control" />
@@ -94,9 +94,9 @@ export function Privacidad() {
       <Encabezado titulo="Privacidad y datos" atras="/mas" />
       <Tarjeta>
         <h2>Lo que se queda en tu teléfono</h2>
-        <p>El apodo y la edad de tus hijos, el reto de la lonchera, sus estrellas, tus loncheras, tu despensa y los controles de hemoglobina. No tenemos cuentas ni contraseñas: nada de esto llega a nuestro servidor.</p>
+        <p>El apodo y la edad de tus hijos, el reto de la lonchera, sus estrellas, tus loncheras, tu despensa y los controles de hemoglobina. No tenemos cuentas ni contraseñas.</p>
         <h2>Lo que llega a nuestro servidor</h2>
-        <p>Solo el código del envase que escaneas, para mostrarte su lote y contar cuántas veces se escanea cada lote.</p>
+        <p>El código del envase que escaneas, para mostrarte su lote y contar cuántas veces se escanea. Si usas el plan de loncheras, también el apodo, la edad y lo que tu hijo debe evitar, solo para armar ese plan. Nada más.</p>
         <h2>Modo niños</h2>
         <p>Misión Hierro no muestra productos, precios ni publicidad, no tiene compras y no premia comprar ni comer el brownie (Ley 30021). Las estrellas se ganan jugando y con la lonchera vacía.</p>
         <h2>Tus derechos</h2>
