@@ -3,7 +3,7 @@ Responsable: Angie Blas · Grupo 2 · AndiBite · Propuesta para revisar
 
 **Qué contiene.** (1) La inversión de marketing por canal y por medio, que cuadra con **S/24,544** y con `Presupuesto-marketing-AndiBite.xlsx`. (2) El prompt 4 de la clase (Sesión 09) completado, con CPA, ROAS y una tabla Métrica estimada | Valor calculado | Interpretación. (3) El ROI del marketing, con sus fórmulas.
 
-**Siglas.** CPM: costo por mil impresiones del anuncio. CPC: costo por clic. CTR: porcentaje de personas que hacen clic al ver el anuncio. CPA: costo por adquisición (lo que cuesta conseguir un contacto o un cliente). ROAS: retorno de la inversión publicitaria (ventas ÷ gasto). ROI: retorno de la inversión ((ganancia − inversión) ÷ inversión). BTL: marketing cara a cara. Pauta: publicidad pagada en Meta (Facebook e Instagram). IGV: impuesto general a las ventas (18 %).
+**Siglas.** CPM: costo por mil impresiones del anuncio. CPC: costo por clic. CTR: porcentaje de personas que hacen clic al ver el anuncio. CPA: costo por adquisición (lo que cuesta conseguir un contacto o un cliente). ROAS: retorno de la inversión publicitaria (ventas ÷ gasto). ROI: retorno de la inversión ((ganancia − inversión) ÷ inversión). BTL: marketing cara a cara. Pauta: publicidad pagada en Meta (Facebook e Instagram). IGV: impuesto general a las ventas (18 %). POP: material de punto de venta (carteles, habladores, banners). ATL: marketing en medios masivos (televisión, radio, vía pública). NSE: nivel socioeconómico. ODS: Objetivos de Desarrollo Sostenible. TC5-8: trabajos de campo 5 a 8 del curso. BCRP: Banco Central de Reserva del Perú. IA: inteligencia artificial.
 
 **Qué es dato y qué es estimado.** Las cifras de inversión, ventas y contribución salen del Excel v7 y del presupuesto de marketing: son el plan, no resultados reales (todavía no hemos vendido). Los benchmarks de Meta son de fuentes externas con fecha. Todo lo que dice [ESTIMADO] o [POR CONFIRMAR] se corrige con los datos reales de Ads Manager y de las ventas de enero y febrero de 2027.
 
@@ -102,7 +102,7 @@ Lo que no entra: el espacio de los stands (S/600 por punto al mes) y los vendedo
 > - **Segmento objetivo:** padres y madres de 32 a 45 años, NSE A y B, con hijos de 4 a 11 años en colegio privado en Lima Top y Lima Moderna. Claudia Mendoza (A, San Borja) y Rodrigo Salazar (B, San Miguel), con la pauta repartida 50/50 desde febrero de 2027.
 > - **Presupuesto total estimado para la campaña:** S/5,050 de pauta en Meta en 2027 (S/450 al mes en promedio) y S/600 de pauta de expectativa en diciembre de 2026. El marketing total del plan es S/24,544 (se usa solo en el ROI).
 > - **Plataforma principal:** Meta Ads (Facebook e Instagram), con botón a WhatsApp.
-> - **CPC o CPM:** CPM de US$3.70 y CPC de US$0.36 para Perú (rango de CPM: US$3.00 a 4.60), con tipo de cambio de S/3.40 por dólar.
+> - **CPC o CPM:** CPM de US$3.70 y CPC de US$0.36 para Perú (rango de CPM: US$3.00 a 4.60), con tipo de cambio de S/3.43 por dólar (BCRP, 15-oct-2026).
 > - **Tasa de conversión estimada:** clic a contacto de WhatsApp, 15 % (rango de 10 % a 25 %) [POR CONFIRMAR]; contacto a primera compra, 20 % (1 de cada 5, del documento 10) [META PROPUESTA].
 > - **Valor promedio por compra (ticket promedio):** S/4.68 por brownie con IGV (244,728 ÷ 52,331). Un pedido de WhatsApp tiene unos 7.5 brownies: 7.5 × 4.68 = S/35.10 con IGV.
 >
@@ -118,50 +118,52 @@ Lo que no entra: el espacio de los stands (S/600 por punto al mes) y los vendedo
 | CTR | 1.03 % (derivado) | Cálculo: CTR = CPM ÷ (1,000 × CPC) = 3.70 ÷ (1,000 × 0.36). Cuadra con el promedio mundial de 0.9 % (Trendtrack, 2025) y 1.57 % (Bestever, 3-ago-2025, que lo atribuye a WordStream) | Baja: no hay CTR publicado para Perú [POR CONFIRMAR] |
 | Conversión de clic a contacto de WhatsApp | 10 % a 25 %, base 15 % | No hay dato confiable para Perú ni Latinoamérica. Rango de trabajo del equipo | [POR CONFIRMAR] con Ads Manager en enero de 2027 |
 | Conversión de clic a compra en una tienda en línea (solo referencia) | 3.26 % (rubro retail) | Bestever, 3-ago-2025, que cita a WordStream, Triple Whale y AgencyAnalytics, sin tamaño de muestra. No aplica a AndiBite, porque aquí la compra es en el stand o por WhatsApp | Baja |
-| Tipo de cambio | S/3.40 por US$ | BCRP, cierre del 15-oct-2025: entre S/3.39 y S/3.41 según La República (dos notas con cifras distintas) | [POR CONFIRMAR] con el cierre de octubre de 2026 |
+| Tipo de cambio | S/3.43 por US$ | BCRP, tipo de cambio interbancario venta del 15-oct-2026: S/3.428, el último dato publicado al 19-oct-2026 (serie diaria PD04638PD). Del 1 al 15 de octubre de 2026 estuvo entre S/3.427 y S/3.454. En octubre de 2025, cuando se armó la primera versión, era S/3.40 | Alta: dato oficial. Se actualiza con el cierre de diciembre de 2026 |
 
 ### 2.3 Fórmulas y cálculo (escenario base)
 
-1. **CPM en soles** = 3.70 × 3.40 = **S/12.58** por mil impresiones.
-2. **CPC en soles** = 0.36 × 3.40 = **S/1.224** por clic.
-3. **Impresiones** = pauta ÷ CPM × 1,000 = 5,050 ÷ 12.58 × 1,000 = **401,431**.
-4. **Clics** = pauta ÷ CPC = 5,050 ÷ 1.224 = **4,126**.
-5. **CTR** = clics ÷ impresiones = 4,126 ÷ 401,431 = **1.03 %**.
-6. **Contactos de WhatsApp (leads)** = clics × 15 % = 4,126 × 0.15 = **619**.
-7. **CPA por contacto** = pauta ÷ contactos = 5,050 ÷ 619 = **S/8.16** (también = CPC ÷ conversión = 1.224 ÷ 0.15).
-8. **Clientes nuevos** = contactos × 20 % = 619 × 0.20 = **124**.
-9. **CPA por cliente** = pauta ÷ clientes = 5,050 ÷ 124 = **S/40.80** (= 8.16 ÷ 0.20).
-10. **Ventas del primer pedido** = clientes × ticket del pedido = 124 × 35.10 = **S/4,344 con IGV**; sin IGV = 4,344 ÷ 1.18 = **S/3,682**.
-11. **ROAS del primer pedido** (sin IGV) = 3,682 ÷ 5,050 = **0.73**.
+1. **CPM en soles** = 3.70 × 3.43 = **S/12.69** por mil impresiones.
+2. **CPC en soles** = 0.36 × 3.43 = **S/1.235** por clic.
+3. **Impresiones** = pauta ÷ CPM × 1,000 = 5,050 ÷ 12.691 × 1,000 = **397,920**.
+4. **Clics** = pauta ÷ CPC = 5,050 ÷ 1.2348 = **4,090**.
+5. **CTR** = clics ÷ impresiones = 4,090 ÷ 397,920 = **1.03 %**.
+6. **Contactos de WhatsApp (leads)** = clics × 15 % = 4,090 × 0.15 = **613**.
+7. **CPA por contacto** = CPC ÷ conversión = 1.2348 ÷ 0.15 = **S/8.23** (también = 5,050 ÷ 613.5 contactos sin redondear).
+8. **Clientes nuevos** = contactos × 20 % = 613.5 × 0.20 = **123** (122.7 sin redondear).
+9. **CPA por cliente** = CPA por contacto ÷ 20 % = 8.23 ÷ 0.20 = **S/41.16**.
+10. **Ventas del primer pedido** = clientes × ticket del pedido = 122.7 × 35.10 = **S/4,307 con IGV**; sin IGV = 4,307 ÷ 1.18 = **S/3,650**.
+11. **ROAS del primer pedido** (sin IGV) = 3,650 ÷ 5,050 = **0.72**.
 12. **Contribución de un pedido de WhatsApp** = 7.5 brownies × S/1.393 por brownie (hoja Proyeccion del Excel v7: ventas sin IGV menos producción y costo variable de canal) = **S/10.45**.
-13. **Pedidos para recuperar el CPA por cliente** = 40.80 ÷ 10.45 = **3.9 pedidos**.
+13. **Pedidos para recuperar el CPA por cliente** = 41.16 ÷ 10.45 = **3.9 pedidos**.
 
-Con el valor exacto de WhatsApp del Excel (S/4.3375 por brownie, o S/32.53 por pedido) el ROAS del primer pedido baja de 0.73 a 0.68. Usamos S/4.68 porque lo pide la clase y es el ticket promedio de todos los canales.
+Con el valor exacto de WhatsApp del Excel (S/4.3375 por brownie, o S/32.53 por pedido) el ROAS del primer pedido baja de 0.72 a 0.67. Usamos S/4.68 porque lo pide la clase y es el ticket promedio de todos los canales.
+
+**Qué cambió con el tipo de cambio.** La primera versión usaba S/3.40 (octubre de 2025). Con S/3.43 (octubre de 2026) la pauta compra un poco menos: las impresiones bajan de 401,431 a 397,920, los clics de 4,126 a 4,090, los contactos de 619 a 613, el CPA por contacto sube de S/8.16 a S/8.23 y el ROAS del primer pedido baja de 0.73 a 0.72. Las conclusiones no cambian. La inversión (S/24,544), los precios y el ROI del marketing total no dependen del dólar.
 
 ### 2.4 Sensibilidad (pauta de 2027, S/5,050)
 
 | Escenario | Clic a contacto | Contactos | CPA por contacto | Clientes (20 %) | CPA por cliente | ROAS del primer pedido (sin IGV) |
 |---|---|---|---|---|---|---|
-| Prudente | 10 % | 413 | S/12.24 | 83 | S/61.20 | 0.49 |
-| Base | 15 % | 619 | S/8.16 | 124 | S/40.80 | 0.73 |
-| Optimista | 25 % | 1,031 | S/4.90 | 206 | S/24.50 | 1.22 |
+| Prudente | 10 % | 409 | S/12.35 | 82 | S/61.74 | 0.48 |
+| Base | 15 % | 613 | S/8.23 | 123 | S/41.16 | 0.72 |
+| Optimista | 25 % | 1,022 | S/4.94 | 204 | S/24.70 | 1.20 |
 
-Con el CPM bajo del rango (US$3.00) la pauta da unas 495,000 impresiones; con el alto (US$4.60), unas 323,000.
+Con el CPM bajo del rango (US$3.00) la pauta da unas 491,000 impresiones; con el alto (US$4.60), unas 320,000.
 
 ### 2.5 Tabla de métricas estimadas (resultado del prompt 4, revisado)
 
 | Métrica estimada | Valor calculado | Interpretación |
 |---|---|---|
-| Impresiones de la pauta 2027 | 401,431 [ESTIMADO] | Es el número de veces que se muestran los anuncios a adultos de 30 a 45 años de Lima Top y Lima Moderna. Con S/5,050 en el año alcanzamos a una parte del público, no a todo; por eso la pauta apoya al stand y no lo reemplaza |
-| Clics | 4,126 [ESTIMADO] | Unos 340 clics al mes, un número realista para S/450 al mes |
+| Impresiones de la pauta 2027 | 397,920 [ESTIMADO] | Es el número de veces que se muestran los anuncios a adultos de 30 a 45 años de Lima Top y Lima Moderna. Con S/5,050 en el año alcanzamos a una parte del público, no a todo; por eso la pauta apoya al stand y no lo reemplaza |
+| Clics | 4,090 [ESTIMADO] | Unos 340 clics al mes, un número realista para S/450 al mes |
 | CTR | 1.03 % [POR CONFIRMAR] | En la zona normal de Meta (cerca del promedio mundial). Si el anuncio sale por debajo de 0.8 %, se cambia el mensaje o la imagen |
-| Contactos de WhatsApp por pauta | 619 (rango 413 a 1,031) [ESTIMADO] | Son contactos extra: la meta de 2,338 contactos del documento 10 se calculó con stands, ferias, eventos y embajadoras, sin contar la pauta |
-| CPA por contacto | S/8.16 (rango S/4.90 a S/12.24) [ESTIMADO] | La meta del documento 10 es S/5 o menos y el límite de alerta es S/8. En el escenario base estamos justo en el límite; la meta de S/5 solo se logra si 1 de cada 4 clics deja su WhatsApp |
-| Clientes nuevos por pauta | 124 (rango 83 a 206) [ESTIMADO] | Supone que 1 de cada 5 contactos compra |
-| CPA por cliente | S/40.80 (rango S/24.50 a S/61.20) [ESTIMADO] | Cuesta unas 4 veces el valor de un pedido (S/35.10). La pauta no se paga con el primer pedido |
-| Ventas del primer pedido | S/4,344 con IGV (S/3,682 sin IGV) [ESTIMADO] | Es solo el 1.8 % de las ventas de 2027 (244,728). La pauta no es el motor de las ventas: lo es el stand |
-| ROAS de la pauta, primer pedido | 0.73 (rango 0.49 a 1.22) [ESTIMADO] | Por cada S/1 de pauta vuelven S/0.73 en el primer pedido. Es normal en una marca nueva; el valor está en la recompra |
-| Pedidos para recuperar el CPA por cliente | 3.9 pedidos [ESTIMADO] | Con contribución de S/10.45 por pedido, el cliente tiene que comprar unas 4 veces para pagar su captación. En el escenario optimista bastan 2.3 pedidos (24.50 ÷ 10.45). Es la cifra que hay que medir primero con la recompra real |
+| Contactos de WhatsApp por pauta | 613 (rango 409 a 1,022) [ESTIMADO] | Son contactos extra: la meta de unos 2,300 contactos (2,338 al cierre, según el documento 10) se calculó con stands, ferias, eventos y embajadoras, sin contar la pauta |
+| CPA por contacto | S/8.23 (rango S/4.94 a S/12.35) [ESTIMADO] | La meta del documento 10 es S/5 o menos y el límite de alerta es S/8. En el escenario base estamos apenas por encima del límite; la meta de S/5 solo se logra si 1 de cada 4 clics deja su WhatsApp |
+| Clientes nuevos por pauta | 123 (rango 82 a 204) [ESTIMADO] | Supone que 1 de cada 5 contactos compra |
+| CPA por cliente | S/41.16 (rango S/24.70 a S/61.74) [ESTIMADO] | Cuesta más que el valor de un pedido (S/35.10) y unas 4 veces lo que deja un pedido (S/10.45 de contribución). La pauta no se paga con el primer pedido |
+| Ventas del primer pedido | S/4,307 con IGV (S/3,650 sin IGV) [ESTIMADO] | Es solo el 1.8 % de las ventas de 2027 (244,728). La pauta no es el motor de las ventas: lo es el stand |
+| ROAS de la pauta, primer pedido | 0.72 (rango 0.48 a 1.20) [ESTIMADO] | Por cada S/1 de pauta vuelven S/0.72 en el primer pedido. Es normal en una marca nueva; el valor está en la recompra |
+| Pedidos para recuperar el CPA por cliente | 3.9 pedidos [ESTIMADO] | Con contribución de S/10.45 por pedido, el cliente tiene que comprar unas 4 veces para pagar su captación. En el escenario optimista bastan 2.4 pedidos (24.70 ÷ 10.45). Es la cifra que hay que medir primero con la recompra real |
 | ROAS del marketing total (techo) | 8.45 (207,397 ÷ 24,544) | Por cada S/1 de marketing hay S/8.45 de ventas sin IGV. Es un techo: atribuye todas las ventas al marketing |
 | Marketing por brownie, 2027 | S/0.44 (22,786 ÷ 52,331) | Frente a una contribución de S/1.09 por brownie después de los costos de stand (ver sección 3), el marketing usa cerca del 40 % |
 | ROI del marketing (contribución, 100 % atribuida) | 132 % | Ver sección 3 |
@@ -174,8 +176,8 @@ Aplicamos el prompt 4 con los datos de la sección 2.1 y revisamos cada número 
 - **Corregido, ventas con y sin IGV:** una respuesta típica de IA calcula el ROAS con el ticket con IGV. Lo pasamos a ventas sin IGV (÷ 1.18), porque el IGV no es ingreso del negocio.
 - **Corregido, ROAS de toda la venta contra la pauta:** una IA tiende a dividir las ventas totales entre la pauta y dar un ROAS de 40 o más (207,397 ÷ 5,050 = 41). Es engañoso, porque el 82 % de las ventas se hace en el stand, en colegios, ferias y naturistas. Por eso medimos la pauta solo con las ventas de los clientes que trajo (primer pedido), y el marketing total aparte.
 - **Corregido, benchmarks:** la IA suele dar CPC y CTR de Estados Unidos o del mundo (por ejemplo, CPC de US$1.72). Los reemplazamos por los de Perú con fuente y fecha, y marcamos como [POR CONFIRMAR] el CTR y la conversión, que no tienen dato peruano confiable.
-- **Hallazgo:** el CPA de S/8.16 coincide con el límite de alerta del documento 10 (cambiar el anuncio si pasa de S/8 durante 2 meses). Es una señal para vigilar la pauta desde enero y mover soles a degustación si no rinde, sin cambiar el total del mes.
-- **Hallazgo, prelanzamiento:** la pauta de expectativa de S/600 daría unos 490 clics y 74 contactos (a 15 %), no los 100 de la meta (S/6.00 por contacto). Los otros unos 26 deben venir de Instagram orgánico y de los 40 influencers; con conversión de 20 % la pauta sola llega a 98.
+- **Hallazgo:** el CPA de S/8.23 es casi igual al límite de alerta del documento 10 (cambiar el anuncio si pasa de S/8 durante 2 meses). Es una señal para vigilar la pauta desde enero y mover soles a degustación si no rinde, sin cambiar el total del mes.
+- **Hallazgo, prelanzamiento:** la pauta de expectativa de S/600 daría unos 490 clics y 73 contactos (a 15 %), no los 100 de la meta (S/6.00 por contacto). Los otros unos 27 deben venir de Instagram orgánico y de los 40 influencers; con conversión de 20 % la pauta sola llega a 97.
 
 ### 2.7 CPA por canal (con las metas del plan)
 
@@ -185,7 +187,7 @@ Aplicamos el prompt 4 con los datos de la sección 2.1 y revisamos cada número 
 | Muestras de lanzamiento | S/1,146 por 600 muestras (S/1.91 cada una) | 1 de cada 3 padres que prueba compra [META PROPUESTA] | S/5.73 por comprador (1.91 × 3) | Barato; hay que medir si compra de verdad |
 | Evento sin costo | S/160 | 150 brownies y 10 contactos | S/16 por contacto | La contribución de 150 brownies (150 × S/2.52 = S/379) paga el evento con holgura |
 | Feria pagada | S/2,070 | 700 brownies y 50 contactos | S/41.40 por contacto | La contribución de 700 brownies (700 × S/2.52 = S/1,766) no cubre los S/2,070 (faltan S/304). Se justifica solo por los 50 contactos y por la regla 7: si no cumple, no se repite |
-| Pauta en Meta | S/5,050 | 619 contactos | S/8.16 por contacto | Ver sección 2.5 |
+| Pauta en Meta | S/5,050 | 613 contactos | S/8.23 por contacto | Ver sección 2.5 |
 
 ---
 
@@ -244,7 +246,7 @@ Esta vista asigna al marketing toda la ganancia que queda después de pagar el r
 ### 3.5 Qué hay que confirmar
 
 - Las ventas (52,331 brownies) son la meta del Excel v7; si se vende 20 % menos, la contribución baja de 97,294 a 77,835 y, con los mismos costos de stand (40,470), queda en 37,365. El ROI del escenario A cae a (37,365 − 24,544) ÷ 24,544 = **52 %** [ESTIMADO, supone que el costo de stand no baja].
-- CTR, conversión de clic a contacto y tipo de cambio: [POR CONFIRMAR] con Ads Manager y el BCRP.
+- CTR y conversión de clic a contacto: [POR CONFIRMAR] con Ads Manager. El tipo de cambio (S/3.43) se actualiza con el BCRP al cierre de 2026.
 - Cuánto de la venta explica el marketing: hay que medirlo con códigos de embajadora, contactos de WhatsApp y encuesta "¿cómo nos conociste?" en el stand [PROPUESTA].
 
 ---
@@ -256,4 +258,4 @@ Esta vista asigna al marketing toda la ganancia que queda después de pagar el r
 - AdAmigo, "Meta Ads CPM & CPC Benchmarks by Country in 2026" (publicado el 18-oct-2026; CPM y CPC por país). https://www.adamigo.ai/blog/meta-ads-cpm-cpc-benchmarks-by-country-2026
 - Bestever, "Facebook Ads Benchmarks by Industry & Format in 2025" (3-ago-2025; CTR de 1.57 % y conversión retail de 3.26 %, citando a WordStream, Triple Whale y AgencyAnalytics). https://www.bestever.ai/post/facebook-ads-benchmarks
 - Trendtrack, "Meta ad spend by industry 2025" (CTR promedio mundial de 0.9 %). https://www.trendtrack.io/blog-post/meta-ad-spend-by-industry
-- La República, cierre del tipo de cambio del 15-oct-2025 según el BCRP. https://larepublica.pe/economia/precio-del-dolar/2025/10/16/cierre-del-tipo-de-cambio-hoy-jueves-16-de-octubre-segun-bcr-y-tasa-de-cambio-dolares-a-soles-ocona-dolar-bloomberg-atmp-784380
+- BCRP, tipo de cambio interbancario venta, serie diaria PD04638PD (15-oct-2026: S/3.428; consulta del 19-oct-2026). https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04638PD/json/2026-10-01/2026-10-19/ing

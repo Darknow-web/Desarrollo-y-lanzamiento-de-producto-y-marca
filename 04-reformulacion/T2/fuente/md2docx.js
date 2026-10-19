@@ -19,6 +19,13 @@ function runs(text, base = {}) {
   return out;
 }
 const children = [], numDefs = [];
+function jpgSize(buf, isPng) {
+  if (isPng) return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
+  let o = 2; while (o < buf.length) { if (buf[o] !== 0xFF) { o++; continue; } const m = buf[o + 1]; const len = buf.readUInt16BE(o + 2);
+    if (m >= 0xC0 && m <= 0xCF && m !== 0xC4 && m !== 0xC8 && m !== 0xCC) return { h: buf.readUInt16BE(o + 5), w: buf.readUInt16BE(o + 7) };
+    o += 2 + len; }
+  throw new Error('size');
+}
 const border = { style: BorderStyle.SINGLE, size: 4, color: 'D9C3A8' };
 const borders = { top: border, bottom: border, left: border, right: border };
 let title = 'AndiBite', i = 0, n = 0, afterTitle = false;
@@ -34,6 +41,19 @@ while (i < md.length) {
     afterTitle = false; i++; continue;
   }
   if (l.trim() !== '') afterTitle = false;
+  const im = l.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+  if (im) {
+    const path = require('path').resolve(require('path').dirname(IN), im[2]);
+    if (fs.existsSync(path)) {
+      const buf = fs.readFileSync(path); const isPng = path.toLowerCase().endsWith('.png');
+      const wpx = buf.readUInt32BE ? (isPng ? buf.readUInt32BE(16) : null) : null;
+      let iw = 600, ih = 420;
+      try { const sz = jpgSize(buf, isPng); iw = 600; ih = Math.round(600 * sz.h / sz.w); } catch (e) {}
+      children.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 120, after: 60 }, children: [new ImageRun({ type: isPng ? 'png' : 'jpg', data: buf, transformation: { width: iw, height: ih } })] }));
+      if (im[1]) children.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 160 }, children: [new TextRun({ text: im[1], italics: true, size: 18, color: MID })] }));
+    }
+    i++; continue;
+  }
   if (l.startsWith('## ')) { children.push(new Paragraph({ heading: HeadingLevel.HEADING_1, children: runs(l.slice(3)) })); i++; continue; }
   if (l.startsWith('### ')) { children.push(new Paragraph({ heading: HeadingLevel.HEADING_2, children: runs(l.slice(4)) })); i++; continue; }
   if (l.startsWith('#### ')) { children.push(new Paragraph({ spacing: { before: 140, after: 60 }, children: runs(l.slice(5), { bold: true, color: MID }) })); i++; continue; }

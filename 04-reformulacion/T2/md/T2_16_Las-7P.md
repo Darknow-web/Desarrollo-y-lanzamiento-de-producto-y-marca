@@ -3,7 +3,7 @@ Responsable: Angie Blas · Grupo 2 · AndiBite · Propuesta para revisar
 
 **Para qué sirve este punto.** La clase (Sesión 09, "Tu caja de herramientas: los 7P del marketing") pide responder una pregunta guía por cada P. Aquí lo hacemos con lo que ya está decidido en HECHOS_v7 y en el documento 10 (plan de marketing 2027). No cambiamos precios, puntos de venta, público ni presupuesto. Lo que es nuevo se marca como [PROPUESTA].
 
-**Siglas.** 7P: producto, precio, plaza, promoción, personas, procesos y evidencia física. BTL ("below the line"): marketing cara a cara, en el punto de venta. QR: código que se lee con la cámara del celular. POP: material de punto de venta. NSE: nivel socioeconómico. A y B: los dos segmentos del público (Claudia, A; Rodrigo, B), con esfuerzo parejo.
+**Siglas.** 7P: producto, precio, plaza, promoción, personas, procesos y evidencia física. BTL ("below the line"): marketing cara a cara, en el punto de venta. QR: código que se lee con la cámara del celular. POP: material de punto de venta. NSE: nivel socioeconómico. IGV: impuesto general a las ventas (los precios al público lo incluyen). TTL: mezcla de BTL y digital. ATL: marketing en medios masivos (televisión, radio, vía pública). IA: inteligencia artificial. INDECOPI: Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. MINSA: Ministerio de Salud. A y B: los dos segmentos del público (Claudia, A; Rodrigo, B), con esfuerzo parejo.
 
 ---
 
@@ -15,7 +15,7 @@ Responsable: Angie Blas · Grupo 2 · AndiBite · Propuesta para revisar
 - **Sabores:** Chispa (choco clásico con chispas), Andi (choco, plátano, canela y cañihua) y Lúcu (choco y lúcuma).
 - **Presentaciones:** unidad, caja de 3 sabores, pack de 6 y pack de 12 "Semana completa".
 - **Qué lo hace único:** cada envase trae un QR único que abre la app "Andi, Misión Hierro" y muestra el hierro medido del laboratorio para ese lote. Los competidores directos (Fika, Mamalama) no miden su hierro ni traen app.
-- **Meta "sin octógono":** se confirma en laboratorio [POR CONFIRMAR]. Hasta entonces se dice "meta: cero octógonos". El cálculo da unos 1.9 mg de hierro por brownie, pero se hizo con sangrecita cocida y está [POR CONFIRMAR en laboratorio]. Ninguna cifra de hierro se publica sin el informe del laboratorio.
+- **Meta "sin octógono":** se confirma en laboratorio [POR CONFIRMAR]. Hasta entonces se dice "meta: cero octógonos" (con la receta reformulada, la T1 calcula de 4.6 a 7.1 g de azúcar por 100 g; el límite del octógono es 10 g). El cálculo da unos 1.9 mg de hierro por brownie, pero se hizo con sangrecita cocida y está [POR CONFIRMAR en laboratorio]. Ninguna cifra de hierro se publica sin el informe del laboratorio.
 - **Lo que no se dice:** "previene la anemia" (riesgo de publicidad engañosa).
 - **Frases:** "Hierro medido. Sabor a brownie." y "El snack de lonchera que tu hijo sí se come".
 - **La app:** modo padres (hierro del lote, semáforo semanal, plan de loncheras con IA, recordatorio de hemoglobina, recompra en 1 clic por WhatsApp) y modo niños "Misión Hierro" con Andi, la llamita, sin compras ni publicidad (Ley 30021, art. 8).

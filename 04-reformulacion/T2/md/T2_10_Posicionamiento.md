@@ -96,6 +96,8 @@ La línea que divide el mapa está en 3.
 | Siete Dragones (referencia) | S/3.01 | 2 | Cañihua y nibs de cacao, sin cifra funcional destacada [POR CONFIRMAR] | Borde de precio, evidencia baja |
 | Bimbo Nutra Bien | S/1.67 | 2 | Harina fortificada en los ingredientes, sin promesa funcional; 10 g de azúcar por porción | Precio bajo, evidencia baja |
 
+![Mapa perceptual de AndiBite frente a la competencia (precio por 20 g y evidencia nutricional verificable)](../img/mapa-perceptual.jpg)
+
 **Los cuatro cuadrantes:**
 - **Precio alto y evidencia alta ("premium con prueba"):** AndiBite, y Nutri H en el borde. Es el espacio que queremos ocupar.
 - **Precio alto y evidencia baja ("premium sin prueba"):** Fika, Mamalama y Siete Dragones. Cobran como premium por sabor, ingredientes o estilo de vida, pero el padre no puede verificar un beneficio funcional.

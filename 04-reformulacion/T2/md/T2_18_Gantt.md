@@ -5,7 +5,9 @@ Responsable: Angie Blas · Grupo 2 · AndiBite · Propuesta para revisar
 
 **El Gantt visual (con colores y metas por mes) está en la diapositiva 37 de la TC5-8 ("Plan de marketing · Cronograma") y irá en la presentación final.** Esta tabla es la versión en texto para el documento escrito.
 
-**Siglas.** Pauta: publicidad pagada en Meta. QR: código del envase que abre la app. A y B: segmentos del público. Los hitos H1 a H8 se explican en la sección 2.
+![Gantt del plan de marketing: actividades, inversión y meta de cada mes (diapositiva 37 de la TC5-8)](../img/gantt-marketing.jpg)
+
+**Siglas.** Pauta: publicidad pagada en Meta. QR: código del envase que abre la app. A y B: segmentos del público (Claudia, A; Rodrigo, B). TC5-8: trabajos de campo 5 a 8 del curso. MINEDU: Ministerio de Educación. POP: material de punto de venta. IGV: impuesto general a las ventas. Los hitos H1 a H8 se explican en la sección 2.
 
 ---
 
@@ -79,6 +81,8 @@ Otros hitos del plan (documento 10):
 | Crecer | Mar–jul 2027 | 9,770 | 20,320 brownies; 3 colegios |
 | Expandir | Ago–dic 2027 | 7,220 | 28,311 brownies; unos 2,300 contactos |
 | **Total** | **15 meses** | **24,544** | |
+
+**De dónde sale el total (igual que en el tema #17).** El presupuesto mensual de marketing se mantiene en S/900: S/700 de pauta, degustación y material más S/200 de embajadoras (S/10,800 en 2027). A eso se suman el lanzamiento (S/3,204), las 2 ferias pagadas (S/4,140) y los 40 eventos sin costo (S/6,400): 10,800 + 3,204 + 4,140 + 6,400 = S/24,544.
 
 ## 4. Pendientes del cronograma
 
