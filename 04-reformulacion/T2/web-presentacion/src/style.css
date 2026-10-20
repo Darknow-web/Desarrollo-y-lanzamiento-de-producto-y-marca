@@ -1445,3 +1445,20 @@ body.is-hero .ui-brand { visibility: hidden; }
 .marca { margin-top: calc(1 * var(--u)); align-items: start; }
 @media (orientation: portrait), (max-width: 700px) { .media-conv { height: 36vh; } }
 @media (orientation: portrait), (max-width: 700px) { .media-conv { height: 36vh; width: auto; aspect-ratio: 9 / 16; } }
+
+/* ---- Material real: anuncios en una pantalla, equipo sin foto ---- */
+.ad-foot { margin-top: calc(1.4 * var(--u)); display: grid; grid-template-columns: 1fr auto; gap: calc(2 * var(--u)); align-items: end; }
+.datos-3 { margin-top: 0; }
+.datos-3 dd { font-size: clamp(12px, calc(1 * var(--u)), 20px); }
+.ad-cierre { margin: 0; width: calc(22 * var(--u)); }
+.ad-cierre img { width: 100%; height: auto; border-radius: calc(.8 * var(--u)); box-shadow: 0 calc(1 * var(--u)) calc(2.6 * var(--u)) rgba(0, 0, 0, .4); }
+.ad-cierre figcaption { font-size: var(--fs-label); letter-spacing: .1em; text-transform: uppercase; color: var(--arena); margin-top: .5em; font-family: var(--f-title); font-weight: 800; }
+#s-ad-a .ad-body { font-size: clamp(16px, calc(1.6 * var(--u)), 32px); }
+@media (orientation: portrait), (max-width: 700px) { .ad-foot { grid-template-columns: 1fr; } .ad-cierre { width: 100%; } }
+@media (orientation: portrait), (max-width: 700px) {
+  .ad-cierre { display: none; }
+  #s-ad-a .media-v { width: min(100%, 180px); }
+  #s-ad-a .ad-body { font-size: 15px; }
+  .datos-3 { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .datos-3 dd { font-size: 12px; }
+}
