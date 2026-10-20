@@ -2,7 +2,7 @@
 
 **Fuentes de verdad:**
 - `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` (hojas Resumen, Supuestos, Inversion, Costeo, Proyeccion, Mensual, Anio2);
-- `04-reformulacion/Presupuesto-marketing-AndiBite.xlsx`;
+- `04-reformulacion/Presupuesto-marketing-AndiBite.xlsx` (actualizado el 20-oct-2026: pauta Meta S/4,050 y YouTube S/1,000, expectativa con el concurso, embajadores papás y mamás; totales sin cambio);
 - `04-reformulacion/10-plan-de-marketing-2027.md`;
 - `04-reformulacion/00-RESUMEN-del-proyecto.md`;
 - `04-reformulacion/TC5-8/TC5-8-AndiBite.pptx` (39 diapositivas).
