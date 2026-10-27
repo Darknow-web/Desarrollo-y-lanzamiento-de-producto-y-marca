@@ -1,7 +1,7 @@
 # AndiBite: cifras y decisiones vigentes (modelo v7, actualizado el 19-oct-2026)
 
 **Fuentes de verdad:**
-- `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` (hojas Resumen, Supuestos, Inversion, Costeo, Proyeccion, Mensual, Anio2);
+- `04-reformulacion/Costeo-presentaciones-AndiBite.xlsx` (hojas Resumen, Supuestos, Inversion, Costeo, Proyeccion, Mensual, Anio2; desde el 27-oct-2026 Resumen trae el bloque "Costo total por unidad": producción S/1.67 + canal S/0.43 + stands y ferias S/0.98 + fijos S/0.63 = S/3.71 por brownie, frente a S/3.96 de venta sin IGV);
 - `04-reformulacion/Presupuesto-marketing-AndiBite.xlsx` (actualizado el 20-oct-2026: pauta Meta S/4,050 y YouTube S/1,000, expectativa con el concurso, embajadores papás y mamás; totales sin cambio);
 - `04-reformulacion/10-plan-de-marketing-2027.md`;
 - `04-reformulacion/00-RESUMEN-del-proyecto.md`;
