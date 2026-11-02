@@ -14,46 +14,72 @@ El «discurso de un minuto» de AndiBite (HECHOS_v7, decisiones del 19-oct-2026)
 
 Cada papá y cada mamá tiene un truco para que su hijo coma bien, y nadie lo ve. AndiBite es el truco que ya no necesita cuento.
 
-## 1. Guion de voz · 152 palabras · 60 s
+## 1. Guion de voz · 151 palabras · 60 s
 
-Voz **Marca**: mujer de unos 35 años, limeña o latinoamericana, cálida y segura, sin tono de locutora. Es la misma voz del video maestro y de la convocatoria.
+Voz **Marca**: una mamá limeña de unos 35 que ya pasó por esto y te lo cuenta sin drama. Cálida, segura, con una sonrisa que se oye; nunca locutora. Es la misma voz del video maestro y de la convocatoria.
 
 | Tiempo | Clip | Voz |
 |---|---|---|
-| 0:00 a 0:07 | 1 | «Seis y cuarenta. Un papá ralla zanahoria dentro de la torta y mira hacia el pasillo, por si acaso.» |
-| 0:07 a 0:14 | 2 | «En el depa de al lado, una mamá le pone nombre de dinosaurio a la sopa. Y funciona. Una vez.» |
-| 0:14 a 0:21 | 3 | «Tú también tienes el tuyo. Y nadie aplaude esos trucos, porque nadie los ve.» |
-| 0:21 a 0:28 | 4 | «Por eso hicimos uno que ya no necesita cuento: AndiBite, un mini brownie que tu hijo te vuelve a pedir.» |
-| 0:28 a 0:36 | 5 | «Adentro lleva sangrecita: 1.9 miligramos de hierro en cada brownie, y no se nota. Hierro, sin pelear cada mañana.» |
-| 0:36 a 0:43 | 6 | «Y en la app Andi ves lo que nadie ve: el hierro que llevó hoy, estés donde estés.» |
-| 0:43 a 0:50 | 7 | «Antes de venderlo, escuchamos a las familias: 25 entrevistas. Ocho mamás lo probaron, y nadie notó la sangrecita.» |
+| 0:00 a 0:07 | 1 | «Son las seis y cuarenta. Un papá ralla zanahoria dentro de la torta… y mira al pasillo, por si acaso.» |
+| 0:07 a 0:14 | 2 | «En el depa de al lado, una mamá jura que es sopa de dinosaurio. Y funciona. Bueno… una vez.» |
+| 0:14 a 0:21 | 3 | «Tú también tienes el tuyo. Y nadie aplaude esos trucos… porque nadie los ve.» |
+| 0:21 a 0:28 | 4 | «Por eso hicimos uno que ya no necesita cuento. Se llama AndiBite: un mini brownie que tu hijo te vuelve a pedir.» |
+| 0:28 a 0:36 | 5 | «Adentro va sangrecita… y no se nota. Casi dos miligramos de hierro en cada brownie. Hierro, sin pelear cada mañana.» |
+| 0:36 a 0:43 | 6 | «Y en la app Andi ves lo que nadie ve: cuánto hierro llevó hoy, estés donde estés.» |
+| 0:43 a 0:50 | 7 | «Antes de venderlo, hicimos veinticinco entrevistas. Ocho mamás lo probaron… y ninguna notó la sangrecita.» |
 | 0:50 a 0:56 | 8 | «Pruébalo en el stand de Jockey Plaza desde el 2 de enero, o pídelo por WhatsApp.» |
 | 0:56 a 1:00 | cierre | «AndiBite. Dulce para ellos. Tranquilidad para ti.» |
 
-### Texto para pegar en ElevenLabs (una sola generación)
+La única imperfección es «Bueno… una vez». La marca se dice dos veces: cuando aparece el brownie y al cerrar. Las cifras exactas (1.9 mg, 25 entrevistas, 8 mamás) van escritas en pantalla (sección 3).
 
-Los números van en palabras para que la voz los lea bien.
+### Texto para pegar en ElevenLabs · Eleven v3 (opción principal)
+
+Una sola generación. Los números van en palabras para que la voz los diga como se dicen.
 
 ```
-Seis y cuarenta. Un papá ralla zanahoria dentro de la torta y mira hacia el pasillo, por si acaso. <break time="0.6s" />
-En el depa de al lado, una mamá le pone nombre de dinosaurio a la sopa. Y funciona. Una vez. <break time="0.8s" />
-Tú también tienes el tuyo. <break time="0.5s" /> Y nadie aplaude esos trucos... porque nadie los ve. <break time="1.0s" />
-Por eso hicimos uno que ya no necesita cuento: AndiBite, un mini brownie que tu hijo te vuelve a pedir. <break time="0.5s" />
-Adentro lleva sangrecita: uno punto nueve miligramos de hierro en cada brownie, y no se nota. Hierro, sin pelear cada mañana. <break time="0.6s" />
-Y en la app Andi ves lo que nadie ve: el hierro que llevó hoy, estés donde estés. <break time="0.6s" />
-Antes de venderlo, escuchamos a las familias: veinticinco entrevistas. Ocho mamás lo probaron, y nadie notó la sangrecita. <break time="0.6s" />
-Pruébalo en el stand de Jockey Plaza desde el dos de enero, o pídelo por WhatsApp. <break time="0.8s" />
-AndiBite. Dulce para ellos. Tranquilidad para ti.
+[warmly] Son las seis y cuarenta. Un papá ralla zanahoria dentro de la torta... y mira al pasillo, por si acaso. [pause]
+En el depa de al lado, una mamá jura que es sopa de dinosaurio. Y funciona. [short pause] Bueno... una vez. [pause]
+Tú TAMBIÉN tienes el tuyo. [pause] Y nadie aplaude esos trucos... [long pause] [softly] porque nadie los ve.
+[long pause] Por eso hicimos uno que ya no necesita cuento. [warmly] Se llama AndiBite: un mini brownie que tu hijo te vuelve a pedir. [pause]
+Adentro va sangrecita... y no se nota. [short pause] Casi dos miligramos de hierro en cada brownie. Hierro, sin pelear cada mañana. [pause]
+Y en la app Andi ves lo que nadie ve: cuánto hierro llevó hoy, estés donde estés. [pause]
+Antes de venderlo, hicimos veinticinco entrevistas. [short pause] Ocho mamás lo probaron... y ninguna notó la sangrecita. [pause]
+[warmly] Pruébalo en el stand de Jockey Plaza desde el dos de enero, o pídelo por WhatsApp. [long pause]
+[softly] AndiBite. [short pause] Dulce para ellos. [short pause] Tranquilidad para ti.
+```
+
+### Texto para pegar en ElevenLabs · Multilingual v2 (respaldo)
+
+Mismas palabras; las emociones no se etiquetan, salen de la puntuación y de la dirección.
+
+```
+Son las seis y cuarenta. Un papá ralla zanahoria dentro de la torta... y mira al pasillo, por si acaso. <break time="0.6s" />
+En el depa de al lado, una mamá jura que es sopa de dinosaurio. Y funciona. <break time="0.4s" /> Bueno... una vez. <break time="0.8s" />
+Tú también tienes el tuyo. <break time="0.5s" /> Y nadie aplaude esos trucos... <break time="0.8s" /> porque nadie los ve. <break time="1.0s" />
+Por eso hicimos uno que ya no necesita cuento. Se llama AndiBite: un mini brownie que tu hijo te vuelve a pedir. <break time="0.6s" />
+Adentro va sangrecita... y no se nota. <break time="0.4s" /> Casi dos miligramos de hierro en cada brownie. Hierro, sin pelear cada mañana. <break time="0.6s" />
+Y en la app Andi ves lo que nadie ve: cuánto hierro llevó hoy, estés donde estés. <break time="0.6s" />
+Antes de venderlo, hicimos veinticinco entrevistas. <break time="0.4s" /> Ocho mamás lo probaron... y ninguna notó la sangrecita. <break time="0.6s" />
+Pruébalo en el stand de Jockey Plaza desde el dos de enero, o pídelo por WhatsApp. <break time="1.0s" />
+AndiBite. <break time="0.4s" /> Dulce para ellos. <break time="0.4s" /> Tranquilidad para ti.
 ```
 
 ### Ajustes de voz
 
-- Modelo: **Eleven Multilingual v2** (acepta las pausas `<break time="…" />`). Idioma: español.
-- Stability 55 (la toma es larga y así no cambia de tono), Similarity 75, Style 10, Speed 1.0, Speaker boost activado.
-- Genera 3 tomas y quédate con la más natural. Exporta en MP3, 44.1 kHz, con el nombre `pitch_voz.mp3`.
+- **Eleven v3:** Stability en Natural (si la voz se descontrola, Robust; si suena plana, Creative), Similarity 75. Pega el texto completo de una vez.
+- **Multilingual v2:** Stability 50, Similarity 75, Style 10, Speed 1.0, Speaker boost activado.
+- Genera 3 tomas y quédate con la más natural, no con la más perfecta. Exporta en MP3, 44.1 kHz, con el nombre `pitch_voz.mp3`.
 - Duración: entre 57 y 61 s está bien, porque el cierre absorbe la diferencia. Si pasa de 61 s, sube Speed a 1.03. Si baja de 57 s, ponlo en 0.95.
-- Si «AndiBite» o «WhatsApp» no suenan como los dicen ustedes, cámbialos solo en este texto por como suenan (por ejemplo, «wasap»).
-- Dirección: los primeros 14 segundos con una sonrisa en la voz; «porque nadie los ve», más lento; los datos, claros y sin tono de venta; el slogan, despacio.
+- Si «AndiBite» o «WhatsApp» no suenan como los dicen ustedes, cámbialos solo en el texto de ElevenLabs por como suenan («AndiBáit», «wasap»).
+
+### Dirección
+
+- Los primeros 14 segundos, como quien cuenta algo del vecino: con una sonrisa que se oye. «Bueno… una vez» sale casi riéndose, sin exagerar.
+- «Porque nadie los ve» va más lento y más bajo, casi como un secreto. No se sube la voz.
+- Desde «Por eso hicimos uno» vuelve la calidez, segura y sin apuro. Las cifras, claras y tranquilas, como quien le cuenta a una amiga; nada de tono de venta.
+- La invitación al stand, cercana, como quien te pasa el dato.
+- El slogan, despacio y más bajo, con una pausa corta entre «ellos» y «Tranquilidad».
+- Prueba final: léelo en voz alta con cronómetro. Si una palabra se traba, se cambia.
 
 ## 2. Clips de Veo · 8 clips de 8 s
 

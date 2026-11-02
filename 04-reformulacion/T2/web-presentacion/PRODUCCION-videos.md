@@ -43,13 +43,13 @@ Son cinco videos para redes y YouTube, del concurso de noviembre a los anuncios 
 Si te falta alguno de los F, genéralo con su prompt de `PROMPTS-campana.md` antes de empezar.
 
 ### ElevenLabs
-- Modelo: **Eleven Multilingual v2**. Las pausas se marcan con `<break time="0.5s" />`.
+- Modelo principal: **Eleven v3** (etiquetas de emoción entre corchetes, Stability en Natural). Respaldo: **Multilingual v2** con `<break time="…" />`. Cada video trae los dos textos. Cómo escribir y dirigir la voz: `TONO-de-voz.md`.
 - Hay que tener guardadas cuatro voces en español latinoamericano (no de España):
   - **Marca:** mujer de unos 35, cálida y segura.
   - **Claudia:** mujer de 38, íntima y con humor.
   - **Rodrigo:** hombre de 40, rápido y cómplice.
   - **Papá del testimonio:** hombre de unos 38, cálido, que se ríe fácil.
-- Ajustes: Stability 50, Similarity 75, Style 15, Speed 1.0 y Speaker boost activado. Si suena a locutor, baja Style a 5.
+- Ajustes en v2: Stability 50, Similarity 75, Style 10 a 15, Speed 1.0 y Speaker boost activado. Si suena a locutor, baja Style a 5.
 - Una sola generación por video: pega el bloque completo, genera 3 tomas y elige una. Los números ya van escritos en palabras.
 - Exporta en MP3 a 44.1 kHz. Mide la duración: puede variar medio segundo arriba o abajo.
 
@@ -96,21 +96,29 @@ La web usa versiones limpias, sin voz ni texto, de `public/vid/campana_maestro.m
 
 **Dónde va:** YouTube, Instagram y Facebook desde el 30 de noviembre de 2026. En 2027 corre en YouTube dentro de los S/1,000 de YouTube. La producción cuesta S/300. Presenta la idea y abre el concurso: termina con «Cuéntanos el tuyo. #LoQueNadieVe».
 
-### 1. Voz (voz Marca) · 38 palabras
+### 1. Voz (voz Marca) · 40 palabras
 
 | Tiempo | Voz | Imagen |
 |---|---|---|
 | 0:00 a 0:03 | «Rallaste zanahoria dentro de la torta.» | Clip A, la zanahoria |
-| 0:03 a 0:07 | «Por el hígado, inventaste un cuento con final feliz.» | Clip A, el cuento de la noche |
-| 0:07 a 0:10 | «Nadie aplaude esos trucos, porque nadie los ve.» | El papá se queda solo y entra el clip B |
+| 0:03 a 0:07 | «Por el hígado, inventaste un cuento… con final feliz y todo.» | Clip A, el cuento de la noche |
+| 0:07 a 0:10 | «Nadie aplaude esos trucos… porque nadie los ve.» | El papá se queda solo y entra el clip B |
 | 0:10 a 0:13 | «Por eso hicimos uno que ya no necesita cuento.» | Clip B, la bolsa a la lonchera |
 | 0:13 a 0:16 | «Dulce para ellos. Tranquilidad para ti.» | Lonchera vacía y cierre E1 desde 0:14 |
 
+Texto para pegar · **Eleven v3** (opción principal):
+
 ```
-Rallaste zanahoria dentro de la torta. <break time="0.3s" /> Por el hígado, inventaste un cuento con final feliz. <break time="0.5s" /> Nadie aplaude esos trucos... porque nadie los ve. <break time="0.5s" /> Por eso hicimos uno que ya no necesita cuento. <break time="0.6s" /> Dulce para ellos. Tranquilidad para ti.
+[warmly] Rallaste zanahoria dentro de la torta. [short pause] Por el hígado, inventaste un cuento... [soft laugh] con final feliz y todo. [pause] Nadie aplaude esos trucos... [long pause] [softly] porque nadie los ve. [pause] Por eso hicimos uno que ya no necesita cuento. [pause] [warmly] Dulce para ellos. Tranquilidad para ti.
 ```
 
-Dirección: pausado, como si le hablara a alguien que conoce, con una sonrisa en los dos trucos. Va más lento en «porque nadie los ve».
+Texto para pegar · **Multilingual v2** (respaldo):
+
+```
+Rallaste zanahoria dentro de la torta. <break time="0.4s" /> Por el hígado, inventaste un cuento... con final feliz y todo. <break time="0.6s" /> Nadie aplaude esos trucos... <break time="0.8s" /> porque nadie los ve. <break time="0.6s" /> Por eso hicimos uno que ya no necesita cuento. <break time="0.6s" /> Dulce para ellos. Tranquilidad para ti.
+```
+
+Dirección: como quien le habla a alguien que conoce, con una sonrisa en los dos trucos. La imperfección es «con final feliz y todo», dicho casi riéndose. «Porque nadie los ve» va más lento y más bajo, como un secreto. El slogan, despacio. Si no entra en 16 s, ajusta Speed entre 0.95 y 1.03.
 
 ### 2. Clips de Veo: dos
 
@@ -147,20 +155,28 @@ E1 `cierre_16x9.png`, de 0:14 a 0:16.
 
 **Dónde va:** Instagram, Facebook y YouTube Shorts, del 1 de noviembre al 20 de diciembre de 2026, con los S/360 de pauta de expectativa (los otros S/240 de los S/600 son los premios). Es el primero que se produce, porque el concurso ya empezó.
 
-### 1. Voz (voz Marca) · 44 palabras
+### 1. Voz (voz Marca) · 45 palabras
 
 | Tiempo | Voz | Imagen |
 |---|---|---|
-| 0:00 a 0:04 | «¿Zanahoria en la torta? ¿Sopa de dinosaurio? ¿Cuál es tu truco?» | Clip A, los trucos |
-| 0:04 a 0:07 | «Nadie aplaude esos trucos. Este diciembre, sí.» | Clip A, papá y mamá aplauden |
-| 0:07 a 0:10 | «Cuéntanos el tuyo con el hashtag Lo que nadie ve.» | Clip B, el mural |
-| 0:10 a 0:15 | «Los tres más votados abren el mural de Jockey Plaza y ganan un mes de lonchera.» | Clip B y cierre E3 desde 0:12 |
+| 0:00 a 0:04 | «¿Zanahoria en la torta? ¿Sopa de dinosaurio? A ver… ¿cuál es tu truco?» | Clip A, los trucos |
+| 0:04 a 0:07 | «Nadie los aplaude. Este diciembre, nosotros sí.» | Clip A, papá y mamá aplauden |
+| 0:07 a 0:10 | «Cuéntanoslo con el hashtag… Lo que nadie ve.» | Clip B, el mural |
+| 0:10 a 0:15 | «Los tres más votados abren nuestro mural en Jockey Plaza… y se llevan un mes de lonchera.» | Clip B y cierre E3 desde 0:12 |
+
+Texto para pegar · **Eleven v3** (opción principal):
 
 ```
-¿Zanahoria en la torta? ¿Sopa de dinosaurio? <break time="0.3s" /> ¿Cuál es tu truco? <break time="0.4s" /> Nadie aplaude esos trucos. <break time="0.3s" /> Este diciembre, sí. <break time="0.4s" /> Cuéntanos el tuyo con el hashtag Lo que nadie ve. <break time="0.3s" /> Los tres más votados abren el mural de Jockey Plaza y ganan un mes de lonchera.
+[warmly] ¿Zanahoria en la torta? ¿Sopa de dinosaurio? [short pause] A ver... ¿cuál es tu truco? [pause] Nadie los aplaude. [short pause] Este diciembre, nosotros SÍ. [pause] Cuéntanoslo con el hashtag... Lo que nadie ve. [short pause] [warmly] Los tres más votados abren nuestro mural en Jockey Plaza... y se llevan un mes de lonchera.
 ```
 
-Dirección: las dos primeras preguntas van rápidas y con sonrisa; «¿Cuál es tu truco?», lenta y directa. «Este diciembre, sí» suena a celebración, y el final, a una amiga que te anima a participar. Si pasa de 15 s, usa Speed 1.05.
+Texto para pegar · **Multilingual v2** (respaldo):
+
+```
+¿Zanahoria en la torta? ¿Sopa de dinosaurio? <break time="0.4s" /> A ver... ¿cuál es tu truco? <break time="0.5s" /> Nadie los aplaude. <break time="0.4s" /> Este diciembre, nosotros sí. <break time="0.5s" /> Cuéntanoslo con el hashtag... Lo que nadie ve. <break time="0.4s" /> Los tres más votados abren nuestro mural en Jockey Plaza... y se llevan un mes de lonchera.
+```
+
+Dirección: una amiga que te invita, no un anuncio de premios. Las dos primeras preguntas, rápidas y con sonrisa; la imperfección es «A ver…», y «¿cuál es tu truco?» va más lenta y directa. «Nosotros sí» suena a aplauso cariñoso, sin gritar. El mural y la lonchera se cuentan bajito y cómplice, como un dato que le pasas a una amiga, no como un premio gordo. Si pasa de 15 s, usa Speed 1.03.
 
 ### 2. Clips de Veo: dos
 
@@ -202,14 +218,22 @@ E3 `cierre_convocatoria_9x16.png`, de 0:12 a 0:15.
 | Tiempo | Voz | Imagen |
 |---|---|---|
 | 0:00 a 0:03 | «Confieso: el jugo verde nunca le dio superpoderes.» | Ella, el vaso y la mascarita |
-| 0:03 a 0:05 | «El vaso volvía lleno.» | Se lo toma ella |
-| 0:05 a 0:08 | «Ahora su hierro va escondido en un brownie... y me lo pide.» | La bolsa a la lonchera y cierre E2 desde 0:06 |
+| 0:03 a 0:05 | «El vaso volvía… lleno.» | Se lo toma ella |
+| 0:05 a 0:08 | «Ahora su hierro va en un brownie. Y me lo pide.» | La bolsa a la lonchera y cierre E2 desde 0:06 |
+
+Texto para pegar · **Eleven v3** (opción principal):
 
 ```
-Confieso: <break time="0.3s" /> el jugo verde nunca le dio superpoderes. <break time="0.4s" /> El vaso volvía lleno. <break time="0.4s" /> Ahora su hierro va escondido en un brownie... y me lo pide.
+[softly] Confieso: [short pause] el jugo verde nunca le dio superpoderes. [sighs] El vaso volvía... lleno. [pause] Ahora su hierro va en un brownie. [short pause] [warmly] Y me lo PIDE.
 ```
 
-Dirección: es una confesión con humor, en primera persona. «Y me lo pide» lleva sorpresa y alivio.
+Texto para pegar · **Multilingual v2** (respaldo):
+
+```
+Confieso: <break time="0.4s" /> el jugo verde nunca le dio superpoderes. <break time="0.4s" /> El vaso volvía... lleno. <break time="0.5s" /> Ahora su hierro va en un brownie. <break time="0.4s" /> Y me lo pide.
+```
+
+Dirección: Claudia habla en primera persona, íntima, un poco cansada y con humor seco, como quien se confiesa con una amiga. La imperfección es «El vaso volvía… lleno», con un suspiro antes de la última palabra. «Y me lo pide» lleva sorpresa y alivio, sin subir la voz.
 
 ### 2. Clip de Veo: uno
 Modo «Frames to video» · F2 como primer cuadro · se usan los primeros 6 s.
@@ -237,19 +261,27 @@ E2 `cierre_anuncios_9x16.png`, de 0:06 a 0:08.
 
 **Dónde va:** Instagram, Facebook y YouTube Shorts. En enero, alrededor de Jockey Plaza; desde febrero, en Lima Moderna y cerca de Salaverry todo 2027. S/1,605 de pauta y la meta de 195 conversaciones de WhatsApp.
 
-### 1. Voz (voz Rodrigo) · 23 palabras
+### 1. Voz (voz Rodrigo) · 24 palabras
 
 | Tiempo | Voz | Imagen |
 |---|---|---|
 | 0:00 a 0:03 | «Mi truco: el que se lo acaba primero elige la música del carro.» | 6:05 a. m., las llaves |
-| 0:03 a 0:05 | «Con la menestra, ni así.» | La menestra intacta |
+| 0:03 a 0:05 | «¿La menestra? Ni así.» | La menestra intacta |
 | 0:05 a 0:08 | «Ahora, un brownie con hierro. Sin carrera.» | La bolsa a la lonchera y cierre E2 desde 0:06 |
 
+Texto para pegar · **Eleven v3** (opción principal):
+
 ```
-Mi truco: el que se lo acaba primero elige la música del carro. <break time="0.4s" /> Con la menestra, ni así. <break time="0.5s" /> Ahora, un brownie con hierro. <break time="0.3s" /> Sin carrera.
+[excited] Mi truco: el que se lo acaba primero elige la música del carro. [short pause] ¿La menestra? [soft laugh] Ni así. [pause] Ahora, brownie con hierro. [short pause] [softly] Sin carrera.
 ```
 
-Dirección: apurado pero divertido, como si lo contara en el semáforo. «Sin carrera» es el remate y va más lento.
+Texto para pegar · **Multilingual v2** (respaldo):
+
+```
+Mi truco: el que se lo acaba primero elige la música del carro. <break time="0.4s" /> ¿La menestra? Ni así. <break time="0.5s" /> Ahora, brownie con hierro. <break time="0.4s" /> Sin carrera.
+```
+
+Dirección: Rodrigo habla en primera persona, rápido y cómplice, como quien lo cuenta en el semáforo. La imperfección es la risita de derrota antes de «Ni así, pues». «Sin carrera» es el remate: más lento y más bajo.
 
 ### 2. Clip de Veo: uno
 Modo «Frames to video» · F3 como primer cuadro · se usan los primeros 6 s.
@@ -279,18 +311,26 @@ E2 `cierre_anuncios_9x16.png`, de 0:06 a 0:08 (la misma imagen del anuncio de Cl
 
 **Importante:** en la pauta va el video real de una de las tres familias ganadoras, grabado con celular el 2 de enero en Jockey Plaza, con su voz, su truco y su permiso firmado. La versión con Veo y ElevenLabs de abajo es solo la referencia para la presentación y nunca se publica como testimonio.
 
-### 1. Voz (voz Papá del testimonio, solo para la referencia) · 20 palabras
+### 1. Voz (voz Papá del testimonio, solo para la referencia) · 22 palabras
 
 | Tiempo | Voz | Imagen |
 |---|---|---|
-| 0:00 a 0:04 | «Mi truco era decirle que el hígado era carne de dinosaurio.» | Él lo confiesa y ella se ríe |
-| 0:04 a 0:08 | «Ahora le mando su AndiBite... y no le cuento nada.» | La lonchera vacía, la bolsa y el cierre E2 desde 0:06 |
+| 0:00 a 0:04 | «Mi truco era… era decirle que el hígado era carne de dinosaurio.» | Él lo confiesa y ella se ríe |
+| 0:04 a 0:08 | «Ahora le mando su AndiBite… y no le cuento nada.» | La lonchera vacía, la bolsa y el cierre E2 desde 0:06 |
+
+Texto para pegar · **Eleven v3** (opción principal):
 
 ```
-Mi truco era decirle que el hígado era carne de dinosaurio. <break time="0.6s" /> Ahora le mando su AndiBite... <break time="0.3s" /> y no le cuento nada.
+Mi truco era... [soft laugh] era decirle que el hígado era carne de dinosaurio. [pause] [warmly] Ahora le mando su AndiBite... [short pause] y no le cuento nada.
 ```
 
-Dirección: natural, con la risa contenida al inicio. No suena a locutor: es un papá contando algo que le pasó.
+Texto para pegar · **Multilingual v2** (respaldo):
+
+```
+Mi truco era... era decirle que el hígado era carne de dinosaurio. <break time="0.6s" /> Ahora le mando su AndiBite... <break time="0.4s" /> y no le cuento nada.
+```
+
+Dirección: un papá contando algo que le pasó, no un locutor. Se ríe al recordar el truco y por eso se traba en «era… era»: esa es la imperfección. La segunda frase, tranquila y con una sonrisa cómplice. En v2 la risa no se etiqueta: si la toma sale seria, usa v3 o sube Style a 15.
 
 ### 2. Clip de Veo: uno (referencia)
 Modo «Frames to video» · F4 como primer cuadro · se usan los primeros 6 s.
