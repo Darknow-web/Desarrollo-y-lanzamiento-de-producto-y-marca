@@ -374,14 +374,14 @@ Se vuelven a publicar los trucos que llegan, con el texto «Este diciembre sí l
 | ElevenLabs | 5 voces guardadas (la de Carlos, para el pitch), 6 pistas | `pitch_voz.mp3`, `maestro_voz.mp3`, `convocatoria_voz.mp3`, `anuncio_a_voz.mp3`, `anuncio_b_voz.mp3`, `testimonial_voz.mp3` |
 | Flow (Veo 3) | 7 clips (6 si reusas el clip B del maestro) | maestro 2 (`maestro_a`, `maestro_b`); convocatoria 2 (`conv_a`, `conv_b`); `anuncio_a_clip`, `anuncio_b_clip`, `testimonial_clip` |
 | CapCut | 1 música, 6 proyectos, 7 archivos | Pitch en 16:9 y 9:16 más los cinco videos de campaña |
-| ElevenLabs (avatares, HeyGen Avatar IV) | 1 video | `pitch_avatar.mp4`: Carlos a cámara con `pitch_voz.mp3`; ver `PITCH-video.md`, sección 3 |
+| ElevenLabs (avatares, HeyGen Avatar IV) | 1 video de 60 s o 3 clips cortos (12 s en total) | Carlos a cámara en tres tramos (equipo, «nuestra respuesta», slogan); el resto del pitch es el video maestro y fotos reales; ver `PITCH-video.md`, secciones 3 y 4 |
 
 **Checklist en orden:**
 1. [ ] Junta las referencias en una carpeta: F1, F2, F3, F4, S1, `empaque_mockup.jpg` y `logo_light.png`.
 2. [ ] Nano Banana: genera E1, E2 y E3, y revisa cada palabra con sus tildes.
 3. [ ] ElevenLabs: deja guardadas las cinco voces (Marca, Claudia, Rodrigo, Papá del testimonio y Carlos, clonada de su propia voz).
 4. [ ] ElevenLabs: genera las 6 pistas, tres tomas cada una, en este orden: convocatoria, maestro, anuncio A, anuncio B, testimonio y pitch. Mide cada una con cronómetro.
-5. [ ] Flow: genera los 7 clips con 2 variantes cada uno. El pitch no lleva clips de Veo: es el avatar de Carlos con cinco insertos de fotos que ya existen (`PITCH-video.md`, secciones 3 y 4). Elige la mejor y descárgala con su nombre.
+5. [ ] Flow: genera los 7 clips con 2 variantes cada uno. El pitch no lleva clips nuevos de Veo: usa el video maestro, fotos que ya existen y el avatar de Carlos en tres tramos (`PITCH-video.md`, secciones 3 y 4). Elige la mejor y descárgala con su nombre.
 6. [ ] Revisa cada clip: ¿sale un niño, un personaje conocido, letras inventadas o un brownie en primer plano? Si pasa, se regenera.
 7. [ ] CapCut: elige una sola música sin letra para todo.
 8. [ ] CapCut: monta la convocatoria primero (el concurso empezó el 1 de noviembre), después el maestro (sale el 30 de noviembre), el pitch y los tres anuncios (salen en enero).

@@ -32,7 +32,7 @@ Reglas que no se negocian, además: siempre «papá y mamá»; el niño nunca ha
 | Voz | Quién es | Cómo suena | Para qué video |
 |---|---|---|---|
 | **Marca** | Una mamá limeña de unos 35 que ya pasó por esto y te lo cuenta sin drama | Cálida, segura, con una sonrisa que se oye; nunca locutora | Video maestro, convocatoria, historias |
-| **Carlos** | El fundador, hablando por el equipo de cinco («vengo de parte de un equipo»; después, «hicimos», «abrimos») | Como quien le cuenta a un jurado algo que le pasó; calmado, sin vender; una media sonrisa; el slogan casi en voz baja | Elevator pitch (su avatar en ElevenLabs con HeyGen Avatar IV) |
+| **Carlos** | El fundador, narrando por el equipo de cinco («somos Carlos, Diana, Patricia, Adela y Angie») | Cuenta una historia real (Lucero y Mateo), claro y directo, frase por frase, sin coloquialismos de relleno ni tono de locutor; el dato duro sin dramatizar; «nuestra respuesta es» firme; el slogan casi en voz baja. Referencia: el pitch de LumiKids del grupo anterior | Elevator pitch (en off y a cámara por tramos, con su avatar en ElevenLabs/HeyGen Avatar IV) |
 | **Claudia** | 38, abogada, San Borja | Íntima, un poco cansada, con humor seco; confiesa | Anuncio de Claudia |
 | **Rodrigo** | 40, jefe de logística, San Miguel | Rápido, cómplice, como quien habla en el semáforo; remata lento | Anuncio de Rodrigo |
 | **Papá del testimonio** | Un papá real que ganó el concurso | Natural, con risa contenida, se traba un poco | Testimonio (solo como referencia; el real se graba con su voz) |
