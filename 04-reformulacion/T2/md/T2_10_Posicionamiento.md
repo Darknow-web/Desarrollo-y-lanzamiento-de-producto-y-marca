@@ -5,7 +5,7 @@ Responsable: Patricia Cárdenas · Grupo 2 · AndiBite · Propuesta para revisar
 
 ## Para qué sirve este punto
 
-La clase pregunta: "¿Cómo quieres que te recuerden?" El posicionamiento es el lugar que AndiBite quiere ocupar en la cabeza del padre frente a la competencia. Usamos el prompt 3 de la sesión 09, completado con los datos de AndiBite, y comparamos con los mismos competidores del benchmark (#2), con precios reales y fechados (19-oct-2026): el núcleo Nutri H, Fika, Mamalama y Bimbo Nutra Bien, más Forticao (el otro producto con hierro hemo) y La Purita (brownie premium vegano). Little Bites (Bimbo) y Siete Dragones quedan como referencia.
+La clase pregunta: "¿Cómo quieres que te recuerden?" El posicionamiento es el lugar que AndiBite quiere ocupar en la cabeza del papá y la mamá frente a la competencia. Usamos el prompt 3 de la sesión 09, completado con los datos de AndiBite, y comparamos con los mismos competidores del benchmark (#2), con precios reales y fechados (19-oct-2026): el núcleo Nutri H, Fika, Mamalama y Bimbo Nutra Bien, más Forticao (el otro producto con hierro hemo) y La Purita (brownie premium vegano). Little Bites (Bimbo) y Siete Dragones quedan como referencia.
 
 ## 1. Prompt 3 completado (IA)
 
@@ -13,19 +13,19 @@ La clase pregunta: "¿Cómo quieres que te recuerden?" El posicionamiento es el 
 
 - **Nombre del producto:** AndiBite, mini brownie de lonchera de 20 g con sangrecita de res en polvo (hierro hemo), sabores Chispa, Andi y Lúcu.
 - **ODS vinculado:** ODS 2 Hambre cero, meta 2.2 (poner fin a todas las formas de malnutrición). Complementarios: ODS 3 Salud y bienestar y ODS 8 Trabajo decente.
-- **Propuesta de valor:** el snack de lonchera con hierro que el niño sí se come, con el hierro medido en cada lote y visible en la app.
+- **Propuesta de valor:** ayudamos a padres y madres de Lima con hijos de 4 a 11 años a darles el hierro que necesitan sin que cada mañana sea una pelea. Lo hacemos con AndiBite, un mini brownie que el niño vuelve a pedir, y con la app Andi, que les muestra a papá y mamá el hierro que lleva su hijo cada día.
 - **Segmento de cliente objetivo:** padres y madres de 32 a 45 años, NSE (nivel socioeconómico) A y B de Lima Top y Lima Moderna, con hijos de 4 a 11 en colegio privado. Planificados, leen etiquetas, invierten en educación y salud. El A busca pruebas; el B busca resolver la semana.
 - **Insight relevante del cliente:** 'Todo lo que le hace bien, mi hijo lo escupe.' (Claudia, segmento A) y 'No me vendas salud, véndeme una mañana menos.' (Rodrigo, segmento B).
 - **Principales competidores:** Nutri H (galleta con hemoglobina bovina), Forticao (chocolate de leche con hierro hemínico, en farmacias), Fika (brownie "libre de azúcar"), La Purita (brownie vegano congelado), Mamalama (barra energética de chocolate bitter y maca) y Bimbo Nutra Bien (mini brownie masivo). De referencia: Little Bites (Bimbo) y Siete Dragones.
-- **Diferenciador clave:** es el único que mide el hierro de cada lote en laboratorio y lo publica en una app que se abre con el QR del envase, en un formato que el niño ya quiere (brownie) y que se prueba gratis antes de comprar.
+- **Diferenciador clave:** un brownie que el niño vuelve a pedir, con el hierro escondido, que se prueba gratis antes de comprar, y una app que se abre con el QR del envase y le muestra a papá y mamá el hierro de cada día. El hierro de cada lote se mide en laboratorio y se publica como ficha: una promesa que se cumple, no el gancho.
 
 A partir de esta información, realiza lo siguiente: 1. Estrategia de posicionamiento: frase de posicionamiento con el formato 'Para [segmento], que busca [necesidad], [marca] ofrece [beneficio clave], porque [razón para creer o prueba]'; territorio de marca; resumen de atributos competitivos clave. 2. Mapa perceptual: 2 ejes con atributos relevantes para el consumidor, ubica tu producto y al menos 3 competidores e interpreta la posición."
 
 ## 2. Diferenciación: qué nos hace únicos
 
-1. **Medido, no prometido.** Cada lote se analiza en laboratorio (cada lote de enero a junio y cada 2 meses desde julio) y el resultado se publica en la app. Ningún competidor revisado publica su análisis por lote.
+1. **Hierro sin pelear cada mañana.** El niño vuelve a pedir el brownie y la app le muestra a papá y mamá el hierro de cada día. Detrás hay una ficha que respalda la promesa: cada lote se analiza en laboratorio (cada lote de enero a junio y cada 2 meses desde julio) y el resultado se publica en la app. Ningún competidor revisado publica su análisis por lote; es una promesa que se cumple, no el gancho.
 2. **Formato que el niño ya quiere.** Un mini brownie de cacao esconde la sangrecita. Los otros dos con hierro hemo son una galleta (Nutri H) y un chocolate de farmacia (Forticao). Fika, La Purita y Bimbo son brownies, pero no prometen hierro.
-3. **Se prueba antes de comprar.** La venta es cara a cara: el padre recibe la muestra en el stand, decide si su hijo prueba y compra ahí mismo.
+3. **Se prueba antes de comprar.** La venta es cara a cara: el papá o la mamá recibe la muestra en el stand, decide si su hijo prueba y compra ahí mismo.
 4. **La app "Andi, Misión Hierro".** Plan de loncheras, semáforo de hierro semanal, recordatorio del control de hemoglobina y recompra en 1 clic por WhatsApp. El modo niños educa sin vender (Ley 30021).
 5. **Tono adulto y legal.** Hablamos de hierro, no de enfermedad. Nunca decimos "previene la anemia".
 
@@ -33,17 +33,17 @@ A partir de esta información, realiza lo siguiente: 1. Estrategia de posicionam
 
 **Frase general:** Para padres y madres A y B de Lima Top y Lima Moderna con hijos de 4 a 11 años en colegio privado, que buscan que su hijo coma hierro sin pelear, AndiBite ofrece un mini brownie de lonchera que el niño sí se come, porque cada lote se analiza en laboratorio y el padre ve el resultado en la app con el QR del envase.
 
-**Versión para el segmento A (Claudia):** Para la madre o el padre que lee etiquetas y le pregunta al pediatra, que busca una prueba y no una promesa, AndiBite ofrece hierro medido en un brownie que su hijo no escupe, porque el informe del laboratorio de su lote está a un escaneo de distancia.
+**Versión para el segmento A (Claudia):** Para la mamá o el papá que lee etiquetas y le pregunta al pediatra, que busca una prueba y no una promesa, AndiBite ofrece hierro medido en un brownie que su hijo no escupe, porque el informe del laboratorio de su lote está a un escaneo de distancia.
 
-**Versión para el segmento B (Rodrigo):** Para el padre o la madre que trabaja y organiza la semana, que busca una lonchera resuelta sin pensar, AndiBite ofrece el pack de 12 "Semana completa" a S/4.16 por brownie, porque aguanta la mochila sin frío, trae 3 sabores y la app avisa por WhatsApp antes de que se acabe.
+**Versión para el segmento B (Rodrigo):** Para el papá o la mamá que trabaja y organiza la semana, que busca una lonchera resuelta sin pensar, AndiBite ofrece el pack de 12 "Semana completa" a S/4.16 por brownie, porque aguanta la mochila sin frío, trae 3 sabores y la app avisa por WhatsApp antes de que se acabe.
 
 Las tres versiones calzan con la del documento 10 (sección 3.2): mismo segmento, mismo beneficio y la misma razón para creer.
 
 ## 4. Territorio de marca
 
-**"Medido, no prometido."** (territorio de marca decidido en este punto; el slogan, decidido en el #11, es "Hierro medido. Sabor a brownie.") Es la tranquilidad de lo comprobado en la lonchera.
+**"Hierro sin pelear cada mañana."** (territorio de marca; antes "Medido, no prometido". El slogan, decidido en el #11 y vigente desde el 19-oct-2026, es "Dulce para ellos. Tranquilidad para ti.") Es la tranquilidad de una lonchera que vuelve vacía sin negociar.
 
-- **Idea simbólica:** el dato que se puede ver. El lote, el laboratorio y el QR son el símbolo de la marca, igual que el cacao lo es del sabor.
+- **Idea simbólica:** lo que nadie ve, por fin visible: el hierro de hoy en la app. El lote, el laboratorio y el QR respaldan esa idea, igual que el cacao lo es del sabor.
 - **Idea emocional:** el alivio de que el hijo coma bien sin pelear. Para A es tranquilidad ("ya sé lo que come"); para B es tiempo ("una mañana menos").
 - **Idea aspiracional:** ser el padre que no adivina, que decide con datos y que igual deja que su hijo disfrute.
 - **Qué no es el territorio:** no es miedo a la anemia, no es "superalimento", no es "orgullo peruano" genérico. El origen andino (cañihua, lúcuma, cacao) suma como historia, pero no es el centro.
@@ -64,7 +64,7 @@ Usamos la misma lista y los mismos datos del benchmark (#2): precios con IGV tom
 | **Pensado para la lonchera infantil** | Sí: porción de 20 g sellada, sin frío, 3 sabores para la semana | Sí, con mensaje contra la anemia | No es su foco: alimento fortificado de farmacia | No, es para adultos que cuidan el azúcar | Poco: es congelado | Parcial: barra energética | Sí, snack masivo |
 | **Canal** | Stands en malls, ferias, eventos, quioscos de colegio, naturistas; recompra por WhatsApp | Web propia con envío nacional (Ayacucho) y puntos de venta de Lima | Tienda en línea; farmacias según la Cámara de Comercio de Lima (2025) [POR CONFIRMAR hoy] | Web propia, delivery en Lima | Web propia, solo Lima | Wong y Plaza Vea | Supermercados |
 | **Tecnología** | App con hierro del lote, plan de loncheras y recompra | Tienda web | Tienda web | Tienda web | Tienda web | No | No |
-| **Cómo habla** | Hierro medido; nunca "previene la anemia" | "Antianémico", "superalimento", "contribuye en la lucha contra la anemia" (nutrih.pe) | "Tu mejor aliado para prevenir y combatir la anemia" (forticao.pe) | Libre de azúcar | "100 % a base de plantas", sin aditivos | Energía, "sin colorantes ni preservantes" | Marca familiar, "sin colorantes artificiales" |
+| **Cómo habla** | "Dulce para ellos. Tranquilidad para ti."; hierro sin pelear cada mañana; nunca "previene la anemia" | "Antianémico", "superalimento", "contribuye en la lucha contra la anemia" (nutrih.pe) | "Tu mejor aliado para prevenir y combatir la anemia" (forticao.pe) | Libre de azúcar | "100 % a base de plantas", sin aditivos | Energía, "sin colorantes ni preservantes" | Marca familiar, "sin colorantes artificiales" |
 
 **Lectura de la matriz:**
 - **Nutri H es el competidor más cercano:** también usa hierro hemo y le habla a la anemia infantil. Pero es una galleta, cuesta menos (S/3.20 por 20 g) y usa palabras como "antianémico" que AndiBite evita por riesgo legal.
@@ -117,7 +117,7 @@ La línea que divide el mapa está en 3. Una marca con 3 cuenta como evidencia m
 - **El riesgo es el precio.** AndiBite está entre los más caros por 20 g: solo el frasco de 12 de Forticao (S/4.17) llega a su nivel. Si no publica el informe del laboratorio, se queda en el puntaje 4, al lado de Nutri H, pero más caro. **El informe del laboratorio es la base del posicionamiento**, no un detalle técnico.
 - **Frente a Nutri H y Forticao,** los otros dos con hierro hemo, ganamos por formato (brownie que el niño pide), por la medición publicada y por el tono legal: los dos hablan de combatir la anemia. Frente a Fika y La Purita ganamos por el hierro y la app; frente a La Purita, además, porque no necesita frío.
 - **Para el segmento B**, el mapa se lee por precio: por eso se le muestra primero el pack de 12 a S/4.16, al nivel de Fika (S/4.00), Mamalama (S/4.10) y el frasco de 12 de Forticao (S/4.17).
-- **Lo que el padre debe recordar:** "es el brownie con el hierro medido". Esa es la idea que repiten el slogan, el empaque y el stand.
+- **Lo que el papá y la mamá deben recordar:** "dulce para ellos, tranquilidad para ti": el brownie que el niño vuelve a pedir, con el hierro sin pelear cada mañana. La ficha del lote ("hierro medido") respalda la promesa y la repiten el empaque y el stand.
 
 ## 8. Qué corregimos o validamos en el resultado de la IA
 
@@ -133,7 +133,7 @@ La línea que divide el mapa está en 3. Una marca con 3 cuenta como evidencia m
 - 04-reformulacion/02-insumos-proveedores-y-costeo.md, sección 4 (precios de la competencia del 3-oct-2026).
 - 03-entregables/07-store-check-la-molina.md, sección 2 (lista de competidores y atributos).
 - 04-reformulacion/04-publico-objetivo-y-buyer-persona-con-datos.md (entrevistas, focus 1 y objeciones de Claudia), 04-reformulacion/10-plan-de-marketing-2027.md, secciones 3.2 a 3.4, y 04-reformulacion/06-marca-2-0-e-innovacion.md, secciones 1 y 6 (donde dice Hemi, léase AndiBite).
-- 04-reformulacion/T2/HECHOS_v7.md (19-oct-2026).
+- 04-reformulacion/T2/HECHOS_v7.md (decisiones del 19-oct-2026: propuesta de valor, territorio y slogan).
 - Prompt 3 de la clase: 04-reformulacion/T2/CLASE-sesion09.md y PPT Sesión 09 de la docente.
 - Nutri H. Nutri H clásica x 30 (consulta del 19-oct-2026). https://nutrih.pe/producto/nutri-h-clasica-x-30/
 - Forticao. Productos (consulta del 19-oct-2026). https://forticao.pe/productos/

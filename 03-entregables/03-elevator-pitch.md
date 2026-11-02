@@ -1,3 +1,5 @@
+> **Nota (2 de noviembre de 2026):** el pitch vigente está en `04-reformulacion/T2/web-presentacion/PITCH-video.md`. Este documento es de la semana 5 (público, producto y mensajes anteriores) y se conserva solo como historial; no usar sus versiones.
+
 # Elevator pitch — AndyBites
 
 **Producto:** mini brownie de 20 g con cacao, avena, cañihua y sangrecita liofilizada micronizada (hierro hemínico). Pack de 6.

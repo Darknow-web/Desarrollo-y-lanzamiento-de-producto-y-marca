@@ -21,5 +21,8 @@ Carpeta de trabajo del Grupo 2 (Diana Ayoso, Carlos Inga, Angie Blas, Patricia C
 ## Lo que sigue esta semana
 Comprar insumos, producir el lote de prueba pesando cada unidad, llenar la ficha de costos (lote de 5 y proyección a 10,000), armar el empaque MVP, reclutar 6-8 madres o padres del nuevo segmento para el focus 2 y preparar la exposición.
 
+## Estado vigente (actualizado el 2 de noviembre de 2026)
+Este README describe el arranque de la semana 5. Las cifras y decisiones vigentes están en `04-reformulacion/T2/HECHOS_v7.md` (modelo v7) y, si algo contradice lo de arriba, manda ese archivo. En resumen: el producto se llama **AndiBite**; el slogan es "Dulce para ellos. Tranquilidad para ti." ("Hierro medido. Sabor a brownie." queda como frase de la ficha); la campaña de lanzamiento es "Lo que nadie ve" (#LoQueNadieVe); el público son papás y mamás A y B de Lima Top y Lima Moderna; los precios con IGV son los de HECHOS_v7 (la hipótesis de precio de arriba era de la semana 5); y todas las presentaciones llevan cada brownie en bolsita individual.
+
 ## Fuentes originales (Drive del equipo)
 Carpeta "Desarrollo y lanzamiento de nuevos productos": PRACTICA_DE_CAMPO_SM4.pdf, focus.docx, 6 audios de clase, carpeta Entrevistas (3 videos) y carpeta "Buyer Persona lanzamiento" (2 imágenes generadas de la mamá trabajadora de Lima Norte, que ya no representan al nuevo segmento).

@@ -106,7 +106,7 @@ Estos datos explican por qué importa el hierro. AndiBite **contribuye** a que e
 **Qué significa para AndiBite:**
 
 - Los octógonos pesan en la decisión. La meta "sin octógono" se confirma en laboratorio [POR CONFIRMAR] y es requisito para vender en colegios, donde solo se permiten productos sin octógonos (lineamientos del MINSA).
-- Con 42 % de desconfianza, la promesa sola no alcanza. Por eso el mensaje central es "Hierro medido. Sabor a brownie." y el hierro de cada lote se publica en la app.
+- Con 42 % de desconfianza, la promesa sola no alcanza. Por eso el mensaje central es el gancho emocional "Dulce para ellos. Tranquilidad para ti." y, como respaldo, el hierro de cada lote se mide en laboratorio y se publica en la app (ficha "Hierro medido. Sabor a brownie.").
 - Con prudencia: el 39.5 % de los hogares es "activo" en salud. Es mucha gente, pero no es todo el mercado.
 
 ## 6. Snacks, galletas y loncheras

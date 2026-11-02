@@ -185,7 +185,7 @@ Reglas:
 | Tono | Experto y sereno, "como habla el pediatra" | Directo, cómplice y con números de precio |
 | Palabras que funcionan | lote, laboratorio, miligramos, hierro hemo, ingredientes, informe | semana, lonchera, resuelto, pack de 12, por WhatsApp, te avisamos |
 | Ejemplo de copy | "Lote [código]: hierro medido en laboratorio. Escanea el QR y mira el informe." | "Pack de 12 por WhatsApp: S/49.90, S/4.16 por brownie. Te avisamos cuando se acabe." |
-| Dónde | Jockey Plaza, La Rambla San Borja o carrito en Wong o Vivanda, colegios de pensión alta, pediatras | Jockey Plaza, Real Plaza Salaverry u Open Plaza Angamos, carrito en Plaza Vea, Innova Schools, chats del salón |
+| Dónde | Jockey Plaza, La Molina (desde agosto), colegios de pensión alta, pediatras | Jockey Plaza, Salaverry (desde febrero), carrito en Plaza Vea, Innova Schools, chats del salón |
 
 Esfuerzo parejo: la pauta se reparte 50/50 entre Lima Top (A) y Lima Moderna (B) desde febrero de 2027. Ninguna pieza debe sonar a "producto de lujo" que aleje al padre B, ni a "oferta" que aleje al padre A.
 
@@ -209,15 +209,15 @@ El documento 10 tiene el mensaje B con el cierre "resuelta". Aquí manda HECHOS_
 
 ## 6. Slogan y territorio
 
-**Slogan (decidido en el #11): "Hierro medido. Sabor a brownie."** También es el mensaje central del plan. Vive en el empaque, el stand, el perfil de Instagram y el cierre de cada video.
+**Slogan (decidido en el #11, vigente desde el 19-oct-2026): "Dulce para ellos. Tranquilidad para ti."** También es el mensaje central del plan. Vive en el empaque, el stand, el perfil de Instagram y el cierre de cada video. "Hierro medido. Sabor a brownie." queda como frase de la ficha del producto (reverso del empaque y ficha del lote en la app, solo con el informe del laboratorio).
 
-**Territorio de marca (decidido en el #10): "Medido, no prometido."** Es la idea de fondo; no reemplaza al slogan. Se usa en el QR del reverso del empaque, en la transparencia de la app y en los posts de "Abre el laboratorio".
+**Territorio de marca (decidido en el #10): "Hierro sin pelear cada mañana"** (antes "Medido, no prometido"). Es la idea de fondo; no reemplaza al slogan. Se usa en la propuesta de valor, la app y los posts de "Abre el laboratorio". La campaña de lanzamiento es "Lo que nadie ve" (#13).
 
 Frases de marca disponibles (documento 06, sección 6.1, con AndiBite en lugar de Hemi):
 
-1. Hierro medido. Sabor a brownie.
-2. Medido, no prometido.
-3. Él ve un brownie. Tú ves el hierro medido de su lote. (Versión de HECHOS_v7. La cifra "1.9 mg" solo entra con el dato del laboratorio.)
+1. Dulce para ellos. Tranquilidad para ti. (Slogan oficial. "Hierro medido. Sabor a brownie." queda como frase de la ficha.)
+2. Hierro sin pelear cada mañana. (Territorio de marca; antes "Medido, no prometido".)
+3. Él ve un brownie. Tú ves la lonchera vacía. (Mensaje decidido para el segmento A; antes decía "el hierro medido de su lote". La cifra "1.9 mg" y la frase de la ficha solo entran con el dato del laboratorio.)
 4. Lo que ya le gusta, con lo que le hace falta.
 5. Sí, tiene sangrecita. No, no se nota.
 6. Su lonchera del jueves, resuelta desde el domingo.
@@ -238,7 +238,7 @@ Andi es una llamita exploradora, blanca y crema, con mejillas rosadas y ojos gra
 
 | Sí se usa | No se usa |
 |---|---|
-| Modo niños "Misión Hierro": mapa (Cusco, Titicaca, Volcán Misti y Amazonía) y los 4 juegos | Empaque: ni en el frente ni en el reverso |
+| Modo niños "Misión Hierro": mapa (Cusco, Titicaca, Volcán Misti y Amazonía) y los 7 juegos con niveles | Empaque: ni en el frente ni en el reverso |
 | Modo padres de la app, en pequeño, como compañía (saludo de inicio) | Pauta en redes, banners, habladores y cualquier pieza que muestre producto o precio |
 | Contenido educativo general sobre el hierro: vitamina C, mitos y hábitos, sin mostrar el producto | Frases como "Andi dice: come AndiBite" o "Andi te recomienda" |
 | Talleres y materiales para padres sobre loncheras | Disfraz o botarga en el stand, peluches o stickers de regalo por comprar |
@@ -300,8 +300,8 @@ El documento 06 pedía "sin mascotas" en la marca. Esto se mantiene: Andi no es 
 2. "Mini Brownie Nutritivo" pasa a "Mini brownies de cacao con sangrecita de res". El documento 06 dice "de pollo"; manda HECHOS_v7: res.
 3. Se retiran "Fuente de hierro" y "Buena fuente de proteína" hasta tener el análisis.
 4. La cinta "Sangrecita + Cañihua + Cacao" solo vale para el sabor Andi, porque Chispa y Lúcu no llevan cañihua. Cada sabor lleva su propia cinta y su banda de color.
-5. **Frente, de arriba hacia abajo:** logo AndiBite (versión color) y, a la derecha, el octógono si el análisis lo exige; nombre del sabor en grande sobre su banda de color; ficha de hierro en miligramos (solo con el dato del laboratorio); ventana; "Hierro medido. Sabor a brownie."; base con "6 x 20 g · Peso neto 120 g".
-6. **Reverso:** "Sí, tiene sangrecita. Por eso tiene hierro."; tabla nutricional (NTP 209.652:2025) por unidad y por 100 g; QR del lote con "Medido, no prometido. Escanea y mira el análisis de hierro de este lote."; ingredientes y alérgenos; datos legales (fabricante, titular, RS, lote, vencimiento, conservación, "Hecho en Perú").
+5. **Frente, de arriba hacia abajo:** logo AndiBite (versión color) y, a la derecha, el octógono si el análisis lo exige; nombre del sabor en grande sobre su banda de color; ficha de hierro en miligramos (solo con el dato del laboratorio); ventana; el slogan "Dulce para ellos. Tranquilidad para ti."; base con "6 x 20 g · Peso neto 120 g".
+6. **Reverso:** "Sí, tiene sangrecita. Por eso tiene hierro."; tabla nutricional (NTP 209.652:2025) por unidad y por 100 g; frase de la ficha "Hierro medido. Sabor a brownie." (solo con el dato del laboratorio); QR del lote con "Escanea y mira el hierro de hoy y el análisis de este lote."; ingredientes y alérgenos; datos legales (fabricante, titular, RS, lote, vencimiento, conservación, "Hecho en Perú").
 7. Se borra "Prototipo de evaluación, no destinado a la venta" solo cuando haya RS.
 
 **Otras presentaciones:** unidad (sobre individual con la banda del sabor), caja de 3 sabores, pack de 6 y pack de 12 "Semana completa" (el documento 06 lo llamaba "Semana Hemi"), con el calendario de lonchera en la tapa interior.
@@ -310,14 +310,14 @@ El documento 06 pedía "sin mascotas" en la marca. Esto se mantiene: Andi no es 
 
 | Elemento | Diseño |
 |---|---|
-| Banner de fondo | Fondo café oscuro 4A2018, logo en versión clara arriba, "Hierro medido. Sabor a brownie." en crema y el octógono si corresponde |
+| Banner de fondo | Fondo café oscuro 4A2018, logo en versión clara arriba, "Dulce para ellos. Tranquilidad para ti." en crema y el octógono si corresponde |
 | Cartel del QR | "Escanea y mira el hierro de tu lote" (documento 10), con el QR grande, en fondo crema |
 | Habladores de precio | Precio con IGV y precio por brownie: unidad S/6.00; caja de 3 S/16.50; pack de 6 S/27.90 (S/4.65 por brownie); pack de 12 S/51.90 (S/4.33 por brownie, cálculo: 51.90 entre 12) |
 | Mantel y exhibidor | Mantel crema o kraft; packs ordenados por color de sabor: rojo, amarillo y caramelo |
-| Tarjeta de embajadora | Tarjeta con código para el padre; el premio es para el padre, nunca para el niño |
+| Tarjeta de embajador | Tarjeta con código para el papá o la mamá; el premio es para el adulto, nunca para el niño |
 | Carrito (Plaza Vea, Wong o Vivanda) | Melamina de 1.2 a 2 m con vitrina y gráfica (documento 08): costados en café oscuro con logo claro y frente en crema con el mensaje central. Medidas y reglas de cada mall o súper [POR CONFIRMAR] |
 
-El material de punto de venta cuesta S/400 (diciembre de 2026) y el material de ferias S/300 (enero de 2027), según el plan de marketing. Ambos están dentro del lanzamiento (S/3,204). El presupuesto de marketing mensual sigue siendo de S/900 (S/700 de pauta, degustación y material más S/200 de embajadoras). El total del plan es S/24,544: S/10,800 de los S/900 de 2027, S/3,204 de lanzamiento, S/4,140 de 2 ferias y S/6,400 de 40 eventos (desglose en el tema #17).
+El material de punto de venta cuesta S/400 (diciembre de 2026) y el material de ferias S/300 (enero de 2027), según el plan de marketing. Ambos están dentro del lanzamiento (S/3,204). El presupuesto de marketing mensual sigue siendo de S/900 (S/700 de pauta, degustación y material más S/200 de embajadores). El total del plan es S/24,544: S/10,800 de los S/900 de 2027, S/3,204 de lanzamiento, S/4,140 de 2 ferias y S/6,400 de 40 eventos (desglose en el tema #17).
 
 ### 9.3 Redes
 
@@ -335,7 +335,7 @@ El material de punto de venta cuesta S/400 (diciembre de 2026) y el material de 
 
 ### 9.5 Uniforme del vendedor [PROPUESTA]
 
-- Polo o camisero café oscuro 4A2018, con el logo en versión clara en el pecho izquierdo (8 cm de ancho) y "Hierro medido. Sabor a brownie." en crema en la espalda.
+- Polo o camisero café oscuro 4A2018, con el logo en versión clara en el pecho izquierdo (8 cm de ancho) y "Dulce para ellos. Tranquilidad para ti." en crema en la espalda.
 - Mandil crema o kraft con el logo color, y gorro o toca, porque el vendedor manipula alimentos (el carné de sanidad es requisito para contratar).
 - Fotocheck con el nombre, en el logo de una tinta.
 - Sin Andi en el uniforme y sin disfraz.
@@ -358,7 +358,7 @@ Se entrega aparte: `04-reformulacion/T2/T2_12_Plantilla-PPT-AndiBite.pptx` (7 di
 | **Portada** | Café oscuro 4A2018 | Logo en versión clara grande arriba a la izquierda; título de 40 pt en crema; subtítulo de 18 pt en arena; nombres del Grupo 2, curso y profesora; foto del empaque a la derecha, un poco girada |
 | **Sección** | Café oscuro 4A2018 | Número de sección grande (120 pt) en rojo ladrillo; título de 44 pt en crema; subtítulo en arena; círculo café medio con un ícono; logo claro abajo a la izquierda |
 | **Contenido** | Crema FBF3E8 | Kicker de 12 pt en rojo ladrillo y mayúsculas; título de 34 pt en Calibri negrita café oscuro; pie "AndiBite · Grupo 2 · T2 Plan de marketing" de 10 pt en café medio; logo color abajo a la derecha (2.4 cm de ancho) y número de diapositiva |
-| **Cierre** | Café oscuro 4A2018 | Etiqueta "SLOGAN" en dorado; título de 48 pt con el slogan "Hierro medido. Sabor a brownie."; frase de cierre en arena; foto del empaque a la derecha |
+| **Cierre** | Café oscuro 4A2018 | Etiqueta "SLOGAN" en dorado; título de 48 pt con el slogan "Dulce para ellos. Tranquilidad para ti."; frase de cierre en arena; foto del empaque a la derecha |
 
 ### 10.3 Diseños de contenido de ejemplo
 
@@ -392,7 +392,7 @@ Cada pieza (empaque, POP, publicación, video, mensaje de WhatsApp) pasa esta li
 | 9 | ¿"Sin octógonos" aparece solo como meta, hasta tener el análisis? | D. Leg. 1044 | Se cambia a "Meta: 0 octógonos" |
 | 10 | ¿No dice "recomendado por pediatras" ni usa a un profesional sin contrato y sin su número del CNP? | D. Leg. 1044 | Se quita |
 | 11 | ¿Los precios son los de la lista vigente, con IGV, y las condiciones están claras (por ejemplo, el delivery gratis desde 2 packs)? | Código del Consumidor, Ley 29571 | Se corrigen |
-| 12 | ¿Los niños que salen en fotos o videos tienen la autorización firmada de sus padres y no hablan a cámara? | Ley 29733; criterio prudente con la Ley 30021 | No se publica |
+| 12 | ¿Los adultos que salen en fotos, videos o en el concurso #LoQueNadieVe tienen el permiso firmado, y el niño no sale en cámara? | Ley 29733; criterio prudente con la Ley 30021 | No se publica |
 | 13 | ¿Los contactos de WhatsApp dieron permiso y pueden salir de la lista? | Ley 29733 | Se borra el contacto |
 | 14 | ¿El nombre está escrito "AndiBite" y no se usa ® antes del registro? ¿Se hizo la búsqueda fonética en INDECOPI y la solicitud en la clase 30 (S/401.20 con descuento MYPE) antes de imprimir en volumen? | INDECOPI (documento 03, 4.4) | No se imprime en volumen |
 | 15 | En el empaque, ¿están el RS, el lote, el vencimiento, los alérgenos, el peso neto, el fabricante, el titular y "Hecho en Perú"? | D.S. 007-98-SA, art. 117; NTP 209.652:2025 | No sale a la venta |

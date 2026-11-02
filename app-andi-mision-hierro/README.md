@@ -2,13 +2,14 @@
 
 App web instalable (PWA) que viene con cada envase de AndiBite. Se abre con el QR del envase y corre en **Cloudflare Workers**. El concepto, los costos y el cumplimiento legal están en `../04-reformulacion/09-app-andi-mision-hierro.md`; los colores y las letras salen del manual de marca (`../04-reformulacion/T2/md/T2_12_Manual-de-marca.md`).
 
-- **Modo padres:**
-  - escaneas el QR del envase (o pruebas con un envase de muestra) y ves el **hierro medido en laboratorio de tu lote**, el hierro hemo, el azúcar, los octógonos y el informe del laboratorio, sin registrarte;
+- **Modo padres** (versión 3; barra de 4 secciones: Inicio, Loncheras, Despensa y Más; bienvenida de 3 pantallas):
+  - el centro es **"El hierro de hoy"**: un anillo con los mg del día frente a la referencia por edad (10 mg de 4 a 8 años; 8 mg de 9 a 11). Marcar la lonchera vacía suma el brownie (1.9 mg) y da una estrella al niño; la lonchera del plan y otras comidas se suman con un toque; el día y la semana se pueden enviar a papá o mamá por WhatsApp. Es la parte de la campaña "Lo que nadie ve" que muestra el hierro que el niño lleva cada día;
+  - escaneas el QR del envase (o pruebas con un envase de muestra) y ves el **hierro medido en laboratorio de tu lote**, el hierro hemo, el azúcar, los octógonos y el informe del laboratorio, sin registrarte (la ficha del lote y el informe quedan en "Más");
   - agregas el pack a tu **despensa**: la app calcula cuándo se acaba, te avisa 2 días antes y arma el **pedido por WhatsApp** con el mensaje ya escrito;
   - **semáforo de hierro** de la semana;
   - **plan de loncheras con IA** (premium): cada pack escaneado desbloquea 14 días el plan semanal armado por Claude para el hijo (recetas con hierro paso a paso, fruta con vitamina C, lista de compras); al vencer, "Tu plan se renueva con tu próximo pack". Si el Worker no tiene la clave de IA, se usa el recetario propio de AndiBite;
   - control de **hemoglobina** y **dónde estamos** (stands del plan 2027).
-- **Modo niños, "Misión Hierro":** Andi, una llamita exploradora, recorre los Andes con 4 juegos educativos y voz (Arma tu plato fuerte, Memoria andina, ¿Verdad o mito?, Ruta de hábitos). Lo abre el padre con un candado y él fija el tiempo de juego. No tiene compras, ni publicidad, ni premios por comprar (Ley 30021, art. 8).
+- **Modo niños, "Misión Hierro":** Andi, una llamita exploradora, recorre los Andes con 7 juegos con niveles y voz: Memoria, Atrapa el hierro, Lonchera exprés y Viste a Andi, más tres de colegio por edad (Suma de hierro, Palabras de la lonchera e Inglés de lonchera). Lo abre el padre con un candado y él fija el tiempo de juego. No tiene compras, ni publicidad, ni premios por comprar (Ley 30021, art. 8).
 - **Panel del equipo (`/admin`):** publicar el análisis de laboratorio de cada lote, generar los códigos únicos e imprimir la hoja de QR (o bajar el CSV para la imprenta), ver los escaneos y editar los puntos de venta.
 
 Los datos de la familia se guardan **solo en el teléfono** (Ley 29733). Al servidor solo llega el código escaneado, sin datos personales.
@@ -19,7 +20,7 @@ Los datos de la familia se guardan **solo en el teléfono** (Ley 29733). Al serv
 2. Mira el lote: **1.9 mg de hierro por brownie**, 1.3 mg de hierro hemo, 1.3 g de azúcar, 0 octógonos, laboratorio acreditado por INACAL. Toca **Ver el informe** y vuelve.
 3. Toca **Agregar a mi despensa**, acepta el consentimiento y escribe un apodo (por ejemplo, Mati).
 4. En la despensa verás cuándo se acaba el pack, el aviso de recompra y el botón **Pedir por WhatsApp** con el pedido escrito.
-5. Pasa por **Semáforo** (Registrar, Sangrecita), **Loncheras** (Armar mi semana) e **Inicio**.
+5. Vuelve a **Inicio**, mira **El hierro de hoy** y marca **Volvió vacía**; pasa por el **Semáforo** (Registrar, Sangrecita) y por **Loncheras** (Armar mi semana).
 6. Toca **Misión Hierro**: mantén presionado el candado 2 segundos y resuelve la suma.
 
 **Códigos de los envases de muestra:**
@@ -77,12 +78,12 @@ Publicada en: https://andi-app.cingacordova.workers.dev
 
 ## Plan de loncheras con IA
 
-Función premium: **cada vez que la mamá escanea el QR de un pack nuevo, se desbloquean 14 días** del plan semanal de loncheras armado con IA para su hijo. Al vencer, la pantalla dice "Tu plan se renueva con tu próximo pack" y ofrece pedir por WhatsApp; el resto de la app no se bloquea.
+Función premium: **cada vez que el papá o la mamá escanea el QR de un pack nuevo, se desbloquean 14 días** del plan semanal de loncheras armado con IA para su hijo. Al vencer, la pantalla dice "Tu plan se renueva con tu próximo pack" y ofrece pedir por WhatsApp; el resto de la app no se bloquea.
 
 **Cómo funciona**
 
 1. `GET /api/c/:code` guarda la fecha del primer escaneo (`escaneadoEl`) y responde `planHasta` (= 14 días después). La app guarda ese acceso en el teléfono (`localStorage`, clave `andi.plan.acceso`: `{ codigo, planHasta }`).
-2. En **Loncheras**, la mamá elige edad y qué evitar y toca **Armar mi semana con Andi**. La app llama a `POST /api/plan`:
+2. En **Loncheras**, el papá o la mamá elige edad y qué evitar y toca **Armar mi semana con Andi**. La app llama a `POST /api/plan`:
 
    ```json
    { "codigo": "AB-2ANS-GYZ4", "nino": { "apodo": "Mati", "edadAnios": 7, "evitar": ["Pescado"], "yaProbo": [] }, "semana": "2026-10-19" }
@@ -116,7 +117,7 @@ curl -X POST https://andi-app.cingacordova.workers.dev/api/plan -H 'Content-Type
 worker/      Worker de Cloudflare: API con Hono (index.ts), datos en KV (datos.ts), códigos (codigo.ts) y plan de loncheras con IA (plan.ts)
 src/
   parents/   pantallas de padres (inicio, lote, informe, escanear, semáforo, loncheras, despensa, hemoglobina, dónde, más)
-  kids/      Misión Hierro: candado para padres, mapa, 4 juegos, celebración y tiempo de juego
+  kids/      Misión Hierro: candado para padres, mapa, 7 juegos con niveles, celebración y tiempo de juego
   admin/     panel del equipo
   components Andi (personaje en SVG), íconos, componentes base y movimiento (motion)
   data/      alimentos con hierro (CENAN), recetario de loncheras, contenido educativo y precios

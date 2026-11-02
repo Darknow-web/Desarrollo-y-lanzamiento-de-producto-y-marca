@@ -12,9 +12,9 @@ La clase pide partir del mapa (el Business Model Canvas del T1) para trazar la r
 | Bloque | Lo que dice el Canvas |
 |---|---|
 | **1. Segmentos de clientes** | Padres y madres A y B de 32 a 45 años que leen etiquetas (7 de cada 10 hogares A/B son B). Hijos de 4 a 11 años en colegio privado. Núcleo: 46,000 hogares en Lima Top y Lima Moderna. También colegios y tiendas naturistas |
-| **2. Propuesta de valor** | El snack de lonchera con hierro que el niño sí se come. Hierro medido en cada lote, visible en la app. Sabor a brownie, sin octógono (meta que confirma el laboratorio). App para padres y juego para niños. Se prueba gratis antes de comprar. Frase: "Hierro medido. Sabor a brownie." |
+| **2. Propuesta de valor** | Ayudamos a las familias de Lima a darle hierro a sus hijos sin pelear cada mañana, con un mini brownie con sangrecita que el niño vuelve a pedir y una app que les muestra a papá y mamá el hierro de cada día. Sin octógono (meta que confirma el laboratorio). Se prueba gratis antes de comprar. Slogan: "Dulce para ellos. Tranquilidad para ti." Ficha: "1.9 mg de hierro en cada unidad, medido en cada lote" [POR CONFIRMAR en laboratorio] |
 | **3. Canales** | Stands y carrito: 43 % de los brownies. WhatsApp (solo recompra): 18 %. Ferias y eventos: 14 %. Colegios y naturistas: 25 % |
-| **4. Relación con clientes** | Degustación cara a cara. La app avisa cuándo recomprar. Mamás embajadoras por salón |
+| **4. Relación con clientes** | Degustación cara a cara. La app avisa cuándo recomprar. Papás y mamás embajadores por salón |
 | **5. Fuentes de ingreso** | Unidad S/6.00, caja de 3 S/16.50, pack de 6 S/27.90 (stand, con IGV). Año 1: S/244,728 de ventas y S/10,379 de utilidad neta. Año 2: S/322,329 y S/28,447 |
 | **6. Recursos clave** | Receta que esconde la sangrecita. Marca y registro sanitario. App y datos de cada familia. Equipo de venta pagado |
 | **7. Actividades clave** | Fabricar sin planta propia (maquila). Medir y publicar el hierro. Vender en stands y ferias. Recompra con la app |
@@ -49,8 +49,8 @@ El primer Canvas (15 de setiembre de 2026) era una hipótesis armada con datos d
 
 - **Público A y B, con esfuerzo parejo.** Las 10 entrevistas y el focus 1 fueron con mamás de Lima Norte (NSE C/B; NSE es nivel socioeconómico). Ahí el precio no alcanzaba: pagaban de S/3 a S/5 por porción. Pasamos a padres A y B, y como unos 7 de cada 10 hogares A/B son B, ahora hay dos buyer persona: Claudia Mendoza (A) y Rodrigo Salazar (B). Cada fase del plan tiene acciones para los dos y la pauta se reparte 50/50.
 - **Sangrecita en polvo.** Antes era sangrecita fresca de pollo cocida. Ahora es sangrecita de res en polvo liofilizada, comprada lista a S/300 por kg a un proveedor con registro sanitario. La planta de maquila solo la hidrata. Hay menos riesgo sanitario, menos olor y una dosis de hierro más estable.
-- **App "Andi, Misión Hierro".** Antes era solo un código QR por lote. Ahora es una app web que se abre con el QR de cada envase. Muestra el hierro medido del lote, arma loncheras, recuerda el control de hemoglobina y permite la recompra por WhatsApp. El modo niños tiene 4 juegos sin compras ni publicidad (Ley 30021).
-- **Venta física como canal principal.** Antes pesaban las ferias y el pedido por WhatsApp. Ahora el niño prueba en el stand y el padre compra ahí mismo: Jockey Plaza desde enero, Real Plaza Salaverry u Open Plaza Angamos desde febrero, y La Rambla San Borja o carrito en Wong o Vivanda desde agosto. Hay solo 2 ferias pagadas y 40 eventos sin costo. WhatsApp queda solo para la recompra.
+- **App "Andi, Misión Hierro".** Antes era solo un código QR por lote. Ahora es una app web que se abre con el QR de cada envase. Muestra "El hierro de hoy" y la ficha del lote, arma loncheras, recuerda el control de hemoglobina y permite la recompra por WhatsApp. El modo niños tiene 4 juegos sin compras ni publicidad (Ley 30021).
+- **Venta física como canal principal.** Antes pesaban las ferias y el pedido por WhatsApp. Ahora el niño prueba en el stand y el papá o la mamá compra ahí mismo: Jockey Plaza (2 y 3 de enero de 2027), Salaverry desde febrero y La Molina desde agosto. Hay solo 2 ferias pagadas y 40 eventos sin costo. WhatsApp queda solo para la recompra.
 - **Lo que se mantiene:** el nombre AndiBite, el mini brownie de 20 g, los 3 sabores (Chispa, Andi y Lúcu) y la regla de no decir "previene la anemia".
 
 ## Fuentes

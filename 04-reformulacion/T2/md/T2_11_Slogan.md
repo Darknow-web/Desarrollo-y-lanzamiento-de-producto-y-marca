@@ -5,36 +5,41 @@ Responsable: Patricia Cárdenas · Grupo 2 · AndiBite · Propuesta para revisar
 
 ## Para qué sirve este punto
 
-La clase pide el slogan de la campaña y responder "¿cómo queremos que nos recuerden?": qué palabras, imágenes y emociones deben asociar con la marca. Parte del posicionamiento del punto #10: AndiBite es "el brownie con el hierro medido" y su territorio es "Medido, no prometido".
+La clase pide el slogan de la campaña y responder "¿cómo queremos que nos recuerden?": qué palabras, imágenes y emociones deben asociar con la marca. Parte del posicionamiento del punto #10: AndiBite es el brownie que le da hierro al niño sin pelear cada mañana, y su territorio es "hierro sin pelear cada mañana" (antes "Medido, no prometido").
 
-## 1. ¿Sirve "Hierro medido. Sabor a brownie." como slogan?
+## 1. El slogan oficial: "Dulce para ellos. Tranquilidad para ti."
 
-El mensaje central ya está decidido. Lo evaluamos contra dos frases de marca del documento 06 para comprobar que es la mejor opción, no solo la primera.
+El slogan oficial es **"Dulce para ellos. Tranquilidad para ti."** (decidido el 19-oct-2026, en la revisión de la sustentación con Carlos). Reemplaza a "Hierro medido. Sabor a brownie.", que queda como frase de la ficha del producto.
 
-**Criterios (puntaje del 1 al 5):**
+**Por qué se cambió.** El hierro medido es una promesa que se cumple, no un diferencial ni un gancho. Además, "medido" solo se puede usar cuando exista el informe del laboratorio del lote. Un slogan tiene que funcionar desde el primer día, y tiene que hablarle primero a la emoción. Por eso la jerarquía de mensajes es:
+
+1. **Gancho emocional (slogan):** "Dulce para ellos. Tranquilidad para ti."
+2. **Con hierro de verdad.**
+3. **La ficha:** "1.9 mg de hierro en cada unidad, medido en cada lote" [POR CONFIRMAR en laboratorio]. Acompañada de la frase "Hierro medido. Sabor a brownie."
+
+**Criterios para evaluarlo:**
 - **Corto:** 6 palabras o menos.
 - **Recordable:** tiene ritmo o contraste y se puede repetir de memoria.
 - **Legal:** no habla de enfermedad (nunca "previene la anemia", que puede sancionarse como publicidad engañosa según el Decreto Legislativo 1044) y lo que dice se puede comprobar.
-- **Diferenciador:** dice algo que los competidores no pueden decir.
 - **Sirve para A y para B.**
-- **Dice qué es el producto.**
+- **Funciona desde el día 1,** con o sin informe del laboratorio.
 
-| Opción | Corto | Recordable | Legal | Diferenciador | A y B | Dice qué es | Total (de 30) |
-|---|---|---|---|---|---|---|---|
-| **1. "Hierro medido. Sabor a brownie."** | 5 | 5 | 4 | 5 | 4 | 5 | **28** |
-| 2. "Medido, no prometido." | 5 | 4 | 5 | 4 | 3 | 1 | 22 |
-| 3. "Lo que ya le gusta, con lo que le hace falta." | 3 | 3 | 4 | 2 | 4 | 2 | 18 |
+| Opción | Qué dice | Lo bueno | El límite | Uso |
+|---|---|---|---|---|
+| **1. "Dulce para ellos. Tranquilidad para ti."** | Dos frases paralelas: el niño disfruta, el adulto descansa | 6 palabras, con contraste. No habla de enfermedad ni depende del laboratorio. Sirve a Claudia (tranquilidad, el dato en la app) y a Rodrigo (una mañana menos). Funciona desde el primer día | No dice qué es el producto (lo dicen la ficha, el empaque y la campaña) | **Slogan oficial** |
+| 2. "Hierro medido. Sabor a brownie." | La razón (hierro medido) y el placer (sabor a brownie) | Corto y con contraste; dice qué es el producto; diferencia frente a Nutri H y Forticao | "Medido" exige el informe del laboratorio desde el primer lote que se vende; es una promesa que se cumple, no un gancho emocional | **Frase de la ficha** |
+| 3. "Medido, no prometido." | El territorio de marca anterior | Muy segura legalmente | No dice qué es el producto ni habla al segmento B | Reemplazado por el territorio "hierro sin pelear cada mañana" |
+| 4. "Lo que ya le gusta, con lo que le hace falta." | Idea del documento 06 | Dice el beneficio | Larga (9 palabras) y poco diferenciadora | Descartada |
 
-**Por qué gana la opción 1:**
-- **Corto y con ritmo:** 5 palabras en dos frases paralelas. La primera es la razón (hierro medido) y la segunda es el placer (sabor a brownie). Ese contraste es lo que se recuerda.
-- **Diferenciador:** "medido" es lo que solo AndiBite hace: el análisis de cada lote se publica en la app. Nutri H dice "antianémico" y Forticao, "prevenir y combatir la anemia"; Fika, La Purita y Mamalama no prometen hierro (puntos #2 y #10).
-- **Sirve para A y para B:** a Claudia le habla "hierro medido" (la prueba); a Rodrigo le habla "sabor a brownie" (el niño se lo come y la lonchera no regresa). Cada segmento tiene además su línea propia (sección 2).
-- **Legal:** no promete curar ni prevenir nada y no da una cifra, así que no depende de cuántos mg salgan en el laboratorio. Pierde un punto porque "medido" exige que el informe del laboratorio exista desde el primer lote que se vende. Si no hay informe, no se puede usar.
-
-**Recomendación: mantener "Hierro medido. Sabor a brownie." como slogan final.** "Medido, no prometido" queda como idea del territorio de marca (para la sección de transparencia de la app y los posts de "Abre el laboratorio"). "El snack de lonchera que tu hijo sí se come" queda como frase de apoyo.
+**Cómo se usa cada frase:**
+- **Slogan:** "Dulce para ellos. Tranquilidad para ti." Cierra cada pieza.
+- **Territorio:** "hierro sin pelear cada mañana". Es la idea que ordena el mensaje.
+- **Ficha:** "Hierro medido. Sabor a brownie." y "1.9 mg de hierro en cada unidad, medido en cada lote". En el reverso del empaque y en la app, y solo cuando exista el informe del laboratorio.
+- **Apoyo:** "El snack de lonchera que tu hijo sí se come."
+- **Campaña:** "Lo que nadie ve." AndiBite es "el truco que ya no necesita cuento".
 
 **Cuidados legales del slogan:**
-- No se usa sin el informe del laboratorio del lote [POR CONFIRMAR, primer análisis].
+- El slogan no depende del informe, pero la ficha ("hierro medido", "1.9 mg") **no se usa sin el informe del laboratorio del lote** [POR CONFIRMAR, primer análisis].
 - No se acompaña de "previene", "combate" ni "cura la anemia".
 - No se acompaña de "alto en hierro" ni de una cifra en mg hasta tener el informe; "fuente de hierro" solo si el laboratorio confirma al menos 2.1 mg por 100 g (Codex, documento 06, sección 7).
 - [PROPUESTA] Pedir la búsqueda en INDECOPI (Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual) y registrar el slogan como lema comercial junto con la marca, en la clase 30. La Decisión 486 de la Comunidad Andina permite registrar lemas comerciales. Así nadie más puede usarlo. Costo y plazo [POR CONFIRMAR con Adela].
@@ -43,22 +48,26 @@ El mensaje central ya está decidido. Lo evaluamos contra dos frases de marca de
 
 | Nivel | Frase | Dónde |
 |---|---|---|
-| Slogan | **"Hierro medido. Sabor a brownie."** | Empaque, stand, perfil de Instagram, cierre de cada video |
+| Slogan | **"Dulce para ellos. Tranquilidad para ti."** | Empaque, stand, perfil de Instagram, cierre de cada video y de la presentación |
+| Ficha | "Hierro medido. Sabor a brownie." | Reverso del empaque, ficha del lote en la app (con el informe del laboratorio) |
 | Apoyo | "El snack de lonchera que tu hijo sí se come." | Material POP (material en el punto de venta), degustación |
-| Línea A (Claudia) | "Él ve un brownie. Tú ves el hierro medido de su lote." | Pauta en Lima Top, nutricionistas, punto 3, colegios de pensión alta |
+| Campaña | "Lo que nadie ve." / "Cuéntanos tu truco." / "Lo que haces cada mañana, por fin se ve." | Redes con #LoQueNadieVe, stand y cierre de la presentación |
+| Línea A (Claudia) | "Él ve un brownie. Tú ves la lonchera vacía." | Pauta en Lima Top, nutricionistas, punto 3, colegios de pensión alta |
 | Línea B (Rodrigo) | "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie." | Pauta en Lima Moderna, punto 2, carrito en Plaza Vea, chats de colegios de pensión media |
+
+Llamados a la acción, siempre dobles: "Pruébalo en el stand" y "Pídelo por WhatsApp".
 
 ## 3. Palabras, imágenes y emociones que debe evocar la marca
 
-Regla para las imágenes: los niños pueden aparecer comiendo, pero no recomiendan el producto a cámara ni se les habla a ellos (Ley 30021, artículo 8). El mensaje es para el adulto.
+Regla para las imágenes: en video solo hablan adultos y el niño no sale en cámara; no se le habla a él (Ley 30021, artículo 8). El mensaje es para el adulto.
 
 ### Segmento A: Claudia, la Guardiana del Hierro
 
 | | 5 que debe evocar |
 |---|---|
-| **Palabras** | 1. Medido. 2. Lote. 3. Laboratorio. 4. Hierro. 5. Transparente |
-| **Imágenes** | 1. Un dedo escanea el QR del envase y en el celular aparece el informe del lote. 2. El niño muerde el brownie en el recreo y la lonchera regresa vacía. 3. La tabla nutricional en primer plano, clara y sin letra chica. 4. Cacao y sangrecita en polvo cayendo, con la frase "Sí, tiene sangrecita. No, no se nota." 5. La madre sale tranquila del control con el pediatra y la app le recuerda la fecha del próximo |
-| **Emociones** | 1. Tranquilidad. 2. Confianza. 3. Alivio. 4. Control (decidir con datos). 5. Orgullo de buena madre |
+| **Palabras** | 1. Tranquilidad. 2. Truco. 3. Hierro. 4. Lote. 5. Transparente |
+| **Imágenes** | 1. Un dedo escanea el QR del envase y en el celular aparece el informe del lote. 2. La lonchera regresa vacía (sin el niño en cámara). 3. La tabla nutricional en primer plano, clara y sin letra chica. 4. Cacao y sangrecita en polvo cayendo, con la frase "Sí, tiene sangrecita. No, no se nota." 5. La mamá o el papá sale tranquilo del control con el pediatra y la app le recuerda la fecha del próximo |
+| **Emociones** | 1. Tranquilidad. 2. Confianza. 3. Alivio. 4. Control (decidir con datos). 5. Orgullo de buen papá y buena mamá |
 
 ### Segmento B: Rodrigo, el Resolutivo
 
@@ -70,8 +79,8 @@ Regla para las imágenes: los niños pueden aparecer comiendo, pero no recomiend
 
 ### Lo que comparten los dos
 
-- **Palabra común:** "medido" (es la que repite el slogan).
-- **Imagen común:** la lonchera que regresa vacía.
+- **Palabra común:** "tranquilidad" (es la que repite el slogan).
+- **Imagen común:** la lonchera que regresa vacía, y el truco que ya no hace falta.
 - **Emoción común:** alivio. Para A es el alivio de saber; para B, el de no tener que pensar.
 
 ### Lo que la marca nunca debe evocar
@@ -79,11 +88,11 @@ Regla para las imágenes: los niños pueden aparecer comiendo, pero no recomiend
 - Miedo o culpa ("tu hijo puede tener anemia").
 - Enfermedad, hospital o agujas.
 - "Superalimento", diminutivos o tono infantil.
-- Un niño que le pide el producto a sus padres a cámara.
+- Un niño que le pide el producto a sus padres a cámara (en video el niño no sale).
 
 ## Fuentes
 
-- 04-reformulacion/T2/HECHOS_v7.md (19-oct-2026): mensajes decididos y lo que no se dice.
+- 04-reformulacion/T2/HECHOS_v7.md (decisiones del 19-oct-2026): slogan oficial, jerarquía de mensajes y lo que no se dice.
 - 04-reformulacion/10-plan-de-marketing-2027.md, secciones 3.3 y 3.4.
 - 04-reformulacion/06-marca-2-0-e-innovacion.md, secciones 6 (tono y frases) y 7 (checklist legal); donde dice Hemi, léase AndiBite.
 - 04-reformulacion/T2/md/T2_10_Posicionamiento.md (territorio de marca y competidores).

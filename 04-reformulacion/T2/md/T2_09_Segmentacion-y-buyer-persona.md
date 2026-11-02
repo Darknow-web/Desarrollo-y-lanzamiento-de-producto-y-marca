@@ -46,7 +46,7 @@ Las ventas del año 1 (S/244,728) equivalen al 1.4 % del valor del núcleo. Es u
 
 - **Nombre del producto:** AndiBite, mini brownie de lonchera de 20 g con sangrecita de res en polvo (hierro hemo), en 3 sabores, con la app 'Andi, Misión Hierro'.
 - **ODS vinculado:** ODS 2 Hambre cero, meta 2.2 (poner fin a todas las formas de malnutrición). Complementarios: ODS 3 y ODS 8.
-- **Propuesta de valor:** el snack de lonchera con hierro que el niño sí se come, con el hierro medido en cada lote y visible en la app.
+- **Propuesta de valor:** ayudamos a padres y madres de Lima con hijos de 4 a 11 años a darles el hierro que necesitan sin que cada mañana sea una pelea, con un mini brownie que el niño vuelve a pedir y la app Andi, que les muestra a papá y mamá el hierro que lleva su hijo cada día.
 - **Insights clave sobre el cliente (frases reales de nuestras entrevistas y del focus 1):**
   - 'Mamá, eso olía feo y mis amigos me dijeron que parecía carbón.' (hijo de Lucero, sobre los nuggets de sangrecita)
   - 'En la mañana no quiero prender la cocina para terminar de preparar, quiero practicidad pura.' (Lucero)
@@ -71,9 +71,9 @@ Los datos de perfil son los de HECHOS_v7 y no se cambian. Lo que dice [POR VALID
 | **Objetivos y motivaciones** | Que su hijo coma hierro sin pelear. Que el próximo control con el pediatra salga bien. Cero octógonos en la lonchera. Sentirse buena madre aunque trabaje todo el día |
 | **Frustraciones o barreras** | Lo nutritivo (hígado, sangrecita visible, verduras) regresa intacto. Desconfía de lo "saludable" envasado: el 42 % de los hogares desconfía (Kantar 2025). Sus objeciones: "¿No sabe a sangrecita?", "¿Cuántos mg de hierro tiene?", "¿Tiene registro sanitario?", "¿No es más azúcar?" |
 | **Comportamientos digitales: dónde busca** | Pediatra, nutricionistas pediátricas en Instagram, chat de WhatsApp del salón, nutricionista del colegio |
-| **Qué consume** | Reels de loncheras, carruseles sobre cómo leer etiquetas, recomendaciones de otras mamás del salón [POR VALIDAR] |
+| **Qué consume** | Reels de loncheras, carruseles sobre cómo leer etiquetas, recomendaciones de otras familias del salón [POR VALIDAR] |
 | **Cómo compra** | Wong en auto; Flora & Fauna para "lo especial"; emprendimientos por Instagram. Compra por internet como el 53.6 % del NSE A (APEIM 2025). Pagaría S/24 a 30 por el pack |
-| **Oportunidades para conectar** | Degustación con el niño delante en el Jockey Plaza o en La Rambla San Borja (punto 3, desde agosto). El QR del envase abre el informe del lote. Mensaje: "Él ve un brownie. Tú ves el hierro medido de su lote." Influencers y nutricionistas del segmento A (20 packs del lanzamiento). Colegios de pensión alta de Lima Top. El pack de 6 en el stand (S/27.90) está dentro de lo que pagaría |
+| **Oportunidades para conectar** | Degustación con el niño delante en el Jockey Plaza o en La Molina (punto 3, desde agosto), donde cuenta su truco en el mural. El QR del envase abre la app ("El hierro de hoy" y la ficha del lote). Mensaje: "Él ve un brownie. Tú ves la lonchera vacía." Influencers y nutricionistas del segmento A (20 packs del lanzamiento). Colegios de pensión alta de Lima Top. El pack de 6 en el stand (S/27.90) está dentro de lo que pagaría |
 
 ### Buyer persona B: Rodrigo Salazar, el Resolutivo
 
@@ -87,12 +87,12 @@ Los datos de perfil son los de HECHOS_v7 y no se cambian. Lo que dice [POR VALID
 | **Comportamientos digitales: dónde busca** | Chat de WhatsApp del salón, recomendación de otro papá, WhatsApp |
 | **Qué consume** | Mensajes cortos y prácticos, listas, precios claros; poco contenido de nutrición [POR VALIDAR] |
 | **Cómo compra** | Plaza Vea, apps y WhatsApp. Compra por internet como el 39.1 % del NSE B (APEIM 2025). Prefiere un pack que dure, por pedido y sin suscripción |
-| **Oportunidades para conectar** | Mostrarle primero el pack de 12 "Semana completa": S/49.90 por WhatsApp, o S/4.16 por brownie (el equivalente a unos S/25 por 6, cerca del techo de su rango). Mensaje: "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie." Aviso de "se acaba tu pack" y recompra en 1 clic. Plan de loncheras en la app. Punto 2 (Real Plaza Salaverry u Open Plaza Angamos, desde febrero), carrito en Plaza Vea, kermeses y chats de colegios de pensión media |
+| **Oportunidades para conectar** | Mostrarle primero el pack de 12 "Semana completa": S/49.90 por WhatsApp, o S/4.16 por brownie (el equivalente a unos S/25 por 6, cerca del techo de su rango). Mensaje: "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie." Aviso de "se acaba tu pack" y recompra en 1 clic. Plan de loncheras en la app. Punto 2 (Salaverry, desde febrero), carrito en Plaza Vea, kermeses y chats de colegios de pensión media |
 
 ## 6. Qué corregimos o validamos en el resultado de la IA
 
 - **Validado:** los dos perfiles salen de datos de APEIM 2025 (ingresos, zonas, compra por internet) y de frases reales de las entrevistas y del focus 1. Los datos de Claudia y Rodrigo son los de HECHOS_v7, sin cambios.
-- **Corregido:** la IA suele poner a la madre como única compradora y a la suscripción como canal. Mantenemos dos buyer persona con esfuerzo parejo (Rodrigo es el comprador del segmento B, que pesa 45 % del volumen) y la recompra por pedido, sin suscripción.
+- **Corregido:** la IA suele poner a la mamá como única compradora y a la suscripción como canal. Mantenemos dos buyer persona con esfuerzo parejo (Rodrigo es el comprador del segmento B, que pesa 45 % del volumen) y la recompra por pedido, sin suscripción.
 - **Tensión que dejamos visible:** Rodrigo pagaría S/18 a 24 por 6 y AndiBite cuesta S/26.90 por 6 por WhatsApp. Por eso al padre B se le muestra primero el pack de 12, a S/4.16 por brownie. No cambiamos el precio; el focus 2 debe medir si con el pack de 12 se cierra esa brecha [POR CONFIRMAR].
 - **Límite honesto:** las frases reales vienen de mamás de Lima Norte (NSE C/B). Las frases de Claudia y Rodrigo son representativas, no textuales. Los resultados del focus 2 con degustación están por cargar.
 

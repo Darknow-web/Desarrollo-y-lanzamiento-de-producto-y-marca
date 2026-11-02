@@ -3,7 +3,7 @@ Responsable: Carlos Inga · Grupo 2 · AndiBite
 
 ## Para qué sirve este punto
 
-La campaña "Vuelve vacía" (#13) necesita un camino digital claro: dónde ve el padre el anuncio, a dónde lo lleva el clic y cómo termina en una compra y en una recompra. Este punto arma ese camino con lo que ya está decidido: la pauta de S/5,050 en Meta en 2027 (50/50 entre Lima Top y Lima Moderna desde febrero), la pauta de expectativa de S/600 en diciembre de 2026, el video de S/300, la app "Andi, Misión Hierro" con el QR del envase y WhatsApp solo para recompra. No agrega gasto ni cambia precios, mensajes ni público.
+La campaña "Lo que nadie ve" (#13) necesita un camino digital claro: dónde ve el papá o la mamá el anuncio, a dónde lo lleva el clic y cómo termina en una compra y en una recompra. Este punto arma ese camino con lo que ya está decidido: la pauta de S/5,050 en 2027 (S/4,050 en Instagram y Facebook y S/1,000 en YouTube; 50/50 entre Lima Top y Lima Moderna desde febrero), los S/600 de expectativa (concurso #LoQueNadieVe: S/360 de pauta y S/240 en premios, del 1 de noviembre al 20 de diciembre de 2026), el video maestro de S/300, la app "Andi, Misión Hierro" con el QR del envase y WhatsApp solo para recompra. No agrega gasto ni cambia precios, mensajes ni público.
 
 Siglas: **AIDA**, Atención, Interés, Deseo y Acción (los 4 pasos por los que pasa una persona antes de comprar). **CPM**, costo por mil impresiones. **CPC**, costo por clic. **CTR**, porcentaje de personas que hacen clic al ver el anuncio. **CPA**, costo por adquisición (aquí, por conversación o contacto). **QR**, código que se lee con la cámara del celular. **PWA**, app web que se instala desde el navegador. **POP**, material en el punto de venta. **UGC**, contenido hecho por clientes reales. **ANPD**, Autoridad Nacional de Protección de Datos Personales. **INDECOPI**, Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual.
 
@@ -16,12 +16,12 @@ Regla del mapa: todo lleva a dos lugares, el stand (primera compra) y el WhatsAp
 | **Instagram orgánico** | Propio | Es la vitrina principal. A Claudia (A) la alcanza por nutricionistas y reels de loncheras (#9) | Reels, carruseles e historias del calendario (#15). Biografía con el enlace a WhatsApp y a la página "Dónde estamos y pedido" | Angie | S/0 |
 | **Facebook orgánico** | Propio | Es necesario para pautar (la página de Facebook se conecta con WhatsApp) y llega a papás como Rodrigo (B) | Los mismos reels y carruseles, más eventos del fin de semana | Angie | S/0 |
 | **TikTok orgánico** | Propio | Alcance gratis con los reels ya hechos. No se pauta en TikTok | Se reusan 2 o 3 reels por semana de Instagram, con texto en pantalla. Solo contenido para adultos | Angie | S/0 |
-| **Meta Ads** (Facebook e Instagram) | Pagado | Llevar al padre al WhatsApp o al stand del fin de semana | 3 anuncios en video con estructura AIDA (sección 4), botón "Enviar mensaje" | Angie (pauta); Adela (visto bueno legal) | S/5,050 en 2027 + S/600 en dic-2026 |
+| **Meta Ads** (Facebook e Instagram) y **YouTube** | Pagado | Llevar al papá y a la mamá al WhatsApp o al stand del fin de semana | 3 anuncios en video con estructura AIDA (sección 4), botón "Enviar mensaje"; en YouTube, el video maestro 16:9 y los tres anuncios como Shorts | Angie (pauta); Adela (visto bueno legal) | S/5,050 en 2027 (S/4,050 en Instagram y Facebook y S/1,000 en YouTube) + S/360 de pauta del concurso en nov-dic de 2026 |
 | **WhatsApp Business** (app gratuita) | Propio | Cierre del pedido y recompra | Catálogo con precios de WhatsApp, etiquetas, respuestas rápidas, mensajes automáticos (sección 5) | Coordinadora (Carlos hasta que entre) | S/0 |
-| **App "Andi, Misión Hierro"** | Propio | La segunda prueba (el informe del lote) y el aviso de recompra | El QR del envase abre "Mi lote", el plan de loncheras, "Dónde estamos" y la recompra en 1 clic | Angie (experiencia); Diana (datos del lote) | Ya en la inversión: S/2,000 para terminar y S/250 al mes |
+| **App "Andi, Misión Hierro"** | Propio | "El hierro de hoy" (lo que nadie ve en casa) y el aviso de recompra | El QR del envase abre "El hierro de hoy", la ficha del lote, el plan de loncheras, "Dónde estamos" y la recompra en 1 clic | Angie (experiencia); Diana (datos del lote) | Ya en la inversión: S/2,000 para terminar y S/250 al mes |
 | **Página "Dónde estamos y pedido"** [PROPUESTA] | Propio | La landing del año 1 (sección 6): un enlace fijo para la biografía, Google y el QR | Es una pantalla pública de la misma app, sin escanear nada | Angie | S/0 extra (es parte de la app). Dominio [POR CONFIRMAR si ya está en "marca y app"] |
 | **Google Business Profile** (perfil de empresa en Google Maps) [PROPUESTA] | Propio | Que quien busca "brownie con sangrecita" o "AndiBite" vea el horario del stand y el WhatsApp | Un perfil con horario de sábado y domingo, fotos del stand y el enlace a WhatsApp | Carlos | S/0 |
-| **Influencers y embajadoras** | Ganado (influencers con producto) | Prueba social: "otro padre lo usa" | 40 micro influencers con "#publicidad" (dic-2026) y embajadoras con código en los chats del salón | Angie; Carlos | S/458 y S/200 al mes (ya en el plan) |
+| **Influencers y embajadores** | Ganado (influencers con producto) | Prueba social: "otra familia lo usa" | 40 micro influencers con "#publicidad" y #LoQueNadieVe (dic-2026) y papás y mamás embajadores con código en los chats del salón | Angie; Carlos | S/458 y S/200 al mes (ya en el plan) |
 
 **Sobre Google Business Profile.** Google pide que alguien atienda en persona en el horario que se publica, y permite negocios de temporada solo si tienen carteles permanentes en su ubicación (Google, normas de aptitud). El stand abre 9 días al mes en un espacio alquilado, así que su aptitud está [POR CONFIRMAR]. Plan: abrir el perfil del punto 1 con horario de fin de semana cuando el contrato con Jockey Plaza esté firmado; si Google no lo acepta, usar un perfil de "área de servicio" para las entregas de 2 días por semana, con la dirección oculta.
 
@@ -29,17 +29,17 @@ Regla del mapa: todo lleva a dos lugares, el stand (primera compra) y el WhatsAp
 
 | Paso | Qué pasa | Dónde | Qué decimos | Qué medimos |
 |---|---|---|---|---|
-| 1. Ve el anuncio | El padre ve el video de 15 a 20 s en su feed o en historias | Meta Ads, Instagram, Facebook | Gancho de "Vuelve vacía" y el mensaje de su segmento | Impresiones, CPM, CTR |
+| 1. Ve el anuncio | El papá o la mamá ve el video de 8 s en su feed, en historias o en YouTube Shorts | Meta Ads, Instagram, Facebook, YouTube | Gancho de "Lo que nadie ve" y el mensaje de su segmento | Impresiones, CPM, CTR |
 | 2. Toca "Enviar mensaje" | Se abre WhatsApp con un texto ya escrito ("Hola, quiero saber dónde están este fin de semana") | WhatsApp Business | Mensaje de bienvenida automático | Conversaciones iniciadas, costo por conversación |
 | 3. Recibe la oferta | La coordinadora responde con el punto del fin de semana, el catálogo y el pack de 12 | WhatsApp | Respuesta rápida "/oferta" | Respuesta en menos de 1 hora en horario de atención [PROPUESTA] |
-| 4. Prueba en el stand | El padre recibe la muestra y decide si su hijo prueba. Compra ahí | Stand | "Pruébalo con tu hijo y escanea el informe de su lote" | Brownies por día por punto; 1 de cada 3 que prueban compra [META PROPUESTA del #13] |
-| 4b. O pide por WhatsApp | Si ya lo conoce (embajadora, influencer), pide directo: caja de 3, pack de 6 o pack de 12 | WhatsApp | Respuestas "/pedido" y "/confirmación" | Pedidos por WhatsApp; ticket de unos S/35.10 (7.5 brownies, #17) |
-| 5. Escanea el QR | Abre "Mi lote" en la app: hierro medido del lote, registro sanitario, alérgenos | App | "Medido, no prometido" | % de envases escaneados (meta 30 % en 2027) |
+| 4. Prueba en el stand | El papá o la mamá cuenta su truco, recibe la muestra y decide si su hijo prueba. Compra ahí | Stand | "Cuéntanos tu truco y pruébalo con tu hijo" | Brownies por día por punto; 1 de cada 3 que prueban compra [META PROPUESTA del #13] |
+| 4b. O pide por WhatsApp | Si ya lo conoce (embajador o embajador, influencer), pide directo: caja de 3, pack de 6 o pack de 12 | WhatsApp | Respuestas "/pedido" y "/confirmación" | Pedidos por WhatsApp; ticket de unos S/35.10 (7.5 brownies, #17) |
+| 5. Escanea el QR | Abre la app: "El hierro de hoy" y la ficha del lote (hierro medido, registro sanitario, alérgenos) | App | "Lo que nadie ve, ahora se ve" | % de envases escaneados (meta 30 % en 2027) |
 | 6. Usa la app | Arma las loncheras de la semana y lleva el semáforo de hierro | App | Plan de loncheras | Uso semanal (meta 40 % de los registrados) |
 | 7. Aviso de recompra | La app calcula cuándo se acaba el pack y avisa; el botón abre WhatsApp con el pedido escrito | App y WhatsApp | "¿Repetimos el jueves? Tu pack se está acabando." | Recompra igual al 35 % de lo físico; la mitad de la recompra desde el aviso (documento 09) |
-| 8. Recomienda | Comparte su código de embajadora o la foto "Vuelve vacía" (sin la cara del niño) | Chats del salón, historias | "Comparte tu código con el salón." | Familias nuevas por embajadoras (230 en el año) |
+| 8. Recomienda | Comparte su código de embajador o su truco con #LoQueNadieVe (sin el niño en cámara) | Chats del salón, historias | "Comparte tu código con el salón." | Familias nuevas por embajadores (230 en el año) |
 
-El paso 7 es la clave del negocio: con el aviso, el cliente escribe primero. Así la conversación es gratis en la app de WhatsApp Business y cumple la Ley 29733, porque el padre decide cuándo pedir.
+El paso 7 es la clave del negocio: con el aviso, el cliente escribe primero. Así la conversación es gratis en la app de WhatsApp Business y cumple la Ley 29733, porque el papá o la mamá decide cuándo pedir.
 
 ## 3. "5-3-2 AIDA, testimonios": la regla de la clase
 
@@ -48,18 +48,18 @@ El paso 7 es la clave del negocio: con el aviso, el cliente escribe primero. As�
 Según la clase de la sesión 09 (apuntes de Carlos; la explicación escrita todavía no está en el Drive), **cada publicación o anuncio de la campaña se prepara con 5 primeros impactos (ganchos) distintos, 3 cuerpos distintos y 2 llamadas a la acción (CTA) distintas.** Al combinarlos salen **5 × 3 × 2 = 30 versiones** de un mismo anuncio para probar en Meta y quedarse con la que mejor funciona.
 
 - **Gancho:** los primeros 3 segundos. Es lo que hace que la persona deje de deslizar.
-- **Cuerpo:** la parte del medio (de los 3 a los 16 segundos). Explica y da la prueba.
+- **Cuerpo:** la parte del medio (de los 3 a los 6 segundos). Explica y da la prueba.
 - **CTA** (llamada a la acción, en inglés "call to action"): el cierre que dice qué hacer ahora.
 
 ### 3.2 Cruce con AIDA y con los testimonios
 
 | Parte del 5-3-2 | Etapa AIDA | Segundos | Qué tiene que lograr | Cómo se mide (#17 y #19) |
 |---|---|---|---|---|
-| **5 ganchos** | **Atención** | 0 a 3 | Que el padre se detenga: la lonchera que vuelve llena o vacía, el jueves a las 6 a. m., el QR del lote | Reproducciones de 3 s ÷ impresiones y CTR |
-| **3 cuerpos** | **Interés y Deseo** | 3 a 16 | Que entienda qué es (brownie con sangrecita), que crea (informe del lote, precio claro) y que lo quiera. **Al menos un cuerpo de cada anuncio es un testimonio** de un padre o una madre real | CTR (meta 1 % o más) y CPC (S/1.24 o menos) |
-| **2 CTA** | **Acción** | 16 a 20 | Que toque "Enviar mensaje": ir al stand este fin de semana o pedir por WhatsApp. El enlace a la página "Dónde estamos y pedido" va en el mensaje de bienvenida | Costo por conversación (meta S/5 o menos; alerta más de S/8) |
+| **5 ganchos** | **Atención** | 0 a 3 | Que el papá o la mamá se detenga: el truco que no funcionó, el jueves a las 6 a. m., el hierro de hoy en la app | Reproducciones de 3 s ÷ impresiones y CTR |
+| **3 cuerpos** | **Interés y Deseo** | 3 a 6 | Que entienda qué es (brownie con sangrecita), que crea (la app, la ficha del lote, el precio claro) y que lo quiera. **Al menos un cuerpo de cada anuncio es un testimonio** de un papá o una mamá real | CTR (meta 1 % o más) y CPC (S/1.24 o menos) |
+| **2 CTA** | **Acción** | 6 a 8 | Que toque "Enviar mensaje": ir al stand este fin de semana o pedir por WhatsApp. El enlace a la página "Dónde estamos y pedido" va en el mensaje de bienvenida | Costo por conversación (meta S/5 o menos; alerta más de S/8) |
 
-AIDA es el modelo clásico de la publicidad (Atención, Interés, Deseo, Acción), atribuido a Elias St. Elmo Lewis a fines del siglo XIX. Los testimonios dan la prueba social: "otro padre lo usa y su hijo se lo come".
+AIDA es el modelo clásico de la publicidad (Atención, Interés, Deseo, Acción), atribuido a Elias St. Elmo Lewis a fines del siglo XIX. Los testimonios dan la prueba social: "otra familia lo usa y su hijo se lo come".
 
 **Las 2 CTA usan el mismo botón "Enviar mensaje".** Cambia la promesa, no el destino. Así los 3 anuncios tienen un solo objetivo (conversaciones de WhatsApp) y un solo KPI. Mandar una CTA a la página de pedido exigiría otra campaña con objetivo de tráfico y partiría una pauta que ya es chica; no conviene en el año 1.
 
@@ -68,75 +68,75 @@ AIDA es el modelo clásico de la publicidad (Atención, Interés, Deseo, Acción
 - Todo le habla al adulto. Ningún gancho, cuerpo ni CTA le habla al niño ni le pide que pida el producto (Ley 30021, art. 8). Andi no aparece.
 - Nunca "previene", "combate" ni "cura la anemia", ni "certificado". Tampoco "medido" ni el informe del lote, ni cifras en mg, hasta que exista el informe del primer lote. Las variantes marcadas **(con informe)** esperan ese informe. Mientras tanto se usa el plan B del #13: "El snack de lonchera que tu hijo sí se come".
 - Nada de "¿tu hijo tiene anemia?" ni "¿tu hijo tiene el hierro bajo?" (Meta, atributos personales).
-- "Vuelve vacía" se dice con alivio. No se dice "un buen padre compra AndiBite".
-- Todas cierran con "Hierro medido. Sabor a brownie." (con informe) o con el plan B, más el octógono si el análisis lo exige.
+- "Lo que nadie ve" se dice con aplauso, no con culpa. No se dice "un buen padre compra AndiBite".
+- Todas cierran con el slogan "Dulce para ellos. Tranquilidad para ti." y los dos llamados ("Pruébalo en el stand" y "Pídelo por WhatsApp"), más el octógono si el análisis lo exige. La ficha "Hierro medido. Sabor a brownie." solo se agrega con informe (o se usa el plan B).
 
-### 3.4 Anuncio A (Claudia, Lima Top): "Él ve un brownie"
+### 3.4 Anuncio A (Claudia, Lima Top): "Claudia ya probó todos los trucos"
 
 | Gancho (0-3 s, Atención) | Imagen | Texto en pantalla o voz |
 |---|---|---|
-| G1 | La lonchera regresa llena a la 1:30 p. m. | "Otra vez volvió llena." |
-| G2 | Un dedo escanea el QR y se abre el informe del lote **(con informe)** | "Este brownie trae el informe de su lote." |
+| G1 | Licuadora con espinaca; al lado, un vaso lleno | "Confieso: el jugo verde nunca le dio superpoderes." |
+| G2 | Un dedo escanea el QR y se abre "El hierro de hoy" en la app | "Por fin veo cuánto hierro llevó hoy." |
 | G3 | Cacao y sangrecita en polvo cayendo | "Sí, tiene sangrecita. No, no se nota." |
 | G4 | Primer plano de la etiqueta del pack, leída por una mamá | "Tú lees la etiqueta. Aquí también puedes leer el lote." |
-| G5 | Una mamá frente al táper intacto | "Todo lo que le hace bien, lo devuelve." |
+| G5 | Una mamá frente al táper intacto | "Probé todos los trucos. Nadie lo vio." |
 
-| Cuerpo (3-16 s, Interés y Deseo) | Contenido |
+| Cuerpo (3-6 s, Interés y Deseo) | Contenido |
 |---|---|
-| C1 "El lote" | "Pusimos sangrecita de res dentro de un brownie de cacao. Cada lote se analiza en laboratorio y el informe está en la app." Texto: "Él ve un brownie. Tú ves el hierro medido de su lote." **(con informe)**. Plan B: "Sangrecita de res dentro de un brownie de cacao. Él solo ve un brownie." |
-| C2 "Testimonio" | Una mamá real de Lima Top: "Lo escaneé en el stand y vi el informe. Y volvió vacía." **(con informe)**. Plan B: "Lo probó en el stand delante de mí. Volvió vacía." |
-| C3 "La revelación" | Padres lo prueban a ciegas y luego se les cuenta que tiene sangrecita. Texto: "Nadie notó la sangrecita." Cierre: "Su prueba: la lonchera vacía. La tuya: el informe de su lote." **(la segunda frase, con informe)** |
+| C1 "El truco" | "Pusimos sangrecita de res dentro de un brownie de cacao. Él solo ve un brownie, y en la app ves el hierro que llevó hoy." Texto: "Él ve un brownie. Tú ves la lonchera vacía." Con informe, se agrega: "Cada lote se analiza en laboratorio y la ficha está en la app." **(con informe)** |
+| C2 "Testimonio" | Una mamá real de Lima Top: "Lo escaneé en el stand y vi la ficha del lote. Y volvió vacía." **(con informe)**. Plan B: "Lo probó en el stand delante de mí. Ahora no le cuento nada y vuelve vacía." |
+| C3 "La revelación" | Padres lo prueban a ciegas y luego se les cuenta que tiene sangrecita. Texto: "Nadie notó la sangrecita." Cierre: "Dulce para ellos. Tranquilidad para ti." |
 
-| CTA (16-20 s, Acción) | Texto (botón "Enviar mensaje") |
+| CTA (6-8 s, Acción) | Texto (botón "Enviar mensaje") |
 |---|---|
-| CTA1 "Al stand" | "Pruébalo con tu hijo en Jockey Plaza este fin de semana. Escríbenos y te decimos dónde estamos." |
-| CTA2 "Mira el análisis" | "Escanea y mira el análisis. Escríbenos y te mandamos un informe de lote." **(con informe)**. Plan B: "Escríbenos y te contamos cómo vamos a medir cada lote." |
+| CTA1 "Pruébalo en el stand" | "Pruébalo con tu hijo en Jockey Plaza este fin de semana. Escríbenos y te decimos dónde estamos." |
+| CTA2 "Pídelo por WhatsApp" | "Pídelo por WhatsApp: escríbenos y te mandamos la ficha de un lote." **(con informe)**. Plan B: "Pídelo por WhatsApp y te contamos cómo vamos a medir cada lote." |
 
-### 3.5 Anuncio B (Rodrigo, Lima Moderna): "Una mañana menos"
+### 3.5 Anuncio B (Rodrigo, Lima Moderna): "Rodrigo no tiene tiempo para cuentos"
 
 | Gancho (0-3 s, Atención) | Imagen | Texto en pantalla o voz |
 |---|---|---|
-| G1 | 6:05 a. m.: un papá frente a dos loncheras vacías | "Jueves. Seis de la mañana. ¿Qué le mando?" |
+| G1 | 6:05 a. m.: un papá en el carro, con la lonchera en el asiento de atrás | "Seis de la mañana. Mi truco: el que se lo acaba primero elige la música del carro." |
 | G2 | El precio en grande sobre la caja de 12 | "S/4.16 por brownie. Toda la semana." |
 | G3 | La mochila llega y la lonchera se abre vacía | "Volvió vacía. Cinco días seguidos." |
 | G4 | Un papá cierra la lonchera con una mano y con la otra sostiene el celular | "Una mañana menos." |
 | G5 | Celular con el aviso de la app | "¿Repetimos el jueves? Tu pack se está acabando." |
 
-| Cuerpo (3-16 s, Interés y Deseo) | Contenido |
+| Cuerpo (3-6 s, Interés y Deseo) | Contenido |
 |---|---|
 | C1 "La semana resuelta" | Domingo: la caja de 12 abierta, 3 sabores (Chispa, Andi y Lúcu), la semana armada. "El domingo resuelves la semana. Aguanta la mochila sin frío." |
 | C2 "Testimonio" | Un papá real de Lima Moderna: "Lo pido el domingo por WhatsApp y ya está la semana. Y no regresa." |
 | C3 "Precio claro" | "Pack de 12 por WhatsApp: S/49.90, S/4.16 por brownie. Entregas 2 días por semana o lo recoges en el stand. Te avisamos cuando se acabe." Texto: "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie." |
 
-| CTA (16-20 s, Acción) | Texto (botón "Enviar mensaje") |
+| CTA (6-8 s, Acción) | Texto (botón "Enviar mensaje") |
 |---|---|
-| CTA1 "Pídelo" | "Pide tu pack de 12 por WhatsApp: S/49.90." |
-| CTA2 "Pruébalo primero" | "¿Primero quieres probarlo? Escríbenos y te decimos en qué stand estamos este fin de semana." |
+| CTA1 "Pídelo por WhatsApp" | "Pide tu pack de 12 por WhatsApp: S/49.90." |
+| CTA2 "Pruébalo en el stand" | "¿Primero quieres probarlo? Escríbenos y te decimos en qué stand estamos este fin de semana." |
 
-### 3.6 Anuncio testimonial (versiones A y B): "Volvió vacía"
+### 3.6 Anuncio testimonial (versiones A y B): "Y una familia real cuenta el suyo"
 
-Los 5 ganchos y los 3 cuerpos salen del mismo testimonio grabado con celular (un padre o una madre real; el niño no habla a cámara y no se le ve la cara). El cuerpo C2 se usa en la versión A y el C3 en la versión B.
+Los 5 ganchos y los 3 cuerpos salen del mismo testimonio grabado con celular el 2 de enero en Jockey Plaza, con una de las tres familias ganadoras del concurso (papá o mamá; el niño no sale en cámara). El guion es una referencia: la familia dice su truco real con sus palabras. El cuerpo C2 se usa en la versión A y el C3 en la versión B.
 
-| Gancho (0-3 s, Atención) | Imagen | Texto en pantalla o voz del padre |
+| Gancho (0-3 s, Atención) | Imagen | Texto en pantalla o voz del papá o la mamá |
 |---|---|---|
-| G1 | La mano del padre abre la lonchera: vacía | "Primera vez que vuelve así." |
-| G2 | El padre en su cocina, a cámara | "Le mandaba de todo con hierro y regresaba igual." |
-| G3 | El padre con el brownie partido en la mano | "Yo tampoco creía que tuviera sangrecita." |
+| G1 | La mano del papá o la mamá abre la lonchera: vacía | "Primera vez que vuelve así." |
+| G2 | El papá o la mamá en su cocina, a cámara | "Mi truco era decirle que el hígado era carne de dinosaurio." |
+| G3 | El papá o la mamá con el brownie partido en la mano | "Yo tampoco creía que tuviera sangrecita." |
 | G4 | El pack de 12 sobre la mesa del desayuno | "Esto es lo que ahora va en su lonchera." |
-| G5 | El padre escanea el QR del envase **(con informe)**; plan B: el padre muestra el reverso del pack | "Mira lo que sale cuando escaneo esto." / Plan B: "Mira lo que dice atrás." |
+| G5 | El papá o la mamá escanea el QR del envase **(con informe)**; plan B: muestra el reverso del pack | "Mira lo que sale cuando escaneo esto." / Plan B: "Mira lo que dice atrás." |
 
-| Cuerpo (3-16 s, Interés y Deseo) | Contenido |
+| Cuerpo (3-6 s, Interés y Deseo) | Contenido |
 |---|---|
-| C1 "La lonchera" (A y B) | "Antes regresaba llena. Es un brownie con sangrecita y él solo ve un brownie. Ahora vuelve vacía." Texto: "Testimonio real de un cliente" |
-| C2 "El informe" (versión A) | "Escaneo el QR y veo el informe de su lote en el celular." **(con informe)**. Plan B: "Lo probó en el stand delante de mí y lo compré ahí." |
+| C1 "La lonchera" (A y B) | "Ahora no le cuento nada: le mando su brownie y la lonchera vuelve vacía." Texto: "Testimonio real de una familia" |
+| C2 "La app" (versión A) | "Lo que antes no veía, su hierro de cada día, ahora lo veo en la app." Con informe, se agrega: "Escaneo el QR y veo la ficha de su lote." **(con informe)** |
 | C3 "La semana" (versión B) | "Lo pido el domingo por WhatsApp, me lo traen y me avisan antes de que se acabe." |
 
-| CTA (16-20 s, Acción) | Texto (botón "Enviar mensaje") |
+| CTA (6-8 s, Acción) | Texto (botón "Enviar mensaje") |
 |---|---|
-| CTA1 "Al stand" | "Pruébalo este fin de semana en el stand. Escríbenos y te decimos dónde." |
-| CTA2 "El mismo pack" | "Pide el mismo pack: 12 brownies a S/49.90 por WhatsApp." |
+| CTA1 "Pruébalo en el stand" | "Pruébalo este fin de semana en el stand. Escríbenos y te decimos dónde." |
+| CTA2 "Pídelo por WhatsApp" | "Pide el mismo pack: 12 brownies a S/49.90 por WhatsApp." |
 
-Si la familia recibió producto gratis, el texto lleva "#publicidad" (INDECOPI, 2024). El testimonio dice solo lo que vivió el padre: nada de "ya no tiene anemia" ni "rinde más".
+Si la familia recibió producto gratis (el premio del concurso es un mes de lonchera), el texto lleva "#publicidad" (INDECOPI, 2024). El testimonio dice solo lo que vivió el papá o la mamá: nada de "ya no tiene anemia" ni "rinde más".
 
 ### 3.7 Cómo se prueba en Meta sin cambiar los montos
 
@@ -159,51 +159,50 @@ Si la familia recibió producto gratis, el texto lleva "#publicidad" (INDECOPI, 
 
 ### 4.0 Reglas comunes de los 3 anuncios
 
-- **Formato:** se graba en vertical y se entrega en 2 cortes: **9:16** (1440 x 2560, historias y reels) y **4:5** (1440 x 1800, feed). En 9:16 se dejan libres el 14 % de arriba, el 35 % de abajo y el 6 % de cada lado (#12, guía de anuncios de Meta).
-- **Duración:** 15 a 20 s. El gancho va en los primeros 3 segundos, porque Meta cuenta una "reproducción" a los 3 s y las guías de anuncios coinciden en que ahí se decide si la persona sigue mirando.
+- **Formato:** los tres anuncios son verticales de 8 s para Instagram, Facebook y YouTube Shorts. Se graba en vertical y se entrega en 2 cortes: **9:16** (1440 x 2560, historias y reels) y **4:5** (1440 x 1800, feed). En 9:16 se dejan libres el 14 % de arriba, el 35 % de abajo y el 6 % de cada lado (#12, guía de anuncios de Meta).
+- **Duración:** 8 s (gancho de 0 a 3 s, historia de 3 a 6 s, cierre con producto de 6 a 8 s). El gancho va en los primeros 3 segundos, porque Meta cuenta una "reproducción" a los 3 s y las guías de anuncios coinciden en que ahí se decide si la persona sigue mirando.
 - **Sin sonido:** todo lo importante va también en texto en pantalla, con subtítulos.
-- **Producción:** los anuncios A y B son cortes del video "Vuelve vacía" de S/300 (noviembre de 2026, #13, sección 2.3). El testimonial se graba con celular en enero de 2027, con familias embajadoras fundadoras. **No suma gasto.**
-- **Cierre de todos:** "Hierro medido. Sabor a brownie.", el botón "Enviar mensaje" y el octógono si el análisis lo exige.
+- **Producción:** antes de los anuncios, la marca habla con el video de convocatoria (9:16, 15 s, desde el 1 de noviembre; sus S/360 de pauta son parte de los S/600 de expectativa) y el video maestro "Lo que nadie ve" (16:9, 16 s, 30 de noviembre, S/300) (#13, sección 6). El testimonial se graba con celular el 2 de enero de 2027 en Jockey Plaza, con una de las tres familias ganadoras. **No suma gasto.**
+- **Cierre de todos:** el slogan "Dulce para ellos. Tranquilidad para ti.", los dos llamados ("Pruébalo en el stand" y "Pídelo por WhatsApp"), el botón "Enviar mensaje" y el octógono si el análisis lo exige.
 - **Versión base:** los guiones de 4.1 a 4.3 son la combinación "gancho 1 + cuerpo 1 + CTA 1" de la sección 3. Las otras variantes del 5-3-2 se editan con las mismas tomas.
-- **Hasta tener el informe del primer lote:** no se dice "medido" en el cierre A ni se muestra una cifra en mg; se usa el plan B del #13 ("El snack de lonchera que tu hijo sí se come").
+- **Hasta tener el informe del primer lote:** no se dice "medido" en el anuncio A ni se muestra una cifra en mg; se usa el plan B del #13 ("El snack de lonchera que tu hijo sí se come").
 
-### 4.1 Anuncio 1: testimonial de padre o madre, "Volvió vacía"
+### 4.1 Anuncio 1: testimonial de una familia real, "Y una familia real cuenta el suyo"
 
-**Idea:** una mamá o un papá real, cliente de la primera semana, cuenta con sus palabras lo que pasó con la lonchera. El niño no habla a cámara: solo se ve la lonchera, o al niño de espaldas comiendo, con el consentimiento firmado (#13, sección 4.4).
+**Idea:** un papá o una mamá real, de una de las tres familias ganadoras del concurso, cuenta con sus palabras su truco y lo que cambió. El niño no sale en cámara (sin rostro, sin nombre, sin colegio), con el permiso firmado del adulto (#13, sección 12.4). Video vertical de 8 s, grabado con celular el 2 de enero en Jockey Plaza.
 
-| Segundo | AIDA | Imagen | Voz (padre o madre, real) | Texto en pantalla |
+| Segundo | AIDA | Imagen | Voz (papá o mamá, real) | Texto en pantalla |
 |---|---|---|---|---|
-| 0-3 | Atención | Primer plano: la mano del padre abre la lonchera a la 1:30 p. m. Está vacía | "Primera vez que vuelve así." | "Volvió vacía." |
-| 3-7 | Interés | El padre en su cocina, mirando a cámara (adulto) | "Le mandaba de todo con hierro y regresaba igual." | "Lo que tiene hierro, regresaba." |
-| 7-12 | Deseo | Corte al pack de 12 sobre la mesa; el padre escanea el QR y se ve la pantalla "Mi lote" | "Es un brownie con sangrecita. Y yo veo el informe de su lote en el celular." | "Sí, tiene sangrecita. No, no se nota." |
-| 12-16 | Deseo | El niño de espaldas, en la mesa, come el brownie (sin cara ni uniforme) | "Él solo ve un brownie." | "Testimonio real de un cliente" |
-| 16-20 | Acción | Pack con logo, slogan, octógono si corresponde | (sin voz) | "Pruébalo este fin de semana. Escríbenos." + "Hierro medido. Sabor a brownie." |
+| 0-3 | Atención | Primer plano: el papá o la mamá, a cámara, en el stand | "Mi truco era decirle que el hígado era carne de dinosaurio." | "Mi truco era…" |
+| 3-6 | Interés | La lonchera sobre la mesa; llega a casa vacía | "Ahora no le cuento nada: le mando su brownie y la lonchera vuelve vacía." | "Sin cuentos." |
+| 6-8 | Deseo y Acción | El celular muestra "El hierro de hoy" en la app; pack con logo | "Lo que antes no veía, su hierro de cada día, ahora lo veo en la app." | "Pruébalo en el stand · Pídelo por WhatsApp" + slogan |
 
-- **Versión A (Lima Top):** el padre cierra con "Yo veo el informe de su lote".
-- **Versión B (Lima Moderna):** el padre cierra con "Lo pido el domingo por WhatsApp y ya está la semana".
-- **Cuidados:** el testimonio es de un cliente real y dice solo lo que vivió (que su hijo se lo come y que ve el informe). No dice "ya no tiene anemia", "rinde más" ni "le subió la hemoglobina" (D. Leg. 1044). Si la familia recibe producto gratis, va "#publicidad" en el texto (guía de influencers del INDECOPI, 2024).
+- **Versión A (Lima Top):** el cierre habla de la app y del hierro de hoy.
+- **Versión B (Lima Moderna):** el cierre habla de la semana resuelta: "Lo pido el domingo por WhatsApp y ya está la semana".
+- **Cuidados:** el testimonio dice solo lo que vivió la familia (que su hijo se lo come y que ve el hierro de hoy en la app). No dice "ya no tiene anemia", "rinde más" ni "le subió la hemoglobina" (D. Leg. 1044). Como el premio del concurso es un mes de lonchera, va "#publicidad" en el texto (guía de influencers del INDECOPI, 2024).
+- **Pauta:** S/1,840 en 2027; meta de 223 conversaciones de WhatsApp.
 
-### 4.2 Anuncio 2: segmento A, "Él ve un brownie" (el dato del lote)
+### 4.2 Anuncio 2: segmento A, "Claudia ya probó todos los trucos"
 
-| Segundo | AIDA | Imagen | Voz en off (madre, tono sereno) | Texto en pantalla |
+| Segundo | AIDA | Imagen | Voz en off (mamá, tono sereno) | Texto en pantalla |
 |---|---|---|---|---|
-| 0-3 | Atención | La lonchera llena regresa a la 1:30 p. m. | "Otra vez volvió llena." | "Lo que le hace bien, regresa." |
-| 3-7 | Interés | Cacao y sangrecita en polvo cayendo | "Pusimos sangrecita de res dentro de un brownie de cacao." | "Hierro hemo, dentro de un brownie" |
-| 7-13 | Deseo | Un dedo escanea el QR del envase; en el celular se abre el informe del lote del laboratorio | "Cada lote se analiza en laboratorio. Tú ves el informe." | "Él ve un brownie. Tú ves el hierro medido de su lote." |
-| 13-16 | Deseo | La lonchera regresa vacía | "Volvió vacía." | "Su prueba: la lonchera vacía. La tuya: el informe de su lote." |
-| 16-20 | Acción | Pack, logo, octógono si corresponde | (sin voz) | "Escanea y mira el análisis. Pruébalo en Jockey Plaza." + slogan |
+| 0-3 | Atención | Licuadora con espinaca; un vaso lleno | "Confieso: el jugo verde nunca le dio superpoderes." | "Lo que le hace bien, regresa." |
+| 3-6 | Interés | Una mamá leyendo etiquetas; cacao y sangrecita en polvo cayendo | "Leí etiquetas, licué espinaca y le inventé un superhéroe. El vaso volvía lleno." | "Sí, tiene sangrecita. No, no se nota." |
+| 6-8 | Deseo y Acción | Un dedo escanea el QR del envase; en el celular se ve "El hierro de hoy"; pack con logo, octógono si corresponde | "Ahora su hierro va escondido en un mini brownie que me pide, y en la app Andi veo cuánto llevó hoy." | "Él ve un brownie. Tú ves la lonchera vacía." + "Pruébalo en el stand · Pídelo por WhatsApp" + slogan |
 
-### 4.3 Anuncio 3: segmento B, "Una mañana menos" (S/4.16 por brownie)
+**Pauta:** S/1,605 en 2027, Instagram, Facebook y YouTube Shorts; enero alrededor de Jockey Plaza y desde febrero en Lima Top. Meta: 195 conversaciones de WhatsApp.
 
-| Segundo | AIDA | Imagen | Voz en off (padre, directo) | Texto en pantalla |
+### 4.3 Anuncio 3: segmento B, "Rodrigo no tiene tiempo para cuentos" (S/4.16 por brownie)
+
+| Segundo | AIDA | Imagen | Voz en off (papá, directo) | Texto en pantalla |
 |---|---|---|---|---|
-| 0-3 | Atención | 6:05 a. m.: el padre frente a dos loncheras vacías, con el celular en la mano | "Jueves. Seis de la mañana. ¿Qué le mando?" | "¿Otra vez el jueves?" |
-| 3-7 | Interés | Domingo: la caja de 12 abierta, 3 sabores, la semana armada | "El domingo resuelves la semana." | "Pack de 12 'Semana completa'" |
-| 7-12 | Deseo | Primer plano del precio y del brownie partido | "Doce mini brownies con sangrecita. Tres sabores." | "S/49.90 por WhatsApp = S/4.16 por brownie" |
-| 12-16 | Deseo | Celular con el aviso "¿Repetimos el jueves? Tu pack se está acabando." | "Y te avisamos antes de que se acabe." | "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie." |
-| 16-20 | Acción | La lonchera vuelve vacía; pack con logo y octógono si corresponde | "Volvió vacía." | "Pídelo por WhatsApp. Entregas 2 días por semana." + slogan |
+| 0-3 | Atención | 6:05 a. m.: el papá en el carro, con la lonchera en el asiento de atrás | "Seis de la mañana. Mi truco: el que se lo acaba primero elige la música del carro." | "¿Otra vez el jueves?" |
+| 3-6 | Interés | Un plato de pan vacío; una menestra sin tocar | "Con el pan funcionaba. Con la menestra de la lonchera, ni con su canción favorita." | "Sin carrera." |
+| 6-8 | Deseo y Acción | La caja de 12 abierta, 3 sabores; el precio en grande; la lonchera vacía | "Ahora lleva un mini brownie con hierro que se come sin carrera. La semana entera en un pack de 12 por WhatsApp, a S/4.16 cada uno." | "Una mañana menos: la lonchera de la semana, a S/4.16 por brownie." + "Pruébalo en el stand · Pídelo por WhatsApp" + slogan |
 
-**Versiones por fecha (mismo anuncio, cambia el texto):** mayo, "Para la mamá que arma la lonchera" (Día de la Madre, 9-may); junio, "Papá, una mañana menos" (Día del Padre, 20-jun); diciembre, cajas de Navidad por pedido. Nunca un mensaje al niño, ni en abril ni en agosto.
+**Pauta:** S/1,605 en 2027, Instagram, Facebook y YouTube Shorts; enero alrededor de Jockey Plaza y desde febrero en Lima Moderna y cerca de Salaverry. Meta: 195 conversaciones de WhatsApp.
+
+**Versiones por fecha (mismo anuncio, cambia el texto):** mayo, "Los trucos de mamá" (Día de la Madre, 9-may); junio, "Los trucos de papá" y "Papá, una mañana menos" (Día del Padre, 20-jun); diciembre, cajas de Navidad por pedido. Nunca un mensaje al niño, ni en abril ni en agosto.
 
 ### 4.4 Público de Meta
 
@@ -242,6 +241,8 @@ Si la familia recibió producto gratis, el texto lleva "#publicidad" (INDECOPI, 
 
 Comprobación: 1,605 + 1,605 + 1,840 = 5,050. Cada segmento recibe lo mismo: 1,605 + 920 = 2,525.
 
+De los S/5,050, **S/4,050 van a Instagram y Facebook y S/1,000 a YouTube** (el video maestro en 16:9 y los tres anuncios como Shorts), decidido el 19-oct-2026. El presupuesto por anuncio (S/1,605 / S/1,605 / S/1,840) y las metas de conversaciones (195 / 195 / 223) no cambian.
+
 **KPI con los valores del #17 (no se recalculan).** CPM S/12.69 (US$3.70 × S/3.43), CPC S/1.235, CTR 1.03 %, 15 % de los clics inicia una conversación, costo por conversación (CPA por contacto) S/8.23.
 
 | Anuncio | Pauta 2027 | Impresiones | Clics | Conversaciones de WhatsApp | Costo por conversación |
@@ -249,7 +250,7 @@ Comprobación: 1,605 + 1,605 + 1,840 = 5,050. Cada segmento recibe lo mismo: 1,6
 | 1. Testimonial (A + B) | S/1,840 | 144,985 | 1,490 | 223 | S/8.23 |
 | 2. Segmento A | S/1,605 | 126,468 | 1,300 | 195 | S/8.23 |
 | 3. Segmento B | S/1,605 | 126,468 | 1,300 | 195 | S/8.23 |
-| **Total** | **S/5,050** | **397,920** | **4,090** | **613** | **S/8.23** |
+| **Total** (S/4,050 Meta + S/1,000 YouTube) | **S/5,050** | **397,920** | **4,090** | **613** | **S/8.23** |
 
 (Cálculo: impresiones = pauta ÷ 12.691 × 1,000; clics = pauta ÷ 1.2348; conversaciones = clics × 15 %. Las cifras totales son las del #17: 397,920; 4,090 y 613. Los 223.5 del testimonial se redondean a 223 para que la columna sume 613; las impresiones por anuncio suman 1 más por redondeo.)
 
@@ -267,17 +268,17 @@ Comprobación: 1,605 + 1,605 + 1,840 = 5,050. Cada segmento recibe lo mismo: 1,6
 - **Es la misma métrica.** El "costo por contacto que llega por anuncio" del documento 10 y del KPI 12 del #19 es el costo por conversación de WhatsApp que reporta Meta: cada conversación iniciada desde el botón "Enviar mensaje" es un contacto. El #17 lo llama "CPA por contacto".
 - **S/8.23 es la línea base,** calculada con promedios de mercado (CPC de Perú de US$0.36 y 15 % de los clics que escriben, #17). No es un resultado medido.
 - **La meta de S/5 se busca con las rondas 5-3-2** (sección 3.7): la ronda 1 elige el gancho que más retiene, la 2 el cuerpo con mejor CTR y CPC, y la 3 la CTA con menor costo por conversación. Con el mismo CPC (S/1.235) hace falta que escriba 1 de cada 4 clics (25 %); con 15 %, el CPC tendría que bajar a unos S/0.75 (S/5 × 0.15). Lo normal es una mezcla de las dos cosas.
-- **Si en enero no baja:** enero es el mes de las rondas 2 y 3, así que un costo de S/8 o más es esperable. La alerta se activa solo si pasa de S/8 durante 2 meses (enero y febrero): se cambia el anuncio o el público y se pasa parte de esos soles a degustación, sin cambiar el total del mes (documento 10). La meta de unos 2,300 contactos no depende de la pauta: se calculó con stands, ferias, eventos y embajadoras (#17), así que un costo alto quita contactos extra, no la meta.
+- **Si en enero no baja:** enero es el mes de las rondas 2 y 3, así que un costo de S/8 o más es esperable. La alerta se activa solo si pasa de S/8 durante 2 meses (enero y febrero): se cambia el anuncio o el público y se pasa parte de esos soles a degustación, sin cambiar el total del mes (documento 10). La meta de unos 2,300 contactos no depende de la pauta: se calculó con stands, ferias, eventos y embajadores (#17), así que un costo alto quita contactos extra, no la meta.
 
-**Prelanzamiento (dic-2026, S/600, 300 A y 300 B):** un solo corte de 15 s, "En enero abrimos en Jockey Plaza. Únete a la lista.", con el mismo objetivo de mensajes. Da unos 490 clics y 73 contactos (#17), a S/8.2 cada uno. La meta de 100 contactos en espera es la lista acumulada al 31-dic-2026, no lo que trae la pauta sola: el documento 10 (sección 6.4) pide 20 en octubre y 50 en noviembre, sin pauta, con el orgánico. La pauta de diciembre necesita sumar unos 50; con la base de 15 % trae unos 73 y con el escenario prudente de 10 %, unos 49. Si a mediados de diciembre la lista va atrasada, se refuerza con las historias y los 40 influencers; el monto de S/600 no cambia.
+**Prelanzamiento (1-nov a 20-dic-2026, S/600 de expectativa: S/360 de pauta y S/240 en premios del concurso #LoQueNadieVe):** un solo video de convocatoria de 15 s (9:16), "¿Cuál es tu truco?", con la mecánica del concurso y el hashtag, con el mismo objetivo de mensajes; cierra con "En enero abrimos en Jockey Plaza. Escríbenos tu truco por WhatsApp y entérate primero." Con los S/360 de pauta, los mismos valores del #17 dan unos 290 clics y unas 44 familias que escriben (15 %), a S/8.2 cada una [cálculo propio: S/360 ÷ 1.2348 y 15 %]. La meta de 100 familias en WhatsApp es la lista acumulada antes del 2-ene-2027, no lo que trae la pauta sola: el documento 10 (sección 6.4) pide 20 en octubre y 50 en noviembre, sin pauta, con el orgánico, y cada participante del concurso recibe la invitación a la lista. Si a mediados de diciembre la lista va atrasada, se refuerza con las historias de diciembre y los 40 influencers; el monto de S/600 no cambia.
 
 ## 5. Cierre por WhatsApp
 
 ### 5.1 Configuración de WhatsApp Business (app gratuita)
 
-- **Perfil:** logo, "Mini brownies con sangrecita. Hierro medido en cada lote." (hasta tener el informe del primer lote: "Vamos a medir el hierro de cada lote."), horario de atención, enlace a la página "Dónde estamos y pedido" y al Instagram.
+- **Perfil:** logo, "Mini brownies con sangrecita. Dulce para ellos. Tranquilidad para ti." (con el informe del primer lote se agrega: "Hierro medido en cada lote."; antes: "Vamos a medir el hierro de cada lote."), horario de atención, enlace a la página "Dónde estamos y pedido" y al Instagram.
 - **Catálogo:** caja de 3 S/12.00; pack de 6 S/26.90; pack de 12 S/49.90 (S/4.16 por brownie). La unidad no se vende por WhatsApp.
-- **Etiquetas [PROPUESTA]:** "Nuevo-anuncio A", "Nuevo-anuncio B", "Lista de espera", "Pedido pendiente", "Pagado", "Entregado", "Recompra", "Embajadora". La etiqueta del anuncio mide qué segmento trajo cada contacto.
+- **Etiquetas [PROPUESTA]:** "Nuevo-anuncio A", "Nuevo-anuncio B", "Familia en WhatsApp", "Pedido pendiente", "Pagado", "Entregado", "Recompra", "Embajador". La etiqueta del anuncio mide qué segmento trajo cada contacto.
 - **Respuestas rápidas** (se escriben con "/"): "/oferta", "/pedido", "/confirmación", "/dondeestamos", "/sangrecita" (respuesta a "¿no sabe a sangrecita?") y "/lote" (cómo escanear el QR).
 - **Mensaje de bienvenida y mensaje de ausencia** automáticos.
 - **Por qué la app gratuita y no la API (versión para empresas grandes):** en el año 1 el volumen es de unos 135 a 140 pedidos al mes en el último trimestre (documento 10, 6.3) y lo atiende una coordinadora. La API cobra por mensaje desde julio de 2025 y necesita un proveedor. Se evalúa en el año 2.
@@ -287,12 +288,12 @@ Comprobación: 1,605 + 1,605 + 1,840 = 5,050. Cada segmento recibe lo mismo: 1,6
 | Momento | Mensaje |
 |---|---|
 | **Texto ya escrito del botón del anuncio** | "Hola, quiero saber dónde están este fin de semana." |
-| **Bienvenida** (automática) | "Hola, somos AndiBite. Mini brownies con sangrecita y el hierro medido de cada lote. Este fin de semana estamos en [punto]. ¿Quieres probarlo en el stand o te separamos un pack?" |
+| **Bienvenida** (automática) | "Hola, somos AndiBite. Mini brownies con sangrecita: dulce para ellos, tranquilidad para ti. Este fin de semana estamos en [punto]. ¿Quieres probarlo en el stand o te separamos un pack?" |
 | **Ausencia** (fuera de horario) | "Gracias por escribir. Te respondemos mañana desde las 9 a. m. Mientras, aquí ves dónde estamos: [enlace]." |
 | **Oferta** ("/oferta") | "Para la semana te conviene el pack de 12 'Semana completa': S/49.90, S/4.16 por brownie, 3 sabores (Chispa, Andi y Lúcu). También hay pack de 6 a S/26.90 y caja de 3 a S/12.00. Entregamos 2 días por semana o lo recoges en el stand." |
 | **Pedido** ("/pedido") | "Perfecto. Para separar tu pedido necesito: 1. Pack y sabores. 2. Entrega (distrito y día) o recojo en el stand. 3. Nombre de quien recibe. Pago por [medios de pago POR CONFIRMAR]." |
-| **Confirmación** ("/confirmación") | "Listo: [pack] por S/[monto]. Entrega el [día] en [distrito] o recojo en [stand]. Cuando lo tengas, escanea el QR del envase: ves el informe de tu lote y te avisamos cuando se esté acabando. ¿Te escribimos para recordarte? Responde SÍ o NO." |
-| **Aviso de recompra desde la app** | El padre toca "Pedir" en la app y se abre WhatsApp con: "Hola, quiero repetir mi pack de 12 [sabores]. Entrega el [día]." La coordinadora responde con la confirmación |
+| **Confirmación** ("/confirmación") | "Listo: [pack] por S/[monto]. Entrega el [día] en [distrito] o recojo en [stand]. Cuando lo tengas, escanea el QR del envase: ves el hierro de hoy y la ficha de tu lote, y te avisamos cuando se esté acabando. ¿Te escribimos para recordarte? Responde SÍ o NO." |
+| **Aviso de recompra desde la app** | El papá o la mamá toca "Pedir" en la app y se abre WhatsApp con: "Hola, quiero repetir mi pack de 12 [sabores]. Entrega el [día]." La coordinadora responde con la confirmación |
 | **Recordatorio de la coordinadora** (solo a quien respondió SÍ) | "¿Repetimos el pack de 12 el jueves? Te lo llevamos o lo recoges en el stand. Si no quieres recibir estos mensajes, escribe SALIR." |
 
 Solo se guarda el número de quien escribió o aceptó, y se puede salir con un mensaje (Ley 29733). Las respuestas deben tener el libro de reclamaciones virtual (#12, checklist 18).
@@ -307,7 +308,7 @@ Solo se guarda el número de quien escribió o aceptó, y se puede salir con un 
 
 | Opción | A favor | En contra | Decisión |
 |---|---|---|---|
-| Anuncio que abre WhatsApp directo | Un paso menos; el padre B ya compra por WhatsApp; no cuesta nada extra | Menos información antes de escribir | **Se usa en los 3 anuncios** |
+| Anuncio que abre WhatsApp directo | Un paso menos; Rodrigo (B) ya compra por WhatsApp; no cuesta nada extra | Menos información antes de escribir | **Se usa en los 3 anuncios** |
 | Landing web propia (tienda en línea) | Más información y pago en línea | Costo de web y mantenimiento que el plan no tiene; la venta principal es física | No en el año 1 |
 | **Página "Dónde estamos y pedido" de la app** | Ya existe la función "Dónde estamos" en la app; es la misma dirección que abre el QR; S/0 extra | Hay que publicar el dominio [POR CONFIRMAR] | **Se usa como landing para la biografía, Google y los volantes** |
 
@@ -317,10 +318,10 @@ Lo que lleva la página: el punto y el horario de este fin de semana; precios de
 
 | Norma o política | Qué pide | Cómo lo cumplimos en digital |
 |---|---|---|
-| **Ley 30021, art. 8** (publicidad de alimentos dirigida a menores de 16 años) | La publicidad dirigida a menores de 16 debe seguir reglas: entre otras, no dar premios o regalos para que compren y no usar testimonios de personajes que los niños conozcan o admiren. También prohíbe sugerir que un padre es más inteligente o más generoso por comprar el producto [POR CONFIRMAR la redacción exacta con Adela] | Pauta solo a adultos de 30 a 45. Ningún texto le habla al niño. Andi no sale en anuncios ni en redes. Niños sin hablar a cámara y sin mirar al lente. Sin premios al niño. "Vuelve vacía" se dice con alivio, nunca "un buen padre compra AndiBite" |
+| **Ley 30021, art. 8** (publicidad de alimentos dirigida a menores de 16 años) | La publicidad dirigida a menores de 16 debe seguir reglas: entre otras, no dar premios o regalos para que compren y no usar testimonios de personajes que los niños conozcan o admiren. También prohíbe sugerir que un padre es más inteligente o más generoso por comprar el producto [POR CONFIRMAR la redacción exacta con Adela] | Pauta solo a adultos de 30 a 45. Ningún texto le habla al niño. Andi no sale en anuncios ni en redes. En video solo hablan adultos y el niño no sale en cámara. Sin premios al niño. "Lo que nadie ve" se dice con aplauso, nunca "un buen padre compra AndiBite" |
 | **Meta, normas de salud y bienestar** (actualizadas el 22-jul-2026) | Los productos dietéticos, de salud y para bajar o subir de peso solo se pautan a mayores de 18; los alimentos en general están exentos. Prohíbe prometer curar enfermedades y los "resultados garantizados" sin aclaraciones | AndiBite es alimento, pero se pauta igual a 30 a 45. Nunca "previene", "combate" ni "cura la anemia" (también por el D. Leg. 1044) |
-| **Meta, atributos personales** | El anuncio no puede afirmar ni insinuar que conoce la salud de la persona o de su familia ("¿Tienes diabetes?" no se permite) | Prohibido: "¿Tu hijo tiene anemia?" o "¿Tu hijo tiene el hierro bajo?". Permitido: "¿Otra vez el jueves?" y hablar del producto |
-| **Ley 29733** (datos personales) y su reglamento (D.S. 016-2024-JUS) | Consentimiento, finalidad clara, derecho a salir; para menores de 14, consentimiento de los padres | Solo se guarda el WhatsApp de quien escribe o acepta; "SALIR" lo borra. Del niño, la app solo pide apodo y edad, y los datos de salud quedan en el teléfono. Consentimiento firmado para la imagen del niño en el video. Inscripción del banco de datos de clientes ante la ANPD [POR CONFIRMAR con Adela] |
+| **Meta, atributos personales** | El anuncio no puede afirmar ni insinuar que conoce la salud de la persona o de su familia ("¿Tienes diabetes?" no se permite) | Prohibido: "¿Tu hijo tiene anemia?" o "¿Tu hijo tiene el hierro bajo?". Permitido: "¿Cuál es tu truco?", "¿Otra vez el jueves?" y hablar del producto |
+| **Ley 29733** (datos personales) y su reglamento (D.S. 016-2024-JUS) | Consentimiento, finalidad clara, derecho a salir; para menores de 14, consentimiento de los padres | Solo se guarda el WhatsApp de quien escribe o acepta; "SALIR" lo borra. Del niño, la app solo pide apodo y edad, y los datos de salud quedan en el teléfono. Consentimiento firmado de los adultos que salen en video, en el mural o en el concurso; el niño no sale. Inscripción del banco de datos de clientes ante la ANPD [POR CONFIRMAR con Adela] |
 | **Guía de Publicidad para Influencers del INDECOPI (2024)** | Avisar cuando hay pago o producto regalado | "#publicidad" en influencers y en testimonios con producto gratis |
 | **D. Leg. 1044** (competencia desleal, veracidad) | No engañar | Testimonios reales; ninguna cifra de hierro sin el informe del laboratorio; "sin octógonos" solo con el análisis |
 
@@ -336,7 +337,8 @@ Cada anuncio pasa el checklist de 18 preguntas del #12 antes de pautarse: diseñ
 - Aptitud del stand para Google Business Profile.
 - Redacción exacta del artículo 8 de la Ley 30021 e inscripción del banco de datos ante la ANPD (Adela).
 - Medios de pago por WhatsApp.
-- Pauta de expectativa: va en "Instagram y Facebook" (Meta no pauta en TikTok y TikTok es solo orgánico). Ya está así en el Excel de marketing ("Presupuesto de marketing", celda C8), en el #17 y en el documento 10 (6.5). Las diapositivas 35 y 36 de la TC5-8 todavía dicen "Instagram y TikTok" (`TC5-8/fuente/presu_mkt.json` y `datos_marketing.py`): queda para Carlos. El monto (S/600) no cambia.
+- Pauta de expectativa (concurso #LoQueNadieVe, S/360 de pauta): va en "Instagram y Facebook" (Meta no pauta en TikTok y TikTok es solo orgánico). Ya está así en el Excel de marketing ("Presupuesto de marketing", celda C8), en el #17 y en el documento 10 (6.5). Las diapositivas 35 y 36 de la TC5-8 todavía dicen "Instagram y TikTok" (`TC5-8/fuente/presu_mkt.json` y `datos_marketing.py`): queda para Carlos. El monto (S/600) no cambia.
+- Bases del concurso y consulta a la ONAGI (Adela, antes del 1 de noviembre de 2026; #13, sección 8.1).
 
 ## Fuentes
 
@@ -344,7 +346,7 @@ Documentos del proyecto
 - `04-reformulacion/T2/HECHOS_v7.md` (19-oct-2026).
 - `04-reformulacion/10-plan-de-marketing-2027.md`, secciones 3, 5, 6.2, 6.3, 8 y 9.
 - `04-reformulacion/09-app-andi-mision-hierro.md`, secciones 4, 7, 8 y 12.
-- `04-reformulacion/T2/md/T2_09`, `T2_10`, `T2_11`, `T2_12` (secciones 5, 8.3, 9.4 y 11), `T2_13` (secciones 2.3, 3 y 4), `T2_17` (secciones 2.2 a 2.5) y `T2_19`.
+- `04-reformulacion/T2/md/T2_09`, `T2_10`, `T2_11`, `T2_12` (secciones 5, 8.3, 9.4 y 11), `T2_13` (secciones 6, 7, 11 y 12), `T2_17` (secciones 2.2 a 2.5) y `T2_19`.
 
 Externas (consultadas el 19-oct-2026)
 - Clase de la sesión 09, regla 5-3-2 (5 ganchos, 3 cuerpos y 2 CTA), según los apuntes de Carlos Inga (19-oct-2026).

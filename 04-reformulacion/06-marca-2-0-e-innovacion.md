@@ -1,6 +1,8 @@
 # 06 — Marca 2.0 e innovación: de AndiBite a una marca para padres que leen etiquetas
 
 > **Decisión del equipo (3 de octubre de 2026): se mantiene el nombre AndiBite.** La ruta B (Hemi) queda como referencia de concepto; lo que se adopta de este documento es la evolución del empaque (hierro en mg en el frente, ficha de hierro, QR por lote), los nombres y colores de los sabores (Chispa, Andi, Lúcu, Nara, Fresi) y las innovaciones. Donde dice "Hemi" léase AndiBite.
+>
+> **Actualización del 2 de noviembre de 2026 (slogan, campaña y empaque).** El slogan oficial es "Dulce para ellos. Tranquilidad para ti." (decidido el 19-oct-2026). "Hierro medido. Sabor a brownie." pasa a ser la frase de la ficha del producto; donde este documento la llama "claim" o slogan, léase frase de ficha. "Medido, no prometido" fue reemplazado como territorio por "hierro sin pelear cada mañana". La campaña de lanzamiento es "Lo que nadie ve" (#LoQueNadieVe) y reemplaza a "Vuelve vacía" (ver `T2/md/T2_13_Concepto-de-campana.md`). Todas las presentaciones llevan cada brownie en bolsita individual (27-oct-2026).
 
 
 Versión 1, 3 de octubre de 2026. La escribe la dirección creativa y de estrategia de marca para el Grupo 2. Se apoya en `00-BRIEF-reformulacion.md`, `01-producto-sabores-y-recetas.md`, `03-maquila-regulacion-y-permisos.md` (etiquetado y octógonos), `04-publico-objetivo-y-buyer-persona-con-datos.md` y `03-entregables/09-guia-replicar-empaque-mvp.md`.
@@ -12,7 +14,7 @@ Convenciones: **[HIPÓTESIS]** es un supuesto del equipo. **[POR CONFIRMAR]** es
 ## Resumen ejecutivo
 
 - **Ruta recomendada: B, "Hemi"**, nutrición de precisión para niños: el hierro se mide, va en miligramos en el frente y se verifica por lote con un QR. De AndiBite conserva el kraft, el guinda (ahora "rojo hierro") y el relato andino, que queda en el sabor "Andi".
-- **Claim:** "Hierro medido. Sabor a brownie." Apoyo: "Medido, no prometido."
+- **Claim (desde el 19-oct-2026, frase de ficha; el slogan oficial es "Dulce para ellos. Tranquilidad para ti."):** "Hierro medido. Sabor a brownie." Apoyo: "Medido, no prometido." (territorio anterior).
 - **Sabores:** Chispa, Andi y Lúcu de lanzamiento; Nara y Fresi de temporada.
 - **Innovaciones de mayor impacto:** hierro visible y verificable por lote; Línea Cero (meta sin octógonos, que abre el quiosco escolar); y la Semana Hemi (caja de 12 con calendario y recordatorio de recompra por WhatsApp).
 
@@ -143,7 +145,7 @@ Jerarquía de arriba hacia abajo:
 2. **Sabor en grande:** "Chispa" en Fraunces y "Choco con chispas" en DM Sans, sobre la banda de color.
 3. **Ficha de dato** junto a la ventana: "26 / Fe / 1.9 mg por brownie*" en Space Mono, con borde rojo hierro.
 4. **Ventana ovalada de 6x4 cm** con los sobres de colores a la vista.
-5. **Claim** en una línea: "Hierro medido. Sabor a brownie."
+5. **Slogan** en una línea: "Dulce para ellos. Tranquilidad para ti." La frase de ficha "Hierro medido. Sabor a brownie." va junto a la ficha de hierro.
 6. **Base:** "Mini brownies de cacao con sangrecita de pollo · 6 x 20 g · Peso neto 120 g". Abajo, en letra chica: "*Valor por unidad según el análisis del lote. Ver reverso."
 
 Lo que **no** va en el frente: la palabra anemia, la bandera, los personajes, "nutritivo" sin dato y "fuente de proteína".
@@ -155,7 +157,7 @@ Lo que **no** va en el frente: la palabra anemia, la bandera, los personajes, "n
 3. **"En números":** la tabla nutricional (NTP 209.652:2025) por unidad y por 100 g, con energía, proteína, grasas (total, saturada y trans), carbohidratos, azúcares totales, sodio y **hierro**, llenada solo con el informe del laboratorio.
 4. **Declaración** (solo si el laboratorio da al menos 2.1 mg por 100 g): "Fuente de hierro. El hierro contribuye al transporte de oxígeno en el cuerpo."
 5. **Ingredientes (Chispa, en orden decreciente según la receta R1):** "Sangrecita de pollo cocida (20 %), azúcar rubia, huevo, aceite de girasol, harina de trigo, cacao en polvo, harina de avena, chips de chocolate semiamargo (azúcar, pasta de cacao, manteca de cacao, emulsificante: lecitina de soya), esencia de vainilla, polvo de hornear, sal y canela." **Contiene:** gluten (trigo y avena), huevo, leche y soya. "Puede contener trazas de maní y frutos secos" solo si la planta los procesa **[POR CONFIRMAR con la maquila]**.
-6. **QR y texto:** "Medido, no prometido. Escanea y mira el análisis de hierro de este lote."
+6. **QR y texto:** "Escanea y mira el hierro de hoy y el análisis de este lote."
 7. **Bloque de uso:** "Lonchera completa: 1 Hemi + 1 fruta + agua. Pídelo cada 15 días por WhatsApp: [número]."
 8. **Datos legales:** "Elaborado por: [planta, dirección]. Para: [Hemi S.A.C., RUC, dirección]. R.S. N.° [ ]. Lote y vencimiento: ver sello. Conservar en un lugar fresco y seco. Hecho en Perú." Si hay nutricionista aliada: "Fórmula revisada por [nombre], CNP [ ]."
 
@@ -168,7 +170,7 @@ Lo que **no** va en el frente: la palabra anemia, la bandera, los personajes, "n
 ### 5.4 Prompts en inglés para el mockup (Gemini / Nano Banana)
 
 **Prompt 1 (doypack):**
-"Photorealistic studio product photo of a stand-up kraft paper doypack pouch with zipper, 14 x 21 cm, matte natural kraft texture, standing on a warm off-white seamless background with soft daylight from the left and a gentle shadow. Front label design, minimal premium Scandinavian style: top-left a lowercase serif wordmark 'hemi' in dark cocoa brown where the dot of the i is a small deep iron-red square; top-right a black octagon warning seal with white text 'ALTO EN AZÚCAR'; center a large serif word 'Chispa' on a horizontal tomato-red band (#D7392B), with small text 'Choco con chispas' below; left of center a square tile with thin iron-red border reading '26 Fe 1.9 mg' in monospace font; a clear oval window showing six small individually wrapped brownies with colored wrapper bands in red, yellow and caramel; below the window one line 'Hierro medido. Sabor a brownie.'; bottom small text '6 x 20 g'. Lots of white space, no characters, no flags, no mascots. Next to the pouch, two mini square chocolate brownies with visible chocolate chips on a small ceramic plate. Shot on 85mm, shallow depth of field, high detail, commercial packaging photography."
+"Photorealistic studio product photo of a stand-up kraft paper doypack pouch with zipper, 14 x 21 cm, matte natural kraft texture, standing on a warm off-white seamless background with soft daylight from the left and a gentle shadow. Front label design, minimal premium Scandinavian style: top-left a lowercase serif wordmark 'hemi' in dark cocoa brown where the dot of the i is a small deep iron-red square; top-right a black octagon warning seal with white text 'ALTO EN AZÚCAR'; center a large serif word 'Chispa' on a horizontal tomato-red band (#D7392B), with small text 'Choco con chispas' below; left of center a square tile with thin iron-red border reading '26 Fe 1.9 mg' in monospace font; a clear oval window showing six small individually wrapped brownies with colored wrapper bands in red, yellow and caramel; below the window one line 'Dulce para ellos. Tranquilidad para ti.'; bottom small text '6 x 20 g'. Lots of white space, no characters, no flags, no mascots. Next to the pouch, two mini square chocolate brownies with visible chocolate chips on a small ceramic plate. Shot on 85mm, shallow depth of field, high detail, commercial packaging photography."
 
 **Prompt 2 (caja de 12 con calendario):**
 "Top-down flat lay photo of an open rectangular kraft cardboard box holding twelve mini square chocolate brownies in two rows of six, each brownie in a clear wrapper with a thin colored band (four tomato red, four banana yellow, four caramel brown). The inside of the open lid is printed with a clean weekly lunchbox calendar: five columns labeled 'LUN MAR MIÉ JUE VIE', two rows with blank handwritten-style name spaces, and a small row labeled 'fruta del día', in dark cocoa brown and iron-red ink, modern sans-serif and monospace typography. The closed-lid edge shows a lowercase serif logo 'hemi' with a red square dot and a small black octagon seal 'ALTO EN AZÚCAR'. Around the box, styled props: a child's lunchbox, a mandarin, a small water bottle, a pencil, on a light oak kitchen table, soft morning window light, calm premium family lifestyle aesthetic, muted earthy palette, no people, no cartoon characters, photorealistic, high resolution."
@@ -183,8 +185,8 @@ Nota: los generadores de imagen deforman los textos largos. Hay que dejar los te
 
 ### 6.1 Diez frases de marca
 
-1. Hierro medido. Sabor a brownie.
-2. Medido, no prometido.
+1. Hierro medido. Sabor a brownie. (frase de ficha; el slogan oficial es "Dulce para ellos. Tranquilidad para ti.")
+2. Medido, no prometido. (territorio anterior; hoy "hierro sin pelear cada mañana")
 3. Él ve un brownie. Tú ves 1.9 mg de hierro.*
 4. Lo que ya le gusta, con lo que le hace falta.
 5. Sí, tiene sangrecita. No, no se nota.
@@ -200,7 +202,7 @@ Nota: los generadores de imagen deforman los textos largos. Hay que dejar los te
 
 | Idea | Formato | Qué muestra | Objetivo |
 |---|---|---|---|
-| **"La revelación"** | Serie semanal de reels de 30-45 s | Padres prueban un Hemi a ciegas, adivinan qué tiene y se les revela la sangrecita. Los niños pueden aparecer comiendo, pero no recomiendan a cámara [criterio prudente, Ley 30021] | Bajar la barrera de la sangrecita con prueba social |
+| **"La revelación"** | Serie semanal de reels de 30-45 s | Padres prueban un Hemi a ciegas, adivinan qué tiene y se les revela la sangrecita. El niño no sale en cámara y hablan solo adultos [criterio prudente, Ley 30021] | Bajar la barrera de la sangrecita con prueba social |
 | **"Abre el laboratorio"** | Carrusel y reel | El informe del lote del mes y cómo leer una tabla nutricional en 3 pasos | Autoridad frente al "saludable" sin pruebas |
 | **"La lonchera del jueves"** | Historias y reel de 15 s | 5 loncheras armadas el domingo con la caja de 12 y su calendario | Uso del pack de 12 y de la recompra |
 
@@ -214,7 +216,7 @@ Nota: los generadores de imagen deforman los textos largos. Hay que dejar los te
 | 12-17 s | Macro de la ficha "26 Fe 1.9 mg" y un dedo que escanea el QR; en el celular aparece el informe del lote | VO: "Tú ves el hierro. Medido en laboratorio, lote por lote." |
 | 17-22 s | Reverso: "Sí, tiene sangrecita. Por eso tiene hierro." y cacao en polvo cayendo | VO: "Sangrecita y cacao peruano. No se nota. Se mide." |
 | 22-27 s | Caja de 12 abierta con el calendario lleno; mensaje de WhatsApp "¿Repetimos el jueves?" | Texto: "Chispa · Andi · Lúcu. Tu semana, resuelta." |
-| 27-30 s | Logo hemi, el claim y el octógono visible en el pack | Texto: "Hierro medido. Sabor a brownie." + "Pídelo por WhatsApp" + octógono y "Evitar su consumo excesivo" |
+| 27-30 s | Logo hemi, el claim y el octógono visible en el pack | Texto: "Dulce para ellos. Tranquilidad para ti." + "Pruébalo en el stand" y "Pídelo por WhatsApp" + octógono y "Evitar su consumo excesivo" |
 
 ---
 

@@ -3,14 +3,14 @@ Responsable: Adela (Ade) Robles · Grupo 2 · AndiBite · Propuesta para revisar
 
 Controlar es comparar cada semana lo que pasó con lo que dijimos que iba a pasar y decidir qué hacer si no coincide. Este tema dice cómo y cada cuánto se miden los KPI (indicadores clave), quién los mide, con qué herramienta y qué hacemos cuando no se cumplen. Parte de la sección 8 del documento 10 (`10-plan-de-marketing-2027.md`), mide los tres objetivos SMART del tema #07 y se conecta con las reglas para crecer de HECHOS_v7.
 
-**Siglas.** KPI: indicador clave. CRM: lista de contactos y recordatorios de recompra (WhatsApp y la app). POP: material de punto de venta. Pauta: publicidad pagada en Instagram y Facebook (Meta). IGV: impuesto general a las ventas (los precios al público lo incluyen). QR: código que se lee con la cámara del celular. SMART: objetivos específicos, medibles, alcanzables, relevantes y con tiempo. FODA: fortalezas, oportunidades, debilidades y amenazas. [PROPUESTA]: algo nuevo que sugerimos y que el equipo debe aprobar.
+**Siglas.** KPI: indicador clave. CRM: lista de contactos y recordatorios de recompra (WhatsApp y la app). POP: material de punto de venta. Pauta: publicidad pagada en Instagram y Facebook (Meta) y en YouTube. IGV: impuesto general a las ventas (los precios al público lo incluyen). QR: código que se lee con la cámara del celular. SMART: objetivos específicos, medibles, alcanzables, relevantes y con tiempo. FODA: fortalezas, oportunidades, debilidades y amenazas. [PROPUESTA]: algo nuevo que sugerimos y que el equipo debe aprobar.
 
 ## 1. Cómo funciona el control
 
 | Cuándo | Qué se hace | Quién | Cuánto dura |
 |---|---|---|---|
 | **Cada domingo** | Reunión de control con el tablero semanal (sección 3). Carlos consolida los datos en la hoja de pedidos | Todo el grupo; Carlos conduce | 30 minutos |
-| **Cada fin de semana** | Los vendedores reportan los brownies vendidos por punto, los contactos y los códigos de embajadora | Vendedores a Carlos | 5 minutos por punto |
+| **Cada fin de semana** | Los vendedores reportan los brownies vendidos por punto, los contactos y los códigos de embajador | Vendedores a Carlos | 5 minutos por punto |
 | **Primer domingo de cada mes** [PROPUESTA] | Cierre del mes: ventas y brownies frente al Excel, recompra, escaneos, colegios, naturistas, presupuesto y caja | Carlos, coordinadora, Angie y Adela | 30 minutos más |
 | **Fin de cada trimestre** (marzo, junio, setiembre y diciembre) [PROPUESTA] | Revisión de hitos y de las reglas para crecer. En junio: revisión de mitad de año y de la app | Todo el grupo | 1 hora |
 
@@ -18,7 +18,7 @@ Controlar es comparar cada semana lo que pasó con lo que dijimos que iba a pasa
 
 ## 2. Tabla de KPI
 
-Los KPI 1 a 3 miden el **objetivo 1 (ventas)**, los KPI 4 a 6 el **objetivo 2 (recompra y fidelización)**, los KPI 7 y 8 el **objetivo 3 (captación y posicionamiento)** y los KPI 9 a 17 son de apoyo (ferias, eventos, naturistas, pauta, redes, app, presupuesto, legal y hierro por lote). Los que no están en el documento 10 van marcados.
+Los KPI 1 a 3 miden el **objetivo 1 (ventas)**, los KPI 4 a 6 el **objetivo 2 (recompra y fidelización)**, los KPI 7 y 8 el **objetivo 3 (captación y posicionamiento)** y los KPI 9 a 19 son de apoyo (ferias, eventos, naturistas, pauta, redes, app, presupuesto, legal, hierro por lote, trucos contados y vistas de los videos). Los que no están en el documento 10 van marcados.
 
 | N.º | KPI | Meta | Frecuencia | Herramienta o fuente del dato | Responsable | Qué hacemos si no se cumple |
 |---|---|---|---|---|---|---|
@@ -26,19 +26,21 @@ Los KPI 1 a 3 miden el **objetivo 1 (ventas)**, los KPI 4 a 6 el **objetivo 2 (r
 | 2 | Brownies del mes | Los del Excel v7, de 870 a 6,011 | Semanal (acumulado) y mensual | Hoja de pedidos comparada con la hoja Mensual del Excel v7 | Carlos | Mover la mezcla de los S/700 hacia degustación en el canal que falle; sumar eventos sin costo ya programados. **Regla 2:** al pasar 5,000 brownies al mes (agosto en el Excel), la maquila baja a S/0.40 |
 | 3 | Ventas del mes con IGV | De S/4,280 a S/27,131 al mes; S/244,728 en el año | Mensual | Cierre de ventas del domingo en la hoja de pedidos | Carlos | Si el acumulado baja de la línea de alerta (88 % del Excel, sección 4): se activa el plan de −20 % del tema #06 (revisar caja y línea de crédito) |
 | 4 | Recompra por WhatsApp | 35 % de lo vendido en físico el mes anterior (9,421 brownies en el año) | Mensual | Pedidos de WhatsApp Business y hoja de pedidos | Coordinadora | Si baja de 20 % durante 2 meses: reforzar el pedido del contacto en el stand y el aviso de la app antes de gastar más en pauta |
-| 5 | Contactos nuevos de WhatsApp con permiso | Unos 2,300 al cierre de diciembre (2,338 según la tabla mes a mes del documento 10) [META PROPUESTA] | Semanal | Hoja de contactos de la coordinadora | Coordinadora | Revisar el guion del vendedor; poner el QR de WhatsApp en el cartel y en la bolsa. **Regla 6:** con el pago variable (S/60 por día + S/0.30 por brownie) el contacto se puede sumar a la meta del turno [PROPUESTA] |
-| 6 | Envases escaneados | De 15 % en enero a 33 % en octubre; **30 % en el año** | Mensual | Panel de la app (`/admin`), escaneos por lote | Angie | Si en abril va por debajo de 20 %: el vendedor escanea con el padre en cada venta y la primera pantalla muestra el hierro del lote en 2 segundos |
-| 7 | Familias nuevas por embajadoras | 10 en enero y 20 al mes desde febrero (230 en el año) | Mensual | Códigos de embajadora usados en WhatsApp y en el stand | Coordinadora; Carlos | Si son menos de 10 durante 2 meses: sumar embajadoras en otros salones o cambiar el premio (siempre para el padre: pack o descuento en su compra) |
+| 5 | Familias en WhatsApp con permiso (contactos nuevos) | 100 antes del 2-ene-2027 y unas 2,300 al cierre de diciembre de 2027 (2,338 según la tabla mes a mes del documento 10) [META PROPUESTA] | Semanal | Hoja de contactos de la coordinadora | Coordinadora | Revisar el guion del vendedor; poner el QR de WhatsApp en el cartel y en la bolsa. **Regla 6:** con el pago variable (S/60 por día + S/0.30 por brownie) el contacto se puede sumar a la meta del turno [PROPUESTA] |
+| 6 | Envases escaneados | De 15 % en enero a 33 % en octubre; **30 % en el año** | Mensual | Panel de la app (`/admin`), escaneos por lote | Angie | Si en abril va por debajo de 20 %: el vendedor escanea con el padre en cada venta y la primera pantalla muestra "El hierro de hoy" en 2 segundos |
+| 7 | Familias nuevas por embajadores | 10 en enero y 20 al mes desde febrero (230 en el año) | Mensual | Códigos de embajador usados en WhatsApp y en el stand | Coordinadora; Carlos | Si son menos de 10 durante 2 meses: sumar embajadores en otros salones o cambiar el premio (siempre para el papá o la mamá: pack o descuento en su compra) |
 | 8 | Colegios con quiosco | 1 en marzo, 3 en mayo, 5 en octubre | Mensual | Pedidos de colegios y acuerdos firmados | Carlos | Sin "sin octógono" confirmado no hay quiosco: esos brownies se buscan en eventos y naturistas |
 | 9 | Contactos por feria pagada | 50 o más, y 3 de 4 criterios (padres con hijos de 4 a 11, buscan comida saludable, temporada escolar, Lima Top o Moderna) | Por feria | Hoja de contactos y ficha de la feria | Carlos | **Regla 7:** si no cumple, esa feria no se repite en 2028 |
 | 10 | Brownies por evento sin costo | 150 o más | Por evento | Reporte del vendedor | Carlos | Si 2 eventos seguidos del mismo tipo venden menos de 100, se cambia de tipo de evento (por ejemplo, kermés en vez de feria municipal) |
 | 11 | Tiendas naturistas activas | De 2 en enero a 8 en diciembre | Mensual | Pedidos de tiendas | Carlos | Muestras para adultos y ficha de lote en el anaquel |
-| 12 | Pauta: costo por contacto que llega por anuncio (en Meta, "costo por conversación" de WhatsApp: es la misma métrica del #14 y del #17) | S/5 o menos [META PROPUESTA]. Línea base con promedios de mercado: S/8.23 (#17). La meta se busca con las rondas de prueba 5-3-2 (#14, sección 3.7) | Mensual | Administrador de anuncios de Meta | Angie | Si pasa de S/8 durante 2 meses: cambiar el anuncio o el público y pasar parte de esos soles a degustación, sin cambiar el total del mes. En enero se espera un costo cerca de la base porque corren las rondas 2 y 3: la decisión se toma al cierre de febrero |
+| 12 | Pauta: costo por contacto que llega por anuncio (en Meta y YouTube, "costo por conversación" de WhatsApp: es la misma métrica del #14 y del #17) | S/5 o menos [META PROPUESTA]. Línea base con promedios de mercado: S/8.23 (#17). La meta se busca con las rondas de prueba 5-3-2 (#14, sección 3.7) | Mensual | Administrador de anuncios de Meta | Angie | Si pasa de S/8 durante 2 meses: cambiar el anuncio o el público y pasar parte de esos soles a degustación, sin cambiar el total del mes. En enero se espera un costo cerca de la base porque corren las rondas 2 y 3: la decisión se toma al cierre de febrero |
 | 13 | Seguidores de Instagram | 500 en diciembre de 2026 y 4,000 en diciembre de 2027 [META PROPUESTA] | Mensual | Estadísticas de Instagram | Angie | Es un indicador de apoyo: no se compra pauta solo para seguidores. Se ajusta con el dato real de enero y febrero |
 | 14 | Uso y nota de la app | 40 % de los registrados la usa cada semana; nota de 4.5 de 5 o más (documento 09) | Mensual | Panel de la app (`/admin`) y calificaciones | Angie; Diana | Revisión de la app en junio |
 | 15 | Presupuesto ejecutado | Igual a la serie mensual (S/24,544 en total; unos S/0.44 por brownie en 2027) | Mensual | Hoja de presupuesto (`Presupuesto-marketing-AndiBite.xlsx`) | Adela | **Regla 8:** si la caja baja de S/1,000, se usa la línea de crédito de S/3,000; marketing no gasta más de lo planeado y prioriza la degustación en el stand |
 | 16 | Piezas con visto bueno legal | 100 %; 0 piezas dirigidas a menores de 16 | Por pieza | Revisión de Adela antes de publicar | Adela | Se retira la pieza y se corrige antes de volver a publicarla |
 | 17 | Hierro medido por lote, publicado en la app [PROPUESTA] | 100 % de los lotes: cada lote de enero a junio y cada 2 meses desde julio (HECHOS_v7) | Por lote | Resultado de laboratorio y app | Diana | Un lote sin resultado no se vende como "hierro medido": se detiene la venta de ese lote hasta tener el análisis |
+| 18 | Trucos contados con #LoQueNadieVe y en el mural de Jockey Plaza (#13) | 300 al 31 de enero de 2027: 150 en redes y 150 en el mural | Semanal | Conteo de publicaciones con el hashtag y de post-its del mural | Angie; vendedores | Reforzar el pedido del truco en el stand (degustación gratis a cambio de contarlo) y volver a publicar los trucos en historias |
+| 19 | Vistas de los videos, clics y conversaciones de WhatsApp (#14) | 400,000 vistas en 2027; 4,100 clics al llamado a la acción ("Pruébalo" o "Pídelo") y 613 conversaciones (195 + 195 + 223) | Mensual | Meta Ads, YouTube y WhatsApp Business | Angie | Ver KPI 12: cambiar el gancho o el anuncio sin cambiar el total del mes |
 
 ## 3. Tablero semanal: qué se revisa cada domingo
 
@@ -49,8 +51,8 @@ Son 30 minutos. Cada fila se llena antes de la reunión y se marca con el semáf
 | 1 | Brownies por día en cada punto, de esta semana y de la anterior | Reporte de vendedores | Igual o mayor a la meta del mes (80 a 90) | De 65 a menos de la meta | Menos de 65 (si pasa 2 semanas seguidas, se actúa) | Carlos |
 | 2 | Brownies y ventas acumulados del mes frente al Excel | Hoja de pedidos | Igual o mayor al Excel | Entre 88 % y 100 % del Excel | Menos de 88 % del Excel acumulado | Carlos |
 | 3 | Pedidos de recompra por WhatsApp de la semana | WhatsApp Business | En la línea de 35 % del físico | Entre 20 % y 35 % | Menos de 20 % (2 meses seguidos) | Coordinadora |
-| 4 | Contactos nuevos con permiso | Hoja de contactos | Igual o mayor a la meta del mes dividida entre 4 | Hasta 25 % menos | Más de 25 % menos | Coordinadora |
-| 5 | Familias nuevas con código de embajadora | Códigos usados | 5 por semana o más (20 al mes) | 3 a 4 | Menos de 3 | Coordinadora |
+| 4 | Familias nuevas en WhatsApp con permiso | Hoja de contactos | Igual o mayor a la meta del mes dividida entre 4 | Hasta 25 % menos | Más de 25 % menos | Coordinadora |
+| 5 | Familias nuevas con código de embajador | Códigos usados | 5 por semana o más (20 al mes) | 3 a 4 | Menos de 3 | Coordinadora |
 | 6 | Envases escaneados del mes hasta hoy | Panel de la app | Igual o mayor a la meta del mes | Hasta 5 puntos menos | Más de 5 puntos menos | Angie |
 | 7 | Gasto de pauta y costo por contacto | Administrador de anuncios de Meta | Costo por contacto de S/5 o menos | De S/5 a S/8 | Más de S/8 | Angie |
 | 8 | Eventos y ferias de la semana: brownies y contactos | Reporte del vendedor | 150 o más por evento; 50 contactos por feria | De 100 a 149 | Menos de 100 (2 seguidos) | Carlos |
@@ -62,13 +64,13 @@ Son 30 minutos. Cada fila se llena antes de la reunión y se marca con el semáf
 **Cálculos del tablero:**
 
 - Meta semanal de contactos nuevos = contactos nuevos del mes del documento 10 ÷ 4 (por ejemplo, abril: 206 ÷ 4 = unos 52 por semana) [PROPUESTA].
-- Familias de embajadoras por semana = 20 al mes ÷ 4 = 5.
+- Familias de embajadores por semana = 20 al mes ÷ 4 = 5.
 - Punto de equilibrio de un punto de venta = (S/600 de espacio ÷ 9 días + S/90 del vendedor) ÷ S/2.41 de contribución por brownie en stand = S/156.7 ÷ 2.41 = 65 brownies por día. Por eso 65 es el rojo del KPI 1.
 
 **Agenda de los 30 minutos** [PROPUESTA]:
 
 1. 10 minutos: ventas y brownies por punto (filas 1, 2 y 8).
-2. 8 minutos: recompra, contactos, embajadoras y app (filas 3 a 6).
+2. 8 minutos: recompra, contactos, embajadores y app (filas 3 a 6).
 3. 5 minutos: pauta, colegios, naturistas (filas 7 y 9).
 4. 4 minutos: caja, legal y la semana que viene (filas 10 a 12).
 5. 3 minutos: decisiones. Cada rojo o amarillo termina con una acción, un responsable y una fecha, anotados en la misma hoja.

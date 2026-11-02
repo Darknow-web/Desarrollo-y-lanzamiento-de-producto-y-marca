@@ -15,9 +15,9 @@ Responsable: Angie Blas · Grupo 2 · AndiBite · Propuesta para revisar
 
 | Tipo de medio | S/ | % | Qué incluye |
 |---|---|---|---|
-| Publicidad | 5,950 | 24 % | Pauta en Meta (5,050), pauta de expectativa (600) y video de lanzamiento (300) |
+| Publicidad | 5,950 | 24 % | Pauta de 2027 (5,050: 4,050 en Instagram y Facebook y 1,000 en YouTube), concurso #LoQueNadieVe (600: 360 de pauta y 240 en premios) y video maestro (300) |
 | Ventas personales | 4,140 | 17 % | Vendedor(a) en 2 ferias pagadas (540) y en 40 eventos sin costo (3,600) |
-| Promociones | 7,596 | 31 % | 600 muestras (1,146), degustaciones extra (1,750), material y POP (2,300), embajadoras (2,400) |
+| Promociones | 7,596 | 31 % | 600 muestras (1,146), degustaciones extra (1,750), material y POP (2,300), embajadores (2,400) |
 | Relaciones públicas | 6,858 | 28 % | 40 packs para influencers (458), stand de 2 ferias pagadas (3,600) y aporte a 40 eventos (2,800) |
 | **Total** | **24,544** | **100 %** | |
 
@@ -27,8 +27,8 @@ Comprobación: 5,950 + 4,140 + 7,596 + 6,858 = 24,544. Es la misma tabla de la h
 
 | Canal | S/ | % | Líneas |
 |---|---|---|---|
-| Digital | 6,408 | 26 % | Pauta en Meta 5,050 + expectativa 600 + video 300 + influencers 458 |
-| BTL | 18,136 | 74 % | Vendedores 4,140 + muestras 1,146 + degustaciones 1,750 + material y POP 2,300 + embajadoras 2,400 + ferias 3,600 + aporte a eventos 2,800 |
+| Digital | 6,408 | 26 % | Pauta 5,050 (Meta 4,050 + YouTube 1,000) + concurso de expectativa 600 + video 300 + influencers 458 |
+| BTL | 18,136 | 74 % | Vendedores 4,140 + muestras 1,146 + degustaciones 1,750 + material y POP 2,300 + embajadores 2,400 + ferias 3,600 + aporte a eventos 2,800 |
 | ATL (televisión, radio, vía pública) | 0 | 0 % | No se usa |
 | **Total** | **24,544** | **100 %** | |
 
@@ -38,15 +38,16 @@ Comprobación: 5,950 + 4,140 + 7,596 + 6,858 = 24,544. Es la misma tabla de la h
 
 | Línea | S/ | % del total |
 |---|---|---|
-| Pauta en redes sociales (Meta) | 5,050 | 20.6 % |
-| Pauta de expectativa (Instagram y Facebook) | 600 | 2.4 % |
-| Video de lanzamiento con niños | 300 | 1.2 % |
+| Pauta en Instagram y Facebook (Meta) | 4,050 | 16.5 % |
+| Pauta en YouTube (video maestro 16:9 y los tres anuncios como Shorts) | 1,000 | 4.1 % |
+| Expectativa: concurso #LoQueNadieVe (S/360 de pauta en Instagram y Facebook y S/240 en premios) | 600 | 2.4 % |
+| Video de lanzamiento (video maestro "Lo que nadie ve"; en el Excel figura como "Video con niños") | 300 | 1.2 % |
 | Vendedor(a) en ferias pagadas | 540 | 2.2 % |
 | Vendedor(a) en eventos sin costo | 3,600 | 14.7 % |
 | Muestras de degustación (600) | 1,146 | 4.7 % |
 | Degustaciones extra | 1,750 | 7.1 % |
 | Material de stand y POP | 2,300 | 9.4 % |
-| Mamás embajadoras (premio al padre) | 2,400 | 9.8 % |
+| Papás y mamás embajadores (premio para el adulto) | 2,400 | 9.8 % |
 | Influencers (40 packs) | 458 | 1.9 % |
 | Ferias pagadas (stand) | 3,600 | 14.7 % |
 | Aporte a eventos sin costo | 2,800 | 11.4 % |
@@ -60,10 +61,10 @@ Comprobación: 5,950 + 4,140 + 7,596 + 6,858 = 24,544. Es la misma tabla de la h
 
 | Fase | Meses | S/ | Meta |
 |---|---|---|---|
-| Prelanzamiento | Oct–dic 2026 | 1,758 | 100 contactos en espera |
+| Prelanzamiento | Oct–dic 2026 | 1,758 | 100 familias en WhatsApp |
 | Lanzamiento | Ene–feb 2027 | 5,796 | 3,700 brownies |
 | Crecer | Mar–jul 2027 | 9,770 | 20,320 brownies; 3 colegios |
-| Expandir | Ago–dic 2027 | 7,220 | 28,311 brownies; unos 2,300 contactos |
+| Expandir | Ago–dic 2027 | 7,220 | 28,311 brownies; unas 2,300 familias en WhatsApp |
 | **Total** | **15 meses** | **24,544** | |
 
 Los picos de febrero (3,290) y abril (3,610) son las 2 ferias pagadas (S/2,070 cada una); enero (2,506) incluye las 600 muestras. Solo 2027 suma S/22,786, es decir S/0.44 de marketing por brownie vendido (22,786 ÷ 52,331 = 0.435).
@@ -72,8 +73,8 @@ Los picos de febrero (3,290) y abril (3,610) son las 2 ferias pagadas (S/2,070 c
 
 El presupuesto de marketing mensual del Excel v7 es de **S/900 al mes** y **no cambia**:
 
-- **S/700 al mes** de pauta, degustación y material = S/8,400 en 2027. Se reparten en pauta en Meta S/5,050, degustaciones extra S/1,750 y material S/1,600.
-- **S/200 al mes** de mamás embajadoras = S/2,400.
+- **S/700 al mes** de pauta, degustación y material = S/8,400 en 2027. Se reparten en pauta S/5,050 (S/4,050 en Instagram y Facebook y S/1,000 en YouTube), degustaciones extra S/1,750 y material S/1,600.
+- **S/200 al mes** de papás y mamás embajadores = S/2,400.
 - **Total fijo: S/900 × 12 = S/10,800.**
 
 El total del plan (S/24,544) es mayor porque suma tres partidas que el Excel v7 ya tenía en **otras líneas**, no en los S/900:
@@ -81,7 +82,7 @@ El total del plan (S/24,544) es mayor porque suma tres partidas que el Excel v7 
 | Partida | S/ | Dónde estaba en el Excel v7 |
 |---|---|---|
 | Marketing fijo (S/700 al mes) | 8,400 | Costos fijos, hoja Supuestos |
-| Embajadoras (S/200 al mes) | 2,400 | Costos fijos, hoja Supuestos |
+| Embajadores (S/200 al mes) | 2,400 | Costos fijos, hoja Supuestos |
 | Marketing de lanzamiento | 3,204 | Inversión inicial |
 | 2 ferias pagadas (stand S/1,800 + vendedor S/270 cada una) | 4,140 | Hoja Mensual, ferias pagadas |
 | 40 eventos sin costo (vendedor S/90 + aporte S/70 cada uno) | 6,400 | Hoja Mensual, eventos sin costo |
@@ -98,10 +99,10 @@ Lo que no entra: el espacio de los stands (S/600 por punto al mes) y los vendedo
 > Eres un analista de marketing digital. Tu tarea es estimar los principales indicadores de desempeño publicitario (CPA, ROAS, costos por campaña) para una estrategia de lanzamiento de un nuevo producto. El contexto es un negocio emprendedor basado en el modelo Canvas, alineado a los ODS y orientado al canal digital.
 >
 > - **Producto/Servicio que ofreces:** AndiBite, mini brownie de 20 g con sangrecita de res en polvo liofilizada (hierro hemo), con el hierro medido en cada lote y una app con QR en el envase. Precio de S/4.16 a S/6.00 por brownie con IGV según el canal.
-> - **Objetivo de la campaña:** contactos de WhatsApp con permiso (leads) y ventas. Los contactos sirven para la lista de espera en 2026 y para la recompra en 2027.
+> - **Objetivo de la campaña:** contactos de WhatsApp con permiso (leads) y ventas. Los contactos sirven para reunir las primeras 100 familias en WhatsApp en 2026 (aviso de apertura) y para la recompra en 2027.
 > - **Segmento objetivo:** padres y madres de 32 a 45 años, NSE A y B, con hijos de 4 a 11 años en colegio privado en Lima Top y Lima Moderna. Claudia Mendoza (A, San Borja) y Rodrigo Salazar (B, San Miguel), con la pauta repartida 50/50 desde febrero de 2027.
-> - **Presupuesto total estimado para la campaña:** S/5,050 de pauta en Meta en 2027 (S/450 al mes en promedio) y S/600 de pauta de expectativa en diciembre de 2026. El marketing total del plan es S/24,544 (se usa solo en el ROI).
-> - **Plataforma principal:** Meta Ads (Facebook e Instagram), con botón a WhatsApp.
+> - **Presupuesto total estimado para la campaña:** S/5,050 de pauta en 2027 (S/4,050 en Instagram y Facebook y S/1,000 en YouTube; S/450 al mes en promedio) y S/600 de expectativa del concurso #LoQueNadieVe en nov-dic de 2026 (S/360 de pauta y S/240 en premios). El marketing total del plan es S/24,544 (se usa solo en el ROI).
+> - **Plataforma principal:** Meta Ads (Facebook e Instagram), con botón a WhatsApp; YouTube con S/1,000 [POR CONFIRMAR: el cálculo usa el CPM y el CPC de Meta para toda la pauta; YouTube puede costar distinto].
 > - **CPC o CPM:** CPM de US$3.70 y CPC de US$0.36 para Perú (rango de CPM: US$3.00 a 4.60), con tipo de cambio de S/3.43 por dólar (BCRP, 15-oct-2026).
 > - **Tasa de conversión estimada:** clic a contacto de WhatsApp, 15 % (rango de 10 % a 25 %) [POR CONFIRMAR]; contacto a primera compra, 20 % (1 de cada 5, del documento 10) [META PROPUESTA].
 > - **Valor promedio por compra (ticket promedio):** S/4.68 por brownie con IGV (244,728 ÷ 52,331). Un pedido de WhatsApp tiene unos 7.5 brownies: 7.5 × 4.68 = S/35.10 con IGV.
@@ -157,7 +158,7 @@ Con el CPM bajo del rango (US$3.00) la pauta da unas 491,000 impresiones; con el
 | Impresiones de la pauta 2027 | 397,920 [ESTIMADO] | Es el número de veces que se muestran los anuncios a adultos de 30 a 45 años de Lima Top y Lima Moderna. Con S/5,050 en el año alcanzamos a una parte del público, no a todo; por eso la pauta apoya al stand y no lo reemplaza |
 | Clics | 4,090 [ESTIMADO] | Unos 340 clics al mes, un número realista para S/450 al mes |
 | CTR | 1.03 % [POR CONFIRMAR] | En la zona normal de Meta (cerca del promedio mundial). Si el anuncio sale por debajo de 0.8 %, se cambia el mensaje o la imagen |
-| Contactos de WhatsApp por pauta | 613 (rango 409 a 1,022) [ESTIMADO] | Son contactos extra: la meta de unos 2,300 contactos (2,338 al cierre, según el documento 10) se calculó con stands, ferias, eventos y embajadoras, sin contar la pauta |
+| Contactos de WhatsApp por pauta | 613 (rango 409 a 1,022) [ESTIMADO] | Son contactos extra: la meta de unos 2,300 contactos (2,338 al cierre, según el documento 10) se calculó con stands, ferias, eventos y embajadores, sin contar la pauta |
 | CPA por contacto | S/8.23 (rango S/4.94 a S/12.35) [ESTIMADO] | Es la línea base con promedios de mercado, no un resultado. "Contacto" aquí es lo mismo que la "conversación de WhatsApp" del #14 y el "costo por contacto que llega por anuncio" del documento 10. La meta del documento 10 es S/5 o menos y el límite de alerta es S/8: la base queda apenas por encima del límite. La meta de S/5 se busca con las rondas de prueba 5-3-2 (#14, sección 3.7): pide que 1 de cada 4 clics deje su WhatsApp, o que el CPC baje a unos S/0.75 con 15 % |
 | Clientes nuevos por pauta | 123 (rango 82 a 204) [ESTIMADO] | Supone que 1 de cada 5 contactos compra |
 | CPA por cliente | S/41.16 (rango S/24.70 a S/61.74) [ESTIMADO] | Cuesta más que el valor de un pedido (S/35.10) y unas 4 veces lo que deja un pedido (S/10.45 de contribución). La pauta no se paga con el primer pedido |
@@ -177,17 +178,17 @@ Aplicamos el prompt 4 con los datos de la sección 2.1 y revisamos cada número 
 - **Corregido, ROAS de toda la venta contra la pauta:** una IA tiende a dividir las ventas totales entre la pauta y dar un ROAS de 40 o más (207,397 ÷ 5,050 = 41). Es engañoso, porque el 82 % de las ventas se hace en el stand, en colegios, ferias y naturistas. Por eso medimos la pauta solo con las ventas de los clientes que trajo (primer pedido), y el marketing total aparte.
 - **Corregido, benchmarks:** la IA suele dar CPC y CTR de Estados Unidos o del mundo (por ejemplo, CPC de US$1.72). Los reemplazamos por los de Perú con fuente y fecha, y marcamos como [POR CONFIRMAR] el CTR y la conversión, que no tienen dato peruano confiable.
 - **Hallazgo:** el CPA de S/8.23 es la línea base con promedios de mercado y queda casi igual al límite de alerta del documento 10 (cambiar el anuncio si pasa de S/8 durante 2 meses). La meta de S/5 se busca con las rondas 5-3-2 del #14. Si en enero no baja (es el mes de las rondas 2 y 3), no se cambia nada todavía; si sigue sobre S/8 en febrero, se aplica la regla: cambiar anuncio o público y mover soles a degustación, sin cambiar el total del mes. La meta de unos 2,300 contactos no depende de la pauta (sección 2.5).
-- **Hallazgo, prelanzamiento:** la pauta de expectativa de S/600 daría unos 490 clics y 73 contactos (a 15 %, S/8.2 por contacto). La meta de 100 contactos en espera es la lista acumulada al 31-dic-2026: el documento 10 (sección 6.4) pide 20 en octubre y 50 en noviembre con el orgánico, sin pauta. Diciembre necesita sumar unos 50, y la pauta trae 73 en la base y unos 49 en el escenario prudente (10 %). Para llegar a 100 con la pauta sola harían falta S/6.00 por contacto. El detalle está en el #14, sección 4.5.
+- **Hallazgo, prelanzamiento:** de los S/600 de expectativa del concurso #LoQueNadieVe, S/360 son pauta y S/240 premios. Los S/360 darían unos 291 clics y 44 contactos (a 15 %, S/8.2 por contacto) [cálculo propio con los valores de arriba]. La meta de 100 familias en WhatsApp es la lista acumulada antes del 2-ene-2027: el documento 10 (sección 6.4) pide 20 en octubre y 50 en noviembre con el orgánico, sin pauta. Diciembre necesita sumar unos 50; la pauta de S/360 trae unos 44 en la base y unos 29 en el escenario prudente (10 %), y el resto lo ponen el concurso, las historias y los influencers. Para llegar a 100 con la pauta sola harían falta S/3.60 por contacto. El detalle está en el #14, sección 4.5.
 
 ### 2.7 CPA por canal (con las metas del plan)
 
 | Canal | Costo | Resultado de la meta | CPA | Lectura |
 |---|---|---|---|---|
-| Mamás embajadoras | S/2,400 | 230 familias nuevas | S/10.43 por familia | Es el canal más barato por cliente nuevo y viene con recomendación |
+| Papás y mamás embajadores | S/2,400 | 230 familias nuevas | S/10.43 por familia | Es el canal más barato por cliente nuevo y viene con recomendación |
 | Muestras de lanzamiento | S/1,146 por 600 muestras (S/1.91 cada una) | 1 de cada 3 padres que prueba compra [META PROPUESTA] | S/5.73 por comprador (1.91 × 3) | Barato; hay que medir si compra de verdad |
 | Evento sin costo | S/160 | 150 brownies y 10 contactos | S/16 por contacto | La contribución de 150 brownies (150 × S/2.52 = S/379) paga el evento con holgura |
 | Feria pagada | S/2,070 | 700 brownies y 50 contactos | S/41.40 por contacto | La contribución de 700 brownies (700 × S/2.52 = S/1,766) no cubre los S/2,070 (faltan S/304). Se justifica solo por los 50 contactos y por la regla 7: si no cumple, no se repite |
-| Pauta en Meta | S/5,050 | 613 contactos | S/8.23 por contacto | Ver sección 2.5 |
+| Pauta en Meta y YouTube (S/4,050 + S/1,000) | S/5,050 | 613 contactos | S/8.23 por contacto | Ver sección 2.5 |
 
 ---
 
@@ -204,7 +205,7 @@ Lo que sigue explica el ROI de marketing. El 132 % y el 16 % de la sección 3.2 
 
 **Pregunta:** ¿cuánto dinero deja el marketing frente a los S/24,544 que cuesta?
 
-### 3.1 Datos del Excel v7 (año 1, 2027, sin IGV, opción B de pack de 6)
+### 3.1 Datos del Excel v7 (año 1, 2027, sin IGV, pack de 6 con bolsita individual)
 
 | Concepto | S/ |
 |---|---|
@@ -258,7 +259,7 @@ Esta vista asigna al marketing toda la ganancia que queda después de pagar el r
 
 - Las ventas (52,331 brownies) son la meta del Excel v7. Con el escenario oficial de −20 % (Excel v7, hoja Resumen, nota 5: 20 % menos ventas por punto; es el mismo del #06), los stands y la recompra que depende de ellos venden 20 % menos: la contribución baja de 97,294 a unos 84,477 y el resultado operativo, de S/13,423 a S/608. Con los mismos costos de stand (40,470), la contribución después de stands queda en unos 44,007 y el ROI de marketing en su cifra principal cae a (44,007 × 0.75 − 24,544) ÷ 24,544 = **34 %**; el techo, a (44,007 − 24,544) ÷ 24,544 = 79 %, y el piso, a (44,007 × 0.50 − 24,544) ÷ 24,544 = −10 % [ESTIMADO, supone que el costo de stand no baja].
 - CTR y conversión de clic a contacto: [POR CONFIRMAR] con Ads Manager. El tipo de cambio (S/3.43) se actualiza con el BCRP al cierre de 2026.
-- Cuánto de la venta explica el marketing: hay que medirlo con códigos de embajadora, contactos de WhatsApp y encuesta "¿cómo nos conociste?" en el stand [PROPUESTA].
+- Cuánto de la venta explica el marketing: hay que medirlo con códigos de embajador, contactos de WhatsApp y encuesta "¿cómo nos conociste?" en el stand [PROPUESTA].
 
 ---
 
@@ -274,7 +275,7 @@ Esta vista asigna al marketing toda la ganancia que queda después de pagar el r
 
 - **Recompra por WhatsApp (hoja Mensual, fila 16):** en enero es un dato fijo de 150 brownies (`=Supuestos!B66`). Desde febrero es `=ROUND(Supuestos!B65*(stands + ferias y eventos del mes anterior),0)`, es decir, 35 % de lo vendido en físico el mes anterior. No depende de los contactos ni de la pauta.
 - **Pauta (hoja Supuestos, B72):** está dentro de los S/700 al mes de marketing, que son un costo fijo. El Excel la paga entera y no le asigna ninguna venta.
-- **Meta de contactos:** los 2,338 contactos del documento 10 (sección 6.3) salen de stands, ferias, eventos y embajadoras, sin la pauta (sección 2.5 de este punto).
+- **Meta de contactos:** los 2,338 contactos del documento 10 (sección 6.3) salen de stands, ferias, eventos y embajadores, sin la pauta (sección 2.5 de este punto).
 
 **Qué parte del plan es sensible al CPA y cuál no:**
 
@@ -366,7 +367,7 @@ Todo lo que no es "Excel v7" es [ESTIMADO] con los supuestos de "Cómo conecta e
 |---|---|---|---|
 | **(a) Mantener el plan con 5-3-2 y un gatillo** | Enero y febrero: rondas 5-3-2 (#14, 3.7). Si a fin de febrero el CPA sigue sobre S/8, la pauta se pasa al anuncio ganador o a retargeting (volver a mostrar el anuncio a quien ya vio el video o escribió) | Si llega a S/5 desde marzo: 939 contactos (900 ÷ 8.23 + 4,150 ÷ 5), S/4,025 en 2027 y +S/3,718 de utilidad neta. Si queda en S/6.50: 748 contactos y S/3,298. Si no baja: igual que la base (613 y S/2,788) | El público de retargeting es chico: con unas 400,000 impresiones en el año se agota rápido y su CPA en Perú está [POR CONFIRMAR]. Cada variante del 5-3-2 recibe pocas conversaciones (#14, 3.7), así que el "ganador" puede salir por azar |
 | **(b) Pasar parte de la pauta a canales con mejor costo por cliente** | Pasar S/150 al mes de pauta, de marzo a diciembre (S/1,500), a degustación extra en los stands. Cabe en la regla del documento 10 ("pasar soles a degustación sin cambiar el total del mes") | La pauta baja a S/3,550: 431 contactos y S/2,091 en 2027. Los S/1,500 compran 785 muestras (1,500 ÷ 1.91) y unos 262 compradores (1 de cada 3 [META PROPUESTA]). Cada uno deja S/8.70: 3 brownies × 2.414 en el stand + 35 % de recompra × 3 × 1.393. Total: S/2,279. **En 2027: S/4,370 frente a S/2,788 (+S/1,582).** Hasta dic-2028 queda casi igual (S/7,976 frente a S/7,916): la pauta deja menos cola en 2028 (−S/1,522) | El "1 de cada 3 que prueba compra" no está medido. Son unas 3.3 muestras más por punto y por día (785 ÷ 236 días-punto de marzo a diciembre): es poco, pero depende de que pase gente por el stand |
-| (b2) Variante: pasar los S/1,500 a embajadoras [PROPUESTA] | Más premios para padres embajadores | A S/10.43 por familia (sección 2.7) serían 144 familias. Con la misma cuenta de S/8.70 por familia, unos S/1,251 en 2027 | Cambia el reparto decidido de S/700 + S/200, por eso es [PROPUESTA]. Pasar de 20 a unas 33 familias al mes necesita más embajadoras, y los chats del colegio pueden no aceptar mensajes de venta (documento 10, riesgo 6) |
+| (b2) Variante: pasar los S/1,500 a embajadores [PROPUESTA] | Más premios para padres embajadores | A S/10.43 por familia (sección 2.7) serían 144 familias. Con la misma cuenta de S/8.70 por familia, unos S/1,251 en 2027 | Cambia el reparto decidido de S/700 + S/200, por eso es [PROPUESTA]. Pasar de 20 a unas 33 familias al mes necesita más embajadores, y los chats del colegio pueden no aceptar mensajes de venta (documento 10, riesgo 6) |
 | (b3) QR y app, y quioscos | No absorben soles de la pauta | El código cuesta S/0.04 y ya está en el costo. Los quioscos dependen del "sin octógono" y de los contratos, no de dinero, y sus muestras ya salen de los S/700 | Ninguno. Simplemente no sirven como destino del dinero |
 | **(c) Usar la pauta para llenar el stand y medirla por brownies por día** | Parte de la pauta de cada fin de semana va en un radio de 2 a 3 km del punto (como en enero en Jockey, #14, 4.4), y se compara la venta de los fines de semana con y sin esa pauta | Cada brownie más por día y por punto en todo el año deja S/763: 263 días-punto × (2.414 + 35 % × 1.393). La pauta entera (S/5,050) se paga si sube **6.6 brownies por día por punto** (unos 8 % sobre 85); S/1,500 se pagan con 2 brownies más | Es difícil de medir con 9 días al mes: el clima, la fecha o el pasillo mueven más que la pauta. Las opciones de radio en Ads Manager están [POR CONFIRMAR]. Sirve más para medir que para reemplazar al plan |
 

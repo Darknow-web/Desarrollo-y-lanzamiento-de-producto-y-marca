@@ -57,10 +57,10 @@ De abajo hacia arriba significa que se parte de lo que una persona hace en un pu
 
 **Quiénes son los clientes de cada canal:**
 
-- **Stands:** puntos 1 (Jockey Plaza, desde enero, A y B), 2 (Real Plaza Salaverry u Open Plaza Angamos, desde febrero, B) y 3 (La Rambla San Borja o carrito en Wong o Vivanda, desde agosto, A). En el año suman 28 "puntos-mes" (1 en enero, 2 de febrero a julio y 3 de agosto a diciembre: 1 + 2×6 + 3×5). Los vendedores cobran S/90 por día.
+- **Stands:** puntos 1 (Jockey Plaza, desde enero, A y B), 2 (Salaverry, desde febrero, B) y 3 (La Molina, desde agosto, A). En el año suman 28 "puntos-mes" (1 en enero, 2 de febrero a julio y 3 de agosto a diciembre: 1 + 2×6 + 3×5). Los vendedores cobran S/90 por día.
 - **Ferias:** solo 2 pagadas (campaña escolar en febrero y Día del Niño Peruano en abril). Se repiten solo si dejan 50 contactos de WhatsApp.
 - **Eventos sin costo:** 40 en el año (1, 2, 4, 4, 5, 4, 3, 4, 4, 4, 3, 2 por mes).
-- **Recompra:** el cliente que compró en físico vuelve a pedir por WhatsApp, sin suscripción, con entrega agrupada 2 días por semana. Las **mamás embajadoras** (S/200 al mes, 230 familias en el año) traen clientes nuevos, que primero compran en físico y por eso suben el 35 % del mes siguiente. El Excel no tiene una fila aparte para ellas.
+- **Recompra:** el cliente que compró en físico vuelve a pedir por WhatsApp, sin suscripción, con entrega agrupada 2 días por semana. Los **papás y mamás embajadores** (S/200 al mes, 230 familias en el año) traen clientes nuevos, que primero compran en físico y por eso suben el 35 % del mes siguiente. El Excel no tiene una fila aparte para ellas.
 - **Colegios:** 1 colegio en marzo, 3 en mayo y 5 en octubre (2 de pensión alta, A, y 3 de pensión media, B). Solo se venden productos sin octógonos.
 - **Naturistas:** de 2 tiendas en enero a 8 en diciembre.
 

@@ -44,7 +44,7 @@ Precio por 20 g = precio del envase ÷ gramos × 20. Por kg = precio ÷ kilos.
 
 | Marca | Pensado para la lonchera | Dónde se compra | Cómo habla | Sabor y textura |
 |---|---|---|---|---|
-| **AndiBite** | Sí: 20 g en bolsita sellada, sin frío, 3 sabores para la semana | Stands en malls (Jockey Plaza y un 2.º punto desde febrero; 3.º punto desde agosto), 2 ferias, 40 eventos, quioscos desde marzo, naturistas; recompra por WhatsApp | "Hierro medido. Sabor a brownie." Territorio: "Medido, no prometido". Nunca "previene la anemia" | Brownie húmedo (fudgy). La aceptación se confirma con el focus 2 [POR CONFIRMAR] |
+| **AndiBite** | Sí: 20 g en bolsita sellada, sin frío, 3 sabores para la semana | Stands en malls (Jockey Plaza y un 2.º punto desde febrero; 3.º punto desde agosto), 2 ferias, 40 eventos, quioscos desde marzo, naturistas; recompra por WhatsApp | "Dulce para ellos. Tranquilidad para ti." Ficha: "Hierro medido. Sabor a brownie." Territorio: "hierro sin pelear cada mañana". Nunca "previene la anemia" | Brownie húmedo (fudgy). La aceptación se confirma con el focus 2 [POR CONFIRMAR] |
 | **Nutri H** | Sí, con mensaje contra la anemia | Web propia (envío nacional desde Ayacucho) y puntos de venta en Lima | "Alto contenido en hierro", "antianémico" | Galleta. "Seca" o "ferrosa" es opinión [POR CONFIRMAR con degustación] |
 | **Forticao** | No es su foco: se vende como alimento fortificado en farmacia | Tienda en línea; farmacias según la Cámara de Comercio de Lima (2025) | "Tu mejor aliado para prevenir y combatir la anemia" (su web) | Chocolate de leche [POR CONFIRMAR con degustación] |
 | **Fika** | No: para adultos que cuidan el azúcar | Web propia, delivery en Lima | Libre de azúcar | Brownie "melcochudo" (su web) |
