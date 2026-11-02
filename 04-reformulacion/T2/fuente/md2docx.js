@@ -98,7 +98,7 @@ const doc = new Document({
   },
   numbering: { config },
   sections: [{ properties: { page: { size: { width: 12240, height: 15840 }, margin: { top: 1300, right: 1440, bottom: 1300, left: 1440 } } },
-    footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: 'AndiBite · Grupo 2 · T2 Plan de marketing · ', size: 16, color: MID }), new TextRun({ children: [PageNumber.CURRENT], size: 16, color: MID })] })] }) },
+    footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: (process.env.PIE || 'AndiBite · Grupo 2 · T2 Plan de marketing') + ' · ', size: 16, color: MID }), new TextRun({ children: [PageNumber.CURRENT], size: 16, color: MID })] })] }) },
     children }],
 });
 Packer.toBuffer(doc).then(b => { fs.writeFileSync(OUT, b); console.log('ok', OUT, b.length); });

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Modelo de negocio: AndiBite</title>
+<style>
+  :root {
+    --cafe: #4A2018; --texto: #3B1A14; --ladrillo: #BA4036; --dorado: #E3A33B; --oliva: #7C8A3A;
+    --arena: #D9B48F; --vino: #8A1C2B; --medio: #6B3A2A; --crema: #FBF3E8;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { width: 1920px; height: 1080px; background: #fff; font-family: Carlito, Calibri, "Liberation Sans", Arial, sans-serif; color: var(--texto); }
+  .page { width: 1920px; height: 1080px; padding: 28px 36px 30px; display: flex; flex-direction: column; gap: 14px; background: #fff; }
+  header { height: 76px; background: #1A1A1A; color: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0 28px; border-radius: 6px; }
+  header h1 { margin: 0; font-size: 36px; letter-spacing: 1px; font-weight: 700; }
+  header h1 span { color: var(--dorado); }
+  header .logo { height: 60px; background: #fff; border-radius: 8px; padding: 6px 14px; display: flex; align-items: center; gap: 10px; }
+  header .logo img { height: 48px; }
+  header .logo small { color: var(--cafe); font-size: 16px; line-height: 1.1; }
+  .grid { flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: 1fr 1fr 0.78fr; gap: 14px; }
+  .box { border: 2px solid; border-radius: 8px; padding: 12px 14px 10px; position: relative; overflow: hidden; display: flex; flex-direction: column; }
+  .box h2 { margin: 0 0 6px; font-size: 19px; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+  .box h2 .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; color: #fff; font-size: 13px; align-items: center; justify-content: center; }
+  .box ul { margin: 0; padding-left: 16px; font-size: 16.5px; line-height: 1.28; }
+  .box li { margin-bottom: 4px; }
+  .box li b { font-weight: 700; }
+  .box .ico { position: absolute; right: 10px; bottom: 6px; font-size: 54px; opacity: 0.13; line-height: 1; }
+  .socios { grid-column: 1; grid-row: 1 / 3; border-color: #E8A39A; background: #FDEDEA; } .socios h2 { color: var(--vino); } .socios .n { background: var(--vino); }
+  .actividades { grid-column: 2; grid-row: 1; border-color: #C9A6D9; background: #F4ECF8; } .actividades h2 { color: #6B3F8A; } .actividades .n { background: #6B3F8A; }
+  .recursos { grid-column: 2; grid-row: 2; border-color: #9FC48F; background: #EEF6E8; } .recursos h2 { color: #4E7A2F; } .recursos .n { background: #4E7A2F; }
+  .propuesta { grid-column: 3; grid-row: 1 / 3; border-color: var(--dorado); background: #FFF4DF; } .propuesta h2 { color: #9A5F0E; } .propuesta .n { background: #9A5F0E; }
+  .relacion { grid-column: 4; grid-row: 1; border-color: #B9D88C; background: #F2F8E6; } .relacion h2 { color: var(--oliva); } .relacion .n { background: var(--oliva); }
+  .canales { grid-column: 4; grid-row: 2; border-color: #EBD27A; background: #FFF9DF; } .canales h2 { color: #8A6D0B; } .canales .n { background: #8A6D0B; }
+  .segmentos { grid-column: 5; grid-row: 1 / 3; border-color: #9DB4D9; background: #EAF0FA; } .segmentos h2 { color: #2E4E85; } .segmentos .n { background: #2E4E85; }
+  .costos { grid-column: 1 / 3; grid-row: 3; border-color: #8FCBD2; background: #E8F6F8; } .costos h2 { color: #1F6E78; } .costos .n { background: #1F6E78; }
+  .centro { grid-column: 3 / 4; grid-row: 3; border: 0; background: transparent; align-items: center; justify-content: center; text-align: center; padding: 0; }
+  .centro .slogan { font-size: 22px; color: var(--cafe); font-weight: 700; line-height: 1.25; }
+  .centro .slogan small { display: block; font-weight: 400; font-size: 15px; color: var(--medio); margin-top: 6px; }
+  .centro img { height: 92px; margin-bottom: 8px; }
+  .ingresos { grid-column: 4 / 6; grid-row: 3; border-color: #EAA7C7; background: #FCEAF2; } .ingresos h2 { color: #9A2D5E; } .ingresos .n { background: #9A2D5E; }
+  .propuesta .big { font-size: 20px; font-weight: 700; color: var(--cafe); line-height: 1.25; margin: 2px 0 10px; }
+  footer { height: 24px; font-size: 14px; color: var(--medio); display: flex; justify-content: space-between; align-items: center; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>#MODELO DE NEGOCIO: <span>ANDIBITE</span></h1>
+    <div class="logo"><img src="logo_color.png" alt="AndiBite" /><small>Mini brownie con hierro<br />+ app Andi</small></div>
+  </header>
+
+  <div class="grid">
+    <section class="box socios">
+      <h2><span class="n">8</span>Socios clave</h2>
+      <ul>
+        <li><b>Planta de maquila</b> con registro sanitario: fabrica por nosotros, sin planta propia (S/0.45 por brownie).</li>
+        <li><b>Proveedor de sangrecita</b> de res liofilizada, lista y a granel (S/300 por kg).</li>
+        <li><b>Laboratorio</b> que mide el hierro de cada lote y lo publica en la app.</li>
+        <li><b>Malls</b>: Jockey Plaza (enero 2027), Real Plaza Salaverry (febrero), La Molina (agosto).</li>
+        <li><b>Colegios</b> privados y <b>tiendas naturistas</b> como puntos de reventa.</li>
+        <li><b>Pediatras y nutricionistas</b> que recomiendan; Meta y YouTube para la pauta.</li>
+      </ul>
+      <div class="ico">🤝</div>
+    </section>
+
+    <section class="box actividades">
+      <h2><span class="n">7</span>Actividades clave</h2>
+      <ul>
+        <li>Receta y prueba sensorial con niños y familias.</li>
+        <li>Producción por maquila y control de calidad por lote.</li>
+        <li>Medir y publicar el hierro de cada lote.</li>
+        <li>Venta directa en stands, ferias y colegios.</li>
+        <li>Contenido, pauta digital y atención por WhatsApp y app.</li>
+      </ul>
+      <div class="ico">🎯</div>
+    </section>
+
+    <section class="box propuesta">
+      <h2><span class="n">4</span>Propuesta de valor</h2>
+      <div class="big">Hierro sin pelear cada mañana.</div>
+      <ul>
+        <li>Mini brownie de 20 g con <b>sangrecita escondida</b>: el niño lo pide, no lo rechaza.</li>
+        <li><b>1.9 mg de hierro hemo</b> por unidad, medido en laboratorio en cada lote.</li>
+        <li>Hecho para la lonchera: <b>sin octógonos</b>, tres sabores, bolsita individual.</li>
+        <li><b>App Andi</b>: papá y mamá ven «el hierro de hoy», arman loncheras y recompran en un clic; el niño juega.</li>
+        <li>Se prueba gratis en el stand antes de comprar.</li>
+        <li>Slogan: «Dulce para ellos. Tranquilidad para ti.»</li>
+      </ul>
+      <div class="ico">👌</div>
+    </section>
+
+    <section class="box relacion">
+      <h2><span class="n">2</span>Relación con el cliente</h2>
+      <ul>
+        <li>Degustación cara a cara: el niño prueba, papá y mamá compran.</li>
+        <li>Comunidad «Lo que nadie ve»: concurso de trucos #LoQueNadieVe.</li>
+        <li>La app avisa cuándo recomprar; 35 % vuelve por WhatsApp.</li>
+        <li>Papás y mamás embajadores por salón (S/200 al mes).</li>
+      </ul>
+      <div class="ico">💚</div>
+    </section>
+
+    <section class="box segmentos">
+      <h2><span class="n">1</span>Segmentos de clientes</h2>
+      <ul>
+        <li><b>B2C:</b> papás y mamás de 32 a 45 años, NSE A y B, con hijos de 4 a 11 en colegio privado. Leen etiquetas e invierten en salud.</li>
+        <li><b>Lima Top y Lima Moderna</b> primero: 46,000 hogares (núcleo); 168,000 hogares A/B en toda Lima.</li>
+        <li><b>Claudia</b> (38, San Borja, abogada): quiere saber qué come su hijo.</li>
+        <li><b>Rodrigo</b> (40, San Miguel, jefe de logística): quiere una mañana menos de pelea.</li>
+        <li><b>B2B secundario:</b> quioscos de colegios y tiendas naturistas (25 % de la venta).</li>
+      </ul>
+      <div class="ico">👨‍👩‍👧</div>
+    </section>
+
+    <section class="box recursos">
+      <h2><span class="n">6</span>Recursos clave</h2>
+      <ul>
+        <li>Receta que esconde la sangrecita y la mantiene estable.</li>
+        <li>Marca AndiBite, personaje Andi y registro sanitario.</li>
+        <li>App web con QR en cada envase y datos de cada familia.</li>
+        <li>Equipo de cinco socios y vendedores pagados.</li>
+      </ul>
+      <div class="ico">🏪</div>
+    </section>
+
+    <section class="box canales">
+      <h2><span class="n">3</span>Canales</h2>
+      <ul>
+        <li><b>Stands y carrito</b> en malls: 43 % de los brownies.</li>
+        <li><b>WhatsApp</b> (recompra): 18 %. <b>Ferias y eventos</b>: 14 %.</li>
+        <li><b>Colegios</b> 17.5 % y <b>naturistas</b> 7 %.</li>
+        <li>Instagram, Facebook y YouTube (video); QR del envase hacia la app.</li>
+      </ul>
+      <div class="ico">🚀</div>
+    </section>
+
+    <section class="box costos">
+      <h2><span class="n">9</span>Estructura de costos</h2>
+      <ul>
+        <li><b>S/3.71 por brownie</b>: producir S/1.67 + canal S/0.43 + stands y ferias S/0.98 + fijos S/0.63 (venta S/3.96 sin IGV).</li>
+        <li>Gastos fijos S/2,738 al mes; marketing S/24,544 en 15 meses (74 % calle, 26 % digital).</li>
+        <li>Inversión inicial S/40,876 (socios S/25,000 + préstamo S/16,000); sin planta propia.</li>
+        <li>Punto de equilibrio: 3,096 brownies al mes.</li>
+      </ul>
+      <div class="ico">🧮</div>
+    </section>
+
+    <section class="box centro">
+      <img src="logo_color.png" alt="AndiBite" />
+      <div class="slogan">Dulce para ellos.<br />Tranquilidad para ti.<small>Grupo 2 · UPN Los Olivos · Expoinnova 2026-2</small></div>
+    </section>
+
+    <section class="box ingresos">
+      <h2><span class="n">5</span>Fuentes de ingresos</h2>
+      <ul>
+        <li>Venta directa: unidad S/6.00, caja de 3 sabores S/16.50, pack de 6 S/27.90, pack de 12 S/51.90 (stand, con IGV).</li>
+        <li>WhatsApp con precio de recompra (pack de 6 S/26.90); colegios S/3.20 por unidad; naturistas S/18.50 por pack de 6.</li>
+        <li><b>Año 1 (2027):</b> 52,331 brownies, S/244,728 de ventas, utilidad neta S/10,379.</li>
+        <li><b>Año 2:</b> S/322,329 de ventas y S/28,447 de utilidad; inversión recuperada en el mes 23.</li>
+      </ul>
+      <div class="ico">📈</div>
+    </section>
+  </div>
+
+  <footer>
+    <span>Carrera: Administración y Marketing · Curso: Desarrollo y Lanzamiento de Nuevos Productos · Docente: Paola Zevallos</span>
+    <span>Diana Ayoso · Patricia Cárdenas · Adela Robles · Angie Blas · Carlos Inga</span>
+  </footer>
+</div>
+</body>
+</html>
