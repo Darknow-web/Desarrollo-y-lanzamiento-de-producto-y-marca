@@ -26,3 +26,5 @@ Los ajustes de ElevenLabs (modelo, voces, Stability, Similarity, Style y Speed) 
 - Las voces de los videos de buyer persona (P1 Claudia y P2 Rodrigo): las fichas llevan foto.
 
 **Historias de diciembre:** la voz corta de los ganadores está en `PRODUCCION-videos.md`, «Historias de diciembre».
+
+- Cómo deben sonar las voces (redacción y locución, ajustes de ElevenLabs v3 y v2): `TONO-de-voz.md`.
