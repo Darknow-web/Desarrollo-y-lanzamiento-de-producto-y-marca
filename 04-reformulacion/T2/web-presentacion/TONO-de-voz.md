@@ -27,16 +27,17 @@ Esta es la guía para que cualquier voz en off de la marca (el pitch, el video m
 
 Reglas que no se negocian, además: siempre «papá y mamá»; el niño nunca habla ni aparece; nunca «combate» ni «previene la anemia»; «superhéroe», no «Hulk», en pauta pagada; el concurso es por votos, nunca «sorteo».
 
-## Las cuatro voces
+## Las cinco voces
 
 | Voz | Quién es | Cómo suena | Para qué video |
 |---|---|---|---|
-| **Marca** | Una mamá limeña de unos 35 que ya pasó por esto y te lo cuenta sin drama | Cálida, segura, con una sonrisa que se oye; nunca locutora | Pitch, video maestro, convocatoria, historias |
+| **Marca** | Una mamá limeña de unos 35 que ya pasó por esto y te lo cuenta sin drama | Cálida, segura, con una sonrisa que se oye; nunca locutora | Video maestro, convocatoria, historias |
+| **Carlos** | El fundador, hablando por el equipo de cinco («vengo de parte de un equipo»; después, «hicimos», «abrimos») | Como quien le cuenta a un jurado algo que le pasó; calmado, sin vender; una media sonrisa; el slogan casi en voz baja | Elevator pitch (su avatar en ElevenLabs con HeyGen Avatar IV) |
 | **Claudia** | 38, abogada, San Borja | Íntima, un poco cansada, con humor seco; confiesa | Anuncio de Claudia |
 | **Rodrigo** | 40, jefe de logística, San Miguel | Rápido, cómplice, como quien habla en el semáforo; remata lento | Anuncio de Rodrigo |
 | **Papá del testimonio** | Un papá real que ganó el concurso | Natural, con risa contenida, se traba un poco | Testimonio (solo como referencia; el real se graba con su voz) |
 
-Al elegir voces en ElevenLabs: acento latinoamericano neutro o peruano, nunca de España; escucha la muestra con una frase del guion antes de guardarla.
+Al elegir voces en ElevenLabs: acento latinoamericano neutro o peruano, nunca de España; escucha la muestra con una frase del guion antes de guardarla. La de Carlos, mejor clonada de su propia voz (`PITCH-video.md`, sección 2).
 
 ## Ajustes de ElevenLabs
 

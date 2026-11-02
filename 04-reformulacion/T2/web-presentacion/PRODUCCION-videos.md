@@ -18,7 +18,7 @@ Son cinco videos para redes y YouTube, del concurso de noviembre a los anuncios 
 
 ---
 
-## Antes de empezar (vale para los cinco y para el pitch)
+## Antes de empezar (vale para los cinco y para la voz del pitch)
 
 ### Reglas
 - Solo hablan y salen adultos. El niño nunca sale en cámara ni habla (Ley 30021). Siempre se habla de papá y mamá.
@@ -62,13 +62,13 @@ Si te falta alguno de los F, genéralo con su prompt de `PROMPTS-campana.md` ant
 
 Se adjuntan siempre `empaque_mockup.jpg` y `logo_light.png`. Revisa cada palabra y las tildes; si una sale mal, pide: «replace the word X with Y».
 
-**E1 · `cierre_16x9.png` (video maestro y pitch).** Es el mismo prompt de `PITCH-video.md`, sección 4. Adjunta también F1.
+**E1 · `cierre_16x9.png` (video maestro).** Si ya tienes la pantalla de cierre que está en la presentación (`public/img/campana/cierre.jpg`), úsala y no generes esta. Adjunta también F1.
 
 ```
 Wide 16:9 end card for a video, 1920x1080, photorealistic with clean graphic typography. Use the attached images as references: the kraft pouch, the AndiBite logo and the kitchen. Scene: the same warm Lima kitchen, light oak table, soft late-morning side light, shallow depth of field. Right half of the frame: the matte kraft stand-up pouch from the reference (keep its label exactly as in the reference; if it cannot be reproduced faithfully, keep it plain kraft) standing next to the closed terracotta lunchbox with a cream lid and a brick-red latch, and a smartphone lying face up showing a simple app screen with a soft red progress ring on a cream background (no readable numbers). Left half: calm, darker cocoa-brown negative space for text. Typography in Spanish, rendered exactly as written, with accents and no spelling mistakes, in a rounded bold sans-serif, all on the left half: a large headline in cream white (#FBF3E8), in two lines: "Dulce para ellos." / "Tranquilidad para ti." Below it, two rounded pill buttons side by side: a solid brick-red pill (#BA4036) with cream text "Pruébalo en el stand" and an outlined cream pill with cream text "Pídelo por WhatsApp". Below the buttons, one small cream line: "Jockey Plaza · desde el 2 de enero". Bottom left: the AndiBite logo from the reference, small, and next to it "#LoQueNadieVe" in warm gold (#E3A33B). No other text, no children, no watermark, no octagon warning labels, no extra logos.
 ```
 
-**E2 · `cierre_anuncios_9x16.png` (los tres anuncios y el pitch vertical).** Adjunta también F1.
+**E2 · `cierre_anuncios_9x16.png` (los tres anuncios).** Adjunta también F1.
 
 ```
 Vertical 9:16 end card for a social video ad, 1080x1920, photorealistic with clean graphic typography. Use the attached images as references: the kraft pouch, the AndiBite logo and the kitchen. Scene: the same warm Lima kitchen, light oak table, soft morning side light, shallow depth of field. Lower half of the frame: the matte kraft stand-up pouch from the reference (keep its label exactly as in the reference; if it cannot be reproduced faithfully, keep it plain kraft) standing next to the closed terracotta lunchbox with a cream lid and a brick-red latch, and a smartphone lying face up showing a simple app screen with a soft red progress ring on a cream background (no readable numbers). Upper half: calm, darker cocoa-brown background so the text reads well. Typography in Spanish, rendered exactly as written, with accents and no spelling mistakes, in a rounded bold sans-serif: at the top, one small line in warm gold (#E3A33B): "El truco que ya no necesita cuento." Below it, a large headline in cream white (#FBF3E8), in two lines: "Dulce para ellos." / "Tranquilidad para ti." Below the headline, two rounded pill buttons stacked with a small gap: a solid brick-red pill (#BA4036) with cream text "Pruébalo en el stand" and an outlined cream pill with cream text "Pídelo por WhatsApp". Under the buttons, one small cream line: "Con hierro de verdad · 1.9 mg en cada brownie". At the very bottom, centered and small: the AndiBite logo from the reference and, under it, "#LoQueNadieVe" in warm gold. No other text, no children, no watermark, no octagon warning labels, no extra logos.
@@ -371,16 +371,17 @@ Se vuelven a publicar los trucos que llegan, con el texto «Este diciembre sí l
 | Herramienta | Cantidad | Qué |
 |---|---|---|
 | Nano Banana | 3 imágenes | E1 `cierre_16x9.png`, E2 `cierre_anuncios_9x16.png`, E3 `cierre_convocatoria_9x16.png` (y los F1 a F4 solo si te faltan) |
-| ElevenLabs | 4 voces guardadas, 6 pistas | `pitch_voz.mp3`, `maestro_voz.mp3`, `convocatoria_voz.mp3`, `anuncio_a_voz.mp3`, `anuncio_b_voz.mp3`, `testimonial_voz.mp3` |
-| Flow (Veo 3) | 15 clips (14 si reusas el clip B del maestro) | Pitch 8 (`pitch_01` a `pitch_08`); maestro 2 (`maestro_a`, `maestro_b`); convocatoria 2 (`conv_a`, `conv_b`); `anuncio_a_clip`, `anuncio_b_clip`, `testimonial_clip` |
+| ElevenLabs | 5 voces guardadas (la de Carlos, para el pitch), 6 pistas | `pitch_voz.mp3`, `maestro_voz.mp3`, `convocatoria_voz.mp3`, `anuncio_a_voz.mp3`, `anuncio_b_voz.mp3`, `testimonial_voz.mp3` |
+| Flow (Veo 3) | 7 clips (6 si reusas el clip B del maestro) | maestro 2 (`maestro_a`, `maestro_b`); convocatoria 2 (`conv_a`, `conv_b`); `anuncio_a_clip`, `anuncio_b_clip`, `testimonial_clip` |
 | CapCut | 1 música, 6 proyectos, 7 archivos | Pitch en 16:9 y 9:16 más los cinco videos de campaña |
+| ElevenLabs (avatares, HeyGen Avatar IV) | 1 video | `pitch_avatar.mp4`: Carlos a cámara con `pitch_voz.mp3`; ver `PITCH-video.md`, sección 3 |
 
 **Checklist en orden:**
 1. [ ] Junta las referencias en una carpeta: F1, F2, F3, F4, S1, `empaque_mockup.jpg` y `logo_light.png`.
 2. [ ] Nano Banana: genera E1, E2 y E3, y revisa cada palabra con sus tildes.
-3. [ ] ElevenLabs: deja guardadas las cuatro voces (Marca, Claudia, Rodrigo y Papá del testimonio).
+3. [ ] ElevenLabs: deja guardadas las cinco voces (Marca, Claudia, Rodrigo, Papá del testimonio y Carlos, clonada de su propia voz).
 4. [ ] ElevenLabs: genera las 6 pistas, tres tomas cada una, en este orden: convocatoria, maestro, anuncio A, anuncio B, testimonio y pitch. Mide cada una con cronómetro.
-5. [ ] Flow: genera los 15 clips con 2 variantes cada uno. Elige la mejor y descárgala con su nombre.
+5. [ ] Flow: genera los 7 clips con 2 variantes cada uno. El pitch no lleva clips de Veo: es el avatar de Carlos con cinco insertos de fotos que ya existen (`PITCH-video.md`, secciones 3 y 4). Elige la mejor y descárgala con su nombre.
 6. [ ] Revisa cada clip: ¿sale un niño, un personaje conocido, letras inventadas o un brownie en primer plano? Si pasa, se regenera.
 7. [ ] CapCut: elige una sola música sin letra para todo.
 8. [ ] CapCut: monta la convocatoria primero (el concurso empezó el 1 de noviembre), después el maestro (sale el 30 de noviembre), el pitch y los tres anuncios (salen en enero).

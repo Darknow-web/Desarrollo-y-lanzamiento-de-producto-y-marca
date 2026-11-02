@@ -1,10 +1,10 @@
 # Guiones de voz · índice (versión 2)
 
-Los textos de voz están en un solo lugar para que no se desajusten: `PRODUCCION-videos.md` (los cinco videos de la campaña) y `PITCH-video.md` (el pitch de 60 segundos). Cada video tiene una sola pista de ElevenLabs, con el texto completo listo para pegar y sus marcas de tiempo. Si cambias una palabra, cámbiala allí.
+Los textos de voz están en un solo lugar para que no se desajusten: `PRODUCCION-videos.md` (los cinco videos de la campaña) y `PITCH-video.md` (el pitch de 60 segundos, que dice Carlos a cámara por medio de su avatar en ElevenLabs con HeyGen Avatar IV, sin ningún texto encima del video). Cada video tiene una sola pista de ElevenLabs, con el texto completo listo para pegar y sus marcas de tiempo. Si cambias una palabra, cámbiala allí.
 
 | Pista | Video | Voz | Duración | Dónde está el texto |
 |---|---|---|---|---|
-| `pitch_voz.mp3` | Elevator pitch | Marca | 60 s | `PITCH-video.md`, sección 1 |
+| `pitch_voz.mp3` | Elevator pitch (avatar de Carlos) | Carlos (voz clonada o masculina cercana), habla por el equipo | 60 s | `PITCH-video.md`, secciones 1 y 2 |
 | `maestro_voz.mp3` | Video maestro «Lo que nadie ve» | Marca | 16 s | `PRODUCCION-videos.md`, video 1 |
 | `convocatoria_voz.mp3` | Convocatoria del concurso | Marca | 15 s | `PRODUCCION-videos.md`, video 2 |
 | `anuncio_a_voz.mp3` | Anuncio para Claudia | Claudia | 8 s | `PRODUCCION-videos.md`, video 3 |
@@ -24,6 +24,7 @@ Los ajustes de ElevenLabs (modelo, voces, Stability, Similarity, Style y Speed) 
 **Ya no se usan:**
 - Los bloques sueltos de la versión 1 (`V0-a.mp3`, `V1-b.mp3`, etc.).
 - Las voces de los videos de buyer persona (P1 Claudia y P2 Rodrigo): las fichas llevan foto.
+- El pitch con voz de marca y clips de Veo (versión del 2 de noviembre por la mañana): ahora lo dice Carlos.
 
 **Historias de diciembre:** la voz corta de los ganadores está en `PRODUCCION-videos.md`, «Historias de diciembre».
 
