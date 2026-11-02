@@ -11,6 +11,10 @@ const F = path.dirname(fileURLToPath(import.meta.url));      // fuente/
 const R = path.resolve(F, '..');                               // expoinnova/
 const MD = path.join(R, 'md', 'Informe-Expoinnova-AndiBite.md');
 const only = process.argv[2];
+// Enlace del video en YouTube: se escribe en fuente/video_url.txt (una sola línea).
+const VIDEO_URL = (fs.existsSync(path.join(F, 'video_url.txt')) ? fs.readFileSync(path.join(F, 'video_url.txt'), 'utf8').trim() : '') || 'https://youtube.com/ (enlace pendiente)';
+const OUT_INFORME = 'AndiBite - Informe del proyecto';
+const OUT_BANNER = 'AndiBite - Banner Canvas';
 
 const browser = await pw.chromium.launch();
 
@@ -19,15 +23,17 @@ const browser = await pw.chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
   await page.goto('file://' + path.join(F, 'banner.html'));
   await page.waitForTimeout(300);
-  await page.screenshot({ path: path.join(R, 'Banner-Canvas-AndiBite.png'), fullPage: false });
-  await page.pdf({ path: path.join(R, 'Banner-Canvas-AndiBite.pdf'), width: '1920px', height: '1080px', printBackground: true, margin: { top: 0, right: 0, bottom: 0, left: 0 } });
+  await page.screenshot({ path: path.join(R, OUT_BANNER + '.png'), fullPage: false });
+  await page.pdf({ path: path.join(R, OUT_BANNER + '.pdf'), width: '1920px', height: '1080px', printBackground: true, margin: { top: 0, right: 0, bottom: 0, left: 0 } });
   await page.close();
   console.log('banner listo');
 }
 
 if (only !== 'banner') {
   // 2) Informe PDF: portada propia + cuerpo convertido con pandoc.
-  const md = fs.readFileSync(MD, 'utf8').split('\n');
+  const mdRaw = fs.readFileSync(MD, 'utf8').replace(/\{\{VIDEO_URL\}\}/g, VIDEO_URL);
+  fs.writeFileSync(path.join(F, '_informe.md'), mdRaw);
+  const md = mdRaw.split('\n');
   const title = md[0].replace(/^#\s*/, '').trim();
   const body = md.slice(2).join('\n'); // sin el título ni la línea "Responsable"
   fs.writeFileSync(path.join(F, '_body.md'), body);
@@ -37,7 +43,7 @@ if (only !== 'banner') {
   const mB = bodyHtml.match(/<h1 id="el-modelo-de-negocio-en-un-vistazo">[\s\S]*?(<p>En las páginas siguientes[^<]*<\/p>)/);
   const bannerSection = mB ? mB[0] : '';
   bodyHtml = bodyHtml.replace(bannerSection, '');
-  const cover = fs.readFileSync(path.join(F, 'portada.html'), 'utf8');
+  const cover = fs.readFileSync(path.join(F, 'portada.html'), 'utf8').replace(/\{\{VIDEO_URL\}\}/g, VIDEO_URL);
   const css = fs.readFileSync(path.join(F, 'informe.css'), 'utf8');
   const html = `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>${title}</title><style>${css}</style></head><body>${cover}<main>${bodyHtml}</main></body></html>`;
   fs.writeFileSync(path.join(F, '_informe.html'), html);
@@ -53,11 +59,11 @@ if (only !== 'banner') {
   await page.pdf({ path: path.join(F, '_banner_page.pdf'), format: 'A4', landscape: true, printBackground: true, margin: { top: '14mm', right: '14mm', bottom: '16mm', left: '14mm' } });
   await page.close();
   // Unión y numeración (PyMuPDF).
-  execSync(`python3 "${path.join(F, 'unir.py')}" "${path.join(F, '_main.pdf')}" "${path.join(F, '_banner_page.pdf')}" "${path.join(R, 'Informe-Expoinnova-AndiBite.pdf')}"`, { stdio: 'inherit' });
+  execSync(`python3 "${path.join(F, 'unir.py')}" "${path.join(F, '_main.pdf')}" "${path.join(F, '_banner_page.pdf')}" "${path.join(R, OUT_INFORME + '.pdf')}"`, { stdio: 'inherit' });
   console.log('informe PDF listo');
 
   // 3) Word con el conversor del T2.
-  execSync(`PIE="AndiBite · Expoinnova 2026-2 · Grupo 2" NODE_PATH=$(npm root -g) node "${path.join(R, '..', 'fuente', 'md2docx.js')}" "${MD}" "${path.join(R, 'Informe-Expoinnova-AndiBite.docx')}" "${path.join(R, '..', 'fuente', 'logo_small.png')}"`, { stdio: 'inherit' });
+  execSync(`PIE="AndiBite · Expoinnova 2026-2 · Grupo 2" NODE_PATH=$(npm root -g) node "${path.join(R, '..', 'fuente', 'md2docx.js')}" "${path.join(F, '_informe.md')}" "${path.join(R, OUT_INFORME + '.docx')}" "${path.join(R, '..', 'fuente', 'logo_small.png')}"`, { stdio: 'inherit' });
   console.log('informe Word listo');
 }
 

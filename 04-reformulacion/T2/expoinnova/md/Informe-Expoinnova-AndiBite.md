@@ -13,6 +13,8 @@ Responsable: Grupo 2 (Diana Ayoso, Patricia Cárdenas, Adela Robles, Angie Blas 
 
 **Por qué es un negocio digital.** El envase es la puerta de entrada a la app: el QR desbloquea el plan de loncheras con inteligencia artificial, la recompra se cierra por WhatsApp y la comunicación va en video por Instagram, Facebook y YouTube. La venta empieza en la calle, en el stand donde el niño prueba, y continúa en el celular.
 
+**Video de presentación (YouTube):** {{VIDEO_URL}}
+
 **Las cifras del plan (año 1, 2027).**
 
 | Indicador | Valor |
@@ -27,7 +29,7 @@ Responsable: Grupo 2 (Diana Ayoso, Patricia Cárdenas, Adela Robles, Angie Blas 
 
 ## El modelo de negocio en un vistazo
 
-![Model Business Canvas de AndiBite (banner digital, Anexo 02).](../Banner-Canvas-AndiBite.png)
+![Model Business Canvas de AndiBite (banner digital, Anexo 02).](../AndiBite - Banner Canvas.png)
 
 En las páginas siguientes explicamos, uno por uno, los nueve bloques del Canvas.
 
