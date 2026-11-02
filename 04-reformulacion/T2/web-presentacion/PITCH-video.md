@@ -9,15 +9,15 @@ Reglas de habla: las de `TONO-de-voz.md` (segunda persona, frases cortas y larga
 | Tiempo | Qué pasa | Lo que dice Carlos |
 |---|---|---|
 | 0:00 a 0:08 | Carlos a cámara | «Soy Carlos, y vengo de parte de un equipo de cinco. Una mamá nos dijo en su cocina: "Ella no sabe que es hígado".» |
-| 0:08 a 0:16 | Carlos; inserto 1 (la cocina y la lonchera) en 0:11 | «Lo oímos veinticinco veces. Lo sano vuelve en la lonchera, y cada casa inventa un truco. Zanahoria en la torta. Lo que sea.» |
-| 0:16 a 0:32 | Carlos; inserto 2 (la bolsa kraft) en 0:20; inserto 3 (la app, el anillo del hierro) en 0:27 | «Hicimos un truco que ya no necesita cuento. AndiBite: un mini brownie de veinte gramos con sangrecita adentro… y no se nota. Casi dos miligramos de hierro, sin octógonos. Y una app donde papá y mamá ven el hierro de cada día.» |
+| 0:08 a 0:16 | Carlos; inserto 1 (la cocina y la lonchera) en 0:11 | «Lo oímos veinticinco veces. La lonchera vuelve llena, y cada casa inventa su truco. Zanahoria en la torta. Lo que sea.» |
+| 0:16 a 0:32 | Carlos; inserto 2 (la bolsa kraft) en 0:20; inserto 3 (la app, el anillo del hierro) en 0:27 | «Hicimos un truco que ya no necesita cuento. Se llama AndiBite. Un mini brownie de veinte gramos con sangrecita adentro… y no se nota. Casi dos miligramos de hierro, sin octógonos. Y una app donde papá y mamá ven el hierro de cada día.» |
 | 0:32 a 0:41 | Carlos | «Es para familias de Lima Top y Moderna, con hijos de cuatro a once, que ya compran lo sano. Solo les faltaba que el niño se lo comiera.» |
-| 0:41 a 0:50 | Carlos; inserto 4 (foto de la degustación) en 0:43 | «Ocho mamás lo probaron y ninguna notó la sangrecita. Y el pack de seis, a veintisiete noventa, está en lo que treinta papás y mamás dijeron que pagarían.» |
-| 0:50 a 0:58 | Carlos; inserto 5 (el stand con el mural) en 0:53 | «Abrimos el dos de enero en Jockey Plaza. Vengan, pruébenlo con su hijo… y díganme si se lo darían.» |
+| 0:41 a 0:50 | Carlos; inserto 4 (foto de la degustación) en 0:43 | «Ocho mamás lo probaron y ninguna notó la sangrecita. Y preguntamos a treinta papás y mamás cuánto pagarían por el pack de seis: veintisiete con noventa está dentro.» |
+| 0:50 a 0:58 | Carlos; inserto 5 (el stand con el mural) en 0:53 | «Abrimos el dos de enero en Jockey Plaza. Vengan, pruébenlo con sus hijos… y me cuentan si se lo darían.» |
 | 0:58 a 1:00 | Carlos | «AndiBite. Dulce para ellos. Tranquilidad para ti.» |
 | 1:00 a 1:02 | Pantalla final (logo y slogan) | silencio o música muy baja |
 
-Dirección para Carlos (o para la voz clonada): los primeros ocho segundos con calma, como quien cuenta algo que le pasó; «y no se nota» con una media sonrisa; «Lo que sea» es la única imperfección, dicha como si se encogiera de hombros; «y díganme si se lo darían» más lento, mirando a cámara; el slogan sin vender, casi en voz baja.
+Dirección para Carlos (o para la voz clonada): los primeros ocho segundos con calma, como quien cuenta algo que le pasó; «y no se nota» con una media sonrisa; «Lo que sea» es la única imperfección, dicha como si se encogiera de hombros; «y me cuentan si se lo darían» más lento, mirando a cámara; el slogan sin vender, casi en voz baja.
 
 ## 2. La voz · ElevenLabs · un solo archivo
 
@@ -27,11 +27,11 @@ Dirección para Carlos (o para la voz clonada): los primeros ocho segundos con c
 
 ```
 [warmly] Soy Carlos, y vengo de parte de un equipo de cinco. [short pause] Una mamá nos dijo en su cocina: "Ella no sabe que es hígado". [pause]
-Lo oímos veinticinco veces. Lo sano vuelve en la lonchera... y cada casa inventa un truco. [short pause] Zanahoria en la torta. [soft laugh] Lo que sea. [pause]
-Hicimos un truco que ya no necesita cuento. AndiBite: un mini brownie de veinte gramos con sangrecita adentro... [short pause] y no se nota. Casi dos miligramos de hierro, sin octógonos. [short pause] Y una app donde papá y mamá ven el hierro de cada día. [pause]
+Lo oímos veinticinco veces. La lonchera vuelve llena... y cada casa inventa su truco. [short pause] Zanahoria en la torta. [soft laugh] Lo que sea. [pause]
+Hicimos un truco que ya no necesita cuento. Se llama AndiBite. Un mini brownie de veinte gramos con sangrecita adentro... [short pause] y no se nota. Casi dos miligramos de hierro, sin octógonos. [short pause] Y una app donde papá y mamá ven el hierro de cada día. [pause]
 Es para familias de Lima Top y Moderna, con hijos de cuatro a once, que ya compran lo sano. [short pause] Solo les faltaba que el niño se lo comiera. [pause]
-Ocho mamás lo probaron y ninguna notó la sangrecita. [short pause] Y el pack de seis, a veintisiete noventa, está en lo que treinta papás y mamás dijeron que pagarían. [pause]
-Abrimos el dos de enero en Jockey Plaza. [short pause] Vengan, pruébenlo con su hijo... [pause] y díganme si se lo darían. [long pause]
+Ocho mamás lo probaron y ninguna notó la sangrecita. [short pause] Y preguntamos a treinta papás y mamás cuánto pagarían por el pack de seis... [short pause] veintisiete con noventa está dentro. [pause]
+Abrimos el dos de enero en Jockey Plaza. [short pause] Vengan, pruébenlo con sus hijos... [pause] y me cuentan si se lo darían. [long pause]
 [softly] AndiBite. [short pause] Dulce para ellos. [short pause] Tranquilidad para ti.
 ```
 
@@ -39,11 +39,11 @@ Abrimos el dos de enero en Jockey Plaza. [short pause] Vengan, pruébenlo con su
 
 ```
 Soy Carlos, y vengo de parte de un equipo de cinco. <break time="0.4s" /> Una mamá nos dijo en su cocina: "Ella no sabe que es hígado". <break time="0.7s" />
-Lo oímos veinticinco veces. Lo sano vuelve en la lonchera... y cada casa inventa un truco. <break time="0.4s" /> Zanahoria en la torta. Lo que sea. <break time="0.7s" />
-Hicimos un truco que ya no necesita cuento. AndiBite: un mini brownie de veinte gramos con sangrecita adentro... <break time="0.4s" /> y no se nota. Casi dos miligramos de hierro, sin octógonos. <break time="0.4s" /> Y una app donde papá y mamá ven el hierro de cada día. <break time="0.7s" />
+Lo oímos veinticinco veces. La lonchera vuelve llena... y cada casa inventa su truco. <break time="0.4s" /> Zanahoria en la torta. Lo que sea. <break time="0.7s" />
+Hicimos un truco que ya no necesita cuento. Se llama AndiBite. Un mini brownie de veinte gramos con sangrecita adentro... <break time="0.4s" /> y no se nota. Casi dos miligramos de hierro, sin octógonos. <break time="0.4s" /> Y una app donde papá y mamá ven el hierro de cada día. <break time="0.7s" />
 Es para familias de Lima Top y Moderna, con hijos de cuatro a once, que ya compran lo sano. <break time="0.4s" /> Solo les faltaba que el niño se lo comiera. <break time="0.7s" />
-Ocho mamás lo probaron y ninguna notó la sangrecita. <break time="0.4s" /> Y el pack de seis, a veintisiete noventa, está en lo que treinta papás y mamás dijeron que pagarían. <break time="0.7s" />
-Abrimos el dos de enero en Jockey Plaza. <break time="0.4s" /> Vengan, pruébenlo con su hijo... <break time="0.6s" /> y díganme si se lo darían. <break time="1.0s" />
+Ocho mamás lo probaron y ninguna notó la sangrecita. <break time="0.4s" /> Y preguntamos a treinta papás y mamás cuánto pagarían por el pack de seis... <break time="0.4s" /> veintisiete con noventa está dentro. <break time="0.7s" />
+Abrimos el dos de enero en Jockey Plaza. <break time="0.4s" /> Vengan, pruébenlo con sus hijos... <break time="0.6s" /> y me cuentan si se lo darían. <break time="1.0s" />
 AndiBite. <break time="0.4s" /> Dulce para ellos. <break time="0.4s" /> Tranquilidad para ti.
 ```
 
@@ -84,6 +84,8 @@ Si una imagen es fija, ponle un movimiento lento (zoom del 100 al 105 %) para qu
 4. Exporta `pitch_60s.mp4` a 1080p, 30 fps. Para redes, duplica el proyecto en 9:16 con el recorte centrado en el rostro y exporta `pitch_60s_vertical.mp4`.
 
 Sin subtítulos, sin rótulos, sin cifras en pantalla. Si alguien del jurado necesita leer, el texto está en la presentación.
+
+**Si el jurado pregunta por el precio:** los S/27.90 del pack de 6 se apoyan en la encuesta a 30 papás y mamás (documento 07, 2.7) y en el rango de S/24 a 30 del segmento A, no en la degustación (ahí las mamás hablaron de S/10, que no cubre el costo; nunca se presenta como precio del plan).
 
 ## Qué hay que hacer, en orden
 
