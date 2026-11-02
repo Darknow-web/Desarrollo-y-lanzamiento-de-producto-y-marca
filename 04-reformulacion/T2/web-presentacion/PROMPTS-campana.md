@@ -1,5 +1,7 @@
 # Prompts de la campaña «Lo que nadie ve» para la presentación web
 
+> **Nota del 2-nov-2026:** los prompts de video vigentes (video maestro, convocatoria, tres anuncios) y el pitch en video están en `PRODUCCION-videos.md` (versión 2) y `PITCH-video.md`, con una sola pista de voz por video en ElevenLabs. Este archivo conserva los fotogramas de referencia (F1 a F4), el material del stand (S1, S2) y las piezas del concurso (R1, R2). Los videos de buyer persona ya no se hacen: las fichas de Claudia y Rodrigo llevan foto.
+
 Campaña decidida con Carlos el 19-oct-2026 (textos finales en `CAMPANA-lo-que-nadie-ve.md`). Idea: cada papá y cada mamá de Lima inventa trucos para que su hijo coma lo que le hace bien (la zanahoria rallada en la torta, la sopa «de dinosaurios», el jugo verde «de superhéroe», el cuento para el hígado) y nadie ve ese esfuerzo. AndiBite es el truco que ya no necesita cuento. Firma: «AndiBite. El truco que ya no necesita cuento.» Cierre: «Dulce para ellos. Tranquilidad para ti.»
 
 Los anuncios para redes y los buyer persona son **videos**; el material del stand (BTL) son **imágenes**. Los prompts van en inglés porque Nano Banana y Google Flow responden mejor así.
@@ -138,22 +140,6 @@ Vertical 9:16 video, 7 seconds, warm photorealistic style. Slow push-in on a kra
 Texto que va encima (en la edición): «¿Cuál es tu truco?» (clip 1) y «Cuéntanoslo con #LoQueNadieVe y etiquétanos. Los 3 más votados abren nuestro mural en Jockey Plaza y ganan un mes de lonchera.» (clip 2). Cierre: logo y «Este diciembre sí los aplaudimos.»
 
 **Cierre del video maestro V0.** Después de F1, un cartón de 2 s con el texto «Cuéntanos el tuyo. #LoQueNadieVe» sobre el último cuadro, antes del logo.
-
-## 3. Videos de buyer persona (Google Flow, Veo 3.1)
-
-Para la pantalla de Claudia y Rodrigo (`s-personas`). «Un día en su vida» en 8 s, tres momentos. Usa «Ingredients to video» con el fotograma de la persona (F2 o F3, para que sea la misma cara y la misma ropa) y `empaque_mockup.jpg`. El póster es el primer cuadro.
-
-### P1 · Claudia, un día en su vida, 9:16, 8 s → `public/vid/claudia.mp4`
-
-```
-Vertical 9:16 realistic video, 8 seconds, the same woman as the reference image (Peruvian mother in her late thirties, lawyer, cream silk blouse), no on-screen text, no logos. 0-3 s: 6:40 a.m. in her bright San Borja kitchen with light oak and cream tiles; she reads the back of a matte kraft pouch carefully, eyebrows slightly raised, like checking a contract, then nods and places it in the open terracotta lunchbox. 3-5 s: late morning in a calm, modern law office with warm light and bookshelves out of focus; between documents she turns her phone over and glances at the softly glowing screen (no readable content) with a small reassured smile. 5-8 s: early evening back in the same kitchen; she opens the terracotta lunchbox: completely empty, a few cocoa crumbs; she exhales and smiles. Smooth match cuts, 35mm look, shallow depth of field, film grain, palette cocoa, kraft, cream, warm gold. The bottom 40 percent of the frame stays calm for text. Adults only, no children, no letters, no logos.
-```
-
-### P2 · Rodrigo, un día en su vida, 9:16, 8 s → `public/vid/rodrigo.mp4`
-
-```
-Vertical 9:16 realistic video, 8 seconds, the same man as the reference image (Peruvian father around forty, casual button-down shirt with rolled sleeves), no on-screen text, no logos. 0-3 s: 6:05 a.m., blue-hour light in his compact San Miguel kitchen; coffee in one hand, he drops a small sealed kraft pouch into the terracotta lunchbox, closes it and grabs the car keys in one smooth move. 3-5 s: midday at a logistics warehouse office, shelves and boxes out of focus; holding a clipboard, he types a quick message on his phone (screen glow, no readable content) and puts it away with a satisfied nod. 5-8 s: early evening at his apartment door, warm light; he receives a matte kraft box from a delivery bag held by an adult courier's hand, opens it to show twelve small sealed pouches and stores it on a light wood shelf, a relaxed smile. Documentary handheld feel, 35mm, film grain, palette cocoa, kraft, cream, warm gold. The bottom 40 percent of the frame stays calm for text. Adults only, no children, no letters, no logos, no price tags.
-```
 
 ## 4. Material del stand (Nano Banana)
 
