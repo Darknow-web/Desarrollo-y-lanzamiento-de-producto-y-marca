@@ -15,6 +15,12 @@
   header { height: 76px; background: #1A1A1A; color: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0 28px; border-radius: 6px; }
   header h1 { margin: 0; font-size: 36px; letter-spacing: 1px; font-weight: 700; }
   header h1 span { color: var(--dorado); }
+  header .ods { display: flex; align-items: center; gap: 8px; margin-left: auto; margin-right: 22px; }
+  header .ods .lbl { color: #bbb; font-size: 14px; letter-spacing: 1px; margin-right: 2px; }
+  header .ods .chip { color: #fff; font-weight: 700; font-size: 15px; padding: 6px 12px; border-radius: 6px; white-space: nowrap; }
+  .box h3 { margin: 10px 0 4px; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px; color: inherit; }
+  .segmentos h3 { color: #2E4E85; }
+  .box ul.pv li { margin-bottom: 7px; }
   header .logo { height: 60px; background: #fff; border-radius: 8px; padding: 6px 14px; display: flex; align-items: center; gap: 10px; }
   header .logo img { height: 48px; }
   header .logo small { color: var(--cafe); font-size: 16px; line-height: 1.1; }
@@ -22,7 +28,7 @@
   .box { border: 2px solid; border-radius: 8px; padding: 12px 14px 10px; position: relative; overflow: hidden; display: flex; flex-direction: column; }
   .box h2 { margin: 0 0 6px; font-size: 19px; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
   .box h2 .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; color: #fff; font-size: 13px; align-items: center; justify-content: center; }
-  .box ul { margin: 0; padding-left: 16px; font-size: 18px; line-height: 1.3; }
+  .box ul { margin: 0; padding-left: 16px; font-size: 18.5px; line-height: 1.3; }
   .box li { margin-bottom: 4px; }
   .box li b { font-weight: 700; }
   .box .ico { position: absolute; right: 10px; bottom: 6px; font-size: 54px; opacity: 0.13; line-height: 1; }
@@ -47,6 +53,7 @@
 <div class="page">
   <header>
     <h1>#MODELO DE NEGOCIO: <span>ANDIBITE</span></h1>
+    <div class="ods"><span class="lbl">ODS</span><span class="chip" style="background:#DDA63A">2 Hambre cero</span><span class="chip" style="background:#4C9F38">3 Salud y bienestar</span><span class="chip" style="background:#A21942">8 Trabajo decente</span><span class="chip" style="background:#BF8B2E">12 Consumo responsable</span></div>
     <div class="logo"><img src="logo_color.png" alt="AndiBite" /><small>Mini brownie con hierro<br />+ app Andi</small></div>
   </header>
 
@@ -54,12 +61,12 @@
     <section class="box socios">
       <h2><span class="n">8</span>Socios clave</h2>
       <ul>
-        <li>Planta del INDDA (UNALM) que fabrica por nosotros.</li>
-        <li>Laboratorio que mide el hierro de cada lote.</li>
-        <li>Proveedor de sangrecita en polvo con registro sanitario.</li>
-        <li>Malls: Jockey Plaza, Salaverry y La Molina.</li>
-        <li>Colegios y tiendas naturistas.</li>
-        <li>Pediatras y nutricionistas que nos recomiendan.</li>
+        <li>Planta del INDDA (UNALM): fabrica por nosotros</li>
+        <li>Laboratorio que mide el hierro</li>
+        <li>Proveedor de sangrecita en polvo</li>
+        <li>Malls: Jockey Plaza, Salaverry y La Molina</li>
+        <li>Colegios y tiendas naturistas</li>
+        <li>Pediatras y nutricionistas</li>
       </ul>
       <div class="ico">🤝</div>
     </section>
@@ -67,10 +74,11 @@
     <section class="box actividades">
       <h2><span class="n">7</span>Actividades clave</h2>
       <ul>
-        <li>Fabricar sin planta propia.</li>
-        <li>Medir y publicar el hierro.</li>
-        <li>Vender en stands, ferias y colegios.</li>
-        <li>Recompra con la app y WhatsApp.</li>
+        <li>Receta y pruebas con familias</li>
+        <li>Producción por maquila</li>
+        <li>Medir y publicar el hierro</li>
+        <li>Venta en stands, ferias y colegios</li>
+        <li>Contenido y pauta digital</li>
       </ul>
       <div class="ico">🎯</div>
     </section>
@@ -78,12 +86,11 @@
     <section class="box propuesta">
       <h2><span class="n">4</span>Propuesta de valor</h2>
       <div class="big">Hierro sin pelear cada mañana.</div>
-      <ul>
-        <li>El snack de lonchera con hierro que el niño sí se come.</li>
-        <li>1.9 mg de hierro en cada brownie, medido en cada lote y visible en la app.</li>
-        <li>Sabor a brownie, 20 g, sin octógono.</li>
-        <li>App Andi: el hierro de hoy para papá y mamá, juegos para el niño.</li>
-        <li>Se prueba gratis antes de comprar.</li>
+      <ul class="pv">
+        <li><b>Funcional:</b> 1.9 mg de hierro en cada brownie de 20 g, sin octógono, listo para la lonchera</li>
+        <li><b>Social:</b> la app muestra a papá y mamá el hierro de cada día y conecta a las familias (#LoQueNadieVe)</li>
+        <li><b>Emocional:</b> el niño lo pide como un gusto; papá y mamá dejan de pelear cada mañana</li>
+        <li><b>Se prueba gratis</b> antes de comprar</li>
       </ul>
       <div class="ico">👌</div>
     </section>
@@ -91,10 +98,10 @@
     <section class="box relacion">
       <h2><span class="n">2</span>Relación con el cliente</h2>
       <ul>
-        <li>Degustación cara a cara.</li>
-        <li>La app avisa cuándo recomprar.</li>
-        <li>Papás y mamás embajadores por salón.</li>
-        <li>Concurso #LoQueNadieVe en redes.</li>
+        <li>Degustación cara a cara</li>
+        <li>Aviso de recompra en la app</li>
+        <li>Papás y mamás embajadores</li>
+        <li>Concurso #LoQueNadieVe en redes</li>
       </ul>
       <div class="ico">💚</div>
     </section>
@@ -102,11 +109,14 @@
     <section class="box segmentos">
       <h2><span class="n">1</span>Segmentos de clientes</h2>
       <ul>
-        <li>Papás y mamás A y B de 32 a 45 que leen etiquetas (7 de cada 10 son B).</li>
-        <li>Hijos de 4 a 11 en colegio privado.</li>
-        <li>46,000 hogares en Lima Top y Lima Moderna; 168,000 en toda Lima.</li>
-        <li>Claudia (A, San Borja) y Rodrigo (B, San Miguel).</li>
-        <li>Colegios y tiendas naturistas.</li>
+        <li>Papás y mamás de 32 a 45 años, NSE A y B, de Lima Top y Lima Moderna</li>
+        <li>Hijos de 4 a 11 años en colegio privado</li>
+        <li>46,000 hogares núcleo · 168,000 en Lima</li>
+      </ul>
+      <h3>Early adopters</h3>
+      <ul>
+        <li>Mamás y papás que leen etiquetas y ya compran snacks saludables</li>
+        <li>Claudia (38, San Borja) y Rodrigo (40, San Miguel)</li>
       </ul>
       <div class="ico">👨‍👩‍👧</div>
     </section>
@@ -114,10 +124,10 @@
     <section class="box recursos">
       <h2><span class="n">6</span>Recursos clave</h2>
       <ul>
-        <li>Receta que esconde la sangrecita.</li>
-        <li>Marca y registro sanitario.</li>
-        <li>App y datos de cada familia.</li>
-        <li>Equipo de venta pagado.</li>
+        <li>Receta con la sangrecita escondida</li>
+        <li>Marca y registro sanitario</li>
+        <li>App Andi y datos de cada familia</li>
+        <li>Equipo de venta pagado</li>
       </ul>
       <div class="ico">🏪</div>
     </section>
@@ -125,10 +135,11 @@
     <section class="box canales">
       <h2><span class="n">3</span>Canales</h2>
       <ul>
-        <li>Stands y carrito: 43 %.</li>
-        <li>WhatsApp 18 % · ferias y eventos 14 %.</li>
-        <li>Colegios y naturistas: 25 %.</li>
-        <li>Instagram, Facebook y YouTube; QR del envase.</li>
+        <li>Stands y carrito en malls (43 %)</li>
+        <li>WhatsApp (18 %)</li>
+        <li>Ferias y eventos (14 %)</li>
+        <li>Colegios y naturistas (25 %)</li>
+        <li>Instagram, Facebook y YouTube</li>
       </ul>
       <div class="ico">🚀</div>
     </section>
@@ -136,10 +147,11 @@
     <section class="box costos">
       <h2><span class="n">9</span>Estructura de costos</h2>
       <ul>
-        <li>Producir S/1.64 por brownie, sin comprar planta. Costo total S/3.71.</li>
-        <li>Stands, ferias y vendedores S/51,010 al año · fijos S/2,738 al mes.</li>
-        <li>Marketing S/24,544 en 15 meses · inversión S/40,876.</li>
-        <li>Equilibrio: 3,096 brownies al mes.</li>
+        <li>Producción por maquila (S/1.64 por brownie)</li>
+        <li>Stands, ferias y vendedores</li>
+        <li>Marketing: S/24,544 en 15 meses</li>
+        <li>Gastos fijos: S/2,738 al mes</li>
+        <li>Inversión inicial: S/40,876 · equilibrio 3,096 brownies al mes</li>
       </ul>
       <div class="ico">🧮</div>
     </section>
@@ -152,10 +164,10 @@
     <section class="box ingresos">
       <h2><span class="n">5</span>Fuentes de ingresos</h2>
       <ul>
-        <li>Unidad S/6.00 · caja de 3 S/16.50 · pack de 6 S/27.90 · pack de 12 S/51.90.</li>
-        <li>Recompra por WhatsApp; colegios y naturistas a precio de reventa.</li>
-        <li>Año 1: S/244,728 de ventas y S/10,379 de utilidad neta.</li>
-        <li>Año 2: S/322,329 y S/28,447 · inversión recuperada en el mes 23.</li>
+        <li>Venta directa: unidad S/6.00 · pack de 6 S/27.90 · pack de 12 S/51.90</li>
+        <li>Recompra por WhatsApp</li>
+        <li>Colegios y tiendas naturistas</li>
+        <li>Año 1: S/244,728 · Año 2: S/322,329</li>
       </ul>
       <div class="ico">📈</div>
     </section>
