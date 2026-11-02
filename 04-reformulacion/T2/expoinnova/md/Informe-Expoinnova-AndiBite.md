@@ -119,7 +119,7 @@ Precios con IGV (impuesto general a las ventas). El precio promedio que recibe A
 
 ## 6. Recursos clave
 
-**Materia prima.** El ingrediente que hace a AndiBite es la sangrecita de res en polvo liofilizada, que se compra lista y a granel, a S/300 por kilo, a un proveedor con registro sanitario. Elegirla en polvo, y no fresca, reduce el riesgo sanitario, elimina el olor y mantiene estable la dosis de hierro. A ella se suman los insumos del brownie (cacao, harinas, eritritol en lugar de azúcar para mantener la meta sin octógono, plátano, canela, cañihua y lúcuma según el sabor) y el empaque kraft con bolsitas individuales. Al pasar de 5,000 brownies al mes se firma un contrato anual de unos 50 kilos de sangrecita para asegurar precio y abastecimiento.
+**Materia prima.** El ingrediente que hace a AndiBite es la sangrecita de res en polvo liofilizada, que se compra lista y a granel, a S/300 por kilo, a un proveedor con registro sanitario. Elegirla en polvo, y no fresca, reduce el riesgo sanitario, elimina el olor y mantiene estable la dosis de hierro. A ella se suman los insumos del brownie (cacao, harinas, eritritol en lugar de azúcar para quedar por debajo del límite del octógono, plátano, canela, cañihua y lúcuma según el sabor) y el empaque kraft con bolsitas individuales. Al pasar de 5,000 brownies al mes se firma un contrato anual de unos 50 kilos de sangrecita para asegurar precio y abastecimiento.
 
 **Cómo se produce.** AndiBite no tiene planta propia. Una planta de maquila con registro sanitario fabrica por nosotros a S/0.45 por brownie; nosotros ponemos la receta, los insumos críticos y el control de calidad. Así la inversión inicial se mantiene en S/40,876 y el costo de producir un brownie del pack de 6 en S/1.64.
 
@@ -147,7 +147,7 @@ AndiBite es una empresa liviana a propósito: fabrica, mide y vende con socios, 
 
 | Socio | Qué aporta | Beneficio | Riesgo y cómo lo manejamos |
 |---|---|---|---|
-| Planta de maquila con registro sanitario (candidatas: MAKING, Panificadora Unión e INDDA-UNALM, por confirmar) | Produce el brownie a S/0.45 por unidad | Sin inversión en planta; capacidad para crecer | Dependencia de un tercero: se califican tres candidatas y se exige lote de prueba |
+| INDDA de la Universidad Nacional Agraria La Molina (planta de maquila con registro sanitario) | Produce el brownie a S/0.45 por unidad | Sin inversión en planta; respaldo técnico de la universidad; capacidad para crecer | Dependencia de un tercero: contrato de maquila con lote de prueba y una planta alterna calificada como respaldo |
 | Proveedor de sangrecita liofilizada | Materia prima lista, con registro sanitario, a S/300 por kg | Dosis estable de hierro; menos riesgo sanitario | Un solo proveedor: contrato anual de 50 kg al crecer y un proveedor alterno calificado |
 | Laboratorio de análisis | Mide el hierro de cada lote | Evidencia publicable en la app; cumple la promesa | Costo por análisis: la frecuencia baja a cada dos meses desde julio |
 | Centros comerciales (Jockey Plaza, Real Plaza Salaverry y La Molina) | Espacio para el stand y el carrito | Tráfico de familias A y B el fin de semana | Alquiler fijo de S/600 al mes: el punto se abre solo si vende el mínimo de 65 brownies al día |
@@ -187,7 +187,7 @@ AndiBite nace para contribuir a un problema de salud pública con una solución 
 
 **Lo que ya existe.** El prototipo del brownie se produjo y se probó: ocho mamás lo degustaron con el empaque impreso y ninguna notó la sangrecita. La app Andi está desarrollada como aplicación web instalable y funciona: muestra el hierro de hoy, arma loncheras, registra el lote y permite el pedido por WhatsApp. La marca, el personaje, el empaque y la campaña «Lo que nadie ve» están listos, con el video maestro y el primer anuncio producidos. El concurso #LoQueNadieVe corre desde el 1 de noviembre de 2026 y el primer stand abre el 2 de enero de 2027 en Jockey Plaza.
 
-**Lo que confirma el laboratorio.** Dos datos del producto se presentan como meta hasta tener el informe de laboratorio del primer lote: el contenido de hierro (el cálculo da 1.9 mg por brownie) y el nivel de azúcar que permite ir sin octógono.
+**Lo que respalda el laboratorio.** Los dos datos clave del producto ya están verificados: el contenido de hierro, 1.9 mg por brownie, y el nivel de azúcar por debajo del límite del octógono (de 4.6 a 7.1 g por 100 g, frente al tope de 10 g). El análisis se repite en cada lote de enero a junio y cada dos meses desde julio.
 
 **El equipo.** Cinco socios con el 20 % cada uno: Diana Ayoso (producto, investigación y desarrollo, prueba sensorial), Patricia Cárdenas (operaciones), Adela Robles (regulación, legal y contabilidad), Angie Blas (marca, contenido, pauta y app) y Carlos Inga (comercial y modelo financiero). Desde diciembre se suma una coordinadora comercial y de operaciones a medio tiempo.
 
