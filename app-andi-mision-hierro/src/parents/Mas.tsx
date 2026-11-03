@@ -22,6 +22,7 @@ export default function Mas() {
     { a: ultimo ? `/c/${ultimo}` : '/escanear', n: 'matraz', t: 'Ficha del producto y laboratorio', d: ultimo ? 'Tu último lote y lo que dice el laboratorio' : 'Escanea un pack para ver su lote' },
     { a: '/hemoglobina', n: 'calendario', t: 'Control de hemoglobina', d: 'Próximo control y resultados' },
     { a: '/donde', n: 'mapa', t: 'Dónde comprar', d: 'Nuestros stands en Lima' },
+    { a: '/origen', n: 'hoja', t: 'Hecho con lo nuestro', d: 'De qué parte del Perú viene cada ingrediente' },
   ];
 
   return (

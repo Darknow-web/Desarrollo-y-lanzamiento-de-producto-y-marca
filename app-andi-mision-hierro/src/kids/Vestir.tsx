@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
-import Andi from '../components/Andi';
+import Killa from '../components/Killa';
 import Icono from '../components/Icono';
 import { FONDOS, LOOKS, type Look } from '../data/ninos';
 import { useProgreso } from '../lib/estado';
 import { hablar, sonido } from '../lib/voz';
 import { comprarLook, guardarLook, lookDe, nivelTotal, ninoSesion, useLook, useNiveles } from './progreso';
 
-/** Viste a Andi: tienda que solo acepta estrellas ganadas jugando o niveles superados (nunca dinero ni publicidad). */
+/** Viste a Killa: tienda que solo acepta estrellas ganadas jugando, niveles superados o historias leídas (nunca dinero ni publicidad). */
 export default function Vestir() {
   const id = ninoSesion();
   const p = useProgreso(id);
@@ -16,7 +16,7 @@ export default function Vestir() {
   const total = nivelTotal(id);
   const [sacude, setSacude] = useState<string | null>(null);
   const [estreno, setEstreno] = useState(0);
-  useEffect(() => { hablar('¡Vísteme! Elige un traje con las estrellas que ganaste o con los niveles que superaste.'); }, []);
+  useEffect(() => { hablar('¡Vamos a vestir a Killa! Elige un traje con las estrellas que ganaste, con los niveles que superaste o leyendo mis historias.'); }, []);
 
   const tocar = (look: Look, costo: number, nivelRegalo: number) => {
     const tenia = l.comprados.includes(look);
@@ -24,22 +24,22 @@ export default function Vestir() {
     // Regalo por nivel total: no gasta estrellas.
     if (!tenia && total >= nivelRegalo) {
       guardarLook(id, { look, comprados: [...lookDe(id).comprados, look] });
-      sonido.premio(); setEstreno(e => e + 1); hablar('¡Te lo ganaste con tus niveles! Me queda genial.');
+      sonido.premio(); setEstreno(e => e + 1); hablar('¡Te lo ganaste con tus niveles! A Killa le queda genial.');
       return;
     }
     if (comprarLook(id, look, costo)) {
-      if (tenia) { sonido.toque(); } else { sonido.premio(); setEstreno(e => e + 1); hablar('¡Me queda genial! Gracias.'); }
+      if (tenia) { sonido.toque(); } else { sonido.premio(); setEstreno(e => e + 1); hablar('¡A Killa le queda genial! Gracias.'); }
       return;
     }
     const faltan = costo - p.estrellas;
     sonido.suave(); setSacude(look); setTimeout(() => setSacude(null), 450);
-    hablar(`Me faltan ${faltan} estrella${faltan === 1 ? '' : 's'}, o llega al nivel total ${nivelRegalo}. ¡Juega para ganarlas!`);
+    hablar(`Te faltan ${faltan} estrella${faltan === 1 ? '' : 's'}, o llega al nivel total ${nivelRegalo}. ¡Juega para ganarlas!`);
   };
 
   return (
     <div className="juego juego-vestir">
       <motion.div key={estreno} className={`vestir-escena fondo-${l.fondo}`} initial={{ scale: estreno ? .9 : 1 }} animate={{ scale: 1 }} transition={{ type: 'spring', stiffness: 260, damping: 16 }}>
-        <Andi tam={200} look={l.look} animo={estreno ? 'wow' : 'feliz'} className="andi-flota" />
+        <Killa tam={200} look={l.look} animo={estreno ? 'wow' : 'feliz'} className="andi-flota" />
         <div className="vestir-marcas">
           <span className="mapa-estrellas" aria-label={`Nivel total ${total}`}>🏅 Nivel total {total}</span>
         </div>
@@ -61,7 +61,7 @@ export default function Vestir() {
             <button key={k.id} className={`look ${puesto ? 'puesto' : ''} ${tiene ? 'tiene' : alcanza ? 'alcanza' : 'falta bloqueado'} ${sacude === k.id ? 'sacude' : ''}`} onClick={() => tocar(k.id, k.estrellas, k.nivel)}
               aria-pressed={puesto} aria-label={`${k.nombre}: ${puesto ? 'puesto' : tiene ? 'ponerse' : regalo ? 'regalo por nivel' : `cuesta ${k.estrellas} estrellas o nivel total ${k.nivel}`}`}>
               {!tiene && !alcanza && <span className="look-candado" aria-hidden="true"><Icono n="candado" tam={14} /></span>}
-              <Andi tam={64} look={k.id} titulo="" />
+              <Killa tam={64} look={k.id} titulo="" />
               <span className="look-nombre">{k.nombre}</span>
               <span className="look-precio">{puesto ? '✓ Puesto' : tiene ? 'Ponerme' : regalo ? '🎁 Regalo' : `⭐ ${k.estrellas}`}</span>
               {!tiene && !regalo && <span className="look-nivel">o nivel {k.nivel}</span>}

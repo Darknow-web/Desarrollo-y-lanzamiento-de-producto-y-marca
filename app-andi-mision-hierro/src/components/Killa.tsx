@@ -1,9 +1,9 @@
-// Andi: llamita exploradora, ilustrada en SVG (cuerpo redondo, cabeza grande, ojos brillantes).
-// Se viste con el look que el niño elige en «Viste a Andi». Si hay una imagen generada en
-// public/img/andi/ (lista en data/andi-imagenes.ts), se muestra esa en lugar del SVG.
+// Killa: la llamita de Andi, ilustrada en SVG (cuerpo redondo, cabeza grande, ojos brillantes).
+// Se viste con el look que el niño elige en «Viste a Killa». Si hay una imagen generada en
+// public/img/killa/ (lista en data/killa-imagenes.ts), se muestra esa en lugar del SVG.
 import { useId } from 'react';
 import type { Look, Pieza } from '../data/ninos';
-import { IMAGENES_ANDI } from '../data/andi-imagenes';
+import { IMAGENES_KILLA } from '../data/killa-imagenes';
 
 export type Animo = 'feliz' | 'wow' | 'piensa' | 'duerme';
 interface Props {
@@ -18,21 +18,22 @@ interface Props {
 
 const ALTO = 260 / 240;
 const CACAO = '#4A2018', TINTA = '#2B130E', BORDE = '#E4D0B6', LADRILLO = '#BA4036', DORADO = '#E3A33B', OLIVA = '#7C8A3A', KRAFT = '#D9B48F';
+const CREMA_K = '#FBF3E8';
 
 function imagenPara(look: string, animo: Animo): string | undefined {
   const quiere = [`${look}-${animo}.png`, `look-${look}.png`, `base-${animo}.png`, 'base-feliz.png'];
-  return quiere.find(f => IMAGENES_ANDI.includes(f));
+  return quiere.find(f => IMAGENES_KILLA.includes(f));
 }
 
-export default function Andi({ look, piezas, animo = 'feliz', tam = 160, className = '', titulo = 'Andi, la llamita exploradora' }: Props) {
+export default function Killa({ look, piezas, animo = 'feliz', tam = 160, className = '', titulo = 'Killa, la llamita de Andi' }: Props) {
   const id = useId().replace(/[^a-zA-Z0-9]/g, '');
   const estilo: Look | 'ninguno' = look && look !== 'ninguno' ? look : piezas?.length ? 'explorador' : 'ninguno';
-  const img = IMAGENES_ANDI.length ? imagenPara(estilo === 'ninguno' ? 'base' : estilo, animo) : undefined;
+  const img = IMAGENES_KILLA.length ? imagenPara(estilo === 'ninguno' ? 'base' : estilo, animo) : undefined;
   if (img) {
-    return <img src={`/img/andi/${img}`} alt={titulo} className={`andi andi-img ${className}`} style={{ width: tam, height: tam * ALTO, objectFit: 'contain' }} draggable={false} />;
+    return <img src={`/img/killa/${img}`} alt={titulo} className={`andi andi-img ${className}`} style={{ width: tam, height: tam * ALTO, objectFit: 'contain' }} draggable={false} />;
   }
   const gLana = `url(#${id}-lana)`, gCara = `url(#${id}-cara)`, gOjo = `url(#${id}-ojo)`;
-  const conSombrero = estilo === 'explorador' || estilo === 'chef' || estilo === 'pijama' || estilo === 'fiesta';
+  const conSombrero = estilo === 'explorador' || estilo === 'chef' || estilo === 'pijama' || estilo === 'fiesta' || estilo === 'chullo' || estilo === 'sombrero';
   const ojosArriba = animo === 'piensa';
   const dy = ojosArriba ? -4 : 0, dx = ojosArriba ? 3 : 0;
   const rx = animo === 'wow' ? 11.5 : 10, ry = animo === 'wow' ? 13.5 : 12;
@@ -67,6 +68,21 @@ export default function Andi({ look, piezas, animo = 'feliz', tam = 160, classNa
           <rect x="40" y="136" width="160" height="50" fill={OLIVA} />
           <rect x="40" y="160" width="160" height="7" fill="#fff" opacity=".9" />
           <circle cx="120" cy="170" r="9" fill="#fff" /><circle cx="120" cy="170" r="4.5" fill={LADRILLO} />
+        </g>
+      )}
+      {estilo === 'poncho' && (
+        <g clipPath={`url(#${id}-cuerpo)`}>
+          <rect x="40" y="136" width="160" height="90" fill={LADRILLO} />
+          <rect x="40" y="150" width="160" height="8" fill={DORADO} /><rect x="40" y="166" width="160" height="6" fill={OLIVA} /><rect x="40" y="180" width="160" height="8" fill={DORADO} /><rect x="40" y="196" width="160" height="6" fill={OLIVA} />
+          <g fill={CREMA_K}>{[64, 88, 112, 136, 160].map(x => <path key={x} d={`M${x - 5} 158 L${x} 150 L${x + 5} 158 Z`} />)}</g>
+        </g>
+      )}
+      {estilo === 'marinera' && (
+        <g clipPath={`url(#${id}-cuerpo)`}>
+          <rect x="40" y="136" width="160" height="90" fill="#fff" />
+          <path d="M40 178 Q80 166 120 178 Q160 190 200 178 L200 226 L40 226 Z" fill={LADRILLO} />
+          <path d="M40 190 Q80 178 120 190 Q160 202 200 190" stroke={DORADO} strokeWidth="4" fill="none" />
+          <path d="M40 206 Q80 194 120 206 Q160 218 200 206" stroke={DORADO} strokeWidth="4" fill="none" />
         </g>
       )}
       {estilo === 'pijama' && (
@@ -151,6 +167,43 @@ export default function Andi({ look, piezas, animo = 'feliz', tam = 160, classNa
           <path d="M76 52 Q92 12 130 14 Q170 10 192 30 Q176 26 160 34 Q164 44 164 52 Z" fill="#A9C9E8" stroke="#8FB4DA" strokeWidth="2" />
           <path d="M74 48 Q120 36 166 48 L166 60 Q120 48 74 60 Z" fill="#fff" stroke="#C9DCF0" strokeWidth="2" />
           <circle cx="194" cy="32" r="8" fill="#fff" stroke="#C9DCF0" strokeWidth="2" />
+        </g>
+      )}
+      {estilo === 'chullo' && (
+        <g>
+          <path d="M62 60 Q70 14 120 12 Q170 14 178 60 Z" fill={LADRILLO} />
+          <path d="M63 50 Q120 34 177 50 L178 60 Q120 44 62 60 Z" fill="#8A1C2B" />
+          <g fill={DORADO}>{[80, 96, 112, 128, 144, 160].map(x => <path key={x} d={`M${x - 5} 58 L${x} 50 L${x + 5} 58 Z`} />)}</g>
+          <circle cx="120" cy="12" r="7" fill={DORADO} /><circle cx="120" cy="12" r="3.5" fill="#fff" />
+          <path d="M66 58 Q56 86 64 104 Q78 100 82 74 Z" fill={LADRILLO} /><path d="M174 58 Q184 86 176 104 Q162 100 158 74 Z" fill={LADRILLO} />
+          <path d="M64 104 L60 122" stroke={DORADO} strokeWidth="3" strokeLinecap="round" /><path d="M176 104 L180 122" stroke={DORADO} strokeWidth="3" strokeLinecap="round" />
+          <circle cx="59" cy="126" r="5" fill={OLIVA} /><circle cx="181" cy="126" r="5" fill={OLIVA} />
+        </g>
+      )}
+      {estilo === 'chalina' && (
+        <g>
+          <path d="M70 134 Q120 156 170 134 L172 150 Q120 174 68 150 Z" fill={OLIVA} />
+          <path d="M72 142 Q120 164 168 142" stroke={DORADO} strokeWidth="4" fill="none" />
+          <path d="M150 146 L162 190 L176 186 L166 142 Z" fill={OLIVA} /><path d="M160 188 L158 198 M168 186 L170 196" stroke={DORADO} strokeWidth="3" strokeLinecap="round" />
+        </g>
+      )}
+      {estilo === 'poncho' && (
+        <g>
+          <path d="M72 134 Q120 150 168 134 L166 146 Q120 162 74 146 Z" fill={LADRILLO} />
+          <path d="M74 140 Q120 156 166 140" stroke={DORADO} strokeWidth="3" fill="none" />
+        </g>
+      )}
+      {estilo === 'sombrero' && (
+        <g>
+          <ellipse cx="120" cy="56" rx="74" ry="14" fill="#E8D39A" stroke="#C9B06A" strokeWidth="2.5" />
+          <path d="M82 56 Q84 20 120 18 Q156 20 158 56 Z" fill="#F0DFA8" stroke="#C9B06A" strokeWidth="2.5" />
+          <path d="M83 48 Q120 38 157 48 L158 56 Q120 46 82 56 Z" fill={LADRILLO} />
+        </g>
+      )}
+      {estilo === 'marinera' && (
+        <g>
+          <path d="M100 140 L120 150 L100 160 Z M140 140 L120 150 L140 160 Z" fill={LADRILLO} /><circle cx="120" cy="150" r="5" fill={DORADO} />
+          <g transform="rotate(22 162 38)"><path d="M150 18 Q166 2 176 14 Q170 24 160 30 Z" fill={LADRILLO} /><circle cx="164" cy="18" r="4" fill={DORADO} /></g>
         </g>
       )}
       {estilo === 'fiesta' && (

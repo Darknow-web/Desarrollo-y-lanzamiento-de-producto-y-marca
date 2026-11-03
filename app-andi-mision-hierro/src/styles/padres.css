@@ -439,3 +439,22 @@ button.punto-dia:not(:disabled):active i { transform: scale(.92); }
 .bienvenida-paso .lead { font-size: 15px; max-width: 34ch; }
 
 .pantalla.inicio { padding-bottom: 120px; }
+
+/* ---------- Hecho con lo nuestro ---------- */
+.origen-intro h1 { margin: 2px 0 6px; }
+.origen-intro p:last-child { color: var(--cafe-medio); margin: 0; }
+.origen-mapa figure { margin: 0; display: grid; gap: 6px; }
+.origen-mapa svg { width: 100%; max-width: 300px; margin: 0 auto; display: block; }
+.origen-mapa figcaption { text-align: center; font-size: 13px; color: var(--suave); }
+.origen-lista { display: grid; gap: 12px; }
+.origen-item { display: flex; gap: 12px; align-items: flex-start; border-left: 5px solid var(--c, var(--cafe)); }
+.origen-item h2 { font-size: 17px; margin: 0 0 2px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.origen-region { font-size: 12px; font-weight: 800; border-radius: 999px; padding: 2px 10px; background: var(--crema); color: var(--cafe); }
+.origen-emoji { flex: none; width: 44px; height: 44px; border-radius: 50%; background: var(--crema); display: grid; place-items: center; font-size: 24px; }
+.origen-lugar { margin: 0 0 6px; color: var(--cafe-medio); font-weight: 700; font-size: 13.5px; }
+.origen-item > div > p { margin: 0 0 6px; font-size: 14.5px; }
+.origen-pie { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.origen-pie small { color: var(--suave); font-size: 12px; }
+.origen-pie .chips { display: flex; gap: 4px; }
+.origen-pie .chips i { font-style: normal; font-size: 11px; font-weight: 800; color: #fff; border-radius: 999px; padding: 2px 8px; }
+.origen-historia { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--oliva-oscuro); font-weight: 700; }

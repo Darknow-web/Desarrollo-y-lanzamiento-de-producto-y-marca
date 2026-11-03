@@ -1,7 +1,7 @@
 import { useRef, useState, type ReactNode } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { AnimatePresence, motion } from 'motion/react';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import Icono from '../components/Icono';
 import { Boton, Paso } from '../components/ui';
 import { Cascada, Item } from '../components/movimiento';
@@ -28,7 +28,7 @@ function DibujoLonchera() {
 function DibujoAndi() {
   return (
     <div className="dibujo-andi">
-      <Andi tam={128} animo="wow" className="andi-flota" />
+      <AndiNino tam={128} animo="wow" className="andi-flota" />
       {[[-62, -8, 22], [60, -20, 18], [-44, 60, 14], [66, 48, 16]].map(([x, y, t], i) => (
         <motion.span key={i} className="estrella-dibujo" style={{ left: `calc(50% + ${x}px)`, top: `calc(50% + ${y}px)` }}
           animate={{ scale: [0.85, 1.1, 0.85], rotate: [0, 12, 0] }} transition={{ duration: 2 + i * 0.3, repeat: Infinity, ease: 'easeInOut' }}>
@@ -111,7 +111,7 @@ export default function Bienvenida() {
         ) : (
           <motion.div key="perfil" initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0 }} transition={{ duration: 0.28 }}>
             <Cascada className="bienvenida-paso">
-              <Item><Andi tam={96} className="andi-flota" /></Item>
+              <Item><AndiNino tam={96} className="andi-flota" /></Item>
               <Item><h1 className="titulo-pantalla">{consentido ? 'Agrega a tu hijo o hija' : '¿Quién va al colegio?'}</h1></Item>
               <Item><p className="lead">Lo que registres se queda <strong>solo en este teléfono</strong>. Nosotros recibimos el código del envase y, si usas el plan de loncheras, el apodo, la edad y lo que tu hijo debe evitar.</p></Item>
               <Item className="bienvenida-form">

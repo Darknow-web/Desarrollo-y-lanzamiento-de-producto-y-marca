@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
-import Andi from '../components/Andi';
-import { mejorDe, ninoSesion, useLook, useNiveles } from './progreso';
+import AndiNino from '../components/AndiNino';
+import { mejorDe, ninoSesion, useNiveles } from './progreso';
 
 interface Props {
   juego: string;
@@ -16,12 +16,11 @@ interface Props {
 /** Pantalla de inicio común a todos los juegos: Andi, el nivel actual y la mejor marca. */
 export default function InicioJuego({ juego, titulo, nivel, max, marca, pista, alJugar }: Props) {
   const id = ninoSesion();
-  const { look } = useLook(id);
   useNiveles(id);
   const mejor = mejorDe(juego, id);
   return (
     <div className="juego juego-inicio">
-      <Andi tam={150} look={look} className="andi-flota" />
+      <AndiNino tam={150} className="andi-flota" />
       <h1>{titulo}</h1>
       <div className="nivel-chip" aria-label={`Nivel ${nivel} de ${max}`}>
         <span className="nivel-chip-n">Nivel {nivel}</span>

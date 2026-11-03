@@ -13,6 +13,7 @@ import Loncheras from './parents/Loncheras';
 import Despensa from './parents/Despensa';
 import Hemoglobina from './parents/Hemoglobina';
 import Donde from './parents/Donde';
+import Origen from './parents/Origen';
 import Mas, { Privacidad } from './parents/Mas';
 import KidsLayout from './kids/KidsLayout';
 import Mapa from './kids/Mapa';
@@ -23,6 +24,7 @@ import Vestir from './kids/Vestir';
 import SumaHierro from './kids/SumaHierro';
 import Palabras from './kids/Palabras';
 import Ingles from './kids/Ingles';
+import Historietas from './kids/Historietas';
 import { Avisos } from './components/ui';
 import { revisarAvisos } from './lib/avisos';
 
@@ -56,6 +58,7 @@ export default function App() {
             <Route path="sumas" element={<SumaHierro />} />
             <Route path="palabras" element={<Palabras />} />
             <Route path="ingles" element={<Ingles />} />
+            <Route path="historietas" element={<Historietas />} />
           </Route>
           <Route path="/admin" element={<Suspense fallback={null}><Admin /></Suspense>} />
           <Route element={<Layout />}>
@@ -71,6 +74,7 @@ export default function App() {
             <Route path="despensa" element={<Despensa />} />
             <Route path="hemoglobina" element={<Hemoglobina />} />
             <Route path="donde" element={<Donde />} />
+            <Route path="origen" element={<Origen />} />
             <Route path="mas" element={<Mas />} />
             <Route path="privacidad" element={<Privacidad />} />
             <Route path="*" element={<Navigate to="/" replace />} />

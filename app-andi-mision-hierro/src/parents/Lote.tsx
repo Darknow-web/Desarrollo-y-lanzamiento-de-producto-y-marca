@@ -133,6 +133,7 @@ export default function Lote() {
           {lote.planta && <div><dt>Elaborado en</dt><dd>{lote.planta}</dd></div>}
           {lote.ingredientes && <div className="ficha-ancha"><dt>Ingredientes</dt><dd>{lote.ingredientes}</dd></div>}
         </dl>
+        <Link to={`/origen?sabor=${encodeURIComponent(lote.sabor)}`} className="boton boton-crema"><Icono n="hoja" tam={20} /><span>De dónde viene cada ingrediente</span></Link>
       </Item>
     </Cascada>
   );

@@ -1,15 +1,13 @@
 import { useEffect, useMemo, useState } from 'react';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import Celebracion from './Celebracion';
 import InicioJuego from './InicioJuego';
 import { generarSuma, NOMBRE_TRAMO } from '../data/juegos-colegio';
 import { hablar } from '../lib/voz';
-import { ninoSesion, useLook } from './progreso';
 import { useColegio } from './colegio';
 
 /** Suma de hierro: contar, sumar, restar, multiplicar y dividir con alimentos como fichas. */
 export default function SumaHierro() {
-  const { look } = useLook(ninoSesion());
   const c = useColegio('sumas');
   const pregunta = useMemo(() => generarSuma(c.tramo, c.nivel, c.ronda), [c.tramo, c.nivel, c.ronda, c.semilla]); // eslint-disable-line react-hooks/exhaustive-deps
   const [marcada, setMarcada] = useState<number | null>(null);
@@ -41,7 +39,7 @@ export default function SumaHierro() {
         <span className="ronda">Pregunta {c.ronda + 1} de {c.RONDAS}</span>
       </div>
       <div className="andi-habla" onClick={() => hablar(pregunta.enunciado)}>
-        <Andi tam={76} look={look} animo={mal !== null ? 'piensa' : marcada !== null ? 'wow' : 'feliz'} />
+        <AndiNino tam={76} animo={mal !== null ? 'piensa' : marcada !== null ? 'wow' : 'feliz'} />
         <p className="burbuja">{pregunta.enunciado}</p>
       </div>
       {!pregunta.titulo.startsWith('¿') && <div className="suma-titulo" aria-hidden="true">{pregunta.titulo}</div>}

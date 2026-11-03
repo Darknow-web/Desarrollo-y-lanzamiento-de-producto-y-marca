@@ -91,7 +91,7 @@ La versión clara no va sobre el vino 8A1C2B ni sobre el rojo ladrillo, porque "
 5. Volver a escribir "AndiBite" con otra letra (Calibri, Arial u otra). El logo es un dibujo y se usa solo desde los archivos PNG.
 6. Agregar sombras, brillos, contornos o efectos 3D.
 7. Ponerlo sobre una foto con muchos detalles sin una caja crema o café detrás.
-8. Poner a Andi, la llamita, junto al logo en piezas de venta (ver sección 7).
+8. Poner a Andi (el niño del envase) y a Killa, su llamita, junto al logo en piezas de venta (ver sección 7).
 9. Usar la versión clara sobre fondos claros o la versión color sobre café oscuro.
 10. Agregar el símbolo ® antes de tener la resolución de INDECOPI.
 
@@ -232,7 +232,9 @@ Otra frase de HECHOS_v7: "El snack de lonchera que tu hijo sí se come".
 
 ### 7.1 Quién es
 
-Andi es una llamita exploradora, blanca y crema, con mejillas rosadas y ojos grandes. Recorre los Andes en el modo niños de la app. Empieza sin ropa andina y gana piezas de su traje jugando: el chullo con 1 estrella, el poncho con 3, la mochila con 5 y la medalla de explorador con 8. Habla con frases de 5 palabras o menos y lee en voz alta para los niños que aún no leen (documento 09).
+> **Nota (3 de noviembre de 2026):** Andi es el niño del envase (7 años, chullo rojo con grecas, trenzas, chompa roja). La llamita de esta sección pasó a llamarse Killa y es su mascota; lo que sigue describe a Killa.
+
+Killa es una llamita, blanca y crema, con mejillas rosadas y ojos grandes. Recorre los Andes en el modo niños de la app. Empieza sin ropa andina y gana piezas de su traje jugando: el chullo con 1 estrella, el poncho con 3, la mochila con 5 y la medalla de explorador con 8. Habla con frases de 5 palabras o menos y lee en voz alta para los niños que aún no leen (documento 09).
 
 ### 7.2 Dónde sí y dónde no
 

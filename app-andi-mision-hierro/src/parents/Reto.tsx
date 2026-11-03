@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import Icono from '../components/Icono';
 import { Boton, Encabezado, Hoja, Interruptor, aviso } from '../components/ui';
 import { Cascada, Item } from '../components/movimiento';
@@ -50,7 +50,7 @@ export function Celebracion({ nino, racha, mg, alCerrar }: { nino: Nino; racha: 
         transition={{ type: 'spring', stiffness: 260, damping: 22 }}>
         {!reducir && <Confeti />}
         <motion.div animate={reducir ? {} : { y: [0, -10, 0], rotate: [0, -3, 3, 0] }} transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut' }}>
-          <Andi animo="wow" tam={132} />
+          <AndiNino animo="wow" tam={132} />
         </motion.div>
         <h2>¡Volvió vacía!</h2>
         <p className="celebra-sub">Esto es lo que nadie ve.</p>
@@ -180,7 +180,7 @@ export default function Hoy() {
 
   if (!nino) return (
     <div className="pantalla"><Encabezado titulo="El hierro de hoy" atras="/" />
-      <div className="vacio"><Andi tam={110} animo="piensa" /><h3>Primero crea el perfil de tu hijo</h3><p>Así Andi lleva su hierro de cada día y sus estrellas.</p>
+      <div className="vacio"><AndiNino tam={110} animo="piensa" /><h3>Primero crea el perfil de tu hijo</h3><p>Así Andi lleva su hierro de cada día y sus estrellas.</p>
         <Link to="/bienvenida?volver=/hoy" className="boton boton-primario">Crear perfil</Link></div></div>
   );
 

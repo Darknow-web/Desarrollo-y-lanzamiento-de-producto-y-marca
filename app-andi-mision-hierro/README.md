@@ -9,7 +9,7 @@ App web instalable (PWA) que viene con cada envase de AndiBite. Se abre con el Q
   - **semáforo de hierro** de la semana;
   - **plan de loncheras con IA** (premium): cada pack escaneado desbloquea 14 días el plan semanal armado por Claude para el hijo (recetas con hierro paso a paso, fruta con vitamina C, lista de compras); al vencer, "Tu plan se renueva con tu próximo pack". Si el Worker no tiene la clave de IA, se usa el recetario propio de AndiBite;
   - control de **hemoglobina** y **dónde estamos** (stands del plan 2027).
-- **Modo niños, "Misión Hierro":** Andi, una llamita exploradora, recorre los Andes con 7 juegos con niveles y voz: Memoria, Atrapa el hierro, Lonchera exprés y Viste a Andi, más tres de colegio por edad (Suma de hierro, Palabras de la lonchera e Inglés de lonchera). Lo abre el padre con un candado y él fija el tiempo de juego. No tiene compras, ni publicidad, ni premios por comprar (Ley 30021, art. 8).
+- **Modo niños, "Misión Hierro":** Andi, el niño del envase, y Killa, su llamita, recorren el Perú con 7 juegos con niveles y voz, más «Las historias de Andi» (5 historietas de 6 viñetas que se abren con estrellas o niveles y regalan trajes peruanos a Killa): Memoria, Atrapa el hierro, Lonchera exprés y Viste a Killa, más tres de colegio por edad (Suma de hierro, Palabras de la lonchera e Inglés de lonchera). Lo abre el padre con un candado y él fija el tiempo de juego. No tiene compras, ni publicidad, ni premios por comprar (Ley 30021, art. 8).
 - **Panel del equipo (`/admin`):** publicar el análisis de laboratorio de cada lote, generar los códigos únicos e imprimir la hoja de QR (o bajar el CSV para la imprenta), ver los escaneos y editar los puntos de venta.
 
 Los datos de la familia se guardan **solo en el teléfono** (Ley 29733). Al servidor solo llega el código escaneado, sin datos personales.
@@ -119,7 +119,7 @@ src/
   parents/   pantallas de padres (inicio, lote, informe, escanear, semáforo, loncheras, despensa, hemoglobina, dónde, más)
   kids/      Misión Hierro: candado para padres, mapa, 7 juegos con niveles, celebración y tiempo de juego
   admin/     panel del equipo
-  components Andi (personaje en SVG), íconos, componentes base y movimiento (motion)
+  components AndiNino (el niño, en SVG) y Killa (la llamita, en SVG), íconos, componentes base y movimiento (motion)
   data/      alimentos con hierro (CENAN), recetario de loncheras, contenido educativo y precios
   lib/       estado local, códigos, cálculos de hierro, fechas, voz, calendario (.ics), WhatsApp y API
 data/seed.json  lotes, códigos y puntos iniciales (se genera con node scripts/seed.mjs)

@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
 import { motion } from 'motion/react';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import { hablar, sonido } from '../lib/voz';
-import { ninoSesion, useLook } from './progreso';
 
 interface Props {
   titulo: string;
@@ -21,7 +20,6 @@ interface Props {
 
 /** Pantalla final de cada juego: Andi celebra, muestra «Nivel N superado» y las estrellas ganadas. */
 export default function Celebracion({ titulo, ganadas, detalle, nivel, superado = true, siguiente, alSeguir, alRepetir, alSiguiente }: Props) {
-  const { look } = useLook(ninoSesion());
   useEffect(() => {
     if (superado) sonido.premio(); else sonido.suave();
     const estrella = ganadas === 1 ? '¡Ganaste una estrella!' : ganadas > 1 ? `¡Ganaste ${ganadas} estrellas!` : superado ? 'Este nivel ya te dio su estrella. ¡Sigue avanzando!' : 'Casi. ¡Inténtalo otra vez!';
@@ -30,7 +28,7 @@ export default function Celebracion({ titulo, ganadas, detalle, nivel, superado 
   return (
     <div className="celebracion" role="dialog" aria-label={titulo}>
       <motion.div initial={{ scale: .6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: 'spring', stiffness: 260, damping: 18 }}>
-        <Andi tam={170} animo={superado ? 'wow' : 'piensa'} look={look} className="andi-flota" />
+        <AndiNino tam={170} animo={superado ? 'wow' : 'piensa'} className="andi-flota" />
       </motion.div>
       {nivel !== undefined && <span className={`celebracion-nivel ${superado ? '' : 'sin'}`}>{superado ? `Nivel ${nivel} superado` : `Nivel ${nivel}`}</span>}
       <h1>{titulo}</h1>

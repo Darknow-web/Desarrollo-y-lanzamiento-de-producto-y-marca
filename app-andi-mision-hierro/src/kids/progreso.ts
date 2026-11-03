@@ -91,7 +91,7 @@ const entrada = (ninoId: string, juego: string): NivelJuego => {
 export const nivelDe = (juego: string, ninoId: string = ninoSesion()) => entrada(ninoId, juego).nivel;
 /** Mejor marca guardada del juego (puntos, intentos, segundos…), si existe. */
 export const mejorDe = (juego: string, ninoId: string = ninoSesion()) => entrada(ninoId, juego).mejor;
-/** Suma de niveles avanzados en todos los juegos (desbloquea looks en Viste a Andi). */
+/** Suma de niveles avanzados en todos los juegos (desbloquea looks en Viste a Killa e historias de Andi). */
 export const nivelTotal = (ninoId: string = ninoSesion()) => Object.values(nivelesDe(ninoId)).reduce((s, j) => s + (j.nivel - 1), 0);
 
 /** Sube un nivel al juego (hasta `max`). */

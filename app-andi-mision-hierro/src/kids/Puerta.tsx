@@ -1,5 +1,5 @@
 import { useMemo, useRef, useState, type CSSProperties } from 'react';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import Icono from '../components/Icono';
 
 /** Candado para adultos: mantener presionado 2 segundos y resolver una suma. */
@@ -26,7 +26,7 @@ export default function Puerta({ titulo, alPasar, alCancelar }: { titulo: string
   return (
     <div className="puerta">
       <div className="puerta-caja">
-        <Andi tam={110} animo="piensa" />
+        <AndiNino tam={110} animo="piensa" />
         <h1>{titulo}</h1>
         {fase === 'mantener' ? (
           <>

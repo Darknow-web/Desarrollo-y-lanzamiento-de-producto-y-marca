@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type PointerEvent as PE } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AnimatePresence, motion } from 'motion/react';
-import Andi, { type Animo } from '../components/Andi';
+import Killa, { type Animo } from '../components/Killa';
 import Celebracion from './Celebracion';
 import InicioJuego from './InicioJuego';
 import { NIVELES_MAX, OPCIONES_LONCHERA, type Opcion } from '../data/ninos';
@@ -155,7 +155,7 @@ export default function LoncheraExpres() {
       </div>
       <div className="tiempo-barra" aria-hidden="true"><i style={{ width: `${pct * 100}%` }} className={pct < .25 ? 'poco' : ''} /></div>
       <div className="lonchera-escena">
-        <Andi tam={84} look={look} animo={animo} />
+        <Killa tam={84} look={look} animo={animo} />
         <div ref={lonchera} className={`lonchera-caja ${arrastre ? 'abierta' : ''} ${listo ? 'lista' : ''}`} aria-label="Lonchera">
           {TIPOS.map(t => (
             <div key={t} className={`lonchera-sitio ${puestos[t] ? 'lleno' : ''}`}>

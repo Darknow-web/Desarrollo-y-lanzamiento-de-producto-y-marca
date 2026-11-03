@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import Celebracion from './Celebracion';
 import InicioJuego from './InicioJuego';
 import { CARTAS, NIVELES_MAX } from '../data/ninos';
 import { hablar, sonido } from '../lib/voz';
-import { nivelDe, ninoSesion, superarNivel, useLook } from './progreso';
+import { nivelDe, superarNivel } from './progreso';
 
 interface Ficha { k: number; id: string; emoji: string; nombre: string; dato: string }
 const mezclar = <T,>(a: T[]) => [...a].sort(() => Math.random() - 0.5);
@@ -21,7 +21,6 @@ function repartir(pares: number): Ficha[] {
 
 export default function Memoria() {
   const ir = useNavigate();
-  const { look } = useLook(ninoSesion());
   const [nivel, setNivel] = useState(() => nivelDe('memoria'));
   const pares = parejasDe(nivel);
   const [fase, setFase] = useState<'inicio' | 'jugando'>('inicio');
@@ -68,7 +67,7 @@ export default function Memoria() {
 
   return (
     <div className="juego juego-memoria">
-      <div className="andi-habla" onClick={() => hablar(dato)}><Andi tam={80} look={look} animo={hechas.length ? 'wow' : 'feliz'} /><p className="burbuja">{dato}</p></div>
+      <div className="andi-habla" onClick={() => hablar(dato)}><AndiNino tam={80} animo={hechas.length ? 'wow' : 'feliz'} /><p className="burbuja">{dato}</p></div>
       <div className={`tablero ${pares >= 10 ? 'tablero-grande' : ''}`}>
         {fichas.map(f => {
           const visible = abiertas.includes(f.k) || hechas.includes(f.id);

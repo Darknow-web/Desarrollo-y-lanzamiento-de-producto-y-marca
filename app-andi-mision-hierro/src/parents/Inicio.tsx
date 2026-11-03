@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import Icono from '../components/Icono';
 import { aviso } from '../components/ui';
 import { Cascada, Item } from '../components/movimiento';
@@ -30,7 +30,7 @@ function Marca() {
 function HeroSinNino() {
   return (
     <section className="reto-hero reto-invita">
-      <Andi tam={96} className="andi-flota" />
+      <AndiNino tam={96} className="andi-flota" />
       <p className="kicker">El hierro de hoy</p>
       <h2 className="reto-titulo">Cada tarde, en un toque, sabes cuánto hierro lleva tu hijo</h2>
       <Link to="/bienvenida?volver=/" className="boton boton-primario boton-ancho boton-reto"><Icono n="sumar" tam={22} /><span>Crear el perfil de mi hijo</span></Link>
@@ -139,7 +139,7 @@ export default function Inicio() {
           <p className="kicker">{SLOGAN}</p>
           <h1 className="titulo-pantalla">{SALUDO()}{nino ? `, familia de ${nino.apodo}` : ''}</h1>
         </div>
-        <Andi tam={48} className="andi-mini" />
+        <AndiNino tam={48} className="andi-mini" />
       </Item>
       {ninos > 1 && <Item><SelectorNino /></Item>}
 
@@ -157,7 +157,7 @@ export default function Inicio() {
           <Icono n="derecha" tam={18} />
         </Link>
         <Link to="/ninos" className="tarjeta ruta ruta-ninos">
-          <span className="ruta-icono"><Andi tam={40} /></span>
+          <span className="ruta-icono"><AndiNino tam={40} /></span>
           <span className="ruta-texto"><strong>Misión Hierro para tu hijo</strong><small>{nino ? `Juegos con Andi · ${progreso.estrellas} ${progreso.estrellas === 1 ? 'estrella' : 'estrellas'}` : 'Juegos con Andi sobre comidas con hierro'}</small></span>
           <Icono n="candado" tam={18} />
         </Link>

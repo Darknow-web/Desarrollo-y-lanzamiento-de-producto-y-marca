@@ -234,3 +234,35 @@ body.modo-ninos { background: #F7E2BC; }
 .juego-colegio, .juego-lonchera { justify-content: center; }
 .juego-memoria { min-height: calc(100dvh - 96px); align-content: center; }
 .mapa-juegos > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+
+/* ---------- Mapa: Andi y Killa ---------- */
+.mapa-duo { display: flex; align-items: flex-end; justify-content: center; gap: 4px; }
+
+/* ---------- Las historias de Andi ---------- */
+.juego-historietas { width: 100%; }
+.episodios { display: grid; gap: 10px; width: 100%; }
+.episodio { display: flex; align-items: center; gap: 12px; text-align: left; background: #fff; border-radius: 22px; padding: 10px 14px 10px 10px; box-shadow: 0 6px 0 rgba(74, 32, 24, .12); transition: transform .12s; font-family: var(--fuente-nino); }
+.episodio:active { transform: translateY(3px); }
+.episodio-emoji { flex: none; width: 58px; height: 58px; border-radius: 50%; background: var(--c, #BA4036); display: grid; place-items: center; font-size: 30px; box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .12); }
+.episodio-texto { flex: 1; display: grid; min-width: 0; line-height: 1.15; }
+.episodio-texto strong { font-size: 14px; color: #6B3A2A; }
+.episodio-texto span { font-size: 18px; font-weight: 800; color: var(--tinta); }
+.episodio-texto small { font-size: 13px; color: #8A6A55; font-weight: 700; }
+.episodio-estado { flex: none; display: inline-flex; align-items: center; gap: 4px; font-weight: 800; font-size: 14px; border-radius: 999px; padding: 4px 12px; background: #F5E8D6; color: #6B3A2A; }
+.episodio.alcanza .episodio-estado { background: var(--sol); color: var(--tinta); }
+.episodio.leida .episodio-estado { background: #ECEFD9; color: #55602A; }
+.episodio.leida { background: #FFF8E6; }
+
+.lector { gap: 10px; }
+.lector-cabeza { width: 100%; display: flex; justify-content: space-between; align-items: center; }
+.lector-paso { font-weight: 800; font-size: 15px; border-radius: 999px; padding: 4px 12px; background: #fff; color: #6B3A2A; box-shadow: var(--sombra-nino); }
+.lector-titulo { font-size: 22px; color: var(--tinta); text-align: center; margin: 0; }
+.vineta { width: 100%; margin: 0; background: #fff; border-radius: 26px; padding: 10px; box-shadow: 0 7px 0 rgba(74, 32, 24, .12); display: grid; gap: 10px; }
+.vineta img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 18px; background: #F5E8D6; }
+.vineta-boceto { aspect-ratio: 4 / 5; border-radius: 18px; background: linear-gradient(180deg, color-mix(in srgb, var(--c, #BA4036) 18%, #fff), color-mix(in srgb, var(--c, #BA4036) 42%, #fff)); display: grid; align-content: center; justify-items: center; gap: 10px; padding: 14px; text-align: center; }
+.vineta-personajes { display: flex; align-items: flex-end; gap: 6px; }
+.vineta-escena { font-size: 15px; font-weight: 700; line-height: 1.3; color: #6B3A2A; font-style: italic; margin: 0; }
+.vineta-texto { font-size: 20px; font-weight: 700; line-height: 1.3; color: var(--tinta); text-align: center; padding: 0 6px 4px; }
+.lector-botones { display: grid; grid-template-columns: 64px 1fr 92px; gap: 10px; width: 100%; }
+.lector-botones .boton-nino { padding: 0 12px; min-height: 60px; font-size: 19px; display: flex; align-items: center; justify-content: center; gap: 6px; }
+.lector-botones .boton-nino:disabled { opacity: .4; }

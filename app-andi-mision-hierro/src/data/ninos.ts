@@ -55,22 +55,23 @@ export const OPCIONES_LONCHERA: Opcion[] = [
 ];
 
 /* ---------- Paradas del mapa ---------- */
-export type Juego = 'atrapa' | 'lonchera' | 'memoria' | 'vestir' | 'sumas' | 'palabras' | 'ingles';
+export type Juego = 'atrapa' | 'lonchera' | 'memoria' | 'vestir' | 'sumas' | 'palabras' | 'ingles' | 'historietas';
 export interface Parada { id: Juego; juego: string; emoji: string; color: string; niveles: number }
 /** Niveles máximos por juego (Memoria: 4, 6, 8, 10 y 12 parejas). */
-export const NIVELES_MAX: Record<Juego, number> = { atrapa: 10, lonchera: 10, memoria: 5, vestir: 0, sumas: 20, palabras: 20, ingles: 20 };
+export const NIVELES_MAX: Record<Juego, number> = { atrapa: 10, lonchera: 10, memoria: 5, vestir: 0, sumas: 20, palabras: 20, ingles: 20, historietas: 0 };
 export const PARADAS: Parada[] = [
   { id: 'atrapa', juego: 'Atrapa el hierro', emoji: '🧺', color: '#BA4036', niveles: 10 },
   { id: 'lonchera', juego: 'Lonchera exprés', emoji: '⏰', color: '#7C8A3A', niveles: 10 },
   { id: 'memoria', juego: 'Memoria', emoji: '🃏', color: '#E3A33B', niveles: 5 },
-  { id: 'vestir', juego: 'Viste a Andi', emoji: '🎩', color: '#6B3A2A', niveles: 0 },
+  { id: 'historietas', juego: 'Las historias de Andi', emoji: '📖', color: '#C97B2E', niveles: 0 },
+  { id: 'vestir', juego: 'Viste a Killa', emoji: '🎩', color: '#6B3A2A', niveles: 0 },
   { id: 'sumas', juego: 'Suma de hierro', emoji: '🔢', color: '#3E7C8A', niveles: 20 },
   { id: 'palabras', juego: 'Palabras de la lonchera', emoji: '🔤', color: '#8A5A3E', niveles: 20 },
   { id: 'ingles', juego: 'Inglés de lonchera', emoji: '🗣️', color: '#5A6B8A', niveles: 20 },
 ];
 
-/* ---------- Viste a Andi: looks y fondos (se pagan solo con estrellas ganadas jugando) ---------- */
-export type Look = 'explorador' | 'chef' | 'astronauta' | 'deportista' | 'pijama' | 'fiesta';
+/* ---------- Viste a Killa: looks y fondos (se pagan solo con estrellas ganadas jugando o se regalan con niveles e historias) ---------- */
+export type Look = 'explorador' | 'chef' | 'astronauta' | 'deportista' | 'pijama' | 'fiesta' | 'chullo' | 'chalina' | 'poncho' | 'sombrero' | 'marinera';
 /** `nivel`: niveles totales avanzados (suma de todos los juegos) con los que el look se regala sin gastar estrellas. */
 export interface LookInfo { id: Look; nombre: string; emoji: string; estrellas: number; nivel: number }
 export const LOOKS: LookInfo[] = [
@@ -80,6 +81,12 @@ export const LOOKS: LookInfo[] = [
   { id: 'deportista', nombre: 'Deportista', emoji: '⚽', estrellas: 5, nivel: 25 },
   { id: 'pijama', nombre: 'Pijama', emoji: '🌙', estrellas: 6, nivel: 40 },
   { id: 'fiesta', nombre: 'Fiesta', emoji: '🎉', estrellas: 8, nivel: 60 },
+  // Trajes del Perú: también se regalan al terminar cada historia de Andi (1 a 5).
+  { id: 'chullo', nombre: 'Chullo', emoji: '🏔️', estrellas: 2, nivel: 5 },
+  { id: 'chalina', nombre: 'Chalina', emoji: '🧣', estrellas: 3, nivel: 10 },
+  { id: 'poncho', nombre: 'Poncho', emoji: '🧶', estrellas: 4, nivel: 18 },
+  { id: 'sombrero', nombre: 'Sombrero de paja', emoji: '👒', estrellas: 5, nivel: 30 },
+  { id: 'marinera', nombre: 'Marinera', emoji: '💃', estrellas: 6, nivel: 45 },
 ];
 export type Fondo = 'lima' | 'selva' | 'andes' | 'playa';
 export const FONDOS: { id: Fondo; nombre: string; emoji: string }[] = [

@@ -1,15 +1,13 @@
 import { useEffect, useMemo, useState } from 'react';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import Celebracion from './Celebracion';
 import InicioJuego from './InicioJuego';
 import { generarFrase, generarLetra, generarSilabas, NOMBRE_TRAMO, type RondaPalabra } from '../data/juegos-colegio';
 import { hablar } from '../lib/voz';
-import { ninoSesion, useLook } from './progreso';
 import { useColegio } from './colegio';
 
 /** Palabras de la lonchera: letra que falta (4–6), ordenar sílabas (7–9), completar frases y adivinanzas (10–11). */
 export default function Palabras() {
-  const { look } = useLook(ninoSesion());
   const c = useColegio('palabras');
   const ronda: RondaPalabra = useMemo(() => {
     const r = c.tramo === 'a' ? generarLetra(c.nivel, c.usadas.current) : c.tramo === 'b' ? generarSilabas(c.nivel, c.usadas.current) : generarFrase(c.nivel, c.ronda, c.usadas.current);
@@ -63,7 +61,7 @@ export default function Palabras() {
       {ronda.tipo === 'letra' && (
         <>
           <div className="andi-habla" onClick={() => hablar(`${bonito(ronda.palabra.palabra)}. ¿Qué letra falta?`)}>
-            <Andi tam={70} look={look} animo={animo} />
+            <AndiNino tam={70} animo={animo} />
             <p className="burbuja">¿Qué letra falta?</p>
           </div>
           <div className="palabra-emoji" aria-hidden="true">{ronda.palabra.emoji}</div>
@@ -79,7 +77,7 @@ export default function Palabras() {
       {ronda.tipo === 'silabas' && (
         <>
           <div className="andi-habla" onClick={() => hablar(`Ordena las sílabas de ${bonito(ronda.palabra.palabra)}.`)}>
-            <Andi tam={70} look={look} animo={animo} />
+            <AndiNino tam={70} animo={animo} />
             <p className="burbuja">Ordena las sílabas.</p>
           </div>
           <div className="palabra-emoji" aria-hidden="true">{ronda.palabra.emoji}</div>
@@ -98,7 +96,7 @@ export default function Palabras() {
       {(ronda.tipo === 'frase' || ronda.tipo === 'adivinanza') && (
         <>
           <div className="andi-habla" onClick={() => hablar(ronda.texto)}>
-            <Andi tam={76} look={look} animo={animo} />
+            <AndiNino tam={76} animo={animo} />
             <p className="burbuja">{ronda.tipo === 'adivinanza' ? `Adivina: ${ronda.texto}` : ronda.texto.replace('___', marcada ? marcada.toLowerCase() : '_____')}</p>
           </div>
           <div className="palabra-emoji chica" aria-hidden="true">{marcada ? ronda.palabra.emoji : '❓'}</div>

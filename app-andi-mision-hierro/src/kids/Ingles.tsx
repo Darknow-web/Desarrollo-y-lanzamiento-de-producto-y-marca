@@ -1,17 +1,15 @@
 import { useEffect, useMemo, useState } from 'react';
-import Andi from '../components/Andi';
+import AndiNino from '../components/AndiNino';
 import Celebracion from './Celebracion';
 import InicioJuego from './InicioJuego';
 import { generarElegir, generarEmparejar, generarEscribir, NOMBRE_TRAMO, type ParIngles, type RondaElegir, type RondaEmparejar, type RondaEscribir } from '../data/juegos-colegio';
 import { hablar, hablarEn } from '../lib/voz';
-import { ninoSesion, useLook } from './progreso';
 import { useColegio } from './colegio';
 
 type Ronda = RondaElegir | RondaEmparejar | RondaEscribir;
 
 /** Inglés de lonchera: elegir la palabra (4–6), emparejar pares (7–9), escribirla con teclado de letras (10–11). */
 export default function Ingles() {
-  const { look } = useLook(ninoSesion());
   const c = useColegio('ingles');
   const ronda: Ronda = useMemo(() => {
     const r = c.tramo === 'a' ? generarElegir(c.nivel, c.usadas.current) : c.tramo === 'b' ? generarEmparejar(c.nivel) : generarEscribir(c.nivel, c.usadas.current);
@@ -81,7 +79,7 @@ export default function Ingles() {
       {ronda.tipo === 'elegir' && (
         <>
           <div className="andi-habla" onClick={() => hablar(`¿Cómo se dice ${ronda.par.es} en inglés?`)}>
-            <Andi tam={70} look={look} animo={animo} />
+            <AndiNino tam={70} animo={animo} />
             <p className="burbuja">{`¿Cómo se dice ${ronda.par.es} en inglés?`}</p>
           </div>
           <div className="palabra-emoji" aria-hidden="true">{ronda.par.emoji}</div>
@@ -96,7 +94,7 @@ export default function Ingles() {
       {ronda.tipo === 'emparejar' && (
         <>
           <div className="andi-habla" onClick={() => hablar('Toca una palabra en español y luego su pareja en inglés.')}>
-            <Andi tam={70} look={look} animo={animo} />
+            <AndiNino tam={70} animo={animo} />
             <p className="burbuja">Toca una palabra y luego su pareja en inglés.</p>
           </div>
           <div className="parejas">
@@ -119,7 +117,7 @@ export default function Ingles() {
       {ronda.tipo === 'escribir' && (
         <>
           <div className="andi-habla" onClick={() => hablar(`Escribe ${ronda.par.es} en inglés.`)}>
-            <Andi tam={70} look={look} animo={animo} />
+            <AndiNino tam={70} animo={animo} />
             <p className="burbuja">{`Escribe ${ronda.par.es} en inglés.`}</p>
           </div>
           <div className="palabra-emoji" aria-hidden="true">{ronda.par.emoji}</div>

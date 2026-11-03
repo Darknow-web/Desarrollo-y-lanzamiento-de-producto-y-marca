@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent as KE, type PointerEvent as PE } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
-import Andi, { type Animo } from '../components/Andi';
+import Killa, { type Animo } from '../components/Killa';
 import Celebracion from './Celebracion';
 import InicioJuego from './InicioJuego';
 import { CAEN, NIVELES_MAX, type Cae } from '../data/ninos';
@@ -150,7 +150,7 @@ export default function Atrapa() {
             initial={{ opacity: 1, y: 0, scale: .8 }} animate={{ opacity: 0, y: -50, scale: 1.2 }} transition={{ duration: .7 }} aria-hidden="true">{f.texto}</motion.span>
         ))}
         <div className="atrapa-andi" style={{ left: `${vista.andiX * 100}%` }}>
-          <Andi tam={92} look={look} animo={vista.animo} />
+          <Killa tam={92} look={look} animo={vista.animo} />
           <div className="atrapa-lonchera" style={{ width: ANCHO_LONCHERA }} aria-hidden="true" />
         </div>
       </div>
