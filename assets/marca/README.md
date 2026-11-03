@@ -6,6 +6,7 @@
 | `logo-con-andi-crema.png` | Lo mismo sobre fondo crema (FBF3E8) | 1660 × 1340 px |
 | `frase-slogan.png` | «Dulce para ellos. Tranquilidad para ti.» en globo con rayitos dorados. Fondo transparente | 1673 × 498 px |
 | `frase-slogan-crema.png` | Lo mismo sobre fondo crema | 1673 × 498 px |
+| `logo-con-andi.pdf`, `frase-slogan.pdf`, `piezas-marca.pdf` | Las mismas piezas en PDF (fondo blanco, texto en vector; el combinado trae las dos páginas) | — |
 | `andi-envase.png` | Andi recortado (sin fondo), generado en Nano Banana a partir de la ilustración del envase | 1714 × 1450 px |
 
 Colores: café 4A2018, ladrillo BA4036, dorado E3A33B, crema FBF3E8. Tipografía de la frase: Baloo 2 (la de la app).
