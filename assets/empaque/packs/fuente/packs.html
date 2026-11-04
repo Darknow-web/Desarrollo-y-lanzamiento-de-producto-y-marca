@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Caveat:wght@700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+<style>
+  /* Stickers para bolsas doypack kraft: pack de 12 (bolsa 12 × 18 + 4) y pack de 6 (bolsa 10 × 15 + 4).
+     Zonas medidas por Carlos en la bolsa: A = panel frontal bajo el cierre, B = franja de 4 cm (pliegue del fuelle), C = base.
+     Todo en milímetros. --s escala las letras según el ancho de la bolsa. */
+  :root { --cafe: #4A2018; --texto: #3B1A14; --ladrillo: #BA4036; --vino: #8A1C2B; --dorado: #E3A33B; --oliva: #7C8A3A; --kraft: #EBD5BA; --crema: #FBF3E8; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #888; font-family: 'Nunito', sans-serif; color: var(--texto); }
+  body { display: flex; flex-wrap: wrap; gap: 10mm; padding: 10mm; }
+  .st { position: relative; width: var(--w); height: var(--h); background: var(--kraft); overflow: hidden; flex: none; }
+  .st.grande { --w: 110mm; --h: 165mm; --a: 80mm; --b: 40mm; --c: 45mm; --s: 1; }
+  .st.pequena { --w: 90mm; --h: 135mm; --a: 59mm; --b: 40mm; --c: 36mm; --s: .82; }
+  .st.pequena:not(.rev) .zA { --s: .735; }
+  .zA { position: absolute; left: 0; top: 0; width: 100%; height: var(--a); }
+  .zBC { position: absolute; left: 0; top: var(--a); width: 100%; height: calc(var(--b) + var(--c)); }
+  .mm { font-size: calc(1mm * var(--s)); }
+
+  /* ---------- FRENTE ---------- */
+  .claim { position: absolute; left: calc(6mm * var(--s)); top: calc(4mm * var(--s)); font-family: 'Caveat', cursive; font-weight: 700; font-size: calc(6.2mm * var(--s)); line-height: .95; color: var(--cafe); transform: rotate(-6deg); }
+  .claim svg { display: block; width: calc(5mm * var(--s)); height: calc(4.5mm * var(--s)); margin: calc(.8mm * var(--s)) auto 0; }
+  .rayos { position: absolute; left: calc(31mm * var(--s)); top: calc(6mm * var(--s)); width: calc(8mm * var(--s)); height: calc(8mm * var(--s)); }
+  .rayos line { stroke: var(--cafe); stroke-width: 1.3; stroke-linecap: round; }
+  .badge { position: absolute; right: calc(5mm * var(--s)); top: calc(4mm * var(--s)); width: calc(22mm * var(--s)); background: var(--vino); color: #fff; border-radius: calc(4mm * var(--s)); text-align: center; padding: calc(1.6mm * var(--s)) 0 calc(2mm * var(--s)); }
+  .badge b { display: block; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: calc(10mm * var(--s)); line-height: 1; }
+  .badge span { display: block; font-weight: 800; font-size: calc(2.9mm * var(--s)); line-height: 1.1; margin-top: calc(.5mm * var(--s)); }
+  .badge small { display: block; font-weight: 700; font-size: calc(2.6mm * var(--s)); margin-top: calc(1mm * var(--s)); opacity: .9; }
+  .logo { position: absolute; left: 50%; top: calc(21mm * var(--s)); width: calc(80mm * var(--s)); transform: translateX(-50%); }
+  .nombre { position: absolute; left: 0; width: 100%; top: calc(55.5mm * var(--s)); text-align: center; font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: calc(6.3mm * var(--s)); color: var(--cafe); letter-spacing: .01em; }
+  .ribbon { position: absolute; left: 50%; transform: translateX(-50%); top: calc(65mm * var(--s)); width: calc(84mm * var(--s)); height: calc(9.5mm * var(--s)); background: var(--vino); color: #fff; font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: calc(5.4mm * var(--s)); line-height: calc(9.5mm * var(--s)); text-align: center; clip-path: polygon(0 0, 100% 0, 97% 50%, 100% 100%, 0 100%, 3% 50%); }
+  .sabor { position: absolute; left: 0; width: 100%; top: calc(75.5mm * var(--s)); text-align: center; font-weight: 800; font-size: calc(3.1mm * var(--s)); color: var(--ladrillo); letter-spacing: .06em; text-transform: uppercase; }
+  .illu { position: absolute; left: 0; top: 0; width: 100%; display: block; }
+  .strip { position: absolute; left: 0; bottom: 0; width: 100%; height: calc(26mm * var(--s)); background: var(--cafe); color: #fff; display: flex; align-items: center; justify-content: space-around; padding: 0 calc(3mm * var(--s)) 0 calc(4mm * var(--s)); }
+  .ico { display: flex; flex-direction: column; align-items: center; gap: calc(1mm * var(--s)); width: calc(23mm * var(--s)); text-align: center; font-weight: 700; font-size: calc(2.8mm * var(--s)); line-height: 1.1; }
+  .ico img { width: calc(11mm * var(--s)); height: calc(11mm * var(--s)); }
+  .peso { text-align: right; font-size: calc(2.8mm * var(--s)); line-height: 1.15; }
+  .peso b { display: block; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: calc(5.6mm * var(--s)); }
+
+  /* ---------- REVERSO ---------- */
+  .rev .zA { padding: calc(4mm * var(--s)) calc(6mm * var(--s)) 0; }
+  .rev h2 { margin: 0; text-align: center; font-family: 'Caveat', cursive; font-weight: 700; font-size: calc(8.6mm * var(--s)); line-height: .95; color: var(--cafe); }
+  .qrb { display: flex; gap: calc(4mm * var(--s)); align-items: center; margin-top: calc(3.5mm * var(--s)); background: var(--crema); border-radius: calc(4mm * var(--s)); padding: calc(3mm * var(--s)); }
+  .qrb .qr { flex: none; width: calc(28mm * var(--s)); text-align: center; }
+  .qrb .qr img { width: calc(26mm * var(--s)); height: calc(26mm * var(--s)); display: block; margin: 0 auto; }
+  .qrb .qr code { display: block; margin-top: calc(1.2mm * var(--s)); font-family: 'Nunito', sans-serif; font-weight: 800; font-size: calc(3mm * var(--s)); letter-spacing: .06em; color: var(--cafe); }
+  .qrb .tx { font-size: calc(3.2mm * var(--s)); line-height: 1.25; }
+  .qrb .tx b { display: block; font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: calc(5mm * var(--s)); color: var(--ladrillo); margin-bottom: calc(1mm * var(--s)); }
+  .qrb .tx span { display: block; margin-top: calc(1.5mm * var(--s)); font-size: calc(2.7mm * var(--s)); color: var(--cafe); font-weight: 700; }
+  .lleva { margin-top: calc(3.2mm * var(--s)); font-size: calc(3mm * var(--s)); line-height: 1.3; }
+  .lleva b { color: var(--cafe); }
+  .rev .zB { position: absolute; left: 0; top: var(--a); width: 100%; height: var(--b); padding: calc(1.5mm * var(--s)) calc(6mm * var(--s)) 0; }
+  .nut { display: grid; grid-template-columns: 1fr 1fr; gap: calc(3mm * var(--s)); }
+  .nut .caja { background: rgba(255, 255, 255, .55); border: 0.5pt solid var(--cafe); border-radius: calc(2.5mm * var(--s)); padding: calc(1.4mm * var(--s)) calc(2.5mm * var(--s)); font-size: calc(2.7mm * var(--s)); line-height: 1.3; }
+  .nut .caja h4 { margin: 0 0 calc(.8mm * var(--s)); font-size: calc(2.9mm * var(--s)); color: var(--ladrillo); text-transform: uppercase; letter-spacing: .05em; }
+  .nut .caja .fila { display: flex; justify-content: space-between; border-bottom: 0.4pt dotted #9a7a5a; padding: calc(.4mm * var(--s)) 0; }
+  .nut .caja .fila b { color: var(--cafe); }
+  .legal { margin-top: calc(2mm * var(--s)); font-size: calc(2.45mm * var(--s)); line-height: 1.3; color: var(--texto); }
+  .rev .zC { position: absolute; left: 0; bottom: 0; width: 100%; height: var(--c); overflow: hidden; }
+  .st.grande.rev .zC { height: 37mm; }
+  .st.pequena.rev .zC { height: 32mm; }
+  .rev .zC img { position: absolute; left: 0; bottom: 0; width: 100%; }
+  .orgullo { position: absolute; left: 0; width: 100%; bottom: calc(4mm * var(--s)); text-align: center; color: #fff; font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: calc(5mm * var(--s)); text-shadow: 0 .5mm 1mm rgba(0,0,0,.35); }
+  .orgullo .bandera { display: inline-block; vertical-align: middle; width: calc(9mm * var(--s)); height: calc(6mm * var(--s)); margin-right: calc(2mm * var(--s)); background: linear-gradient(90deg, #D91023 0 33.3%, #fff 33.3% 66.6%, #D91023 66.6%); border-radius: calc(1mm * var(--s)); box-shadow: 0 .4mm .8mm rgba(0,0,0,.3); }
+  .st.pequena .rev-h2 { font-size: calc(8mm * var(--s)); }
+</style>
+</head>
+<body>
+
+<!-- ============ PACK DE 12 · FRENTE ============ -->
+<div class="st grande" id="g-frente">
+  <div class="zA">
+    <svg class="rayos" viewBox="0 0 8 8" aria-hidden="true"><line x1="1" y1="2" x2="6" y2="1"/><line x1="2" y1="6" x2="7" y2="5.5"/></svg>
+    <div class="claim">Lo bueno<br>también<br>puede ser<br>delicioso<svg viewBox="0 0 20 18" aria-hidden="true"><path d="M10 17 L2 9 C-1 6 1 1 5 1 C7.5 1 9 2.5 10 4 C11 2.5 12.5 1 15 1 C19 1 21 6 18 9 Z" fill="#4A2018"/></svg></div>
+    <div class="badge"><b>12</b><span>mini<br>brownies</span><small>240 g</small></div>
+    <img class="logo" src="../../../marca/logo-andibite.svg" alt="AndiBite" />
+    <div class="nombre">Mini Brownie Nutritivo</div>
+    <div class="ribbon">Cacao + Plátano + Cañihua</div>
+    <div class="sabor">Sabor Andi · con sangrecita y un toque de canela</div>
+  </div>
+  <div class="zBC">
+    <img class="illu" src="../../assets_ilustraciones/illu_front.png" alt="" />
+    <div class="strip">
+      <div class="ico"><img src="../../assets_ilustraciones/icon_front_0.png" alt="" />Fuente<br>de hierro</div>
+      <div class="ico"><img src="../../assets_ilustraciones/icon_front_1.png" alt="" />Buena fuente<br>de proteína</div>
+      <div class="ico"><img src="../../assets_ilustraciones/icon_front_2.png" alt="" />Con ingredientes<br>andinos</div>
+      <div class="peso">Peso neto<b>240 g</b></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PACK DE 12 · REVERSO ============ -->
+<div class="st grande rev" id="g-reverso">
+  <div class="zA">
+    <h2>De nuestra tierra,<br>a su lonchera</h2>
+    <div class="qrb">
+      <div class="qr"><img src="qr-loncheras.svg" alt="QR" /><code>AB-DEMO-2027</code></div>
+      <div class="tx"><b>Escanéalo</b>Se abre <b style="display:inline;font-family:inherit;font-size:inherit;color:inherit">Andi</b>, nuestra app, con tu plan de loncheras con hierro armado con inteligencia artificial: <b style="display:inline;font-family:inherit;font-size:inherit;color:inherit">14 días por pack</b>.<span>También: el hierro de hoy, el informe de tu lote y recompra por WhatsApp.</span></div>
+    </div>
+    <p class="lleva"><b>Qué lleva:</b> cacao, avena, plátano, cañihua, sangrecita de res liofilizada, huevo, aceite vegetal, panela, eritritol y canela. <b>Contiene huevo.</b> Cacao de San Martín, plátano de Piura, cañihua de Puno, sangrecita de Lima; la canela es importada.</p>
+  </div>
+  <div class="zB">
+    <div class="nut">
+      <div class="caja"><h4>Por brownie (20 g)</h4><div class="fila"><span>Hierro hemo</span><b>1.9 mg</b></div><div class="fila"><span>Azúcar</span><b>&lt; 10 g / 100 g</b></div><div class="fila"><span>Octógonos</span><b>0</b></div><div style="margin-top:.8mm">Medido en laboratorio lote por lote. El informe completo, en la app.</div></div>
+      <div class="caja"><h4>Lote y cuidado</h4><div class="fila"><span>Lote</span><b>__________</b></div><div class="fila"><span>Vence</span><b>___ / ___ / ____</b></div><div style="margin-top:.8mm">Lugar fresco y seco. Abierto, consumir en 5 días.</div></div>
+    </div>
+    <p class="legal">12 unidades × 20 g · Contenido neto 240 g · Elaborado por AndiBite en INDDA-UNALM, Lima, Perú · R.S. N.º _____________ · Prototipo de evaluación · andi-app.cingacordova.workers.dev</p>
+  </div>
+  <div class="zC"><img src="../../assets_ilustraciones/landscape_back.png" alt="" /></div>
+</div>
+
+<!-- ============ PACK DE 6 · FRENTE ============ -->
+<div class="st pequena" id="p-frente">
+  <div class="zA">
+    <svg class="rayos" viewBox="0 0 8 8" aria-hidden="true"><line x1="1" y1="2" x2="6" y2="1"/><line x1="2" y1="6" x2="7" y2="5.5"/></svg>
+    <div class="claim">Lo bueno<br>también<br>puede ser<br>delicioso<svg viewBox="0 0 20 18" aria-hidden="true"><path d="M10 17 L2 9 C-1 6 1 1 5 1 C7.5 1 9 2.5 10 4 C11 2.5 12.5 1 15 1 C19 1 21 6 18 9 Z" fill="#4A2018"/></svg></div>
+    <div class="badge"><b>6</b><span>mini<br>brownies</span><small>120 g</small></div>
+    <img class="logo" src="../../../marca/logo-andibite.svg" alt="AndiBite" />
+    <div class="nombre">Mini Brownie Nutritivo</div>
+    <div class="ribbon">Cacao + Plátano + Cañihua</div>
+    <div class="sabor">Sabor Andi · con sangrecita y canela</div>
+  </div>
+  <div class="zBC">
+    <img class="illu" src="../../assets_ilustraciones/illu_front.png" alt="" />
+    <div class="strip">
+      <div class="ico"><img src="../../assets_ilustraciones/icon_front_0.png" alt="" />Fuente<br>de hierro</div>
+      <div class="ico"><img src="../../assets_ilustraciones/icon_front_1.png" alt="" />Buena fuente<br>de proteína</div>
+      <div class="ico"><img src="../../assets_ilustraciones/icon_front_2.png" alt="" />Ingredientes<br>andinos</div>
+      <div class="peso">Peso neto<b>120 g</b></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PACK DE 6 · REVERSO ============ -->
+<div class="st pequena rev" id="p-reverso">
+  <div class="zA">
+    <h2 class="rev-h2">De nuestra tierra,<br>a su lonchera</h2>
+    <div class="qrb">
+      <div class="qr"><img src="qr-loncheras.svg" alt="QR" /><code>AB-DEMO-2027</code></div>
+      <div class="tx"><b>Escanéalo</b>Se abre Andi, nuestra app, con tu plan de loncheras con hierro armado con inteligencia artificial: 14 días por pack.<span>El hierro de hoy · informe del lote · recompra por WhatsApp.</span></div>
+    </div>
+    <p class="lleva"><b>Qué lleva:</b> cacao, avena, plátano, cañihua, sangrecita de res liofilizada, huevo, aceite vegetal, panela, eritritol y canela. <b>Contiene huevo.</b></p>
+  </div>
+  <div class="zB">
+    <div class="nut">
+      <div class="caja"><h4>Por brownie (20 g)</h4><div class="fila"><span>Hierro hemo</span><b>1.9 mg</b></div><div class="fila"><span>Azúcar</span><b>&lt; 10 g / 100 g</b></div><div class="fila"><span>Octógonos</span><b>0</b></div><div style="margin-top:.8mm">Medido lote por lote. El informe completo, en la app.</div></div>
+      <div class="caja"><h4>Lote y cuidado</h4><div class="fila"><span>Lote</span><b>________</b></div><div class="fila"><span>Vence</span><b>__ / __ / ____</b></div><div style="margin-top:.8mm">Lugar fresco y seco. Abierto, consumir en 5 días.</div></div>
+    </div>
+    <p class="legal">6 unidades × 20 g · Contenido neto 120 g · Elaborado por AndiBite en INDDA-UNALM, Lima, Perú · R.S. N.º ___________ · Prototipo de evaluación</p>
+  </div>
+  <div class="zC"><img src="../../assets_ilustraciones/landscape_back.png" alt="" /></div>
+</div>
+
+</body>
+</html>
