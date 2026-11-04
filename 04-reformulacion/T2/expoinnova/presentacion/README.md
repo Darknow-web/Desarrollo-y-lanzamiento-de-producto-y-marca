@@ -60,6 +60,16 @@ La presentación ya tiene URL pública propia (arriba). AI Studio es el canal qu
 - **Deploy** → Cloud Run si quieren una URL pública fuera de AI Studio (pide un proyecto de Google Cloud; el nivel Starter es gratuito pero limitado).
 - Para cambios de texto se edita `index.html`; la vista previa se actualiza sola.
 
+## Pantalla de espera (para la laptop mientras no llega el jurado)
+
+`public/espera.html` es una página aparte que corre sola en loop: 10 escenas de 7 segundos con las frases clave de AndiBite (logo y slogan, la pregunta de la lonchera, 1 de cada 4 y 1 de cada 6, el producto, el video de campaña, «Hecho con lo nuestro», la app con QR, Andi y Killa, «Aquí sí vemos tu truco» y el cierre con «2 de enero · Jockey Plaza»).
+
+- URL: **https://andibite-expo.cingacordova.workers.dev/espera.html**
+- Tecla **F** o clic en «Pantalla completa» → pantalla completa; **Esc** sale. ← y → cambian de escena a mano. El cursor y el botón se esconden solos.
+- Para pasar a la presentación: Esc y abrir la URL principal en otra pestaña (dejarla cargada desde antes).
+- Las fuentes van en `public/fonts/` y las fotos en `public/img/`, así que también funciona sin internet si se abrió una vez (o desde `npm run preview`). El video se ve en Chrome y Edge.
+- Respaldo en PDF de las 6 pantallas: `node scripts/pdf.mjs http://localhost:4173/ "../AndiBite - Presentacion Expoinnova (respaldo).pdf"` con `npm run preview` corriendo.
+
 ## Capturas de verificación
 
 Con `npm run preview` corriendo: `node scripts/capturas.mjs http://localhost:4173/` (usa Playwright de `/opt/node-tools/node_modules` si no está en el proyecto). Deja en `capturas/` cada pantalla en vista inicial (`-a-inicial`) y con todos los fragmentos (`-b-completa`) en 1920×1080, 1366×768 y 390×844 (en celular, además `-scroll` con la pantalla completa), y el zoom del Canvas (`-02-c-zoom`). Informa textos cortados, desbordes y errores de consola.
