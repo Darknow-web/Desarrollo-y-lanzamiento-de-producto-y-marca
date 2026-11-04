@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet" />
+<style>
+  /* Banner frontal de mesa (faldón): 150 × 75 cm más 3 cm de sangría por lado = 156 × 81 cm. Todo en milímetros. */
+  :root { --cafe: #4A2018; --ladrillo: #BA4036; --vino: #8A1C2B; --dorado: #E3A33B; --oliva: #7C8A3A; --crema: #FBF3E8; --arena: #D9B48F; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { font-family: 'Baloo 2', Carlito, Calibri, sans-serif; background: var(--crema); }
+  .hoja { position: relative; width: 1560mm; height: 810mm; background: var(--crema); overflow: hidden; }
+  /* guías: área segura a 10 cm del corte (30 mm sangría + 70 mm) */
+  .arte { position: absolute; inset: 30mm; }
+
+  /* banderines arriba */
+  .banderines { position: absolute; left: 0; right: 0; top: 0; height: 120mm; display: flex; justify-content: center; gap: 6mm; padding-top: 34mm; }
+  .banderines i { width: 70mm; height: 86mm; clip-path: polygon(0 0, 100% 0, 50% 100%); background: var(--ladrillo); }
+  .banderines i:nth-child(even) { background: var(--dorado); }
+  .banderines i:nth-child(3n) { background: var(--oliva); }
+  .cuerda { position: absolute; left: 0; right: 0; top: 60mm; height: 5mm; background: var(--cafe); opacity: .85; }
+
+  /* montañas de fondo abajo */
+  .montes { position: absolute; left: 0; right: 0; bottom: 0; height: 170mm; opacity: .12; }
+
+  /* Andi a la izquierda */
+  .andi { position: absolute; left: 50mm; bottom: 0; width: 430mm; }
+  .andi img { width: 100%; display: block; }
+
+  /* logo y frase al centro */
+  .centro { position: absolute; left: 520mm; top: 140mm; width: 620mm; text-align: center; }
+  .centro img.logo { width: 540mm; display: block; margin: 0 auto; }
+  .frase { display: inline-flex; align-items: center; gap: 12mm; margin-top: 40mm; }
+  .frase .globo { background: #FFF6EA; border-radius: 30mm; padding: 14mm 30mm 18mm; box-shadow: 0 7mm 0 rgba(74, 32, 24, .10); }
+  .frase .globo p { margin: 0; font-weight: 800; font-size: 42mm; line-height: 1.05; color: var(--cafe); white-space: nowrap; }
+  .frase .globo p + p { color: var(--ladrillo); }
+  .frase svg { width: 46mm; height: 70mm; overflow: visible; }
+  .frase svg.der { transform: scaleX(-1); }
+
+  /* columna derecha: qué es y QR */
+  .lado { position: absolute; right: 50mm; top: 130mm; width: 300mm; display: grid; gap: 18mm; justify-items: center; text-align: center; }
+  .lado h2 { margin: 0; font-size: 38mm; line-height: 1.05; color: var(--cafe); font-weight: 800; }
+  .lado h2 span { color: var(--ladrillo); }
+  .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8mm; }
+  .chips i { font-style: normal; font-weight: 700; font-size: 22mm; color: #fff; background: var(--vino); border-radius: 999px; padding: 5mm 20mm; }
+  .chips i:nth-child(2) { background: var(--oliva); } .chips i:nth-child(3) { background: var(--cafe); }
+  .qr { background: #fff; border-radius: 20mm; padding: 16mm 16mm 10mm; display: grid; justify-items: center; gap: 6mm; box-shadow: 0 6mm 0 rgba(74, 32, 24, .10); }
+  .qr img { width: 130mm; height: 130mm; display: block; }
+  .qr p { margin: 0; font-size: 24mm; font-weight: 800; color: var(--cafe); line-height: 1; }
+  .qr small { font-size: 16mm; font-weight: 600; color: var(--vino); }
+
+  .pie { position: absolute; left: 520mm; width: 620mm; bottom: 40mm; text-align: center; font-size: 20mm; font-weight: 700; color: var(--vino); letter-spacing: 1mm; }
+</style>
+</head>
+<body>
+<div class="hoja">
+  <svg class="montes" viewBox="0 0 1560 170" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 170 L140 80 L260 140 L420 40 L560 120 L700 60 L840 130 L980 30 L1120 110 L1260 70 L1400 140 L1560 60 L1560 170 Z" fill="#4A2018" />
+  </svg>
+  <div class="arte">
+    <div class="cuerda"></div>
+    <div class="banderines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+    <div class="andi"><img src="andi-envase.png" alt="Andi" /></div>
+
+    <div class="centro">
+      <img class="logo" src="../logo-andibite.svg" alt="AndiBite" />
+      <div class="frase">
+        <svg viewBox="0 0 150 220" aria-hidden="true"><g stroke="#E3A33B" stroke-width="18" stroke-linecap="round" fill="none"><path d="M110 40 L40 20" /><path d="M118 110 L30 110" /><path d="M110 180 L40 200" /></g></svg>
+        <div class="globo"><p>Dulce para ellos.</p><p>Tranquilidad para ti.</p></div>
+        <svg class="der" viewBox="0 0 150 220" aria-hidden="true"><g stroke="#E3A33B" stroke-width="18" stroke-linecap="round" fill="none"><path d="M110 40 L40 20" /><path d="M118 110 L30 110" /><path d="M110 180 L40 200" /></g></svg>
+      </div>
+    </div>
+
+    <div class="lado">
+      <h2>Mini brownie<br /><span>con hierro de verdad</span></h2>
+      <div class="chips"><i>Sangrecita</i><i>Cañihua</i><i>Cacao</i></div>
+      <div class="qr"><img src="qr-app.svg" alt="QR de la app Andi" /><p>Conoce más</p><small>Escanea y pruébalo</small></div>
+    </div>
+
+    <p class="pie">Hecho en el Perú · Sin octógonos · 1.9 mg de hierro por brownie</p>
+  </div>
+</div>
+</body>
+</html>
