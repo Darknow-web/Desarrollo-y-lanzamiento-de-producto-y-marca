@@ -5,6 +5,7 @@ En el stand: Carlos, Patty y Ade. Nos presentamos como empresa frente a inversor
 Diez minutos en total: **unos 6 minutos hablados** (6 pantallas, unas 830 palabras y las pausas para probar y escanear), **1 minuto de video** y **3 de preguntas**. Las cifras salen de `HECHOS_v7.md` y de `BRIEF-expo.md`; lo nuevo va marcado [PROPUESTA]. El texto hablado va en citas (`>`); lo demás son indicaciones.
 
 Reglas en voz alta, sin excepción:
+
 - Un solo ODS: el 2, Hambre cero, meta 2.2.
 - Un solo producto: el sabor Andi (cacao y plátano, con canela y cañihua). Los otros sabores no se nombran, ni en las preguntas.
 - Sin encuestas, focus ni frases de mamás en el guion. Solo en el banco de preguntas, si el jurado pregunta.
@@ -16,7 +17,7 @@ Reglas en voz alta, sin excepción:
 El acumulado es el momento en que **termina** cada tramo. Quien habla avanza la pantalla, salvo donde se indica.
 
 | # | Pantalla | Quién | Tramo | Acumulado |
-|---|---|---|---|---|
+|--|----------------|------|-----|------|
 | 1 | Portada | Carlos | 0:30 | 0:30 |
 | 2 | Business Model Canvas | Patty | 1:30 | 2:00 |
 | 3 | Prototipo: el brownie | Patty | 0:55 | 2:55 |
@@ -133,6 +134,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 ### Carlos
 
 **P1 · termina 0:30 · Portada**
+
 - Somos AndiBite: mini brownie con hierro de verdad, lonchera, 4 a 11 años.
 - Para papás y mamás que creen que la anemia no toca su casa.
 - ENDES 2024: familias con más recursos, 1 de cada 4 menores de 3 años (señalar contador).
@@ -140,6 +142,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - «Patty te cuenta cómo lo resolvemos.» (girar hacia ella)
 
 **P3 · termina 3:40 · La app**
+
 - Voltear la bolsita: QR. «Escanéenlo, por favor: es este.»
 - «El hierro de hoy»: anillo, lo que lleva frente a lo que necesita a su edad.
 - Marcar lonchera vacía en vivo: suma el brownie, estrella.
@@ -148,6 +151,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - «Patty, ¿cuánto cuesta todo esto?» (devolver celular a Ade)
 
 **P4 · termina 5:00 · Cómo vendemos**
+
 - Calle primero: el niño tiene que probar.
 - 2 de enero Jockey Plaza; después Salaverry y La Molina.
 - Stands casi la mitad · WhatsApp y app la recompra · colegios, ferias, naturistas.
@@ -156,6 +160,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - S/24,544, tres cuartos en la calle. «Ade.»
 
 **P6 · termina 6:00 · Cierre**
+
 - Cinco socios: Diana, Patricia, Adela, Angie y yo.
 - 2 de enero, Jockey Plaza: el niño decide.
 - AndiBite. Dulce para ellos. Tranquilidad para ti. (despacio, bajo)
@@ -165,6 +170,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 ### Patty
 
 **P2 · termina 2:00 · Canvas**
+
 - Negocio en una página. ODS 2, Hambre cero, meta 2.2 (tocar arriba).
 - Propuesta: hierro sin pelear cada mañana; brownie que vuelve a pedir; app para papá y mamá.
 - Segmento: A y B, Lima Top y Moderna, hijos de 4 a 11. 46,000 núcleo · 168,000 en Lima.
@@ -173,6 +179,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - «Ahora, lo mejor: pruébenlo.» (bolsita en la mano)
 
 **P3 · termina 2:55 · El brownie**
+
 - Sabor Andi: cacao y plátano, con canela y cañihua. 20 g, en bolsita.
 - Abrir, partir. Sangrecita liofilizada... (bajo) y no se nota. «¿La notan?» (callarse)
 - Casi 2 mg de hierro hemo (1.9), medido lote por lote. Cero octógonos: entra al colegio.
@@ -181,6 +188,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - «Carlos, enséñales lo que no se ve.» (pasar la bolsita, QR arriba)
 
 **P4 · termina 4:25 · Los números**
+
 - S/3.71 todo incluido · S/3.96 sin IGV · pack de 6 S/27.90.
 - Equilibrio 3,096 al mes: unos 100 por día por punto.
 - Inversión S/40,876: 25,000 socios + 16,000 préstamo.
@@ -191,6 +199,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 ### Ade
 
 **P5 · termina 5:45 · Responsabilidad social**
+
 - Qué es: lo que la empresa devuelve más allá de vender. Nosotros devolvemos lo que sabemos.
 - Una sola campaña, medida: «Hierro que se comparte». Señalar los 4 pasos.
 - 1 % de ventas año 1 = S/2,447 (de Lima Top y Moderna) → Lima Norte, donde empezamos.
@@ -199,11 +208,13 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - (lento) Meta a 30 días por WhatsApp: 7 de cada 10 siguen; se publica en la app. «Contribuye a la 2.2. No cura ni previene. Carlos.»
 
 **Durante P1 a P4 (sin hablar)**
+
 - Celular con la app en «El hierro de hoy», brillo al máximo, sin bloqueo.
 - Pasarlo a Carlos en la pantalla 3; recibirlo de vuelta.
 - Pararse junto al banner; si el jurado lo mira, señalar el bloque que nombra Patty.
 
 **Preguntas (7:00 a 10:00)**
+
 - Mías: registro sanitario, ley de la app, inversión, recuperación, comunidad.
 
 ## 3. Banco de preguntas del jurado
@@ -211,7 +222,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 Unos veinte segundos cada respuesta (50 a 60 palabras). Quien no responde, asiente y no interrumpe. Aquí sí se puede hablar de la investigación, solo si el jurado pregunta.
 
 | # | Pregunta | Quién | Respuesta de 20 segundos |
-|---|---|---|---|
+|--|-----------|----|-------------------------------------|
 | 1 | ¿No es caro? Cuatro sesenta y cinco por brownie. | Carlos | «Sí, está un veintinueve por ciento sobre el promedio de Fika y Nutri H, y es a propósito: le vendemos a papás y mamás A y B que leen etiquetas. Lo validamos con una encuesta a treinta padres y madres: el pack de seis a veintisiete noventa cae donde ellos dijeron que pagarían. Y el pack de doce por WhatsApp baja a cuatro dieciséis.» |
 | 2 | ¿Por qué sangrecita? | Patty | «Porque es hierro hemo, el de origen animal, y es nuestro: peruano y accesible. La compramos ya liofilizada, a trescientos soles el kilo, a un proveedor con registro sanitario; la planta solo la hidrata, no manipula sangre fresca. En polvo no huele y la dosis se mantiene estable. Ustedes la probaron: ¿la notaron?» |
 | 3 | ¿Y si el niño no la quiere? | Carlos | «Por eso vendemos donde el niño prueba primero: en el stand, antes de que papá o mamá paguen. Si no le gusta, no compran, y lo sabemos ese mismo día. Elegimos el brownie porque fue el formato que más votos sacó cuando probamos opciones. Y la app le da una estrella cada vez que la lonchera vuelve vacía.» |
@@ -226,6 +237,7 @@ Unos veinte segundos cada respuesta (50 a 60 palabras). Quien no responde, asien
 | 12 | ¿Qué hacen por la comunidad? | Ade | «Una sola campaña y la medimos. El uno por ciento de las ventas del primer año, dos mil cuatrocientos cuarenta y siete soles, paga seis talleres con nutricionista en tres colegios públicos de Lima Norte: trescientas familias aprenden a armar una lonchera con hierro de tres soles y se llevan dos brownies. A los treinta días preguntamos por WhatsApp; la meta es que siete de cada diez sigan, y el resultado va en la app.» |
 
 De reserva, una línea cada una:
+
 - **¿Por qué Lima Norte, si venden en Lima Top?** (Ade) Porque ahí empezó nuestra investigación y ahí la anemia pesa más. El uno por ciento cruza esa brecha: lo que se vende en un lado enseña en el otro.
 - **¿De dónde sale la plata y en qué se va?** (Ade) Del uno por ciento de las ventas: nutricionista, novecientos; impresos, trescientos; seiscientos brownies al costo, casi mil; movilidad, el resto. No toca el presupuesto de lanzamiento.
 - **¿La anemia se cura con esto?** (Ade) No, y no lo decimos. Contribuye con casi dos miligramos de hierro al día; el tratamiento lo indica el pediatra, y la app recuerda el control de hemoglobina.
@@ -245,6 +257,7 @@ De reserva, una línea cada una:
 Revisar antes de que pase el primer jurado. Responsable entre paréntesis.
 
 **Pantalla y señal**
+
 - [ ] Laptop con la presentación de 6 pantallas abierta, cargador conectado, brillo al máximo, notificaciones apagadas (Carlos).
 - [ ] Internet probado, con el celular como respaldo; el video de YouTube cargado y con el volumen probado a la distancia del jurado (Carlos).
 - [ ] Video del pitch descargado en la laptop por si YouTube no abre [PROPUESTA] (Carlos).
@@ -252,6 +265,7 @@ Revisar antes de que pase el primer jurado. Responsable entre paréntesis.
 - [ ] QR de la pantalla probado desde dos celulares distintos (Carlos).
 
 **Producto y degustación (solo sabor Andi)**
+
 - [ ] Un pack de 6 sabor Andi cerrado para mostrar, y uno de reserva (Patty).
 - [ ] Al menos 30 brownies sabor Andi en bolsita individual para probar y regalar [PROPUESTA: cantidad] (Patty).
 - [ ] Ningún empaque ni muestra de otro sabor a la vista (Patty).
@@ -259,6 +273,7 @@ Revisar antes de que pase el primer jurado. Responsable entre paréntesis.
 - [ ] Un brownie ya partido en la bandeja antes de cada jurado [PROPUESTA] (Patty).
 
 **Impresos**
+
 - [ ] Banner del Canvas impreso desde la versión del 4-nov (`AndiBite - Banner Canvas.pdf`), que ya no lleva «Grupo 2 · UPN» al pie; conserva la línea de carrera y curso porque el formato oficial la pide (Ade).
 - [ ] El informe del proyecto **no va en la mesa**: su portada lleva grupo, universidad y curso, y nombra los tres sabores. Si el jurado lo pide, se muestra en la laptop (Ade).
 - [ ] QR grande impreso (A4) a https://andi-app.cingacordova.workers.dev con la línea «Escanéalo: así se ve el hierro de hoy» [PROPUESTA] (Carlos).
@@ -267,6 +282,7 @@ Revisar antes de que pase el primer jurado. Responsable entre paréntesis.
 - [ ] Tarjetas de bolsillo, un juego por persona (cada uno).
 
 **Marca y orden**
+
 - [ ] Mantel crema o café; nada de otra marca a la vista (Patty).
 - [ ] Logo con Andi visible desde el pasillo (Carlos).
 - [ ] Ropa en colores de la marca, sin logos ajenos ni de la universidad [PROPUESTA] (cada uno).
@@ -274,6 +290,7 @@ Revisar antes de que pase el primer jurado. Responsable entre paréntesis.
 - [ ] Mesa despejada: solo el pack, la bandeja, el QR grande y el celular; todo lo demás debajo (Patty).
 
 ## Fuentes (para el equipo, no se dicen)
+
 - `04-reformulacion/T2/expoinnova/BRIEF-expo.md`: pantallas, reparto, cifras de anemia con su fuente, plan social, campaña.
 - `04-reformulacion/T2/HECHOS_v7.md`: producto, app, leyes, finanzas, precios, competencia, reglas para crecer.
 - `04-reformulacion/T2/web-presentacion/TONO-de-voz.md` y `PITCH-video.md`: voz de Carlos, cifras dichas como se dicen, slogan despacio.
