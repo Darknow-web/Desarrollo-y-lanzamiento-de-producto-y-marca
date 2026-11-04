@@ -4,7 +4,7 @@
 import { useId } from 'react';
 import { IMAGENES_ANDI } from '../data/andi-imagenes';
 
-export type Animo = 'feliz' | 'wow' | 'piensa' | 'duerme';
+export type Animo = 'feliz' | 'wow' | 'piensa' | 'duerme' | 'saluda';
 interface Props {
   animo?: Animo;
   tam?: number;
@@ -18,6 +18,7 @@ const PIEL = '#F2C9A6', PIEL_SOMBRA = '#E4B48E', PELO = '#2B1A14', CACAO = '#4A2
 export default function AndiNino({ animo = 'feliz', tam = 160, className = '', titulo = 'Andi' }: Props) {
   const id = useId().replace(/[^a-zA-Z0-9]/g, '');
   const img = IMAGENES_ANDI.find(f => f === `${animo}.png`) || IMAGENES_ANDI.find(f => f === 'feliz.png');
+  if (!img && animo === 'saluda') animo = 'feliz';
   if (img) {
     return <img src={`/img/andi/${img}`} alt={titulo} className={`andi andi-img ${className}`} style={{ width: tam, height: tam * ALTO, objectFit: 'contain' }} draggable={false} />;
   }

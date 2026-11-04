@@ -20,7 +20,7 @@ export default function InicioJuego({ juego, titulo, nivel, max, marca, pista, a
   const mejor = mejorDe(juego, id);
   return (
     <div className="juego juego-inicio">
-      <AndiNino tam={150} className="andi-flota" />
+      <AndiNino tam={150} animo="saluda" className="andi-flota" />
       <h1>{titulo}</h1>
       <div className="nivel-chip" aria-label={`Nivel ${nivel} de ${max}`}>
         <span className="nivel-chip-n">Nivel {nivel}</span>

@@ -33,7 +33,7 @@ export default function KidsLayout() {
   if (!sesion) {
     if (eligiendo) return (
       <div className="ninos-elegir">
-        <AndiNino tam={130} />
+        <AndiNino tam={130} animo="saluda" />
         <h1>¿Quién juega?</h1>
         <div className="ninos-lista">
           {ninos.map(n => <button key={n.id} onClick={() => iniciar(n.id)}><span>{n.avatar}</span>{n.apodo}</button>)}

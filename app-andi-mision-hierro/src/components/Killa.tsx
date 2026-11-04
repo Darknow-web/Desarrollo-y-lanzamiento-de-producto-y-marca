@@ -21,7 +21,8 @@ const CACAO = '#4A2018', TINTA = '#2B130E', BORDE = '#E4D0B6', LADRILLO = '#BA40
 const CREMA_K = '#FBF3E8';
 
 function imagenPara(look: string, animo: Animo): string | undefined {
-  const quiere = [`${look}-${animo}.png`, `look-${look}.png`, `base-${animo}.png`, 'base-feliz.png'];
+  // Un look solo se muestra en imagen si existe la suya; si falta, se dibuja el SVG con el traje.
+  const quiere = look === 'base' ? [`base-${animo}.png`, 'base-feliz.png'] : [`${look}-${animo}.png`, `look-${look}.png`];
   return quiere.find(f => IMAGENES_KILLA.includes(f));
 }
 
