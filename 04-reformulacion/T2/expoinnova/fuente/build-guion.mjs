@@ -29,7 +29,7 @@ const css = fs.readFileSync(path.join(F, 'informe.css'), 'utf8') + `
 `;
 
 const docs = [
-  { md: 'GUION-exposicion.md', out: 'AndiBite - Guion de exposicion.pdf', t: 'Guion de exposición · stand', sub: 'Para Carlos, Patty y Ade · Expoinnova 2026-2 · 6 pantallas, 6 minutos hablados, 1 de video, 3 de preguntas' },
+  { md: 'GUION-exposicion.md', out: 'AndiBite - Guion de exposicion.pdf', t: 'Guion de exposición · stand', sub: 'Para Carlos y Ade · Expoinnova 2026-2 · 6 pantallas, 6 minutos hablados, 1 de video, 3 de preguntas' },
   { md: 'DOSIER-exposicion.md', out: 'AndiBite - Dosier de preparacion.pdf', t: 'Dosier de preparación para el stand', sub: 'Lo que hay detrás de cada pantalla: cifras completas, fuentes y respuestas de fondo · Expoinnova 2026-2' },
 ];
 

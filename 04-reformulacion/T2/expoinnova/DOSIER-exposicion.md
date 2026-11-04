@@ -1,6 +1,6 @@
 # AndiBite · Dosier de preparación para el stand
 
-Este documento es para Carlos, Patty y Ade. No se lee en el stand: se estudia antes. Explica lo que hay detrás de cada pantalla de la presentación y de cada frase del guion, con las cifras completas, de dónde salen y cómo se defienden. Todo sale de `HECHOS_v7.md`, la fuente de verdad del proyecto; lo que todavía es propuesta y no cifra cerrada va marcado [PROPUESTA].
+Este documento es para Carlos y Ade. No se lee en el stand: se estudia antes. Explica lo que hay detrás de cada pantalla de la presentación y de cada frase del guion, con las cifras completas, de dónde salen y cómo se defienden. Todo sale de `HECHOS_v7.md`, la fuente de verdad del proyecto; lo que todavía es propuesta y no cifra cerrada va marcado [PROPUESTA].
 
 Cómo usarlo: cada uno lee completo su pantalla y la de los demás por encima. Lo que se dice en voz alta está en el guion; aquí está lo que hay que saber por si el jurado pregunta.
 
@@ -47,7 +47,7 @@ AndiBite **contribuye** con hierro; no «previene», no «combate», no «cura»
 ### Cuánto hierro es 1.9 mg
 La referencia diaria es de 10 mg de hierro para niños de 4 a 8 años y de 8 mg de 9 a 11. Un brownie aporta entre el 19 % y el 24 % de lo que el niño necesita en el día, en una lonchera que además le gusta. Es un aporte, no la dieta completa; por eso la app suma el brownie con las otras comidas del día.
 
-## Pantalla 2 · Business Model Canvas (Patty)
+## Pantalla 2 · Business Model Canvas (Carlos)
 
 ### El ODS
 El Objetivo de Desarrollo Sostenible 2, Hambre cero, meta 2.2: «poner fin a todas las formas de malnutrición». La anemia por falta de hierro es una forma de malnutrición. Nuestra contribución es pequeña y concreta: hierro de verdad, medido, en un alimento que el niño sí come. Dato técnico por si preguntan: el indicador oficial 2.2.3 mide anemia en mujeres de 15 a 49 años, no en niños; para niños usamos ENDES e INS-CENAN.
@@ -72,7 +72,7 @@ El Objetivo de Desarrollo Sostenible 2, Hambre cero, meta 2.2: «poner fin a tod
 
 **9. Estructura de costos.** Producción por maquila S/1.64 por brownie (pack de 6), stands, ferias y vendedores, marketing S/24,544 en quince meses, gastos fijos S/2,738 al mes, inversión inicial S/40,876, equilibrio 3,096 brownies al mes.
 
-## Pantalla 3 · Prototipo (Patty el producto, Carlos la app)
+## Pantalla 3 · Prototipo (Ade el producto, Carlos la app)
 
 ### Ficha técnica del brownie
 
@@ -116,7 +116,7 @@ Es una app web instalable; se abre con el QR de cada envase, sin descargar nada 
 
 Estamos un 29 % por encima del promedio de Fika y Nutri H, y es a propósito: precio basado en el valor percibido, apoyado en packs (el de 12 baja a S/4.16) y con promoción solo en el lanzamiento. El diferencial en una frase: nadie junta sabor, hierro de verdad medido y formato lonchera sin octógonos; y además, la app convierte el envase en dato.
 
-## Pantalla 4 · Costos (Patty los números, Carlos cómo vendemos)
+## Pantalla 4 · Costos (Ade los números, Carlos cómo vendemos)
 
 ### La cascada, concepto por concepto
 Por cada brownie vendido, en promedio, en el año 1:
