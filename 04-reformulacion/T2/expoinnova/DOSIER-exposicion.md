@@ -135,6 +135,19 @@ Por cada brownie vendido, en promedio, en el año 1:
 
 Ganancia neta por brownie: S/0.20 en el año 1 y S/0.40 en el año 2. Margen bruto en el stand: 58 a 66 %. Visto desde el precio con IGV del stand (S/4.68 por brownie): 0.71 de IGV, 2.10 de producir y vender, 0.98 de stands, 0.63 de fijos, 0.06 de intereses e impuesto, 0.20 de ganancia.
 
+### Margen por presentación (precios del stand, sin IGV)
+Lo que queda después de producir cada presentación (insumos, maquila, bolsita, etiqueta, merma, transporte). Sale de la hoja Costeo del Excel.
+
+| Presentación | Precio con IGV | Precio sin IGV | Costo de producción | Margen bruto | Margen bruto % |
+|------|-------|-------|--------|-------|-----|
+| Unidad | S/6.00 | S/5.08 | S/1.72 | S/3.36 | **66 %** |
+| Caja de 3 | S/16.50 (S/5.50 c/u) | S/13.98 | S/5.03 (S/1.68 c/u) | S/8.96 | **64 %** |
+| Pack de 6 | S/27.90 (S/4.65 c/u) | S/23.64 | S/9.85 (S/1.64 c/u) | S/13.79 | **58 %** |
+
+Por WhatsApp el margen bruto baja a 51 % en la caja de 3 y 57 % en el pack de 6 (la unidad no se vende por ese canal). Si además se descuenta lo que cuesta vender (canal, stand y vendedor, gastos fijos: unos S/2.04 por brownie en promedio), la ganancia neta aproximada por brownie es S/1.33 en la unidad (26 % del precio sin IGV), S/0.95 en la caja de 3 (20 %) y S/0.26 en el pack de 6 (7 %). El pack de 6 casi no deja ganancia neta pero mueve volumen y recompra; la unidad y la caja de 3 son las que más dejan por brownie.
+
+**Respuesta corta si preguntan «¿cuánto ganan?»:** «Entre 58 y 66 % de margen bruto en el stand, según la presentación; y 6.5 % de resultado operativo en el primer año, porque la mezcla de ventas está cargada al pack de 6 y a los canales con comisión.»
+
 ### El punto de equilibrio
 3,096 brownies al mes es el equilibrio con dos puntos de venta (en general: unos 2,100 con un punto, 3,100 a 3,500 con dos, 4,200 a 4,400 con tres). Por punto y por día: 50 brownies en enero, 80 en febrero, 100 en marzo y luego 80 a 90. Un punto empieza a perder por debajo de 65 brownies al día. Por eso el guion dice «unos cien por día por punto»: es la meta de marzo en adelante.
 
