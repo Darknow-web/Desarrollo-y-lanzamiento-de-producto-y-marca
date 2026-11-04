@@ -37,9 +37,9 @@ El acumulado es el momento en que **termina** cada tramo. Quien habla avanza la 
 
 **Cómo decirlo:** la pregunta en tono de conversación, no de examen. El dato se dice, no se dramatiza. Pausa corta antes de «incluso».
 
-> ¿Cuántos de ustedes han visto una lonchera volver llena? *(pausa, mirar al jurado)* Pasa en todas las casas: lo que le hace bien, el niño lo deja; lo que le gusta, se lo come. Y así, sin que nadie lo note, le va faltando hierro. Según la ENDES 2024, incluso en las familias con más recursos del Perú, uno de cada cuatro niños menores de tres años tiene anemia. Y de cinco a once, uno de cada seis, según el INS-CENAN 2025. Somos AndiBite: un mini brownie con hierro de verdad, que el niño vuelve a pedir. Así lo resolvemos.
+> ¿Cuántos de ustedes han visto una lonchera volver llena? *(pausa, mirar al jurado)* Pasa en todas las casas: lo que le gusta, el niño se lo come; lo que le hace bien, lo deja. Y lo que deja es justo lo que necesita para crecer: proteínas, vitaminas y, sobre todo, hierro, el que más falta y el que menos se nota. Según la ENDES 2024, incluso en las familias con más recursos del Perú, uno de cada cuatro niños menores de tres años tiene anemia. Y de cinco a once, uno de cada seis, según el INS-CENAN 2025. Nosotros empezamos por ahí. Somos AndiBite: un mini brownie con hierro de verdad, que el niño vuelve a pedir.
 
-**Transición:** Carlos avanza la pantalla sin pausa y se gira hacia la laptop para tocar el Canvas.
+**Transición:** en «vuelve a pedir» Carlos avanza la pantalla y se gira hacia la laptop para tocar el Canvas.
 
 Para el guion, no para decir (por si preguntan): 1 de cada 4 = ENDES 2024, cuadro 6.1, quintil superior de bienestar, 22.8 %, criterio OMS 2024; con madres de educación superior, 27.7 %. 1 de cada 6 = INS-CENAN, SIEN-HIS 2025, 15.5 % en niños de 5 a 11 años.
 
@@ -136,10 +136,10 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 **P1 · termina 0:30 · Portada**
 
 - «¿Cuántos de ustedes han visto una lonchera volver llena?» (mirar, pausa de 2 s)
-- Lo que le hace bien lo deja; lo que le gusta se lo come. Así le va faltando hierro.
+- Lo que le gusta se lo come; lo que le hace bien lo deja: proteínas, vitaminas y, sobre todo, hierro (el que más falta y menos se nota).
 - ENDES 2024: familias con más recursos, 1 de cada 4 menores de 3 años (señalar contador).
 - 5 a 11 años: 1 de cada 6. INS-CENAN 2025 (señalar contador).
-- Somos AndiBite: mini brownie con hierro de verdad, que el niño vuelve a pedir. «Así lo resolvemos.» (avanzar y tocar el Canvas)
+- «Nosotros empezamos por ahí.» Somos AndiBite: mini brownie con hierro de verdad, que el niño vuelve a pedir. (avanzar al Canvas) (avanzar y tocar el Canvas)
 
 **P2 · termina 2:00 · Canvas**
 
