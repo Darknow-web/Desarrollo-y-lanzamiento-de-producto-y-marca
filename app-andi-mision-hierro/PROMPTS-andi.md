@@ -5,7 +5,7 @@ Misión Hierro y el protagonista de «Las historias de Andi». **Killa es su lla
 acompaña a Andi en los juegos. Hoy la app dibuja a los dos en SVG (`src/components/AndiNino.tsx` y `src/components/Killa.tsx`).
 Con estos prompts puedes generar versiones ilustradas, recortarlas y activarlas sin tocar el código de los juegos.
 
-> **Estado al 4-nov-2026:** ya están activas `andi/feliz.png`, `wow.png`, `piensa.png`, `duerme.png` y `saluda.png` (Andi con los brazos abiertos, para las bienvenidas), y `killa/base-feliz.png`, `base-wow.png`, `base-duerme.png` y `look-explorador.png`. Faltan `base-piensa.png` y los otros 10 looks de Killa (B4) y las 30 viñetas de `HISTORIETAS-andi.md`. Mientras falte un look, «Viste a Killa» lo dibuja en SVG.
+> **Estado al 4-nov-2026:** ya están activas `andi/feliz.png`, `wow.png`, `piensa.png`, `duerme.png` y `saluda.png` (Andi con los brazos abiertos, para las bienvenidas), y `killa/base-feliz.png`, `base-wow.png`, `base-duerme.png` y 10 looks (explorador, chef, astronauta, deportista, pijama, fiesta, chullo, chalina, poncho, sombrero). Faltan `base-piensa.png`, `look-marinera.png` y, de las historietas, las viñetas e1-4 y e1-5 y las historias 2 a 5 (`HISTORIETAS-andi.md`). Mientras falte un look, «Viste a Killa» lo dibuja en SVG.
 
 ## A. Andi (el niño)
 

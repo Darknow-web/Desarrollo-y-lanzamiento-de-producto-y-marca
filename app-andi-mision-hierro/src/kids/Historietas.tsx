@@ -34,7 +34,7 @@ function guardarLectura(ninoId: string, cambios: Partial<Lectura>) {
 export const useLectura = (ninoId: string) => useSyncExternalStore(cb => { oyentes.add(cb); return () => oyentes.delete(cb); }, () => lecturaDe(ninoId));
 
 const SUAVE = [0.22, 0.8, 0.24, 1] as const;
-const imagenDe = (ep: Episodio, i: number) => { const f = `${ep.id}-${i + 1}.png`; return IMAGENES_HISTORIETAS.includes(f) ? `/img/historietas/${f}` : undefined; };
+const imagenDe = (ep: Episodio, i: number) => { const f = IMAGENES_HISTORIETAS.find(n => n === `${ep.id}-${i + 1}.png` || n === `${ep.id}-${i + 1}.jpg`); return f ? `/img/historietas/${f}` : undefined; };
 
 /** Las historias de Andi: lector de historietas. Se abren con estrellas ganadas jugando o con niveles, nunca con dinero. */
 export default function Historietas() {
