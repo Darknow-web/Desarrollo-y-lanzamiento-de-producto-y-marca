@@ -28,10 +28,16 @@ body.modo-ninos { background: #F7E2BC; }
 .puerta-caja h1 { font-family: var(--fuente-nino); font-size: 30px; }
 .puerta-caja p { color: #6B3A2A; }
 .puerta-caja .enlace { min-height: 48px; }
-.puerta-boton { --p: 0; width: 104px; height: 104px; border-radius: 50%; color: #fff; display: grid; place-items: center; touch-action: none; user-select: none; -webkit-user-select: none;
-  background: conic-gradient(var(--coral) calc(var(--p) * 360deg), #4A2018 0); box-shadow: 0 8px 20px rgba(74, 32, 24, .25); }
-.puerta-ops { display: flex; gap: 12px; }
-.puerta-ops button { width: 74px; height: 64px; border-radius: 18px; background: #F5E8D6; font-size: 26px; font-weight: 800; color: var(--tinta); }
+.puerta-puntos { display: flex; gap: 14px; margin: 4px 0; }
+.puerta-puntos i { width: 18px; height: 18px; border-radius: 50%; border: 2.5px solid #4A2018; background: #fff; transition: background .15s; }
+.puerta-puntos i.lleno { background: #4A2018; }
+.puerta-teclado { display: grid; grid-template-columns: repeat(3, 72px); gap: 10px; justify-content: center; }
+.puerta-teclado button { width: 72px; height: 60px; border-radius: 18px; background: #F5E8D6; font-size: 26px; font-weight: 800; color: var(--tinta); display: grid; place-items: center; }
+.puerta-teclado button:disabled { opacity: .45; }
+.puerta-teclado .puerta-tecla-suave { background: transparent; color: #6B3A2A; }
+.puerta-reto { display: grid; gap: 10px; justify-items: center; width: 100%; }
+.puerta-reto input { width: 140px; height: 56px; border-radius: 16px; border: 2px solid #D9B48F; text-align: center; font-size: 26px; font-weight: 800; color: var(--tinta); background: #fff; }
+.puerta-enlaces { display: flex; gap: 18px; flex-wrap: wrap; justify-content: center; }
 .puerta-error { color: #9C3229 !important; font-weight: 600; }
 .ninos-elegir h1, .ninos-descanso h1 { font-size: 36px; color: #FBF3E8; }
 .ninos-elegir, .ninos-descanso { align-content: center; gap: 16px; }

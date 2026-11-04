@@ -21,7 +21,7 @@ Los datos de la familia se guardan **solo en el teléfono** (Ley 29733). Al serv
 3. Toca **Agregar a mi despensa**, acepta el consentimiento y escribe un apodo (por ejemplo, Mati).
 4. En la despensa verás cuándo se acaba el pack, el aviso de recompra y el botón **Pedir por WhatsApp** con el pedido escrito.
 5. Vuelve a **Inicio**, mira **El hierro de hoy** y marca **Volvió vacía**; pasa por el **Semáforo** (Registrar, Sangrecita) y por **Loncheras** (Armar mi semana).
-6. Toca **Misión Hierro**: mantén presionado el candado 2 segundos y resuelve la suma.
+6. Toca **Misión Hierro**: la primera vez papá o mamá crea un PIN de 4 números; después, ese PIN se pide para entrar y para salir (3 errores seguidos bloquean un minuto; «Olvidé mi PIN» pide resolver una multiplicación y crear uno nuevo).
 
 **Códigos de los envases de muestra:**
 
