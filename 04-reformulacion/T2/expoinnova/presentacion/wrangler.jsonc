@@ -1,0 +1,18 @@
+{
+  // Presentación de AndiBite para Expoinnova en Cloudflare Workers.
+  // El Worker (worker/index.ts) sirve dist/ desde el KV EXPO_ACTIVOS (worker/activos.ts).
+  // Compilar: npm run build · Subir archivos: npm run subir-activos · Publicar: npm run deploy
+  // Se publica en https://andibite-expo.cingacordova.workers.dev
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "andibite-expo",
+  "account_id": "c0dbf17cab3142a5bd3f0af8a450f54b",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-01",
+  "kv_namespaces": [
+    {
+      // Archivos de la presentación (dist/), subidos con: npm run subir-activos
+      "binding": "EXPO_ACTIVOS",
+      "id": "5928f1c7ef2c466d9cef7e9613b32280"
+    }
+  ]
+}

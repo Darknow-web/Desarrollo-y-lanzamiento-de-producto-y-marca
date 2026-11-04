@@ -1,0 +1,29 @@
+{
+  "name": "andibite-expo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AndiBite · presentación interactiva para el jurado (6 pantallas)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && tsc --noEmit -p worker && vite build",
+    "preview": "vite preview --port 4173",
+    "capturas": "node scripts/capturas.mjs http://localhost:4173/",
+    "subir-activos": "node scripts/subir-activos.mjs",
+    "deploy": "npm run build && npm run subir-activos && wrangler deploy"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.3.0",
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "gsap": "^3.15.0",
+    "qrcode": "^1.5.4",
+    "reveal.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.6",
+    "@types/reveal.js": "^5.2.2",
+    "typescript": "5.9",
+    "vite": "^7.3.7",
+    "wrangler": "^4.151.1"
+  }
+}

@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>AndiBite</title>
+  <meta name="description" content="AndiBite: mini brownie de 20 g con hierro de verdad para la lonchera, y la app Andi. Dulce para ellos. Tranquilidad para ti." />
+  <meta name="theme-color" content="#4A2018" />
+  <link rel="icon" type="image/png" href="./img/favicon.png" />
+</head>
+<body class="theme-light">
+
+<!-- ===================== Interfaz fija ===================== -->
+<div class="ui" aria-label="Controles de la presentación">
+  <div class="ui-progress" aria-hidden="true"><span></span></div>
+  <div class="ui-bottom">
+    <button type="button" class="ui-btn ui-icon" id="btn-prev" aria-label="Anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <span class="ui-num" id="ui-num" aria-live="polite">01 / 06</span>
+    <button type="button" class="ui-btn ui-icon" id="btn-next" aria-label="Siguiente">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+    <button type="button" class="ui-btn ui-icon ui-x" id="btn-fs" title="Pantalla completa (F)" aria-label="Pantalla completa">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+    </button>
+    <button type="button" class="ui-btn ui-icon ui-x" id="btn-menu" title="Pantallas (M)" aria-label="Ver las pantallas" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+    </button>
+  </div>
+</div>
+
+<nav class="menu" id="menu" aria-hidden="true" aria-label="Pantallas">
+  <div class="menu-inner">
+    <div class="menu-head">
+      <img src="./img/logo-con-andi.png" alt="AndiBite" width="900" height="733" />
+      <button type="button" class="ui-btn ui-icon" id="btn-close" aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="menu-list" id="menu-list"></div>
+    <p class="menu-keys">→ o espacio: avanzar · ←: volver · clic: avanzar · 1 a 9: bloques del Canvas · Esc: cerrar · F: pantalla completa · M: este menú</p>
+  </div>
+</nav>
+
+<!-- ===================== Presentación ===================== -->
+<div class="reveal">
+<div class="slides">
+
+<!-- 01 · PORTADA -->
+<section id="s-portada" data-title="AndiBite" data-theme="light">
+  <div class="cover"><img class="cover-img kenburns" src="./img/portada-blur.jpg" alt="" /></div>
+  <div class="cover-veil"></div>
+  <div class="frame portada">
+    <div class="brand">
+      <img class="brand-logo in" src="./img/logo-con-andi.png" alt="AndiBite, con Andi" width="900" height="733" />
+      <img class="brand-slogan in" src="./img/frase-slogan.png" alt="Dulce para ellos. Tranquilidad para ti." width="1000" height="274" />
+      <p class="brand-sub in">Mini brownie con hierro de verdad</p>
+    </div>
+    <div class="stats">
+      <div class="stat">
+        <p class="stat-k">Anemia en el Perú</p>
+        <p class="stat-n">1 de cada <span data-count="4" data-from="1">4</span></p>
+        <div class="kids" data-kids="4" aria-hidden="true"></div>
+        <p class="stat-t">de los niños menores de 3 años tiene anemia, <b>incluso en las familias con más recursos</b></p>
+      </div>
+      <div class="stat">
+        <p class="stat-n">1 de cada <span data-count="6" data-from="1">6</span></p>
+        <div class="kids" data-kids="6" aria-hidden="true"></div>
+        <p class="stat-t">de los niños de <b>5 a 11 años</b> tiene anemia</p>
+      </div>
+    </div>
+  </div>
+  <span class="fragment trigger" data-fragment-index="0" aria-hidden="true"></span>
+</section>
+
+<!-- 02 · BUSINESS MODEL CANVAS -->
+<section id="s-canvas" data-title="Business Model Canvas" data-theme="light">
+  <div class="cover"><img class="cover-img kenburns" src="./img/mural.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Business Model Canvas</h2></div></div>
+  <div class="frame body">
+    <div class="ods in">
+      <div class="ods-tile">
+        <span class="ods-n">2</span>
+        <span class="ods-name">Hambre<br />cero</span>
+        <svg class="ods-ico" viewBox="0 0 48 40" aria-hidden="true"><path d="M4 20h40c0 9-8.5 16-20 16S4 29 4 20z"/><path d="M15 6c-3 3 3 5 0 9M24 3c-3 3 3 6 0 10M33 6c-3 3 3 5 0 9"/></svg>
+      </div>
+      <p class="ods-t"><b>Meta 2.2:</b> poner fin a todas las formas de malnutrición. AndiBite contribuye.</p>
+      <p class="ods-hint">Toca un bloque para agrandarlo · teclas 1 a 9</p>
+    </div>
+    <div class="bmc">
+      <button type="button" class="cb cb-soc" data-n="8"><span class="cb-h"><i data-icon="hand"></i>Socios clave</span>
+        <ul><li>INDDA (UNALM): fabrica por nosotros</li><li>Laboratorio que mide el hierro</li><li>Proveedor de sangrecita</li><li>Malls: Jockey Plaza, Salaverry y La Molina</li><li>Colegios y tiendas naturistas</li><li>Pediatras y nutricionistas</li></ul></button>
+      <button type="button" class="cb cb-act" data-n="7"><span class="cb-h"><i data-icon="gear"></i>Actividades clave</span>
+        <ul><li>Receta y pruebas con familias</li><li>Producción por maquila</li><li>Medir y publicar el hierro</li><li>Venta en stands, ferias y colegios</li><li>Contenido y pauta digital</li></ul></button>
+      <button type="button" class="cb cb-rec" data-n="6"><span class="cb-h"><i data-icon="key"></i>Recursos clave</span>
+        <ul><li>Receta con la sangrecita escondida</li><li>Marca y registro sanitario</li><li>App Andi y datos de cada familia</li><li>Equipo de venta pagado</li></ul></button>
+      <button type="button" class="cb cb-pro" data-n="4"><span class="cb-h"><i data-icon="star"></i>Propuesta de valor</span>
+        <p class="cb-lead">Hierro sin pelear cada mañana.</p>
+        <ul><li><b>Funcional:</b> 1.9 mg de hierro en cada brownie de 20 g, sin octógonos, listo para la lonchera</li><li><b>Social:</b> la app muestra a papá y mamá el hierro de cada día</li><li><b>Emocional:</b> el niño lo pide como un gusto</li><li><b>Se prueba gratis</b> antes de comprar</li></ul></button>
+      <button type="button" class="cb cb-rel" data-n="2"><span class="cb-h"><i data-icon="heart"></i>Relación con el cliente</span>
+        <ul><li>Degustación cara a cara</li><li>Aviso de recompra en la app</li><li>Papás y mamás embajadores</li><li>Concurso #LoQueNadieVe</li></ul></button>
+      <button type="button" class="cb cb-can" data-n="3"><span class="cb-h"><i data-icon="store"></i>Canales</span>
+        <ul><li>Stands en malls · 43 %</li><li>WhatsApp · 18 %</li><li>Colegios · 17.5 %</li><li>Ferias y eventos · 14 %</li><li>Tiendas naturistas · 7 %</li></ul></button>
+      <button type="button" class="cb cb-seg" data-n="1"><span class="cb-h"><i data-icon="users"></i>Segmento de clientes</span>
+        <ul><li>Papás y mamás A y B de Lima Top y Lima Moderna</li><li>Hijos de 4 a 11 años</li><li><b>46,000</b> hogares núcleo · <b>168,000</b> en Lima</li><li><b>Early adopters:</b> leen etiquetas y ya compran snacks saludables</li></ul></button>
+      <button type="button" class="cb cb-cos" data-n="9"><span class="cb-h"><i data-icon="calc"></i>Estructura de costos</span>
+        <ul><li>Producción por maquila</li><li>Stands, ferias y vendedores</li><li>Marketing: S/24,544 en 15 meses</li><li>Inversión inicial: S/40,876</li><li>Equilibrio: 3,096 brownies al mes</li></ul></button>
+      <button type="button" class="cb cb-ing" data-n="5"><span class="cb-h"><i data-icon="coins"></i>Fuentes de ingresos</span>
+        <ul><li>Unidad S/6.00 · pack de 6 S/27.90 · pack de 12 S/51.90</li><li>Recompra por WhatsApp</li><li>Colegios y tiendas naturistas</li><li>Año 1: S/244,728 · Año 2: S/322,329</li></ul></button>
+    </div>
+  </div>
+  <span class="fragment trigger" data-fragment-index="0" aria-hidden="true"></span>
+</section>
+
+<!-- 03 · PROTOTIPO -->
+<section id="s-proto" data-title="Prototipo" data-theme="light">
+  <div class="cover"><img class="cover-img kenburns" src="./img/empaque_mockup.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Prototipo</h2></div></div>
+  <div class="frame body">
+    <div class="proto">
+      <figure class="pack in"><img src="./img/empaque_frente.jpg" alt="Empaque de AndiBite, sabor Andi: cacao y plátano" width="900" height="1252" /><figcaption>Sabor Andi · cacao y plátano, con canela y cañihua</figcaption></figure>
+      <div class="ficha">
+        <div class="fi in"><span class="fi-n"><span data-count="20">20</span><small> g</small></span><span class="fi-t">un mini brownie para la lonchera</span></div>
+        <div class="fi in"><span class="fi-n"><span data-count="1.9" data-dec="1">1.9</span><small> mg</small></span><span class="fi-t">de hierro hemo, <b>medido en cada lote</b></span></div>
+        <div class="fi in"><span class="fi-n"><span data-count="0" data-from="8">0</span></span><span class="fi-t">octógonos</span></div>
+        <ul class="origen in">
+          <li><b>Sangrecita</b> Lima</li><li><b>Cacao</b> San Martín</li><li><b>Plátano</b> Piura</li><li><b>Cañihua</b> Puno</li>
+        </ul>
+        <p class="maquila in">Se hace en el INDDA. Sin planta propia.</p>
+      </div>
+      <div class="app fragment rise" data-fragment-index="1">
+        <div class="phones">
+          <figure class="phone"><img src="./img/app_reto.jpg" alt="App Andi: el hierro de hoy" width="600" height="1298" /><figcaption>El hierro de hoy</figcaption></figure>
+          <figure class="phone"><img src="./img/app_mision.jpg" alt="App Andi: Misión Hierro para el niño" width="600" height="1298" /><figcaption>Misión Hierro</figcaption></figure>
+        </div>
+        <div class="qr-card">
+          <div class="qr" id="qr-app" role="img" aria-label="Código QR de la app Andi"></div>
+          <p class="qr-t"><b>Escanéalo.</b> Es el QR del envase.</p>
+          <ul class="app-tags"><li>Loncheras con IA</li><li>Recompra por WhatsApp</li></ul>
+        </div>
+      </div>
+    </div>
+    <p class="diff fragment rise" data-fragment-index="2">Nadie junta sabor, hierro medido y lonchera. <b>Y además, la app.</b></p>
+  </div>
+  <span class="fragment trigger" data-fragment-index="0" aria-hidden="true"></span>
+</section>
+
+<!-- 04 · COSTOS -->
+<section id="s-costos" data-title="Costos" data-theme="light">
+  <div class="cover"><img class="cover-img kenburns" src="./img/stand.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Costos</h2></div></div>
+  <div class="frame body">
+    <div class="costos">
+      <div class="wf in" aria-label="Costo por brownie: 1.67 + 0.43 + 0.98 + 0.63 = 3.71, frente a 3.96 de precio sin IGV">
+        <p class="wf-k">Un brownie: costo y precio sin IGV</p>
+        <div class="wf-chart">
+          <div class="wf-col"><div class="wf-bar bar-y" style="--b:0;--h:1.67"><span>1.67</span></div><p>Producir</p></div>
+          <div class="wf-col"><div class="wf-bar bar-y c2" style="--b:1.67;--h:0.43"><span>+0.43</span></div><p>Canal</p></div>
+          <div class="wf-col"><div class="wf-bar bar-y c3" style="--b:2.10;--h:0.98"><span>+0.98</span></div><p>Stands</p></div>
+          <div class="wf-col"><div class="wf-bar bar-y c4" style="--b:3.08;--h:0.63"><span>+0.63</span></div><p>Fijos</p></div>
+          <div class="wf-col tot"><div class="wf-bar bar-y" style="--b:0;--h:3.71"><span>S/3.71</span></div><p>Cuesta</p></div>
+          <div class="wf-col pre"><div class="wf-bar bar-y" style="--b:0;--h:3.96"><span>S/3.96</span></div><p>Precio</p></div>
+        </div>
+      </div>
+      <div class="kpis">
+        <div class="kpi in"><span class="kpi-k">Pack de 6</span><span class="kpi-n">S/<span data-count="27.90" data-dec="2">27.90</span></span></div>
+        <div class="kpi in"><span class="kpi-k">Equilibrio</span><span class="kpi-n"><span data-count="3096">3,096</span></span><span class="kpi-t">brownies al mes</span></div>
+        <div class="kpi in"><span class="kpi-k">Inversión</span><span class="kpi-n">S/<span data-count="40876">40,876</span></span><span class="kpi-t">socios 25,000 + préstamo 16,000</span></div>
+        <div class="kpi kpi-y in"><span class="kpi-k">Año 1</span><span class="kpi-n">S/<span data-count="244728">244,728</span></span><span class="kpi-t">52,331 brownies · utilidad neta <b>S/10,379</b></span></div>
+        <div class="kpi kpi-y in"><span class="kpi-k">Año 2</span><span class="kpi-n">S/<span data-count="322329">322,329</span></span><span class="kpi-t">utilidad neta <b>S/28,447</b></span></div>
+        <div class="kpi kpi-rec in"><span class="kpi-k">Recuperación</span><span class="kpi-n">mes <span data-count="23">23</span></span><span class="months" data-months="24" data-mark="23" aria-hidden="true"></span></div>
+      </div>
+    </div>
+    <div class="vende fragment rise" data-fragment-index="1">
+      <p class="vende-k">Cómo vendemos</p>
+      <div class="mix" role="img" aria-label="Stands 43 %, WhatsApp 18 %, colegios 17.5 %, ferias 14 %, naturistas 7 %">
+        <span class="mx m1" style="--w:43"><b>43 %</b><em>Stands</em></span>
+        <span class="mx m2" style="--w:18"><b>18 %</b><em>WhatsApp</em></span>
+        <span class="mx m3" style="--w:17.5"><b>17.5 %</b><em>Colegios</em></span>
+        <span class="mx m4" style="--w:14"><b>14 %</b><em>Ferias</em></span>
+        <span class="mx m5" style="--w:7"><b>7 %</b><em>Naturistas</em></span>
+      </div>
+      <div class="camp">
+        <div class="cp"><span class="cp-k">Campaña «Lo que nadie ve»</span><span class="cp-n">195 · 195 · 223</span><span class="cp-t">conversaciones de los 3 anuncios; también medimos clics</span></div>
+        <div class="cp"><span class="cp-k">Influencers</span><span class="cp-n">40 packs</span><span class="cp-t">a influencers papás y mamás</span></div>
+        <div class="cp"><span class="cp-k">Presupuesto</span><span class="cp-n">S/24,544</span><span class="cp-t"><span class="split"><i style="--w:74"></i></span>74 % calle · 26 % digital</span></div>
+      </div>
+    </div>
+  </div>
+  <span class="fragment trigger" data-fragment-index="0" aria-hidden="true"></span>
+</section>
+
+<!-- 05 · RESPONSABILIDAD SOCIAL -->
+<section id="s-rse" data-title="Plan de Responsabilidad Social" data-theme="dark">
+  <div class="cover"><img class="cover-img kenburns" src="./img/familia.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Plan de Responsabilidad Social</h2></div></div>
+  <div class="frame body">
+    <h3 class="rse-h in">Hierro que se comparte</h3>
+    <div class="rse">
+      <article class="rc in"><i class="rc-i" data-icon="school"></i><span class="rc-n"><span data-count="1">1</span> %</span><h4>de las ventas del año 1</h4><p>S/2,447 y 600 muestras para talleres de loncheras con hierro en <b>3 colegios públicos</b> de Lima Norte, con nutricionista.</p><span class="rc-m">300 familias en 2027</span></article>
+      <article class="rc in"><i class="rc-i" data-icon="flask"></i><span class="rc-n">16-oct-2027</span><h4>Abre el laboratorio</h4><p>Publicamos los informes de hierro de <b>todos los lotes</b>.</p></article>
+      <article class="rc in"><i class="rc-i" data-icon="users"></i><span class="rc-n">S/<span data-count="90">90</span></span><h4>por día a cada vendedor</h4><p>Empleo formal: todo el personal pagado y la coordinadora en planilla.</p></article>
+      <article class="rc in"><i class="rc-i" data-icon="leaf"></i><span class="rc-n">2 regiones</span><h4>Compra a productores peruanos</h4><p>Cañihua de Puno y cacao de San Martín.</p></article>
+    </div>
+    <p class="rse-pill in">AndiBite <b>contribuye</b> a la meta 2.2. No cura ni previene, y lo decimos así.</p>
+  </div>
+  <span class="fragment trigger" data-fragment-index="0" aria-hidden="true"></span>
+</section>
+
+<!-- 06 · ELEVATOR PITCH Y CIERRE -->
+<section id="s-pitch" data-title="Elevator pitch" data-theme="dark">
+  <div class="cover"><img class="cover-img kenburns" src="./img/lonchera.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Elevator pitch</h2></div></div>
+  <div class="frame body">
+    <div class="pitch">
+      <div class="vid in">
+        <button type="button" class="yt" id="yt" data-id="PaqVYijWhk4" aria-label="Reproducir el elevator pitch">
+          <img src="./img/lonchera.jpg" alt="" />
+          <span class="yt-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.7A8.5 8.5 0 0 0 60.5 1.7C55.2.3 34 .3 34 .3S12.8.3 7.5 1.7a8.5 8.5 0 0 0-6 6C.1 13 .1 24 .1 24s0 11 1.4 16.3a8.5 8.5 0 0 0 6 6C12.8 47.7 34 47.7 34 47.7s21.2 0 26.5-1.4a8.5 8.5 0 0 0 6-6C67.9 35 67.9 24 67.9 24s0-11-1.4-16.3z" fill="#BA4036"/><path d="M27 34V14l18 10z" fill="#FBF3E8"/></svg></span>
+          <span class="yt-t">60 segundos · clic para ver</span>
+        </button>
+        <p class="vid-alt"><a href="https://www.youtube.com/watch?v=PaqVYijWhk4" target="_blank" rel="noopener">Abrir en YouTube</a> · <button type="button" class="linkish" id="btn-local">Sin internet: video de la campaña</button></p>
+      </div>
+      <aside class="cierre fragment rise" data-fragment-index="1">
+        <img class="cierre-logo" src="./img/logo-con-andi.png" alt="AndiBite" width="900" height="733" />
+        <img class="cierre-slogan" src="./img/frase-slogan.png" alt="Dulce para ellos. Tranquilidad para ti." width="1000" height="274" />
+        <div class="cierre-qr"><div class="qr" id="qr-cierre" role="img" aria-label="Código QR de la app Andi"></div><p>La app Andi<br /><b>Pruébalo en el stand</b></p></div>
+      </aside>
+    </div>
+    <p class="team in">Diana Ayoso, producto · Patricia Cárdenas, operaciones · Adela Robles, legal y finanzas · Angie Blas, marca y app · Carlos Inga, comercial</p>
+  </div>
+  <span class="fragment trigger" data-fragment-index="0" aria-hidden="true"></span>
+</section>
+
+</div>
+</div>
+
+<div class="zoom" id="zoom" aria-hidden="true"><div class="zoom-card" id="zoom-card" role="dialog" aria-modal="true"></div></div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
