@@ -100,11 +100,13 @@ Para el guion, no para decir (por si preguntan): 1 de cada 4 = ENDES 2024, cuadr
 
 ### Pantalla 5 · Plan de Responsabilidad Social · Ade · 5:00 a 5:45
 
-**En pantalla:** franja de sección y «Hierro que se comparte», cuatro compromisos con ícono y cifra.
+**En pantalla:** franja de sección y «Hierro que se comparte»: una sola campaña en cuatro pasos con flecha: 1 % de las ventas → 3 colegios públicos de Lima Norte → 300 familias → 7 de cada 10 siguen un mes después.
 
-**Acción:** Ade cuenta los compromisos con los dedos, mirando al jurado, sin voltear a la pantalla. La última frase, más lenta.
+**Acción:** Ade explica primero qué es, en dos frases, mirando al jurado. Luego recorre los cuatro pasos señalando cada tarjeta con la mano abierta, de izquierda a derecha. La última frase, más lenta.
 
-> Lo llamamos «Hierro que se comparte»: cuatro compromisos. Uno: el uno por ciento de las ventas del primer año, dos mil cuatrocientos cuarenta y siete soles, más seiscientas muestras, para talleres de loncheras con hierro en tres colegios públicos de Lima Norte, con nutricionista. Trescientas familias en 2027. Dos: abrimos el laboratorio. El dieciséis de octubre del 2027 publicamos los informes de hierro de todos los lotes. Tres: empleo formal. Todo el personal cobra: noventa soles por día al vendedor y la coordinadora en planilla. Cuatro: le compramos a productores peruanos, la cañihua de Puno y el cacao de San Martín. Y lo decimos claro: AndiBite contribuye a la meta dos punto dos. No cura ni previene, y lo decimos así. Carlos.
+**Cómo decirlo:** «lo que sabemos» con énfasis. La meta («siete de cada diez») se dice despacio: es el número que el jurado se lleva.
+
+> Responsabilidad social es lo que una empresa devuelve más allá de vender. Nosotros devolvemos lo que sabemos: poner hierro en una lonchera. Una sola campaña, y la medimos: «Hierro que se comparte». *(paso 1)* El uno por ciento de lo que vendemos en Lima Top y Moderna, dos mil cuatrocientos cuarenta y siete soles, *(paso 2)* va a Lima Norte, donde empezamos: tres colegios públicos, seis talleres con nutricionista. Papá y mamá aprenden a armar una lonchera con hierro que cuesta tres soles. *(paso 3)* Trescientas familias, con su plan de cinco loncheras y dos brownies para el niño. *(paso 4)* A los treinta días les escribimos por WhatsApp. La meta: siete de cada diez siguen, y el resultado se publica en la app. AndiBite contribuye a la meta dos punto dos. No cura ni previene. Carlos.
 
 **Transición:** Carlos avanza la pantalla; los tres se juntan al centro, Carlos en medio.
 
@@ -189,12 +191,12 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 ### Ade
 
 **P5 · termina 5:45 · Responsabilidad social**
-- «Hierro que se comparte.» Cuatro compromisos, con los dedos.
-- 1 % ventas año 1 = S/2,447 + 600 muestras → talleres en 3 colegios públicos de Lima Norte, nutricionista, 300 familias en 2027.
-- Abrimos el laboratorio: 16 de octubre de 2027, informes de todos los lotes.
-- Empleo formal: S/90 por día al vendedor, coordinadora en planilla.
-- Productores peruanos: cañihua de Puno, cacao de San Martín.
-- (lento) «Contribuye a la meta 2.2. No cura ni previene, y lo decimos así. Carlos.»
+- Qué es: lo que la empresa devuelve más allá de vender. Nosotros devolvemos lo que sabemos.
+- Una sola campaña, medida: «Hierro que se comparte». Señalar los 4 pasos.
+- 1 % de ventas año 1 = S/2,447 (de Lima Top y Moderna) → Lima Norte, donde empezamos.
+- 3 colegios públicos · 6 talleres con nutricionista, marzo a octubre · lonchera con hierro de S/3.
+- 300 familias: plan de 5 loncheras + 2 brownies para el niño.
+- (lento) Meta a 30 días por WhatsApp: 7 de cada 10 siguen; se publica en la app. «Contribuye a la 2.2. No cura ni previene. Carlos.»
 
 **Durante P1 a P4 (sin hablar)**
 - Celular con la app en «El hierro de hoy», brillo al máximo, sin bloqueo.
@@ -221,9 +223,11 @@ Unos veinte segundos cada respuesta (50 a 60 palabras). Quien no responde, asien
 | 9 | ¿Cuánto necesitan de inversión y para qué? | Ade | «Cuarenta mil ochocientos setenta y seis soles. La mitad, unos diecinueve mil, es para arrancar: ahí van ocho mil de capital de trabajo y tres mil doscientos del lanzamiento. El resto: documentos, seis mil; equipos y carrito, casi cinco mil; desarrollo, marca y app, unos siete mil; e imprevistos. Veinticinco mil los ponemos los socios y dieciséis mil son un préstamo a veinticuatro cuotas.» |
 | 10 | ¿Cuándo recuperan? | Ade | «En el mes veintitrés: noviembre del 2028. Desde marzo del primer año todos los meses ganan. El primer año deja diez mil trescientos setenta y nueve soles de utilidad neta, el cuarenta y dos por ciento de lo que pusimos los socios. El segundo, con tres puntos todo el año, veintiocho mil cuatrocientos cuarenta y siete.» |
 | 11 | ¿Qué los diferencia de Fika o Nutri H? | Carlos | «Por veinte gramos, Fika cuesta cuatro soles y Nutri H, tres veinte. Nosotros somos los únicos que juntamos tres cosas: un sabor que el niño vuelve a pedir, hierro hemo medido y publicado por lote, y un formato de lonchera sin octógonos que entra al colegio. Y encima, la app: el envase se vuelve dato para papá y mamá.» |
-| 12 | ¿Qué hacen por la comunidad? | Ade | «Volvemos a Lima Norte. El uno por ciento de las ventas del primer año, dos mil cuatrocientos cuarenta y siete soles, más seiscientas muestras, van a talleres de loncheras con hierro en tres colegios públicos, con una nutricionista: trescientas familias en el 2027. Además publicamos el hierro de todos los lotes, y todo nuestro personal es formal.» |
+| 12 | ¿Qué hacen por la comunidad? | Ade | «Una sola campaña y la medimos. El uno por ciento de las ventas del primer año, dos mil cuatrocientos cuarenta y siete soles, paga seis talleres con nutricionista en tres colegios públicos de Lima Norte: trescientas familias aprenden a armar una lonchera con hierro de tres soles y se llevan dos brownies. A los treinta días preguntamos por WhatsApp; la meta es que siete de cada diez sigan, y el resultado va en la app.» |
 
 De reserva, una línea cada una:
+- **¿Por qué Lima Norte, si venden en Lima Top?** (Ade) Porque ahí empezó nuestra investigación y ahí la anemia pesa más. El uno por ciento cruza esa brecha: lo que se vende en un lado enseña en el otro.
+- **¿De dónde sale la plata y en qué se va?** (Ade) Del uno por ciento de las ventas: nutricionista, novecientos; impresos, trescientos; seiscientos brownies al costo, casi mil; movilidad, el resto. No toca el presupuesto de lanzamiento.
 - **¿La anemia se cura con esto?** (Ade) No, y no lo decimos. Contribuye con casi dos miligramos de hierro al día; el tratamiento lo indica el pediatra, y la app recuerda el control de hemoglobina.
 - **¿Cuánto cuesta la app?** (Carlos) El prototipo ya funciona; faltan dos mil soles para terminarla, doscientos cincuenta al mes y cuatro céntimos por código impreso. Meta: treinta por ciento de los envases escaneados el primer año.
 - **¿Y el concurso?** (Carlos) «Lo que nadie ve», del 1 de noviembre al 20 de diciembre: ganan los tres trucos con más «me gusta». Es por votos, sin azar.

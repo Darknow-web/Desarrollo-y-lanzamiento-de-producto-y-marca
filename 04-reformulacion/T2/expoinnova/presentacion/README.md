@@ -41,12 +41,24 @@ npm run preview      # sirve dist/ en http://localhost:4173
 
 `dist/` también se puede abrir desde cualquier servidor estático (las rutas son relativas).
 
-## Abrirla en Google AI Studio desde GitHub
+## Publicarla en Google AI Studio
 
-1. Entra a https://aistudio.google.com y abre **Build**.
-2. Elige importar un proyecto desde GitHub (Import / «Import from GitHub»), conecta la cuenta y elige el repositorio; indica la carpeta `04-reformulacion/T2/expoinnova/presentacion`.
-   - Si no deja elegir subcarpeta: descarga solo esa carpeta (sin `node_modules`, `dist` ni `capturas`) y súbela con **Upload** / arrastrando el zip.
-3. AI Studio instala las dependencias (`npm install`) y corre `npm run dev`; la vista previa muestra la presentación. Para cambios de texto, edita `index.html`.
+La presentación ya tiene URL pública propia (arriba). AI Studio es el canal que pide la feria; hay dos caminos (doc oficial: https://ai.google.dev/gemini-api/docs/aistudio-build-mode y https://aistudio.google.com/learn/sync-your-ai-studio-apps-with-github).
+
+**Camino 1 · importar desde GitHub (recomendado si el importador acepta la carpeta):**
+1. Entra a https://aistudio.google.com con la cuenta de Google y abre **Build**.
+2. En la caja del prompt, botón **+** → **Import from GitHub**. Autoriza la cuenta de GitHub y elige el repositorio `darknow-web/desarrollo-y-lanzamiento-de-producto-y-marca`, rama `claude/andybites-repositioning-advisor-avbbi2`.
+3. AI Studio convierte el proyecto a su runtime y abre la vista previa. Si pregunta por la carpeta de la app, indica `04-reformulacion/T2/expoinnova/presentacion`. Revisa que `index.html` y `src/` no hayan cambiado.
+4. En **Settings → GitHub** deja la sincronización activa: los cambios que se hagan en AI Studio vuelven al repo y al revés.
+
+**Camino 2 · subir la carpeta (si el importador exige la app en la raíz del repo):**
+1. Arma un zip solo con esta carpeta, sin `node_modules`, `dist`, `capturas` ni `.wrangler` (desde la raíz del repo: `cd 04-reformulacion/T2/expoinnova && zip -r presentacion-ai-studio.zip presentacion -x "presentacion/node_modules/*" "presentacion/dist/*" "presentacion/capturas/*" "presentacion/.wrangler/*"`).
+2. En **Build**, botón **+** → **Upload** (o arrastra el zip). AI Studio instala las dependencias y corre `npm run dev`.
+
+**Después, en los dos casos:**
+- **Share** (arriba a la derecha) → enlace para el jurado. Quien lo abre puede ver el código y hacer un fork; la clave API del dueño no se ve, pero las llamadas a Gemini (esta presentación no hace ninguna) se cobran a tu cuota.
+- **Deploy** → Cloud Run si quieren una URL pública fuera de AI Studio (pide un proyecto de Google Cloud; el nivel Starter es gratuito pero limitado).
+- Para cambios de texto se edita `index.html`; la vista previa se actualiza sola.
 
 ## Capturas de verificación
 
