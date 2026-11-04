@@ -37,7 +37,7 @@ El acumulado es el momento en que **termina** cada tramo. Quien habla avanza la 
 
 **Cómo decirlo:** la pregunta en tono de conversación, no de examen. El dato se dice, no se dramatiza. Pausa corta antes de «incluso».
 
-> ¿Cuántos de ustedes han visto una lonchera volver llena? *(pausa, mirar al jurado)* En Lima pasa todas las mañanas. Y el hierro que ese niño no comió hoy, no vuelve. Según la ENDES 2024, incluso en las familias con más recursos del Perú, uno de cada cuatro niños menores de tres años tiene anemia. Y de cinco a once, uno de cada seis, según el INS-CENAN 2025. Somos AndiBite: un mini brownie con hierro de verdad, que el niño vuelve a pedir. Así lo resolvemos.
+> ¿Cuántos de ustedes han visto una lonchera volver llena? *(pausa, mirar al jurado)* Pasa en todas las casas: lo que le hace bien, el niño lo deja; lo que le gusta, se lo come. Y así, sin que nadie lo note, le va faltando hierro. Según la ENDES 2024, incluso en las familias con más recursos del Perú, uno de cada cuatro niños menores de tres años tiene anemia. Y de cinco a once, uno de cada seis, según el INS-CENAN 2025. Somos AndiBite: un mini brownie con hierro de verdad, que el niño vuelve a pedir. Así lo resolvemos.
 
 **Transición:** Carlos avanza la pantalla sin pausa y se gira hacia la laptop para tocar el Canvas.
 
@@ -136,7 +136,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 **P1 · termina 0:30 · Portada**
 
 - «¿Cuántos de ustedes han visto una lonchera volver llena?» (mirar, pausa de 2 s)
-- En Lima pasa todas las mañanas; el hierro que no comió hoy, no vuelve.
+- Lo que le hace bien lo deja; lo que le gusta se lo come. Así le va faltando hierro.
 - ENDES 2024: familias con más recursos, 1 de cada 4 menores de 3 años (señalar contador).
 - 5 a 11 años: 1 de cada 6. INS-CENAN 2025 (señalar contador).
 - Somos AndiBite: mini brownie con hierro de verdad, que el niño vuelve a pedir. «Así lo resolvemos.» (avanzar y tocar el Canvas)
