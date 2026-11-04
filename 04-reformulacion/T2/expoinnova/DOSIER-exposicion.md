@@ -119,7 +119,7 @@ Es una app web instalable; se abre con el QR de cada envase, sin descargar nada 
 
 Estamos un 29 % por encima del promedio de Fika y Nutri H, y es a propósito: precio basado en el valor percibido, apoyado en packs (el de 12 baja a S/4.16) y con promoción solo en el lanzamiento. El diferencial en una frase: nadie junta sabor, hierro de verdad medido y formato lonchera sin octógonos; y además, la app convierte el envase en dato.
 
-## Pantalla 4 · Costos (Ade los números, Carlos cómo vendemos)
+## Pantalla 4 · Costos (Carlos)
 
 ### La cascada, concepto por concepto
 Por cada brownie vendido, en promedio, en el año 1:

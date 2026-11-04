@@ -22,12 +22,12 @@ El acumulado es el momento en que **termina** cada tramo. Quien habla avanza la 
 | 2 | Business Model Canvas | Carlos | 1:30 | 2:00 |
 | 3 | Prototipo: el brownie | Ade | 0:55 | 2:55 |
 | 3 | Prototipo: la app | Carlos | 0:45 | 3:40 |
-| 4 | Costos: los números | Ade | 0:45 | 4:25 |
-| 4 | Costos: cómo vendemos | Carlos | 0:35 | 5:00 |
-| 5 | Plan de Responsabilidad Social | Ade | 0:45 | 5:45 |
-| 6 | Elevator pitch y cierre | Carlos | 0:15 | 6:00 |
-| 6 | Video de YouTube | — | 1:00 | 7:00 |
-| — | Preguntas del jurado | los dos | 3:00 | 10:00 |
+| 4 | Costos: los números | Carlos | 1:00 | 4:40 |
+| 4 | Costos: cómo vendemos | Carlos | 0:35 | 5:15 |
+| 5 | Plan de Responsabilidad Social | Ade | 0:45 | 6:00 |
+| 6 | Elevator pitch y cierre | Carlos | 0:15 | 6:15 |
+| 6 | Video de YouTube | — | 1:00 | 7:15 |
+| — | Preguntas del jurado | los dos | 2:45 | 10:00 |
 
 ### Pantalla 1 · Portada · Carlos · 0:00 a 0:30
 
@@ -75,31 +75,31 @@ Para el guion, no para decir (por si preguntan): 1 de cada 4 = ENDES 2024, cuadr
 
 **Cómo decirlo:** «el envase se vuelve dato» con una pausa antes. El diferencial, firme, mirando al jurado.
 
-> Detrás de cada bolsa hay un QR. Escanéenlo, por favor: es este. *(señala el QR)* Se abre Andi, nuestra app. Papá o mamá ven «El hierro de hoy»: un anillo con el hierro que lleva su hijo frente a lo que necesita a su edad. Marco la lonchera vacía... suma el brownie y el niño gana una estrella. Aquí, el plan de loncheras con inteligencia artificial. Aquí, la recompra por WhatsApp, en un clic. Y para el niño, Misión Hierro: juegos con Andi, sin compras ni publicidad. El envase se vuelve dato. Esa es la diferencia: nadie junta sabor, hierro de verdad medido y formato lonchera. Y además, la app. Ade, ¿cuánto cuesta todo esto?
+> Detrás de cada bolsa hay un QR. Escanéenlo, por favor: es este. *(señala el QR)* Se abre Andi, nuestra app. Papá o mamá ven «El hierro de hoy»: un anillo con el hierro que lleva su hijo frente a lo que necesita a su edad. Marco la lonchera vacía... suma el brownie y el niño gana una estrella. Aquí, el plan de loncheras con inteligencia artificial. Aquí, la recompra por WhatsApp, en un clic. Y para el niño, Misión Hierro: juegos con Andi, sin compras ni publicidad. El envase se vuelve dato. Esa es la diferencia: nadie junta sabor, hierro de verdad medido y formato lonchera. Y además, la app. Y esto, ¿cuánto cuesta?
 
-**Transición:** Carlos guarda el celular; Ade avanza la pantalla y arranca la cascada.
+**Transición:** Carlos guarda el celular, avanza la pantalla y arranca la cascada.
 
 ### Pantalla 4 · Costos
 
 **En pantalla:** franja de sección y la cascada animada: producir 1.67 + canal 0.43 + stands 0.98 + fijos 0.63 = **S/3.71** frente a **S/3.96** sin IGV; pack de 6 **S/27.90**; **equilibrio 3,096 al mes**; **inversión S/40,876**; año 1 y año 2; **recuperación: mes 23**. Franja inferior «Cómo vendemos»: stands 43 % · WhatsApp 18 % · colegios 17.5 % · ferias 14 % · naturistas 7 %; la campaña «Lo que nadie ve», los 3 anuncios (195 / 195 / 223) y S/24,544 (74 % calle, 26 % digital).
 
-#### Ade · los números · 3:40 a 4:25
+#### Carlos · los números · 3:40 a 4:40
 
-**Acción:** Ade señala cada barra de la cascada al decirla; en «mes veintitrés», el final de la línea.
+**Acción:** Carlos señala el pack al decir los precios y luego cada barra de la cascada; en «mes veintitrés», el final de la línea.
 
-**Cómo decirlo:** un número por frase, sin apuro. La cifra exacta está en pantalla.
+**Cómo decirlo:** un número por frase, sin apuro, todo con IGV y redondeado; la cifra exacta está en pantalla. Si preguntan por el 3.96: es el precio promedio sin IGV; con IGV son cuatro setenta.
 
-> Cada brownie nos cuesta tres setenta y uno, todo incluido: producirlo, el canal, el stand y los gastos fijos. Lo vendemos a tres noventa y seis sin IGV; el pack de seis, a veintisiete noventa. Para no perder vendemos tres mil noventa y seis brownies al mes: unos cien por día por punto. Arrancamos con cuarenta mil ochocientos setenta y seis soles: veinticinco mil de los socios y dieciséis mil de préstamo. El primer año: cincuenta y dos mil brownies, doscientos cuarenta y cuatro mil soles en ventas y diez mil trescientos setenta y nueve de utilidad neta. Ganamos desde marzo. El segundo año: trescientos veintidós mil en ventas y veintiocho mil de utilidad. Y la inversión vuelve en el mes veintitrés. Carlos.
+> Esto cuesta y esto deja. El cliente paga seis soles por un brownie, veintisiete noventa por el pack de seis y cincuenta y uno noventa por el de doce. Hacer cada brownie nos cuesta un sol setenta. Lo demás que ven ahí es venderlo: el stand con su vendedor, el canal y los gastos fijos. Con todo eso nos quedan veinticinco céntimos por brownie. Poco, y por eso el negocio es de volumen: con tres mil cien brownies al mes no perdemos. El primer año vendemos cincuenta y dos mil, doscientos cuarenta y cinco mil soles, y ganamos diez mil cuatrocientos netos. Arrancamos con cuarenta mil ochocientos: veinticinco mil de los socios y dieciséis mil de préstamo. El segundo año la ganancia por brownie se duplica, y la inversión vuelve en el mes veintitrés.
 
-#### Carlos · cómo vendemos · 4:25 a 5:00
+#### Carlos · cómo vendemos · 4:40 a 5:15
 
 **Acción:** Carlos señala la franja de canales y, en «Lo que nadie ve», el cartel del stand.
 
 > Y así vendemos. Primero, la calle, porque el niño tiene que probar. El dos de enero abrimos en Jockey Plaza; después, Salaverry y La Molina. Los stands hacen casi la mitad de la venta. WhatsApp y la app traen la recompra. Luego, colegios, ferias y naturistas. La campaña se llama «Lo que nadie ve»: los trucos que papá y mamá inventan cada mañana. Cuarenta packs a papás y mamás influencers, y tres anuncios que medimos por conversaciones y clics. Todo el marketing: veinticuatro mil quinientos soles, tres cuartos en la calle. Ade.
 
-**Transición:** Ade da medio paso al frente y avanza la pantalla; Carlos se coloca junto a la laptop.
+**Transición:** en «Ade», Ade da medio paso al frente y avanza la pantalla; Carlos se coloca junto a la laptop.
 
-### Pantalla 5 · Plan de Responsabilidad Social · Ade · 5:00 a 5:45
+### Pantalla 5 · Plan de Responsabilidad Social · Ade · 5:15 a 6:00
 
 **En pantalla:** franja de sección y «Hierro que se comparte»: una sola campaña en cuatro pasos con flecha: 1 % de las ventas → 3 colegios públicos de Lima Norte → 300 familias → 7 de cada 10 siguen un mes después.
 
@@ -111,7 +111,7 @@ Para el guion, no para decir (por si preguntan): 1 de cada 4 = ENDES 2024, cuadr
 
 **Transición:** Carlos avanza la pantalla; los dos se juntan al centro.
 
-### Pantalla 6 · Elevator pitch y cierre · Carlos · 5:45 a 6:00, video hasta 7:00
+### Pantalla 6 · Elevator pitch y cierre · Carlos · 6:00 a 6:15, video hasta 7:15
 
 **En pantalla:** franja de sección, el video https://www.youtube.com/watch?v=PaqVYijWhk4 listo con un clic; al terminar, logo con Andi, QR a la app, slogan y la línea pequeña del equipo.
 
@@ -121,9 +121,9 @@ Para el guion, no para decir (por si preguntan): 1 de cada 4 = ENDES 2024, cuadr
 
 > Somos cinco socios: Diana, Patricia, Adela, Angie y yo. El dos de enero, en Jockey Plaza, el niño decide. AndiBite. Dulce para ellos. Tranquilidad para ti. Les dejamos un minuto.
 
-**Si el jurado va con prisa:** se salta el video («queda corriendo en el stand») y se pasa a preguntas a los 6:00.
+**Si el jurado va con prisa:** se salta el video («queda corriendo en el stand») y se pasa a preguntas a los 6:15.
 
-### Preguntas · 7:00 a 10:00
+### Preguntas · 7:15 a 10:00
 
 Carlos reparte con el nombre: «eso lo ve Ade». Ade: registro, leyes, sangrecita, laboratorio, inversión, recuperación y comunidad. Carlos: precio, cliente, riesgo de ventas, supermercados y competencia. Veinte segundos y se para.
 
@@ -157,9 +157,18 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - Marcar lonchera vacía en vivo: suma el brownie, estrella.
 - Loncheras con IA · recompra por WhatsApp en un clic · Misión Hierro sin compras.
 - (pausa) «El envase se vuelve dato.» Nadie junta sabor + hierro medido + lonchera. Y la app.
-- «Ade, ¿cuánto cuesta todo esto?» (guardar el celular)
+- «Y esto, ¿cuánto cuesta?» (guardar el celular, avanzar)
 
-**P4 · termina 5:00 · Cómo vendemos**
+**P4 · termina 4:40 · Costos**
+
+- Paga el cliente: S/6 · S/27.90 · S/51.90 (señalar el pack).
+- Hacerlo: S/1.70. Lo demás es venderlo: stand y vendedor, canal, fijos.
+- Queda S/0.25 por brownie → volumen. No perdemos desde 3,100 al mes.
+- Año 1: 52 mil · S/245 mil · S/10,400 netos. Inversión S/40,876 (25,000 + 16,000).
+- Año 2: ganancia por brownie x2. Vuelve en el mes 23.
+- Sin pausa: «Y así vendemos…»
+
+**P4 · termina 5:15 · Cómo vendemos**
 
 - Calle primero: el niño tiene que probar.
 - 2 de enero Jockey Plaza; después Salaverry y La Molina.
@@ -168,7 +177,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - 40 packs a influencers · 3 anuncios medidos por conversaciones y clics.
 - S/24,544, tres cuartos en la calle. «Ade.»
 
-**P6 · termina 6:00 · Cierre**
+**P6 · termina 6:15 · Cierre**
 
 - Cinco socios: Diana, Patricia, Adela, Angie y yo.
 - 2 de enero, Jockey Plaza: el niño decide.
@@ -187,16 +196,7 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - INDDA por maquila.
 - «Carlos, enséñales lo que no se ve.» (pasar la bolsita, QR arriba)
 
-**P4 · termina 4:25 · Los números**
-
-- S/3.71 todo incluido · S/3.96 sin IGV · pack de 6 S/27.90.
-- Equilibrio 3,096 al mes: unos 100 por día por punto.
-- Inversión S/40,876: 25,000 socios + 16,000 préstamo.
-- Año 1: 52 mil brownies · S/244 mil ventas · S/10,300 utilidad. Ganamos desde marzo.
-- Año 2: S/322 mil ventas · S/28 mil utilidad.
-- Mes 23 (señalar el final de la línea). «Carlos.»
-
-**P5 · termina 5:45 · Responsabilidad social**
+**P5 · termina 6:00 · Responsabilidad social**
 
 - Qué es: lo que la empresa devuelve más allá de vender. Nosotros devolvemos lo que sabemos.
 - Una sola campaña, medida: «Hierro que se comparte». Señalar los 4 pasos.
@@ -205,13 +205,13 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 - 300 familias: plan de 5 loncheras + 2 brownies para el niño.
 - (lento) Meta a 30 días por WhatsApp: 7 de cada 10 siguen; se publica en la app. «Contribuye a la 2.2. No cura ni previene. Carlos.»
 
-**Mientras habla Carlos (P1, P2, P3 app, P4 cómo vendemos, P6)**
+**Mientras habla Carlos (P1, P2, P3 app, P4, P6)**
 
 - Pack de 6 en la mano desde el inicio; bolsita lista antes de que Carlos diga «Ade, dales a probar».
 - Medio paso atrás, mirando al jurado; si el jurado mira el banner, señalar el bloque que nombra Carlos.
 - Durante el video, dejar una bolsita cerrada delante de cada jurado.
 
-**Preguntas (7:00 a 10:00)**
+**Preguntas (7:15 a 10:00)**
 
 - Mías: registro sanitario, ley de la app, sangrecita, laboratorio y 1.9 mg, inversión, recuperación, comunidad.
 

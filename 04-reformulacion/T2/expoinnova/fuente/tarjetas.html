@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>AndiBite · tarjetas del stand</title>
+<style>
+  @font-face { font-family: 'Plus Jakarta Sans'; font-weight: 800; src: url('../presentacion/public/fonts/plus-jakarta-sans-latin-800-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Nunito'; font-weight: 700; src: url('../presentacion/public/fonts/nunito-latin-700-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Nunito'; font-weight: 800; src: url('../presentacion/public/fonts/nunito-latin-800-normal.woff2') format('woff2'); }
+  :root { --cafe: #4A2018; --texto: #3B1A14; --ladrillo: #BA4036; --dorado: #E3A33B; --crema: #FBF3E8; --arena: #D9B48F; --vino: #8A1C2B; --oliva: #7C8A3A; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { font-family: 'Nunito', sans-serif; font-weight: 700; color: var(--texto); background: var(--crema); }
+  .t { width: 100mm; height: 178mm; padding: 9mm 8mm 8mm; page-break-after: always; position: relative; display: flex; flex-direction: column; gap: 4mm; background: var(--crema); }
+  .t.ade { background: #F3E6D2; }
+  .t.ade .quien { background: var(--oliva); }
+  .cab { display: flex; align-items: center; justify-content: space-between; gap: 3mm; }
+  .num { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 11pt; color: var(--ladrillo); letter-spacing: .08em; text-transform: uppercase; }
+  .quien { font-size: 10.5pt; font-weight: 800; color: #fff; background: var(--ladrillo); border-radius: 999px; padding: 1.2mm 3.5mm; white-space: nowrap; }
+  .tiempo { font-size: 10.5pt; color: var(--cafe); background: #fff; border-radius: 999px; padding: 1.2mm 3.5mm; border: 0.4mm solid var(--arena); white-space: nowrap; }
+  h1 { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22pt; line-height: 1.05; margin: 0; color: var(--cafe); }
+  h1 small { display: block; font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 11.5pt; color: var(--ladrillo); margin-top: 1.5mm; }
+  ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 3mm; }
+  li { font-size: 14.5pt; line-height: 1.22; padding-left: 6mm; position: relative; }
+  li::before { content: ''; position: absolute; left: 0; top: 2.4mm; width: 3.2mm; height: 3.2mm; border-radius: 50%; background: var(--dorado); }
+  li b { color: var(--ladrillo); }
+  li.dicho { font-weight: 800; color: var(--cafe); }
+  li.dicho::before { background: var(--ladrillo); }
+  li.accion { font-size: 12.5pt; color: var(--vino); font-style: italic; }
+  li.accion::before { background: var(--vino); width: 2.4mm; height: 2.4mm; top: 2.8mm; }
+  .pie { margin-top: auto; background: var(--cafe); color: #fff; border-radius: 4mm; padding: 3.5mm 4.5mm; font-size: 13.5pt; line-height: 1.2; font-weight: 800; }
+  .pie span { color: var(--dorado); }
+  .n { position: absolute; right: 8mm; bottom: 3.5mm; font-size: 8.5pt; color: var(--arena); }
+  table { border-collapse: collapse; width: 100%; font-size: 12.5pt; }
+  td { padding: 1.8mm 1.5mm; border-bottom: 0.3mm solid var(--arena); vertical-align: top; }
+  td:last-child { text-align: right; font-weight: 800; color: var(--cafe); white-space: nowrap; }
+  .orden td:first-child { color: var(--ladrillo); font-weight: 800; width: 8mm; }
+  .q { background: #fff; border-radius: 3.5mm; padding: 3mm 3.5mm; }
+  .q b { display: block; color: var(--ladrillo); font-size: 13pt; margin-bottom: 1mm; }
+  .q p { margin: 0; font-size: 12.5pt; line-height: 1.22; }
+  .qs { display: flex; flex-direction: column; gap: 2.6mm; }
+  .big { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 34pt; line-height: 1; color: var(--ladrillo); }
+  .big small { font-size: 13pt; color: var(--texto); font-family: 'Nunito', sans-serif; font-weight: 700; display: block; margin-top: 1mm; }
+  .fila2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+  .caja { background: #fff; border-radius: 3.5mm; padding: 3mm; }
+</style>
+</head>
+<body>
+
+<!-- 0 · Orden -->
+<section class="t">
+  <div class="cab"><span class="num">AndiBite · stand</span><span class="tiempo">10 min total</span></div>
+  <h1>El orden<small>6 pantallas · Carlos y Ade</small></h1>
+  <table class="orden">
+    <tr><td>1</td><td>Portada · gancho</td><td>Carlos · 0:45</td></tr>
+    <tr><td>2</td><td>Canvas</td><td>Carlos · 1:30</td></tr>
+    <tr><td>3</td><td>El brownie (probar)</td><td>Ade · 0:55</td></tr>
+    <tr><td>3</td><td>La app (QR)</td><td>Carlos · 0:45</td></tr>
+    <tr><td>4</td><td>Costos</td><td>Carlos · 1:00</td></tr>
+    <tr><td>4</td><td>Cómo vendemos</td><td>Carlos · 0:35</td></tr>
+    <tr><td>5</td><td>Responsabilidad social</td><td>Ade · 0:45</td></tr>
+    <tr><td>6</td><td>Cierre + video</td><td>Carlos · 0:15 + 1:00</td></tr>
+    <tr><td>—</td><td>Preguntas</td><td>los dos · 3:00</td></tr>
+  </table>
+  <ul>
+    <li><b>Nunca:</b> grupo, curso, universidad, otros sabores, «previene», «sorteo».</li>
+    <li><b>Siempre:</b> «contribuye», «papá y mamá», solo sabor Andi.</li>
+  </ul>
+  <div class="pie">Quien habla, medio paso al frente. <span>Mirar al jurado, no a la pantalla.</span></div>
+  <span class="n">1</span>
+</section>
+
+<!-- 1 · Portada -->
+<section class="t">
+  <div class="cab"><span class="num">Pantalla 1 · Portada</span><span class="quien">Carlos</span><span class="tiempo">termina 0:45</span></div>
+  <h1>El gancho<small>celular en el bolsillo, manos vacías</small></h1>
+  <ul>
+    <li class="dicho">«¿Cuántos de ustedes han visto una lonchera volver llena?»</li>
+    <li class="accion">mirar a los ojos · pausa de 2 segundos aunque nadie conteste</li>
+    <li>Lo que le gusta se lo come; lo que le hace bien lo deja: proteínas, vitaminas y sobre todo <b>hierro</b>, el que más falta y menos se nota.</li>
+    <li><b>1 de cada 4</b> menores de 3 años tiene anemia, incluso en las familias con más recursos (ENDES 2024).</li>
+    <li><b>1 de cada 6</b> de 5 a 11 años (INS-CENAN 2025).</li>
+    <li class="dicho">«Nosotros empezamos por ahí. Somos AndiBite: un mini brownie con hierro de verdad, que el niño vuelve a pedir.»</li>
+  </ul>
+  <div class="pie">En «vuelve a pedir» → avanzar y <span>tocar el Canvas</span>.</div>
+  <span class="n">2</span>
+</section>
+
+<!-- 2 · Canvas -->
+<section class="t">
+  <div class="cab"><span class="num">Pantalla 2 · Canvas</span><span class="quien">Carlos</span><span class="tiempo">termina 2:00</span></div>
+  <h1>El negocio en una página<small>tocar solo 4 bloques</small></h1>
+  <ul>
+    <li>Arriba: <b>ODS 2</b>, Hambre cero, meta 2.2.</li>
+    <li><b>Propuesta:</b> hierro sin pelear cada mañana. Brownie que vuelve a pedir + app para papá y mamá.</li>
+    <li><b>Segmento:</b> papás y mamás A y B, Lima Top y Moderna, hijos de 4 a 11. <b>46,000</b> hogares núcleo · <b>168,000</b> en Lima.</li>
+    <li><b>Canales:</b> stands donde el niño prueba · WhatsApp para volver · colegios y naturistas.</li>
+    <li><b>Socios:</b> INDDA de la Agraria produce · laboratorio mide · malls dan el punto. Sin planta, a propósito.</li>
+  </ul>
+  <div class="pie">«Ahora, lo mejor. <span>Ade, dales a probar.</span>» → hacerse a un lado.</div>
+  <span class="n">3</span>
+</section>
+
+<!-- 3a · Brownie (Ade) -->
+<section class="t ade">
+  <div class="cab"><span class="num">Pantalla 3 · El brownie</span><span class="quien">Ade</span><span class="tiempo">termina 2:55</span></div>
+  <h1>Dar a probar<small>abrir, partir, acercar la bandeja</small></h1>
+  <ul>
+    <li>Sabor Andi: cacao y plátano, con canela y cañihua. <b>20 g</b>, en bolsita.</li>
+    <li class="dicho">«Adentro lleva sangrecita liofilizada… y no se nota. ¿La notan?»</li>
+    <li class="accion">callarse 3 segundos mientras prueban</li>
+    <li>Casi <b>2 mg de hierro hemo</b> (1.9), medido lote por lote. <b>Cero octógonos</b>: entra al colegio.</li>
+    <li>Sangrecita de Lima · cacao de San Martín · plátano de Piura · cañihua de Puno. Canela importada, y lo decimos. Lo hace el INDDA.</li>
+  </ul>
+  <div class="pie">«<span>Carlos, enséñales lo que no se ve.</span>» → pasar la bolsita con el QR arriba.</div>
+  <span class="n">4</span>
+</section>
+
+<!-- 3b · App -->
+<section class="t">
+  <div class="cab"><span class="num">Pantalla 3 · La app</span><span class="quien">Carlos</span><span class="tiempo">termina 3:40</span></div>
+  <h1>El envase se vuelve dato<small>sacar el celular con la app abierta</small></h1>
+  <ul>
+    <li class="dicho">«Detrás de cada bolsa hay un QR. Escanéenlo, por favor: es este.»</li>
+    <li><b>El hierro de hoy:</b> anillo con lo que lleva frente a lo que necesita a su edad.</li>
+    <li class="accion">marcar la lonchera vacía en vivo → suma el brownie, estrella</li>
+    <li>Loncheras con <b>inteligencia artificial</b> · recompra por WhatsApp en un clic · Misión Hierro para el niño, sin compras ni publicidad.</li>
+    <li class="dicho">(pausa) «El envase se vuelve dato.» Nadie junta sabor + hierro medido + lonchera. Y además, la app.</li>
+  </ul>
+  <div class="pie">«<span>Y esto, ¿cuánto cuesta?</span>» → guardar el celular, avanzar.</div>
+  <span class="n">5</span>
+</section>
+
+<!-- 4a · Costos -->
+<section class="t">
+  <div class="cab"><span class="num">Pantalla 4 · Costos</span><span class="quien">Carlos</span><span class="tiempo">termina 4:40</span></div>
+  <h1>Un brownie: entra 4, sale 3.70, queda 0.25<small>señalar el pack, luego la cascada</small></h1>
+  <ul>
+    <li><b>Paga el cliente:</b> S/6 la unidad · S/27.90 el pack de 6 · S/51.90 el de 12.</li>
+    <li><b>Hacerlo:</b> S/1.70. Lo demás es <b>venderlo</b>: stand y vendedor, canal, gastos fijos.</li>
+    <li><b>Queda: S/0.25 por brownie.</b> Poco → negocio de volumen.</li>
+    <li>No perdemos desde <b>3,100 al mes</b>.</li>
+    <li><b>Año 1:</b> 52 mil brownies · S/245 mil · <b>S/10,400 netos</b>.</li>
+    <li><b>Inversión S/40,876:</b> 25,000 socios + 16,000 préstamo. Año 2: ganancia por brownie <b>x2</b>. Vuelve en el <b>mes 23</b>.</li>
+  </ul>
+  <div class="pie">Sin pausa: «<span>Y así vendemos…</span>»</div>
+  <span class="n">6</span>
+</section>
+
+<!-- 4b · Cómo vendemos -->
+<section class="t">
+  <div class="cab"><span class="num">Pantalla 4 · Cómo vendemos</span><span class="quien">Carlos</span><span class="tiempo">termina 5:15</span></div>
+  <h1>Primero la calle<small>señalar la franja de canales y el cartel</small></h1>
+  <ul>
+    <li>El niño tiene que probar. <b>2 de enero: Jockey Plaza</b>; después Salaverry y La Molina.</li>
+    <li>Stands, casi la mitad de la venta · WhatsApp y la app traen la recompra · luego colegios, ferias, naturistas.</li>
+    <li>Campaña <b>«Lo que nadie ve»</b>: los trucos que papá y mamá inventan cada mañana.</li>
+    <li><b>40 packs</b> a papás y mamás influencers · <b>3 anuncios</b> medidos por conversaciones y clics.</li>
+    <li>Todo el marketing: <b>S/24,500</b>, tres cuartos en la calle.</li>
+  </ul>
+  <div class="pie">«<span>Ade.</span>» → Ade avanza; tú te pones junto a la laptop.</div>
+  <span class="n">7</span>
+</section>
+
+<!-- 5 · RSE (Ade) -->
+<section class="t ade">
+  <div class="cab"><span class="num">Pantalla 5 · Responsabilidad social</span><span class="quien">Ade</span><span class="tiempo">termina 6:00</span></div>
+  <h1>Hierro que se comparte<small>señalar los 4 pasos con la mano abierta</small></h1>
+  <ul>
+    <li class="dicho">«Responsabilidad social es lo que una empresa devuelve más allá de vender. Nosotros devolvemos lo que sabemos.»</li>
+    <li><b>1 %</b> de las ventas del año 1 = <b>S/2,447</b> → Lima Norte, donde empezamos.</li>
+    <li><b>3 colegios públicos</b> · 6 talleres con nutricionista · lonchera con hierro de S/3.</li>
+    <li><b>300 familias</b>: plan de 5 loncheras + 2 brownies.</li>
+    <li>(lento) A los 30 días, por WhatsApp: <b>7 de cada 10 siguen</b>. Se publica en la app.</li>
+  </ul>
+  <div class="pie">«Contribuye a la meta 2.2. <span>No cura ni previene.</span> Carlos.»</div>
+  <span class="n">8</span>
+</section>
+
+<!-- 6 · Cierre -->
+<section class="t">
+  <div class="cab"><span class="num">Pantalla 6 · Cierre</span><span class="quien">Carlos</span><span class="tiempo">6:15 + video</span></div>
+  <h1>El slogan y play<small>los dos al centro, mirando al jurado</small></h1>
+  <ul>
+    <li class="dicho">«Somos cinco socios: Diana, Patricia, Adela, Angie y yo.»</li>
+    <li class="dicho">«El dos de enero, en Jockey Plaza, el niño decide.»</li>
+    <li class="dicho">(despacio, bajo) «AndiBite. Dulce para ellos. Tranquilidad para ti.»</li>
+    <li class="dicho">«Les dejamos un minuto.» → play.</li>
+    <li class="accion">durante el video: mirar al jurado; Ade deja una bolsita cerrada a cada uno</li>
+    <li>Después: silencio y sonrisa. La primera pregunta la hace el jurado. Repartir por nombre: «eso lo ve Ade».</li>
+  </ul>
+  <div class="pie">Si van con prisa: saltar el video (<span>«queda corriendo en el stand»</span>).</div>
+  <span class="n">9</span>
+</section>
+
+<!-- Cifras -->
+<section class="t">
+  <div class="cab"><span class="num">Cifras que no se pueden fallar</span><span class="tiempo">chuleta</span></div>
+  <div class="fila2">
+    <div class="caja"><div class="big">20 g<small>por brownie</small></div></div>
+    <div class="caja"><div class="big">1.9 mg<small>hierro hemo, por lote</small></div></div>
+    <div class="caja"><div class="big">0<small>octógonos</small></div></div>
+    <div class="caja"><div class="big">S/3.71<small>costo total · precio S/3.96 sin IGV</small></div></div>
+  </div>
+  <table>
+    <tr><td>Precios con IGV</td><td>S/6 · S/27.90 · S/51.90</td></tr>
+    <tr><td>Equilibrio</td><td>3,096 al mes</td></tr>
+    <tr><td>Inversión</td><td>S/40,876 (25,000 + 16,000)</td></tr>
+    <tr><td>Año 1</td><td>52,331 · S/244,728 · S/10,379</td></tr>
+    <tr><td>Año 2</td><td>S/322,329 · S/28,447</td></tr>
+    <tr><td>Recuperación</td><td>mes 23 (nov. 2028)</td></tr>
+    <tr><td>Mercado</td><td>46,000 núcleo · 168,000 Lima</td></tr>
+    <tr><td>Marketing</td><td>S/24,544 · 74 % calle</td></tr>
+    <tr><td>Anemia</td><td>1 de 4 (&lt;3 años, quintil alto) · 1 de 6 (5 a 11)</td></tr>
+  </table>
+  <span class="n">10</span>
+</section>
+
+<!-- Preguntas 1 -->
+<section class="t">
+  <div class="cab"><span class="num">Preguntas · Carlos</span><span class="tiempo">20 s y parar</span></div>
+  <div class="qs">
+    <div class="q"><b>¿No es caro?</b><p>Sí, 29 % sobre Fika y Nutri H, a propósito: papás y mamás A y B que leen etiquetas. El pack de 12 baja a S/4.16.</p></div>
+    <div class="q"><b>¿Y si el niño no la quiere?</b><p>Por eso vendemos donde el niño prueba primero. Si no le gusta, no compran y lo sabemos ese día.</p></div>
+    <div class="q"><b>¿Y si no venden 3,096?</b><p>Un punto pierde bajo 65 al día; el plan va 50, 80, 100. Con 20 % menos ventas la caja la cubre una línea de S/3,000.</p></div>
+    <div class="q"><b>¿Por qué no supermercados?</b><p>En el anaquel nadie prueba. Góndola en el año 2, solo si cada punto ya gana.</p></div>
+    <div class="q"><b>¿Qué los diferencia?</b><p>Nadie junta sabor que vuelve a pedir, hierro medido por lote y lonchera sin octógonos. Y la app: el envase se vuelve dato.</p></div>
+    <div class="q"><b>¿Solo 25 céntimos?</b><p>Hacerlo deja más de la mitad; lo que se come el margen el año 1 es el stand y el vendedor. Con volumen se reparte: año 2, el doble.</p></div>
+  </div>
+  <span class="n">11</span>
+</section>
+
+<!-- Preguntas 2 -->
+<section class="t ade">
+  <div class="cab"><span class="num">Preguntas · Ade</span><span class="tiempo">20 s y parar</span></div>
+  <div class="qs">
+    <div class="q"><b>¿Por qué sangrecita?</b><p>Hierro hemo, el que mejor se absorbe, y peruano. Liofilizada, de proveedor con registro; la planta solo la hidrata. No huele.</p></div>
+    <div class="q"><b>¿Registro sanitario?</b><p>DIGESA, con AndiBite como titular y el INDDA como fabricante. Análisis y etiqueta están en la inversión.</p></div>
+    <div class="q"><b>¿Cómo saben que hay 1.9 mg?</b><p>Se mide, no se calcula: cada lote de enero a junio, cada 2 meses desde julio. El informe sale en la app.</p></div>
+    <div class="q"><b>¿La app cumple la ley?</b><p>Ley 30021 art. 8: sin compras, publicidad ni premios por comprar en lo de niños; PIN de papá o mamá. Ley 29733: datos en el teléfono.</p></div>
+    <div class="q"><b>¿Cuándo recuperan?</b><p>Mes 23, noviembre 2028. Desde marzo del año 1 todos los meses ganan.</p></div>
+    <div class="q"><b>¿La anemia se cura con esto?</b><p>No, y no lo decimos. Contribuye con casi 2 mg al día; el tratamiento lo indica el pediatra.</p></div>
+  </div>
+  <span class="n">12</span>
+</section>
+
+<!-- Plan B -->
+<section class="t">
+  <div class="cab"><span class="num">Si algo falla</span><span class="tiempo">plan B</span></div>
+  <h1>Respira. Todo tiene respaldo.</h1>
+  <ul>
+    <li><b>No hay internet:</b> la presentación está cargada en la pestaña; el video local se pone con el botón «Sin internet: video de la campaña».</li>
+    <li><b>Se cuelga la laptop:</b> PDF de respaldo de las 6 pantallas en el celular.</li>
+    <li><b>El QR no abre:</b> enseñar la app en tu celular; el código es AB-DEMO-2027.</li>
+    <li><b>Te quedas en blanco:</b> mira el pack y di qué es: «20 gramos, 1.9 mg de hierro, cero octógonos». Y sigue.</li>
+    <li><b>Se te fue el tiempo:</b> recorta «Cómo vendemos», nunca la prueba ni el QR.</li>
+    <li><b>Pregunta que no sabes:</b> «Buena pregunta; hoy no tengo ese dato exacto, se lo mando por WhatsApp.» Y pasar a la siguiente.</li>
+  </ul>
+  <div class="pie">Pantalla de espera: <span>F</span> para pantalla completa, <span>Esc</span> para salir.</div>
+  <span class="n">13</span>
+</section>
+
+</body>
+</html>
