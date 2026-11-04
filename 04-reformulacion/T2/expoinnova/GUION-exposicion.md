@@ -33,11 +33,11 @@ El acumulado es el momento en que **termina** cada tramo. Quien habla avanza la 
 
 **En pantalla:** foto de fondo desenfocada, logo con Andi, «Dulce para ellos. Tranquilidad para ti.» y, pequeño, «Mini brownie con hierro de verdad». Los contadores **1 de cada 4** y **1 de cada 6** se animan.
 
-**Acción:** Carlos recibe al jurado un paso delante de la mesa, con las manos vacías y el celular en el bolsillo (la app abierta en «El hierro de hoy»), y arranca apenas lo miran. Ade a su derecha, junto a la bandeja y el banner, con el pack en la mano. En «1 de cada 4» Carlos señala el primer contador; en «1 de cada 6», el segundo.
+**Acción:** Carlos recibe al jurado un paso delante de la mesa, con las manos vacías y el celular en el bolsillo (la app abierta en «El hierro de hoy»), y arranca con la pregunta apenas lo miran: la hace mirando a los ojos y espera dos segundos antes de seguir, aunque nadie conteste. Ade a su derecha, junto a la bandeja y el banner, con el pack en la mano. En «1 de cada 4» Carlos señala el primer contador; en «1 de cada 6», el segundo.
 
-**Cómo decirlo:** el dato se dice, no se dramatiza. Pausa corta antes de «incluso».
+**Cómo decirlo:** la pregunta en tono de conversación, no de examen. El dato se dice, no se dramatiza. Pausa corta antes de «incluso».
 
-> Buenas. Somos AndiBite: un mini brownie con hierro de verdad, para la lonchera de niños de cuatro a once años. Y es para papás y mamás que creen que la anemia no toca su casa. Según la ENDES 2024, incluso en las familias con más recursos del Perú, uno de cada cuatro niños menores de tres años tiene anemia. Y de cinco a once años, uno de cada seis, según el INS-CENAN 2025. Así lo resolvemos.
+> ¿Cuántos de ustedes han visto una lonchera volver llena? *(pausa, mirar al jurado)* En Lima pasa todas las mañanas. Y el hierro que ese niño no comió hoy, no vuelve. Según la ENDES 2024, incluso en las familias con más recursos del Perú, uno de cada cuatro niños menores de tres años tiene anemia. Y de cinco a once, uno de cada seis, según el INS-CENAN 2025. Somos AndiBite: un mini brownie con hierro de verdad, que el niño vuelve a pedir. Así lo resolvemos.
 
 **Transición:** Carlos avanza la pantalla sin pausa y se gira hacia la laptop para tocar el Canvas.
 
@@ -135,11 +135,11 @@ Una cartulina de 10 × 15 cm por tramo, con el acumulado arriba. Máximo seis l�
 
 **P1 · termina 0:30 · Portada**
 
-- Somos AndiBite: mini brownie con hierro de verdad, lonchera, 4 a 11 años.
-- Para papás y mamás que creen que la anemia no toca su casa.
+- «¿Cuántos de ustedes han visto una lonchera volver llena?» (mirar, pausa de 2 s)
+- En Lima pasa todas las mañanas; el hierro que no comió hoy, no vuelve.
 - ENDES 2024: familias con más recursos, 1 de cada 4 menores de 3 años (señalar contador).
 - 5 a 11 años: 1 de cada 6. INS-CENAN 2025 (señalar contador).
-- «Así lo resolvemos.» (avanzar y tocar el Canvas)
+- Somos AndiBite: mini brownie con hierro de verdad, que el niño vuelve a pedir. «Así lo resolvemos.» (avanzar y tocar el Canvas)
 
 **P2 · termina 2:00 · Canvas**
 

@@ -26,6 +26,9 @@ Un mini brownie de 20 g, en bolsita individual, hecho para la lonchera de niños
 
 La propuesta de valor completa (fórmula de Moore): «Ayudamos a padres y madres de Lima con hijos de 4 a 11 años a darles el hierro que necesitan sin que cada mañana sea una pelea. Lo hacemos con AndiBite, un mini brownie que el niño vuelve a pedir, y con la app Andi, que les muestra a papá y mamá el hierro que lleva su hijo cada día.»
 
+### El gancho
+La exposición arranca con una pregunta, no con el nombre de la empresa: «¿Cuántos de ustedes han visto una lonchera volver llena?». La pregunta hace que cada jurado recuerde su propia casa antes de oír la cifra; así «1 de cada 4» cae sobre una imagen concreta y no sobre una estadística. Se hace mirando a los ojos y se esperan dos segundos aunque nadie responda.
+
 ### El problema, con todas las cifras
 La anemia en el Perú no es solo un problema de pobreza. Eso es lo que la portada quiere que el jurado entienda en diez segundos.
 
