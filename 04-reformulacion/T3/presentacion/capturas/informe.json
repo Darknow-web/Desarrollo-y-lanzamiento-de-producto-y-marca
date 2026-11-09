@@ -1,0 +1,604 @@
+{
+  "desk": {
+    "report": [
+      {
+        "name": "desk-01-a-inicial.png",
+        "id": "s-portada",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-02-a-inicial.png",
+        "id": "s-indice",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-03-a-inicial.png",
+        "id": "s-plan",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-03-b-paso2.png",
+        "id": "s-plan",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-03-b-paso3.png",
+        "id": "s-plan",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-03-b-paso4.png",
+        "id": "s-plan",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-04-a-inicial.png",
+        "id": "s-campana",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-04-b-paso2.png",
+        "id": "s-campana",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-04-b-paso3.png",
+        "id": "s-campana",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-04-b-paso4.png",
+        "id": "s-campana",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-05-a-inicial.png",
+        "id": "s-embudo",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-05-b-paso2.png",
+        "id": "s-embudo",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-05-b-paso3.png",
+        "id": "s-embudo",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-05-b-paso4.png",
+        "id": "s-embudo",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-06-a-inicial.png",
+        "id": "s-fg1",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-06-b-paso2.png",
+        "id": "s-fg1",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-06-b-paso3.png",
+        "id": "s-fg1",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-06-b-paso4.png",
+        "id": "s-fg1",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-07-a-inicial.png",
+        "id": "s-fg2",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-07-b-paso2.png",
+        "id": "s-fg2",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-07-b-paso3.png",
+        "id": "s-fg2",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-07-b-paso4.png",
+        "id": "s-fg2",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-08-a-inicial.png",
+        "id": "s-hallazgos",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-08-b-completa.png",
+        "id": "s-hallazgos",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-09-a-inicial.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-09-b-paso2.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-09-b-paso3.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-09-b-paso4.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-09-b-paso5.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-10-a-inicial.png",
+        "id": "s-oport",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-10-b-completa.png",
+        "id": "s-oport",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-11-a-inicial.png",
+        "id": "s-prop",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-12-a-inicial.png",
+        "id": "s-concl",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-12-b-completa.png",
+        "id": "s-concl",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-13-a-inicial.png",
+        "id": "s-falta",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "desk-14-a-inicial.png",
+        "id": "s-cierre",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "recorrido",
+        "id": "tour",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      }
+    ],
+    "errors": []
+  },
+  "movil": {
+    "report": [
+      {
+        "name": "movil-01-a-inicial.png",
+        "id": "s-portada",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-02-a-inicial.png",
+        "id": "s-indice",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-03-a-inicial.png",
+        "id": "s-plan",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-03-b-paso2.png",
+        "id": "s-plan",
+        "over": 131,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-03-b-paso3.png",
+        "id": "s-plan",
+        "over": 70,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-03-b-paso4.png",
+        "id": "s-plan",
+        "over": 60,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-04-a-inicial.png",
+        "id": "s-campana",
+        "over": 61,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-04-b-paso2.png",
+        "id": "s-campana",
+        "over": 155,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-04-b-paso3.png",
+        "id": "s-campana",
+        "over": 330,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-04-b-paso4.png",
+        "id": "s-campana",
+        "over": 151,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-05-a-inicial.png",
+        "id": "s-embudo",
+        "over": 86,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-05-b-paso2.png",
+        "id": "s-embudo",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-05-b-paso3.png",
+        "id": "s-embudo",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-05-b-paso4.png",
+        "id": "s-embudo",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-06-a-inicial.png",
+        "id": "s-fg1",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-06-b-paso2.png",
+        "id": "s-fg1",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-06-b-paso3.png",
+        "id": "s-fg1",
+        "over": 164,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-06-b-paso4.png",
+        "id": "s-fg1",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-07-a-inicial.png",
+        "id": "s-fg2",
+        "over": 14,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-07-b-paso2.png",
+        "id": "s-fg2",
+        "over": 9,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-07-b-paso3.png",
+        "id": "s-fg2",
+        "over": 73,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-07-b-paso4.png",
+        "id": "s-fg2",
+        "over": 343,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-08-a-inicial.png",
+        "id": "s-hallazgos",
+        "over": 459,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-08-b-completa.png",
+        "id": "s-hallazgos",
+        "over": 1059,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-09-a-inicial.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-09-b-paso2.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-09-b-paso3.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-09-b-paso4.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-09-b-paso5.png",
+        "id": "s-insights",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-10-a-inicial.png",
+        "id": "s-oport",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-10-b-completa.png",
+        "id": "s-oport",
+        "over": 505,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-11-a-inicial.png",
+        "id": "s-prop",
+        "over": 541,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-12-a-inicial.png",
+        "id": "s-concl",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-12-b-completa.png",
+        "id": "s-concl",
+        "over": 515,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-13-a-inicial.png",
+        "id": "s-falta",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "movil-14-a-inicial.png",
+        "id": "s-cierre",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      },
+      {
+        "name": "recorrido",
+        "id": "tour",
+        "over": 0,
+        "clipped": [],
+        "wide": [],
+        "docWide": false
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>AndiBite · T3</title>
+  <meta name="description" content="AndiBite · T3 Investigación de mercados cualitativa: avance del plan de marketing, dos focus groups y lo que cambiamos por lo que aprendimos. Grupo 2, UPN Los Olivos." />
+  <meta name="theme-color" content="#4A2018" />
+  <link rel="icon" type="image/png" href="./img/favicon.png" />
+</head>
+<body>
+
+<!-- ===================== Barra superior: los 7 bloques ===================== -->
+<header class="top" aria-label="Navegación de la presentación">
+  <button type="button" class="top-logo" data-go="1" aria-label="Ir a la portada"><img src="./img/logo-andibite.svg" alt="AndiBite" /></button>
+  <button type="button" class="top-idx" data-go="2" aria-label="Ir al índice">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg><span>Índice</span>
+  </button>
+  <nav class="blocks" aria-label="Bloques de la rúbrica">
+    <button type="button" class="blk" data-block="1"><b>1</b><span>Plan</span></button>
+    <button type="button" class="blk" data-block="2"><b>2</b><span>Focus groups</span></button>
+    <button type="button" class="blk" data-block="3"><b>3</b><span>Hallazgos</span></button>
+    <button type="button" class="blk" data-block="4"><b>4</b><span>Insights</span></button>
+    <button type="button" class="blk" data-block="5"><b>5</b><span>Oportunidades</span></button>
+    <button type="button" class="blk" data-block="6"><b>6</b><span>Propuestas</span></button>
+    <button type="button" class="blk" data-block="7"><b>7</b><span>Conclusiones</span></button>
+  </nav>
+  <button type="button" class="tour" id="btn-tour" aria-pressed="false" title="Avanza solo cada 40 segundos (unos 13 minutos). Toca cualquier cosa para detenerlo.">
+    <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10-6.5z"/></svg>
+    <svg class="i-stop" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/></svg>
+    <span>Modo recorrido</span>
+  </button>
+  <span class="num" id="num" aria-live="polite">01 / 14</span>
+  <div class="tour-bar" aria-hidden="true"><span id="tour-fill"></span></div>
+</header>
+
+<!-- Flechas y pasos -->
+<div class="nav" aria-label="Avanzar y volver">
+  <button type="button" class="nav-b" id="btn-prev" aria-label="Anterior (flecha izquierda)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <span class="nav-steps" id="steps" aria-hidden="true"></span>
+  <button type="button" class="nav-b nav-next" id="btn-next" aria-label="Siguiente (flecha derecha)"><span id="next-label">Siguiente</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+</div>
+
+<!-- Visor de fotos -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Foto ampliada" aria-hidden="true">
+  <figure class="lb-fig"><img id="lb-img" alt="" /><figcaption id="lb-cap"></figcaption></figure>
+  <button type="button" class="lb-b lb-prev" id="lb-prev" aria-label="Foto anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button type="button" class="lb-b lb-next" id="lb-next" aria-label="Foto siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  <button type="button" class="lb-b lb-x" id="lb-x" aria-label="Cerrar (Esc)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+</div>
+
+<main class="deck" id="deck">
+
+<!-- 01 · PORTADA -->
+<section class="s" id="s-portada" data-title="Portada" data-dwell="1">
+  <div class="cover"><img class="cover-img kb" src="./img/portada-blur.jpg" alt="" /></div>
+  <div class="veil"></div>
+  <div class="frame portada">
+    <p class="kicker in">T3 · Investigación de mercados cualitativa · Test de producto y test de concepto</p>
+    <img class="p-logo in" src="./img/logo-con-andi.png" alt="AndiBite, con Andi" width="900" height="733" />
+    <h1 class="p-title in">AndiBite. Lo que nos dijeron las familias.</h1>
+    <p class="p-line in">Avance del plan de marketing + dos focus groups + lo que cambiamos por lo que aprendimos.</p>
+    <p class="slogan in">Dulce para ellos. <em>Tranquilidad para ti.</em></p>
+    <div class="p-cta in">
+      <button type="button" class="btn btn-main" data-go="2">Empezar <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      <button type="button" class="btn btn-ghost" data-tour>Modo recorrido · 13 min</button>
+    </div>
+    <p class="p-foot in">UPN Los Olivos · Desarrollo y Lanzamiento de Nuevos Productos · <b>Grupo 2</b> · Diana Ayoso · Patricia Cárdenas · Adela Robles · Angie Blas · Carlos Inga · Noviembre 2026</p>
+  </div>
+</section>
+
+<!-- 02 · ÍNDICE -->
+<section class="s" id="s-indice" data-title="Índice" data-dwell="1">
+  <div class="cover"><img class="cover-img kb" src="./img/lonchera.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Índice</h2></div></div>
+  <div class="frame body">
+    <p class="lead in">Los 7 puntos de la rúbrica. Toca uno para ir a su pantalla.</p>
+    <div class="idx">
+      <button type="button" class="ix in" data-block="1"><b>1</b><span>Avance del plan de marketing</span><small>Pantallas 3 y 4</small></button>
+      <button type="button" class="ix in" data-block="2"><b>2</b><span>Desarrollo de los dos focus groups</span><small>Pantallas 5 a 7</small></button>
+      <button type="button" class="ix in" data-block="3"><b>3</b><span>Principales hallazgos</span><small>Pantalla 8</small></button>
+      <button type="button" class="ix in" data-block="4"><b>4</b><span>Insights del consumidor</span><small>Pantalla 9</small></button>
+      <button type="button" class="ix in" data-block="5"><b>5</b><span>Oportunidades de mejora</span><small>Pantalla 10</small></button>
+      <button type="button" class="ix in" data-block="6"><b>6</b><span>Propuestas estratégicas</span><small>Pantalla 11</small></button>
+      <button type="button" class="ix in" data-block="7"><b>7</b><span>Conclusiones</span><small>Pantallas 12 y 13</small></button>
+    </div>
+    <p class="keys in"><kbd>←</kbd> <kbd>→</kbd> avanzar y volver · <kbd>1</kbd>–<kbd>7</kbd> ir a un bloque · <kbd>R</kbd> modo recorrido · <kbd>F</kbd> pantalla completa · <kbd>Esc</kbd> cerrar</p>
+  </div>
+</section>
+
+<!-- 03 · PLAN EN UNA PÁGINA -->
+<section class="s" id="s-plan" data-title="El plan en una página" data-block="1" data-dwell="2" data-tabs>
+  <div class="cover"><img class="cover-img kb" src="./img/stand.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>El plan en una página</h2></div></div>
+  <div class="frame body">
+    <div class="tabs in" role="tablist" aria-label="Partes del plan">
+      <button type="button" role="tab" class="tab">Quién</button>
+      <button type="button" role="tab" class="tab">Qué</button>
+      <button type="button" role="tab" class="tab">Cómo</button>
+      <button type="button" role="tab" class="tab">Cuánto</button>
+    </div>
+
+    <div class="panel" role="tabpanel">
+      <div class="g-quien">
+        <div class="seg">
+          <p class="k in">Segmento</p>
+          <h3 class="in">Papás y mamás de 32 a 45 años, NSE A y B</h3>
+          <ul class="chips in">
+            <li>Lima Top (zona 7)</li><li>Lima Moderna (zona 6)</li><li>Hijos de 4 a 11 años</li><li>Colegio privado</li>
+          </ul>
+          <p class="txt in">Leen etiquetas, planifican, invierten en salud.</p>
+          <div class="big2 in">
+            <div><p class="n"><span data-count="46000">46,000</span></p><p class="t">hogares núcleo</p></div>
+            <div><p class="n"><span data-count="168000">168,000</span></p><p class="t">en toda Lima</p></div>
+          </div>
+        </div>
+        <div class="personas">
+          <p class="k in">Buyer personas</p>
+          <figure class="pc in"><span class="pc-i">C</span><div><h4>Claudia <small>NSE A · San Borja</small></h4><blockquote>«Todo lo que le hace bien, mi hijo lo escupe»</blockquote></div></figure>
+          <figure class="pc pc-b in"><span class="pc-i">R</span><div><h4>Rodrigo <small>NSE B · San Miguel</small></h4><blockquote>«No me vendas salud, véndeme una mañana menos»</blockquote></div></figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="g-que">
+        <div class="que-l">
+          <p class="k in">Territorio</p>
+          <p class="terr in">«Hierro sin pelear cada mañana»</p>
+          <p class="k in">Slogan</p>
+          <p class="slogan sm in">Dulce para ellos. <em>Tranquilidad para ti.</em></p>
+          <div class="facts in">
+            <div><p class="n"><span data-count="20">20</span> g</p><p class="t">mini brownie con sangrecita de res liofilizada</p></div>
+            <div><p class="n"><span data-count="1.9" data-dec="1">1.9</span> mg</p><p class="t">de hierro hemo medido en cada lote</p></div>
+            <div><p class="n"><span data-count="0" data-from="7">0</span></p><p class="t">octógonos</p></div>
+          </div>
+          <ul class="sabores in"><li class="sb-1">Chispa</li><li class="sb-2">Andi</li><li class="sb-3">Lúcu</li><li class="sb-x">En bolsita individual · pack de 6 y de 12</li></ul>
+        </div>
+        <div class="que-r">
+          <img class="que-img in" src="./img/empaque_mockup.jpg" alt="Empaque de AndiBite, frente y reverso" />
+          <div class="appbox in">
+            <p class="k">App Andi</p>
+            <ul><li>El hierro de hoy</li><li>Plan de loncheras con IA</li><li>Recompra por WhatsApp</li><li>Misión Hierro para el niño</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="g-como">
+        <div>
+          <p class="k in">Venta física primero</p>
+          <p class="txt in">El niño prueba antes de que papá o mamá paguen.</p>
+          <ol class="stands in">
+            <li><b>Jockey Plaza</b><span>2 de enero de 2027</span></li>
+            <li><b>Real Plaza Salaverry</b><span>febrero</span></li>
+            <li><b>La Molina</b><span>agosto</span></li>
+          </ol>
+          <p class="k in">Mezcla de canales (% de la venta)</p>
+          <div class="mix in">
+            <div class="mx" style="--w:43;--c:var(--cafe)"><i></i><b><span data-count="43">43</span> %</b><em>Stands</em></div>
+            <div class="mx" style="--w:18;--c:var(--oli)"><i></i><b><span data-count="18">18</span> %</b><em>WhatsApp, solo recompra</em></div>
+            <div class="mx" style="--w:17.5;--c:var(--rojo)"><i></i><b><span data-count="17.5" data-dec="1">17.5</span> %</b><em>Colegios</em></div>
+            <div class="mx" style="--w:14;--c:var(--dor)"><i></i><b><span data-count="14">14</span> %</b><em>Ferias y eventos</em></div>
+            <div class="mx" style="--w:7;--c:var(--arena)"><i></i><b><span data-count="7">7</span> %</b><em>Naturistas</em></div>
+          </div>
+        </div>
+        <div>
+          <p class="k in">Precio por valor</p>
+          <table class="prices in">
+            <thead><tr><th></th><th>Stand</th><th>WhatsApp</th></tr></thead>
+            <tbody>
+              <tr><td>Unidad</td><td>S/6.00</td><td>—</td></tr>
+              <tr><td>Pack de 6</td><td><b>S/27.90</b></td><td>S/26.90</td></tr>
+              <tr><td>Pack de 12</td><td><b>S/51.90</b></td><td>S/49.90</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <p class="k in">Objetivos SMART 2027 y presupuesto</p>
+      <div class="kpis">
+        <div class="kpi in"><p class="n"><span data-count="52331">52,331</span></p><p class="t">brownies en 2027</p></div>
+        <div class="kpi in"><p class="n">S/<span data-count="244728">244,728</span></p><p class="t">de venta</p></div>
+        <div class="kpi in"><p class="n"><span data-count="35">35</span> %</p><p class="t">de recompra por WhatsApp (2,300 familias)</p></div>
+        <div class="kpi in"><p class="n"><span data-count="30">30</span> %</p><p class="t">de envases escaneados</p></div>
+        <div class="kpi in"><p class="n"><span data-count="230">230</span></p><p class="t">familias por embajadores</p></div>
+        <div class="kpi in"><p class="n"><span data-count="5">5</span> y <span data-count="8">8</span></p><p class="t">colegios y naturistas</p></div>
+        <div class="kpi kpi-d in"><p class="n">S/<span data-count="24544">24,544</span></p><p class="t">de marketing en 15 meses (oct-2026 a dic-2027)</p>
+          <div class="split"><i style="--w:74"></i></div><p class="t2"><b>74 %</b> calle (BTL) · <b>26 %</b> digital</p></div>
+        <div class="kpi in"><p class="n"><span data-count="3096">3,096</span></p><p class="t">brownies al mes para el equilibrio</p></div>
+        <div class="kpi in"><p class="n">S/<span data-count="40876">40,876</span></p><p class="t">de inversión</p></div>
+        <div class="kpi kpi-y in"><p class="n">S/<span data-count="10379">10,379</span></p><p class="t">de utilidad neta el año 1</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 · CAMPAÑA -->
+<section class="s" id="s-campana" data-title="Campaña «Lo que nadie ve»" data-block="1" data-dwell="2" data-tabs>
+  <div class="cover"><img class="cover-img kb" src="./img/mural.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Campaña «Lo que nadie ve»</h2></div></div>
+  <div class="frame body">
+    <div class="tabs in" role="tablist" aria-label="Partes de la campaña">
+      <button type="button" role="tab" class="tab">La idea</button>
+      <button type="button" role="tab" class="tab">10 piezas</button>
+      <button type="button" role="tab" class="tab">4 reels</button>
+      <button type="button" role="tab" class="tab">Fases y medición</button>
+    </div>
+
+    <div class="panel" role="tabpanel">
+      <div class="g-idea">
+        <div>
+          <p class="k in">Insight de campaña</p>
+          <p class="terr in">«Todos tienen un truco»</p>
+          <p class="txt in">Cada papá y mamá inventa trucos para que su hijo coma lo que le hace bien, y nadie los ve. AndiBite es <b>«el truco que ya no necesita cuento»</b>.</p>
+          <dl class="lines in">
+            <div><dt>Línea creativa</dt><dd>«¡Pequeños brownies, grandes aventuras!»</dd></div>
+            <div><dt>Firma</dt><dd>«AndiBite. El truco que ya no necesita cuento.»</dd></div>
+            <div><dt>Cierre</dt><dd>«Dulce para ellos. Tranquilidad para ti.»</dd></div>
+          </dl>
+        </div>
+        <div class="dyn in">
+          <img src="./img/mural.jpg" alt="Mural de trucos en el stand" />
+          <div class="dyn-t">
+            <p class="tag">#LoQueNadieVe</p>
+            <h4>Cuéntanos tu truco</h4>
+            <p>En redes y en el mural del stand. Concurso por votos del <b>1-nov al 20-dic</b>; los <b>3 trucos más votados</b> abren el mural de Jockey Plaza el <b>2 de enero</b>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="car" id="car">
+        <div class="car-main">
+          <button type="button" class="car-b car-prev" aria-label="Pieza anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button type="button" class="car-view" aria-label="Agrandar la pieza"><img id="car-img" src="./img/campana/pieza-01.jpg" alt="" /></button>
+          <button type="button" class="car-b car-next" aria-label="Pieza siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+        <div class="car-side">
+          <p class="car-n"><b id="car-n">01</b> / 10</p>
+          <p class="car-cap" id="car-cap"></p>
+          <p class="car-note">Post 1:1, stories 9:16, carrusel de 4 láminas y Meta Ads. Piezas hechas por Angie Blas en Google AI Studio. Toca la pieza para agrandarla.</p>
+          <div class="thumbs" id="thumbs"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="reels">
+        <div class="rv">
+          <video id="rv-video" playsinline muted preload="none" poster="./img/reels/reel-1.jpg" src="./vid/reel-1.mp4"></video>
+          <button type="button" class="rv-play" id="rv-play" aria-label="Reproducir el reel"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"/><path d="M26 20v24l19-12z"/></svg></button>
+          <button type="button" class="rv-snd" id="rv-snd" aria-pressed="false" aria-label="Activar el sonido">
+            <svg class="i-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5M21 9.5l-5 5"/></svg>
+            <svg class="i-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>
+            <span>Sonido</span>
+          </button>
+        </div>
+        <div class="rl">
+          <p class="k">4 reels 9:16 · empiezan sin sonido</p>
+          <button type="button" class="rl-i on" data-reel="1"><img src="./img/reels/reel-1.jpg" alt="" /><span><b>01</b>Presentación del producto</span></button>
+          <button type="button" class="rl-i" data-reel="2"><img src="./img/reels/reel-2.jpg" alt="" /><span><b>02</b>La sorpresa en la lonchera</span></button>
+          <button type="button" class="rl-i" data-reel="3"><img src="./img/reels/reel-3.jpg" alt="" /><span><b>03</b>AndiBite y su app</span></button>
+          <button type="button" class="rl-i" data-reel="4"><img src="./img/reels/reel-4.jpg" alt="" /><span><b>04</b>Campaña participativa «Lo que nadie ve»</span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="g-fases">
+        <ol class="fases in">
+          <li><p class="f-k">Prelanzamiento</p><p class="f-d">oct-dic 2026</p><p class="f-n">S/<span data-count="1758">1,758</span></p><p class="f-t">Expectativa, 100 familias en WhatsApp</p></li>
+          <li><p class="f-k">Lanzamiento</p><p class="f-d">ene-feb 2027</p><p class="f-n">S/<span data-count="5796">5,796</span></p><p class="f-t">600 muestras, 3,700 brownies</p></li>
+          <li><p class="f-k">Crecer</p><p class="f-d">mar-jul</p><p class="f-n">S/<span data-count="9770">9,770</span></p><p class="f-t">3 colegios</p></li>
+          <li><p class="f-k">Expandir</p><p class="f-d">ago-dic</p><p class="f-n">S/<span data-count="7220">7,220</span></p><p class="f-t">&nbsp;</p></li>
+        </ol>
+        <div class="g-fases2">
+          <div class="cn in">
+            <p class="k">Canales de la campaña</p>
+            <ul class="dots">
+              <li><b>Meta Ads S/4,050 + YouTube S/1,000</b></li>
+              <li><b>WhatsApp Business:</b> catálogo, bienvenida, pedido, recompra</li>
+              <li><b>Stands</b> con mural y degustación</li>
+            </ul>
+          </div>
+          <div class="cn in">
+            <p class="k">Grilla semanal</p>
+            <div class="week">
+              <span class="d-inf"><b>Lu</b>Informar</span><span class="d-int"><b>Ma</b>Interactuar</span><span class="d-inf"><b>Mi</b>Informar</span><span class="d-pre"><b>Ju</b>Presentar</span><span class="d-int"><b>Vi</b>Interactuar</span><span class="d-ven"><b>Sá</b>Vender</span><span class="d-ven"><b>Do</b>Vender</span>
+            </div>
+            <p class="t2">Horarios: 8:30 a.m., 4:00 p.m. y fines de semana</p>
+          </div>
+          <div class="cn in">
+            <p class="k">Medición</p>
+            <div class="meds">
+              <div><p class="n"><span data-count="195">195</span> · <span data-count="195">195</span> · <span data-count="223">223</span></p><p class="t">meta de conversaciones de los 3 anuncios, más clics</p></div>
+              <div><p class="n"><span data-count="400000">400,000</span></p><p class="t">vistas en 2027</p></div>
+              <div><p class="n"><span data-count="613">613</span></p><p class="t">conversaciones</p></div>
+              <div><p class="n"><span data-count="35">35</span> %</p><p class="t">de recompra</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 · CÓMO INVESTIGAMOS -->
+<section class="s" id="s-embudo" data-title="Cómo investigamos" data-block="2" data-dwell="1">
+  <div class="cover"><img class="cover-img kb" src="./img/familia.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Cómo investigamos</h2></div></div>
+  <div class="frame body">
+    <div class="g-emb">
+      <div class="funnel in" role="tablist" aria-label="Pasos de la investigación">
+        <button type="button" role="tab" class="fs" style="--w:100%"><b>1</b><span>25 entrevistas a profundidad</span></button>
+        <button type="button" role="tab" class="fs" style="--w:90%"><b>2</b><span>Focus group 1 · concepto</span></button>
+        <button type="button" role="tab" class="fs" style="--w:80%"><b>3</b><span>Focus group 2 · producto y marca</span></button>
+        <button type="button" role="tab" class="fs" style="--w:70%"><b>4</b><span>Encuesta a 30 papás y mamás A/B</span></button>
+      </div>
+      <div class="fdet in">
+        <article class="fd">
+          <p class="fd-k">Paso 1 · ago-sep 2026</p>
+          <p class="fd-n"><span data-count="25">25</span> <small>entrevistas a profundidad</small></p>
+          <p class="txt">Mamás y cuidadoras de Lima Norte, NSE C/B, hijos de 4 a 11. Entrevistaron los cinco integrantes.</p>
+          <p class="k">Guía de 13 preguntas en 4 bloques</p>
+          <ol class="steps4"><li>Cómo lo resuelve hoy</li><li>Qué le duele</li><li>Qué ya intentó</li><li>Qué valoraría</li></ol>
+        </article>
+        <article class="fd" hidden>
+          <p class="fd-k">Paso 2 · sep 2026 · virtual</p>
+          <p class="fd-n">Focus group 1 <small>test de concepto</small></p>
+          <p class="txt">8 participantes por videollamada eligieron entre 4 conceptos.</p>
+          <button type="button" class="btn btn-main" data-go="6">Ver el focus group 1 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </article>
+        <article class="fd" hidden>
+          <p class="fd-k">Paso 3 · sep 2026 · presencial</p>
+          <p class="fd-n">Focus group 2 <small>test de producto y marca</small></p>
+          <p class="txt">Con degustación: 8 mamás probaron el prototipo y vieron el empaque MVP.</p>
+          <button type="button" class="btn btn-main" data-go="7">Ver el focus group 2 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </article>
+        <article class="fd" hidden>
+          <p class="fd-k">Paso 4 · oct 2026 · Google Forms</p>
+          <p class="fd-n"><span data-count="30">30</span> <small>papás y mamás A/B encuestados</small></p>
+          <p class="txt">Precio con el método Van Westendorp, más un store check en Wong La Molina y Flora &amp; Fauna.</p>
+        </article>
+      </div>
+    </div>
+    <p class="rule in"><b>La regla que seguimos</b> (indicación de la profesora): primero probar, después preguntar precio. <b>El precio lo dice el público, no el equipo.</b> El moderador no opina.</p>
+  </div>
+</section>
+
+<!-- 06 · FOCUS GROUP 1 -->
+<section class="s" id="s-fg1" data-title="Focus group 1 · Test de concepto" data-block="2" data-dwell="2" data-tabs>
+  <div class="cover"><img class="cover-img kb" src="./img/evidencia/entrevista-2.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Focus group 1 · Test de concepto</h2></div></div>
+  <div class="frame body">
+    <div class="tabs in" role="tablist" aria-label="Focus group 1">
+      <button type="button" role="tab" class="tab">Ficha</button>
+      <button type="button" role="tab" class="tab">Guía</button>
+      <button type="button" role="tab" class="tab">Resultados</button>
+      <button type="button" role="tab" class="tab">Evidencia</button>
+    </div>
+
+    <div class="panel" role="tabpanel">
+      <div class="ficha">
+        <div class="fc fc-big in"><p class="n"><span data-count="8">8</span></p><p class="t"><b>participantes:</b> madres y un padre de Lima Norte (Los Olivos, Comas), 26 a 40 años, hijos de 4 a 11 años</p></div>
+        <div class="fc in"><p class="k">Modalidad</p><p class="v">Virtual (videollamada)</p></div>
+        <div class="fc in"><p class="k">Fecha</p><p class="v">Septiembre de 2026 <i class="pc-tag">fecha exacta por confirmar</i></p></div>
+        <div class="fc in"><p class="k">Duración</p><p class="v"><span data-count="60">60</span> min</p></div>
+        <div class="fc in"><p class="k">Moderador</p><p class="v">Carlos Inga</p></div>
+        <div class="fc in"><p class="k">Anotadora</p><p class="v">Angie Blas</p></div>
+        <div class="fc in"><p class="k">Registro</p><p class="v">Se grabó con consentimiento</p></div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <p class="k in">Guía de 6 preguntas</p>
+      <ol class="guide">
+        <li class="in"><span>Cómo es una mañana normal y cómo planifican la lonchera</span></li>
+        <li class="in"><span>Qué alimento nuevo probaron y funcionó</span></li>
+        <li class="in"><span>Qué alimento saludable rechazó el hijo</span></li>
+        <li class="in"><span>Asociación rápida con la palabra «saludable»</span></li>
+        <li class="in"><span>Alimento favorito del hijo</span></li>
+        <li class="in g-wide"><span>Presentación de <b>4 conceptos</b> y elección razonada</span>
+          <span class="concepts"><i>Choconutti</i><i>Obleas wafer</i><i class="on">Mini brownies con sangrecita</i><i>Cusi Cusi</i></span></li>
+      </ol>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="g-res1">
+        <div class="votes in">
+          <p class="k">Elección del concepto</p><p class="t2">Sumando focus y entrevistas: 33 votos</p>
+          <div class="vb"><span class="vb-l">Mini brownie</span><span class="vb-bar" style="--v:15"><i></i></span><b data-count="15">15</b></div>
+          <div class="vb vb-2"><span class="vb-l">Trufas</span><span class="vb-bar" style="--v:10"><i></i></span><b data-count="10">10</b></div>
+          <div class="vb vb-3"><span class="vb-l">Wafer</span><span class="vb-bar" style="--v:8"><i></i></span><b data-count="8">8</b></div>
+          <blockquote>«Para engañar a mi hija con algo que le gusta» <cite>Rubelis</cite></blockquote>
+          <blockquote>«A mi hija le gusta el chocolate y es una presentación para todos los días» <cite>Beverly</cite></blockquote>
+          <p class="t2">Las trufas ganaron por «plátano y cacao» (Estrella, Sergio); el wafer por lo crocante (Yamileth).</p>
+        </div>
+        <ul class="res">
+          <li class="in"><b>La sangrecita ya se compra en formato dulce.</b> Adriana compra una barrita de sangrecita que a su hijo «le gustó a la primera»; los nuggets de sangrecita fueron rechazados. «Deberían haber más productos así.»</li>
+          <li class="in"><b>Lo que rechazan los niños:</b> yema de huevo (textura y color), trigo, quinua en grano, verduras verdes.</li>
+          <li class="in"><b>«Saludable» evoca:</b> sangrecita y anemia (Adriana), menestras, nutritivo, orgánico, frutas.</li>
+          <li class="in"><b>Rutina:</b> una sola lonchera; el colegio pide «algo natural»; quien trabaja de noche termina en el quiosco.</li>
+          <li class="in lim"><b>Límites del focus 1 (y qué corrigió el focus 2):</b> fue virtual, nadie probó; no se mostró empaque ni nombre; no se preguntó precio; segmento C/B.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="ev ev-2">
+        <button type="button" class="ph in" data-lb="fg1"><img src="./img/evidencia/entrevista-1.jpg" alt="Sesión del focus group 1" /><span>Sesión 1</span></button>
+        <button type="button" class="ph in" data-lb="fg1"><img src="./img/evidencia/entrevista-2.jpg" alt="Sesión del focus group 1" /><span>Sesión 2</span></button>
+      </div>
+      <p class="hint in">Toca una foto para agrandarla.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 · FOCUS GROUP 2 -->
+<section class="s" id="s-fg2" data-title="Focus group 2 · Test de producto y marca" data-block="2" data-dwell="2" data-tabs>
+  <div class="cover"><img class="cover-img kb" src="./img/empaque_mockup.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Focus group 2 · Producto y marca</h2></div></div>
+  <div class="frame body">
+    <div class="tabs in" role="tablist" aria-label="Focus group 2">
+      <button type="button" role="tab" class="tab">Ficha</button>
+      <button type="button" role="tab" class="tab">Guía</button>
+      <button type="button" role="tab" class="tab">Resultados</button>
+      <button type="button" role="tab" class="tab">Evidencia</button>
+    </div>
+
+    <div class="panel" role="tabpanel">
+      <div class="ficha">
+        <div class="fc fc-big in"><p class="n"><span data-count="8">8</span></p><p class="t"><b>mamás probaron el prototipo</b> (hay fotos de 4), de Lima Norte, NSE C/B, hijos de 4 a 11</p></div>
+        <div class="fc in"><p class="k">Modalidad</p><p class="v">Presencial, con degustación</p></div>
+        <div class="fc in"><p class="k">Fecha</p><p class="v">Septiembre de 2026 <i class="pc-tag">fecha y lugar por confirmar; el plan lo fijaba el domingo 20 de septiembre en el colegio de Patricia</i></p></div>
+        <div class="fc in"><p class="k">Duración</p><p class="v"><span data-count="90">90</span> min</p></div>
+        <div class="fc in"><p class="k">Moderación</p><p class="v">Patricia Cárdenas y Diana Ayoso</p></div>
+        <div class="fc in"><p class="k">Producto</p><p class="v">Horneado 24 h antes</p></div>
+        <div class="fc in"><p class="k">Empaque MVP impreso</p><p class="v">Bolsa kraft «AndiBite · Mini Brownie Nutritivo · Sangrecita + Cañihua + Cacao», 6 unidades</p></div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <p class="k in">Guía por bloques · orden obligatorio</p>
+      <ol class="flow">
+        <li class="in"><b>Hábitos y marcas</b>Qué compran, dónde, cuánto pagan</li>
+        <li class="in"><b>Degustación a ciegas</b>Sin nombre ni precio. Ficha sensorial de 1 a 5: sabor, textura, humedad, dulzor, olor, tamaño</li>
+        <li class="in"><b>Revelación</b>«Tiene sangrecita liofilizada y cañihua, es fuente de hierro» y reacción antes/después</li>
+        <li class="in"><b>Empaque y nombre</b>Qué transmite la bolsa y qué recuerdan</li>
+        <li class="in fl-hot"><b>Precio, solo al final</b>Van Westendorp simplificado para el pack de 6: muy barato, ganga, caro, demasiado caro</li>
+        <li class="in"><b>Canal preferido</b>Dónde lo comprarían</li>
+      </ol>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="g-res2">
+        <ul class="res">
+          <li class="in"><b>Sensorial:</b> ninguna percibió el sabor ni el olor de la sangrecita; lo describieron como «un brownie de chocolate normal», húmedo y suave. Tamaño de 20 g adecuado para lonchera.</li>
+          <li class="in"><b>Revelación:</b> al saber que lleva sangrecita, la valoración subió («sabiendo que tiene hierro, mejor»); nadie retiró la intención de dársela al hijo. Coincidieron en no decirle al niño qué contiene.</li>
+          <li class="in"><b>Empaque y nombre:</b> la bolsa kraft con los ingredientes peruanos (sangrecita, cañihua, cacao) se percibió «natural y de confianza»; el nombre AndiBite se recordó y asoció a «andino» y «niños».</li>
+          <li class="in"><b>Canal:</b> querían encontrarlo en el mercado o la bodega del barrio y pedirlo por WhatsApp; nadie mencionó supermercados premium ni tiendas naturistas.</li>
+        </ul>
+        <div class="price in">
+          <p class="k">Precio · el hallazgo clave</p>
+          <p class="txt">De forma <b>unánime</b> dijeron que comprarían la bolsa de 6 a:</p>
+          <p class="pr-n">S/<span data-count="10" data-dec="2">10.00</span></p>
+          <div class="pr-vs"><span>Costo de producir el pack</span><b>S/<span data-count="9.85" data-dec="2">9.85</span></b></div>
+          <p class="pr-t">S/10 no cubre ni el costo de producir el pack.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" hidden>
+      <div class="ev ev-6">
+        <button type="button" class="ph in" data-lb="fg2"><img src="./img/evidencia/degustacion-1.jpg" alt="Mamá con el empaque MVP" /><span>Degustación</span></button>
+        <button type="button" class="ph in" data-lb="fg2"><img src="./img/evidencia/degustacion-2.jpg" alt="Mamá con el empaque MVP" /><span>Degustación</span></button>
+        <button type="button" class="ph in" data-lb="fg2"><img src="./img/evidencia/degustacion-3.jpg" alt="Mamá con el empaque MVP" /><span>Degustación</span></button>
+        <button type="button" class="ph in" data-lb="fg2"><img src="./img/evidencia/degustacion-4.jpg" alt="Mamá con el empaque MVP" /><span>Degustación</span></button>
+        <button type="button" class="ph ph-w in" data-lb="fg2"><img src="./img/evidencia/canva-degustacion-moderacion.jpg" alt="Lámina: desarrollo de la moderación" /><span>Moderación</span></button>
+        <button type="button" class="ph ph-w in" data-lb="fg2"><img src="./img/evidencia/canva-validacion-precio.jpg" alt="Lámina: validación de precio" /><span>Validación de precio</span></button>
+      </div>
+      <p class="hint in">Toca una foto para agrandarla.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 08 · HALLAZGOS -->
+<section class="s" id="s-hallazgos" data-title="Principales hallazgos" data-block="3" data-dwell="2">
+  <div class="cover"><img class="cover-img kb" src="./img/lonchera.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Principales hallazgos</h2></div></div>
+  <div class="frame body">
+    <div class="bar-top in"><p class="hint">Toca una tarjeta para ver la cita y la fuente.</p><button type="button" class="btn btn-sm" id="h-all">Abrir todas</button></div>
+    <div class="hall">
+      <button type="button" class="hc in" aria-expanded="false" id="h1"><span class="hc-n">H1</span><span class="hc-h">Lo saludable regresa intacto.</span><span class="hc-s">El adulto decide qué va en la lonchera, pero el niño «vota» no comiéndolo.</span>
+        <span class="hc-e"><q>Nuggets de sangrecita a la basura; puré de espinaca rechazado; galletas «sin azúcar» que «parecían cartón».</q><small>Entrevistas, focus 1</small></span></button>
+      <button type="button" class="hc in" aria-expanded="false" id="h2"><span class="hc-n">H2</span><span class="hc-h">La barrera es sensorial, no nutricional.</span><span class="hc-s">Saben que la sangrecita es buena; la rechazan por olor, color y textura, y por vergüenza frente a los amigos.</span>
+        <span class="hc-e"><q>«Mamá, eso olía feo y mis amigos me dijeron que parecía carbón» (Mateo, 7, hijo de Lucero).</q><small>Entrevistas</small></span></button>
+      <button type="button" class="hc in" aria-expanded="false" id="h3"><span class="hc-n">H3</span><span class="hc-h">Escondida en algo dulce, la sangrecita se acepta.</span><span class="hc-s">El camuflaje total es la estrategia que ya usan en casa.</span>
+        <span class="hc-e"><q>«Ella no sabe que es hígado» (Lourdes). En la degustación, ninguna la notó.</q><small>Entrevistas, focus 2</small></span></button>
+      <button type="button" class="hc in" aria-expanded="false" id="h4"><span class="hc-n">H4</span><span class="hc-h">El brownie gana como formato.</span><span class="hc-s">Chocolate = «para todos los días» y «algo que sí le gusta».</span>
+        <span class="hc-e"><q>15 votos brownie vs. 10 trufas y 8 wafer.</q><small>Focus 1 + entrevistas</small></span></button>
+      <button type="button" class="hc in" aria-expanded="false" id="h5"><span class="hc-n">H5</span><span class="hc-h">Nadie dice «anemia».</span><span class="hc-s">Hablan de hierro, energía y de lo que recomienda el pediatra.</span>
+        <span class="hc-e"><q>Ninguna entrevistada usó la palabra anemia como preocupación propia.</q><small>Entrevistas, focus 1</small></span></button>
+      <button type="button" class="hc in" aria-expanded="false" id="h6"><span class="hc-n">H6</span><span class="hc-h">El precio del segmento C/B no alcanza.</span><span class="hc-s">Pagan S/3 a S/5 por porción; S/10 por el pack de 6.</span>
+        <span class="hc-e"><q>Unánime S/10.00 en el focus 2; costo de producir el pack: S/9.85.</q><small>Focus 2, entrevistas</small></span></button>
+      <button type="button" class="hc in" aria-expanded="false" id="h7"><span class="hc-n">H7</span><span class="hc-h">Practicidad y variedad.</span><span class="hc-s">La mañana es el momento de dolor; la variedad se acaba a mitad de semana; la comida se malogra en la mochila.</span>
+        <span class="hc-e"><q>«En la mañana quiero practicidad pura» (Lucero); «la tapa explotó dentro de la mochila» (Vanessa).</q><small>Entrevistas</small></span></button>
+      <button type="button" class="hc in" aria-expanded="false" id="h8"><span class="hc-n">H8</span><span class="hc-h">Confianza y origen.</span><span class="hc-s">Valoran lo peruano y lo «natural»; WhatsApp es el canal deseado para recomprar.</span>
+        <span class="hc-e"><q>«Sí me importa que sea de origen peruano» (Rubelis); empaque kraft «de confianza» (focus 2).</q><small>Focus 2, entrevistas</small></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- 09 · INSIGHTS -->
+<section class="s" id="s-insights" data-title="Insights del consumidor" data-block="4" data-dwell="2">
+  <div class="cover"><img class="cover-img kb" src="./img/familia.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Insights del consumidor</h2></div></div>
+  <div class="frame body">
+    <div class="g-ins">
+      <div class="ins-list in" role="tablist" aria-label="Los 5 insights">
+        <button type="button" role="tab" class="il"><b>1</b>«Quiero ser la mamá perfecta, pero la realidad me aplasta.»</button>
+        <button type="button" role="tab" class="il"><b>2</b>El niño es el jurado.</button>
+        <button type="button" role="tab" class="il"><b>3</b>Todos tienen un truco.</button>
+        <button type="button" role="tab" class="il"><b>4</b>Hierro sí, anemia no.</button>
+        <button type="button" role="tab" class="il"><b>5</b>Salud que se ve, sin sacrificar sabor.</button>
+      </div>
+      <div class="ins-panels">
+        <article class="ip">
+          <h3>«Quiero ser la mamá perfecta, pero la realidad me aplasta.»</h3>
+          <div class="dsn"><div><p class="k">Lo que dicen</p><p>No tengo tiempo.</p></div><div><p class="k">Lo que sienten</p><p>Culpa cada mañana.</p></div><div><p class="k">Lo que necesitan</p><p>Una solución que les devuelva tranquilidad sin sentir que hacen trampa.</p></div></div>
+          <p class="dec"><b>Lo que decidimos</b>Nace el slogan «Dulce para ellos. Tranquilidad para ti.»</p>
+        </article>
+        <article class="ip" hidden>
+          <h3>El niño es el jurado.</h3>
+          <div class="dsn"><div><p class="k">Lo que dicen</p><p>«Le preparo cosas sanas».</p></div><div><p class="k">Lo que sienten</p><p>Frustración cuando vuelve la lonchera llena.</p></div><div><p class="k">Lo que necesitan</p><p>Que el hijo lo pida, no que lo tolere.</p></div></div>
+          <p class="dec"><b>Lo que decidimos</b>Prueba antes de compra; «un brownie que el niño vuelve a pedir».</p>
+        </article>
+        <article class="ip" hidden>
+          <h3>Todos tienen un truco.</h3>
+          <div class="dsn"><div><p class="k">Lo que dicen</p><p>«Le escondo el hígado».</p></div><div><p class="k">Lo que sienten</p><p>Orgullo callado, nadie lo ve.</p></div><div><p class="k">Lo que necesitan</p><p>Un producto que sea el truco listo, sin cuento.</p></div></div>
+          <p class="dec"><b>Lo que decidimos</b>Campaña «Lo que nadie ve».</p>
+        </article>
+        <article class="ip" hidden>
+          <h3>Hierro sí, anemia no.</h3>
+          <div class="dsn"><div><p class="k">Lo que dicen</p><p>«Quiero que tenga energía».</p></div><div><p class="k">Lo que sienten</p><p>La palabra anemia asusta y culpa.</p></div><div><p class="k">Lo que necesitan</p><p>Hablar de hierro, medido y verificable, sin alarmismo.</p></div></div>
+          <p class="dec"><b>Lo que decidimos</b>«Hierro de verdad, medido en cada lote»; nunca «previene la anemia».</p>
+        </article>
+        <article class="ip" hidden>
+          <h3>Salud que se ve, sin sacrificar sabor.</h3>
+          <div class="dsn"><div><p class="k">Lo que dicen</p><p>«Lo light pierde el sabor».</p></div><div><p class="k">Lo que sienten</p><p>Desconfianza de lo «saludable» envasado.</p></div><div><p class="k">Lo que necesitan</p><p>Pruebas: sabor en la boca, mg en la etiqueta, informe en la app.</p></div></div>
+          <p class="dec"><b>Lo que decidimos</b>App Andi: el envase se vuelve dato.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 · OPORTUNIDADES -->
+<section class="s" id="s-oport" data-title="Oportunidades de mejora" data-block="5" data-dwell="1" data-rows>
+  <div class="cover"><img class="cover-img kb" src="./img/empaque_frente.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Oportunidades de mejora</h2></div></div>
+  <div class="frame body">
+    <div class="bar-top in"><p class="hint">Cada fila: lo que encontramos y lo que ajustamos. <b>→</b> muestra la siguiente.</p><button type="button" class="btn btn-sm" data-all-rows>Mostrar todo</button></div>
+    <div class="ba ba-2">
+      <div class="ba-h"><span>Qué encontramos</span><span>Qué ajustamos</span></div>
+      <div class="row"><p>El segmento C/B valida el producto pero no el precio (S/10 por 6; costo S/9.85).</p><p><b>Cambio de segmento a A y B</b> (Lima Top y Moderna), donde la disposición a pagar se validó con la encuesta a 30 papás y mamás: pack de 6 a S/27.90 (S/4.65 por brownie, 29 % sobre Fika y Nutri H, a propósito).</p></div>
+      <div class="row"><p>El nombre se escribía «AndyBites» y el empaque MVP no decía cuánto hierro tenía.</p><p><b>AndiBite</b>, un solo nombre; empaque con <b>Andi</b> (el niño del envase), 1.9 mg de hierro medido, «Lo bueno también puede ser delicioso»; sangrecita en el reverso, nunca como gancho.</p></div>
+      <div class="row"><p>Las mamás no querían que el niño supiera qué contiene.</p><p>Se habla de hierro, no de sangrecita, en lo que ve el niño; la sangrecita va como mérito para el adulto («Sí, tiene. No, no se nota»).</p></div>
+      <div class="row"><p>Brownies sueltos se aplastan y malogran en la mochila.</p><p><b>Bolsita individual</b> de 20 g dentro del pack; sin frío; pack de 12 «Semana completa».</p></div>
+      <div class="row"><p>La variedad se acaba a mitad de semana.</p><p><b>3 sabores</b> (Chispa, Andi, Lúcu) y plan de loncheras con IA en la app.</p></div>
+      <div class="row"><p>Nadie compra sin que el niño pruebe.</p><p><b>Degustación como canal</b>: stands y ferias primero; WhatsApp solo para recompra.</p></div>
+      <div class="row"><p>La investigación de precio se hizo con el segmento equivocado.</p><p>Encuesta a 30 papás y mamás A/B con Van Westendorp <b>después</b> de probar o ver el envase, y prueba pendiente con niños (20 por sabor).</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 · PROPUESTAS -->
+<section class="s" id="s-prop" data-title="Propuestas estratégicas" data-block="6" data-dwell="1">
+  <div class="cover"><img class="cover-img kb" src="./img/stand.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Propuestas estratégicas</h2></div></div>
+  <div class="frame body">
+    <p class="hint in">6 decisiones. Cada una sale de un hallazgo o insight: tócalo para verlo.</p>
+    <div class="props">
+      <article class="pp in"><p class="pp-n">1</p><h4>Vender donde el niño prueba</h4><p class="from"><button type="button" class="hl" data-h="1">H1</button><button type="button" class="hl" data-h="4">H4</button></p>
+        <p>Stands en Jockey Plaza desde el 2 de enero, Salaverry y La Molina; 600 muestras en el lanzamiento; degustación gratis a cambio de contar tu truco.</p></article>
+      <article class="pp in"><p class="pp-n">2</p><h4>Precio por valor, no por costo</h4><p class="from"><button type="button" class="hl" data-h="6">H6</button></p>
+        <p>Pack de 6 a S/27.90 y de 12 a S/51.90; promoción solo en el lanzamiento; sin bajar el precio al segmento que no lo paga.</p></article>
+      <article class="pp in"><p class="pp-n">3</p><h4>Campaña «Lo que nadie ve»</h4><p class="from"><button type="button" class="hl" data-h="3">H3</button><button type="button" class="hl" data-i="3">Insight 3</button></p>
+        <p>Manifiesto, concurso #LoQueNadieVe por votos, mural en el stand, 4 reels, 3 anuncios medidos por conversaciones (195/195/223), 40 packs a papás y mamás influencers. Presupuesto S/24,544, 74 % calle.</p></article>
+      <article class="pp in"><p class="pp-n">4</p><h4>Hablar de hierro medido, nunca de anemia</h4><p class="from"><button type="button" class="hl" data-h="5">H5</button><button type="button" class="hl" data-i="4">Insight 4</button></p>
+        <p>Ficha «1.9 mg en cada unidad, medido en cada lote»; informe de laboratorio en la app; regla legal: AndiBite contribuye, no previene.</p></article>
+      <article class="pp in"><p class="pp-n">5</p><h4>La app Andi convierte el envase en dato</h4><p class="from"><button type="button" class="hl" data-i="5">Insight 5</button></p>
+        <p>QR → el hierro de hoy, plan de loncheras con IA (14 días por pack), recompra por WhatsApp en 1 clic; Misión Hierro para el niño con PIN de papá o mamá (Ley 30021 y 29733).</p></article>
+      <article class="pp in"><p class="pp-n">6</p><h4>Volver a Lima Norte con lo que sabemos</h4><p class="from"><button type="button" class="hl" data-h="6">H6</button><button type="button" class="hl" data-h="8">H8</button></p>
+        <p>Plan de responsabilidad social «Hierro que se comparte»: 1 % de las ventas del año 1 (S/2,447) en 6 talleres de loncheras con hierro en 3 colegios públicos de Lima Norte, 300 familias, medido a los 30 días por WhatsApp.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 12 · CONCLUSIONES -->
+<section class="s" id="s-concl" data-title="Conclusiones" data-block="7" data-dwell="1" data-rows>
+  <div class="cover"><img class="cover-img kb" src="./img/mural.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Conclusiones</h2></div></div>
+  <div class="frame body">
+    <div class="bar-top in"><p class="hint">Antes del focus → después del focus. <b>→</b> muestra la siguiente decisión.</p><button type="button" class="btn btn-sm" data-all-rows>Mostrar todo</button></div>
+    <div class="ba ba-3">
+      <div class="ba-h"><span>Decisión</span><span>Antes de investigar</span><span>Después de investigar</span></div>
+      <div class="row"><h5>Segmento</h5><p>Mamás de Lima Norte, NSE C/B</p><p>Papás y mamás A y B de Lima Top y Moderna; Lima Norte vuelve como plan social</p></div>
+      <div class="row"><h5>Precio</h5><p>S/10 por pack (lo que dijo el focus 2)</p><p>S/27.90 por pack de 6, validado con 30 papás y mamás del segmento</p></div>
+      <div class="row"><h5>Mensaje</h5><p>«Previene la anemia», sangrecita como gancho</p><p>«Hierro sin pelear cada mañana»; hierro medido; la sangrecita se cuenta al adulto, no al niño</p></div>
+      <div class="row"><h5>Formato</h5><p>Brownie suelto</p><p>Bolsita individual de 20 g, 3 sabores, pack de 6 y 12</p></div>
+      <div class="row"><h5>Canal</h5><p>Bodega y mercado</p><p>Stands con degustación, WhatsApp para recomprar, colegios y naturistas</p></div>
+      <div class="row"><h5>Marca</h5><p>AndyBites, empaque MVP</p><p>AndiBite, Andi y Killa, app con el hierro de cada lote</p></div>
+      <div class="row row-end"><p class="close">La investigación cualitativa no confirmó nuestra idea inicial: <b>la corrigió.</b> El producto gustó y la sangrecita no se notó (eso lo validamos), pero el precio y el segmento estaban mal. <b>Cambiar de público a tiempo es la decisión más importante del proyecto</b>, y salió de escuchar a las familias.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 · LO QUE FALTA VALIDAR -->
+<section class="s" id="s-falta" data-title="Lo que falta validar" data-block="7" data-dwell="1">
+  <div class="cover"><img class="cover-img kb" src="./img/lonchera.jpg" alt="" /></div>
+  <div class="band"><div class="band-in"><h2>Lo que falta validar</h2></div></div>
+  <div class="frame body">
+    <p class="lead in">Antes del 2 de enero, cuando abre el stand de Jockey Plaza.</p>
+    <div class="todo">
+      <div class="td in"><p class="n"><span data-count="20">20</span> <small>niños por sabor</small></p><h4>Prueba sensorial con niños</h4><p>Caritas de 5 puntos. Meta: <b class="nw"><span data-count="75">75</span> %</b> en 4 y 5.</p></div>
+      <div class="td in"><p class="n n-ico"><i data-icon="flask"></i></p><h4>Umbral de sangrecita</h4><p>Prueba triangular para que ningún adulto la note.</p></div>
+      <div class="td in"><p class="n n-ico"><i data-icon="users"></i></p><h4>Segundo focus</h4><p>Con papás y mamás A/B, el empaque final y la app (nombre, precio, QR).</p></div>
+      <div class="td in"><p class="n"><span data-count="6">6</span> h</p><h4>Vida útil y laboratorio</h4><p>Vida útil en lonchera sin frío (6 h) y análisis de laboratorio de cada lote.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 14 · CIERRE -->
+<section class="s" id="s-cierre" data-title="Gracias" data-dwell="1">
+  <div class="cover"><img class="cover-img kb" src="./img/portada-blur.jpg" alt="" /></div>
+  <div class="veil"></div>
+  <div class="frame portada cierre">
+    <img class="p-logo in" src="./img/logo-con-andi.png" alt="AndiBite, con Andi" width="900" height="733" />
+    <p class="slogan big in">Dulce para ellos. <em>Tranquilidad para ti.</em></p>
+    <p class="thanks in">Gracias</p>
+    <p class="p-foot in"><b>Grupo 2</b> · UPN Los Olivos · Diana Ayoso · Patricia Cárdenas · Adela Robles · Angie Blas · Carlos Inga</p>
+    <div class="p-cta in"><button type="button" class="btn btn-ghost" data-go="2">Volver al índice</button></div>
+  </div>
+</section>
+
+</main>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

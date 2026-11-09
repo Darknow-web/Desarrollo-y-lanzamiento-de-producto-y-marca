@@ -1,0 +1,25 @@
+{
+  "name": "andibite-t3",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AndiBite · T3 Investigación de mercados cualitativa · presentación web interactiva (14 pantallas)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && tsc --noEmit -p worker && vite build",
+    "preview": "vite preview --port 4174",
+    "capturas": "node scripts/capturas.mjs http://localhost:4174/",
+    "subir-activos": "node scripts/subir-activos.mjs",
+    "deploy": "npm run build && npm run subir-activos && wrangler deploy"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.3.0",
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "gsap": "^3.15.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9",
+    "vite": "^7.3.7",
+    "wrangler": "^4.151.1"
+  }
+}
