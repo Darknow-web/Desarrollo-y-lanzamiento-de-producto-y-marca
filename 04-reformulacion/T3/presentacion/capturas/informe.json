@@ -106,14 +106,6 @@
         "docWide": false
       },
       {
-        "name": "desk-05-b-paso4.png",
-        "id": "s-embudo",
-        "over": 0,
-        "clipped": [],
-        "wide": [],
-        "docWide": false
-      },
-      {
         "name": "desk-06-a-inicial.png",
         "id": "s-fg1",
         "over": 0,
@@ -385,7 +377,7 @@
       {
         "name": "movil-05-a-inicial.png",
         "id": "s-embudo",
-        "over": 86,
+        "over": 0,
         "clipped": [],
         "wide": [],
         "docWide": false
@@ -400,14 +392,6 @@
       },
       {
         "name": "movil-05-b-paso3.png",
-        "id": "s-embudo",
-        "over": 0,
-        "clipped": [],
-        "wide": [],
-        "docWide": false
-      },
-      {
-        "name": "movil-05-b-paso4.png",
         "id": "s-embudo",
         "over": 0,
         "clipped": [],
@@ -449,7 +433,7 @@
       {
         "name": "movil-07-a-inicial.png",
         "id": "s-fg2",
-        "over": 14,
+        "over": 0,
         "clipped": [],
         "wide": [],
         "docWide": false
@@ -465,7 +449,7 @@
       {
         "name": "movil-07-b-paso3.png",
         "id": "s-fg2",
-        "over": 73,
+        "over": 0,
         "clipped": [],
         "wide": [],
         "docWide": false
@@ -489,7 +473,7 @@
       {
         "name": "movil-08-b-completa.png",
         "id": "s-hallazgos",
-        "over": 1059,
+        "over": 1039,
         "clipped": [],
         "wide": [],
         "docWide": false
@@ -577,7 +561,7 @@
       {
         "name": "movil-13-a-inicial.png",
         "id": "s-falta",
-        "over": 0,
+        "over": 16,
         "clipped": [],
         "wide": [],
         "docWide": false

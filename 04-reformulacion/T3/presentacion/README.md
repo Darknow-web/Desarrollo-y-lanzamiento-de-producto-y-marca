@@ -16,7 +16,7 @@ Se puede enlazar una pantalla directa con `#n`, por ejemplo `…/#8` abre los ha
 | 2 | Índice | Los 7 puntos de la rúbrica como botones |
 | 3 | El plan en una página (bloque 1) | Pestañas Quién · Qué · Cómo · Cuánto, contadores |
 | 4 | Campaña «Lo que nadie ve» (bloque 1) | Pestañas: la idea · carrusel de 10 piezas (flechas, miniaturas, agrandar) · 4 reels 9:16 (play, sin sonido al inicio, botón Sonido) · fases y medición |
-| 5 | Cómo investigamos (bloque 2) | Embudo de 4 pasos clicables |
+| 5 | Cómo investigamos (bloque 2) | Embudo de 3 pasos clicables |
 | 6 | Focus group 1 · Test de concepto (bloque 2) | Pestañas Ficha · Guía · Resultados · Evidencia (fotos que se agrandan) |
 | 7 | Focus group 2 · Producto y marca (bloque 2) | Igual que el 6 |
 | 8 | Principales hallazgos (bloque 3) | 8 tarjetas que se abren con la cita y la fuente; «Abrir todas» |
