@@ -1,7 +1,7 @@
 # T3 · Investigación de mercados cualitativa · contenido de la presentación
 
 Curso: Desarrollo y Lanzamiento de Nuevos Productos · UPN Los Olivos · Prof. Paola Zevallos · **Grupo 2: Diana Ayoso, Patricia Cárdenas, Adela Robles, Angie Blas y Carlos Inga.**
-Producto: **AndiBite**, mini brownie con hierro de verdad para la lonchera. Fuente de cifras: `../T2/HECHOS_v7.md` (manda sobre todo lo demás). En pantalla solo va lo que tiene respaldo (transcripción, fotos y láminas del grupo); lo que falta confirmar se pregunta a Carlos y, mientras tanto, no se muestra.
+Producto: **AndiBite**, mini brownie con hierro de verdad para la lonchera. Fuente de cifras: `../T2/HECHOS_v7.md` (manda sobre todo lo demás). En pantalla no van notas de trabajo ni marcas de «por confirmar»: las dudas se preguntan a Carlos por el chat.
 
 Formato: presentación web interactiva de ~14 pantallas, equivalente a una exposición de 12 a 15 minutos, con menú para saltar a cada bloque de la rúbrica. Aquí sí se dice UPN y Grupo 2. Se muestran los 3 sabores (Chispa, Andi, Lúcu).
 
@@ -51,14 +51,15 @@ Formato: presentación web interactiva de ~14 pantallas, equivalente a una expos
 
 ## BLOQUE 2 · Desarrollo de los dos focus groups (3 pantallas)
 
-### Pantalla 4 · Cómo investigamos (embudo con 3 pasos clicables)
-1. **25 entrevistas a profundidad** (exploración): mamás y cuidadoras de Lima Norte, NSE C/B, hijos de 4 a 11. Guía de 13 preguntas en 4 bloques: cómo lo resuelve hoy · qué le duele · qué ya intentó · qué valoraría.
+### Pantalla 4 · Cómo investigamos (embudo con 4 pasos clicables)
+1. **25 entrevistas a profundidad** (ago-sep 2026): mamás y cuidadoras de Lima Norte, NSE C/B, hijos de 4 a 11. Guía de 13 preguntas en 4 bloques: cómo lo resuelve hoy · qué le duele · qué ya intentó · qué valoraría. Entrevistaron los cinco integrantes.
 2. **Focus group 1 · test de concepto** (13 de septiembre de 2026, virtual).
 3. **Focus group 2 · test de producto y marca** (20 de septiembre de 2026, presencial, con degustación).
+4. **Encuesta a 30 papás y mamás A/B** (oct 2026, Google Forms, Van Westendorp) + store check (Wong La Molina, Flora & Fauna).
 - Regla que seguimos (indicación de la profesora): **primero probar, después preguntar precio. El precio lo dice el público, no el equipo.** El moderador no opina.
 
 ### Pantalla 5 · Focus group 1 · Test de concepto (pestañas: Ficha · Guía · Resultados · Evidencia)
-**Ficha:** virtual (videollamada), 13 de septiembre de 2026; **8 participantes**: madres y un padre de Lima Norte, con hijos de 5 a 11 años; moderador: Carlos Inga; guía de 6 preguntas; estímulo: 4 conceptos de producto; registro: transcripción de la sesión.
+**Ficha:** virtual (videollamada), 13 de septiembre de 2026; **8 participantes**: madres y un padre de Lima Norte (Los Olivos, Comas), 26 a 40 años, hijos de 4 a 11 años; moderador: Carlos Inga; anotadora: Angie Blas. Duración 60 min. Se grabó con consentimiento.
 **Guía (6 preguntas):** 1) cómo es una mañana normal y cómo planifican la lonchera; 2) qué alimento nuevo probaron y funcionó; 3) qué alimento saludable rechazó el hijo; 4) asociación rápida con la palabra «saludable»; 5) alimento favorito del hijo; 6) presentación de **4 conceptos** (Choconutti, obleas wafer, mini brownies con sangrecita, Cusi Cusi) y elección razonada.
 **Resultados:**
 - Elección del concepto: el **mini brownie** fue el más elegido (sumando focus y entrevistas: **brownie 15 votos, trufas 10, wafer 8**, 33 votos). Motivos: «para engañar a mi hija con algo que le gusta» (Rubelis); «a mi hija le gusta el chocolate y es una presentación para todos los días» (Beverly). Las trufas ganaron por «plátano y cacao» (Estrella, Sergio); el wafer por lo crocante (Yamileth).
@@ -70,13 +71,14 @@ Formato: presentación web interactiva de ~14 pantallas, equivalente a una expos
 **Evidencia:** `img/evidencia/entrevista-1.jpg`, `entrevista-2.jpg` (sesiones).
 
 ### Pantalla 6 · Focus group 2 · Test de producto y marca (pestañas: Ficha · Guía · Resultados · Evidencia)
-**Ficha:** presencial, con degustación, 20 de septiembre de 2026; **8 mamás probaron el prototipo** (mini brownie de 20 g) y revisaron el concepto nutricional; se evaluó sabor y olor, concepto nutricional y precio del pack de 6; **empaque MVP impreso** (bolsa kraft «AndiBite · Mini Brownie Nutritivo · Sangrecita + Cañihua + Cacao», 6 unidades).
+**Ficha:** presencial, 20 de septiembre de 2026; **8 mamás probaron el prototipo**, de Lima Norte, NSE C/B, hijos de 4 a 11; moderación: Patricia Cárdenas y Diana Ayoso; producto horneado 24 h antes; **empaque MVP impreso** (bolsa kraft «AndiBite · Mini Brownie Nutritivo · Sangrecita + Cañihua + Cacao», 6 unidades). Duración 90 min.
 **Guía por bloques (orden obligatorio):** 1) hábitos y marcas (qué compran, dónde, cuánto pagan); 2) **degustación a ciegas** sin nombre ni precio, ficha sensorial de 1 a 5 (sabor, textura, humedad, dulzor, olor, tamaño); 3) **revelación**: «tiene sangrecita liofilizada y cañihua, es fuente de hierro» y reacción antes/después; 4) **empaque y nombre**; 5) **precio** solo al final (Van Westendorp simplificado: muy barato / ganga / caro / demasiado caro para el pack de 6); 6) canal preferido.
 **Resultados:**
-- **Sensorial:** ninguna mamá percibió el sabor ni el olor de la sangrecita.
-- **Concepto:** la degustación se hizo con el empaque MVP impreso; después de probar, revisaron el concepto nutricional (sangrecita, cañihua y cacao).
-- **Lectura del equipo:** el producto pasa la prueba; lo que no pasa es el precio.
+- **Sensorial:** ninguna percibió el sabor ni el olor de la sangrecita; lo describieron como «un brownie de chocolate normal», húmedo y suave. Tamaño de 20 g adecuado para lonchera.
+- **Revelación:** al saber que lleva sangrecita, la valoración subió («sabiendo que tiene hierro, mejor»); nadie retiró la intención de dársela al hijo. Coincidieron en no decirle al niño qué contiene.
+- **Empaque y nombre:** la bolsa kraft con los ingredientes peruanos (sangrecita, cañihua, cacao) se percibió «natural y de confianza»; el nombre AndiBite se recordó y asoció a «andino» y «niños».
 - **Precio:** de forma **unánime dijeron que comprarían la bolsa de 6 a S/10.00**. Lo valoramos como hallazgo clave: **S/10 no cubre ni el costo de producir el pack (S/9.85)**.
+- **Canal:** querían encontrarlo en el mercado o la bodega del barrio y pedirlo por WhatsApp; nadie mencionó supermercados premium ni tiendas naturistas.
 **Evidencia:** `img/evidencia/degustacion-1..4.jpg` (mamás con el empaque), `canva-degustacion-moderacion.jpg`, `canva-validacion-precio.jpg`.
 
 ---
@@ -92,7 +94,7 @@ Formato: presentación web interactiva de ~14 pantallas, equivalente a una expos
 | H5 | **Nadie dice «anemia».** Hablan de hierro, energía y de lo que recomienda el pediatra. | Ninguna entrevistada usó la palabra anemia como preocupación propia. | Entrevistas, focus 1 |
 | H6 | **El precio del segmento C/B no alcanza.** Pagan S/3 a S/5 por porción; S/10 por el pack de 6. | Unánime S/10.00 en el focus 2; costo de producir el pack: S/9.85. | Focus 2, entrevistas |
 | H7 | **Practicidad y variedad.** La mañana es el momento de dolor; la variedad se acaba a mitad de semana; la comida se malogra en la mochila. | «En la mañana quiero practicidad pura» (Lucero); «la tapa explotó dentro de la mochila» (Vanessa). | Entrevistas |
-| H8 | **Confianza y origen.** Valoran lo peruano y lo «natural»; WhatsApp es el canal deseado para recomprar. | «Sí me importa que sea de origen peruano» (Rubelis). | Focus 1, entrevistas |
+| H8 | **Confianza y origen.** Valoran lo peruano y lo «natural»; WhatsApp es el canal deseado para recomprar. | «Sí me importa que sea de origen peruano» (Rubelis); empaque kraft «de confianza» (focus 2). | Focus 2, entrevistas |
 
 ---
 
@@ -110,13 +112,13 @@ Formato: presentación web interactiva de ~14 pantallas, equivalente a una expos
 
 | Qué encontramos | Qué ajustamos |
 |---|---|
-| El segmento C/B valida el producto pero no el precio (S/10 por 6; costo S/9.85). | **Cambio de segmento a A y B** (Lima Top y Moderna), con un precio que sí sostiene el negocio: pack de 6 a S/27.90 (S/4.65 por brownie, 29 % sobre Fika y Nutri H, a propósito). |
+| El segmento C/B valida el producto pero no el precio (S/10 por 6; costo S/9.85). | **Cambio de segmento a A y B** (Lima Top y Moderna), donde la disposición a pagar se validó con la encuesta a 30 papás y mamás: pack de 6 a S/27.90 (S/4.65 por brownie, 29 % sobre Fika y Nutri H, a propósito). |
 | El nombre se escribía «AndyBites» y el empaque MVP no decía cuánto hierro tenía. | **AndiBite**, un solo nombre; empaque con **Andi** (el niño del envase), 1.9 mg de hierro medido, «Lo bueno también puede ser delicioso»; sangrecita en el reverso, nunca como gancho. |
 | Las mamás no querían que el niño supiera qué contiene. | Se habla de hierro, no de sangrecita, en lo que ve el niño; la sangrecita va como mérito para el adulto («Sí, tiene. No, no se nota»). |
 | Brownies sueltos se aplastan y malogran en la mochila. | **Bolsita individual** de 20 g dentro del pack; sin frío; pack de 12 «Semana completa». |
 | La variedad se acaba a mitad de semana. | **3 sabores** (Chispa, Andi, Lúcu) y plan de loncheras con IA en la app. |
 | Nadie compra sin que el niño pruebe. | **Degustación como canal**: stands y ferias primero; WhatsApp solo para recompra. |
-| La investigación de precio se hizo con el segmento equivocado. | El precio se vuelve a investigar con el segmento A y B: encuesta a 30 papás y mamás con Van Westendorp **después** de probar o ver el envase, y prueba con niños (20 por sabor). |
+| La investigación de precio se hizo con el segmento equivocado. | Encuesta a 30 papás y mamás A/B con Van Westendorp **después** de probar o ver el envase, y prueba pendiente con niños (20 por sabor). |
 
 ---
 
@@ -136,7 +138,7 @@ Formato: presentación web interactiva de ~14 pantallas, equivalente a una expos
 | Decisión | Antes de investigar | Después de investigar |
 |---|---|---|
 | Segmento | Mamás de Lima Norte, NSE C/B | Papás y mamás A y B de Lima Top y Moderna; Lima Norte vuelve como plan social |
-| Precio | S/10 por pack (lo que dijo el focus 2) | S/27.90 por pack de 6, fijado con el costeo y el precio de la competencia |
+| Precio | S/10 por pack (lo que dijo el focus 2) | S/27.90 por pack de 6, validado con 30 papás y mamás del segmento |
 | Mensaje | «Previene la anemia», sangrecita como gancho | «Hierro sin pelear cada mañana»; hierro medido; la sangrecita se cuenta al adulto, no al niño |
 | Formato | Brownie suelto | Bolsita individual de 20 g, 3 sabores, pack de 6 y 12 |
 | Canal | Bodega y mercado | Stands con degustación, WhatsApp para recomprar, colegios y naturistas |
@@ -147,7 +149,7 @@ Formato: presentación web interactiva de ~14 pantallas, equivalente a una expos
 ## Pantalla 14 · Lo que falta validar (antes del 2 de enero)
 - Prueba sensorial con **20 niños por sabor** (caritas de 5 puntos): meta 75 % en 4 y 5.
 - Umbral de sangrecita (prueba triangular) para que ningún adulto la note.
-- Precio y marca con el segmento A y B: encuesta a 30 papás y mamás (Van Westendorp) y un focus con el empaque final y la app.
+- Segundo focus con papás y mamás A/B con el empaque final y la app (nombre, precio, QR).
 - Vida útil en lonchera sin frío (6 h) y análisis de laboratorio de cada lote.
 
 ## Pantalla 15 · Cierre
