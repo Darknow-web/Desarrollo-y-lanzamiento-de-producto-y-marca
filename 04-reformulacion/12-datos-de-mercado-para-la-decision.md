@@ -291,3 +291,63 @@ Esta página **no decide**. Junta lo que apoya y lo que complica cada camino con
 - Ley 30021 art. 6: el quiosco escolar (público y privado) solo vende alimentos saludables según el listado del MINSA; no está confirmado que el brownie califique.
 - La compra pública (nuevo PAE 2026) es por licitación nacional y sin precio de ración publicado para galletas con hierro; la especificación técnica del programa no exige declarar hierro.
 - Nutri H, el producto más cercano, vende en farmacia y web, a S/16 por 100 g, con 16.5 mg de hierro declarados por 30 g (baja confianza).
+
+## Brownies de referencia (precio por gramo)
+
+Consulta del 17-nov-2026. Los precios son los de la ficha pública de cada tienda (la API de catálogo de plazavea.com.pe, metro.pe y wong.pe, que es la misma que alimenta la página), con IGV incluido. Precio por 100 g = precio ÷ gramaje × 100. «n.e.» = no encontrado en la ficha. Agotado = la ficha lo mostraba sin stock (precio de lista, no de compra). Los precios de Metro, Wong y Plaza Vea pueden variar por dirección o promoción.
+
+### Brownies «normales» (con gramaje verificado)
+
+| Producto | Canal | Gramaje | Unidades | Precio (S/) | Por unidad (S/) | Por 100 g (S/) | Octógonos | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Brownies Gustozzi Princesa 50g | Metro | 50 g | 1 (la ficha dice «contiene 50 gramos») | 10.30 | 10.30 | 20.60 | Alto en azúcar | https://www.metro.pe/brownies-gustozzi-princesa-50g-1003702/p | 17-nov-2026 | Media: el precio parece alto frente a la web de la marca (ver nota) |
+| Brownie Bell's Fudge bolsa 40g | Plaza Vea | 40 g | 1 | 2.20 | 2.20 | 5.50 | Alto en azúcar | https://www.plazavea.com.pe/brownie-bells-fudge-bolsa-40g/p | 17-nov-2026 | Alta |
+| Brownie Chip Nutra Bien 4un (Bimbo) | Wong | 248 g | 4 (≈62 g c/u) | 16.90 | 4.23 | 6.81 | Alto en azúcar | https://www.wong.pe/brownie-chip-nutra-bien-4un-1017236/p | 17-nov-2026 | Alta |
+| Bites de Brownies D'Abuelas 180g | Wong | 180 g | n.e. | 13.90 | n.e. | 7.72 | Azúcar y grasas saturadas | https://www.wong.pe/bites-de-brownies-deabuelas-180g-1042951/p | 17-nov-2026 | Alta |
+| Brownie de Chocolate Ana Avellana 135g | Plaza Vea | 135 g | 1 (frasco) | 10.50 | 10.50 | 7.78 | n.e. | https://www.plazavea.com.pe/brownie-de-chocolate-ana-avellana-envase-135g-20571203/p | 17-nov-2026 | Media: agotado |
+| Brownie Decorado Giardino envase 80g | Plaza Vea | 80 g | 1 | 6.90 | 6.90 | 8.63 | Azúcar y grasas saturadas | https://www.plazavea.com.pe/brownie-decorado-envase-80g/p | 17-nov-2026 | Media: agotado |
+| Brownie con Maní Tostado Tana 320g | Wong | 320 g | n.e. | 28.90 | n.e. | 9.03 | n.e. | https://www.wong.pe/brownie-con-mani-tostado-tana-320g-989714/p | 17-nov-2026 | Alta (queda 1 unidad) |
+
+### Brownies sin gramaje en la ficha (no se puede calcular por 100 g)
+
+| Producto | Canal | Gramaje | Unidades | Precio (S/) | Por unidad (S/) | Por 100 g | Octógonos | URL | Fecha |
+|---|---|---|---|---|---|---|---|---|---|
+| Brownie Tradicional / con Fudge / Tipo Trufa Delisha | Metro y Wong | n.e. | 1 | 5.50 | 5.50 | n.e. | Alto en azúcar | https://www.metro.pe/brownie-tradicional-delisha-x-unid-193769-2/p | 17-nov-2026 |
+| Brownie Clásico Giardino (Sublime, Triángulo, Princesa) | Metro / Wong | n.e. | 1 | 7.90 Metro; 8.90 Wong | igual | n.e. | Azúcar y grasas saturadas | https://www.metro.pe/brownie-triangulo-nestle/p | 17-nov-2026 |
+| Brownie Clásico con Lentejitas Giardino | Metro / Wong | n.e. | 1 | 8.50 | 8.50 | n.e. | Azúcar y grasas saturadas | https://www.wong.pe/brownie-clasico-con-lentejitas-giardino-789975-2/p | 17-nov-2026 |
+| Brownies Denky bandeja 9 unid | Metro / Wong | n.e. | 9 | 15.50 | 1.72 | n.e. | Azúcar y grasas saturadas | https://www.metro.pe/brownies-x-9-un-denky/p | 17-nov-2026 |
+| Brownie con Pecana D'Abuelas 5un | Wong | n.e. | 5 | 15.90 | 3.18 | n.e. | Azúcar y grasas saturadas | https://www.wong.pe/brownie-con-pecana-d-abuelas-5un-377296/p | 17-nov-2026 |
+| Brownies Surtidos Giardino 4un | Metro / Wong | n.e. | 4 | 21.90 Metro; 22.90 Wong | 5.48 / 5.73 | n.e. | Azúcar y grasas saturadas | https://www.metro.pe/brownies-variados-nestle-four-pack-789979/p | 17-nov-2026 |
+| Brownie con Fudge La Florencia bandeja 4un | Plaza Vea | n.e. | 4 | 12.90 | 3.23 | n.e. | Alto en azúcar y grasas saturadas | https://www.plazavea.com.pe/brownie-con-fudge-la-florencia-x-4-unid/p | 17-nov-2026 |
+| Brownie Sonrisa La Florencia (Don Paulino) 1un | Plaza Vea | n.e. | 1 | 17.90 | 17.90 | n.e. | n.e. | https://www.plazavea.com.pe/brownie-sonrisa-la-florencia-don-paulino-bandeja-1un-pv/p | 17-nov-2026 |
+| Brownie Decorado Defani bandeja 6un | Plaza Vea | n.e. | 6 | 22.90 | 3.82 | n.e. | n.e. | https://www.plazavea.com.pe/brownie-decorado-bandeja-6un/p | 17-nov-2026 |
+| Torta Brownie Petit | Plaza Vea | n.e. | 1 | 29.90 | 29.90 | n.e. | Alto en azúcar y grasas saturadas | https://www.plazavea.com.pe/torta-brownie-petit/p | 17-nov-2026 |
+| Gustozzi (web de la marca): brownie clásico (fudge, mármol, café) x6 | gustozzi.pe | n.e. | 6 | 11.00 (lista 12.00) | 1.83 | n.e. | n.e. | https://www.gustozzi.pe/categorias/brownies-confiteria | 17-nov-2026 |
+| Gustozzi (web): brownie choco fudge, cookie&cream, red velvet, edición limitada x6 | gustozzi.pe | n.e. | 6 | 13.80 (lista 15.00) | 2.30 | n.e. | n.e. | https://www.gustozzi.pe/categorias/brownies-confiteria | 17-nov-2026 |
+| Gustozzi (web): Brownie Nestlé (Princesa, Sublime, Triángulo) x6 | gustozzi.pe | n.e. | 6 | 16.56 (lista 18.00) | 2.76 | n.e. | n.e. | https://www.gustozzi.pe/categorias/brownies-confiteria | 17-nov-2026 |
+
+### «Mini brownie» o «brownie bites» (formato AndiBite)
+
+| Producto | Canal | Gramaje | Unidades | Precio (S/) | Por unidad (S/) | Por 100 g (S/) | Octógonos | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Mini Brownie Nutra Bien (Bimbo) 180 g, paquete 6un | Plaza Vea | 180 g | 6 (30 g c/u) | 15.00 | 2.50 | 8.33 | n.e. | https://www.plazavea.com.pe/mini-brownie-nutra-bien-bimbo-180g-paquete-6un/p | 17-nov-2026 | Media: agotado |
+| Brownie Bimbo Little Bites caja 130g (también Blueberry y Chispas de Chocolate) | Plaza Vea; Metro y Wong (edición Bob Esponja) | 130 g | n.e. | 10.90 | n.e. | 8.38 | Azúcar y grasas saturadas (Metro/Wong); n.e. en Plaza Vea | https://www.plazavea.com.pe/brownie-bimbo-little-bites-caja-130g/p | 17-nov-2026 | Alta |
+| Bites de Brownies D'Abuelas 180g | Wong | 180 g | n.e. | 13.90 | n.e. | 7.72 | Azúcar y grasas saturadas | https://www.wong.pe/bites-de-brownies-deabuelas-180g-1042951/p | 17-nov-2026 | Alta |
+| Mini Brownie Clásico Giardino 60un | Metro / Wong | n.e. | 60 | 42.50 Metro; 44.50 Wong | 0.71 / 0.74 | n.e. | Alto en azúcar | https://www.metro.pe/mini-brownie-clasico-giardino-60un/p | 17-nov-2026 | Alta en precio; sin gramaje |
+| Mini Brownies La Florencia caja 50un | Plaza Vea | n.e. | 50 | 25.90 | 0.52 | n.e. | n.e. | https://www.plazavea.com.pe/mini-brownies-la-florencia-bandeja-50un/p | 17-nov-2026 | Media: agotado; sin gramaje |
+| Mini-brownies bañados en chocolate belga, La Bodeguita Belga, caja de 6 cubitos | Catálogo MINEDU (2021) | n.e. | 6 | 18.00 | 3.00 | n.e. | n.e. | https://conexion.minedu.gob.pe/wp-content/uploads/2021/12/CAT%C3%81LOGO-LA-BODEGUITA-BELGA.pdf | dic-2021 | Baja: dato de 2021 |
+
+### Canales no encontrados
+
+- **Tambo (tambo.pe, 78 productos del catálogo cargado):** ningún brownie ni Gustozzi; solo un pack de helados con «Chocobrownie». El catálogo depende de la tienda y la dirección, así que no prueba que no exista en góndola.
+- **Plaza Vea y Wong:** búsqueda «gustozzi» sin resultados.
+- **Rappi, PedidosYa, Oxxo, Listo, Tottus y Vivanda:** no encontrado. Tottus y Vivanda no respondieron a la consulta de catálogo (Vivanda devolvió HTML, no datos). Sin consulta no hay cifra.
+- **Octógonos en Gustozzi/Tambo:** no hay foto verificada de Tambo; el único dato es el campo «Octógonos: azúcar» de la ficha de Metro.
+
+### Cuenta (solo los 7 brownies «normales» con gramaje verificado)
+
+- **Rango del precio por 100 g:** S/5.50 (Bell's) a S/20.60 (Gustozzi Princesa en Metro). **Mediana: S/7.78** (orden: 5.50; 6.81; 7.72; 7.78; 8.63; 9.03; 20.60). Si se dejan fuera los dos agotados (Ana Avellana y Giardino decorado), la mediana es S/7.72; sin el Gustozzi de Metro, S/7.75. Los mini/bites (8.33; 8.38; 7.72) tienen mediana S/8.33, igual al S/10 por 120 g de AndiBite.
+- **Mini brownie de 20 g a esa mediana:** S/1.56 con IGV; S/1.32 sin IGV (÷ 1.18).
+- **Pack de 6 (120 g) a esa mediana:** S/9.34 con IGV; S/7.91 sin IGV (÷ 1.18).
+
+Notas: el Gustozzi de Metro (S/10.30 por 50 g, S/20.60 por 100 g) contrasta con la web de la marca, donde el brownie cuesta S/1.83 a 2.76 la unidad, sin gramaje publicado; no se puede saber si Metro vende 1 unidad o un pack. La web de gustozzi.pe muestra pie de página de 2021 y stock de miles de unidades; trátese como precio de lista de baja a media confianza. No hay dato de Gustozzi en Tambo.
