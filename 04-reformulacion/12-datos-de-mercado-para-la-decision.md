@@ -351,3 +351,86 @@ Consulta del 17-nov-2026. Los precios son los de la ficha pública de cada tiend
 - **Pack de 6 (120 g) a esa mediana:** S/9.34 con IGV; S/7.91 sin IGV (÷ 1.18).
 
 Notas: el Gustozzi de Metro (S/10.30 por 50 g, S/20.60 por 100 g) contrasta con la web de la marca, donde el brownie cuesta S/1.83 a 2.76 la unidad, sin gramaje publicado; no se puede saber si Metro vende 1 unidad o un pack. La web de gustozzi.pe muestra pie de página de 2021 y stock de miles de unidades; trátese como precio de lista de baja a media confianza. No hay dato de Gustozzi en Tambo.
+
+---
+
+## Lima Norte: MegaPlaza, ferias de emprendedores, colegios y quioscos
+
+Consulta del 17-nov-2026. Regla: lo que no está publicado figura como «no encontrado»; no se estimó nada salvo donde dice «cálculo propio». Varias páginas dieron error al abrirlas (403/404/418/500: gob.pe de San Martín de Porres, findglocal, mercadonegro, americaretail, sanagustin.edu.pe, El Peruano sin el anexo); en esos casos el dato viene del extracto del buscador y se marca como Baja o Media.
+
+### A. Espacios para emprendedores en centros comerciales y municipios
+
+| Dato | Valor | A qué se refiere | Fuente | Año | URL | Confianza |
+|---|---|---|---|---|---|---|
+| «La Standería del Emprendedor» | Feria del 23 al 29 de agosto, 10 a. m. a 10 p. m., en el boulevard del mall; 8 emprendedores del distrito; ropa y artículos del hogar. Organiza MegaPlaza Independencia (Parque Arauco) con la Municipalidad de Independencia. Costo, requisitos, frecuencia y cómo postular: no publicados | MegaPlaza Independencia | Business Empresarial | 2021 | https://www.businessempresarial.com.pe/megaplaza-independencia-la-standeria-del-emprendedor-llega-esta-vez-de-la-mano-de-la-municipalidad-de-independencia/ | Media (nota de prensa; datos de hace 5 años) |
+| «Encuentro de Emprendedores de Lima Norte» (III edición) | Gratis, 20 de junio, inscripción online en megaplus.com.pe, cupos limitados; charlas, paneles, networking y sorteos. No menciona stands ni ventas | MegaPlaza Independencia; organiza el mall | PressPeru | jun-2025 | https://pressperu.com/2025/06/17/iii-encuentro-de-emprendedores-megaplaza-independencia-consolida-su-compromiso-con-los-negocios-locales/ | Alta para el evento; no es un espacio de venta |
+| Encuentro de Emprendedores de Lima Norte, 2026 | «Más de 700 personas» en mayo de 2026, con charlas y asesorías (según el extracto del buscador; no pude abrir la nota) | MegaPlaza | AmericaMalls & Retail | may-2026 | https://americaretail-malls.com/paises/peru/megaplaza-impulsa-emprendimientos-con-exitoso-encuentro-empresarial/ | Baja (extracto) |
+| Convocatoria «Emprende Retail» | Parque Arauco ofrecía un módulo en Larcomar o en MegaPlaza Independencia a dos ganadores. Bases, costo y fecha: no leídas (página dio 403 y la fecha del buscador no es fiable) | Parque Arauco, incluye MegaPlaza Independencia | Mercado Negro | s. f. | https://www.mercadonegro.pe/retail/parque-arauco-inicia-convocatoria-para-emprende-retail/ | Baja |
+| Feria Calle Uno (productora privada) | Dice operar en Minka, MegaPlaza, Cenco y Mall Aventura; invita a emprendedores a escribirles para exponer y vender. Precio: no publicado | Productora privada de ferias en malls | Ficha en findglocal (no se pudo abrir; dato del extracto) | 2026 | https://www.findglocal.com/PE/Independencia/1531265347093747/Feria-Calle-Uno-SAC | Baja |
+| Cuánto cuesta participar por día, fin de semana o mes en MegaPlaza | **No encontrado** | MegaPlaza Independencia | n. a. | n. a. | n. a. | n. a. |
+| Mall Aventura (Santa Anita; no Lima Norte) | «Feria Somos Emprendedores», en la plaza de ampliación del primer nivel. Sin costo ni requisitos en la nota | Otra zona; solo de referencia del formato | Revista Economía | s. f. | https://www.revistaeconomia.com/mall-aventura-santa-anita-inaugura-feria-somos-emprendedores-espacio-de-venta-para-micro-y-pequenos-empresarios/ | Baja |
+| Real Plaza Puruchuco (Ate; no Lima Norte) | «La Placita del Emprendimiento»: 42 emprendedores en 2021; los postulantes se evalúan y se asignan por categoría. Sin tarifa | Otra zona; referencia del formato | Perú Retail (extracto) | 2021 | https://www.peru-retail.com/?p=159013 | Baja |
+| Feria de emprendedores municipal, San Martín de Porres | «Feria emprendedores» el 17-abr-2026, 9:00 a 17:00, Palacio Municipal (Av. Alfredo Mendiola 169). Sin costo, RUC ni forma de inscripción publicados; parece aviso de un solo evento | Municipalidad de SMP | gob.pe (extracto; la página dio 403) | 2026 | https://www.gob.pe/institucion/munisanmartindeporres/campa%C3%B1as/142442-feria-emprendedores | Baja |
+| «Feria de Invierno de Emprendedores» (SMP) | Aviso del 8-jul-2026 de una feria desde un jueves; contenido no leído | Probable SMP | Realidad SM | jul-2026 | https://realidadsm.com/2026/07/08/feria-invierno-emprendedores/ | Baja (solo título) |
+| Plaza Norte: feria o programa para emprendedores | **No encontrado** (solo una feria navideña de 98 stands en 2014, sin tarifas) | Plaza Norte | n. a. | 2014 | n. a. | n. a. |
+| Ferias municipales de Los Olivos, Independencia y Comas | **No encontrado** | Municipalidades | n. a. | n. a. | n. a. | n. a. |
+
+### B. Tarifas de módulos o islas (referencias para comparar con Jockey Plaza)
+
+| Dato | Valor | A qué se refiere | Fuente | Año | URL | Confianza |
+|---|---|---|---|---|---|---|
+| Rango de módulos en centros comerciales | Desde S/500 hasta US$2,500 (≈ S/9,250), según tiempo de alquiler, tipo de mall y ubicación (Carlos Neuhaus, ACCEP) | Centros comerciales del Perú; sin distinguir mall ni periodo | Gestión, 15-sep-2023 | 2023 | https://gestion.pe/economia/mercados/alquiler-de-modulos-en-centros-comerciales-va-en-aumento-precios-y-espacio-ferias-retail-percy-vigil-jose-antonio-contreras-carlos-neuhaus-mega-plaza-open-plaza-accep-asociacion-de-centros-comerciales-y-de-entretenimiento-del-peru-noticia/ | Media (prensa, 3 años) |
+| Precio por m² | S/250 en un mall pequeño de provincia; S/3,000 en un mall de gran circulación de Lima (Percy Vigil, exgerente general de Mega Plaza). Periodo no indicado | Referencia general | Gestión, ídem | 2023 | ídem | Media |
+| Ferias en el mall | Fines de semana o periodos cortos; Vigil: «se paga una renta muy baja por un día». Monto: no publicado | Ferias temporales | Gestión, ídem | 2023 | ídem | Media |
+| Módulo de 4 m² | ≈ US$250 al mes (referencia; «puede variar»); renta fija US$150 a 400 por m²; renta variable 8.5 % a 10 % de las ventas; mantenimiento y publicidad 10 % de la renta fija cada uno; garantía de 1 a 3 rentas | Referencia general de un especialista citado en TikTok | Líbero, 2-dic-2022 | 2022 | https://libero.pe/ocio/curiosidades/2022/12/02/cuanto-cuesta-poner-modulo-en-centro-comercial-mega-plaza-plaza-norte-mall-sur-presupuesto-alquiler-tienda-puesto-local-en-c-c-pe-peru-91347 | Baja (el artículo no da tarifa por mall) |
+| Tarifa específica de Jockey Plaza, MegaPlaza, Plaza Norte o Real Plaza | **No encontrado.** Jockey solo aparece en el pie de foto de Gestión | Cada mall | n. a. | n. a. | n. a. | n. a. |
+
+Cálculo propio sobre lo anterior: US$250 al mes por 4 m² no se puede pasar a soles sin fijar un tipo de cambio, y no lo fijé. Las cifras de arriba sirven para ver el orden de magnitud (cientos de soles por una feria de pocos días a miles al mes por un módulo fijo), no para presupuestar.
+
+### C. Lima Norte, niveles B y C1
+
+Ya están en las secciones 1.1 a 1.3 de este archivo; aquí el resumen con su fuente.
+
+| Dato | Valor | A qué se refiere | Fuente | Año | URL | Confianza |
+|---|---|---|---|---|---|---|
+| Hogares B y C1 en Lima Metropolitana | B 18.4 % (≈ 618,600); C1 26.7 % (≈ 897,700) | Lima Metropolitana | APEIM 2025 (conteo es cálculo propio) | 2025 | https://apeim.com.pe/wp-content/uploads/2025/12/Sintesis-Niveles-socioeconomicos-2025.pdf | Alta el %; Media el conteo |
+| Hogares B y C en Lima Norte | B ≈ 113,000; C ≈ 378,000 (cálculo propio). **C1 de Lima Norte por separado: no encontrado**; APEIM publica solo B y C por zona | Zonas 1 y 2 de APEIM | APEIM 2023-2024 y CPI 2025 | 2023 y 2025 | ver sección 1.3 | Baja (mezcla de dos fuentes) |
+| Estructura por zona | Zona 1 (Puente Piedra, Comas, Carabayllo): B 11.4 %, C 49.8 %. Zona 2 (Independencia, Los Olivos, SMP): B 20.9 %, C 58.7 % | Hogares | APEIM 2023-2024, lámina 17 | 2023 | https://apeim.com.pe/wp-content/uploads/2024/01/APEIM-Informe-de-Niveles-Socioeconomicos-2023-2024-Version-WEB.pdf | Alta (muestra chica) |
+| Ingreso mensual del hogar | B S/6,754; C1 S/4,004 (C S/3,737) | Lima Metropolitana, no Lima Norte | APEIM 2023-2024, lámina 18 | 2023 | mismo | Alta, pero de 2023 |
+| Ingreso medio del hogar de Lima Norte (todos los niveles) | S/4,069 al mes | Zona Ipsos Lima Norte | Ipsos, Perfiles Zonales 2025 | 2025 | https://www.ipsos.com/sites/default/files/ct/publication/documents/2025-09/Perfiles%20Zonales%202025_V3.pdf | Media |
+| Colegios privados en Los Olivos | 591 de 783 colegios activos (75 %); SMP 78 % y Comas 69 % privados (portales comerciales) | Colegios de todos los niveles, no solo inicial y primaria | comoes.pe (padrón ESCALE) y miguiadecolegios.org | 2026 | https://comoes.pe/lima/los-olivos/colegios/ | Baja |
+| Matrícula privada de inicial y primaria por distrito (Los Olivos, Independencia, Comas, SMP) | **No encontrado.** ESCALE la tiene pero no pude consultar el filtro por distrito | n. a. | ESCALE-Minedu | n. a. | https://escale.minedu.gob.pe | n. a. |
+| Colegios privados considerados irregulares por el Minedu, en estos distritos | Independencia 17; Los Olivos 12; SMP 41; Comas 7 (según el extracto del buscador; mayor concentración en SMP). No es el total de colegios privados | Colegios sin autorización | Andina (nota de cierre de 264 colegios; año no identificado) | s. f. | https://andina.pe/ingles/noticia-atencion-conoce-donde-se-ubican-los-264-colegios-que-minedu-cerrara-a-partir-hoy-780828.aspx | Baja |
+| Pensión de colegios privados de Los Olivos | Ranking de colegios: S/720 a 810 al mes (La Cámara, 2025, extracto). Colegio Martín Adán: hasta S/550 (Infobae, 2024). Rango de colegios accesibles de Lima: S/300 a 700 (guía micole, 2026) | Pocos colegios, no un promedio del distrito | La Cámara; Infobae; micole | 2024-2026 | https://www.infobae.com/peru/2024/02/04/los-mejores-y-mas-exclusivos-colegios-del-peru-pensiones-de-mas-de-s1700-y-cuotas-de-ingreso-superiores-a-los-3-mil-dolares/ ; https://www.micole.net/blog/?p=8811 | Baja |
+
+### D. Quioscos escolares: qué dice la norma
+
+| Dato | Valor (texto citado) | A qué se refiere | Fuente | Año | URL | Confianza |
+|---|---|---|---|---|---|---|
+| Ley 30021, art. 6.2 | Los kioscos y comedores brindan «exclusivamente» alimentos y bebidas saludables según el listado del MINSA | Colegios públicos y privados de básica regular | Ley 30021 | 2013 | https://faolex.fao.org/docs/pdf/per123883.pdf | Alta |
+| Reglamento (D. S. 017-2017-SA), art. 9 | «Los quioscos, comedores y cafeterías escolares saludables brindan exclusivamente alimentos y bebidas saludables de acuerdo a los lineamientos que para tal fin establece el Ministerio de Salud.» Deroga la RM 908-2012 (lista de alimentos saludables) | Colegios públicos y privados | Texto del reglamento, leído del PDF | 2017 | https://www.fger.org/wp-content/uploads/2025/07/2_decreto_supre_017_de_alimentacion.pdf | Alta |
+| Reglamento, numeral 3.8 (definiciones) | «Los quioscos escolares brindan exclusivamente alimentos y bebidas saludables en el marco de las normas vigentes del Ministerio de Salud.» | Colegios públicos y privados | Texto del reglamento, leído del PDF | 2017 | https://www.fger.org/wp-content/uploads/2025/07/2_decreto_supre_017_de_alimentacion.pdf | Alta |
+| RM 195-2019/MINSA (aprobación) | Aprueba el documento técnico de lineamientos para instituciones educativas públicas y privadas y deja sin efecto la RM 161-2015/MINSA | Colegios públicos y privados | El Peruano (solo la RM; el anexo no se cargó) | 2019 | https://busquedas.elperuano.pe/dispositivo/NL/1746072-1 | Alta para la RM; el anexo no se leyó aquí |
+| RM 195-2019/MINSA, anexo de alimentos permitidos | Citas: «NO deben tener altos contenidos de azúcar, grasas saturadas, sodio y/o contener grasa trans (Sin Octógonos)»; alimentos o bebidas «no deben tener aditivos como conservantes, saborizantes, colorantes, acidulantes, edulcorantes entre otros»; galletas: «de soda u otra sin cremas y coberturas»; queques: «sin cobertura, ni relleno de cremas»; barras de cereal; leche en envase individual «sin saborizantes artificiales, edulcorantes ni colorantes artificiales» | Quioscos escolares | Educación en Red, que reproduce el anexo | 2019 | https://noticia.educacionenred.pe/2019/03/lista-alimentos-que-podran-venderse-quioscos-escolares-segun-rm-195-2019-minsa-170369.html | Media (transcripción de prensa especializada; no cotejé con el PDF oficial) |
+| Verificación vigente | RM 033-2020/MINSA (criterios de evaluación de quioscos); el Minedu pidió usarla en 2025 | Quioscos | Oficio múltiple MINEDU 00012-2025 | 2025 | ver sección 4.1 | Media |
+
+**Conclusión sobre el eritritol (lectura mía, no texto de la norma):** la norma no nombra el eritritol ni ningún edulcorante en concreto. Lo que sí dice, con las citas de arriba, es que el quiosco vende solo lo que está en la lista del MINSA, que los alimentos de la lista no llevan edulcorantes entre sus aditivos y que no pueden tener octógonos. Un mini brownie envasado con eritritol sin octógono: (1) no aparece en la lista (el más parecido es «queque sin cobertura ni relleno de cremas»), y (2) lleva un edulcorante, que la lista excluye. Por tanto, **con los datos encontrados, no se podría vender en un quiosco escolar**. Lo que no verifiqué es si el MINSA tiene una definición legal de «edulcorante» que excluya los polioles ni si algún colegio privado tiene una excepción. Antes de decidirlo, hay que pedir confirmación escrita a la DIRESA/DIGESA o a la UGEL.
+
+**Margen o comisión del quiosco escolar:**
+
+| Dato | Valor | A qué se refiere | Fuente | Año | URL | Confianza |
+|---|---|---|---|---|---|---|
+| Cuánto cobra un quiosco escolar de Lima | **No encontrado.** El esquema que aparece (colegio San Agustín, bases de 2023) es una cuota mensual fija de concesión, con IGV, que cubre el alquiler más luz y agua; el monto no pude leerlo (la página dio 404) | Concesión de quiosco en un colegio privado | Bases del colegio, vía buscador | 2023 | https://sanagustin.edu.pe/wp-content/uploads/2023/05/CONCESION-DEL-SERVICIO-DE-QUIOSCO-2023.pdf | Baja |
+| Comisión de un mall (no escolar) | 8 % a 8.5 % de la venta con un mínimo por m², se cobra el mayor | Local en mall; solo de contraste | Perú Retail | s. f. | https://www.peru-retail.com/que-tener-cuenta-abrir-local-mall/ | Baja |
+
+### No encontrado
+
+- Tarifa por día, fin de semana o mes de un espacio de emprendedores en MegaPlaza Independencia, y sus requisitos (RUC, registro sanitario, medidas) y cómo postular a un espacio de venta. Solo hay evidencia de un encuentro gratuito sin stands (2025) y de una feria con 8 emprendedores (2021).
+- Frecuencia de las ferias de emprendedores de MegaPlaza.
+- Todo lo de Plaza Norte; Mall Aventura y Real Plaza en Lima Norte (lo hallado es de Santa Anita y Ate).
+- Ferias de emprendedores municipales de Los Olivos, Independencia y Comas; requisitos y costo de la de San Martín de Porres.
+- Tarifas por mall (MegaPlaza, Plaza Norte, Jockey Plaza) y por periodo; solo hay rangos generales de prensa de 2022-2023.
+- Hogares C1 de Lima Norte (APEIM no lo separa por zona) y APEIM 2025 por zona.
+- Número de colegios privados y matrícula de inicial y primaria por distrito (ESCALE no se pudo consultar) y un promedio de pensión por distrito.
+- Texto oficial completo del anexo de la RM 195-2019/MINSA y definición de «edulcorante» en la norma.
+- Margen o cuota que cobra un quiosco escolar en Lima.
