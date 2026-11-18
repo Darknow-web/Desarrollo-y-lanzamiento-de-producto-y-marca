@@ -58,7 +58,7 @@ Todo sale del Excel v7 recalculado en copias. Las tres empresas para el B compar
 | Unidades del año (supuesto) | 30,239 | 39,830 | 26,296 | 40,356 |
 | Ventas con IGV | S/50,545 | S/61,578 | S/87,371 | S/169,181 |
 | Equilibrio | Hoy no existe; con costo objetivo, 4,900 al mes | Hoy no existe; con objetivo, 19,600 al mes | Con objetivo, 1,700 al mes | 2,579 al mes |
-| Inversión | S/24,968 sin préstamo | S/24,782 a S/26,520 | S/26,170 a S/28,269 | S/37,603, con S/13,000 de préstamo |
+| Inversión | S/24,968 con el costo objetivo (S/26,706 con el costo de hoy), sin préstamo | S/24,782 a S/26,520 | S/26,170 a S/28,269 | S/37,603, con S/13,000 de préstamo |
 | Resultado del año 1, hoy / objetivo | **−S/28,400 / −S/12,887** | −S/34,409 / −S/11,616 | −S/15,851 o −S/6,187 / +S/4,010 | +S/9,070 / +S/14,123 |
 | Evidencia real | Sabor y precio (focus 2); hábitos (entrevistas) | La misma; nadie preguntó por quiosco ni bodega con el producto | El tamaño no lo probó nadie | Ninguna |
 | Riesgo principal | Vender bajo costo | Lo mismo, con más volumen y crédito a tiendas | Que la planta cobre por kilo y no por unidad | Que el A y el B1 no compren: nadie les preguntó |
@@ -248,3 +248,52 @@ Para repetir la cuenta de E1 en el Excel: Supuestos B10 = 0.25; B20 y B22 = 0.36
 | 5 | Documento 08, Gantt, `Presupuesto-marketing-AndiBite.xlsx` |
 | 7 | Documentos 06 y 10, `CAMPANA-lo-que-nadie-ve.md`, videos, piezas de Angie, `assets/empaque/` |
 | 8 | Bases del concurso, documento 09, plan social de Expoinnova, pitch en video |
+
+## 11. Escenario Lima Norte B y C1: MegaPlaza, quioscos y bolsa a S/20
+
+Propuesta de Carlos Inga, corrida en 144 copias del Excel v7 con la estructura de E1 (sin personal pagado, sin gasto de app, fijos de S/1,165 al mes, ventas de marzo a diciembre de 2027, sin préstamo). Mientras el equipo no apruebe, valen las secciones 0 a 10.
+
+**Supuestos (ninguno medido).** Un stand en MegaPlaza los fines de semana (94 días en el año), atendido por los socios, que vende solo bolsas de 6. El volumen de E1 son 30,239 minis: **54 bolsas por día de stand**; la mitad, 27. El único ritmo de stand que trae el Excel v7 es de 14 bolsas por día (80 a 90 minis). Quiosco: las 9,165 unidades de los 5 colegios del v7, con 20 % para el quiosco. **Caso central: alquiler de S/600, costo de hoy y sin quiosco.** Uso S/600 porque es lo que el Excel ya paga por punto y queda apenas sobre el piso de la única referencia (S/500 a US$2,500 por módulo, Gestión, 2023); S/300 está debajo de ese piso.
+
+En las celdas dobles: volumen de E1 / la mitad. Las seis primeras filas son el caso central.
+
+| Escenario | Recibe por mini, sin IGV | Queda por mini tras producir y cobrar | Equilibrio al mes: minis · bolsas · bolsas por día de stand | Resultado del año 1 | Caja más baja |
+|---|---|---|---|---|---|
+| S/10, costo de hoy | S/1.41 | −0.55 / −0.79 | No existe | −S/36,747 / −S/31,913 | −S/33,673 / −S/29,615 |
+| S/10, costo objetivo | S/1.41 | −0.03 / −0.26 | 13,078 · 2,180 · 232 | −S/20,818 / −S/23,949 | −S/16,007 / −S/19,913 |
+| S/15, costo de hoy | S/2.12 | +0.12 / −0.12 | 7,640 · 1,273 · 136 | −S/16,361 / −S/21,720 | −S/13,287 / −S/19,422 |
+| S/15, costo objetivo | S/2.12 | +0.65 / +0.41 | 3,073 · 512 · 55 | −S/432 / −S/13,756 | +S/1,832 / −S/9,720 |
+| **S/20, costo de hoy** | S/2.82 | +0.79 / +0.56 | 2,633 · 439 · **47** | **+S/4,025 / −S/11,527** | +S/94 / −S/9,229 |
+| S/20, costo objetivo | S/2.82 | +1.32 / +1.09 | 1,741 · 290 · 31 | +S/19,953 / −S/3,563 | +S/1,832 / +S/77 |
+| S/20, costo de hoy, alquiler S/300 | S/2.82 | +0.79 / +0.56 | 2,341 · 390 · 42 | +S/7,025 / −S/8,527 | +S/94 / −S/6,229 |
+| S/20, costo de hoy, alquiler S/1,200 | S/2.82 | +0.79 / +0.56 | 3,216 · 536 · 57 | −S/1,975 / −S/17,527 | +S/87 / −S/15,229 |
+| S/20, costo de hoy, más quiosco a S/2.00 | S/1.36 la unidad | −0.44 / −0.62 la unidad | 2,866 · 478 · 51 | +S/1,620 / −S/12,729 | +S/273 / −S/10,071 |
+| S/20, costo de hoy, más quiosco a S/3.00 | S/2.03 la unidad | +0.23 / +0.05 la unidad | 2,268 · 378 · 40 | +S/7,772 / −S/9,654 | +S/273 / −S/6,995 |
+| S/20, costo de hoy, más quiosco a S/3.50 | S/2.37 la unidad | +0.56 / +0.38 la unidad | 1,969 · 328 · 35 | +S/10,847 / −S/8,116 | +S/273 / −S/5,458 |
+
+El equilibrio es el promedio de los 10 meses de venta que deja el año en cero, comprobado en el Excel. A cualquier precio de bolsa, S/300 de alquiler suma S/3,000 al resultado y S/1,200 resta S/6,000; con el costo objetivo el quiosco suma S/1,878, S/8,029 y S/11,105. Al ritmo del v7, S/20 da −S/18,861 con el costo de hoy y −S/14,652 con el objetivo.
+
+**Lo que dicen las cuentas**
+
+- A S/10 el stand es peor que E1 (−S/36,747 frente a −S/28,400): paga alquiler y degustación.
+- S/15 no es un punto medio seguro: pide 136 bolsas por día con el costo de hoy y 55 con el objetivo.
+- S/20 es el único precio con salida: 47 bolsas por día con el costo de hoy y 31 con el objetivo. La mejora viene del precio, no de MegaPlaza.
+
+**Si el quiosco no se puede usar.** Es lo probable: el anexo de la norma, transcrito por una fuente secundaria, excluye los edulcorantes (lectura del investigador, por confirmar con la DIRESA o la UGEL). Por eso el caso central no lo cuenta: se dejan de ganar hasta S/6,822 al año y la unidad se queda sin canal. Cambiar el endulzante no lo arregla: la panela ahorra S/0.11 pero trae octógono, que la misma norma excluye; otro edulcorante cae en la misma regla; endulzar solo con fruta es otra receta, que nadie probó ni costeó. Y con la bolsa a S/20 (S/3.33 el mini) solo cabe la unidad a S/3.50.
+
+**El choque del S/20**
+
+- **Dato:** 8 mamás B dijeron S/10, unánime y con el producto en la mano (peso alto); la paridad por gramo con un brownie normal da S/9.34 a S/10 (góndola). S/20 son S/16.67 por 100 g: el doble, y lo que cuestan Nutri H o Siete Dragones en supermercado. Nadie registró desde qué precio les parece caro.
+- **Apuesta:** que el B y el C1 paguen ese doble, que un stand venda 31 a 47 bolsas por día y que el espacio cueste S/600. El C1 no ayuda al precio: su hogar ingresa S/4,004 al mes frente a S/6,754 del B (APEIM 2023, Lima Metropolitana).
+- **Cuándo se sabe:** solo vendiendo, y antes de la primera bolsa ya salieron unos S/20,300 de los S/25,000.
+
+### Decisión 9. La vía MegaPlaza a S/20, con dos condiciones
+
+- **Qué se decide:** a igual precio no es mejor que E1; es la única vía con salida, solo a S/20 y sin contar el quiosco. Se lanza por aquí solo si al 18 de diciembre hay cotizaciones que dejen el costo en S/1.11 por mini o menos y un alquiler escrito de S/600 o menos. Con el costo de hoy, no.
+- **Qué cambia:** si el equipo la aprueba, reemplaza las decisiones 2, 3 y 5: la puerta pasa de S/0.83 a S/1.11, que sí se puede armar. Se cambia un precio medido por uno apostado.
+- **Por qué y números:** Excel (peso alto): a S/10 no hay empresa en ningún canal. A S/20 con costo objetivo, vender la mitad del volumen de E1 pierde S/3,563 y la caja no baja de cero.
+- **Riesgo:** que casi nadie pague S/20: a 14 bolsas por día se pierden S/14,652 en el año.
+- **Cómo y cuándo se comprueba:** bolsas por día en los cuatro primeros fines de semana de marzo de 2027.
+- **Me retracto si:** con 31 bolsas por día o más, se queda S/20. Entre 16 y 30, cuatro fines de semana más. Con menos de 16, se baja a S/15 por cuatro fines de semana; como S/15 pide 55 bolsas por día, es la última prueba y no un arreglo: si no llega, el stand cierra al terminar el lote. Nunca S/10: pide 232.
+
+**Celdas cambiadas sobre las de E1 (sección 8).** Supuestos: B57 = 300, 600 o 1,200; C40 = 10, 15 o 20; C48 = 1 y B48, D48 y E48 = 0; B65 = 0; B43 = 1.60, 2.40 o 2.80; B51 = 1; C35 = 0. Mensual: fila 5 = 1 de marzo a diciembre; fila 7 = 321.7 (160.8 con la mitad); filas 8, 9 y 11 en cero; fila 10 como en el v7 (la mitad, o cero sin quiosco). Inversion: B47 = 0; B32 = 3,000 minis al costo del escenario. No están contados la póliza (S/600), la garantía del mall ni un exhibidor. Entregables: los de las decisiones 2, 3 y 5 (sección 10).
