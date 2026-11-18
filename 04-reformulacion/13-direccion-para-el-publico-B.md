@@ -297,3 +297,58 @@ El equilibrio es el promedio de los 10 meses de venta que deja el año en cero, 
 - **Me retracto si:** con 31 bolsas por día o más, se queda S/20. Entre 16 y 30, cuatro fines de semana más. Con menos de 16, se baja a S/15 por cuatro fines de semana; como S/15 pide 55 bolsas por día, es la última prueba y no un arreglo: si no llega, el stand cierra al terminar el lote. Nunca S/10: pide 232.
 
 **Celdas cambiadas sobre las de E1 (sección 8).** Supuestos: B57 = 300, 600 o 1,200; C40 = 10, 15 o 20; C48 = 1 y B48, D48 y E48 = 0; B65 = 0; B43 = 1.60, 2.40 o 2.80; B51 = 1; C35 = 0. Mensual: fila 5 = 1 de marzo a diciembre; fila 7 = 321.7 (160.8 con la mitad); filas 8, 9 y 11 en cero; fila 10 como en el v7 (la mitad, o cero sin quiosco). Inversion: B47 = 0; B32 = 3,000 minis al costo del escenario. No están contados la póliza (S/600), la garantía del mall ni un exhibidor. Entregables: los de las decisiones 2, 3 y 5 (sección 10).
+
+## 12. Plan B1 en toda Lima: unidad más grande en colegios
+
+**Si el equipo la aprueba, la decisión 10 reemplaza a las decisiones 2, 3 y 9, y cambia el tamaño de la 4 y la zona de la 1; las demás siguen.** Plan de Carlos Inga, corrido en 196 copias del Excel v7 con la estructura de E1. Con el costo objetivo, agrandar la unidad lleva el año de −S/12,887 a +S/835; con el costo de hoy pierde S/18,190 y no se lanza.
+
+**Supuestos al crecer (ninguno cotizado).** Sangrecita fija por unidad (S/0.275; objetivo S/0.073); masa según el peso (S/0.33 por 20 g; S/0.27); maquila por kilo (S/22.50; S/15); bolsita a S/0.09 hasta 30 g y S/0.10 desde 35 g (S/0.06 y S/0.07); etiqueta de la unidad suelta a S/0.25 (S/0.15); merma de 5 %; control de calidad y transporte, S/7,100 al año entre 26,296 unidades (familias y eventos de E1, con bolsa de 5).
+
+| Tamaño | Costo de la unidad suelta: hoy / objetivo | Paridad a S/7.78 y S/8.33 por 100 g | Plus de 10, 20 y 30 % sobre S/7.78 | Precio redondo (por 100 g) | Recibe: directo; con 20 % | Queda directo: hoy / objetivo | Queda con 20 %: hoy / objetivo | Año 1: hoy / objetivo |
+|---|---|---|---|---|---|---|---|---|
+| 20 g | 1.78 / 1.20 | 1.56; 1.67 | 1.71; 1.87; 2.02 | S/2.00 (10.00) | 1.69; 1.36 | −0.26 / +0.32 | −0.53 / +0.04 | −22,201 / −7,937 |
+| 25 g | 1.98 / 1.35 | 1.95; 2.08 | 2.14; 2.33; 2.53 | S/2.50 (10.00) | 2.12; 1.69 | −0.06 / +0.57 | −0.40 / +0.23 | −17,782 / −1,702 |
+| 30 g | 2.18 / 1.50 | 2.33; 2.50 | 2.57; 2.80; 3.03 | S/2.50 (8.33) | 2.12; 1.69 | −0.26 / +0.42 | −0.61 / +0.08 | −23,166 / −5,614 |
+| 30 g | — | — | — | S/3.00 (10.00) | 2.54; 2.03 | +0.14 / +0.83 | −0.27 / +0.41 | −12,529 / +5,022 |
+| **35 g** | **2.40 / 1.66** | 2.72; 2.92 | 3.00; 3.27; 3.54 | **S/3.00 (8.57)** | 2.54; 2.03 | −0.07 / +0.67 | −0.49 / +0.25 | **−18,190 / +835** |
+| 40 g | 2.60 / 1.81 | 3.11; 3.33 | 3.42; 3.73; 4.05 | S/3.50 (8.75) | 2.97; 2.37 | +0.13 / +0.92 | −0.36 / +0.44 | −12,937 / +7,559 |
+
+Soles por unidad, sin IGV salvo los precios. «Directo» paga Yape, renta y S/0.10 de entrega. El año supone unidad y bolsa de 5 al mismo precio por unidad.
+
+**Elijo 35 g a S/3.00; la bolsa de 5, S/15.** A igual precio por gramo, cada 5 g más suman de S/2,600 a S/5,000 al año. 35 g es lo más grande que cabe en S/3.00 a paridad (S/7.78 más 10 %; 3 % sobre los mini). 30 g a S/3.00 da S/4,187 más solo si vende igual con un precio por gramo 20 % mayor que el medido. 40 g a S/3.50 da S/6,724 más solo si la pieza más cara vende igual, y lleva hasta 5.8 g de eritritol (un niño de 16 kg tolera 8 g al día; a 35 g son 5.1 g: una al día). No cambian el azúcar por 100 g ni los 1.9 mg de hierro por unidad, por confirmar en laboratorio.
+
+**El plus de la app no se cobra.** Ninguna persona real la usó; en la simulación la abrirían una vez. Cuesta S/5,000 en el año 1 más S/0.04 por código: S/0.27 en el precio de cada unidad, 9 % sin un dato detrás. El 10 % que sí se cobra es lo que el mercado ya paga por el formato mini, y se atribuye a lo que está en la bolsa: sin octógonos y hierro medido.
+
+**El quiosco no es el canal principal.** Todo por unidad con 20 % para el quiosco pierde aun con el costo objetivo y pide 35 unidades por colegio y día: al ritmo del v7 (10 al día) son 21 colegios, cada uno aceptando por escrito un producto con eritritol que la norma probablemente excluye.
+
+- **(a) Receta sin edulcorante: no para lanzar.** En el papel se puede: la receta Andi sin eritritol queda en unos 6.7 g de azúcar por 100 g (cálculo propio). Pero sería menos de la mitad de dulce que con panela (14.7 g), y la vainilla y el polvo de hornear también contarían como aditivos. Ahorra S/0.21 por unidad y, aun así, todo por quiosco da −S/4,808 con el costo objetivo. Nadie la probó y ya no se puede probar.
+- **(b) Junto al colegio, fuera del quiosco: la tomo.** Pedidos del salón por WhatsApp con entrega en la puerta, y kermeses. Bodegas y tiendas de conveniencia, no: sin datos de margen; con 25 a 35 % quedan de +S/0.13 a −S/0.12 por unidad.
+- **(c) Quiosco donde un colegio privado lo acepte por escrito: solo como extra y con el costo objetivo.** No entra en la cuenta.
+
+**El mercado.** B: 618,600 hogares; B1: 164,700; B2: 453,900 (APEIM 2025, multiplicación propia). No hay conteo de los que tienen hijos de 4 a 11 ni de dónde vive el B1. El plan necesita 150 familias que pidan cada semana en octubre: el límite son cinco socios sin sueldo. «Toda Lima» empieza en **6 colegios privados**, uno por socio más el del focus 2: 3 de la zona 6 (51.7 % de hogares B) y 3 de Los Olivos y San Martín de Porres (20.9 %), con pensión de S/700 a S/1,200 (referencia no oficial; ningún dato une pensión con B1).
+
+**Números del año 1** (soles; hoy / objetivo)
+
+| Vía | Unidades | Ventas con IGV | Equilibrio al mes | Inversión | Resultado | Con la mitad del volumen | Caja más baja |
+|---|---|---|---|---|---|---|---|
+| **Elegido: 35 g a S/3.00, directo** | 26,296 | 78,888 | no existe / 2,539 (22 por colegio y día de clases) | 26,509 / 24,922 | **−18,190 / +835** | −20,789 / −11,278 | −14,919 / +1,191 |
+| Como lo propone Carlos: todo por quiosco | 26,296 | 63,110 | no existe / 4,021 (35 por colegio y día) | 26,597 / 24,968 | −26,758 / −7,293 | −23,919 / −14,186 | −23,575 / −2,482 |
+| E1: mini a S/10 | 30,239 | 50,545 | no existe / 6,734 | 26,706 / 24,968 | −28,400 / −12,887 | −25,894 / −18,138 | −25,327 / −8,076 |
+| MegaPlaza a S/20 | 30,239 | 100,797 | 2,633 / 1,741 | 26,706 / 24,968 | +4,025 / +19,953 | −11,527 / −3,563 | +94 / +1,832 |
+| A y B1 a S/24.90 | 40,356 | 169,181 | 2,579 / 2,283 | 37,603, con S/13,000 prestados | +9,070 / +14,123 | no calculado | +3,841 / +4,101 |
+
+Equilibrio con el método de la sección 11 (E1 da 6,734, no los 4,900 de la sección 3); 6 colegios y 19 días de clases al mes; la fila de A y B1 viene del documento 11. Con media maquila cobrada por unidad, el plan da −S/13,530 y +S/3,941.
+
+### Decisión 10. Unidad de 35 g a S/3.00, venta directa en 6 colegios, con puerta de costo
+
+- **Qué se decide:** papá y mamá de nivel B, con foco en el B1, en 6 colegios privados. Brownie de 35 g con la receta sin octógono de hoy y la misma sangrecita (1.9 mg de hierro, medido en cada lote). S/3.00 la unidad y S/15 la bolsa de 5. Pedidos del salón y kermeses; quiosco solo como extra; sin plus por la app. Costo objetivo: **S/1.65 por unidad** (hoy S/2.36). Se lanza en marzo de 2027 solo si al 18 de diciembre hay cotizaciones escritas que den ese costo y la planta confirma que hornea piezas de 35 g.
+- **Qué cambia:** salen el mini de 20 g (y la palabra «mini»), la bolsa de 6 a S/10 y MegaPlaza. La puerta pasa de S/0.83, que no se alcanzaba, a S/1.65, que pide las cuatro cotizaciones; la que más pesa es la maquila (S/0.79 hoy; debe bajar a S/15 por kilo).
+- **Por qué y con qué evidencia:** Excel (peso alto): +S/835 contra −S/12,887 de E1, sin apostar al doble del precio (MegaPlaza) ni a un público sin datos (A y B1). Dato real (alto): las 8 mamás B no notaron la sangrecita y pagan S/8.33 por 100 g. Lectura del equipo (medio): comparan por gramo; el B1 pagaría algo más. Apuesta: el tamaño (nadie probó 35 g, ni su horneado ni su vida útil), la bolsa de S/15 frente a los S/10 medidos, el volumen, las cuatro cotizaciones, el quiosco y el plus.
+- **Números:** tabla de arriba. Inversión de S/24,922, sin préstamo, con 2,000 unidades de stock inicial.
+- **Riesgo:** con todo a favor queda en cero, no gana. Con la mitad del volumen pierde S/11,278 y la caja baja a −S/7,014.
+- **Cómo y cuándo se comprueba:** mandan las ventas. Al 30 de abril el plan pide 16 unidades por colegio y día (60 bolsas por semana entre los seis) y 150 por kermés. La primera factura de la planta da el costo real.
+- **Me retracto si:** las cotizaciones no dan S/1.65: no se lanza. En abril hay menos de 8 unidades por colegio y día, o repiten menos de 3 de cada 10 familias de marzo: se termina el lote y se cierra. No se arregla bajando a S/2.50: pide 78 % más unidades. Solo con 22 o más por colegio y día en junio se pasa a 10 colegios. Si el primer lote cuesta más de S/1.85, el año pierde unos S/4,700: se renegocia antes del segundo.
+
+**Celdas cambiadas sobre las de E1 (sección 8).** Supuestos: B6 = 0.33 × gramos ÷ 20 + 0.275 (objetivo: 0.267 y 0.073); B7 = 0.45 × gramos ÷ 20 (0.30); B9 = 0.09 o 0.10 (0.06 o 0.07); B10 = 0.25 (0.15); B19 = 0.70 (0.45); B20 = 0.36 (0.20); B12 = 5,500 y B13 = 1,600 entre 26,296; B41 = 3.00; C41:C43 = 15; D41:D43 = 0; C50:C51 = 1; D50:D51 = 0. Costeo: C5 = 5. Mensual: fila 10 = 3,943 bolsas por 5. Inversion: B32 = 2,000 unidades al costo del escenario. Quiosco, en la fila de naturistas: B44 = 2.40; B52 = 1; B36 = 0.10; C36 = 0.
+
+**Por pedir al investigador:** pensión y alumnos de 20 colegios privados de esas zonas y respuesta escrita de la UGEL sobre el eritritol. **Entregables por actualizar:** los de las decisiones 1 a 5 y el documento 01.
