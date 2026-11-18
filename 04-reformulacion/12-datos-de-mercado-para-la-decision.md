@@ -518,3 +518,128 @@ Notas: el cuadro habla de «alimentos sólidos»; el reglamento dice «por 100 g
 1. **¿Entra al quiosco un brownie con eritritol?** Con el texto oficial, **probablemente no**: la lista permite solo «queques sin cobertura, ni relleno de cremas», y las «Consideraciones generales» excluyen «edulcorantes» entre los aditivos; además un brownie industrial envasado cae cerca de las definiciones de «bizcochos» y «productos horneados» del Anexo 3.
 2. **¿Qué tendría que cumplir una receta?** Sin octógonos (por 100 g: azúcar total menos de 10 g, grasa saturada menos de 4 g, sodio menos de 400 mg, sin grasa trans industrial), sin cobertura ni relleno, sin aditivos ni edulcorantes en la lista de ingredientes (endulzar solo con fruta, por ejemplo, y revisar el azúcar total), con registro sanitario y fecha de vencimiento vigentes, y con el visto bueno por escrito de la DIRIS/DIGESA o la UGEL del colegio.
 3. **¿Qué tan seguro es?** Confianza **media-alta** en el texto y los umbrales (leídos del original), **media** en que no exista una norma posterior, y **baja** sobre el eritritol (la norma no lo nombra) y sobre mercado, márgenes y tiendas de conveniencia (sin datos publicados).
+
+
+## Postres de quiosco y brownies artesanales y saludables
+
+Consulta del 18-nov-2026. Los precios de supermercado salen de la API de catálogo de plazavea.com.pe y wong.pe (la misma que alimenta la página), con IGV incluido; los de tiendas propias, de sus webs (Shopify o WooCommerce) o de las fichas de Rappi. Precio por 100 g = precio ÷ gramaje × 100. «n.e.» = no encontrado en la ficha. «Cálculo propio» = hecho aquí con datos de la ficha, no publicado por la marca. «Octógonos» en supermercados es el campo de la ficha (tipodeoctogono u Octogonos); si la ficha no tiene el campo, figura «sin campo» (no prueba que no lo lleve). No se estimó ningún dato que no esté publicado.
+
+### 1. Queques y horneados envasados que circulan en quioscos (ficha de supermercado)
+
+Nota previa: no hay lista pública de lo que se vende en los quioscos de colegios privados de Lima. Esta tabla es de lo que compite en el mismo tipo de producto, no de lo que se confirmó en un quiosco. Karinto en las tres cadenas solo tiene maní y chifles (sin queques). Vida Sana, Renacer, Kiwicha pop e Inka Crops: no encontrados en las búsquedas de catálogo.
+
+| Producto | Canal | Gramaje | Precio (S/) | Por 100 g (S/) | Endulzante / azúcar declarada | Octógonos | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|---|---|---|
+| Keke Casero Marmoleado Bimbo | Plaza Vea | 340 g | 10.90 | 3.21 | Azúcar es el primer ingrediente; 14 g de azúcares por porción de 56.6 g = 24.7 g por 100 g (cálculo propio) | Azúcar y grasas saturadas (ficha de Wong) | https://www.plazavea.com.pe/keke-casero-marmoleado-bimbo-bolsa-340g-20571324/p | 18-nov-2026 | Alta |
+| Keke Nito Bimbo Max | Plaza Vea | 60 g | 2.00 | 3.33 | Ingredientes n.e. | Alto en azúcar, alto en grasas saturadas | https://www.plazavea.com.pe/keke-nito-bimbo-max-bolsa-60g/p | 18-nov-2026 | Alta (precio y octógonos); n.e. endulzante |
+| Keke de Naranja Bell's | Plaza Vea | 380 g | 7.50 | 1.97 | Azúcar por porción 8 g en 9 porciones de ≈42 g = ≈19 g por 100 g (cálculo propio); ingredientes n.e. | Alto en azúcar, alto en grasas saturadas | https://www.plazavea.com.pe/keke-de-naranja-bells-bolsa-380g/p | 18-nov-2026 | Alta |
+| Bizcocho Costa Pokeke (relleno de manjar) x6 | Plaza Vea | 198 g (≈33 g c/u) | 4.00 | 2.02 | n.e. | Alto en azúcar, alto en grasas saturadas | https://www.plazavea.com.pe/bizcocho-costa-pokeke-paquete-6un/p | 18-nov-2026 | Alta |
+| Kekito PYC Vainilla | Plaza Vea | 90 g en el título; 95 g en «contenido neto» | 3.50 | 3.68 (con 95 g) | n.e. | Alto en azúcar, alto en grasas saturadas | https://www.plazavea.com.pe/kekito-pyc-vainilla-bolsa-90g/p | 18-nov-2026 | Media (dos gramajes en la ficha) |
+| Galletas Field Vainilla | Plaza Vea | 136 g | 3.00 | 2.21 | Azúcar y jarabe de azúcar invertido; 8 g de azúcares por porción (porción n.e.) | Alto en azúcar, alto en grasas saturadas | https://www.plazavea.com.pe/galletas-field-vainilla-bolsa-136g-20632411/p | 18-nov-2026 | Alta |
+| Galletas integrales con kiwicha Unión | Wong | 195 g | 6.50 (Plaza Vea: 5.70) | 3.33 (Plaza Vea: 2.92) | n.e. | Azúcar | https://www.wong.pe/galletas-integrales-con-kiwicha-uni-n-195g-57233006/p | 18-nov-2026 | Alta |
+| Galletas integrales Costa con salvado x6 | Plaza Vea | 222 g | 5.50 | 2.48 | n.e. | Alto en sodio (no lleva octógono de azúcar) | https://www.plazavea.com.pe/galletas-integrales-costa-con-salvado-de-trigo-paquete-6un/p | 18-nov-2026 | Alta |
+| Keke de chocolate Mr. Brownies | Plaza Vea | 200 g | 13.50 | 6.75 | n.e. | Sin campo | https://www.plazavea.com.pe/keke-de-chocolate-mr--brownies-bolsa-200g-20571664/p | 18-nov-2026 | Media |
+| Keke vegano de zanahoria Yöy | Wong | 275 g | 19.90 | 7.24 | n.e. | Azúcar y grasas saturadas | https://www.wong.pe/keke-vegano-de-zanahoria-y-y-275g-1013442/p | 18-nov-2026 | Alta |
+| Keke de manzana y canela «No Sugar» Coco-Sugar | Wong | 472 g | 39.50 | 8.37 | «No Sugar» en el nombre; endulzante n.e. en la ficha | **Azúcar** (lleva octógono pese al nombre) | https://www.wong.pe/keke-de-manzana-canela-no-sugar-472g-1025814/p | 18-nov-2026 | Media |
+| Galletas con quinua +Nutri Co x6 | Plaza Vea | 180 g | 14.90 | 8.28 | Ingredientes n.e. | Sin campo | https://www.plazavea.com.pe/galletas-con-quinua-y-manzana-nutri-co-caja-6un/p | 18-nov-2026 | Media |
+| Galletas Santiveri Cacao «0% azúcar» | Plaza Vea | 200 g | 19.10 | 9.55 | «0% azúcar»; endulzante n.e. | Sin campo | https://www.plazavea.com.pe/galletas-santiveri-cacao-bolsa-200g/p | 18-nov-2026 | Media |
+| Muffin La Casa Marimiel (arándanos, coco, chocolate, plátano) | Plaza Vea | 60 g | 6.90 | 11.50 | **Glucósidos de esteviol (stevia, SIN 960)**; harina de trigo integral y de quinua; 2 g de azúcares por porción (porción n.e.) | Sin campo | https://www.plazavea.com.pe/muffin-la-casa-marimiel-sabor-a-chocolate-vaso-60g/p | 18-nov-2026 | Alta (ingredientes); media (octógonos) |
+| Mini Brownie Nutra Bien (Bimbo) x6 | Plaza Vea | 180 g | 15.00 (agotado) | 8.33 | Azúcar primer ingrediente; 10 g de azúcares por porción (porción n.e.) | Sin campo | https://www.plazavea.com.pe/mini-brownie-nutra-bien-bimbo-180g-paquete-6un/p | 18-nov-2026 | Media (agotado) |
+
+Lectura: todos los queques y bizcochos industriales de la lista se endulzan con azúcar y llevan octógono de azúcar o de grasas saturadas. Las dos excepciones con edulcorante no calórico son el muffin de Marimiel (stevia) y las galletas «0% azúcar» de Santiveri (endulzante no declarado en la ficha).
+
+### 2. Qué se vende y cómo, por colegio u operador
+
+| Dato | Valor | Fuente | URL | Fecha | Confianza |
+|---|---|---|---|---|---|
+| Innova Schools Perú: quién opera sus quioscos o cafeterías, carta, precios, gramaje | **No encontrado.** La web peruana (innovaschools.edu.pe, revisada el 18-nov-2026, sitemap actualizado el 17-nov-2026) no menciona kiosco, cafetería, concesionario ni lonchera; tampoco su Reglamento Interno 2022 en los fragmentos accesibles | innovaschools.edu.pe | https://www.innovaschools.edu.pe/ | 18-nov-2026 | Alta para la ausencia en la web; no prueba que no exista el servicio |
+| Innova Schools Colombia: «Innova Eats», «Servicio de alimentación by Innova Schools», con tienda escolar («Alternativas ricas y saludables para todos los gustos»), pago por la app PayGo | Es la web de Colombia, no de Perú; sin carta, sin precios de tienda, sin queques ni edulcorantes. No se puede extrapolar a Lima | innovaschools.edu.co | https://www.innovaschools.edu.co/innova-eats-1 | 18-nov-2026 | Alta para lo dicho; no aplica a Perú |
+| Markham, Newton, San Silvestre, Pamer, Trilce, Saco Oliveros, Santa María: carta de quiosco | **No encontrado** (búsquedas web sin resultado) | n. a. | n. a. | 18-nov-2026 | n. a. |
+| Sodexo, Aramark, APC, Liderman Alimentos: carta escolar | **No encontrado.** Solo hay notas corporativas de Sodexo Perú sin colegios | n. a. | n. a. | 18-nov-2026 | n. a. |
+| Lima Café 28 (concesionaria de alimentos para colegios, entre ellos Nordic en Villa y St. George's): menú mensual con precio de referencia de S/15.75 por menú | Es menú de almuerzo, sin postres con gramaje ni endulzante | Lima Café 28 (extracto del buscador; no abrí la página) | https://limacafe28.com/ | s. f. | Baja |
+| Colegio no identificado (dominio ssccaqp.edu.pe, probablemente de Arequipa): propuesta de «Bon Appetit», menú S/13.00 con entrada, fondo, postre y refresco | No es Lima ni quiosco; solo muestra que el postre se vende dentro de un menú | Propuesta en ssccaqp.edu.pe | https://www.ssccaqp.edu.pe/wp-content/uploads/2024/03/Propuesta-Comedor-Cafeteria-Bon-Appetit.pdf | 2024 | Baja (ciudad y colegio sin confirmar: ver nota) |
+| PUCP, tesis de prefactibilidad de una concesionaria de quioscos saludables para colegios de Lima Metropolitana: «no existe alguna concesionaria de quiosco que expenda productos a base de alimentos saludables» (cita del extracto) | Sin precios ni carta; fecha de la tesis n.e. | Extracto del buscador (la página bloqueó la descarga) | https://tesis.pucp.edu.pe/bitstreams/1cdecaab-1ca2-4d7d-a487-872769c90269/download | n.e. | Baja |
+| Colegio San Agustín (privado, Lima), bases de concesión del quiosco 2023: modalidad de concesión sin relación laboral; el servicio debe ofrecer alimentación libre de octógonos, de elaboración propia y saludable; cuota mensual de concesión con IGV (monto no leído) | Extracto del buscador; el PDF dio 404 | https://sanagustin.edu.pe/wp-content/uploads/2023/05/CONCESION-DEL-SERVICIO-DE-QUIOSCO-2023.pdf | may-2023 | Baja |
+| Colegio La Merced (Lima), bases 2019: el concesionario tiene «exclusividad» de expendio de desayunos, menús y cualquier alimento elaborado en el colegio; precios en una «lista de venta» (la lista no está en el texto) | Extracto del buscador; el PDF no cargó | https://colegiolamerced.pe/wp-content/uploads/2019/02/BASES-PARA-LICITACI%C3%93N-DE-COMEDOR-Y-KIOSKO-ESCOLAR-1.pdf | 2019 | Baja |
+| Qué se exige al proveedor del quiosco, en la práctica | La ficha de evaluación RM 033-2020/MINSA (ver E.2) exige: ítem 15 solo alimentos del Anexo 1 de la RM 195-2019; ítem 16 industrializados sin octógonos; ítem 17 registro sanitario y fecha de vencimiento vigentes. La UGEL 05 (Oficio Múltiple 00012-2025) pide a colegios públicos y privados incluir la ficha en las bases de licitación del quiosco. Ficha técnica o lista de proveedores del colegio: **no encontrado** | RM 033-2020/MINSA; UGEL 05 | https://cdn.www.gob.pe/uploads/document/file/7520608/6394730-oficio_multiple-00012-2025-minedu-vmgi-drelm-ugel05-dir-asgese-orientaciones-para-kioscos-0050441.pdf | 2020 y ene-2025 | Alta (texto leído en la sección E.2) |
+| UGEL 06, Oficio Múltiple 00024-2026: plan de monitoreo de quioscos, comedores y cafeterías, con la venta de productos con octógonos como falta; dirigido a colegios públicos de su jurisdicción (según el extracto) | Monitoreo, sin resultados publicados | UGEL 06 | https://ofimult.ugel06.gob.pe/archivos/oficio-multiple-no-00024-2026-mineduvmgi-drelm-ugel06dirasgese-1771941935.pdf | 2026 | Baja (no pude leer el PDF) |
+
+Nota sobre la fila de Bon Appetit: el documento no dice la ciudad; el dominio ssccaqp.edu.pe corresponde a un colegio de Arequipa. No usar como dato de Lima.
+
+### 3. Cumplimiento de la norma en quioscos de colegios de Lima (estudios)
+
+| Estudio | Cifra | Fuente y URL | Fecha | Confianza |
+|---|---|---|---|---|
+| Oferta y publicidad de alimentos en 45 colegios de Lima Metropolitana (30 públicos, 15 privados; 57 quioscos y cafeterías) | 96.5 % de los quioscos vendía productos de panadería (galletas, queques, tortas); 80 % de esos (44 de 55) tenía al menos un producto con octógono (≈77 % de los 57 quioscos, cálculo mío); 89.5 % de todos los quioscos tenía al menos un producto con octógono; 96.5 % vendía procesados o ultraprocesados; 57.9 % tenía publicidad de ultraprocesados. Los autores concluyen que se incumple la norma que prohíbe vender alimentos con octógonos dentro y fuera de los colegios. El artículo no separa resultados por colegio público o privado | Meza-Hernández M, Yabiku-Soto K, Diez-Canseco F. Rev Peru Med Exp Salud Publica 2026;43(1):41-50. https://pmc.ncbi.nlm.nih.gov/articles/PMC13245979/ | Trabajo de campo mar-may 2023; publicado mar-2026 | Alta |
+| Mismo estudio, vendedores ambulantes (n = 148, 41 colegios) | 77.7 % vendía ultraprocesados; 48.6 % al menos un producto con octógono; panadería fue la categoría más frecuente (50.7 %) | Ídem | 2023 | Alta |
+| Estudio exploratorio de 15 colegios de 10 distritos de Lima (9 públicos, 6 privados) | 100 % de los colegios ofrecía ultraprocesados; 73.3 % (11 de 15) vendía al menos un producto con octógono; **galletas y bizcochos en 15 de 15 colegios (9 públicos, 6 privados)** y con octógono en 6 de 15 (3 públicos y 3 privados); 60 % tenía publicidad. «los colegios evaluados no cumplían la regulación vigente». Las diferencias entre públicos y privados fueron pequeñas | Saavedra-Garcia L et al. Rev Peru Med Exp Salud Publica 2020;37(4):726-32. http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S1726-46342020000400726 | Campo nov-dic 2019 | Alta |
+| Indecopi, Defensoría, MINSA: medición del cumplimiento por colegio privado | **No encontrado.** Indecopi sancionó a colegios privados por cobros y matrícula (637 colegios, ene-2024 a nov-2025), no por venta de alimentos | Andina / Caretas (extractos) | 2025 | Baja |
+
+### 4. Productos que se anuncian como «sin octógonos» o con endulzante natural
+
+| Producto | Canal | Gramaje | Precio (S/) | Por 100 g (S/) | Endulzante | Octógonos | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|---|---|---|
+| Keke de Plátano La Purita (vegano, congelado) | lapurita.com | 770 g | 19.17 (lista 25.56) | 2.49 | Panela orgánica y plátano | No declara «sin octógonos»; azúcar por 100 g: n.e. | https://www.lapurita.com/ (producto «Keke de Plátano, 770g»; la URL directa dio 404) | 18-nov-2026 | Alta para precio y endulzante |
+| Keke de Chocolate Oscuro La Purita | lapurita.com | 770 g (peso de envío 799 g) | 19.17 | 2.49 | Panela orgánica, plátano | Ídem | https://www.lapurita.com/ | 18-nov-2026 | Alta |
+| Galletas de avena La Purita (frasco 130 g) | lapurita.com | 130 g | 17.03 | 13.10 | Panela orgánica | Ídem | https://www.lapurita.com/ | 18-nov-2026 | Alta |
+| Muffin La Casa Marimiel (4 sabores) | Plaza Vea | 60 g | 6.90 | 11.50 | Stevia (SIN 960); harinas integral y de quinua | Sin campo | ver tabla 1 | 18-nov-2026 | Alta |
+
+La Purita (frejoles, panela, cacao) y la norma: la RM 195-2019 pide alimentos sin aditivos «edulcorantes»; la panela y la fruta no son edulcorantes en el sentido de aditivo, pero la panela es azúcar y cuenta como azúcar total (umbral de octógono: 10 g por 100 g). Ningún producto de esta tabla declara azúcar total por 100 g.
+
+### 5. Brownies artesanales de pastelería y cafetería (Lima)
+
+Ninguna de las pastelerías consultadas publica el gramaje del brownie individual; por eso el precio por 100 g es «no encontrado» en todas.
+
+| Producto | Canal | Tamaño publicado | Precio (S/) | Por 100 g | Endulzante | Octógonos | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|---|---|---|
+| Brownie, La Mora | lamorapasteleria.com | n.e. | 10.50 (en oferta) | n.e. | n.e. | n.e. | https://lamorapasteleria.com/products/brownie | 18-nov-2026 | Alta el precio |
+| Brownie Bites x9 / x27, La Mora (también con frambuesa x9: 16.00) | lamorapasteleria.com | n.e. | 13.00 / 30.00 (1.44 / 1.11 por pieza, cálculo propio) | n.e. | n.e. | n.e. | https://lamorapasteleria.com/products/brownies-9-unid | 18-nov-2026 | Alta el precio |
+| Brownie clásico / expreso, Ale Cendra (Miraflores) | Rappi | n.e. | 11.25 / 12.50 | n.e. | n.e. | n.e. | https://www.rappi.com.pe/restaurantes/79346-ale-cendra-pasteleria-clasica | 18-nov-2026 | Media (precio de Rappi) |
+| Brownies Hey Brownie (Cercado), 6 sabores | Rappi | 7 x 7 cm | 15.00 c/u | n.e. | n.e. | n.e. | https://www.rappi.com.pe/restaurantes/18898-hey-brownie | 18-nov-2026 | Media |
+| Brownie clásico, Ferrero, Oreo, etc., The Chocolate Brownie (Higuereta) | Rappi | n.e. | 9.50 c/u (precio con descuento en la página) | n.e. | n.e. | n.e. | https://www.rappi.com.pe/tiendas/71843-thechocolatebrownie-mt-enc | 18-nov-2026 | Media |
+| Caja de 6 brownies tradicionales, Sienna Bakery (La Botánika) | la-botanika.com | 6 x 6 cm c/u | 55.00 (9.17 c/u, cálculo propio) | n.e. | n.e. | n.e. | https://la-botanika.com/products/brownies-sienna-bakery | 18-nov-2026 | Alta el precio |
+| Pomo Brownie Bites (18 mini brownies de chocolate bitter), Dolce Capriccio | dolcecapriccio.pe | n.e. | 25.00 (1.39 por pieza, cálculo propio) | n.e. | n.e. | n.e. | https://dolcecapriccio.pe/producto/pomo-brownie-bites/ | 18-nov-2026 | Alta el precio |
+| Brownie (bandeja), CheesecakeToGo | cheesecaketogo.pe | n.e. | 61.90 a 84.90 (molde mediano o grande) | n.e. | n.e. | n.e. | https://cheesecaketogo.pe/producto/brownie/ | 18-nov-2026 | Alta; no es unidad |
+| Brownies de Rosa Pastel (clásico / Nutella) | Perú21 (nota) | n.e. | 15.90 / 17.90 | n.e. | n.e. | n.e. | https://peru21.pe/colab21/una-cafeteria-enfocada-en-la-nutricion-femenina/ | fecha n.e. | Baja (nota sin fecha, no usada en la mediana) |
+
+Referencia con gramaje (de la sección «Brownies de referencia», supermercado, no pastelería): Ana Avellana 135 g a S/10.50 = S/7.78 por 100 g; Tana con maní 320 g a S/28.90 = S/9.03; D'Abuelas bites 180 g a S/13.90 = S/7.72. La mediana de los 7 brownies con gramaje de esa sección es S/7.78 por 100 g.
+
+Qué distingue a uno artesano de uno envasado, según las fichas: los brownies envasados (Bimbo Nutra Bien) declaran azúcar como primer ingrediente, aceite vegetal, glucosa, humectantes, conservantes (SIN 202 y SIN 282), emulsionantes y saborizantes artificiales, y llevan etiqueta de conservación a temperatura ambiente. Las pastelerías consultadas (La Mora, Ale Cendra, Hey Brownie, Sienna) no publican ingredientes, vida útil ni conservación en la ficha; Dolce Capriccio (Pomo Brownie Bites) remite a una «cartilla de alérgenos» (PDF no leído). Solo Fika publica ingredientes de un brownie (ver sección 6). Vida útil: no encontrada en ninguna ficha de pastelería.
+
+### 6. Brownies saludables, por unidad o en caja (Perú)
+
+| Producto | Canal | Gramaje | Unidades | Precio (S/) | Por unidad (S/) | Por 100 g (S/) | Endulzante | Octógonos | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Brownies Sin Azúcar «No + Sellos» (Molinos del Mundo), sin gluten | Wong | 200 g | 5 | 19.90 | 3.98 (≈40 g c/u, cálculo propio) | 9.95 | n.e. («sin azúcar añadida») | «No + Sellos» en el nombre | https://www.wong.pe/brownies-sin-az-car-no-sellos-5un-1075175/p | 18-nov-2026 | Alta precio y gramaje; baja en endulzante |
+| Brownie de Fika, sin azúcar | fika.pe | 70 g en el título; 55 g en la URL y en el peso de envío | 1 | 14.00 | 14.00 | 20.00 (con 70 g); 25.45 (con 55 g) | **Alulosa**; chocolate con pasta y manteca de cacao, ghee, harina de quinua, huevos, sal de Maras, vainilla | **«Sin octógonos»** (declarado en la ficha) | https://www.fika.pe/products/brownie-55g | 18-nov-2026 | Alta ingredientes y precio; media gramaje |
+| Double Chocolate Dream, Protein Brownie, Justines | Lima Orgánica | 64 g | 1 | 12.00 | 12.00 | 18.75 | n.e. | n.e. | https://www.limaorganica.pe/tienda/double-chocolate-dream-protein-brownie-64-g-justines/ | 18-nov-2026 | Alta precio; sin ingredientes |
+| Brownies saludables y veganos, Arilú | Lima Orgánica | n.e. | 6 | 80.00 | 13.33 | n.e. | Panela; chocolate orgánico 67 %; harina de garbanzo y de almendras | n.e. | https://www.limaorganica.pe/tienda/brownies-saludables-y-veganos-arilu/ | 18-nov-2026 | Alta |
+| Brownies Keto (low carb), Arilú | Lima Orgánica | n.e. | 6 | 90.00 | 15.00 | n.e. | **Lakanto** (la ficha solo dice «Lakanto»; por lo general es fruto del monje con eritritol, no verificado aquí) y chocolate al 99 % con stevia | n.e. | https://www.limaorganica.pe/tienda/brownies-keto-low-carb-arilu/ | 18-nov-2026 | Alta |
+| Brownies (pack de 8), La Purita; vegano, congelado, solo Lima | lapurita.com | n.e. | 8 | 12.04 (lista 16.05) | 1.51 | n.e. | **Panela** (frejoles, cacao, girasol, linaza) | No declara «sin octógonos» | https://www.lapurita.com/products/brownies-x-8-unds | 18-nov-2026 | Alta precio |
+| Protein Brownie MyProtein x12 («hasta 75 % menos azúcar») | Plaza Vea | n.e. | 12 | 139.00 (1 en stock) | 11.58 | n.e. | n.e. | n.e. | https://www.plazavea.com.pe/protein-brownie-chocolate-12-und-myprotein-101483794/p | 18-nov-2026 | Media |
+| Brownies sin azúcar y sin gluten, Vitalife (Sumer Labs); no disponible | sumerlabs.com | n.e. | 4 | 28.00 | 7.00 | n.e. | No dice (almendra, avena, cacao 80 %) | Sin mención | https://sumerlabs.com/catalogo/vitalife-raquelmarquina79g/producto/brownies-saludables-smr-1d03f1db87f04e704faa5cbae2d65e249b9cdb81 | n.e. | Baja (sin fecha, agotado) |
+| Brownie de lima y limón, Sixpack Postres | Wix | 5.5 x 5.5 cm | 5 | 25.00 | 5.00 | n.e. | **Stevia** (harina de coco, claras) | n.e. | https://sixpackpostres.wixsite.com/sixpackpostres/product-page/brownie-de-lima-limon | n.e. | Baja (sin fecha) |
+
+Contexto de endulzantes: Dyfferent (barra de cereal «Chocolate Brownie», 175 a 210 g) usa «Dyfferent sweets» con eritritol, alulosa y fruto del monje (ficha Plaza Vea).
+
+No encontrados con datos: Armónica, Sanísimo, La Nevera Fit, Vida Fit, Punto Orgánico, Flora y Fauna, Quinoa Brownie, The Protein Bakery, Fitness Bakery, Dulce Fit, Mamalama (solo tiene barras de quinua en Wong, no brownies). Wasi Organics: la búsqueda «brownie» en su web no dio resultados. Los dominios que probé no abrieron o no existen.
+
+### No encontrado
+
+- Carta, precios, gramaje, endulzante y operador (concesionario) de los quioscos o cafeterías de Innova Schools Perú; tampoco para Markham, Newton, San Silvestre, Pamer, Trilce, Saco Oliveros y Santa María, ni para Sodexo, Aramark, APC o Liderman Alimentos como operadores de colegios en Lima.
+- Una lista pública de queques, brownies o postres que se vendan de verdad en quioscos de colegios privados de Lima, con marca y precio.
+- Qué ficha técnica o requisitos exige un colegio o concesionario a su proveedor de postres más allá de lo ya citado (RM 033-2020, registro sanitario, sin octógonos).
+- Una medición de Indecopi, MINSA o Defensoría sobre cumplimiento en colegios privados; el desglose público y privado del estudio de 2023.
+- Gramaje del brownie individual de La Mora, Ale Cendra, Hey Brownie, Dolce Capriccio, The Chocolate Brownie y Sienna Bakery; por tanto, precio por 100 g de brownie de pastelería.
+- Precio de brownie en San Antonio (el sitio sanantonio.com.pe es una agroexportadora, no la pastelería), María Almenara (la web no lista brownies), Don Mamino, Pastelería Lima, Starbucks, Juan Valdez, Tostaduría Bisetti, Maga y Buenavista; PedidosYa dio 403 y no se pudo ver.
+- Vida útil y conservación del brownie de cada pastelería; ingredientes de Justines, de No + Sellos (solo se sabe: sin azúcar añadida, sin gluten, bizcocho con cacao) y de La Mora.
+- Azúcar total por 100 g de cualquier brownie o queque saludable publicado en Perú (solo hay azúcares por porción con porción desconocida).
+- Queques de Vida Sana, Renacer, Kiwicha pop e Inka Crops en las tres cadenas consultadas.
+
+### Cierre
+
+1. **Con qué se endulzan los queques que de verdad están en los quioscos y si cumplen la norma:** no hay lista pública de lo que se vende en quioscos privados de Lima; los estudios de 2019 y 2023 muestran que galletas, queques y bizcochos están en casi todos los quioscos (15 de 15 colegios en 2019; 96.5 % de 57 quioscos en 2023) y que el 40 % de los colegios en 2019 y ≈77 % de los quioscos en 2023 vendían panadería con octógono. Los queques industriales equivalentes (Bimbo, Bell's, Costa, PYC, Field) se endulzan con azúcar y llevan octógono de azúcar o grasas saturadas; incumplen la norma. Solo hay opciones con stevia (muffin Marimiel) o panela (La Purita) fuera del canal escolar.
+2. **Innova Schools:** no encontrado. Su web peruana no menciona quiosco, cafetería ni operador; solo hay un servicio «Innova Eats» en la web de Colombia, que no aplica a Lima.
+3. **Brownies artesanales:** por unidad, rango S/9.17 a S/15.00 y mediana S/10.88 (6 precios: Sienna, The Chocolate Brownie, La Mora, Ale Cendra x2, Hey Brownie; con Rosa Pastel, sin fecha, la mediana sube a S/11.25). Por 100 g: no encontrado, porque ninguna pastelería publica gramaje; la referencia de supermercado con gramaje es mediana S/7.78 (rango S/5.50 a S/20.60). El «S/10 por 200 g» de Carlos no tiene respaldo publicado; el único brownie de 200 g con precio es el «No + Sellos» de Wong, a S/19.90.
+4. **Brownies saludables:** por unidad, rango S/1.51 a S/15.00 y mediana S/12.00 (7 productos con fecha de hoy: La Purita 1.51, No + Sellos 3.98, MyProtein 11.58, Justines 12.00, Arilú 13.33, Fika 14.00, Keto 15.00); con Vitalife y Sixpack, sin fecha, la mediana es S/11.58. Por 100 g solo hay 3 datos: S/9.95 (No + Sellos), S/18.75 (Justines) y S/20.00 (Fika, con 70 g; S/25.45 con 55 g); mediana S/18.75.
+5. **Un brownie de 35 g (con IGV):** saludable a la mediana de S/18.75 por 100 g = S/6.56 (S/5.56 sin IGV; entre S/3.48 y S/7.00 con el rango de 9.95 a 20.00). Artesanal: no se puede calcular a la mediana porque no hay S/ por 100 g publicado; como referencia, a la mediana de supermercado de S/7.78 por 100 g saldría S/2.72, y la mediana de S/10.88 por unidad de pastelería no tiene gramaje que permita compararla.
