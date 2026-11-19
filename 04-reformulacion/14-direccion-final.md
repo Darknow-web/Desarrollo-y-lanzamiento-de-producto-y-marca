@@ -263,3 +263,101 @@ Junio: póliza (S/600, sin cotizar), material (S/500) y carnés (S/100); se usa 
 - **Me retracto si:** al 31 de mayo ninguna municipalidad de zona 6 autoriza por escrito alimentos envasados a S/60 o menos por día y 8 o más días al mes. El stand sale del año 1.
 
 **Celdas (en copias):** Supuestos B57 = 580 (S/60 × 58 ÷ 6), B59 = 1, B32 = 0.31 (0.28 meta); Mensual filas 5 a 7. Módulo: B57 = 4,560, B32 + 0.32, B58 = 90 o 180. **Se actualizan si se aprueba:** `HECHOS_v7.md`, documentos 05, 08 y 10, Gantt, Excel de costeo, `build_costeo.py` y presupuesto de marketing. **Al investigador:** tasa, requisitos y calendario 2027 de ferias en Jesús María, San Miguel y Los Olivos para una S.A.C. de alimentos envasados; precio de módulos de campaña en MegaPlaza y Mall Plaza Comas.
+
+## 11. Lanzamiento y campaña alrededor del punto físico
+
+**Qué cambia:** decisión 3, se suma la degustación en la puerta de los colegios; decisión 10, el stand pasa del 3 de julio al sábado 6 de marzo y se cuentan 3 brownies regalados por cada 10 vendidos, no 1; decisión 6, #LoQueNadieVe ocurre en el stand; sección 1, canal «colegios y stand desde marzo»; sección 5, **año 1 de +S/2,969 con el costo de hoy y +S/13,863 con el meta** (antes +S/4,083), caja más baja de S/1,762.
+
+### 11.1 Cuándo abre
+
+Copias del Excel: feria a S/60 por día, socios, fines de semana y feriados, 50 brownies por día (sin medir), sin recompra. **Degustación:** cubito de 1/8 para el niño, entregado a papá o mamá, y otro al adulto si lo pide: 100 familias por cada 50 vendidos son 3 regalados por cada 10 (S/0.63 por brownie vendido). Cada brownie de feria deja S/1.00. El mural y el hablador (S/400) salen del lanzamiento; la vitrina (S/890), en agosto, solo si el stand pasa su señal. En marzo, la póliza se paga en dos cuotas.
+
+| Caso, costo de hoy | Días de stand | Brownies del año | Año 1 | Caja más baja | Por día para que el stand no pierda |
+|---|---|---|---|---|---|
+| Sin stand | 0 | 26,296 | +4,722 | 2,329 | — |
+| Versión actual: julio, 1 por 10 | 58 | 29,196 | +4,083 | 2,362 | 58 |
+| Julio, 3 por 10 | 58 | 29,196 | +3,359 | 2,362 | 74 |
+| Enero, 3 por 10 | 112 | 31,896 | +2,786 | 1,053 | 67 |
+| **Marzo, 3 por 10** | **94** | **30,996** | **+2,969** | **1,762** | **69** |
+| Marzo, costo meta | 94 | 30,996 | +13,863 | 2,919 | 48 |
+
+- **Enero no da:** sin registro sanitario no hay venta ni feria, y el primer lote vendible llega de 3 a 5 meses después de cerrar con la planta (documento 03). Por caja, con el material aparte, −S/337; superar S/1,500 exige sacar el tramo 1 de la app (S/1,000), contra la decisión 5.
+- **Marzo frente a julio:** 36 días más cuestan S/390 y dan 4 meses de datos. De los −S/1,114 frente a hoy, S/1,224 es degustación bien contada.
+- **A 50 por día el stand no se paga solo:** cuesta S/1,753 al año, S/1.86 por contacto de WhatsApp (10 por día) frente a S/8.23 por Meta (T2_14). El año no pierde con 18 o más por día.
+- **Turnos:** 94 días hasta diciembre (43 fines de semana y 8 feriados); dos turnos de 6 horas por día, dobles los 4 primeros fines de semana: 22 por socio hasta junio y 51 en el año. Carlos lleva trámite y caja.
+
+### 11.2 Dónde se prueba
+
+| Punto | Costo | Enero a junio | Qué aporta |
+|---|---|---|---|
+| **Puerta del colegio** a la salida, con permiso, y reunión de padres | S/19 en cubitos por salida | 36 salidas, 6 reuniones | Las familias del pedido del salón, donde está la recompra. Se prueba; se pide por el chat |
+| **Feria municipal** (Campo de Marte o Boulevard Plaza Mantaro) | S/60 por día | 36 días | Familias nuevas de zona 6 |
+| **Prueba de verano** a la salida de vacaciones útiles, con consentimiento | Lote piloto y S/120 | 6 jornadas en febrero | Primer dato medido y reservas, sin venta |
+| Kermeses y Día del Niño (11-abr) | S/70 por kermés | 14 y 1 | Venta y prueba |
+
+Las ferias saludables solo reemplazan a la municipal. No entran parques zonales (sin tarifa), clubes (público A) ni cumpleaños (no se da a probar a hijos de otros).
+
+### 11.3 En el stand
+
+1. El cartel («Aquí sí vemos tu truco. / Cuéntanoslo y pruébalo con tu hijo.») invita al adulto. 2. Alergias; el cubito va a papá o mamá. 3. Mientras el niño mastica, los 10 segundos de la decisión 6; si preguntan, «lleva sangrecita en polvo». 4. Suelto a S/5 o bolsa de 6 a S/22. 5. «¿Te escribimos el jueves dónde estamos y cuando se acabe tu bolsa?»: solo el teléfono (Ley 29733). 6. El QR de la bolsa abre «El hierro de hoy». 7. El truco se invita: post-it sin datos del niño. 8. Conteo por hora. Al niño solo se le da a probar: ni stickers ni premios (Ley 30021).
+
+### 11.4 La campaña: la misma, con otra meta
+
+Lo digital lleva a «Pruébalo este sábado en [feria]»; el stand convierte la prueba en compra y contacto; WhatsApp, en recompra. #LoQueNadieVe sigue porque contar el truco abre los 10 segundos. Un concurso de votos no lleva a nadie al punto: no hay otro; «El truco de la semana» del mural sale cada lunes.
+
+**Qué se reutiliza de la campaña creada**
+
+| Pieza o elemento | Uso | Por qué |
+|---|---|---|
+| Insight, firma «El truco que ya no necesita cuento», slogan, cartel, mural, video maestro, grilla, TikTok, app | Igual | El documento 11 quitó la firma por la simulación; nada concreto choca |
+| Llamados «Pruébalo en el stand» y «Pídelo por WhatsApp» | Igual, con día y lugar | — |
+| Manifiesto | Salen «Este diciembre sí los aplaudimos» y «mini» | Termina el concurso |
+| Concurso 2026 | Igual hasta el 20-dic; los ganadores abren el mural el 6-mar y reciben 8 bolsas de 6 (S/304) | Sin producto en enero; Ade ajusta las bases |
+| Degustación a cambio del truco | La prueba es libre | La meta es que prueben |
+| Anuncio de Rodrigo | Cierre: «Pruébalo este sábado en el Campo de Marte. Bolsa de 6, S/22.» | Es el B; no hay pack de 12 |
+| Claudia, YouTube, kits a pediatras | Salen | El A salió; sin presupuesto |
+| Testimonial · influencers · WhatsApp y hablador | Se graba el 6-mar · 20 papás y mamás de zona 6 y Lima Norte, al stand · bolsa a S/22, suelto a S/5 | Jockey no abre; precios nuevos |
+| Piezas 01, 04 y 06 a 10 | Bolsa sin «mini», de 180 g (no «300 g»); en 06 y 07, «hierro medido en cada lote» por «el hierro que tu hijo necesita»; 06, solo Chispa y Andi | 1.9 mg no son los 10 mg de referencia |
+| Pieza 03; láminas 1, 2 y 4 de la 05 | Igual; la 4, «Escanea el QR de tu bolsa» | La app es web |
+| Pieza 02; lámina 3 de la 05 | Salen | Invitan al niño a jugar |
+| Reels 1 y 3 · 2 · 4 | Cierre «Pruébalo este sábado» · texto en voz de papá o mamá · cierre «Cuéntalo en nuestro mural» | En el 2 habla el niño; el 4 era el concurso |
+
+**Nuevo, solo:** la imagen de la bolsa de 30 g, una historia semanal «Este sábado estamos en…», el hablador, un volante con QR, el consentimiento de febrero y tres cierres de video.
+
+### 11.5 Calendario y presupuesto, enero a junio de 2027
+
+**S/4,200, ya en el plan:** S/1,800 del lanzamiento (concurso 600, video maestro 300, mural 400, influencers 260, volantes 120, prueba de verano 120) y S/400 al mes de gastos fijos (300 de marketing, 100 de embajadores); las muestras del stand (S/1,116) van en el costo del canal. El plan anterior gastaba S/14,186 en el semestre.
+
+| Mes | Qué pasa | Piezas | De los S/400 |
+|---|---|---|---|
+| Ene | Ganadores en la cuenta; lista de marzo; trámite | Reel 4, piezas 07 y 08 | Premios 64, mural 96 |
+| Feb | Prueba de verano | Pieza 03 | Pauta 150 |
+| Mar | Sáb 6: stand con mural y colegios; influencers; testimonial | Rodrigo, reel 1, pieza 04 | Pauta 250, muestras 280, embajadores 100 |
+| Abr | Día del Niño; «El truco de la semana» | Testimonial, pieza 06 | Pauta 250, muestras 280, embajadores 100 |
+| May | «Los trucos de mamá» | Piezas 09 y 10 | Pauta 200, muestras 110, embajadores 100 |
+| Jun | «Los trucos de papá»; revisión | Rodrigo, reel 3 | Pauta 200, muestras 110, embajadores 100 |
+
+Lo no gastado en enero y febrero pasa a marzo. **Metas por día:** prueban 100 familias; compra 1 de cada 4 (50 brownies); 4 de cada 10 compradores dejan WhatsApp; 1 de cada 10 contactos repite en 30 días. Febrero: 240 prueban, 80 reservan.
+
+### 11.6 Señales
+
+| Cuándo | Qué se mira | Qué se hace |
+|---|---|---|
+| 15-ene | ¿La degustación sin venta pide registro? | Si lo pide, no hay prueba de verano |
+| 19-feb | Registro; autorización a S/60 o menos, 8 o más días al mes; caja de S/1,500 | Falta una: el stand espera; los colegios no |
+| 28-feb | Reservas | Menos de 1 de cada 6 que prueban: se rehace la explicación |
+| 28-mar | Cuatro fines de semana | Menos de 60 prueban: otro lugar. Compran menos de 2 de 10: decisión 6. Más de 4 regalados por 10: cubito de 1/12 |
+| 30-abr | «Vine por el anuncio» | Menos de 1 de 20: la pauta pasa a muestras de colegio |
+| 15-jun | Brownies por día; costo por contacto | Menos de 30 o más de S/8.23: cierra. De 30 a 68: sigue. 69 o más: vitrina |
+
+### Decisión 11. Punto físico desde el lanzamiento: colegio y feria el 6 de marzo
+
+- **Qué se decide:** el 6 de marzo abren juntos los colegios y el stand de feria municipal (fines de semana y feriados, socios); en febrero, prueba sin venta; degustación en la puerta de cada colegio; #LoQueNadieVe reutilizada.
+- **Qué cambia:** el stand se adelanta 4 meses y la degustación se triplica.
+- **Por qué:** mamás reales (alto): sin probar no compran. Excel (alto): marzo cuesta S/390 más que julio. Documento 03 (medio): sin registro no hay enero.
+- **Números:** año 1 +S/2,969 (meta +S/13,863); caja más baja S/1,762; entrada del stand S/1,590 (póliza 600, carnés 100, vitrina 890) y tasa de S/5,640.
+- **Riesgo:** ritmo y familias sin medir; puede faltar feria; el registro puede tardar.
+- **Cómo se comprueba:** 11.6.
+- **Me retracto si:** al 15 de junio el stand vende menos de 30 por día o cada contacto cuesta más de S/8.23: cierra y queda la puerta del colegio.
+
+**Al investigador:** ferias 2027 en Jesús María, San Miguel y Los Olivos, con su tasa; inicio de clases; tarifa de SERPAR; conversión de degustaciones. **Se actualizan:** `HECHOS_v7.md`, documentos 08 y 10, `CAMPANA-lo-que-nadie-ve.md`, T2_13 a T2_15, `PROMPTS-campana.md`, piezas, reels, bases del concurso, Gantt, Excel (B32 = 0.10 + 0.3 × costo) y presupuesto de marketing.
