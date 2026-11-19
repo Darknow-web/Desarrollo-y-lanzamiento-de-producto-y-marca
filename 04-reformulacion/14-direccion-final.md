@@ -199,3 +199,67 @@ Solo en copias; el archivo original no se tocó. Sobre el v7:
 - **Costeo:** C5 = 6. **Mensual:** filas 5, 8 y 11 en 0; fila 9 = 0, 0, 3, 3, 5, 3, 3, 4, 3, 4, 3, 2; fila 10 = 0, 0, 800, 1,200, 1,700, 2,000, 1,500, 2,400, 2,700, 3,000, 3,000, 1,415.
 - **Inversion:** B10 = 1,200; B11 = 750; B16, B22, B39 y B47 = 0; B28 = 1,150; B31 y B33 = 1,800; B32 = 2,000 unidades al costo del escenario; B34 = 4,000; B46 = 25,000 o 28,000.
 - **Variantes:** costo objetivo (B6 = 0.473, B7 = 0.45, B9 = 0.06, B10 = 0.15, B19 = 0.45, B20 y B22 = 0.20); costo meta (B6 = 0.675, B7 = 0.45); app completa (B10 = 0.29, B20 y B22 = 0.40, B70 = 950, Inversion B28 = 2,150); coordinadora (B71); vendedor (B58); stand (B57, Mensual filas 5 y 7); tamaños (B6, B7, B9); volúmenes (Mensual fila 10, B63).
+
+## 10. Stands en centros comerciales y carritos junto a supermercados
+
+**Cambia la decisión 3 y los números de las secciones 1 y 5:** entra un stand de fin de semana desde el 3 de julio de 2027. Año 1 del plan completo (colegios más stand): 29,196 unidades y S/113,332 de ventas. Resultado: **+S/4,038 con el costo de hoy** (antes +S/4,722) y **+S/13,946 con el costo meta** (antes +S/13,557). La caja más baja: S/1,802 en junio (antes S/2,329 en marzo).
+
+### 10.1 Dónde y cuándo
+
+**Real Plaza Salaverry, en Jesús María.** Queda en la zona 6, con 51.7 % de hogares B y 3 de los 6 colegios: quien tenga a su hijo en uno de ellos recibe la bolsa en la puerta. Tiene módulos para emprendedores (Perú Retail, confianza baja). La alternativa es Plaza San Miguel. MegaPlaza (Lima Norte, 20.9 % B) se deja para el segundo punto. A Plaza Norte y Mall Aventura no se va: del primero no se halló ningún programa para emprendedores y el segundo no tiene colegios del plan cerca. En marzo se arrancan los colegios. Si el stand abriera en mayo, la caja de abril quedaría en S/194. Julio tiene vacaciones y ya hay caja.
+
+### 10.2 Las cuentas (Excel en copias, julio a diciembre)
+
+**Supuestos.** Unidad a S/5.00 y bolsa de 6 a S/22. **Mezcla:** 6 de cada 10 brownies sueltos, como en la kermés. En el colegio todo se vende en bolsa, pero en el mall nadie conoce la marca: 9 de cada 10 compradores se llevan uno suelto para probar. **Ritmo, sin medir:** 50 por día de fin de semana y 25 entre semana. Un brownie de degustación por cada 10 vendidos y sin recompra. Cada brownie deja S/1.42 con el costo de hoy y S/1.79 con el meta. Incluye la inversión de 10.5. Fin de semana: 58 días; todos los días: 184, y el equilibrio es el promedio.
+
+| Caso (alquiler al mes) | Costo al mes | Equilibrio por día: hoy / meta | Año 1, plan completo: hoy / meta | Caja más baja, hoy |
+|---|---|---|---|---|
+| Sin stand | — | — | +4,722 / +13,557 | +2,329 |
+| **Fin de semana, socios, S/600** | **600** | **58 / 46** | **+4,038 / +13,946** | **+1,802** |
+| Fin de semana, socios, S/1,200 | 1,200 | 102 / 81 | +438 / +10,346 | +439 |
+| Fin de semana, socios, S/2,500 | 2,500 | 197 / 156 | −7,362 / +2,546 | −7,652 |
+| Fin de semana, vendedor, S/600 | 1,470 | 122 / 97 | −1,182 / +8,726 | +1,339 |
+| Fin de semana, vendedor, S/1,200 | 2,070 | 166 / 131 | −4,782 / +5,126 | −2,472 |
+| Fin de semana, vendedor, S/2,500 | 3,370 | 260 / 206 | −12,582 / −2,674 | −12,872 |
+| Todos los días, socios, S/600 | 600 | 18 / 15 | +8,508 / +19,582 | +1,801 |
+| Todos los días, socios, S/1,200 | 1,200 | 32 / 26 | +4,908 / +15,982 | +601 |
+| Todos los días, socios, S/2,500 | 2,500 | 62 / 49 | −2,892 / +8,182 | −3,436 |
+| Todos los días, vendedor, S/600 | 3,360 | 82 / 65 | −8,052 / +3,022 | −4,741 |
+| Todos los días, vendedor, S/1,200 | 3,960 | 96 / 76 | −11,652 / −578 | −9,541 |
+| Todos los días, vendedor, S/2,500 | 5,260 | 126 / 100 | −19,452 / −8,378 | −19,941 |
+
+**Lectura.** Solo la fila en negrita se puede hacer. Al ritmo supuesto cuesta S/684 en el año con el costo de hoy y deja S/389 con el meta. Atender todos los días con socios es imposible para cinco estudiantes: son 184 días de 12 horas. Con vendedor hacen falta de 82 a 260 brownies por día. En la fila elegida, con 80 por día el año sube a +S/6,507 y con 25 baja a +S/1,980. Si el mall cobra el 5 % de la venta, el equilibrio sube a 67.
+
+### 10.3 Carritos
+
+- **(a) En la galería del mall, frente al supermercado: sí.** Ese espacio lo alquila el mall, así que funciona como el mismo stand, y es el lugar que se pide. En el año 1 no se compra carrito propio: el de S/2,500 sube el equilibrio a 63 y deja la caja de junio en −S/698. Si el mall lo exige, se abre en octubre.
+- **(b) En la vereda: no.** Surco solo autoriza helados, emoliente, bebidas tradicionales y canillitas. En la puerta del colegio solo se entregan pedidos ya pagados, sin vender al paso.
+- **(c) Degustación en el supermercado: no en el año 1.** Exige ser proveedor de la cadena. Si la cadena se quedara con el 20 % (supuesto), quedarían S/0.25 por brownie y harían falta 354 al día solo para pagar a la impulsadora. Con 30 %, se pierde.
+
+### 10.4 Cómo se combinan y señales
+
+El colegio da la recompra de cada semana. El stand pone a probar a la familia de fuera, que se lleva la unidad y deja su WhatsApp. **Año 1:** 6 colegios y 1 stand, y como máximo 2 stands en noviembre y diciembre. **Atención:** 4 turnos de 6 horas cada fin de semana, de un socio cada uno. Carlos lleva el contrato y la caja; Paty, el stock; Angie, el material y el WhatsApp; Ade, la póliza; Diana, el discurso. El socio que tiene kermés ese fin de semana no hace turno.
+
+| Cuándo | Qué se mira | Qué se hace |
+|---|---|---|
+| Junio, antes de firmar | 16 o más por colegio y día al 15 de junio; tarifa escrita de S/600 o menos solo por fines de semana, con salida a 30 días y comida permitida; caja de S/1,500 o más después de pagar | Si falla una, no se firma |
+| 31 de julio | Compradores que dejan su WhatsApp | 1 de cada 10 o más; las ventas de vacaciones no deciden |
+| 29 de agosto | Unidades por día | Menos de 30: cierra. De 30 a 57: cambia de lugar una vez. 58 o más: se compra la vitrina |
+| 31 de octubre | Promedio de septiembre y octubre | Menos de 45: cierra. De 45 a 57: hasta Navidad. 58 o más: sigue en 2028 |
+| Cuatro fines de semana seguidos | 122 o más por día (97 con el costo meta) | Entra un vendedor a S/90 y los socios abren MegaPlaza |
+
+### 10.5 Inversión y caja
+
+En junio se paga la garantía de 2 rentas (S/1,200, se recupera), la póliza (S/600, del Excel, sin cotizar) y el material (S/500). No hay mueble que comprar: se usan el módulo del mall y el kit de feria. En septiembre, si el stand sigue, se compra la vitrina (S/890, Falabella). **Total: S/3,190; con carrito, S/5,690. Los S/28,000 alcanzan sin préstamo:** la caja no baja de S/1,802. Con un alquiler de S/1,200 bajaría a S/439, y pedir un préstamo para cubrir un alquiler que no se paga solo no tiene sentido.
+
+### Decisión 10. Stand de fin de semana; carrito solo dentro del mall
+
+- **Qué se decide:** stand en Real Plaza Salaverry desde el 3 de julio de 2027. Abre los fines de semana, lo atienden los socios, paga hasta S/600 al mes y no lleva carrito propio. No se va a la vereda ni al supermercado.
+- **Qué cambia:** la decisión 3 lo dejaba fuera.
+- **Por qué:** las mamás (peso alto) dijeron que sin probar no compran y pidieron WhatsApp. El Excel (peso alto) muestra que solo este caso queda cerca de cero. No hay tarifa ni ritmo de venta publicados.
+- **Números:** equilibrio de 58 por día (46 con el costo meta). Año 1: +S/4,038 con el costo de hoy y +S/13,946 con el meta. Inversión: S/3,190.
+- **Riesgo:** el ritmo de 50 no está medido. Un aviso de Real Plaza no permitía comida. Los socios se pueden cansar.
+- **Cómo se comprueba:** con la tabla de 10.4, del 31 de julio al 31 de octubre.
+- **Me retracto si:** ningún mall de zona B da por escrito S/600 o menos por los fines de semana. En ese caso el stand sale del año 1.
+
+**Celdas (en copias):** Supuestos B32 = 0.31 (0.28 con el meta), B40 = 5, C40 = 22, B48 = 0.6, C48 = 0.4, B57, B59, B58 = 90 con B64 = −20, B12 y B13 sobre todas las unidades; Mensual filas 5 a 7 y 16. **Se actualizan si se aprueba:** `HECHOS_v7.md`, los documentos 05, 08 y 10, el Gantt, el Excel de costeo, `build_costeo.py` y el presupuesto de marketing. **Se le pide al investigador:** la tarifa por fin de semana y el porcentaje de la venta en Salaverry, San Miguel y MegaPlaza; si permiten comida envasada; y si los distritos piden permiso para entregar pedidos pagados en la puerta del colegio.
