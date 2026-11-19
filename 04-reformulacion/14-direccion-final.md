@@ -202,64 +202,64 @@ Solo en copias; el archivo original no se tocó. Sobre el v7:
 
 ## 10. Stands en centros comerciales y carritos junto a supermercados
 
-**Cambia la decisión 3 y los números de las secciones 1 y 5:** entra un stand de fin de semana desde el 3 de julio de 2027. Año 1 del plan completo (colegios más stand): 29,196 unidades y S/113,332 de ventas. Resultado: **+S/4,038 con el costo de hoy** (antes +S/4,722) y **+S/13,946 con el costo meta** (antes +S/13,557). La caja más baja: S/1,802 en junio (antes S/2,329 en marzo).
+**Qué cambió frente a la versión anterior:** el alquiler de S/600 al mes por un stand de mall no se sostiene (un módulo cuesta unos S/4,560 al mes más 8.5 % de la venta). Entra un stand en ferias municipales pagando la tasa por día, con tope de S/60. Año 1 del plan completo (29,196 unidades; S/113,332 de ventas): **+S/4,083 con el costo de hoy y +S/13,991 con el costo meta** (sin stand: +S/4,722 y +S/13,557).
 
 ### 10.1 Dónde y cuándo
 
-**Real Plaza Salaverry, en Jesús María.** Queda en la zona 6, con 51.7 % de hogares B y 3 de los 6 colegios: quien tenga a su hijo en uno de ellos recibe la bolsa en la puerta. Tiene módulos para emprendedores (Perú Retail, confianza baja). La alternativa es Plaza San Miguel. MegaPlaza (Lima Norte, 20.9 % B) se deja para el segundo punto. A Plaza Norte y Mall Aventura no se va: del primero no se halló ningún programa para emprendedores y el segundo no tiene colegios del plan cerca. En marzo se arrancan los colegios. Si el stand abriera en mayo, la caja de abril quedaría en S/194. Julio tiene vacaciones y ya hay caja.
+Ferias de espacio público, desde el 3 de julio de 2027. Primero Jesús María (Campo de Marte: zona 6, 51.7 % de hogares B, 3 de los 6 colegios cerca); si no hay feria, San Miguel (Boulevard Plaza Mantaro); Los Olivos, para el segundo stand de fin de año. Real Plaza Salaverry sale.
 
 ### 10.2 Las cuentas (Excel en copias, julio a diciembre)
 
-**Supuestos.** Unidad a S/5.00 y bolsa de 6 a S/22. **Mezcla:** 6 de cada 10 brownies sueltos, como en la kermés. En el colegio todo se vende en bolsa, pero en el mall nadie conoce la marca: 9 de cada 10 compradores se llevan uno suelto para probar. **Ritmo, sin medir:** 50 por día de fin de semana y 25 entre semana. Un brownie de degustación por cada 10 vendidos y sin recompra. Cada brownie deja S/1.42 con el costo de hoy y S/1.79 con el meta. Incluye la inversión de 10.5. Fin de semana: 58 días; todos los días: 184, y el equilibrio es el promedio.
+**Se mantienen** precios, mezcla (6 de cada 10 sueltos), ritmo sin medir (50 por día de fin de semana, 25 entre semana), degustación y cero recompra. **Cambian:** en el mall, el 8.5 % (S/0.32) baja lo que deja cada brownie de S/1.42 a S/1.10; los socios sacan carné (S/100). El equilibrio incluye la entrada.
 
-| Caso (alquiler al mes) | Costo al mes | Equilibrio por día: hoy / meta | Año 1, plan completo: hoy / meta | Caja más baja, hoy |
-|---|---|---|---|---|
-| Sin stand | — | — | +4,722 / +13,557 | +2,329 |
-| **Fin de semana, socios, S/600** | **600** | **58 / 46** | **+4,038 / +13,946** | **+1,802** |
-| Fin de semana, socios, S/1,200 | 1,200 | 102 / 81 | +438 / +10,346 | +439 |
-| Fin de semana, socios, S/2,500 | 2,500 | 197 / 156 | −7,362 / +2,546 | −7,652 |
-| Fin de semana, vendedor, S/600 | 1,470 | 122 / 97 | −1,182 / +8,726 | +1,339 |
-| Fin de semana, vendedor, S/1,200 | 2,070 | 166 / 131 | −4,782 / +5,126 | −2,472 |
-| Fin de semana, vendedor, S/2,500 | 3,370 | 260 / 206 | −12,582 / −2,674 | −12,872 |
-| Todos los días, socios, S/600 | 600 | 18 / 15 | +8,508 / +19,582 | +1,801 |
-| Todos los días, socios, S/1,200 | 1,200 | 32 / 26 | +4,908 / +15,982 | +601 |
-| Todos los días, socios, S/2,500 | 2,500 | 62 / 49 | −2,892 / +8,182 | −3,436 |
-| Todos los días, vendedor, S/600 | 3,360 | 82 / 65 | −8,052 / +3,022 | −4,741 |
-| Todos los días, vendedor, S/1,200 | 3,960 | 96 / 76 | −11,652 / −578 | −9,541 |
-| Todos los días, vendedor, S/2,500 | 5,260 | 126 / 100 | −19,452 / −8,378 | −19,941 |
+| Caso | Equilibrio por día: hoy / meta | Año 1, plan completo: hoy / meta | Caja más baja, hoy |
+|---|---|---|---|
+| Sin stand | — | +4,722 / +13,557 | +2,329 |
+| **Feria municipal, S/60 por día, socios (58 días)** | **58 / 46** | **+4,083 / +13,991** | **+2,362** |
+| Feria municipal, S/20 por día, socios | 30 / 24 | +6,403 / +16,311 | +2,362 |
+| Feria municipal, S/60, vendedor de S/90 | 121 / 96 | −1,137 / +8,771 | +2,362 |
+| Organizador privado, S/6,000 al mes, socios | 453 / 359 | −28,437 / −18,529 | −23,528 |
+| Módulo de mall de 4 m², socios los 184 días (imposible) | 152 / 114 | −19,384 / −8,310 | −32,675 |
+| Módulo de mall, 1 vendedor de S/90 por día | 234 / 175 | −35,944 / −24,870 | −49,235 |
+| Módulo de mall, 2 turnos (S/180 por día) | 316 / 237 | −52,504 / −41,430 | −65,795 |
+| Campaña de noviembre y diciembre, S/4,500 al mes (61 días) | 158 / 126 | −6,069 / +3,525 | −4,844 |
+| Vuelta al colegio, marzo, S/4,500 | 172 / 137 | −1,439 / +7,766 | −8,580 |
 
-**Lectura.** Solo la fila en negrita se puede hacer. Al ritmo supuesto cuesta S/684 en el año con el costo de hoy y deja S/389 con el meta. Atender todos los días con socios es imposible para cinco estudiantes: son 184 días de 12 horas. Con vendedor hacen falta de 82 a 260 brownies por día. En la fila elegida, con 80 por día el año sube a +S/6,507 y con 25 baja a +S/1,980. Si el mall cobra el 5 % de la venta, el equilibrio sube a 67.
+**Módulo fijo.** S/4,560 = 4 m² × US$250 × S/3.80, más 10 % de mantenimiento y 10 % de publicidad. Entrada de S/22,400: garantía de 2 rentas fijas (S/7,600, se recupera), llave de 1.5 (S/5,700), mueble aprobado (S/8,000, a S/2,000 por m² como en Arequipa), póliza y material; llave y mueble, en 36 meses. Pide de 152 a 316 brownies por día contra 33 supuestos; el TikTok da lo mismo (45 tickets de S/22, unos 220 brownies). Sin el 8.5 % mejora S/1,948 y sigue perdiendo. **Fuera del año 1:** la entrada es el 80 % del aporte.
+
+**Feria.** La tasa sola pide 42 brownies por día (14 a S/20). Con 80 por día el año llega a +S/6,552; con 25, a +S/2,025; con solo 30 días de feria, el equilibrio sube a 73. AndiBite es S.A.C. y paga S/60: los S/20 son para personas naturales, según precalificación; no se planifica con ellos. El organizador privado cobra 30 días aunque se abran 9. **Trámite, en mayo:** autorización temporal en la gerencia de desarrollo económico del distrito con RUC y vigencia de poder, registro sanitario, carné de cada socio (S/9 a S/20), giro «alimentos envasados», croquis y fechas; luego, precalificación y pago de la tasa por día.
+
+**Campaña.** Supongo S/4,500 al mes: entre un módulo fijo del tramo bajo (US$150 por m², propio de Lima Norte: S/2,736 con cargos) y un intermediario por 30 días (S/5,700 a S/6,500); sin llave ni porcentaje y 1 renta de garantía. Abre a diario: vendedor entre semana (S/3,600), socios los fines de semana. A S/3,000 pide 124 por día; gratis, 54. **Fuera del año 1.**
 
 ### 10.3 Carritos
 
-- **(a) En la galería del mall, frente al supermercado: sí.** Ese espacio lo alquila el mall, así que funciona como el mismo stand, y es el lugar que se pide. En el año 1 no se compra carrito propio: el de S/2,500 sube el equilibrio a 63 y deja la caja de junio en −S/698. Si el mall lo exige, se abre en octubre.
-- **(b) En la vereda: no.** Surco solo autoriza helados, emoliente, bebidas tradicionales y canillitas. En la puerta del colegio solo se entregan pedidos ya pagados, sin vender al paso.
-- **(c) Degustación en el supermercado: no en el año 1.** Exige ser proveedor de la cadena. Si la cadena se quedara con el 20 % (supuesto), quedarían S/0.25 por brownie y harían falta 354 al día solo para pagar a la impulsadora. Con 30 %, se pierde.
+Ni en la galería del mall (cuesta como el módulo), ni en la vereda (Surco no autoriza snacks), ni degustación en supermercado (exige ser proveedor; con 20 % para la cadena quedan S/0.25 por brownie).
 
 ### 10.4 Cómo se combinan y señales
 
-El colegio da la recompra de cada semana. El stand pone a probar a la familia de fuera, que se lleva la unidad y deja su WhatsApp. **Año 1:** 6 colegios y 1 stand, y como máximo 2 stands en noviembre y diciembre. **Atención:** 4 turnos de 6 horas cada fin de semana, de un socio cada uno. Carlos lleva el contrato y la caja; Paty, el stock; Angie, el material y el WhatsApp; Ade, la póliza; Diana, el discurso. El socio que tiene kermés ese fin de semana no hace turno.
+El colegio da la recompra; la feria hace probar a familias nuevas, que dejan su WhatsApp. **Año 1:** 6 colegios y 1 stand; en noviembre y diciembre, un segundo solo en feria navideña municipal y al mismo tope. 4 turnos de 6 horas por fin de semana, uno por socio; Carlos lleva trámite y caja. Quien tiene kermés no hace turno.
 
 | Cuándo | Qué se mira | Qué se hace |
 |---|---|---|
-| Junio, antes de firmar | 16 o más por colegio y día al 15 de junio; tarifa escrita de S/600 o menos solo por fines de semana, con salida a 30 días y comida permitida; caja de S/1,500 o más después de pagar | Si falla una, no se firma |
-| 31 de julio | Compradores que dejan su WhatsApp | 1 de cada 10 o más; las ventas de vacaciones no deciden |
-| 29 de agosto | Unidades por día | Menos de 30: cierra. De 30 a 57: cambia de lugar una vez. 58 o más: se compra la vitrina |
-| 31 de octubre | Promedio de septiembre y octubre | Menos de 45: cierra. De 45 a 57: hasta Navidad. 58 o más: sigue en 2028 |
-| Cuatro fines de semana seguidos | 122 o más por día (97 con el costo meta) | Entra un vendedor a S/90 y los socios abren MegaPlaza |
+| 31 de mayo a 15 de junio | Autorización escrita a S/60 o menos por día, alimentos envasados, 8 o más días al mes; 16 o más por colegio y día; caja de S/1,500 o más | Si falla una, no se paga |
+| 31 de julio | Compradores que dejan WhatsApp | 1 de cada 10 o más |
+| 29 de agosto | Unidades por día | Menos de 30: cierra. De 30 a 57: cambia de distrito una vez. 58 o más: vitrina |
+| 31 de octubre | Promedio de septiembre y octubre | Menos de 45: cierra. De 45 a 57: hasta Navidad. 58 o más: segundo stand y 2028 |
+| Cuatro fines de semana seguidos | 121 o más por día (96 con el meta) | Entra un vendedor de S/90 |
+| Oferta de mall o campaña | Tarifa escrita | Solo a S/60 o menos por día, todo incluido |
 
 ### 10.5 Inversión y caja
 
-En junio se paga la garantía de 2 rentas (S/1,200, se recupera), la póliza (S/600, del Excel, sin cotizar) y el material (S/500). No hay mueble que comprar: se usan el módulo del mall y el kit de feria. En septiembre, si el stand sigue, se compra la vitrina (S/890, Falabella). **Total: S/3,190; con carrito, S/5,690. Los S/28,000 alcanzan sin préstamo:** la caja no baja de S/1,802. Con un alquiler de S/1,200 bajaría a S/439, y pedir un préstamo para cubrir un alquiler que no se paga solo no tiene sentido.
+Junio: póliza (S/600, sin cotizar), material (S/500) y carnés (S/100); se usa el kit de feria. Septiembre, si sigue: vitrina (S/890). **Total: S/2,090** (antes S/3,190), más la tasa (S/3,480 en el año). **Los S/28,000 alcanzan sin préstamo:** la caja más baja sigue en marzo (S/2,362); en junio, ya pagado, queda en S/3,127.
 
-### Decisión 10. Stand de fin de semana; carrito solo dentro del mall
+### Decisión 10. Stand de fin de semana en feria municipal; nada de mall en el año 1
 
-- **Qué se decide:** stand en Real Plaza Salaverry desde el 3 de julio de 2027. Abre los fines de semana, lo atienden los socios, paga hasta S/600 al mes y no lleva carrito propio. No se va a la vereda ni al supermercado.
-- **Qué cambia:** la decisión 3 lo dejaba fuera.
-- **Por qué:** las mamás (peso alto) dijeron que sin probar no compran y pidieron WhatsApp. El Excel (peso alto) muestra que solo este caso queda cerca de cero. No hay tarifa ni ritmo de venta publicados.
-- **Números:** equilibrio de 58 por día (46 con el costo meta). Año 1: +S/4,038 con el costo de hoy y +S/13,946 con el meta. Inversión: S/3,190.
-- **Riesgo:** el ritmo de 50 no está medido. Un aviso de Real Plaza no permitía comida. Los socios se pueden cansar.
-- **Cómo se comprueba:** con la tabla de 10.4, del 31 de julio al 31 de octubre.
-- **Me retracto si:** ningún mall de zona B da por escrito S/600 o menos por los fines de semana. En ese caso el stand sale del año 1.
+- **Qué se decide:** desde el 3 de julio de 2027, stand de 2 × 2 m en ferias municipales de Jesús María o San Miguel, fines de semana y feriados, atendido por socios y pagado a la municipalidad. Tope: S/60 por día atendido. Nada de mall, organizador privado, carrito ni supermercado.
+- **Qué cambia:** antes iba a Real Plaza Salaverry a S/600 al mes, precio que ningún mall ofrece.
+- **Por qué:** las mamás (peso alto): sin probar no compran. El Excel (alto): solo la tasa municipal queda cerca de cero. Videos de Carlos (bajo a medio): tarifas y tasa del TUSNE de San Miguel, no contratos.
+- **Números:** equilibrio de 58 por día (46 con el meta). Año 1: +S/4,083 hoy y +S/13,991 con el meta. Inversión: S/2,090.
+- **Riesgo:** ritmo sin medir; puede no haber feria cada fin de semana; la tasa se leyó en un video y falta la de Jesús María.
+- **Cómo se comprueba:** tabla de 10.4.
+- **Me retracto si:** al 31 de mayo ninguna municipalidad de zona 6 autoriza por escrito alimentos envasados a S/60 o menos por día y 8 o más días al mes. El stand sale del año 1.
 
-**Celdas (en copias):** Supuestos B32 = 0.31 (0.28 con el meta), B40 = 5, C40 = 22, B48 = 0.6, C48 = 0.4, B57, B59, B58 = 90 con B64 = −20, B12 y B13 sobre todas las unidades; Mensual filas 5 a 7 y 16. **Se actualizan si se aprueba:** `HECHOS_v7.md`, los documentos 05, 08 y 10, el Gantt, el Excel de costeo, `build_costeo.py` y el presupuesto de marketing. **Se le pide al investigador:** la tarifa por fin de semana y el porcentaje de la venta en Salaverry, San Miguel y MegaPlaza; si permiten comida envasada; y si los distritos piden permiso para entregar pedidos pagados en la puerta del colegio.
+**Celdas (en copias):** Supuestos B57 = 580 (S/60 × 58 ÷ 6), B59 = 1, B32 = 0.31 (0.28 meta); Mensual filas 5 a 7. Módulo: B57 = 4,560, B32 + 0.32, B58 = 90 o 180. **Se actualizan si se aprueba:** `HECHOS_v7.md`, documentos 05, 08 y 10, Gantt, Excel de costeo, `build_costeo.py` y presupuesto de marketing. **Al investigador:** tasa, requisitos y calendario 2027 de ferias en Jesús María, San Miguel y Los Olivos para una S.A.C. de alimentos envasados; precio de módulos de campaña en MegaPlaza y Mall Plaza Comas.
