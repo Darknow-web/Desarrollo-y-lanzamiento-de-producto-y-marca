@@ -643,3 +643,70 @@ No encontrados con datos: Armónica, Sanísimo, La Nevera Fit, Vida Fit, Punto O
 3. **Brownies artesanales:** por unidad, rango S/9.17 a S/15.00 y mediana S/10.88 (6 precios: Sienna, The Chocolate Brownie, La Mora, Ale Cendra x2, Hey Brownie; con Rosa Pastel, sin fecha, la mediana sube a S/11.25). Por 100 g: no encontrado, porque ninguna pastelería publica gramaje; la referencia de supermercado con gramaje es mediana S/7.78 (rango S/5.50 a S/20.60). El «S/10 por 200 g» de Carlos no tiene respaldo publicado; el único brownie de 200 g con precio es el «No + Sellos» de Wong, a S/19.90.
 4. **Brownies saludables:** por unidad, rango S/1.51 a S/15.00 y mediana S/12.00 (7 productos con fecha de hoy: La Purita 1.51, No + Sellos 3.98, MyProtein 11.58, Justines 12.00, Arilú 13.33, Fika 14.00, Keto 15.00); con Vitalife y Sixpack, sin fecha, la mediana es S/11.58. Por 100 g solo hay 3 datos: S/9.95 (No + Sellos), S/18.75 (Justines) y S/20.00 (Fika, con 70 g; S/25.45 con 55 g); mediana S/18.75.
 5. **Un brownie de 35 g (con IGV):** saludable a la mediana de S/18.75 por 100 g = S/6.56 (S/5.56 sin IGV; entre S/3.48 y S/7.00 con el rango de 9.95 a 20.00). Artesanal: no se puede calcular a la mediana porque no hay S/ por 100 g publicado; como referencia, a la mediana de supermercado de S/7.78 por 100 g saldría S/2.72, y la mediana de S/10.88 por unidad de pastelería no tiene gramaje que permita compararla.
+
+## Stands en centros comerciales y carritos junto a supermercados
+
+Consulta del 19-nov-2026. No repite lo ya citado arriba (módulos de S/500 a US$2,500 de Gestión 2023 y la nota de Líbero de 2-dic-2022 sobre un módulo de 4 m²; MegaPlaza sin tarifa). Donde dice «no encontrado», no hay dato público leído; no se estimó nada.
+
+### A. Stands, islas y módulos en centros comerciales
+
+| Lugar o dato | Valor | A qué se refiere | Fuente | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|
+| Lima, mall de gran circulación | «Unos S/3,000 por m²» (Percy Vigil, exgerente de Mega Plaza). El texto no dice si es por mes | Estimación de un experto para módulos en Lima | Gestión | https://gestion.pe/economia/mercados/alquiler-de-modulos-en-centros-comerciales-va-en-aumento-precios-y-espacio-ferias-retail-percy-vigil-jose-antonio-contreras-carlos-neuhaus-mega-plaza-open-plaza-accep-asociacion-de-centros-comerciales-y-de-entretenimiento-del-peru-noticia/ | 15-sep-2023 | Baja-media (opinión de un exejecutivo; no dice el periodo; con 4 m² daría más que el tope de S/9,250 del propio artículo) |
+| Mall pequeño de provincia | ≈ S/250 por m² (Vigil) | Referencia, no es Lima | Gestión (misma nota) | ídem | 15-sep-2023 | Baja |
+| Tamaño y plazo | Clásico 2x2 m (4 m²); también ≤ 1 m² y carretillas en ferias; plazo desde un día hasta varios años | Formato de módulo | Gestión (misma nota) | ídem | 15-sep-2023 | Media |
+| Ferias cortas (fin de semana) | Rentas «bajas»; sin monto | Sirven para medir el mercado | Gestión (misma nota) | ídem | 15-sep-2023 | Media; sin cifra |
+| Quién lo administra y qué revisa | El mall revisa experiencia y concepto de negocio y a veces rechaza; en Open Plaza a veces el mall pone el módulo y otras lo paga el locatario, que necesita licencia municipal. Cosméticos, accesorios y tecnología se colocan más fácil que ropa | Open Plaza y malls en general | Gestión (misma nota) | ídem | 15-sep-2023 | Media |
+| Open Plaza | ≈ 300 módulos en el país (antes de la pandemia, 40 a 50); programa «Open Emerge» para emprendedores desde 2021. Bases, costo y cómo postular: no leídos | Open Plaza | Gestión (misma nota) | ídem | 15-sep-2023 | Media; sin condiciones |
+| Zonas con más interés en Lima | San Martín de Porres, Surco y San Miguel | Demanda de módulos | Gestión (misma nota) | ídem | 15-sep-2023 | Media |
+| Plaza San Miguel | 130,000 m² arrendables; vacancia cercana al 2%; el CEO dice que no hay más disponibilidad | Difícil conseguir espacio fijo | Perú Retail (resultado de búsqueda; no abrí la nota) | https://www.peru-retail.com/plaza-san-miguel-anuncia-renovada-oferta-gastronomica-y-de-entretenimiento/ | s. f. | Baja (extracto) |
+| Real Plaza, «La Placita del Emprendimiento» | Feria en Centro Cívico, Puruchuco y Cusco (42 emprendedores; meta de más de 100); se postula y se califica por categoría; info en realplaza.pe/laplacita/. Costo y requisitos: no publicados | Real Plaza Puruchuco (y Centro Cívico) | Perú Retail | https://www.peru-retail.com/emprendedores-ofrecen-sus-productos-en-los-malls-del-real-plaza/ | 19-abr-2021 | Media para el hecho; datos de hace 5 años |
+| Real Plaza Salaverry | 40 módulos para emprendedores que rotan entre malls (Primavera, Guardia Civil, Centro Cívico). Costo: no publicado | Real Plaza | Perú Retail (resultado de búsqueda; no abrí la nota) | https://www.peru-retail.com/?p=159013 | s. f. | Baja |
+| Plaza Norte, Mall Aventura, Mall del Sur: ejemplo de renta | US$30 por m² de renta fija; renta variable 3% a 8% de ventas; fondo de promoción 10% de la renta fija; gastos comunes ≈ US$10 por m²; garantía 2 a 3 rentas. El artículo cita esos malls solo como ejemplos y dice que los montos varían según el mall y la negociación | Tienda de 50 m², no módulo; cifra de un tiktoker | Líbero | https://libero.pe/ocio/curiosidades/2022/11/27/cuanto-cuesta-alquilar-espacio-en-centro-comercial-como-mall-sur-plaza-norte-megaplaza-centro-civicio-alquiler-puesto-espacio-metros-cuadrados-renta-pe-peru-90578 | 27-nov-2022 | Baja; contradice los US$150-400 por m² de la otra nota de Líbero |
+| Caso de isla en Jockey Plaza | Isla de ≈ 20 m², «grab and go» (marca de postres de Alessandra Penny). No publica renta, inversión ni ventas | Jockey Plaza | Gestión | https://gestion.pe/economia/empresas/alessandra-penny-y-la-expansion-de-su-marca-tras-el-boom-de-los-cuchareables-noticia/ | 10-ene-2026 | Alta para el hecho; sin cifras de costo |
+| Requisitos (RUC, registro sanitario, póliza, garantía, medidas) por mall | Solo se lee: licencia municipal si el locatario instala su módulo, y garantía de 2 a 3 rentas (ejemplo de un tiktoker). Nada oficial de los malls | General | Gestión; Líbero | (arriba) | 2022-2023 | Baja |
+
+### B. Carritos e islas junto a supermercados, impulso y degustación
+
+| Lugar o dato | Valor | A qué se refiere | Fuente | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|
+| Sueldo de una impulsadora o degustadora en supermercado | Ofertas de S/80 a S/90 por día (algunas con S/200 de comisión); piden experiencia de 3 meses y a veces carné de manipulador | Lo que paga un empleador a la persona, no lo que cobra el supermercado | Computrabajo Perú (avisos) | https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-impulsadora-degustadora-fines-de-semana-s-90-por-dia-autoservicios-o-supermercados-lima-con-o-sin-experiencia-en-lima-68ED4198A6551BF661373E686DCF3405 | s. f. (avisos vigentes en la búsqueda del 19-nov-2026) | Media para el sueldo; no responde el costo de una degustación |
+| Condiciones a proveedores | Una nota de Perú Retail habla de «rebate» (comisión sobre compras netas, negociada) y cobro por publicidad en volantes. Nada específico de degustación | Cadenas en general | Perú Retail (extracto) | https://www.peru-retail.com/tag/proveedores/ | s. f. | Baja |
+| Tottus y pymes | Pago a menos de 30 días a proveedores pyme calificados; no detalla registro | Tottus | Perú Retail (extracto) | https://www.peru-retail.com/peru-tottus-apoyara-a-pymes-peruanas/ | 2021 | Baja |
+| Surco, comercio ambulatorio | Ordenanza 707-MSS: autorización temporal solo para helados, emoliente, bebidas tradicionales y canillitas; persona natural; vigencia 1 año; personal e intransferible; ubicación y giro fijos; evaluación previa con silencio negativo; renovar 30 días antes. No se lee tasa. **No incluye snacks envasados** | Vía pública en Surco | Gestión | https://gestion.pe/peru/municipalidad-de-surco-regula-el-comercio-ambulatorio-en-el-distrito-que-se-dispone-noticia/ | 19-ago-2024 | Alta para el texto de la nota |
+| Los Olivos, comercio ambulatorio | Ordenanza 404-CDLO (4-dic-2014): alcance a ambulantes con al menos 4 años en el distrito, empadronados. Giros, tasa y zonas prohibidas: no leídos (texto truncado) | Vía pública en Los Olivos | vLex | https://vlex.com.pe/vid/ordenanza-n-404-cdlo-549741458 | 18-dic-2014 | Media; norma vieja, puede estar modificada |
+| San Miguel | Ordenanza 282-MDSM (25-mar-2015) regula el comercio de personas naturales en espacios públicos autorizados; requisitos, giros y tasa detrás de pago | Vía pública en San Miguel | vLex | https://vlex.com.pe/vid/ordenanza-n-282-mdsm-568146134 | 23-abr-2015 | Baja para requisitos |
+| San Juan de Lurigancho | Los derechos de trámite se ratificaron por Acuerdo de Concejo 491 (28-nov-2023), Ordenanza 444-MDSJL; no se leyó la línea de comercio ambulatorio | SJL | vLex | https://vlex.com.pe/vid/acuerdo-n-491-ratifican-980993391 | 28-nov-2023 | Baja |
+
+### C. Costo de un carrito, módulo o vitrina
+
+| Lugar o dato | Valor | A qué se refiere | Fuente | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|
+| Vitrina mostrador Cairo, 1 cajón (TU MESITA) | S/889.90 (antes S/1,430) | Vitrina pequeña de venta online; sin medidas en la ficha | Falabella Perú | https://www.falabella.com.pe/falabella-pe/shop/vitrina-mostrador | 19-nov-2026 | Media (precio de lista; no es mueble de feria) |
+| Mueble mostrador aparador de melamina (Pelikano) | S/2,999 (la búsqueda indicó S/2,899 con descuento) | Mostrador de melamina de tienda | Falabella Perú | ídem | 19-nov-2026 | Media |
+| Carrito o isla fabricado a medida en Lima (1-2 m²) | No encontrado | n. a. | n. a. | n. a. | n. a. | n. a. |
+
+### D. Ritmo de venta
+
+| Lugar o dato | Valor | A qué se refiere | Fuente | URL | Fecha | Confianza |
+|---|---|---|---|---|---|---|
+| Unidades por día de un stand o carrito de snacks en un mall de Lima | No encontrado | n. a. | n. a. | n. a. | n. a. | n. a. |
+| María Almenara (venta directa) | S/500 a 600 diarios vendiendo brownies, alfajores y dulces en bicicleta a empresas; no es un mall | Referencia indirecta de venta diaria de postres | Perú Retail (resultado de búsqueda; no abrí la nota) | https://www.peru-retail.com/peru-maria-almenara-abrio-las-puertas-de-su-segunda-pasteleria/ | s. f. | Baja |
+
+### No encontrado
+
+- Tarifa por día, fin de semana o mes de módulos o ferias en Plaza San Miguel, Real Plaza Salaverry, Plaza Norte, MegaPlaza, Mall Aventura, Real Plaza Puruchuco, Open Plaza, Mall del Sur, Plaza Lima Sur y Jockey Plaza.
+- Bases, costo y fecha de convocatorias vigentes (Open Emerge, La Placita, Emprende Retail) y un canal de postulación actual por mall.
+- Requisitos formales de cada mall (RUC, registro sanitario, póliza, garantía, medidas) para un módulo de alimentos.
+- Espacios para carritos en la entrada o galería de Plaza Vea, Tottus, Metro, Wong y Makro, y su costo.
+- Costo por día de una degustación para el proveedor y requisitos de registro como proveedor en esas cadenas.
+- Tasa y requisitos de comercio en vía pública en Los Olivos, San Miguel, Independencia y SJL; y si se permite vender alimentos envasados (en Surco, por el texto de la nota, no).
+- Precio de fabricar o comprar un carrito, exhibidor rodante o isla de 1 a 2 m² en Lima.
+- Unidades vendidas por día en un stand o carrito de snacks o postres en un mall de Lima.
+
+### Cierre
+
+1. **Costo mensual de un stand en un mall de zona B:** no encontrado por mall. Solo hay el rango general de prensa de S/500 a US$2,500 (Gestión, 2023) y la opinión de unos S/3,000 por m² en un mall de gran circulación, sin periodo. No sirve para presupuestar; hay que pedir cotización.
+2. **Carrito o isla junto a supermercado:** no hay opción documentada. En vía pública, Surco solo autoriza helados, emoliente y bebidas, no snacks envasados; la tasa no se encontró. Lo único con costo leído es la degustación con persona propia, de S/80 a S/90 por día de sueldo, que no incluye lo que cobre la cadena.
+3. **Carrito propio:** no encontrado para uno a medida; la referencia más cercana es una vitrina de tienda de S/889.90 a S/2,999 (Falabella, 19-nov-2026), sin garantía de que sirva para un mall.
+4. **Ritmo de venta:** no encontrado; solo se sabe que una isla de postres de 20 m² en Jockey Plaza tuvo «impacto inmediato» sin cifras.
