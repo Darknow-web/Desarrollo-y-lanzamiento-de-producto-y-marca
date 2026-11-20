@@ -262,7 +262,7 @@ Si alguien todavía no lo probó, pase al stand. Y escaneen el QR de la pantalla
 ## Si sobra o falta tiempo
 
 - **Parte 1 · Diana:** si va tarde, quita «Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.» y «Es el mismo brownie.»; si sobra, añade en la lámina 3: «Quince votos para el mini brownie, frente a diez de las trufas.»
-- **Parte 2 · Patty:** si va tarde, deja la lámina 9 solo en pantalla y quita «Trabaja él, trabaja su esposa»; si sobra, añade en la lámina 6: «Siete veces más hogares que el nivel A.»
+- **Parte 2 · Patty:** si va tarde, deja la lámina 9 solo en pantalla y quita «Trabaja él, trabaja su esposa»
 - **Parte 3 · Ade:** si va tarde, quita la frase de las kermeses y el stand de fin de semana; nunca quita la del mall, que responde lo que pidió la profesora
 - **Parte 4 · Angie:** si va tarde, deja la lámina 17 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»
 - **Parte 5 · Carlos:** si va tarde, quita la frase del WhatsApp en la lámina 22 y «El primer año pierde…» en la 23; nunca quita el punto de equilibrio, el ROI, [N], [M] ni la invitación al QR.
