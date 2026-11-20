@@ -80,6 +80,20 @@ kit = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{FON
 .qrs span{{font:800 8pt J;display:block;margin-top:1mm}}
 .card .h{{font-size:12pt;margin-top:1.5mm}}
 .card .s2{{font-size:7.5pt;color:#D9B48F}}
+.poster{{background:#FBF3E8;display:flex;flex-direction:column;align-items:center;padding:14mm 12mm 0}}
+.poster .logo{{height:24mm}}
+.poster h1{{font:800 66pt/0.95 J;color:#BA4036;letter-spacing:-.04em;margin-top:7mm;text-align:center}}
+.poster .sub{{font:800 18pt/1.25 J;color:#4A2018;text-align:center;margin-top:5mm}}
+.poster .bag{{height:104mm;margin-top:7mm;border-radius:4mm;box-shadow:0 5mm 10mm -6mm rgba(74,32,24,.5)}}
+.poster .rev{{position:absolute;left:0;right:0;bottom:0;height:62mm;background:#2E120C;color:#FBF3E8;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 12mm}}
+.poster .rev b{{font:800 30pt/1.05 J;color:#E3A33B}}
+.poster .rev p{{font-size:14pt;margin-top:3mm}}
+.poster .rev small{{font:800 11pt J;color:#D9B48F;margin-top:4mm;display:block}}
+.poster .qr{{position:absolute;right:10mm;top:10mm;width:27mm;text-align:center;font:800 7pt J;color:#4A2018}}
+.poster .qr div{{width:27mm;height:27mm;background:#fff;padding:1.5mm;border-radius:1.5mm}}
+.labels{{display:grid;grid-template-columns:90mm 90mm;grid-template-rows:135mm 135mm;gap:6mm 8mm;justify-content:center;align-content:center}}
+.labels img{{width:90mm;height:135mm;outline:.2mm dashed #bbb}}
+.guide td{{height:auto;padding:2mm;vertical-align:top;font-size:9.5pt}}
 .tent{{display:flex;flex-direction:column}}
 .tent .half{{height:148.5mm;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12mm 16mm}}
 .tent .top{{transform:rotate(180deg);border-bottom:.3mm dashed #bbb}}
@@ -103,6 +117,23 @@ table{{width:100%;border-collapse:collapse;font-size:9.5pt}}
 th{{background:#4A2018;color:#FBF3E8;font:800 8.5pt J;text-align:left;padding:2mm}}
 td{{border-bottom:.3mm solid #D9B48F;height:8.6mm;padding:0 2mm}}
 </style></head><body>
+<section class="a4 sheet guide"><img src="../web/img/logo-andibite.svg"><h2>Kit del stand · cómo imprimir</h2>
+<p>Todo en papel opalina (cartulina) A4, a color, salvo lo que se indica. Imprimir al 100 % (sin «ajustar a la página»).</p>
+<table><tr><th>Páginas</th><th>Qué es</th><th>Copias</th><th>Después de imprimir</th></tr>
+<tr><td>2</td><td>Cartel «¿Lo notarías?»</td><td>1</td><td>Tapar la franja oscura de abajo con una tira de papel kraft pegada solo por arriba</td></tr>
+<tr><td>3 a 8</td><td>Guirnalda «¿LA ♥ NOTASTE?» (12 banderines)</td><td>1</td><td>Recortar los triángulos y pegarlos en un pabilo con cinta</td></tr>
+<tr><td>9 y 10</td><td>Tarjetas para entregar (adelante y atrás)</td><td>6 hojas a doble cara</td><td>Imprimir a doble cara volteando por el borde largo; cortar 8 por hoja por la línea punteada (48 tarjetas)</td></tr>
+<tr><td>11</td><td>Carpita «Antes de probar» (alérgenos)</td><td>1</td><td>Doblar por la mitad por la línea punteada</td></tr>
+<tr><td>12</td><td>Carpita de precio</td><td>1</td><td>Doblar por la mitad por la línea punteada</td></tr>
+<tr><td>13</td><td>Contador «Probaron · La notaron»</td><td>1</td><td>Meter en una mica y escribir con plumón de pizarra</td></tr>
+<tr><td>14</td><td>Etiquetas de la bolsa de 6 (frente y reverso)</td><td>1</td><td>Recortar y pegar en las 2 bolsas con cinta doble faz</td></tr>
+<tr><td>15</td><td>Hoja de conteo de la prueba a ciegas</td><td>2 (blanco y negro)</td><td>En un tablero, con lapicero</td></tr>
+<tr><td>16</td><td>Hoja de permisos para grabar</td><td>2 (blanco y negro)</td><td>En un tablero, con lapicero</td></tr></table></section>
+<section class="a4 poster"><img class="logo" src="../web/img/logo-andi.png"><h1>¿Lo<br>notarías?</h1>
+<p class="sub">Pruébalo a ciegas.<br>Es un brownie de chocolate.</p>
+<img class="bag" src="../web/img/bolsa.png">
+<div class="qr"><div data-qr="instagram"></div>@andibite.pe</div>
+<div class="rev"><b>Lleva sangrecita.</b><p>No la escondemos: simplemente no se nota.</p><small>Dulce para ellos. Tranquilidad para ti.</small></div></section>
 {flags}
 <section class="a4 cards">{card_front * 8}</section>
 <section class="a4 cards">{card_back * 8}</section>
@@ -113,6 +144,7 @@ td{{border-bottom:.3mm solid #D9B48F;height:8.6mm;padding:0 2mm}}
 <section class="a4 count"><img src="../web/img/logo-andi.png"><h2>Hoy, en este stand</h2>
 <div class="box"><div class="row"><b>Probaron</b><i></i></div><div class="row"><b>La notaron</b><i></i></div></div>
 <p>Prueba a ciegas, responde y súmate a la pizarra.</p></section>
+<section class="a4 labels"><img src="../../../assets/empaque/packs/Pack 6 - frente.png"><img src="../../../assets/empaque/packs/Pack 6 - reverso.png"><img src="../../../assets/empaque/packs/Pack 6 - frente.png"><img src="../../../assets/empaque/packs/Pack 6 - reverso.png"></section>
 <section class="a4 sheet"><img src="../web/img/logo-andibite.svg"><h2>Prueba a ciegas · conteo</h2><p>Feria UPN · 23 de noviembre de 2026. «La notó» si antes de la revelación dice sangrecita, sangre, hígado, carne, menudencia o «sabe a fierro».</p>
 <table><tr><th style="width:10mm">N.º</th><th style="width:26mm">¿La notó?</th><th>¿Qué dijo?</th><th style="width:24mm">¿Permiso?</th></tr>{''.join(f'<tr><td>{n}</td><td>Sí · No</td><td></td><td>Sí · No</td></tr>' for n in range(1, 26))}</table></section>
 <section class="a4 sheet"><img src="../web/img/logo-andibite.svg"><h2>Permiso para grabar</h2><p>Autorizo a AndiBite (proyecto del Grupo 2, UPN Los Olivos) a grabar mi reacción en la prueba a ciegas del 23 de noviembre de 2026 y a publicarla en sus cuentas privadas de Instagram, TikTok y Facebook. Puedo pedir que se borre cuando quiera escribiendo a @andibite.pe (Ley 29733).</p>

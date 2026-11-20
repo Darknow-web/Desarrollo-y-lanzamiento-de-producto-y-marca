@@ -11,13 +11,13 @@ Su prueba suma en el contador («Probaron · La notaron»), que se ve en la pant
 Escribe el truco de su casa en un post-it y se va con la tarjeta de AndiBite: adelante lo que lleva, atrás los QR.
 Funciona porque no le contamos que no se nota: **lo comprueba en su boca**. Y cada prueba es un dato real para las cuentas.
 
-**Cómo se ve.** Una mesa vestida de crema y kraft, con una guirnalda de banderines que dice «¿LA NOTASTE?» en los colores de la marca, el cartel A3 parado al centro, la laptop animada a un lado y la lonchera con una plantita al otro. Todo se consigue en una librería o en casa, y todo el material impreso ya está listo en el kit.
+**Cómo se ve.** Una mesa vestida de crema y kraft, con una guirnalda de banderines que dice «¿LA NOTASTE?» en los colores de la marca, el cartel parado al centro, la laptop animada a un lado y la lonchera con una plantita al otro. Todo se consigue en una librería o en casa, y todo el material impreso ya está listo en el kit.
 
 | Elemento | Qué es y con qué se hace | Para qué sirve |
 |---|---|---|
 | Mesa vestida | Mantel o tela crema o beige (de casa) y un camino de papel kraft al centro (rollo de librería) | Le da el color de la marca a cualquier mesa del salón |
 | Guirnalda «¿LA NOTASTE?» | 12 banderines impresos en 6 hojas A4 a color, recortados y colgados de un pabilo con cinta, en el borde delantero de la mesa o en la pared | Se ve de lejos y anuncia la pregunta de la campaña |
-| Cartel A3 con solapa | Cartel A3 a color pegado sobre cartón pluma (o cartón de caja), parado con un atril de mesa o apoyado en una caja forrada con kraft. La franja oscura de abajo («Lleva sangrecita…») se tapa con una tira de papel kraft pegada solo por arriba | Invita a probar sin revelar nada. Angie levanta la solapa en la exposición |
+| Cartel A4 con solapa | Cartel A4 en opalina, parado con un atril de mesa o apoyado en una caja forrada con kraft. La franja oscura de abajo («Lleva sangrecita…») se tapa con una tira de papel kraft pegada solo por arriba | Invita a probar sin revelar nada. Angie levanta la solapa en la exposición |
 | Mesa de prueba | Tabla de picar o bandeja con vasitos de papel de 1 oz, un cubito en cada uno; pinza, guantes, servilletas, alcohol en gel y una bolsita para la basura | La prueba a ciegas, limpia y rápida |
 | Carpita de alérgenos | Hoja A4 doblada por la mitad, que se para sola (está en el kit) | Nadie prueba algo que le hace daño; quien quiere saber antes, sabe antes |
 | Carpita de precio | Hoja A4 doblada: «S/22 la bolsa de 6 · Suelto: S/5» (está en el kit) | Responde el precio sin que nadie pregunte |
@@ -28,17 +28,7 @@ Funciona porque no le contamos que no se nota: **lo comprueba en su boca**. Y ca
 | Tarjeta para llevar | Una sola tarjeta (8 por hoja A4): adelante lo que hay que recordar en 10 segundos; atrás los QR de Instagram y TikTok | Lo que se lleva en la mano y lo que lo hace seguirnos |
 | Hojas de conteo y de permisos | En el kit, listas para imprimir | El dato real del martes y la autorización para grabar |
 
-**El kit para imprimir ya está listo** (no hay que diseñar nada):
-
-| Archivo | Páginas | Cómo se imprime |
-|---|---|---|
-| AndiBite - Stand - Cartel A3 | 1 | A3 a color, en papel grueso o couché |
-| AndiBite - Stand - Kit para imprimir (A4) | 1 a 6: banderines | A4 a color; se recortan por el borde del triángulo |
-| | 7 y 8: tarjetas | A4 a color por los dos lados (voltear por el borde largo), en couché; se cortan 8 por hoja por la línea punteada. 6 juegos = 48 tarjetas |
-| | 9 y 10: carpitas de alérgenos y de precio | A4; se doblan por la mitad por la línea punteada |
-| | 11: contador | A4 a color; va dentro de una mica y se escribe con plumón de pizarra |
-| | 12 y 13: conteo y permisos | A4 en blanco y negro; 2 de cada una |
-| AndiBite - Pack 6 - hoja A4 para imprimir | 1 | En papel adhesivo, al 100 % |
+**El kit para imprimir ya está listo** en un solo archivo, «AndiBite - Stand - Kit para imprimir (opalina A4)»: todo en opalina A4. La página 1 dice qué imprimir, cuántas copias y qué hacer con cada pieza (cartel, guirnalda, tarjetas, carpitas, contador, etiquetas de la bolsa y hojas de conteo y permisos).
 
 ## 2. El recorrido del visitante en 8 pasos
 
@@ -124,12 +114,11 @@ Producto, empaque, alergias y precios. **Compra: S/22 aprox.**
 Mesa vestida, cartel, guirnalda y grabación. **Compra: S/31 aprox.** (S/43 con atril)
 
 - [ ] Mantel o tela crema o beige (de casa) y el camino de papel kraft
-- [ ] Cartel A3 pegado en cartón pluma, con la solapa kraft **cerrada**, y su atril o una caja forrada
+- [ ] Cartel en opalina con la solapa kraft **cerrada**, y su atril o una caja forrada
 - [ ] Guirnalda de 12 banderines ya recortada y armada en el pabilo, cinta masking y tijera
 - [ ] Su celular para grabar: batería llena y espacio libre
 - [ ] Compra: rollo de papel kraft (**S/10**)
-- [ ] Compra: cartón pluma A3, pabilo y cinta masking (**S/10**); atril de mesa opcional (**S/12**, o una caja de casa)
-- [ ] Compra: impresión del cartel A3 a color y de los 12 banderines (7 hojas, **S/11**)
+- [ ] Compra: pabilo y cinta masking (**S/5**); atril de mesa opcional (**S/12**, o una caja de casa)
 - [ ] Ropa: polo café o crema y delantal
 
 ### Carlos
@@ -169,9 +158,9 @@ Tecnología, cuentas, tarjetas y trucos de casa. **Compra: S/27 aprox.**
 | **Sábado 21** | | | |
 | Prueba a ciegas con 6 a 10 adultos que firman; grabar para el T1 y el reel 5 | Diana (sirve), Patty (anota), Angie (graba) | Sáb 21, mañana | ☐ |
 | Publicar la 3 (reel T2) y la 4; historias 3 y 4; armar 4 destacadas | Angie | Sáb 21, 8:30 p. m. | ☐ |
-| Revisar el kit de impresión (cartel A3, banderines, tarjetas, carpitas, contador, conteo y permisos): ya está diseñado, no hay que hacer nada en Canva | Carlos | Sáb 21, 1 p. m. | ☐ |
+| Revisar el kit de impresión en opalina A4 (cartel, banderines, tarjetas, carpitas, contador, etiquetas, conteo y permisos): ya está diseñado, no hay que hacer nada en Canva | Carlos | Sáb 21, 1 p. m. | ☐ |
 | Pasar a Ade la lista completa de ingredientes | Diana | Sáb 21, 1 p. m. | ☐ |
-| Imprimir el kit: cartel A3 y 6 hojas de banderines a color (Angie); 6 hojas de tarjetas a color por los dos lados en couché (Carlos); 2 carpitas y 2 hojas de etiquetas adhesivas (Ade); contador, 2 de conteo y 2 de permisos (Patty) | Cada uno lo suyo | Sáb 21, tarde (a más tardar dom 22, 12 m.) | ☐ |
+| Imprimir todo el kit en opalina A4 (un solo archivo; la página 1 dice cuántas copias) | Cada uno lo suyo | Sáb 21, tarde (a más tardar dom 22, 12 m.) | ☐ |
 | Comprar los materiales de la sección 3 | Cada uno lo suyo | Sáb 21 | ☐ |
 | Aprender su parte del guion y cronometrarla sola (unos 2 min) | Todos | Sáb 21, noche | ☐ |
 | **Domingo 22** | | | |
