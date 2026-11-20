@@ -135,7 +135,7 @@ Y los veintidós caen dentro de lo que dijeron las mamás. Ese precio lo pusiero
 
 El canal más fuerte es el colegio: las familias prueban en la puerta, la delegada junta el pedido del salón, cada familia paga por Yape y el lunes entregamos en la puerta del colegio. Ocho colegios al arrancar y uno más cada mes: catorce en septiembre y veinticuatro en 2028.
 
-Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.
+Las kermeses son para probar en familia. Y los fines de semana tenemos un stand en la feria del Campo de Marte, donde prueban familias nuevas cada sábado y domingo.
 
 Todo empieza probando, en persona. El WhatsApp solo junta el pedido de la semana y avisa cuándo volver a pedir.
 
@@ -263,6 +263,6 @@ Si alguien todavía no lo probó, pase al stand. Y escaneen el QR de la pantalla
 
 - **Parte 1 · Diana:** si va tarde, quita «Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.» y «Es el mismo brownie.»; si sobra, añade en la lámina 3: «Quince votos para el mini brownie, frente a diez de las trufas.»
 - **Parte 2 · Patty:** si va tarde, deja la lámina 9 solo en pantalla y quita «Trabaja él, trabaja su esposa»; si sobra, añade en la lámina 6: «Siete veces más hogares que el nivel A.»
-- **Parte 3 · Ade:** si va tarde, quita «Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.» y «Cada paso se gana con el anterior.»
+- **Parte 3 · Ade:** si va tarde, quita la frase de las kermeses y el stand de fin de semana y «Cada paso se gana con el anterior.»
 - **Parte 4 · Angie:** si va tarde, deja la lámina 17 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»
 - **Parte 5 · Carlos:** si va tarde, quita la frase del WhatsApp en la lámina 22 y «El primer año pierde…» en la 23; nunca quita el punto de equilibrio, el ROI, [N], [M] ni la invitación al QR.
