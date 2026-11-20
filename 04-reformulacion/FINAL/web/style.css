@@ -549,3 +549,15 @@ p{font-size:28px;line-height:1.42}
 .flow .card p{font-size:27px}
 .act p{font-size:26px}
 .kpi .n span,.roi .big2 span,.pe .n span{font:inherit;color:inherit;display:inline;margin:0}
+/* ---------- Lámina 6: embudo de mercado ---------- */
+.s-pub .wrap{grid-template-columns:1.6fr 1fr;gap:60px;margin-top:30px}
+.funnel{display:flex;flex-direction:column;gap:10px}
+.fr{display:grid;grid-template-columns:560px 1fr;align-items:center;gap:26px}
+.fb{display:flex;justify-content:center}
+.fb .bar{height:84px;border-radius:14px;display:grid;place-items:center;font:800 38px/1 var(--ft);letter-spacing:-.01em;box-shadow:0 10px 20px -14px rgba(74,32,24,.5)}
+.fl b{display:block;font:800 27px/1.15 var(--ft);color:var(--cafe)}
+.fl span{display:block;font-size:22px;color:var(--suave);margin-top:4px}
+.fr{grid-template-columns:500px 1fr;gap:22px}
+.fb .bar{white-space:nowrap}
+.fl b{font-size:26px}
+.s-pub .wrap{grid-template-columns:1.75fr 1fr;gap:50px}

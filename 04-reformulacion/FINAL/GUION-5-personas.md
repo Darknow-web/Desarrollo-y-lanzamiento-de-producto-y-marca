@@ -71,11 +71,11 @@ Tiempo: 2:03 · Palabras: 267
 
 ### Lámina 6 · Público
 
-Gracias, Diana. Le hablamos a papá y mamá de nivel B de Lima: más de seiscientos dieciocho mil hogares.
+Gracias, Diana. En el Perú hay nueve millones y medio de hogares; en Lima, más de tres millones.
 
-Con foco en el B1, el que tiene más holgura para pagar por calidad.
+De esos, seiscientos dieciocho mil son de nivel B, y nuestro foco es el B1: ciento sesenta y cuatro mil hogares, los que tienen más holgura para pagar por calidad. Con hijos de cuatro a once años, quedan unos treinta y nueve mil.
 
-Y la meta del primer año es chiquita a propósito: unas doscientas cincuenta familias que compran cada semana. Menos de dos de cada mil hogares B1.
+Nuestra meta es chiquita a propósito: el cero coma seis por ciento el primer año, unas doscientas cincuenta familias que compran cada semana. Y el dos por ciento en 2031.
 
 ### Lámina 7 · Rodrigo
 
