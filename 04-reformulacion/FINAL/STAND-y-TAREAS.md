@@ -7,26 +7,38 @@ Grupo 2 · UPN Los Olivos · Feria en el salón · Diana Ayoso, Patricia «Patty
 Quien se acerca prueba un cubito de brownie de chocolate **sin saber qué lleva**.
 Le preguntamos: «¿Notaste algo distinto?». Casi siempre dice «no» o adivina otra cosa.
 Recién ahí le contamos: «Lleva sangrecita». La sorpresa es la campaña «¿La notaste?» en vivo.
-Su prueba suma en el contador («Probaron · La notaron»), que se ve en la pantalla y en la cartulina.
-Escribe el truco de su casa en un post-it del mural y se va con la tarjeta de los 10 segundos y la tarjetita QR.
+Su prueba suma en el contador («Probaron · La notaron»), que se ve en la pantalla y en la hoja del contador.
+Escribe el truco de su casa en un post-it y se va con la tarjeta de AndiBite: adelante lo que lleva, atrás los QR.
 Funciona porque no le contamos que no se nota: **lo comprueba en su boca**. Y cada prueba es un dato real para las cuentas.
 
-| Elemento | Qué es | Para qué sirve |
+**Cómo se ve.** Una mesa vestida de crema y kraft, con una guirnalda de banderines que dice «¿LA NOTASTE?» en los colores de la marca, el cartel A3 parado al centro, la laptop animada a un lado y la lonchera con una plantita al otro. Todo se consigue en una librería o en casa, y todo el material impreso ya está listo en el kit.
+
+| Elemento | Qué es y con qué se hace | Para qué sirve |
 |---|---|---|
-| Biombo | 3 paneles de cartón de 60 × 120 cm forrados con kraft, detrás de la mesa | Arma el fondo del stand y sostiene el mural, el cartel y el contador |
-| Cartel con solapa | A2 a color: logo, «¿Lo notarías? Pruébalo a ciegas.» y QR de Instagram. Una solapa kraft tapa «Lleva sangrecita. No la escondemos: simplemente no se nota.» | Invita a probar sin revelar nada. Angie levanta la solapa en la exposición |
-| Mesa de prueba | Bandeja con vasitos de 1 oz, un cubito en cada uno; pinza, guantes, servilletas, alcohol en gel, tacho | La prueba a ciegas, limpia y rápida |
-| Tarjeta de alérgenos | A5 parada: «Lleva gluten, huevo, leche, soya y cacao. Lleva un ingrediente de origen animal que te contamos después de probar; si prefieres saberlo antes, pregúntanos.» Al lado, sobre con la lista completa | Nadie prueba algo que le hace daño; quien quiere saber antes, sabe antes |
-| Producto | 2 bolsas de 6 con etiqueta, **de espaldas**; 6 brownies en su bolsita; lonchera terracota con fruta, agua y un brownie | Muestra cómo se vende y cómo va en la lonchera, sin revelar el ingrediente |
-| Hablador | A6 en porta-precio: «Bolsa de 6: S/22 · Suelto: S/5 · Pedido del salón por WhatsApp» | Responde el precio sin que nadie pregunte |
-| Contador | Cartulina negra con tiza líquida («Probaron: ___ · La notaron: ___») y el contador de la lámina «Síguenos» en la laptop | La prueba social: «la probaron N y casi nadie la notó» |
-| Mural de trucos | Panel izquierdo con 20 post-its ya escritos y post-its en blanco | El visitante se reconoce («yo también rallaba zanahoria») y participa |
-| Laptop en «Síguenos» | Última lámina de la presentación, animada, con los QR de Instagram, TikTok y Facebook (@andibite.pe) y el contador | Atrae la mirada desde lejos y lleva a seguir las cuentas |
-| Celular con las cuentas | El celular de Carlos, con datos y sesión abierta en las 3 cuentas | Mostrar las publicaciones reales y aceptar las solicitudes al toque |
-| Tarjeta de los 10 segundos | A6: brownie de chocolate · lleva sangrecita · 1.9 mg de hierro · sin octógonos · uno por día · S/22 la bolsa. Atrás, QR de la app y de las redes | Lo que tiene que recordar, en la mano |
-| Tarjetita QR | Tamaño tarjeta de presentación: 3 QR, @andibite.pe y «Cuenta privada: manda tu solicitud y te aceptamos hoy» | Que siga las cuentas aunque no escanee en el momento |
-| Calendario A3 | El calendario de publicaciones de enero a junio de 2027, pegado al costado | Muestra que la campaña sigue después de la feria |
-| Hojas de conteo y de permisos | Conteo: número, ¿la notó?, qué dijo, ¿dio permiso? Permiso: nombre y firma | El dato real del martes y la autorización para grabar |
+| Mesa vestida | Mantel o tela crema o beige (de casa) y un camino de papel kraft al centro (rollo de librería) | Le da el color de la marca a cualquier mesa del salón |
+| Guirnalda «¿LA NOTASTE?» | 12 banderines impresos en 6 hojas A4 a color, recortados y colgados de un pabilo con cinta, en el borde delantero de la mesa o en la pared | Se ve de lejos y anuncia la pregunta de la campaña |
+| Cartel A3 con solapa | Cartel A3 a color pegado sobre cartón pluma (o cartón de caja), parado con un atril de mesa o apoyado en una caja forrada con kraft. La franja oscura de abajo («Lleva sangrecita…») se tapa con una tira de papel kraft pegada solo por arriba | Invita a probar sin revelar nada. Angie levanta la solapa en la exposición |
+| Mesa de prueba | Tabla de picar o bandeja con vasitos de papel de 1 oz, un cubito en cada uno; pinza, guantes, servilletas, alcohol en gel y una bolsita para la basura | La prueba a ciegas, limpia y rápida |
+| Carpita de alérgenos | Hoja A4 doblada por la mitad, que se para sola (está en el kit) | Nadie prueba algo que le hace daño; quien quiere saber antes, sabe antes |
+| Carpita de precio | Hoja A4 doblada: «S/22 la bolsa de 6 · Suelto: S/5» (está en el kit) | Responde el precio sin que nadie pregunte |
+| Producto | 2 bolsas de 6 con la etiqueta, **de espaldas**; 6 brownies en su bolsita; la lonchera terracota abierta con fruta, agua y un brownie; una plantita | Muestra cómo se vende y cómo va en la lonchera, sin revelar el ingrediente |
+| Contador | Hoja A4 del kit metida en una mica (funda plástica) y escrita con plumón de pizarra, más el contador de la lámina «Síguenos» en la laptop | La prueba social: «la probaron N y casi nadie la notó» |
+| Trucos de casa | Post-its pegados alrededor del cartel y sobre el camino de kraft, con 10 ya escritos | El visitante se reconoce («yo también rallaba zanahoria») y participa |
+| Laptop en «Síguenos» | La última lámina de la presentación, animada, con los QR y el contador | Atrae la mirada y lleva a seguir las cuentas |
+| Tarjeta para llevar | Una sola tarjeta (8 por hoja A4): adelante lo que hay que recordar en 10 segundos; atrás los QR de Instagram y TikTok | Lo que se lleva en la mano y lo que lo hace seguirnos |
+| Hojas de conteo y de permisos | En el kit, listas para imprimir | El dato real del martes y la autorización para grabar |
+
+**El kit para imprimir ya está listo** (no hay que diseñar nada):
+
+| Archivo | Páginas | Cómo se imprime |
+|---|---|---|
+| AndiBite - Stand - Cartel A3 | 1 | A3 a color, en papel grueso o couché |
+| AndiBite - Stand - Kit para imprimir (A4) | 1 a 6: banderines | A4 a color; se recortan por el borde del triángulo |
+| | 7 y 8: tarjetas | A4 a color por los dos lados (voltear por el borde largo), en couché; se cortan 8 por hoja por la línea punteada. 6 juegos = 48 tarjetas |
+| | 9 y 10: carpitas de alérgenos y de precio | A4; se doblan por la mitad por la línea punteada |
+| | 11: contador | A4 a color; va dentro de una mica y se escribe con plumón de pizarra |
+| | 12 y 13: conteo y permisos | A4 en blanco y negro; 2 de cada una |
+| AndiBite - Pack 6 - hoja A4 para imprimir | 1 | En papel adhesivo, al 100 % |
 
 ## 2. El recorrido del visitante en 8 pasos
 
@@ -36,10 +48,10 @@ Funciona porque no le contamos que no se nota: **lo comprueba en su boca**. Y ca
 | 2. Permiso | Ade | «¿Podemos grabar tu reacción para las cuentas de AndiBite, que solo ve el salón?» Sí: firma la hoja. No: prueba igual y no se graba | 10 s |
 | 3. Prueba | Diana (Angie graba si firmó) | Le da el vasito con la pinza. Se espera a que termine | 10 s |
 | 4. Pregunta | Patty | «¿Notaste algo distinto? ¿Qué crees que lleva?» Anota la respuesta exacta | 10 s |
-| 5. Revelación | Carlos | «Lleva sangrecita. No la escondemos: simplemente no se nota.» Le da la tarjeta de los 10 segundos | 10 s |
+| 5. Revelación | Carlos | «Lleva sangrecita. No la escondemos: simplemente no se nota.» Le da la tarjeta de AndiBite | 10 s |
 | 6. Contador | Patty | Rayita en «Probaron» y tecla en la laptop; si la notó, también en «La notaron» | 5 s |
-| 7. Truco | Angie | «¿Cuál era el truco en tu casa?» Le da un post-it y plumón; lo pega en el mural | 15 s |
-| 8. QR | Carlos | «Síguenos: escanea y manda tu solicitud, te aceptamos hoy.» Le da la tarjetita QR | 10 s |
+| 7. Truco | Angie | «¿Cuál era el truco en tu casa?» Le da un post-it y plumón; lo pega junto al cartel | 15 s |
+| 8. QR | Carlos | «Síguenos: escanea la pantalla o el reverso de tu tarjeta y manda tu solicitud; te aceptamos hoy.» | 10 s |
 
 **Cuenta como «la notó»** si, antes de la revelación, dice sangrecita, sangre, hígado, carne, menudencia o «sabe a fierro». Café, plátano, camote u otra cosa: no la notó.
 
@@ -74,16 +86,16 @@ Comida y servir. **Compra: S/53 aprox.**
 
 ### Patty
 
-Contador, conteo, higiene y conexión. **Compra: S/38 aprox.**
+Contador, conteo, higiene y conexión. **Compra: S/36 aprox.**
 
-- [ ] Cartulina negra de 50 × 70 cm ya escrita: «Probaron: ___ · La notaron: ___» y la tiza líquida
+- [ ] Hoja del contador en una mica y 2 plumones de pizarra
 - [ ] Hojas de conteo (4) en un tablero, con 2 lapiceros
 - [ ] Hojas de permiso (se las da a Ade al llegar)
 - [ ] 50 vasitos de papel de 1 oz
 - [ ] Guantes, servilletas, alcohol en gel y bolsas de basura (le da los guantes a Diana al llegar)
 - [ ] Un tacho chico de casa
 - [ ] Extensión eléctrica (de casa, mínimo 3 m)
-- [ ] Compra: cartulina negra y tiza líquida (**S/10**)
+- [ ] Compra: mica A4 y 2 plumones de pizarra (**S/8**)
 - [ ] Compra: hojas de conteo y de permisos, 6 para el lunes y 2 para el sábado (**S/3**)
 - [ ] Compra: vasitos (**S/5**)
 - [ ] Compra: guantes, servilletas, alcohol en gel y bolsas de basura (**S/20**)
@@ -91,51 +103,48 @@ Contador, conteo, higiene y conexión. **Compra: S/38 aprox.**
 
 ### Ade
 
-Producto, empaque, alergias y precios. **Compra: S/28 aprox.**
+Producto, empaque, alergias y precios. **Compra: S/22 aprox.**
 
 - [ ] 2 bolsas kraft de 6 con la etiqueta nueva pegada (van de espaldas)
 - [ ] 6 brownies en su bolsita para la exhibición
 - [ ] Lonchera terracota del equipo, con una fruta, un agua y un brownie (si la tiene otra persona, que se la dé el domingo)
 - [ ] Tarjeta de alérgenos A5 parada y el sobre con la lista completa de ingredientes (la lista se la da Diana)
 - [ ] Hablador A6 en porta-precio (de casa o hecho con cartón)
-- [ ] Calendario A3 (se lo da a Angie para pegarlo)
+- [ ] Una plantita pequeña en maceta (de casa)
 - [ ] Bolsitas individuales sobrantes y las 2 bolsas kraft de reserva
 - [ ] Compra: 4 bolsas kraft con cierre (**S/8**)
 - [ ] Compra: 30 bolsitas individuales (**S/6**)
 - [ ] Compra: impresión de etiquetas de bolsa en papel adhesivo, 2 hojas A4 con el archivo «AndiBite - Pack 6 - hoja A4 para imprimir» al 100 % (**S/6**)
-- [ ] Compra: impresión de tarjeta de alérgenos, hablador y calendario A3 (**S/8**)
+- [ ] Compra: impresión de las 2 carpitas (alérgenos y precio), 2 hojas A4 (**S/2**)
 - [ ] Ropa: polo café o crema y delantal
 
 ### Angie
 
-Biombo, cartel y grabación. **Compra: S/27 aprox.**
+Mesa vestida, cartel, guirnalda y grabación. **Compra: S/31 aprox.** (S/43 con atril)
 
-- [ ] Biombo de 3 paneles ya forrado con kraft y unido con cinta (plegado para llevar)
-- [ ] Cartel A2 con la solapa kraft pegada y **cerrada**
-- [ ] Resto del papel kraft, cinta doble contacto y chinches
+- [ ] Mantel o tela crema o beige (de casa) y el camino de papel kraft
+- [ ] Cartel A3 pegado en cartón pluma, con la solapa kraft **cerrada**, y su atril o una caja forrada
+- [ ] Guirnalda de 12 banderines ya recortada y armada en el pabilo, cinta masking y tijera
 - [ ] Su celular para grabar: batería llena y espacio libre
-- [ ] Compra: rollo de papel kraft de 1 × 3 m (**S/10**)
-- [ ] Compra: cinta doble contacto y chinches (**S/5**)
-- [ ] Compra: impresión del cartel A2 a color (**S/12**)
-- [ ] Cajas de cartón reusadas para el biombo (**S/0**)
+- [ ] Compra: rollo de papel kraft (**S/10**)
+- [ ] Compra: cartón pluma A3, pabilo y cinta masking (**S/10**); atril de mesa opcional (**S/12**, o una caja de casa)
+- [ ] Compra: impresión del cartel A3 a color y de los 12 banderines (7 hojas, **S/11**)
 - [ ] Ropa: polo café o crema y delantal
 
 ### Carlos
 
-Tecnología, cuentas, tarjetas y mural. **Compra: S/30 aprox.**
+Tecnología, cuentas, tarjetas y trucos de casa. **Compra: S/27 aprox.**
 
 - [ ] Laptop con la presentación lista para abrir sin internet
 - [ ] Cargador de la laptop
 - [ ] Celular con datos, cargado, con sesión abierta en Instagram, TikTok y el grupo de Facebook
-- [ ] 40 tarjetas de los 10 segundos
-- [ ] 50 tarjetitas QR
+- [ ] 48 tarjetas de AndiBite ya cortadas (6 hojas impresas por los dos lados)
 - [ ] 20 post-its ya escritos con trucos reales (del equipo y de los seguidores), post-its en blanco y 3 plumones
-- [ ] Compra: impresión de 40 tarjetas de 10 segundos en couché, 10 hojas A4 (**S/10**)
-- [ ] Compra: impresión de 50 tarjetitas QR, 5 hojas A4 a 10 por hoja (**S/5 aprox.**)
+- [ ] Compra: impresión de las tarjetas a color por los dos lados, 6 hojas A4 en couché (**S/12**)
 - [ ] Compra: 3 blocks de post-its pastel y 3 plumones (**S/15**)
 - [ ] Ropa: polo café o crema y delantal
 
-**Total estimado: S/176** (S/152 de materiales + S/18 de la media tanda del sábado + S/5 de tarjetitas QR + S/1 de hojas para el sábado).
+**Total estimado: S/169**, unos S/34 por persona (S/181 si se compra el atril).
 
 ## 4. Lo que falta hacer antes del lunes
 
@@ -155,17 +164,13 @@ Tecnología, cuentas, tarjetas y mural. **Compra: S/30 aprox.**
 | Conseguir 6 a 10 adultos para la prueba del sábado y fijar hora y lugar | Diana | Vie 20, noche | ☐ |
 | Imprimir 2 hojas de permiso y de conteo para el sábado | Patty | Vie 20 | ☐ |
 | Comprar ingredientes de las dos tandas y hornear la media tanda (12) | Diana | Vie 20, noche | ☐ |
-| Juntar 3 cajas de cartón para el biombo | Angie | Vie 20 | ☐ |
 | Leer cada uno su parte del guion | Todos | Vie 20, noche | ☐ |
 | **Sábado 21** | | | |
 | Prueba a ciegas con 6 a 10 adultos que firman; grabar para el T1 y el reel 5 | Diana (sirve), Patty (anota), Angie (graba) | Sáb 21, mañana | ☐ |
 | Publicar la 3 (reel T2) y la 4; historias 3 y 4; armar 4 destacadas | Angie | Sáb 21, 8:30 p. m. | ☐ |
-| Diseñar el cartel A2 | Angie | Sáb 21, 1 p. m. | ☐ |
-| Diseñar tarjetas de 10 segundos y tarjetitas QR | Carlos | Sáb 21, 1 p. m. | ☐ |
-| Diseñar tarjeta de alérgenos, hablador y calendario A3 | Ade | Sáb 21, 1 p. m. | ☐ |
+| Revisar el kit de impresión (cartel A3, banderines, tarjetas, carpitas, contador, conteo y permisos): ya está diseñado, no hay que hacer nada en Canva | Carlos | Sáb 21, 1 p. m. | ☐ |
 | Pasar a Ade la lista completa de ingredientes | Diana | Sáb 21, 1 p. m. | ☐ |
-| Diseñar la hoja de conteo y la de permisos del lunes | Patty | Sáb 21, 1 p. m. | ☐ |
-| Imprimir: cartel A2 (Angie); 40 tarjetas de 10 s y 50 tarjetitas QR (Carlos); alérgenos A5, hablador A6, calendario A3 y 2 hojas de etiquetas (Ade); 6 hojas de conteo y permisos (Patty) | Cada uno lo suyo | Sáb 21, tarde (a más tardar dom 22, 12 m.) | ☐ |
+| Imprimir el kit: cartel A3 y 6 hojas de banderines a color (Angie); 6 hojas de tarjetas a color por los dos lados en couché (Carlos); 2 carpitas y 2 hojas de etiquetas adhesivas (Ade); contador, 2 de conteo y 2 de permisos (Patty) | Cada uno lo suyo | Sáb 21, tarde (a más tardar dom 22, 12 m.) | ☐ |
 | Comprar los materiales de la sección 3 | Cada uno lo suyo | Sáb 21 | ☐ |
 | Aprender su parte del guion y cronometrarla sola (unos 2 min) | Todos | Sáb 21, noche | ☐ |
 | **Domingo 22** | | | |
@@ -173,9 +178,9 @@ Tecnología, cuentas, tarjetas y mural. **Compra: S/30 aprox.**
 | Pegar etiquetas en las 2 bolsas de 6 y armar la lonchera | Ade | Dom 22, tarde | ☐ |
 | Publicar el reel 5, el TikTok T1 y la 6; historia 5 (cuenta regresiva) | Angie | Dom 22, 8:30 p. m. | ☐ |
 | Captura de estadísticas y mandarlas al grupo; elegir la cifra que leerá Angie | Angie | Dom 22, 9 p. m. | ☐ |
-| Armar el biombo forrado y el cartel con solapa | Angie | Dom 22, tarde | ☐ |
-| Escribir los 20 post-its del mural | Carlos | Dom 22, tarde | ☐ |
-| Escribir la cartulina del contador | Patty | Dom 22, tarde | ☐ |
+| Pegar el cartel en el cartón pluma con su solapa, recortar los banderines y armar la guirnalda | Angie | Dom 22, tarde | ☐ |
+| Escribir 10 post-its con trucos reales | Carlos | Dom 22, tarde | ☐ |
+| Meter la hoja del contador en la mica y probar el plumón | Patty | Dom 22, tarde | ☐ |
 | Probar la presentación en la laptop, sin proyector: pantalla completa (tecla F), brillo al máximo, que abra sin internet desde el ZIP, que se lea a 1.5 m y que los QR se escaneen desde la pantalla | Carlos | Dom 22, tarde | ☐ |
 | Practicar el contador de la laptop: tecla P suma «Probaron», N suma «La notaron», Mayús+P o Mayús+N resta uno, H muestra la ayuda. No se borra al cambiar de lámina ni al recargar. Enseñárselo a Patty | Carlos, Patty | Dom 22, tarde | ☐ |
 | Ensayo general con cronómetro y la laptop en la mesa, como el lunes: 2 pasadas, meta 10 a 11 min | Todos | Dom 22, 6 p. m. | ☐ |
@@ -193,7 +198,7 @@ No sabemos la hora exacta. «Llegada» es cuando entramos al salón; «turno» e
 | Hora | Qué pasa | Quién |
 |---|---|---|
 | Llegada | Patty mide la mesa. Diana deja el táper a la sombra y cerrado | Patty, Diana |
-| Llegada a +15 min | Biombo, cartel con la solapa **cerrada**, mural, calendario A3 y cartulina del contador | Angie, Carlos, Patty |
+| Llegada a +15 min | Mantel y camino kraft, guirnalda, cartel con la solapa **cerrada**, post-its y contador | Angie, Carlos, Patty |
 | +15 a +25 min | Laptop en la mesa con cargador y extensión, de frente a quien llega. Pantalla completa en «Síguenos»; probar teclas del contador y escanear los 3 QR. Carlos abre las 3 cuentas en su celular | Carlos, Patty |
 | +15 a +25 min (a la vez) | Alcohol en gel y guantes. Vasitos con cubito, tapados con servilleta. Bolsas de espaldas, lonchera, hablador, tarjeta de alérgenos | Diana, Ade |
 | +25 a +30 min | Foto del stand armado. Cada uno en su lugar. Una vuelta de práctica de los 8 pasos | Angie, todos |
@@ -202,8 +207,8 @@ No sabemos la hora exacta. «Llegada» es cuando entramos al salón; «turno» e
 | Turno, 0 a 11 min | **Exposición** desde la laptop, unos 2 min cada uno (Carlos 2.5): Diana (problema e investigación), Patty (público, producto, marca y app), Ade (precio y canales), Angie (campaña y redes; levanta la solapa y lee una cifra real), Carlos (números: punto de equilibrio, ROI y financiamiento; contador del día y cierre). Termina en «Síguenos» | Todos |
 | Turno +11 a +16 min | **Preguntas.** Responde quien expuso el tema; Carlos ordena las preguntas | Todos |
 | Turno +16 min hasta el cierre | **Stand abierto** con la lámina «Síguenos». La solapa se vuelve a cerrar para quien no probó. Más degustación con los 8 pasos. Carlos acepta solicitudes cada 10 min | Todos |
-| 15 min antes de desarmar | Foto de la cartulina y de la pantalla con el contador. Foto del grupo. Historia 6 con el contador real. Foto de la hoja de conteo al grupo. Últimas solicitudes aceptadas | Angie, Patty, Carlos |
-| Desarmar | Vasitos y restos al tacho. Mesa limpia. Biombo plegado. Cada uno revisa que se lleva lo suyo | Todos |
+| 15 min antes de desarmar | Foto de la hoja del contador y de la pantalla. Foto del grupo. Historia 6 con el contador real. Foto de la hoja de conteo al grupo. Últimas solicitudes aceptadas | Angie, Patty, Carlos |
+| Desarmar | Vasitos y restos al tacho. Mesa limpia. Guirnalda y cartel guardados. Cada uno revisa que se lleva lo suyo | Todos |
 | Martes 24 | Publicación «Primera prueba a ciegas · 23 de noviembre · Probaron N · La notaron M. ¿Qué crees que es?», sin decir el ingrediente | Angie |
 
 ## 6. Reglas que no se rompen
