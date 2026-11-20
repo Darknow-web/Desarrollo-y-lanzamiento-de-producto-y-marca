@@ -4,16 +4,16 @@
 
 | Parte | Quién | Tema | Láminas | Tiempo |
 |---|---|---|---|---|
-| 1 | Diana Ayoso | El problema que escuchamos | 1 a 5 | 1:59 |
-| 2 | Patricia (Patty) Cárdenas | Para quién y qué creamos | 6 a 11 | 1:59 |
-| 3 | Adela (Ade) Robles | Cómo llega a la lonchera | 12 a 14 | 2:00 |
-| 4 | Angie Blas | La campaña | 15 a 21 | 1:58 |
-| 5 | Carlos Inga | Los números y la invitación | 22 a 26 | 1:56 |
-| | | | **Total** | **9:52 · 1,282 palabras** |
+| 1 | Diana Ayoso | El problema que escuchamos | 1 a 5 | 2:00 |
+| 2 | Patricia (Patty) Cárdenas | Para quién y qué creamos | 6 a 11 | 2:03 |
+| 3 | Adela (Ade) Robles | Cómo llega a la lonchera | 12 a 14 | 2:04 |
+| 4 | Angie Blas | La campaña | 15 a 21 | 2:05 |
+| 5 | Carlos Inga | Los números y la invitación | 22 a 28 | 2:29 |
+| | | | **Total** | **10:41 · 1,388 palabras** |
 
 ## Parte 1 · Diana Ayoso · El problema que escuchamos
 
-Tiempo: 1:59 · Palabras: 258
+Tiempo: 2:00 · Palabras: 259
 
 ### Lámina 1 · Portada
 
@@ -67,7 +67,7 @@ Es el mismo brownie. Lo que creció fue la tranquilidad.
 
 ## Parte 2 · Patricia (Patty) Cárdenas · Para quién y qué creamos
 
-Tiempo: 1:59 · Palabras: 258
+Tiempo: 2:03 · Palabras: 267
 
 ### Lámina 6 · Público
 
@@ -75,7 +75,7 @@ Gracias, Diana. Le hablamos a papá y mamá de nivel B de Lima: más de seiscien
 
 Con foco en el B1, el que tiene más holgura para pagar por calidad.
 
-Y la meta del primer año es chiquita a propósito: unas ciento diez familias que compran cada semana.
+Y la meta del primer año es chiquita a propósito: unas doscientas cincuenta familias que compran cada semana. Menos de dos de cada mil hogares B1.
 
 ### Lámina 7 · Rodrigo
 
@@ -115,7 +115,7 @@ Papá o mamá ve cuánto hierro llevó hoy y vuelve a pedir en un clic por Whats
 
 ## Parte 3 · Adela (Ade) Robles · Cómo llega a la lonchera
 
-Tiempo: 2:00 · Palabras: 259
+Tiempo: 2:04 · Palabras: 269
 
 ### Lámina 12 · Precio
 
@@ -133,7 +133,7 @@ Y los veintidós caen dentro de lo que dijeron las mamás. Ese precio lo pusiero
 
 ¿Dónde lo compra? Donde ya está la lonchera.
 
-El canal más fuerte es el pedido del salón: la delegada junta los pedidos en el chat, cada familia paga por Yape y el lunes entregamos en la puerta del colegio. Seis colegios al arrancar, dieciséis en 2028.
+El canal más fuerte es el pedido del salón: la delegada junta los pedidos en el chat, cada familia paga por Yape y el lunes entregamos en la puerta del colegio. Ocho colegios al arrancar y uno más cada mes: catorce en septiembre y veinticuatro en 2028.
 
 Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.
 
@@ -155,7 +155,7 @@ Cada paso se gana con el anterior.
 
 ## Parte 4 · Angie Blas · La campaña
 
-Tiempo: 1:58 · Palabras: 256
+Tiempo: 2:05 · Palabras: 270
 
 ### Lámina 15 · Portadilla de campaña
 
@@ -201,39 +201,47 @@ El veintiocho por ciento confía en amigos y familia; en influencers grandes, ap
 
 Y ya está andando: somos @andibite.pe en Instagram, TikTok y Facebook, con WhatsApp Business para los pedidos. Hoy, en plena expectativa.
 
-> Acción: Angie gira la laptop o la tablet hacia la profesora con el perfil abierto.
+> Acción: Angie muestra en su celular el perfil de @andibite.pe a la profesora mientras la lámina sigue en la laptop.
 
 **Pase:** «Una campaña así cuesta. Cuánto, de dónde sale y cuándo se paga: Carlos.»
 
 ## Parte 5 · Carlos Inga · Los números y la invitación
 
-Tiempo: 1:56 · Palabras: 251
+Tiempo: 2:29 · Palabras: 323
 
 ### Lámina 22 · Marketing 2027
 
-Gracias, Angie. Toda esa campaña cuesta quince mil cuarenta soles en 2027. Es el catorce por ciento de lo que vendemos el primer año. En 2028 baja a ocho, porque ya hay recompra.
+Gracias, Angie. Toda esa campaña cuesta quince mil cuarenta soles en 2027: el diez por ciento de lo que vendemos el primer año.
 
-Lo que más pesa es el contenido: el community manager y los videos de reacción.
+Y se mide con una regla simple: cada contacto de WhatsApp tiene que costarnos ocho veintitrés o menos.
 
-Y lo medimos con una sola regla: cada contacto de WhatsApp tiene que costarnos ocho veintitrés o menos.
+### Lámina 23 · Más colegios
 
-### Lámina 23 · Cien mil soles
+¿Cómo se vuelve rentable? No vendiendo más en cada colegio, sino entrando a más colegios.
 
-Para arrancar necesitamos cien mil soles hasta fines de 2028.
+Arrancamos con ocho en marzo y sumamos uno por mes: catorce en septiembre y veinticuatro en 2028. Cada colegio vende lo mismo de siempre: unos veinticinco brownies por día.
 
-La mitad la ponemos los cinco socios en diciembre. Treinta y cinco mil llegan en mayo, con un segundo aporte o un inversionista. Y quince mil, con un préstamo de caja municipal en enero de 2028, cuando ya tengamos ventas que mostrar.
+El primer año pierde, porque pagamos al equipo antes de tener el volumen. En 2028 la pérdida casi desaparece.
 
-Con eso, la caja nunca baja de cinco mil setecientos cuarenta y cinco soles.
+### Lámina 24 · Punto de equilibrio
 
-### Lámina 24 · Dos primeros años
+Nuestro punto de equilibrio sale de una división: los costos fijos del mes entre lo que deja cada brownie.
 
-En 2027 vendemos más de treinta y tres mil brownies; en 2028, más de setenta y dos mil.
+En 2028 son once mil trescientos soles entre uno cuarenta y uno: ocho mil cincuenta brownies al mes. Con veinticuatro colegios, son dieciocho por colegio y día. Y lo pasamos desde abril de 2028.
 
-De cada brownie en bolsa nos queda un sol con tres céntimos, después de producirlo y entregarlo.
+### Lámina 25 · ROI
 
-Los dos primeros años son de pérdida, y esa pérdida está financiada. En mayo de 2028, el mes diecisiete, llegamos al equilibrio. Desde ahí, ganamos cada mes de clases.
+¿Y lo que devuelve? En cinco años acumulamos cincuenta y ocho mil soles de utilidad sobre cien mil invertidos: un ROI de cincuenta y ocho por ciento. La inversión se recupera en 2030.
 
-### Lámina 25 · Cierre
+El marketing rinde desde el primer año: por cada sol que ponemos, vuelven dos soles con treinta y ocho de contribución.
+
+### Lámina 26 · Cien mil soles
+
+Para llegar ahí necesitamos cien mil soles. La mitad la ponemos los cinco socios; treinta y cinco mil llegan en mayo con un segundo aporte; y quince mil con un préstamo de caja municipal en 2028, cuando ya tengamos ventas que mostrar.
+
+Con eso, la caja nunca baja de siete mil novecientos soles.
+
+### Lámina 27 · Cierre
 
 Empezamos con una lonchera que volvía llena. Hoy, en este salón, probaron [N] personas. La notaron [M].
 
@@ -241,15 +249,15 @@ No hace milagros. Es una pelea menos cada mañana.
 
 AndiBite: dulce para ellos, tranquilidad para ti.
 
-> Acción: Carlos señala el contador del stand al decir [N] y [M]; todo el grupo se pone junto a la mesa.
+> Acción: Carlos señala la pizarra del contador al decir [N] y [M]; todo el grupo se pone junto a la mesa.
 
-### Lámina 26 · Síguenos
+### Lámina 28 · Síguenos
 
-Si alguien todavía no lo probó, pase al stand. Y escaneen el QR: síganos en @andibite.pe y cuéntennos si la notaron.
+Si alguien todavía no lo probó, pase al stand. Y escaneen el QR de la pantalla: síganos en @andibite.pe y cuéntennos si la notaron.
 
 **Cierre:** «Gracias.»
 
-> Acción: Carlos levanta la bolsa de 6 con el QR hacia el salón y espera a que escaneen antes de agradecer.
+> Acción: Carlos gira la laptop hacia el salón con la lámina «Síguenos» y espera a que escaneen antes de agradecer. La laptop se queda en esa lámina durante el resto de la feria.
 
 ## Si sobra o falta tiempo
 
@@ -257,4 +265,4 @@ Si alguien todavía no lo probó, pase al stand. Y escaneen el QR: síganos en @
 - **Parte 2 · Patty:** si va tarde, deja la lámina 9 solo en pantalla y quita «Trabaja él, trabaja su esposa»; si sobra, añade en la lámina 6: «Siete veces más hogares que el nivel A.»
 - **Parte 3 · Ade:** si va tarde, quita «Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.» y «Cada paso se gana con el anterior.»
 - **Parte 4 · Angie:** si va tarde, deja la lámina 17 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»
-- **Parte 5 · Carlos:** si va tarde, quita «Lo que más pesa es el contenido…» y la frase de los brownies de 2027 y 2028; nunca quita [N], [M] ni la invitación al QR.
+- **Parte 5 · Carlos:** si va tarde, quita la frase del WhatsApp en la lámina 22 y «El primer año pierde…» en la 23; nunca quita el punto de equilibrio, el ROI, [N], [M] ni la invitación al QR.

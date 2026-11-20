@@ -41,43 +41,93 @@
     });
   }
 
-  /* ---------- Gráfico: resultado de cada mes ---------- */
-  function buildChart() {
-    var svg = document.getElementById("chart-res");
-    if (!svg) return;
-    var data = [-1134, -1544, -10048, -5030, -4804, -4174, -3488, -3785, -2711, -1911, -1665, -4072,
-      -5651, -8554, -5193, -273, 1258, 1578, -1319, 2446, 1904, 2030, 2032, -2687];
-    var M = ["E", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"];
-    var W = 1040, x0 = 70, y0 = 120, k = 330 / 10048, step = (W - x0 - 10) / 24, bw = step - 10;
-    var NS = "http://www.w3.org/2000/svg", h = "";
-    // rejilla
-    [2000, 0, -2000, -4000, -6000, -8000, -10000].forEach(function (v) {
+  /* ---------- Gráficos (cifras del modelo financiero: FINAL/modelo) ---------- */
+  var M = ["E", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"];
+  var RES = [-1134, -1544, -9776, -4481, -3880, -3713, -3260, -2768, -1850, -1371, -1133, -3979,
+    -5651, -8554, -5060, 168, 1892, 2486, -1612, 4220, 4237, 4590, 4729, -2190];
+  var BR = [0, 0, 2734, 2741, 4005, 4392, 3162, 5510, 5826, 6254, 6339, 3420,
+    605, 1900, 7462, 7646, 9360, 9650, 6173, 11256, 11697, 12172, 12077, 6038];
+  var PE = [null, null, 11162, 6784, 7517, 7817, 6206, 8123, 7581, 7553, 7416, 7180,
+    3844, 6803, 11109, 7523, 8017, 7874, 7331, 8243, 8672, 8914, 8707, 7608];
+  var ANUAL = [-38889, -4678, 20331, 28611, 52775], ACUM = [-38889, -43567, -23236, 5375, 58150];
+  function sgn(v) { return v === 0 ? "0" : (v > 0 ? "+" : "−") + fmt(Math.abs(v)); }
+  function barPath(x, y0, v, k, bw, c, d, tip) {
+    var hgt = Math.abs(v) * k, r = Math.min(6, hgt), y = v < 0 ? y0 : y0 - hgt, p;
+    if (hgt < 0.5) return "";
+    p = v < 0
+      ? "M" + x + " " + y + "h" + bw + "v" + (hgt - r) + "q0 " + r + " -" + r + " " + r + "h-" + (bw - 2 * r) + "q-" + r + " 0 -" + r + " -" + r + "z"
+      : "M" + x + " " + y0 + "v-" + (hgt - r) + "q0 -" + r + " " + r + " -" + r + "h" + (bw - 2 * r) + "q" + r + " 0 " + r + " " + r + "v" + (hgt - r) + "z";
+    return '<path class="a ' + (v < 0 ? "gyn" : "gy") + '" style="--d:' + d + ';transform-box:fill-box" d="' + p + '" fill="' + c + '"><title>' + tip + "</title></path>";
+  }
+  function grid(vals, x0, W, y0, k) {
+    var h = "";
+    vals.forEach(function (v) {
       var y = y0 - v * k;
       h += '<line x1="' + x0 + '" x2="' + W + '" y1="' + y + '" y2="' + y + '" stroke="' + (v === 0 ? "#4A2018" : "#E8D5BD") + '" stroke-width="' + (v === 0 ? 2.5 : 1) + '"/>';
-      h += '<text x="' + (x0 - 12) + '" y="' + (y + 7) + '" text-anchor="end" font-size="19" fill="#7A5A4C">' + (v === 0 ? "0" : (v > 0 ? "+" : "−") + fmt(Math.abs(v))) + "</text>";
+      h += '<text x="' + (x0 - 12) + '" y="' + (y + 8) + '" text-anchor="end" font-size="22" fill="#7A5A4C">' + sgn(v) + "</text>";
     });
-    data.forEach(function (v, i) {
-      var x = x0 + 6 + i * step, hgt = Math.abs(v) * k, y = v < 0 ? y0 : y0 - hgt;
-      var c = v < 0 ? "#BA4036" : "#7C8A3A";
-      var d = (0.3 + i * 0.06).toFixed(2) + "s";
-      var r = Math.min(6, hgt);
-      // barra con extremo redondeado lejos de la línea base
-      var p = v < 0
-        ? "M" + x + " " + y + "h" + bw + "v" + (hgt - r) + "q0 " + r + " -" + r + " " + r + "h-" + (bw - 2 * r) + "q-" + r + " 0 -" + r + " -" + r + "z"
-        : "M" + x + " " + y0 + "v-" + (hgt - r) + "q0 -" + r + " " + r + " -" + r + "h" + (bw - 2 * r) + "q" + r + " 0 " + r + " " + r + "v" + (hgt - r) + "z";
-      h += '<path class="a ' + (v < 0 ? "gyn" : "gy") + '" style="--d:' + d + ';transform-box:fill-box" d="' + p + '" fill="' + c + '"><title>' + M[i % 12] + " " + (i < 12 ? "2027" : "2028") + ": S/" + (v < 0 ? "−" : "+") + fmt(Math.abs(v)) + "</title></path>";
-      h += '<text x="' + (x + bw / 2) + '" y="' + (y0 + 360) + '" text-anchor="middle" font-size="17" fill="#7A5A4C">' + M[i % 12] + "</text>";
-    });
-    // años
-    h += '<text x="' + (x0 + 6 + 6 * step) + '" y="' + (y0 + 400) + '" text-anchor="middle" font-size="22" fill="#4A2018">2027</text>';
-    h += '<text x="' + (x0 + 6 + 18 * step) + '" y="' + (y0 + 400) + '" text-anchor="middle" font-size="22" fill="#4A2018">2028</text>';
-    h += '<line x1="' + (x0 + 12 * step + 1) + '" x2="' + (x0 + 12 * step + 1) + '" y1="' + (y0 - 90) + '" y2="' + (y0 + 380) + '" stroke="#D9B48F" stroke-dasharray="6 6" stroke-width="2"/>';
-    // equilibrio: mayo 2028 (índice 16)
-    var xe = x0 + 6 + 16 * step + bw / 2;
-    h += '<g class="a fade" style="--d:2.2s"><line x1="' + xe + '" x2="' + xe + '" y1="' + (y0 + 6) + '" y2="' + (y0 + 58) + '" stroke="#7C8A3A" stroke-width="3"/>';
-    h += '<rect x="' + (xe - 30) + '" y="' + (y0 + 58) + '" width="220" height="56" rx="14" fill="#7C8A3A"/>';
-    h += '<text x="' + (xe + 80) + '" y="' + (y0 + 94) + '" text-anchor="middle" font-size="21" fill="#fff">Equilibrio · mes 17</text></g>';
-    svg.innerHTML = h;
+    return h;
+  }
+  function months(x0, step, bw, y) {
+    var h = "";
+    for (var i = 0; i < 24; i++) h += '<text x="' + (x0 + 6 + i * step + bw / 2) + '" y="' + y + '" text-anchor="middle" font-size="20" fill="#7A5A4C">' + M[i % 12] + "</text>";
+    h += '<text x="' + (x0 + 6 + 6 * step) + '" y="' + (y + 38) + '" text-anchor="middle" font-size="24" fill="#4A2018">2027</text>';
+    h += '<text x="' + (x0 + 6 + 18 * step) + '" y="' + (y + 38) + '" text-anchor="middle" font-size="24" fill="#4A2018">2028</text>';
+    return h;
+  }
+  function buildChart() {
+    var W = 1040, x0 = 96, step = (W - x0 - 10) / 24, bw = step - 10, h, y0, k;
+    // 1) resultado de cada mes
+    var svg = document.getElementById("chart-res");
+    if (svg) {
+      y0 = 160; k = 300 / 10000; h = grid([4000, 0, -2000, -4000, -6000, -8000, -10000], x0, W, y0, k);
+      RES.forEach(function (v, i) {
+        h += barPath(x0 + 6 + i * step, y0, v, k, bw, v < 0 ? "#BA4036" : "#7C8A3A", (0.3 + i * 0.05).toFixed(2) + "s", M[i % 12] + " " + (i < 12 ? 2027 : 2028) + ": S/" + sgn(v));
+      });
+      h += '<line x1="' + (x0 + 12 * step + 1) + '" x2="' + (x0 + 12 * step + 1) + '" y1="20" y2="' + (y0 + 330) + '" stroke="#D9B48F" stroke-dasharray="6 6" stroke-width="2"/>';
+      var xe = x0 + 6 + 15 * step + bw / 2;
+      h += '<g class="a fade" style="--d:2s"><line x1="' + xe + '" x2="' + xe + '" y1="' + (y0 + 6) + '" y2="' + (y0 + 150) + '" stroke="#7C8A3A" stroke-width="3"/><rect x="' + (xe - 20) + '" y="' + (y0 + 150) + '" width="250" height="58" rx="14" fill="#7C8A3A"/><text x="' + (xe + 105) + '" y="' + (y0 + 187) + '" text-anchor="middle" font-size="23" fill="#fff">Equilibrio · abril 2028</text></g>';
+      h += months(x0, step, bw, y0 + 335);
+      svg.innerHTML = h;
+    }
+    // 2) brownies vendidos frente al equilibrio del mes
+    svg = document.getElementById("chart-pe");
+    if (svg) {
+      y0 = 440; k = 400 / 12500; h = grid([0, 4000, 8000, 12000], x0, W, y0, k);
+      BR.forEach(function (v, i) {
+        var ok = PE[i] !== null && v >= PE[i];
+        h += barPath(x0 + 6 + i * step, y0, v, k, bw, ok ? "#7C8A3A" : "#BA4036", (0.3 + i * 0.05).toFixed(2) + "s", M[i % 12] + " " + (i < 12 ? 2027 : 2028) + ": " + fmt(v) + " brownies; equilibrio " + (PE[i] ? fmt(PE[i]) : "—"));
+      });
+      var d = "";
+      PE.forEach(function (v, i) {
+        if (v === null) return;
+        var xa = x0 + 2 + i * step, xb = xa + step, y = y0 - v * k;
+        d += (d && PE[i - 1] !== null ? "L" : "M") + xa + " " + y + "L" + xb + " " + y;
+      });
+      h += '<path class="draw" style="--d:1.6s" pathLength="1" d="' + d + '" fill="none" stroke="#2E120C" stroke-width="4" stroke-dasharray="1"/>';
+      h += months(x0, step, bw, y0 + 32);
+      svg.innerHTML = h;
+    }
+    // 3) resultado anual y acumulado (ROI)
+    svg = document.getElementById("chart-roi");
+    if (svg) {
+      var x1 = 110, st = (W - x1 - 20) / 5, bw2 = st * 0.56;
+      y0 = 300; k = 230 / 60000; h = grid([60000, 30000, 0, -30000, -45000], x1, W, y0, k);
+      ANUAL.forEach(function (v, i) {
+        var x = x1 + i * st + (st - bw2) / 2;
+        h += barPath(x, y0, v, k, bw2, v < 0 ? "#BA4036" : "#7C8A3A", (0.3 + i * 0.15).toFixed(2) + "s", (2027 + i) + ": S/" + sgn(v));
+        h += '<text class="a fade" style="--d:' + (1 + i * 0.15).toFixed(2) + 's" x="' + (x + bw2 / 2) + '" y="' + (v < 0 ? y0 + Math.abs(v) * k + 32 : y0 - v * k + 32) + '" text-anchor="middle" font-size="22" fill="' + (v < 0 ? "#4A2018" : "#fff") + '">' + sgn(v) + "</text>";
+        h += '<text x="' + (x + bw2 / 2) + '" y="' + (y0 + 230) + '" text-anchor="middle" font-size="24" fill="#4A2018">' + (2027 + i) + "</text>";
+      });
+      var pts = ACUM.map(function (v, i) { return [x1 + i * st + st / 2, y0 - v * k]; });
+      h += '<path class="draw" style="--d:1.4s" pathLength="1" d="M' + pts.map(function (p) { return p.join(" "); }).join("L") + '" fill="none" stroke="#E3A33B" stroke-width="5" stroke-dasharray="1"/>';
+      pts.forEach(function (p, i) {
+        h += '<g class="a pop" style="--d:' + (1.8 + i * 0.12).toFixed(2) + 's"><circle cx="' + p[0] + '" cy="' + p[1] + '" r="10" fill="#E3A33B" stroke="#FBF3E8" stroke-width="3"/></g>';
+      });
+      h += '<g class="a fade" style="--d:2.6s"><text x="' + (pts[3][0] + 18) + '" y="' + (pts[3][1] + 44) + '" font-size="22" fill="#2E120C">2030: se recupera la inversión</text></g>';
+      h += '<g transform="translate(' + x1 + ',' + (y0 + 270) + ')"><rect width="22" height="22" rx="5" fill="#7C8A3A"/><text x="32" y="19" font-size="21" fill="#7A5A4C">Resultado del año</text><line x1="270" x2="310" y1="11" y2="11" stroke="#E3A33B" stroke-width="5"/><circle cx="290" cy="11" r="8" fill="#E3A33B"/><text x="322" y="19" font-size="21" fill="#7A5A4C">Acumulado desde 2027</text></g>';
+      svg.innerHTML = h;
+    }
   }
 
   /* ---------- Partículas ---------- */

@@ -51,6 +51,9 @@ Funciona porque no le contamos que no se nota: **lo comprueba en su boca**. Y ca
 | «¿Cómo saben que tiene 1.9 mg?» | «Hoy es el cálculo de la receta. El análisis de laboratorio va antes del primer lote.» |
 | «¿Previene la anemia?» | «No prometemos eso: es un brownie, no un tratamiento. Suma 1.9 mg de hierro a lo que come en el día. Para la anemia, el control con su pediatra.» |
 | «¿Cuánto cuesta?» | «La bolsa de 6 está S/22: S/3.67 cada uno. Suelto, S/5.» |
+| «¿Cuál es su punto de equilibrio?» | «En 2028, 8,050 brownies al mes: costos fijos de S/11,325 entre S/1.41 que deja cada brownie. Con 24 colegios son 18 por colegio y día. Lo pasamos desde abril de 2028.» |
+| «¿Cuál es el ROI?» | «58 % a 5 años: S/58,150 de utilidad acumulada sobre S/100,000 invertidos; se recupera en 2030. El marketing rinde 138 % desde el primer año.» |
+| «¿Por qué pierden el primer año?» | «Porque pagamos al equipo antes de tener el volumen. Crecemos abriendo un colegio por mes, no vendiendo más en cada uno.» |
 | «¿Sangrecita? Qué asco» | «Te entendemos. Es sangrecita de res en polvo, horneada en la masa: no sabe ni huele, solo se siente el chocolate.» |
 
 ## 3. Qué lleva cada uno
@@ -80,7 +83,6 @@ Contador, conteo, higiene y conexión. **Compra: S/38 aprox.**
 - [ ] Guantes, servilletas, alcohol en gel y bolsas de basura (le da los guantes a Diana al llegar)
 - [ ] Un tacho chico de casa
 - [ ] Extensión eléctrica (de casa, mínimo 3 m)
-- [ ] Cable HDMI (de casa; si nadie tiene, comprar, aprox. S/15, por confirmar; no está en el total)
 - [ ] Compra: cartulina negra y tiza líquida (**S/10**)
 - [ ] Compra: hojas de conteo y de permisos, 6 para el lunes y 2 para el sábado (**S/3**)
 - [ ] Compra: vasitos (**S/5**)
@@ -133,7 +135,7 @@ Tecnología, cuentas, tarjetas y mural. **Compra: S/30 aprox.**
 - [ ] Compra: 3 blocks de post-its pastel y 3 plumones (**S/15**)
 - [ ] Ropa: polo café o crema y delantal
 
-**Total estimado: S/176** (S/152 de materiales + S/18 de la media tanda del sábado + S/5 de tarjetitas QR + S/1 de hojas para el sábado). Si hay que comprar el HDMI, unos S/15 más.
+**Total estimado: S/176** (S/152 de materiales + S/18 de la media tanda del sábado + S/5 de tarjetitas QR + S/1 de hojas para el sábado).
 
 ## 4. Lo que falta hacer antes del lunes
 
@@ -174,15 +176,15 @@ Tecnología, cuentas, tarjetas y mural. **Compra: S/30 aprox.**
 | Armar el biombo forrado y el cartel con solapa | Angie | Dom 22, tarde | ☐ |
 | Escribir los 20 post-its del mural | Carlos | Dom 22, tarde | ☐ |
 | Escribir la cartulina del contador | Patty | Dom 22, tarde | ☐ |
-| Probar la presentación en la laptop conectada a una TV por HDMI: pantalla completa, animaciones, que abra sin internet, QR que se escaneen desde 2 m | Carlos | Dom 22, tarde | ☐ |
+| Probar la presentación en la laptop, sin proyector: pantalla completa (tecla F), brillo al máximo, que abra sin internet desde el ZIP, que se lea a 1.5 m y que los QR se escaneen desde la pantalla | Carlos | Dom 22, tarde | ☐ |
 | Practicar el contador de la laptop: tecla P suma «Probaron», N suma «La notaron», Mayús+P o Mayús+N resta uno, H muestra la ayuda. No se borra al cambiar de lámina ni al recargar. Enseñárselo a Patty | Carlos, Patty | Dom 22, tarde | ☐ |
-| Ensayo general con cronómetro: 2 pasadas, meta 9 a 10 min | Todos | Dom 22, 6 p. m. | ☐ |
+| Ensayo general con cronómetro y la laptop en la mesa, como el lunes: 2 pasadas, meta 10 a 11 min | Todos | Dom 22, 6 p. m. | ☐ |
 | Cargar laptop y celulares; armar la bolsa con la lista de la sección 3 | Todos | Dom 22, noche | ☐ |
 | **Lunes 23 temprano** | | | |
 | Cortar 12 brownies en 4 cubitos con cuchillo y tabla limpios; táper cerrado | Diana | Lun 23, antes de salir | ☐ |
 | Revisar la lista de la sección 3 | Todos | Lun 23, antes de salir | ☐ |
 | Medir la mesa del salón | Patty | Lun 23, al llegar | ☐ |
-| Probar la presentación en el proyector o la TV del salón | Carlos | Lun 23, al llegar | ☐ |
+| Poner la laptop en la mesa, inclinada hacia donde se sentará la profesora, con el cargador conectado | Carlos | Lun 23, al llegar | ☐ |
 
 ## 5. El lunes, hora por hora
 
@@ -192,14 +194,14 @@ No sabemos la hora exacta. «Llegada» es cuando entramos al salón; «turno» e
 |---|---|---|
 | Llegada | Patty mide la mesa. Diana deja el táper a la sombra y cerrado | Patty, Diana |
 | Llegada a +15 min | Biombo, cartel con la solapa **cerrada**, mural, calendario A3 y cartulina del contador | Angie, Carlos, Patty |
-| +15 a +25 min | Laptop, extensión y HDMI al proyector. Pantalla completa en «Síguenos»; probar teclas del contador y escanear los 3 QR. Carlos abre las 3 cuentas en su celular | Carlos, Patty |
+| +15 a +25 min | Laptop en la mesa con cargador y extensión, de frente a quien llega. Pantalla completa en «Síguenos»; probar teclas del contador y escanear los 3 QR. Carlos abre las 3 cuentas en su celular | Carlos, Patty |
 | +15 a +25 min (a la vez) | Alcohol en gel y guantes. Vasitos con cubito, tapados con servilleta. Bolsas de espaldas, lonchera, hablador, tarjeta de alérgenos | Diana, Ade |
 | +25 a +30 min | Foto del stand armado. Cada uno en su lugar. Una vuelta de práctica de los 8 pasos | Angie, todos |
 | +30 min hasta 10 min antes del turno | **Degustación.** Primero la profesora (Carlos la atiende), luego los compañeros. Los 8 pasos de la sección 2 | Todos |
 | 10 min antes del turno | Se cierra la degustación. Patty anota en la hoja el total de «Probaron» y «La notaron». Carlos pasa la laptop a la primera lámina | Patty, Carlos |
-| Turno, 0 a 10 min | **Exposición**, unos 2 min cada uno: Diana (problema e investigación), Patty (público, producto, marca y app), Ade (precio y canales), Angie (campaña y redes; levanta la solapa y lee una cifra real), Carlos (números con el contador del día y cierre). Termina en «Síguenos» | Todos |
-| Turno +10 a +15 min | **Preguntas.** Responde quien expuso el tema; Carlos ordena las preguntas | Todos |
-| Turno +15 min hasta el cierre | **Stand abierto** con la lámina «Síguenos». La solapa se vuelve a cerrar para quien no probó. Más degustación con los 8 pasos. Carlos acepta solicitudes cada 10 min | Todos |
+| Turno, 0 a 11 min | **Exposición** desde la laptop, unos 2 min cada uno (Carlos 2.5): Diana (problema e investigación), Patty (público, producto, marca y app), Ade (precio y canales), Angie (campaña y redes; levanta la solapa y lee una cifra real), Carlos (números: punto de equilibrio, ROI y financiamiento; contador del día y cierre). Termina en «Síguenos» | Todos |
+| Turno +11 a +16 min | **Preguntas.** Responde quien expuso el tema; Carlos ordena las preguntas | Todos |
+| Turno +16 min hasta el cierre | **Stand abierto** con la lámina «Síguenos». La solapa se vuelve a cerrar para quien no probó. Más degustación con los 8 pasos. Carlos acepta solicitudes cada 10 min | Todos |
 | 15 min antes de desarmar | Foto de la cartulina y de la pantalla con el contador. Foto del grupo. Historia 6 con el contador real. Foto de la hoja de conteo al grupo. Últimas solicitudes aceptadas | Angie, Patty, Carlos |
 | Desarmar | Vasitos y restos al tacho. Mesa limpia. Biombo plegado. Cada uno revisa que se lleva lo suyo | Todos |
 | Martes 24 | Publicación «Primera prueba a ciegas · 23 de noviembre · Probaron N · La notaron M. ¿Qué crees que es?», sin decir el ingrediente | Angie |

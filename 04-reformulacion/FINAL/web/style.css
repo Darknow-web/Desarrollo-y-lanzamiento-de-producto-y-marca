@@ -513,3 +513,39 @@ p{font-size:28px;line-height:1.42}
 .print .code.glow{animation:none!important}
 .s-prob .photo,.s-per .photo{bottom:84px}
 .s-qr .andi{height:250px;right:110px;top:30px;border-radius:14px;box-shadow:0 30px 50px -20px rgba(0,0,0,.6)}
+/* ---------- Láminas 24 y 25: equilibrio y ROI ---------- */
+.s-pe .wrap,.s-roi .wrap{display:grid;grid-template-columns:1.45fr 1fr;gap:56px;flex:1;margin-top:30px}
+.leg{display:flex;gap:28px;margin-top:8px;font-size:22px;color:var(--suave)}
+.leg span{display:flex;align-items:center;gap:10px}
+.leg i{width:22px;height:22px;border-radius:5px;display:inline-block}
+.leg i.ln{height:5px;border-radius:3px;background:#2E120C;width:34px}
+.formula{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;background:var(--cafe);color:var(--crema);border-radius:22px;padding:22px 26px;font:800 25px/1.25 var(--ft)}
+.formula b{color:var(--dorado);font-size:34px}
+.formula .res{color:var(--dorado)}
+.pe{background:var(--blanco);border:1px solid var(--linea);border-radius:22px;padding:22px 28px}
+.pe .n{font:800 40px/1.15 var(--ft);color:var(--cafe);margin:6px 0}
+.pe .n em{font-style:normal;color:var(--ladrillo);font-size:56px}
+.pe span{font-size:24px;color:var(--suave)}
+.roi{background:var(--blanco);border:1px solid var(--linea);border-radius:26px;padding:26px 32px}
+.roi .big2{font:800 120px/0.95 var(--ft);color:var(--oliva);letter-spacing:-.04em;margin:8px 0}
+.roi span{font-size:24px;color:var(--suave);line-height:1.35;display:block}
+.roi.alt .big2{color:var(--ladrillo);font-size:96px}
+/* ---------- Lectura en laptop: textos pequeños más grandes ---------- */
+.k{font-size:23px}
+.kpi span{font-size:23px}.kpi .n{font-size:56px}
+.hb .l{font-size:27px}.hb .l small{font-size:22px}.hb .v{font-size:32px}
+.mini span{font-size:24px}
+.q small{font-size:24px}
+.tl p{font-size:25px}.tl .date{font-size:22px}
+.vlab span{font-size:24px}.vlab b{font-size:28px}
+.hub .ch p{font-size:24px}.hub .ch .when{font-size:20px}
+.step p{font-size:26px}
+.gantt .g .lab span{font-size:23px}.gantt .g .bar span{font-size:21px}.gantt .months{font-size:22px}
+.news p{font-size:24px}
+.acct span{font-size:23px}
+.s-cover .team{font-size:25px}
+#chrome .who,#chrome .num{font-size:22px}
+.s-prod .stats p{font-size:27px}
+.flow .card p{font-size:27px}
+.act p{font-size:26px}
+.kpi .n span,.roi .big2 span,.pe .n span{font:inherit;color:inherit;display:inline;margin:0}

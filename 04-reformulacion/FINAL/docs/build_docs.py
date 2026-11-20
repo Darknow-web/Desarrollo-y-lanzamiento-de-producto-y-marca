@@ -98,6 +98,7 @@ td.ck{width:8mm;text-align:center;font-size:12pt;color:#BA4036}
 .flow div{flex:1;background:#FFFDF9;border:1px solid #E8D5BD;border-radius:3mm;padding:3mm 2.5mm;text-align:center;font:800 8.5pt/1.25 Jakarta;color:#4A2018}
 .flow div span{display:block;width:7mm;height:7mm;border-radius:50%;background:#BA4036;color:#fff;margin:0 auto 1.8mm;display:grid;place-items:center;font-size:9pt}
 .foot{display:none!important}
+.cover h1{font-size:27pt;margin-top:5mm}.cover .sub{font-size:11.5pt}.who .c{padding:3.5mm 3mm}.who b{font-size:10.5pt}.hilo{margin-top:5mm;padding:4mm 6mm}.tips{margin-top:5mm;gap:2.5mm 6mm}.tips p{font-size:9pt}.tbar{margin:5mm 0 2mm}
 .cover .logo{height:18mm}.cover h1{margin-top:7mm}.tbar{margin:7mm 0 2mm}.who{margin-top:5mm}.hilo{margin-top:7mm}.tips{margin-top:6mm}
 .sl p{font-size:10.3pt;line-height:1.4;margin-bottom:1mm}.sl{padding:2.8mm 0;grid-template-columns:48mm 1fr}.sl img{width:48mm}.band{margin-bottom:4mm}
 table{font-size:8.6pt}td{padding:1.6mm 2.4mm}
@@ -148,8 +149,8 @@ def guion():
 <p><b>[N] y [M].</b> Son las cifras reales del contador en ese momento. Patty se las pasa a Carlos 10 minutos antes.</p>
 <p><b>No se lee la lámina.</b> El guion dice lo que la pantalla no dice. Las cifras ya están en la lámina.</p>
 <p><b>El pase.</b> Cada parte termina nombrando a la siguiente persona. Quien recibe dice «Gracias» y sigue.</p>
-<p><b>Con la mano.</b> Las acciones (en las cajas de color) usan el producto real: la bolsa, la bolsita, el QR.</p>
-<p><b>Ensayo.</b> Dos pasadas el domingo con cronómetro. Meta: 9 a 10 minutos.</p>
+<p><b>Sin proyector.</b> La laptop va en la mesa, inclinada hacia la profesora y con el brillo al máximo. Quien expone pasa sus láminas con la flecha →.</p>
+<p><b>Ensayo.</b> Dos pasadas el domingo con cronómetro. Meta: 10 a 11 minutos.</p>
 </div>
 </section>''')
 
