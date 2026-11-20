@@ -258,7 +258,7 @@ def stand():
             h += '<div class="legend"><span><i></i>Lleva</span><span><i class="b"></i>Compra (guardar boleta)</span></div><div class="persons">'
             rest = "\n".join(body[i:])
             tail = ""
-            for blk in re.split(r"^### ", rest, flags=re.M)[1:]:
+            for n_blk, blk in enumerate(re.split(r"^### ", rest, flags=re.M)[1:]):
                 bl = blk.splitlines()
                 who = bl[0].strip()
                 desc = next((l for l in bl[1:] if l.strip() and not l.startswith("- ")), "")
@@ -267,7 +267,7 @@ def stand():
                 if after:
                     tail = after[0]
                 lis = "".join(f'<li class="{"buy" if it.startswith("Compra:") else ""}">{inline(it.replace("Compra: ", ""))}</li>' for it in items)
-                c = COL[PC.get(who, 5)]
+                c = COL[(n_blk % 5) + 1]
                 h += f'<div class="pc" style="border-top-color:{c}"><h3>{html.escape(who)}</h3><p class="tag">{inline(desc)}</p><ul>{lis}</ul></div>'
             h += "</div>"
             if tail:
