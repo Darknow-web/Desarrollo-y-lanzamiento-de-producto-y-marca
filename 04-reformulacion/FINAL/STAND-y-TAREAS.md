@@ -65,6 +65,7 @@ Funciona porque no le contamos que no se nota: **lo comprueba en su boca**. Y ca
 | «¿Cuánto cuesta?» | «La bolsa de 6 está S/22: S/3.67 cada uno. Suelto, S/5.» |
 | «¿Cuál es su punto de equilibrio?» | «En 2028, 8,050 brownies al mes: costos fijos de S/11,325 entre S/1.41 que deja cada brownie. Con 24 colegios son 18 por colegio y día. Lo pasamos desde abril de 2028.» |
 | «¿Cuál es el ROI?» | «58 % a 5 años: S/58,150 de utilidad acumulada sobre S/100,000 invertidos; se recupera en 2030. El marketing rinde 138 % desde el primer año.» |
+| «¿Por qué no venden principalmente en el mall?» | «Vendemos en persona: la familia prueba en la puerta del colegio y le entregamos en mano. Un módulo de mall cuesta S/8,847 al mes y pide unos 140 compradores al día; lo realista son 70. Por eso el mall entra en la vuelta al colegio.» |
 | «¿Por qué pierden el primer año?» | «Porque pagamos al equipo antes de tener el volumen. Crecemos abriendo un colegio por mes, no vendiendo más en cada uno.» |
 | «¿Sangrecita? Qué asco» | «Te entendemos. Es sangrecita de res en polvo, horneada en la masa: no sabe ni huele, solo se siente el chocolate.» |
 

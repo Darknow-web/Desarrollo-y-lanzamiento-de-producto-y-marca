@@ -133,11 +133,11 @@ Y los veintidós caen dentro de lo que dijeron las mamás. Ese precio lo pusiero
 
 ¿Dónde lo compra? Donde ya está la lonchera.
 
-El canal más fuerte es el pedido del salón: la delegada junta los pedidos en el chat, cada familia paga por Yape y el lunes entregamos en la puerta del colegio. Ocho colegios al arrancar y uno más cada mes: catorce en septiembre y veinticuatro en 2028.
+El canal más fuerte es el colegio: las familias prueban en la puerta, la delegada junta el pedido del salón, cada familia paga por Yape y el lunes entregamos en la puerta del colegio. Ocho colegios al arrancar y uno más cada mes: catorce en septiembre y veinticuatro en 2028.
 
 Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.
 
-Todo termina en el WhatsApp: quien prueba deja su número y le avisamos cuándo volver a pedir.
+Todo empieza probando, en persona. El WhatsApp solo junta el pedido de la semana y avisa cuándo volver a pedir.
 
 ### Lámina 14 · Centro comercial paso a paso
 
@@ -149,7 +149,7 @@ En la vuelta al colegio de 2028, un módulo temporal que mide si se venden cien 
 
 Y el fijo, desde 2029, solo cuando la cuenta da: cuesta unos ocho mil ochocientos soles al mes, así que se abre cuando el temporal venda ciento setenta al día.
 
-Cada paso se gana con el anterior.
+¿Por qué no vendemos sobre todo en el mall? Porque un módulo necesita unos ciento cuarenta compradores al día para no perder, y lo realista son unos setenta. Por eso entra cuando se arma la lonchera.
 
 **Pase:** «Y para que la gente llegue a probar, hace falta una campaña. Angie.»
 
