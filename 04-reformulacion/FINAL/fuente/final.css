@@ -283,3 +283,8 @@
 .cre p { font-size: 28px; }
 .cre h3 { font-size: 38px; }
 .cre blockquote { font-size: 40px; }
+.can .card { justify-content: flex-start; }
+.can p { font-size: 29px; }
+.can h3 { font-size: 38px; }
+.can .when { font-size: 24px; }
+.num2 .res { font-size: 44px !important; line-height: 1.25; letter-spacing: 0; }

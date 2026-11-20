@@ -309,10 +309,10 @@ Antes de empezar, la profesora y los compañeros ya probaron en el stand. La sol
 | 2:30-3:15 | Ade | Precio y reglas | «La bolsa de 6 está S/22: S/3.67 cada uno, menos que un brownie de pastelería.» «Nada dirigido al niño, por la Ley 30021, y nunca decimos que previene: contribuye al aporte de hierro.» |
 | 3:15-4:00 | Paty | Canales | «Vendemos donde está la lonchera: el pedido del salón por WhatsApp, con entrega en la puerta del colegio.» «Los fines de semana, el stand de la feria o el pop-up del mall, donde la gente prueba.» |
 | 4:00-5:15 | Angie | Campaña y redes | Levanta la solapa: «Lleva sangrecita. ¿La notaste?» «No la escondemos: simplemente no se nota.» Muestra la pantalla: «Estas son nuestras cuentas, en la fase de expectativa; acá, lo que viene hasta junio.» Lee una cifra real de las cuentas |
-| 5:15-6:15 | Carlos | Números | «Hoy probaron [N] y la notaron [M].» «De cada brownie quedan S/0.76; el equilibrio es de 19 por colegio y día y la meta de junio, 24.» «La pauta de 2027 es S/5,050, para unas 613 conversaciones de WhatsApp a S/8.23 cada una.» |
+| 5:15-6:15 | Carlos | Números | «Hoy probaron [N] y la notaron [M].» «De cada brownie en la bolsa nos quedan S/1.03 después de producirlo y entregarlo.» «El marketing de 2027 es S/15,040, el 14 % de la venta, y cada contacto de WhatsApp debe costar S/8.23 o menos.» «Arrancamos con S/100,000 entre socios, un segundo aporte y un préstamo, y llegamos al equilibrio en mayo de 2028.» |
 | 6:15-6:30 | Carlos | Cierre | «Una pelea menos cada mañana. AndiBite: dulce para ellos, tranquilidad para ti.» |
 
-Margen y equilibrio: documento 14, sección 11; pauta: T2_17. Se ensaya dos veces el domingo, con cronómetro.
+Cifras: documento 18 (plan final como empresa real). Se ensaya dos veces el domingo, con cronómetro.
 
 ### 11. Materiales e impresiones
 
