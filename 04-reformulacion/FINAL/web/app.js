@@ -191,15 +191,6 @@
     runCounters(s);
     var part = +s.dataset.part, mode = s.dataset.chrome || "";
     chrome.className = mode === "hide" ? "hide" : mode === "dark" ? "dark" : "";
-    chrome.querySelector(".who b").textContent = PARTS[part].name;
-    chrome.querySelector(".who i").style.background = PARTS[part].color;
-    chrome.querySelector(".num").textContent = (i + 1) + " / " + slides.length;
-    // progreso por parte
-    chrome.querySelectorAll(".parts span").forEach(function (sp) {
-      var p = +sp.dataset.p, inPart = slides.filter(function (x) { return +x.dataset.part === p; });
-      var idx = inPart.indexOf(s), fill = p < part ? 1 : p > part ? 0 : (idx + 1) / inPart.length;
-      sp.querySelector("b").style.transform = "scaleX(" + fill + ")";
-    });
     bar.style.width = ((i + 1) / slides.length * 100) + "%";
     if (history.replaceState) history.replaceState(null, "", "#" + (i + 1));
   }
@@ -242,7 +233,7 @@
     });
     return;
   }
-  partsBar(); fit(); window.addEventListener("resize", fit);
+  fit(); window.addEventListener("resize", fit);
   window.addEventListener("hashchange", function () { var h = parseInt((location.hash || "").slice(1), 10); if (!isNaN(h) && h - 1 !== cur) go(h - 1); });
   var h0 = parseInt((location.hash || "").slice(1), 10);
   go(isNaN(h0) ? 0 : h0 - 1);
