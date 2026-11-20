@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AndiBite · Plan de lanzamiento</title>
+<link rel="icon" href="img/logo-andi.png" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4z"/><circle cx="7.5" cy="7.5" r="1.2"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-tt" viewBox="0 0 24 24" fill="currentColor"><path d="M16.2 2c.4 2.6 2 4.3 4.6 4.6v3.3c-1.7 0-3.3-.5-4.6-1.4v6.6a6 6 0 1 1-6-6c.3 0 .6 0 .9.1v3.4a2.7 2.7 0 1 0 1.8 2.5V2z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-person" viewBox="0 0 84 100"><circle cx="42" cy="26" r="20" fill="#D9B48F"/><path d="M6 98c0-23 16-38 36-38s36 15 36 38z" fill="#D9B48F"/></symbol>
+    <symbol id="i-person-ok" viewBox="0 0 84 100"><circle cx="42" cy="26" r="20" fill="#D9B48F"/><path d="M6 98c0-23 16-38 36-38s36 15 36 38z" fill="#D9B48F"/><circle cx="66" cy="68" r="17" fill="#7C8A3A" stroke="#FBF3E8" stroke-width="4"/><path d="m58 68 6 6 10-11" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-person-buy" viewBox="0 0 84 100"><circle cx="42" cy="26" r="20" fill="#BA4036"/><path d="M6 98c0-23 16-38 36-38s36 15 36 38z" fill="#BA4036"/></symbol>
+  </defs>
+</svg>
+
+<div id="bar"></div>
+<div id="stage">
+
+<!-- ================= PARTE 1 · DIANA ================= -->
+
+<!-- 1 · Portada -->
+<section class="slide dark s-cover" data-part="1" data-chrome="hide">
+  <div class="bg"><img class="kb" src="img/portada-blur.jpg" alt="" /></div>
+  <div class="dots" data-dots="22"></div>
+  <img class="logo a down" style="--d:.1s" src="img/logo-andi.png" alt="AndiBite" />
+  <p class="kick a fade" style="--d:.4s"><i></i>Plan de lanzamiento · Lima, 2027</p>
+  <h1 class="a up" style="--d:.55s">El brownie de la lonchera que <em>sí suma hierro</em></h1>
+  <p class="slogan a up" style="--d:.9s">Dulce para ellos. Tranquilidad para ti.</p>
+  <p class="team a fade" style="--d:1.3s">Grupo 2: Diana Ayoso · Patricia Cárdenas · Adela Robles · Angie Blas · Carlos Inga<br />Desarrollo y Lanzamiento de Nuevos Productos · UPN Los Olivos · Prof. Paola Zevallos</p>
+  <div class="bag a right" style="--d:.7s"><img class="float" src="img/bolsa.png" alt="Bolsa de AndiBite" /></div>
+</section>
+
+<!-- 2 · Problema -->
+<section class="slide s-prob" data-part="1">
+  <div class="photo a fade" style="--d:.1s"><img class="kb" src="img/mama-lonchera.jpg" alt="" style="object-position:50% 40%" /></div>
+  <p class="kick a fade"><i></i>El problema</p>
+  <h2 class="a up" style="--d:.1s">La lonchera <em>vuelve llena</em></h2>
+  <p class="lead a up" style="--d:.25s;max-width:1050px">Papá y mamá saben que su hijo necesita hierro. Lo que le hace bien, no se lo come.</p>
+  <div class="quotes">
+    <div class="q a left" style="--d:.6s"><span class="mk">“</span><p>Mamá, eso olía feo y mis amigos me dijeron que parecía carbón.<small>Mateo, 7 años, sobre los nuggets de sangrecita que le preparó su mamá</small></p></div>
+    <div class="q a left" style="--d:1s"><span class="mk">“</span><p>Ella no sabe que es hígado.<small>Lourdes, mamá entrevistada, que lo esconde en bolitas o en la sopa</small></p></div>
+    <div class="q a left" style="--d:1.4s"><span class="mk">“</span><p>Quieres ser la mamá perfecta, pero la realidad te aplasta.<small>Vanessa, mamá entrevistada</small></p></div>
+  </div>
+  <p class="note a up" style="--d:1.9s">Todos tienen un truco. <em>Y casi todos fallan por el sabor.</em></p>
+</section>
+
+<!-- 3 · Investigación -->
+<section class="slide s-res" data-part="1">
+  <p class="kick a fade"><i></i>Investigación</p>
+  <h2 class="a up" style="--d:.1s">Primero escuchamos, <em>después diseñamos</em></h2>
+  <div class="tl">
+    <svg class="line" viewBox="0 0 1000 8" preserveAspectRatio="none"><path class="draw" style="--d:.3s" pathLength="1" d="M0 4H1000" stroke="#E8D5BD" stroke-width="8" fill="none"/></svg>
+    <div class="node a up" style="--d:.5s">
+      <div class="dot">1</div>
+      <p class="date">Agosto y septiembre 2026</p>
+      <p class="n"><span data-count="25">25</span><small>entrevistas</small></p>
+      <h3>A profundidad, a mamás y cuidadoras de Lima</h3>
+      <div class="ph"><img src="img/ent1.jpg" alt="" /></div>
+    </div>
+    <div class="node a up" style="--d:.9s">
+      <div class="dot">2</div>
+      <p class="date">13 de septiembre · virtual</p>
+      <p class="n"><span data-count="8">8</span><small>madres y padres</small></p>
+      <h3>Focus 1: eligen entre 4 ideas. Gana el mini brownie</h3>
+      <div class="ph"><img src="img/ent2.jpg" alt="" /></div>
+    </div>
+    <div class="node a up" style="--d:1.3s">
+      <div class="dot">3</div>
+      <p class="date">20 de septiembre · en un colegio</p>
+      <p class="n"><span data-count="8">8</span><small>mamás de nivel B</small></p>
+      <h3>Focus 2: prueban el prototipo con su empaque</h3>
+      <div class="ph strip"><img src="img/deg1.jpg" alt="" style="object-fit:cover;height:100%" /><img src="img/deg2.jpg" alt="" style="object-fit:cover;height:100%" /><img src="img/deg3.jpg" alt="" style="object-fit:cover;height:100%" /><img src="img/deg4.jpg" alt="" style="object-fit:cover;height:100%" /></div>
+    </div>
+  </div>
+  <p class="note a up" style="--d:1.8s;margin-top:34px">La regla: <em>primero probar, después preguntar el precio.</em></p>
+</section>
+
+<!-- 4 · La prueba -->
+<section class="slide s-test" data-part="1">
+  <p class="kick a fade"><i></i>Lo que encontramos</p>
+  <h2 class="a up" style="--d:.1s">Probaron el brownie. <em>Nadie notó la sangrecita.</em></h2>
+  <div class="wrap">
+    <div>
+      <p class="zero a zoom" style="--d:.4s"><span data-count="0">0</span><small> de 8</small></p>
+      <p class="lead a fade" style="--d:.7s;margin-top:18px">mamás notó la sangrecita, ni en el sabor ni en el olor.</p>
+      <div class="people">
+        <div class="person a pop" style="--d:1s"><svg><use href="#i-person-ok"/></svg><b>no la notó</b></div>
+        <div class="person a pop" style="--d:1.1s"><svg><use href="#i-person-ok"/></svg><b>no la notó</b></div>
+        <div class="person a pop" style="--d:1.2s"><svg><use href="#i-person-ok"/></svg><b>no la notó</b></div>
+        <div class="person a pop" style="--d:1.3s"><svg><use href="#i-person-ok"/></svg><b>no la notó</b></div>
+        <div class="person a pop" style="--d:1.4s"><svg><use href="#i-person-ok"/></svg><b>no la notó</b></div>
+        <div class="person a pop" style="--d:1.5s"><svg><use href="#i-person-ok"/></svg><b>no la notó</b></div>
+        <div class="person a pop" style="--d:1.6s"><svg><use href="#i-person-ok"/></svg><b>no la notó</b></div>
+        <div class="person a pop" style="--d:1.7s"><svg><use href="#i-person-ok"/></svg><b>no la notó</b></div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card a right" style="--d:.6s"><p class="k">La barrera</p><h3>El olor, el color y la textura</h3><p class="muted">Saben que la sangrecita es buena. La rechazan por cómo sabe y por lo que dicen los amigos del colegio.</p></div>
+      <div class="card a right" style="--d:.9s"><p class="k">Lo que funciona</p><h3>Escondida en algo dulce, sí se acepta</h3><p class="muted">El chocolate es «para todos los días» y «algo que sí le gusta».</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · El valor -->
+<section class="slide s-val" data-part="1">
+  <p class="kick a fade"><i></i>Lo que encontramos</p>
+  <h2 class="a up" style="--d:.1s">Al conocerlo, <em>su valor se duplicó</em></h2>
+  <div class="row" style="margin-top:20px;gap:90px;flex:1">
+    <div>
+      <div class="vchart">
+        <div class="vbar first"><span class="val a fade" style="--d:.9s">S/10</span><div class="bars a gy" style="--d:.4s"><div class="sol" style="height:233px"></div></div></div>
+        <div class="vbar"><span class="val a fade" style="--d:1.3s">S/19 – 20</span><div class="bars a gy" style="--d:.8s"><div class="rng" style="height:23px"></div><div class="sol" style="height:443px"></div></div></div>
+        <div class="vbar"><span class="val a fade" style="--d:1.7s">S/20 – 24</span><div class="bars a gy" style="--d:1.2s"><div class="rng" style="height:93px"></div><div class="sol" style="height:467px"></div></div></div>
+      </div>
+      <div class="vlab">
+        <div class="a fade" style="--d:.6s"><b>Solo probaron</b><span>sabor y presentación</span></div>
+        <div class="a fade" style="--d:1s"><b>Supieron qué es</b><span>sin octógonos, saludable y con app</span></div>
+        <div class="a fade" style="--d:1.4s"><b>Uno por día</b><span>cada brownie en su bolsita</span></div>
+      </div>
+    </div>
+    <div class="side">
+      <p class="x2 a pop" style="--d:1.9s">×2</p>
+      <p class="lead a fade" style="--d:2.1s;margin:0">Por la bolsa de 6, lo que dijeron las 8 mamás del focus 2.</p>
+      <div class="card a up" style="--d:2.3s"><p class="k">Por unidad</p><h3 style="font-size:54px;color:var(--ladrillo)">S/4.50 a S/5.90</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARTE 2 · PATTY ================= -->
+
+<!-- 6 · Público -->
+<section class="slide s-pub" data-part="2">
+  <p class="kick a fade"><i></i>Público objetivo</p>
+  <h2 class="a up" style="--d:.1s">Papá y mamá de <em>nivel B</em>, con foco en el B1</h2>
+  <p class="lead a up" style="--d:.2s">De 30 a 45 años, con hijos de 4 a 11 en colegio privado, en Lima. Trabajan los dos y miran el precio por unidad.</p>
+  <div class="wrap">
+    <div>
+      <p class="k a fade" style="--d:.4s;margin-bottom:24px">Hogares de Lima por nivel socioeconómico</p>
+      <div class="hb" style="--lab:150px">
+        <div class="r"><span class="l a fade" style="--d:.5s">Nivel A</span><div class="t"><div class="b a gx" style="--w:4.3%;--d:.6s"></div><span class="v a fade" style="--d:1.4s">2.6 %</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:.6s;color:var(--ladrillo)">Nivel B</span><div class="t"><div class="b hi a gx" style="--w:30.7%;--d:.7s"></div><span class="v a fade" style="--d:1.5s;color:var(--ladrillo)">18.4 %</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:.7s">Nivel C</span><div class="t"><div class="b a gx" style="--w:76%;--d:.8s"></div><span class="v a fade" style="--d:1.6s">45.5 %</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:.8s">Nivel D</span><div class="t"><div class="b a gx" style="--w:45%;--d:.9s"></div><span class="v a fade" style="--d:1.7s">26.9 %</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:.9s">Nivel E</span><div class="t"><div class="b a gx" style="--w:11%;--d:1s"></div><span class="v a fade" style="--d:1.8s">6.6 %</span></div></div>
+      </div>
+      <p class="muted a fade" style="--d:2s;font-size:20px;margin-top:22px">APEIM 2025, sobre 3,362,157 hogares de Lima Metropolitana.</p>
+    </div>
+    <div class="col" style="justify-content:center">
+      <div class="stat a right" style="--d:1s"><p class="k">Nivel B en Lima</p><p class="n"><span data-count="618637">618,637</span></p><p>hogares: siete veces más que el nivel A.</p></div>
+      <div class="stat a right" style="--d:1.3s"><p class="k">Nivel B1</p><p class="n c"><span data-count="164746">164,746</span></p><p>hogares: la parte del B con más holgura para pagar por calidad.</p></div>
+      <div class="card a up" style="--d:1.7s;padding:26px 32px"><p class="k">Meta del año 1</p><p style="font:800 34px/1.2 var(--ft);color:var(--cafe);margin-top:8px">Menos de 1 de cada 1,000 hogares B1: unas 110 familias que compran cada semana.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · Rodrigo -->
+<section class="slide s-per" data-part="2">
+  <div class="photo a fade"><img class="kb" src="img/rodrigo.jpg" alt="" /></div>
+  <div class="cap a up" style="--d:.5s"><p class="k" style="color:var(--dorado)">Buyer persona</p><h3>Rodrigo Salazar, 40</h3><p>San Miguel · jefe de logística · su esposa también trabaja · dos hijos de 9 y 6 en colegio privado · hogar de unos S/8,500 al mes.</p></div>
+  <p class="kick a fade" style="--d:.2s"><i></i>A quién le hablamos</p>
+  <p class="bigq a up" style="--d:.4s">«No me vendas salud, <em>véndeme una mañana menos.</em>»</p>
+  <div class="grid2">
+    <div class="mini a up" style="--d:.8s"><svg><use href="#i-clock"/></svg><div><b>Cinco minutos</b><span>para la lonchera. Manda lo que el niño se come sin pelear.</span></div></div>
+    <div class="mini a up" style="--d:1s"><svg><use href="#i-cart"/></svg><div><b>Dónde compra</b><span>Plaza Vea, apps y WhatsApp. Y lo que le recomiendan en el chat del salón.</span></div></div>
+    <div class="mini a up" style="--d:1.2s"><svg><use href="#i-tag"/></svg><div><b>Qué mira</b><span>El precio por brownie. Compara con la galleta y la barra que ya compra.</span></div></div>
+    <div class="mini a up" style="--d:1.4s"><svg><use href="#i-heart"/></svg><div><b>Qué lo convence</b><span>Que su hijo lo pruebe, y entender en segundos qué lleva.</span></div></div>
+  </div>
+</section>
+
+<!-- 8 · Producto -->
+<section class="slide s-prod" data-part="2">
+  <p class="kick a fade"><i></i>Producto</p>
+  <h2 class="a up" style="--d:.1s">Un brownie de chocolate con <em>hierro de verdad</em></h2>
+  <div class="wrap">
+    <div class="stats">
+      <div class="a left" style="--d:.5s"><p class="n"><span data-count="30">30</span><small> g</small></p><p>cada brownie en su bolsita, uno por día</p></div>
+      <div class="a left" style="--d:.8s"><p class="n"><span data-count="1.9" data-dec="1">1.9</span><small> mg</small></p><p>de hierro en cada brownie. Comprobado en laboratorio.</p></div>
+      <div class="a left" style="--d:1.1s"><p class="n"><span data-count="0">0</span><small> octógonos</small></p><p>sin advertencias en el empaque</p></div>
+    </div>
+    <div class="bagw a zoom" style="--d:.3s"><img class="float" src="img/bolsa.png" alt="Bolsa de AndiBite" /></div>
+    <div class="map">
+      <p class="k a fade" style="--d:.6s;margin-bottom:6px">4 ingredientes peruanos</p>
+      <svg viewBox="-60 -10 520 590">
+        <path class="draw" style="--d:.5s" pathLength="1" d="%%PERU%%" fill="none" stroke="#4A2018" stroke-width="2.5" stroke-linejoin="round"/>
+        <path class="a fade" style="--d:1.6s" d="%%PERU%%" fill="#F4E6D3" stroke="none"/>
+        <g class="pin a pop" style="--d:1.8s"><circle cx="139" cy="364" r="13"/><text x="157" y="360">Sangrecita</text><text class="s" x="157" y="381">Lima</text></g>
+        <g class="pin a pop" style="--d:2.0s"><circle cx="159" cy="195" r="13"/><text x="177" y="191">Cacao</text><text class="s" x="177" y="212">San Martín</text></g>
+        <g class="pin a pop" style="--d:2.2s"><circle cx="31" cy="155" r="13"/><text x="-50" y="122">Plátano</text><text class="s" x="-50" y="142">Piura</text></g>
+        <g class="pin a pop" style="--d:2.4s"><circle cx="350" cy="481" r="13"/><text x="250" y="530">Cañihua</text><text class="s" x="250" y="551">Puno</text></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · Dos sabores -->
+<section class="slide s-flav" data-part="2">
+  <p class="kick a fade"><i></i>Producto</p>
+  <h2 class="a up" style="--d:.1s">Dos sabores, <em>la misma receta con hierro</em></h2>
+  <div class="flav">
+    <div class="fcard c1 a left" style="--d:.4s">
+      <div class="cube a pop" style="--d:.9s">
+        <div class="top"></div>
+        <i class="chip" style="left:40px;top:50px"></i><i class="chip" style="left:120px;top:40px"></i><i class="chip" style="left:180px;top:90px"></i><i class="chip" style="left:70px;top:120px"></i><i class="chip" style="left:150px;top:150px"></i><i class="chip" style="left:50px;top:190px"></i><i class="chip" style="left:190px;top:190px"></i><i class="chip" style="left:110px;top:200px"></i>
+      </div>
+      <div><p class="k" style="color:var(--dorado)">Sabor 1</p><h3>Chispa</h3><p>Chocolate con chispas de chocolate. El clásico que todos reconocen.</p><div class="chips"><span>Cacao</span><span>Chispas</span><span>Sangrecita</span></div></div>
+    </div>
+    <div class="fcard c2 a right" style="--d:.6s">
+      <div class="cube a pop" style="--d:1.1s">
+        <div class="top"></div>
+        <i class="ban" style="left:40px;top:44px"></i><i class="ban" style="left:150px;top:80px"></i><i class="ban" style="left:80px;top:160px"></i>
+        <i class="can" style="left:120px;top:40px"></i><i class="can" style="left:200px;top:170px"></i><i class="can" style="left:60px;top:120px"></i><i class="can" style="left:170px;top:210px"></i><i class="can" style="left:140px;top:150px"></i>
+      </div>
+      <div><p class="k" style="color:#FFD9A6">Sabor 2</p><h3>Andi</h3><p>Chocolate, plátano, canela y cañihua. El sabor de los Andes.</p><div class="chips"><span>Cacao</span><span>Plátano</span><span>Canela</span><span>Cañihua</span></div></div>
+    </div>
+  </div>
+  <p class="note a up" style="--d:1.5s;margin-top:40px">Los dos con <em>1.9 mg de hierro</em>, 30 g y sin octógonos.</p>
+</section>
+
+<!-- 10 · Marca -->
+<section class="slide s-brand" data-part="2">
+  <p class="kick a fade"><i></i>Marca</p>
+  <h2 class="a up" style="--d:.1s">AndiBite: <em>de los Andes, a la lonchera</em></h2>
+  <div class="wrap">
+    <div class="char a left" style="--d:1s"><img class="float" src="img/andi.png" alt="Andi" /><b>Andi</b><span>El niño del empaque.</span></div>
+    <div class="mid">
+      <img class="logo a blur" style="--d:.3s" src="img/logo-andibite.svg" alt="AndiBite" />
+      <div class="name a up" style="--d:.8s"><span><b>Andi</b> por los Andes</span><span>+</span><span><b>Bite</b> por la mordida</span></div>
+      <div class="sw">
+        <i class="a pop" style="--d:1.3s;background:#4A2018"></i><i class="a pop" style="--d:1.38s;background:#BA4036"></i><i class="a pop" style="--d:1.46s;background:#8A1C2B"></i><i class="a pop" style="--d:1.54s;background:#E3A33B"></i><i class="a pop" style="--d:1.62s;background:#7C8A3A"></i><i class="a pop" style="--d:1.7s;background:#D9B48F"></i><i class="a pop" style="--d:1.78s;background:#FBF3E8"></i>
+      </div>
+      <p class="slog a up" style="--d:1.9s">«Dulce para ellos. Tranquilidad para ti.»</p>
+    </div>
+    <div class="char a right" style="--d:1.2s"><img class="float" style="animation-delay:-2.5s" src="img/killa.png" alt="Killa" /><b>Killa</b><span>Su llamita, en la app.</span></div>
+  </div>
+  <p class="muted a fade" style="--d:2.2s;font-size:22px;text-align:center">Andi vive en el empaque y en la app. La publicidad le habla a papá y mamá (Ley 30021).</p>
+</section>
+
+<!-- 11 · App -->
+<section class="slide s-app" data-part="2">
+  <div class="wrap">
+    <div>
+      <p class="kick a fade"><i></i>Marca</p>
+      <h2 class="a up" style="--d:.1s">La app Andi: <em>la bolsa se vuelve dato</em></h2>
+      <div class="feat">
+        <div class="a left" style="--d:.6s"><i>QR</i><p><b>Se abre con el QR</b> de la bolsa.</p></div>
+        <div class="a left" style="--d:.8s"><i>Fe</i><p><b>El hierro de hoy:</b> cuánto llevó en la lonchera.</p></div>
+        <div class="a left" style="--d:1s"><i>7</i><p><b>Loncheras de la semana:</b> ideas para combinar.</p></div>
+        <div class="a left" style="--d:1.2s"><svg style="width:58px;height:58px;padding:12px;border-radius:18px;background:var(--crema2);color:var(--ladrillo);flex:none"><use href="#i-wa"/></svg><p><b>Recompra en un clic</b> por WhatsApp.</p></div>
+        <div class="a left" style="--d:1.4s"><i>★</i><p><b>Juegos para el niño</b>, con la clave de papá o mamá y sin compras.</p></div>
+      </div>
+    </div>
+    <div class="phones">
+      <div class="phone a up" style="--d:.5s"><img src="img/app-plan.jpg" alt="" /></div>
+      <div class="phone mid a up" style="--d:.3s"><img src="img/app-mision.jpg" alt="" /></div>
+      <div class="phone a up" style="--d:.7s"><img src="img/app-pedido.jpg" alt="" /></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARTE 3 · ADE ================= -->
+
+<!-- 12 · Precio -->
+<section class="slide s-price" data-part="3">
+  <p class="kick a fade"><i></i>Precio</p>
+  <h2 class="a up" style="--d:.1s">Un precio que <em>el público ya validó</em></h2>
+  <div class="wrap">
+    <div>
+      <div class="tag a zoom" style="--d:.3s">
+        <p class="k">Bolsa de 6 brownies</p>
+        <p class="p"><small>S/</small><span data-count="22">22</span></p>
+        <div class="sub"><div><b>S/3.67</b><span>cada brownie en la bolsa</span></div><div><b>S/5.00</b><span>la unidad suelta</span></div></div>
+      </div>
+      <p class="range a up" style="--d:1s">Dentro de lo que dijeron las mamás al conocerlo: <b>S/20 a S/24</b> por 6 y <b>S/4.50 a S/5.90</b> por unidad.</p>
+    </div>
+    <div>
+      <p class="k a fade" style="--d:.5s;margin-bottom:30px">Con qué nos comparan · precio por unidad</p>
+      <div class="hb" style="--lab:330px;--h:84px;gap:34px">
+        <div class="r"><span class="l a fade" style="--d:.6s">Brownie de pastelería<small>mediana, 6 pastelerías de Lima</small></span><div class="t"><div class="b a gx" style="--w:80%;--d:.7s"></div><span class="v a fade" style="--d:1.8s">S/10.88</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:.8s">AndiBite suelto<small>30 g, sin octógonos, con hierro</small></span><div class="t"><div class="b go a gx" style="--w:36.8%;--d:.9s"></div><span class="v a fade" style="--d:2s">S/5.00</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:1s">AndiBite en bolsa de 6<small>uno por día</small></span><div class="t"><div class="b hi a gx" style="--w:27%;--d:1.1s"></div><span class="v a fade" style="--d:2.2s;color:var(--ladrillo)">S/3.67</span></div></div>
+      </div>
+      <p class="muted a fade" style="--d:2.4s;font-size:20px;margin-top:30px">Precios públicos consultados el 18 de noviembre de 2026.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 13 · Canales -->
+<section class="slide s-ch" data-part="3">
+  <p class="kick a fade"><i></i>Canales</p>
+  <h2 class="a up" style="--d:.1s">Vendemos <em>donde está la lonchera</em></h2>
+  <div class="hub">
+    <svg class="links" viewBox="0 0 1680 640" preserveAspectRatio="none">
+      <path class="draw" style="--d:.6s" pathLength="1" d="M840 320 L560 110" stroke="#7C8A3A" stroke-width="4" stroke-dasharray="1" fill="none"/>
+      <path class="draw" style="--d:.7s" pathLength="1" d="M840 320 L1120 110" stroke="#7C8A3A" stroke-width="4" fill="none"/>
+      <path class="draw" style="--d:.8s" pathLength="1" d="M840 320 L560 530" stroke="#7C8A3A" stroke-width="4" fill="none"/>
+      <path class="draw" style="--d:.9s" pathLength="1" d="M840 320 L1120 530" stroke="#7C8A3A" stroke-width="4" fill="none"/>
+    </svg>
+    <div class="core a pop pulse" style="--d:.3s"><svg style="width:64px;height:64px;margin-bottom:10px"><use href="#i-wa"/></svg><b>WhatsApp une todo</b><span>Quien prueba deja su número y recibe dónde estamos y el aviso para volver a pedir.</span></div>
+    <div class="ch a left" style="--d:1s;left:0;top:0"><div class="card"><h3><i>1</i>Pedido del salón</h3><p>La delegada junta los pedidos por WhatsApp, se paga por Yape y entregamos el lunes en la puerta del colegio.</p><p class="when">Desde marzo de 2027 · 6 colegios, 16 en 2028</p></div></div>
+    <div class="ch a right" style="--d:1.2s;right:0;top:0"><div class="card"><h3><i>2</i>Kermeses y reuniones de padres</h3><p>Donde la familia prueba junta. 6 de cada 10 compran el brownie suelto.</p><p class="when">Desde marzo de 2027</p></div></div>
+    <div class="ch a left" style="--d:1.4s;left:0;bottom:0"><div class="card"><h3><i>3</i>Stand de feria municipal</h3><p>Campo de Marte, Jesús María, los fines de semana del lanzamiento: degustación y contactos.</p><p class="when">Marzo a junio de 2027</p></div></div>
+    <div class="ch a right" style="--d:1.6s;right:0;bottom:0"><div class="card"><h3><i>4</i>Centro comercial</h3><p>Real Plaza Salaverry: pop-up de lanzamiento y módulo en la vuelta al colegio.</p><p class="when">Marzo de 2027 y febrero de 2028</p></div></div>
+  </div>
+</section>
+
+<!-- 14 · Centro comercial -->
+<section class="slide s-mall" data-part="3">
+  <p class="kick a fade"><i></i>Canales</p>
+  <h2 class="a up" style="--d:.1s">El centro comercial, <em>paso a paso</em></h2>
+  <p class="lead a up" style="--d:.2s">Real Plaza Salaverry: zona con 51.7 % de hogares B, cerca de 3 de nuestros colegios y con módulos para marcas emprendedoras.</p>
+  <div class="stairs">
+    <div class="step a gy" style="--d:.5s"><div class="blk"><span class="num">1</span><span class="d">6 – 14 mar 2027</span><h3>Pop-up «Laboratorio ¿La notaste?»</h3><p>Cabinas de prueba a ciegas y el contador en vivo.</p><p class="m">1,350 pruebas · S/2,600 dentro del marketing</p></div></div>
+    <div class="step a gy" style="--d:.9s"><div class="blk"><span class="num">2</span><span class="d">15 feb – 15 mar 2028</span><h3>Módulo temporal en la vuelta al colegio</h3><p>Cuando la familia arma la lonchera. Mide si un módulo fijo funciona.</p><p class="m">Meta: 100 brownies por día</p></div></div>
+    <div class="step a gy" style="--d:1.3s"><div class="blk"><span class="num">3</span><span class="d">Desde 2029</span><h3>Módulo fijo, cuando el volumen lo pague</h3><p>Un módulo de 4 m² cuesta unos S/8,800 al mes con personal.</p><p class="m">Se abre con 170 brownies por día y costo de S/1.77</p></div></div>
+  </div>
+</section>
+
+<!-- ================= PARTE 4 · ANGIE ================= -->
+
+<!-- 15 · Concepto -->
+<section class="slide dark s-concept" data-part="4" data-chrome="dark">
+  <div class="bg"><img class="kb" src="img/cocina.jpg" alt="" /></div>
+  <p class="kick a fade" style="justify-content:center"><i></i>La campaña de lanzamiento</p>
+  <p class="l1 a up" style="--d:.4s">Lleva sangrecita.</p>
+  <p class="l2 a pop" style="--d:1.2s"><span class="wobble" style="display:inline-block">¿La notaste?</span></p>
+  <p class="l3 a fade" style="--d:2s">No la escondemos. Simplemente no se nota.</p>
+  <div class="tags a up" style="--d:2.4s"><span class="pill g">#LoQueNadieVe</span><span class="pill">Dulce para ellos. Tranquilidad para ti.</span></div>
+</section>
+
+<!-- 16 · Por qué -->
+<section class="slide s-why" data-part="4">
+  <p class="kick a fade"><i></i>Campaña</p>
+  <h2 class="a up" style="--d:.1s">Por qué <em>«¿La notaste?»</em></h2>
+  <div class="flow">
+    <div class="card a up" style="--d:.4s"><p class="k">El insight</p><h3>Todos los trucos fallan por lo mismo: el sabor</h3><p>Por eso papá y mamá ya no le creen a otro «saludable» hasta probarlo ellos mismos.</p></div>
+    <div class="arr a fade" style="--d:.8s"><svg><use href="#i-arrow"/></svg></div>
+    <div class="card a up" style="--d:1s"><p class="k">La idea</p><h3>Que prueben primero, y después se enteren</h3><p>Lo que pasó con las 8 mamás: probaron, no la notaron, y al conocer el producto su valor se duplicó.</p></div>
+    <div class="arr a fade" style="--d:1.4s"><svg><use href="#i-arrow"/></svg></div>
+    <div class="card hot a up" style="--d:1.6s"><p class="k">Lo que escuchan en 10 segundos</p>
+      <div class="ten"><span>Brownie de chocolate</span><span>Lleva sangrecita: 1.9 mg de hierro, comprobado en laboratorio</span><span>Sin octógonos · uno por día</span><span>La bolsa de 6, S/22</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 17 · Tres actos -->
+<section class="slide s-acts" data-part="4">
+  <p class="kick a fade"><i></i>Campaña</p>
+  <h2 class="a up" style="--d:.1s">La historia de AndiBite <em>en tres actos</em></h2>
+  <div class="acts">
+    <div class="act a up" style="--d:.4s"><div class="im"><img class="kb" src="img/lonchera-oscura.jpg" alt="" /><span class="badge">1 · El antes</span></div><div class="tx"><h3>Mil trucos</h3><p>Rallaste zanahoria en la torta. Le pusiste nombre de dinosaurio a la sopa. Hiciste nuggets de sangrecita. Y la lonchera volvió llena: «Mamá, olía feo».</p></div></div>
+    <div class="act a up" style="--d:.9s"><div class="im strip"><img src="img/deg1.jpg" alt="" style="height:100%;object-fit:cover" /><img src="img/deg2.jpg" alt="" style="height:100%;object-fit:cover" /><img src="img/deg3.jpg" alt="" style="height:100%;object-fit:cover" /><img src="img/deg4.jpg" alt="" style="height:100%;object-fit:cover" /><span class="badge">2 · El inicio</span></div><div class="tx"><h3>Un brownie</h3><p>Cinco estudiantes de la UPN escuchamos esas historias. Pusimos sangrecita en un brownie de chocolate. Ocho mamás lo probaron. Ninguna la notó.</p></div></div>
+    <div class="act a up" style="--d:1.4s"><div class="im"><img class="kb" src="img/familia.jpg" alt="" style="object-position:50% 40%" /><span class="badge">3 · El después</span></div><div class="tx"><h3>Una pelea menos</h3><p>No hace milagros. Es el dulce de la lonchera que sí suma hierro, sin octógonos y uno por día. Una pelea menos cada mañana.</p></div></div>
+  </div>
+</section>
+
+<!-- 18 · Cuatro etapas -->
+<section class="slide s-gantt" data-part="4">
+  <p class="kick a fade"><i></i>Campaña</p>
+  <h2 class="a up" style="--d:.1s">La campaña <em>en cuatro etapas</em></h2>
+  <div class="gantt" style="--lab:560px">
+    <div class="months a fade" style="--d:.3s;grid-template-columns:560px repeat(8,1fr)"><span></span><span>Nov 26</span><span>Dic</span><span>Ene 27</span><span>Feb</span><span>Mar</span><span>Abr</span><span>May</span><span>Jun</span></div>
+    <div class="g g1" style="grid-template-columns:560px repeat(8,1fr)"><div class="lab a fade" style="--d:.4s"><b>1 · El truco</b><span>«Todos tienen un truco. ¿Cuál es el tuyo?» Concurso #LoQueNadieVe por votos.</span></div><div class="bar a gx" style="--d:.5s;grid-column:2/4"><b>Hoy estamos aquí</b><span>Nov – dic</span></div></div>
+    <div class="g g2" style="grid-template-columns:560px repeat(8,1fr)"><div class="lab a fade" style="--d:.7s"><b>2 · Expectativa</b><span>«Este brownie lleva algo que ocho mamás no notaron.» Prueba a ciegas en parques; el 8 de febrero se revela.</span></div><div class="bar a gx" style="--d:.8s;grid-column:4/6"><b>Ene – 5 mar</b><span>Revelación 8 feb</span></div></div>
+    <div class="g g3" style="grid-template-columns:560px repeat(8,1fr)"><div class="lab a fade" style="--d:1s"><b>3 · Lanzamiento</b><span>«Lleva sangrecita. ¿La notaste? Pruébalo este sábado.» Colegios y stand abren el mismo día.</span></div><div class="bar a gx" style="--d:1.1s;grid-column:6/7"><b>6–14 mar</b></div></div>
+    <div class="g g4" style="grid-template-columns:560px repeat(8,1fr)"><div class="lab a fade" style="--d:1.3s"><b>4 · Sostener</b><span>«Pásale la prueba.» Día de la Madre: a tu mamá. Día del Padre: «Papá dice que él sí la nota».</span></div><div class="bar a gx" style="--d:1.4s;grid-column:6/10"><b>Mar – jun</b><span>Contador en vivo y 10 creadores</span></div></div>
+  </div>
+</section>
+
+<!-- 19 · La idea que hace hablar -->
+<section class="slide s-idea" data-part="4">
+  <p class="kick a fade"><i></i>Campaña</p>
+  <h2 class="a up" style="--d:.1s">La idea que <em>hace hablar</em></h2>
+  <div class="wrap">
+    <div class="board a left" style="--d:.4s">
+      <p class="k">En el stand · el contador a la vista</p>
+      <div class="cnt"><span>Probaron</span><b data-live="p">0</b></div>
+      <div class="cnt n"><span>La notaron</span><b data-live="n">0</b></div>
+      <p>Cada adulto prueba, responde si notó algo y se suma a la pizarra. Cada lunes publicamos la cifra real, también la de quienes sí la notaron.</p>
+    </div>
+    <div class="pase">
+      <p class="k a fade" style="--d:.6s">En casa</p>
+      <h3 class="a up" style="--d:.7s;font-size:64px;color:var(--ladrillo)">«Pásale la prueba»</h3>
+      <div class="steps">
+        <div class="a left" style="--d:1s"><i>1</i>Quien compró le da un brownie a otro adulto: la pareja, la abuela, el tío que todo lo nota.</div>
+        <div class="a left" style="--d:1.2s"><i>2</i>Le pregunta qué lleva.</div>
+        <div class="a left" style="--d:1.4s"><i>3</i>Graba su reacción con #LoQueNadieVe.</div>
+      </div>
+      <div class="card a up" style="--d:1.8s;padding:26px 32px">
+        <div class="onefour"><div class="ic"><svg><use href="#i-person-buy"/></svg><svg><use href="#i-person"/></svg><svg><use href="#i-person"/></svg><svg><use href="#i-person"/></svg></div><p style="font:800 28px/1.25 var(--ft);color:var(--cafe)">Si no se viraliza, igual vende: de cada 4 que prueban, 1 compra.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 20 · Creadores y prensa -->
+<section class="slide s-cre" data-part="4">
+  <p class="kick a fade"><i></i>Campaña</p>
+  <h2 class="a up" style="--d:.1s">Personas reales, <em>no famosos</em></h2>
+  <div class="wrap">
+    <div class="col">
+      <div class="card a up" style="--d:.4s"><p class="k">Creadores</p><h3>10 papás y mamás con 3,000 a 30,000 seguidores</h3><p class="muted">Hacen «¿La notaste?» con su pareja o su mamá. Cada uno tiene su palabra clave para WhatsApp.</p></div>
+      <div>
+        <p class="k a fade" style="--d:.8s;margin-bottom:22px">En quién confía el consumidor peruano</p>
+        <div class="hb" style="--lab:300px;--h:72px">
+          <div class="r"><span class="l a fade" style="--d:.9s">Amigos y familia</span><div class="t"><div class="b hi a gx" style="--w:78%;--d:1s"></div><span class="v a fade" style="--d:2s">28 %</span></div></div>
+          <div class="r"><span class="l a fade" style="--d:1.1s">Influencers grandes</span><div class="t"><div class="b a gx" style="--w:19.5%;--d:1.2s"></div><span class="v a fade" style="--d:2.2s">7 %</span></div></div>
+        </div>
+        <p class="muted a fade" style="--d:2.3s;font-size:20px;margin-top:16px">Ipsos Perú, 2025.</p>
+      </div>
+    </div>
+    <div class="news a zoom" style="--d:1.2s">
+      <p class="mast">La prensa · el ángulo</p>
+      <h3>Cinco estudiantes de la UPN pusieron sangrecita en un brownie. Ocho mamás lo probaron y ninguna la notó.</h3>
+      <p>Una historia real, con cifras propias y un contador que se actualiza cada semana. Es el tipo de nota que se comparte en el chat del salón y que un medio quiere contar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 21 · Redes -->
+<section class="slide s-red" data-part="4">
+  <p class="kick a fade"><i></i>Redes</p>
+  <h2 class="a up" style="--d:.1s">La campaña, <em>ya en redes</em></h2>
+  <div class="wrap">
+    <div class="ig a up" style="--d:.3s"><div class="scr">
+      <div class="hd"><div class="av"><img src="img/logo-andi.png" alt="" /></div><div><b>andibite.pe</b><span>AndiBite · brownie con hierro</span><div class="stats"><span><b>12</b> publicaciones</span><span>Lima</span></div></div></div>
+      <p class="bio">El brownie de la lonchera que lleva algo que casi nadie nota. <b>¿Tú lo notarías?</b><br />Pídelo para el salón por WhatsApp</p>
+      <div class="grid">
+        <div class="a pop" style="--d:.8s"><img src="img/convocatoria.jpg" alt="" /></div><div class="a pop" style="--d:.9s"><img src="img/reel1.jpg" alt="" /></div><div class="a pop" style="--d:1s"><img src="img/mural.jpg" alt="" /></div>
+        <div class="a pop" style="--d:1.1s"><img src="img/hablador.jpg" alt="" /></div><div class="a pop" style="--d:1.2s"><img src="img/pareja.jpg" alt="" /></div><div class="a pop" style="--d:1.3s"><img src="img/mama-lonchera.jpg" alt="" /></div>
+        <div class="a pop" style="--d:1.4s"><img src="img/reel4.jpg" alt="" /></div><div class="a pop" style="--d:1.5s"><img src="img/rodrigo.jpg" alt="" /></div><div class="a pop" style="--d:1.6s"><img src="img/stand.jpg" alt="" /></div>
+      </div>
+    </div></div>
+    <div class="tt a up" style="--d:.6s"><div class="scr">
+      <img src="img/reel1.jpg" alt="" /><img src="img/reel4.jpg" alt="" /><img src="img/pareja.jpg" alt="" />
+      <div class="cap">@andibite.pe<span>Todos tienen un truco. ¿Cuál es el tuyo? #LoQueNadieVe</span></div>
+    </div></div>
+    <div class="accts">
+      <div class="acct a right" style="--d:1s"><svg><use href="#i-ig"/></svg><div><b>Instagram · @andibite.pe</b><span>Cuadrícula de 12 y historias</span></div></div>
+      <div class="acct a right" style="--d:1.2s"><svg><use href="#i-tt"/></svg><div><b>TikTok · @andibite.pe</b><span>Reacciones y tendencias</span></div></div>
+      <div class="acct a right" style="--d:1.4s"><svg><use href="#i-fb"/></svg><div><b>Facebook · AndiBite</b><span>Grupo de papás y mamás</span></div></div>
+      <div class="acct a right" style="--d:1.6s"><svg><use href="#i-wa"/></svg><div><b>WhatsApp Business</b><span>Pedidos del salón</span></div></div>
+      <p class="note a up" style="--d:2s;font-size:26px;margin-top:6px">Hoy, en fase de expectativa: <em>¿qué lleva?</em></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARTE 5 · CARLOS ================= -->
+
+<!-- 22 · Marketing -->
+<section class="slide s-mkt" data-part="5">
+  <p class="kick a fade"><i></i>Números</p>
+  <h2 class="a up" style="--d:.1s">El presupuesto de marketing de 2027: <em>S/<span data-count="15040">15,040</span></em></h2>
+  <div class="wrap">
+    <div class="hb" style="--lab:430px;--h:56px;gap:18px">
+      <div class="r"><span class="l a fade" style="--d:.4s">Community manager y videos de reacción</span><div class="t"><div class="b hi a gx" style="--w:82%;--d:.5s"></div><span class="v a fade" style="--d:1.6s">5,500</span></div></div>
+      <div class="r"><span class="l a fade" style="--d:.5s">Pauta en Meta y TikTok, solo a mayores de 18</span><div class="t"><div class="b hi a gx" style="--w:44%;--d:.6s"></div><span class="v a fade" style="--d:1.7s">2,950</span></div></div>
+      <div class="r"><span class="l a fade" style="--d:.6s">Pop-up «Laboratorio ¿La notaste?»</span><div class="t"><div class="b hi a gx" style="--w:38.8%;--d:.7s"></div><span class="v a fade" style="--d:1.8s">2,600</span></div></div>
+      <div class="r"><span class="l a fade" style="--d:.7s">Embajadores y muestras en colegios</span><div class="t"><div class="b hi a gx" style="--w:28.6%;--d:.8s"></div><span class="v a fade" style="--d:1.9s">1,920</span></div></div>
+      <div class="r"><span class="l a fade" style="--d:.8s">Creadores y prueba en la calle</span><div class="t"><div class="b hi a gx" style="--w:22.4%;--d:.9s"></div><span class="v a fade" style="--d:2s">1,500</span></div></div>
+      <div class="r"><span class="l a fade" style="--d:.9s">Kit del stand, volantes, prensa y premios</span><div class="t"><div class="b hi a gx" style="--w:8.5%;--d:1s"></div><span class="v a fade" style="--d:2.1s">570</span></div></div>
+    </div>
+    <div class="col center">
+      <div class="ring a zoom" style="--d:.6s">
+        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="#F4E6D3" stroke-width="12"/><circle class="draw" style="--d:1s" cx="50" cy="50" r="42" fill="none" stroke="#BA4036" stroke-width="12" stroke-linecap="round" pathLength="1" stroke-dasharray="0.14 1"/></svg>
+        <div class="in"><b><span data-count="14">14</span>%</b><span>de la venta del primer año</span></div>
+      </div>
+      <p class="a fade" style="--d:1.6s;font-size:25px;color:var(--suave);max-width:560px">Como un lanzamiento de alimentos. En 2028 baja a 8 %, porque ya hay recompra.</p>
+      <p class="pill o a up" style="--d:2s">Cada contacto de WhatsApp: S/8.23 o menos</p>
+    </div>
+  </div>
+</section>
+
+<!-- 23 · Financiamiento -->
+<section class="slide s-fin" data-part="5">
+  <p class="kick a fade"><i></i>Números</p>
+  <h2 class="a up" style="--d:.1s">Cuánto necesitamos: <em>S/<span data-count="100000">100,000</span></em>, y de dónde sale</h2>
+  <div class="stack">
+    <div class="s1 a gx" style="--d:.4s"><b>S/50,000</b><span>Aporte de los cinco socios · dic. 2026</span></div>
+    <div class="s2 a gx" style="--d:.8s"><b>S/35,000</b><span>Segundo aporte o inversionista · may. 2027</span></div>
+    <div class="s3 a gx" style="--d:1.2s"><b>S/15,000</b><span>Préstamo de caja municipal · ene. 2028</span></div>
+  </div>
+  <div class="wrap">
+    <div>
+      <p class="k a fade" style="--d:1.4s;margin-bottom:22px">En qué se usa</p>
+      <div class="hb" style="--lab:360px;--h:50px;gap:14px">
+        <div class="r"><span class="l a fade" style="--d:1.5s">Operación hasta el equilibrio</span><div class="t"><div class="b cf a gx" style="--w:72%;--d:1.6s"></div><span class="v a fade" style="--d:2.3s">39,863</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:1.6s">Inversión inicial</span><div class="t"><div class="b cf a gx" style="--w:46%;--d:1.7s"></div><span class="v a fade" style="--d:2.4s">25,432</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:1.7s">Marketing 2027</span><div class="t"><div class="b cf a gx" style="--w:27.2%;--d:1.8s"></div><span class="v a fade" style="--d:2.5s">15,040</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:1.8s">Caja al cierre de 2028</span><div class="t"><div class="b cf a gx" style="--w:18.2%;--d:1.9s"></div><span class="v a fade" style="--d:2.6s">10,086</span></div></div>
+        <div class="r"><span class="l a fade" style="--d:1.9s">Cuotas del préstamo 2028</span><div class="t"><div class="b cf a gx" style="--w:17.3%;--d:2s"></div><span class="v a fade" style="--d:2.7s">9,581</span></div></div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card a up" style="--d:2s;background:var(--oliva);border-color:var(--oliva)"><p class="k" style="color:#EEF2DC">La caja nunca baja de</p><p style="font:800 84px/1 var(--ft);color:#fff;margin-top:10px">S/5,745</p><p style="color:#EEF2DC;font-size:24px;margin-top:8px">en marzo de 2028, el mes más ajustado.</p></div>
+      <p class="a fade" style="--d:2.4s;font-size:23px;color:var(--suave)">Además, preventa de 133 bolsas en febrero de 2027 (S/2,900). Postulamos a StartUp Perú: si se gana, reemplaza al segundo aporte y al préstamo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 24 · Dos años -->
+<section class="slide s-num" data-part="5">
+  <p class="kick a fade"><i></i>Números</p>
+  <h2 class="a up" style="--d:.1s">Los dos primeros años: <em>equilibrio en mayo de 2028</em></h2>
+  <div class="wrap">
+    <div class="chart a fade" style="--d:.3s">
+      <p class="k" style="margin-bottom:14px">Resultado de cada mes · S/</p>
+      <svg id="chart-res" viewBox="0 0 1040 560"></svg>
+    </div>
+    <div class="kpis">
+      <div class="kpi a right" style="--d:.5s"><p class="k">2027</p><p class="n"><span data-count="33238">33,238</span></p><span>brownies · S/127,847 en ventas · 6 a 10 colegios</span></div>
+      <div class="kpi a right" style="--d:.7s"><p class="k">2028</p><p class="n"><span data-count="72336">72,336</span></p><span>brownies · S/272,912 en ventas · 16 colegios</span></div>
+      <div class="kpi a right" style="--d:.9s"><p class="k">Por brownie en bolsa</p><p class="n o">S/1.03</p><span>de contribución; S/1.37 cuando producir baja a S/1.77</span></div>
+      <div class="kpi a right" style="--d:1.1s"><p class="k">Resultado</p><p class="n r" style="font-size:38px;line-height:1.15">2027: −44,366<br />2028: −16,363</p><span>financiado con los S/100,000</span></div>
+      <div class="kpi wide a up" style="--d:1.4s"><p class="k">Equipo</p><span style="font-size:23px;color:var(--cafe);margin-top:6px">Gerente, coordinadora de ventas, promotores por día y community manager, con sueldo y beneficios.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 25 · Cierre -->
+<section class="slide dark s-end" data-part="5" data-chrome="dark">
+  <div class="bg"><img class="kb" src="img/familia.jpg" alt="" style="object-position:50% 45%" /></div>
+  <img class="a down" style="--d:.1s;height:96px;width:auto;margin-bottom:40px" src="img/logo-andi.png" alt="AndiBite" />
+  <h1 class="a up" style="--d:.4s">Una pelea menos <em>cada mañana.</em></h1>
+  <p class="slogan a up" style="--d:.9s">Dulce para ellos. Tranquilidad para ti.</p>
+  <div class="inv a up" style="--d:1.4s"><span class="pill g">Pruébalo a ciegas en nuestro stand</span><span class="pill">Síguenos: @andibite.pe</span></div>
+  <p class="a fade" style="--d:1.8s;margin-top:60px;font-size:24px;color:#E2CDB8">Grupo 2 · Diana Ayoso · Patricia Cárdenas · Adela Robles · Angie Blas · Carlos Inga</p>
+</section>
+
+<!-- 26 · Síguenos (se queda en pantalla en el stand) -->
+<section class="slide dark s-qr" data-part="5" data-chrome="hide">
+  <div class="cubes" data-cubes="14"></div>
+  <div class="top a down"><img src="img/logo-andi.png" alt="AndiBite" /></div>
+  <img class="andi float" src="img/bolsa.png" alt="" />
+  <div class="rot"><span>Lleva sangrecita. <em>¿La notaste?</em></span><span>Pruébalo <em>a ciegas</em>, aquí.</span><span>Escanea y <em>síguenos.</em></span></div>
+  <div class="qrs">
+    <div class="qr a up" style="--d:.3s"><div class="code glow" data-qr="instagram"></div><b><svg><use href="#i-ig"/></svg>Instagram</b><span>@andibite.pe</span></div>
+    <div class="qr a up" style="--d:.5s"><div class="code glow" data-qr="tiktok"></div><b><svg><use href="#i-tt"/></svg>TikTok</b><span>@andibite.pe</span></div>
+    <div class="qr a up" style="--d:.7s"><div class="code glow" data-qr="facebook"></div><b><svg><use href="#i-fb"/></svg>Facebook</b><span>AndiBite</span></div>
+    <div class="live a up" style="--d:.9s">
+      <p class="k">Hoy, en este stand</p>
+      <div class="cnt"><span>Probaron</span><b data-live="p">0</b></div>
+      <div class="cnt n"><span>La notaron</span><b data-live="n">0</b></div>
+      <p>Prueba a ciegas, responde y súmate a la pizarra.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Dulce para ellos. <em>Tranquilidad para ti.</em></span><span class="pill g" style="font-size:28px">@andibite.pe · #LoQueNadieVe</span></div>
+</section>
+
+<div id="chrome"><img class="logo" src="img/logo-andibite.svg" alt="" /><div class="parts"></div><span class="who"><i></i><b></b></span><span class="num"></span></div>
+</div>
+<div id="keys">→ / ← cambiar lámina · F pantalla completa · P +1 probaron · N +1 la notaron · Mayús+P / Mayús+N −1 · H ocultar</div>
+
+<script src="vendor/qrcode.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

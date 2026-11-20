@@ -1,0 +1,9 @@
+{
+  // Presentación animada de AndiBite para la feria (FINAL/web) en Cloudflare Workers.
+  // Publicar: node subir.mjs && npx wrangler deploy   (desde esta carpeta)
+  "name": "andibite-feria",
+  "account_id": "c0dbf17cab3142a5bd3f0af8a450f54b",
+  "main": "worker.ts",
+  "compatibility_date": "2026-10-01",
+  "kv_namespaces": [{ "binding": "FERIA_ACTIVOS", "id": "ef17ab5ffd1c4f52a178a9605e053a2a" }]
+}

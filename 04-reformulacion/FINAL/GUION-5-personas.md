@@ -1,0 +1,260 @@
+# Guion · AndiBite · Feria del 23 de noviembre de 2026
+
+## Reparto
+
+| Parte | Quién | Tema | Láminas | Tiempo |
+|---|---|---|---|---|
+| 1 | Diana Ayoso | El problema que escuchamos | 1 a 5 | 1:59 |
+| 2 | Patricia (Patty) Cárdenas | Para quién y qué creamos | 6 a 11 | 1:59 |
+| 3 | Adela (Ade) Robles | Cómo llega a la lonchera | 12 a 14 | 2:00 |
+| 4 | Angie Blas | La campaña | 15 a 21 | 1:58 |
+| 5 | Carlos Inga | Los números y la invitación | 22 a 26 | 1:56 |
+| | | | **Total** | **9:52 · 1,282 palabras** |
+
+## Parte 1 · Diana Ayoso · El problema que escuchamos
+
+Tiempo: 1:59 · Palabras: 258
+
+### Lámina 1 · Portada
+
+Antes de empezar: ¿alguien notó algo raro en el brownie que probaron?
+
+Guarden esa respuesta. Ya van a entender por qué.
+
+Buenos días. Somos AndiBite, el Grupo 2, y esta historia empieza en una lonchera.
+
+> Acción: Diana hace la pregunta mirando a la profesora y espera tres segundos aunque nadie conteste. La solapa del cartel sigue cerrada.
+
+### Lámina 2 · La lonchera vuelve llena
+
+Papá y mamá saben que su hijo necesita hierro. El problema es otro: lo que le hace bien, no se lo come.
+
+La mamá de Mateo le hizo nuggets de sangrecita. Volvieron enteros, con esa frase.
+
+Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.
+
+Cada casa tiene su truco. Y casi todos se caen por lo mismo: el sabor.
+
+### Lámina 3 · Primero escuchamos
+
+Por eso no empezamos por la receta. Empezamos escuchando.
+
+Veinticinco entrevistas largas. En el primer focus, papá y mamá eligieron el formato: ganó el mini brownie.
+
+En el segundo, en un colegio, ocho mamás probaron el prototipo con su empaque.
+
+Y nos pusimos una regla: primero probar, después preguntar el precio.
+
+### Lámina 4 · La prueba
+
+Ninguna de las ocho notó la sangrecita. Ni en el sabor, ni en el olor.
+
+La barrera nunca fue el ingrediente: es el olor, el color y la textura. Dentro de un chocolate, se acepta.
+
+Y sí: lo que ustedes probaron hace un rato es esa misma receta. Con sangrecita.
+
+> Acción: pausa de dos segundos después de «Con sangrecita»; Diana mira al salón.
+
+### Lámina 5 · El valor al conocerlo
+
+Y al contarles qué comían, el precio subió solo.
+
+Por el sabor, diez soles la bolsa. Al saber que no tiene octógonos y trae app, diecinueve a veinte. Uno por día, en su bolsita: hasta veinticuatro.
+
+Es el mismo brownie. Lo que creció fue la tranquilidad.
+
+**Pase:** «¿Y quién paga por esa tranquilidad? Para saber a quién le hablamos, Patty.»
+
+## Parte 2 · Patricia (Patty) Cárdenas · Para quién y qué creamos
+
+Tiempo: 1:59 · Palabras: 258
+
+### Lámina 6 · Público
+
+Gracias, Diana. Le hablamos a papá y mamá de nivel B de Lima: más de seiscientos dieciocho mil hogares.
+
+Con foco en el B1, el que tiene más holgura para pagar por calidad.
+
+Y la meta del primer año es chiquita a propósito: unas ciento diez familias que compran cada semana.
+
+### Lámina 7 · Rodrigo
+
+Les pusimos una cara: Rodrigo.
+
+Trabaja él, trabaja su esposa, y en la mañana tiene cinco minutos para la lonchera.
+
+No quiere un discurso de salud: quiere una mañana menos. Y lo convence una sola cosa: que su hijo lo pruebe.
+
+### Lámina 8 · El producto
+
+Para Rodrigo hicimos esto: un brownie de treinta gramos, cada uno en su bolsita, uno por día.
+
+Uno coma nueve miligramos de hierro en cada brownie, comprobado en laboratorio. Cero octógonos. Y cuatro ingredientes peruanos, de Lima hasta Puno.
+
+> Acción: Patty levanta una bolsita y luego la bolsa de 6. Si lo que se sirvió fue el prototipo de 20 g, añade: «Lo que probaron es esta receta; el de la bolsa pesa 30 gramos.»
+
+### Lámina 9 · Dos sabores
+
+Dos sabores: Chispa, para el que solo quiere chocolate, y Andi, con plátano, canela y cañihua, para el que se anima a más.
+
+### Lámina 10 · Marca
+
+De los Andes, a la lonchera: eso dice el nombre.
+
+Andi es el niño del empaque y Killa, su llamita. Viven en la bolsa y en la app, nunca en los anuncios: los anuncios le hablan a papá y mamá, como pide la Ley 30021.
+
+### Lámina 11 · App Andi
+
+El QR de la bolsa abre la app Andi.
+
+Papá o mamá ve cuánto hierro llevó hoy y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá, y no tienen compras.
+
+> Acción: Patty escanea el QR de la bolsa con el celular y muestra «El hierro de hoy».
+
+**Pase:** «Ya tenemos el brownie y a Rodrigo. ¿Cuánto cuesta y cómo llega a su lonchera? Ade.»
+
+## Parte 3 · Adela (Ade) Robles · Cómo llega a la lonchera
+
+Tiempo: 2:00 · Palabras: 259
+
+### Lámina 12 · Precio
+
+Gracias, Patty. Empiezo por lo que Rodrigo mira primero: el precio por brownie.
+
+La bolsa de seis está a veintidós soles: tres sesenta y siete cada uno. Suelto, cinco soles, para que la bolsa siempre convenga.
+
+En seis pastelerías de Lima, un brownie mediano cuesta diez soles ochenta y ocho.
+
+Y los veintidós caen dentro de lo que dijeron las mamás. Ese precio lo pusieron ellas.
+
+> Acción: Ade sostiene la bolsa de 6 junto al hablador de precio.
+
+### Lámina 13 · Canales
+
+¿Dónde lo compra? Donde ya está la lonchera.
+
+El canal más fuerte es el pedido del salón: la delegada junta los pedidos en el chat, cada familia paga por Yape y el lunes entregamos en la puerta del colegio. Seis colegios al arrancar, dieciséis en 2028.
+
+Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.
+
+Todo termina en el WhatsApp: quien prueba deja su número y le avisamos cuándo volver a pedir.
+
+### Lámina 14 · Centro comercial paso a paso
+
+Al centro comercial entramos paso a paso, en el Real Plaza Salaverry: más de la mitad de los hogares de esa zona son nivel B.
+
+Primero, nueve días de pop-up en marzo de 2027, con mil trescientas cincuenta pruebas a ciegas, pagado como marketing.
+
+En la vuelta al colegio de 2028, un módulo temporal que mide si se venden cien brownies al día.
+
+Y el fijo, desde 2029, solo cuando la cuenta da: cuesta unos ocho mil ochocientos soles al mes, así que se abre cuando el temporal venda ciento setenta al día.
+
+Cada paso se gana con el anterior.
+
+**Pase:** «Y para que la gente llegue a probar, hace falta una campaña. Angie.»
+
+## Parte 4 · Angie Blas · La campaña
+
+Tiempo: 1:58 · Palabras: 256
+
+### Lámina 15 · Portadilla de campaña
+
+Gracias, Ade. Nuestra campaña es una sola pregunta: lleva sangrecita, ¿la notaste?
+
+No la escondemos. Simplemente no se nota.
+
+> Acción: Angie levanta la solapa del cartel del stand mientras dice la pregunta.
+
+### Lámina 16 · Por qué funciona
+
+¿Por qué una pregunta? Porque papá y mamá ya no le creen a otro «saludable». Le creen a su propia boca.
+
+Entonces primero prueban, y después se enteran. Lo demás se cuenta en diez segundos.
+
+### Lámina 17 · La historia en tres actos
+
+Es la misma historia que contó Diana, ahora para redes: mil trucos, un brownie que ocho mamás probaron sin notar nada, y una pelea menos. No promete milagros.
+
+### Lámina 18 · Cuatro etapas
+
+Hoy estamos en la primera etapa: el concurso #LoQueNadieVe, donde papá y mamá votan el mejor truco.
+
+En enero viene la intriga, con pruebas a ciegas en parques, y el 8 de febrero contamos qué lleva.
+
+El 6 de marzo abren a la vez los colegios y el stand. Y hasta junio lo sostenemos: en el Día del Padre, papá dice que él sí la nota.
+
+### Lámina 19 · La idea que hace hablar
+
+Lo que hace hablar es el contador: cada lunes publicamos la cifra real, también la de quienes sí la notaron.
+
+En casa, «Pásale la prueba»: quien compró le da un brownie al tío que todo lo nota y graba su cara.
+
+¿Y si no se vuelve viral? Igual vende: de cada cuatro que prueban, uno compra.
+
+### Lámina 20 · Personas reales
+
+Por eso, nada de famosos: diez papás y mamás de tres mil a treinta mil seguidores.
+
+El veintiocho por ciento confía en amigos y familia; en influencers grandes, apenas el siete.
+
+### Lámina 21 · La campaña ya en redes
+
+Y ya está andando: somos @andibite.pe en Instagram, TikTok y Facebook, con WhatsApp Business para los pedidos. Hoy, en plena expectativa.
+
+> Acción: Angie gira la laptop o la tablet hacia la profesora con el perfil abierto.
+
+**Pase:** «Una campaña así cuesta. Cuánto, de dónde sale y cuándo se paga: Carlos.»
+
+## Parte 5 · Carlos Inga · Los números y la invitación
+
+Tiempo: 1:56 · Palabras: 251
+
+### Lámina 22 · Marketing 2027
+
+Gracias, Angie. Toda esa campaña cuesta quince mil cuarenta soles en 2027. Es el catorce por ciento de lo que vendemos el primer año. En 2028 baja a ocho, porque ya hay recompra.
+
+Lo que más pesa es el contenido: el community manager y los videos de reacción.
+
+Y lo medimos con una sola regla: cada contacto de WhatsApp tiene que costarnos ocho veintitrés o menos.
+
+### Lámina 23 · Cien mil soles
+
+Para arrancar necesitamos cien mil soles hasta fines de 2028.
+
+La mitad la ponemos los cinco socios en diciembre. Treinta y cinco mil llegan en mayo, con un segundo aporte o un inversionista. Y quince mil, con un préstamo de caja municipal en enero de 2028, cuando ya tengamos ventas que mostrar.
+
+Con eso, la caja nunca baja de cinco mil setecientos cuarenta y cinco soles.
+
+### Lámina 24 · Dos primeros años
+
+En 2027 vendemos más de treinta y tres mil brownies; en 2028, más de setenta y dos mil.
+
+De cada brownie en bolsa nos queda un sol con tres céntimos, después de producirlo y entregarlo.
+
+Los dos primeros años son de pérdida, y esa pérdida está financiada. En mayo de 2028, el mes diecisiete, llegamos al equilibrio. Desde ahí, ganamos cada mes de clases.
+
+### Lámina 25 · Cierre
+
+Empezamos con una lonchera que volvía llena. Hoy, en este salón, probaron [N] personas. La notaron [M].
+
+No hace milagros. Es una pelea menos cada mañana.
+
+AndiBite: dulce para ellos, tranquilidad para ti.
+
+> Acción: Carlos señala el contador del stand al decir [N] y [M]; todo el grupo se pone junto a la mesa.
+
+### Lámina 26 · Síguenos
+
+Si alguien todavía no lo probó, pase al stand. Y escaneen el QR: síganos en @andibite.pe y cuéntennos si la notaron.
+
+**Cierre:** «Gracias.»
+
+> Acción: Carlos levanta la bolsa de 6 con el QR hacia el salón y espera a que escaneen antes de agradecer.
+
+## Si sobra o falta tiempo
+
+- **Parte 1 · Diana:** si va tarde, quita «Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.» y «Es el mismo brownie.»; si sobra, añade en la lámina 3: «Quince votos para el mini brownie, frente a diez de las trufas.»
+- **Parte 2 · Patty:** si va tarde, deja la lámina 9 solo en pantalla y quita «Trabaja él, trabaja su esposa»; si sobra, añade en la lámina 6: «Siete veces más hogares que el nivel A.»
+- **Parte 3 · Ade:** si va tarde, quita «Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.» y «Cada paso se gana con el anterior.»
+- **Parte 4 · Angie:** si va tarde, deja la lámina 17 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»
+- **Parte 5 · Carlos:** si va tarde, quita «Lo que más pesa es el contenido…» y la frase de los brownies de 2027 y 2028; nunca quita [N], [M] ni la invitación al QR.

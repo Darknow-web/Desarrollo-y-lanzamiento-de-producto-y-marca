@@ -1,0 +1,144 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>AndiBite · Guion de la feria</title><style>
+@font-face{font-family:Jakarta;src:url(../web/fonts/plus-jakarta-sans-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:Jakarta;src:url(../web/fonts/plus-jakarta-sans-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Nunito;src:url(../web/fonts/nunito-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:Nunito;src:url(../web/fonts/nunito-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Nunito;src:url(../web/fonts/nunito-latin-800-normal.woff2);font-weight:800}
+@page{size:A4;margin:13mm 14mm 15mm}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Nunito,sans-serif;color:#3B1A14;background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{position:relative;page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+h1,h2,h3,h4{font-family:Jakarta,sans-serif;font-weight:800;color:#4A2018;letter-spacing:-.01em}
+.k{font:800 8pt/1.2 Jakarta,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7A5A4C}
+p{font-size:11pt;line-height:1.5}
+b,strong{font-weight:800}
+.foot{display:none;position:absolute;left:15mm;right:15mm;bottom:8mm;display:flex;justify-content:space-between;font:800 7.5pt/1 Jakarta,sans-serif;color:#9a7a6a}
+/* portada */
+.cover{background:#2E120C;color:#FBF3E8;padding:14mm 12mm;border-radius:6mm;height:268mm;overflow:hidden}
+.cover .logo{height:24mm;width:auto}
+.cover h1{color:#FBF3E8;font-size:34pt;line-height:1.05;margin-top:12mm}
+.cover h1 em{font-style:normal;color:#E3A33B}
+.cover .sub{color:#E9D6C3;font-size:12.5pt;margin-top:4mm}
+.cover .k{color:#D9B48F}
+.tbar{display:flex;height:9mm;border-radius:3mm;overflow:hidden;margin:10mm 0 3mm;gap:1mm}
+.tbar div{display:flex;align-items:center;justify-content:center;font:800 8pt Jakarta;color:#fff}
+.who{display:grid;grid-template-columns:repeat(5,1fr);gap:3mm;margin-top:8mm}
+.who .c{background:rgba(255,253,249,.07);border:1px solid rgba(255,253,249,.14);border-radius:4mm;padding:5mm 4mm;border-top:3mm solid}
+.who .n{font:800 22pt/1 Jakarta;color:#FBF3E8}
+.who b{display:block;font:800 11.5pt/1.2 Jakarta;color:#FBF3E8;margin-top:3mm}
+.who span{display:block;font-size:9pt;line-height:1.35;color:#E2CDB8;margin-top:2mm}
+.who i{display:block;font:800 9pt Jakarta;font-style:normal;color:#E3A33B;margin-top:3mm}
+.hilo{margin-top:12mm;background:rgba(255,253,249,.07);border-radius:4mm;padding:6mm 7mm}
+.hilo p{color:#E9D6C3;font-size:10.5pt}
+.hilo .arr{display:flex;align-items:center;gap:2.5mm;flex-wrap:wrap;margin-top:3mm;font:800 10pt Jakarta;color:#FBF3E8}
+.hilo .arr em{font-style:normal;color:#E3A33B}
+.tips{display:grid;grid-template-columns:1fr 1fr;gap:3mm 8mm;margin-top:8mm}
+.tips p{font-size:9.5pt;color:#E2CDB8;line-height:1.4}
+.tips p b{color:#FBF3E8}
+/* parte */
+.band{border-radius:5mm;padding:7mm 8mm;display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:6mm}
+.band .pn{font:800 9pt/1 Jakarta;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
+.band h2{color:inherit;font-size:24pt;line-height:1.05;margin-top:2mm}
+.band .th{font:800 12pt/1.2 Jakarta;margin-top:1.5mm;opacity:.95}
+.band .tm{text-align:right;font:800 9pt/1.4 Jakarta;opacity:.9}
+.band .tm b{display:block;font-size:22pt;line-height:1}
+.sl{display:grid;grid-template-columns:52mm 1fr;gap:5mm;padding:4mm 0;border-bottom:1px solid #E8D5BD;break-inside:avoid}
+.sl img{width:52mm;border-radius:2.2mm;box-shadow:0 1.5mm 4mm -2mm rgba(74,32,24,.5);display:block}
+.sl .num{font:800 7.5pt Jakarta;color:#7A5A4C;margin-top:1.6mm;letter-spacing:.06em}
+.sl h3{font-size:12.5pt;margin-bottom:1.6mm}
+.sl p{font-size:11pt;line-height:1.48;margin-bottom:1.4mm}
+.act{margin-top:2mm;background:#F4E6D3;border-radius:2.5mm;padding:2.4mm 3.4mm;font-size:9.3pt;line-height:1.4;color:#5a3a2c}
+.act b{font:800 8pt Jakarta;letter-spacing:.08em;text-transform:uppercase;color:#BA4036;margin-right:1.5mm}
+.pase{margin-top:5mm;border-radius:4mm;padding:4.5mm 6mm;display:flex;gap:4mm;align-items:center;break-inside:avoid}
+.pase .k{color:inherit;opacity:.85}
+.pase p{font:800 12.5pt/1.35 Jakarta}
+.ph{background:#FFF7E8;border-left:1.2mm solid #E3A33B;padding:.2mm 1.6mm;border-radius:1mm;font-weight:800}
+/* documento del stand */
+.doc h1{font-size:24pt;line-height:1.1}
+.doc h2{font-size:15pt;margin:7mm 0 3mm;display:flex;align-items:center;gap:3mm}
+.doc h2 span{display:inline-grid;place-items:center;width:8mm;height:8mm;border-radius:50%;background:#BA4036;color:#fff;font-size:10pt;flex:none}
+.doc h3{font-size:12.5pt;margin:0 0 2mm}
+.doc p{font-size:10.3pt;margin:1.5mm 0}
+table{width:100%;border-collapse:separate;border-spacing:0;font-size:9pt;line-height:1.38;margin:2mm 0 3mm;background:#FFFDF9;border:1px solid #E8D5BD;border-radius:3mm;overflow:hidden}
+th{background:#4A2018;color:#FBF3E8;font:800 8pt Jakarta;letter-spacing:.06em;text-transform:uppercase;text-align:left;padding:2.2mm 2.6mm}
+td{padding:2mm 2.6mm;border-top:1px solid #F0E2CF;vertical-align:top}
+tr{break-inside:avoid}
+td:first-child{font-weight:700;color:#4A2018}
+tr.day td{background:#F4E6D3;font:800 9pt Jakarta;color:#BA4036;letter-spacing:.04em;text-transform:uppercase}
+td.ck{width:8mm;text-align:center;font-size:12pt;color:#BA4036}
+.persons{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.pc{background:#FFFDF9;border:1px solid #E8D5BD;border-radius:4mm;padding:4mm 5mm;border-top:2.4mm solid;break-inside:avoid}
+.pc .tag{font:800 8pt Jakarta;letter-spacing:.06em;text-transform:uppercase;color:#7A5A4C;margin-bottom:2mm}
+.pc ul{list-style:none}
+.pc li{font-size:8.9pt;line-height:1.35;padding:1mm 0 1mm 6mm;position:relative;border-top:1px dashed #EADBC6}
+.pc li:first-child{border-top:none}
+.pc li::before{content:"";position:absolute;left:0;top:1.6mm;width:3mm;height:3mm;border:1.4px solid #BA4036;border-radius:.8mm}
+.pc li.buy{color:#5a3a2c}
+.pc li.buy::before{border-color:#E3A33B;background:#FFF4DE}
+.legend{display:flex;gap:6mm;font-size:8.5pt;color:#7A5A4C;margin:1mm 0 3mm}
+.legend i{display:inline-block;width:3mm;height:3mm;border:1.4px solid #BA4036;border-radius:.8mm;margin-right:1.5mm;vertical-align:-.4mm}
+.legend i.b{border-color:#E3A33B;background:#FFF4DE}
+.rules{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.rules div{background:#FFFDF9;border:1px solid #E8D5BD;border-left:2mm solid #BA4036;border-radius:2.5mm;padding:3mm 4mm;font-size:9.3pt;line-height:1.4;break-inside:avoid}
+.idea{background:#2E120C;color:#FBF3E8;border-radius:5mm;padding:6mm 7mm;margin:3mm 0 4mm}
+.idea p{color:#EAD7C4;font-size:10.3pt;margin:1.2mm 0}
+.idea b{color:#E3A33B}
+.flow{display:flex;gap:2mm;align-items:stretch;margin:4mm 0 2mm}
+.flow div{flex:1;background:#FFFDF9;border:1px solid #E8D5BD;border-radius:3mm;padding:3mm 2.5mm;text-align:center;font:800 8.5pt/1.25 Jakarta;color:#4A2018}
+.flow div span{display:block;width:7mm;height:7mm;border-radius:50%;background:#BA4036;color:#fff;margin:0 auto 1.8mm;display:grid;place-items:center;font-size:9pt}
+.foot{display:none!important}
+.cover .logo{height:18mm}.cover h1{margin-top:7mm}.tbar{margin:7mm 0 2mm}.who{margin-top:5mm}.hilo{margin-top:7mm}.tips{margin-top:6mm}
+.sl p{font-size:10.3pt;line-height:1.4;margin-bottom:1mm}.sl{padding:2.8mm 0;grid-template-columns:48mm 1fr}.sl img{width:48mm}.band{margin-bottom:4mm}
+table{font-size:8.6pt}td{padding:1.6mm 2.4mm}
+</style></head><body>
+<section class="page cover">
+<img class="logo" src="../web/img/logo-andi.png" alt="AndiBite">
+<p class="k" style="margin-top:10mm">Feria del lunes 23 de noviembre de 2026 · Grupo 2 · UPN Los Olivos</p>
+<h1>El guion de la presentación, <em>en cinco voces</em></h1>
+<p class="sub">Una sola historia contada por cinco personas. Cada una tiene un bloque seguido, por temas completos: nadie entra a mitad de un tema. Duración total: 9:52 minutos.</p>
+<div class="tbar"><div style="flex:119;background:#BA4036;color:#fff">Diana · 1:59</div><div style="flex:119;background:#7C8A3A;color:#fff">Patty · 1:59</div><div style="flex:120;background:#E3A33B;color:#2E120C">Ade · 2:00</div><div style="flex:118;background:#8A1C2B;color:#fff">Angie · 1:58</div><div style="flex:116;background:#4A2018;color:#fff">Carlos · 1:56</div></div>
+<div class="who"><div class="c" style="border-top-color:#BA4036"><span class="n">1</span><b>Diana Ayoso</b><span>El problema que escuchamos</span><i>Láminas 1–5 · 1:59</i></div><div class="c" style="border-top-color:#7C8A3A"><span class="n">2</span><b>Patty Cárdenas</b><span>Para quién y qué creamos</span><i>Láminas 6–11 · 1:59</i></div><div class="c" style="border-top-color:#E3A33B"><span class="n">3</span><b>Ade Robles</b><span>Cómo llega a la lonchera</span><i>Láminas 12–14 · 2:00</i></div><div class="c" style="border-top-color:#8A1C2B"><span class="n">4</span><b>Angie Blas</b><span>La campaña</span><i>Láminas 15–21 · 1:58</i></div><div class="c" style="border-top-color:#4A2018"><span class="n">5</span><b>Carlos Inga</b><span>Los números y la invitación</span><i>Láminas 22–26 · 1:56</i></div></div>
+<div class="hilo"><p class="k">El hilo de la historia</p>
+<div class="arr"><span>La lonchera vuelve llena</span><em>→</em><span>8 mamás prueban y nadie la nota</span><em>→</em><span>Un brownie para Rodrigo</span><em>→</em><span>Llega donde está la lonchera</span><em>→</em><span>«¿La notaste?»</span><em>→</em><span>Los números cierran</span><em>→</em><span>Una pelea menos</span></div></div>
+<div class="tips">
+<p><b>Antes de exponer.</b> La profesora y el salón ya probaron a ciegas en el stand. La solapa del cartel sigue cerrada.</p>
+<p><b>[N] y [M].</b> Son las cifras reales del contador en ese momento. Patty se las pasa a Carlos 10 minutos antes.</p>
+<p><b>No se lee la lámina.</b> El guion dice lo que la pantalla no dice. Las cifras ya están en la lámina.</p>
+<p><b>El pase.</b> Cada parte termina nombrando a la siguiente persona. Quien recibe dice «Gracias» y sigue.</p>
+<p><b>Con la mano.</b> Las acciones (en las cajas de color) usan el producto real: la bolsa, la bolsita, el QR.</p>
+<p><b>Ensayo.</b> Dos pasadas el domingo con cronómetro. Meta: 9 a 10 minutos.</p>
+</div>
+</section>
+<section class="page">
+<div class="band" style="background:#BA4036;color:#fff"><div><p class="pn">Parte 1 de 5</p><h2>Diana Ayoso</h2><p class="th">El problema que escuchamos</p></div><div class="tm"><b>1:59</b>minutos<br>láminas 1–5</div></div>
+<div class="sl"><div><img src="miniaturas/01.jpg"><p class="num">LÁMINA 1</p></div><div><h3>Portada</h3><p>Antes de empezar: ¿alguien notó algo raro en el brownie que probaron?</p><p>Guarden esa respuesta. Ya van a entender por qué.</p><p>Buenos días. Somos AndiBite, el Grupo 2, y esta historia empieza en una lonchera.</p><div class="act"><b>Acción</b>Diana hace la pregunta mirando a la profesora y espera tres segundos aunque nadie conteste. La solapa del cartel sigue cerrada.</div></div></div><div class="sl"><div><img src="miniaturas/02.jpg"><p class="num">LÁMINA 2</p></div><div><h3>La lonchera vuelve llena</h3><p>Papá y mamá saben que su hijo necesita hierro. El problema es otro: lo que le hace bien, no se lo come.</p><p>La mamá de Mateo le hizo nuggets de sangrecita. Volvieron enteros, con esa frase.</p><p>Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.</p><p>Cada casa tiene su truco. Y casi todos se caen por lo mismo: el sabor.</p></div></div><div class="sl"><div><img src="miniaturas/03.jpg"><p class="num">LÁMINA 3</p></div><div><h3>Primero escuchamos</h3><p>Por eso no empezamos por la receta. Empezamos escuchando.</p><p>Veinticinco entrevistas largas. En el primer focus, papá y mamá eligieron el formato: ganó el mini brownie.</p><p>En el segundo, en un colegio, ocho mamás probaron el prototipo con su empaque.</p><p>Y nos pusimos una regla: primero probar, después preguntar el precio.</p></div></div><div class="sl"><div><img src="miniaturas/04.jpg"><p class="num">LÁMINA 4</p></div><div><h3>La prueba</h3><p>Ninguna de las ocho notó la sangrecita. Ni en el sabor, ni en el olor.</p><p>La barrera nunca fue el ingrediente: es el olor, el color y la textura. Dentro de un chocolate, se acepta.</p><p>Y sí: lo que ustedes probaron hace un rato es esa misma receta. Con sangrecita.</p><div class="act"><b>Acción</b>pausa de dos segundos después de «Con sangrecita»; Diana mira al salón.</div></div></div><div class="sl"><div><img src="miniaturas/05.jpg"><p class="num">LÁMINA 5</p></div><div><h3>El valor al conocerlo</h3><p>Y al contarles qué comían, el precio subió solo.</p><p>Por el sabor, diez soles la bolsa. Al saber que no tiene octógonos y trae app, diecinueve a veinte. Uno por día, en su bolsita: hasta veinticuatro.</p><p>Es el mismo brownie. Lo que creció fue la tranquilidad.</p></div></div><div class="pase" style="background:#7C8A3A;color:#fff"><div><p class="k">Pase a la siguiente</p><p>«¿Y quién paga por esa tranquilidad? Para saber a quién le hablamos, Patty.»</p></div></div>
+<div class="foot"><span>AndiBite · Guion de la feria</span><span>Parte 1 · Diana Ayoso</span></div>
+</section>
+<section class="page">
+<div class="band" style="background:#7C8A3A;color:#fff"><div><p class="pn">Parte 2 de 5</p><h2>Patty Cárdenas</h2><p class="th">Para quién y qué creamos</p></div><div class="tm"><b>1:59</b>minutos<br>láminas 6–11</div></div>
+<div class="sl"><div><img src="miniaturas/06.jpg"><p class="num">LÁMINA 6</p></div><div><h3>Público</h3><p>Gracias, Diana. Le hablamos a papá y mamá de nivel B de Lima: más de seiscientos dieciocho mil hogares.</p><p>Con foco en el B1, el que tiene más holgura para pagar por calidad.</p><p>Y la meta del primer año es chiquita a propósito: unas ciento diez familias que compran cada semana.</p></div></div><div class="sl"><div><img src="miniaturas/07.jpg"><p class="num">LÁMINA 7</p></div><div><h3>Rodrigo</h3><p>Les pusimos una cara: Rodrigo.</p><p>Trabaja él, trabaja su esposa, y en la mañana tiene cinco minutos para la lonchera.</p><p>No quiere un discurso de salud: quiere una mañana menos. Y lo convence una sola cosa: que su hijo lo pruebe.</p></div></div><div class="sl"><div><img src="miniaturas/08.jpg"><p class="num">LÁMINA 8</p></div><div><h3>El producto</h3><p>Para Rodrigo hicimos esto: un brownie de treinta gramos, cada uno en su bolsita, uno por día.</p><p>Uno coma nueve miligramos de hierro en cada brownie, comprobado en laboratorio. Cero octógonos. Y cuatro ingredientes peruanos, de Lima hasta Puno.</p><div class="act"><b>Acción</b>Patty levanta una bolsita y luego la bolsa de 6. Si lo que se sirvió fue el prototipo de 20 g, añade: «Lo que probaron es esta receta; el de la bolsa pesa 30 gramos.»</div></div></div><div class="sl"><div><img src="miniaturas/09.jpg"><p class="num">LÁMINA 9</p></div><div><h3>Dos sabores</h3><p>Dos sabores: Chispa, para el que solo quiere chocolate, y Andi, con plátano, canela y cañihua, para el que se anima a más.</p></div></div><div class="sl"><div><img src="miniaturas/10.jpg"><p class="num">LÁMINA 10</p></div><div><h3>Marca</h3><p>De los Andes, a la lonchera: eso dice el nombre.</p><p>Andi es el niño del empaque y Killa, su llamita. Viven en la bolsa y en la app, nunca en los anuncios: los anuncios le hablan a papá y mamá, como pide la Ley 30021.</p></div></div><div class="sl"><div><img src="miniaturas/11.jpg"><p class="num">LÁMINA 11</p></div><div><h3>App Andi</h3><p>El QR de la bolsa abre la app Andi.</p><p>Papá o mamá ve cuánto hierro llevó hoy y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá, y no tienen compras.</p><div class="act"><b>Acción</b>Patty escanea el QR de la bolsa con el celular y muestra «El hierro de hoy».</div></div></div><div class="pase" style="background:#E3A33B;color:#2E120C"><div><p class="k">Pase a la siguiente</p><p>«Ya tenemos el brownie y a Rodrigo. ¿Cuánto cuesta y cómo llega a su lonchera? Ade.»</p></div></div>
+<div class="foot"><span>AndiBite · Guion de la feria</span><span>Parte 2 · Patty Cárdenas</span></div>
+</section>
+<section class="page">
+<div class="band" style="background:#E3A33B;color:#2E120C"><div><p class="pn">Parte 3 de 5</p><h2>Ade Robles</h2><p class="th">Cómo llega a la lonchera</p></div><div class="tm"><b>2:00</b>minutos<br>láminas 12–14</div></div>
+<div class="sl"><div><img src="miniaturas/12.jpg"><p class="num">LÁMINA 12</p></div><div><h3>Precio</h3><p>Gracias, Patty. Empiezo por lo que Rodrigo mira primero: el precio por brownie.</p><p>La bolsa de seis está a veintidós soles: tres sesenta y siete cada uno. Suelto, cinco soles, para que la bolsa siempre convenga.</p><p>En seis pastelerías de Lima, un brownie mediano cuesta diez soles ochenta y ocho.</p><p>Y los veintidós caen dentro de lo que dijeron las mamás. Ese precio lo pusieron ellas.</p><div class="act"><b>Acción</b>Ade sostiene la bolsa de 6 junto al hablador de precio.</div></div></div><div class="sl"><div><img src="miniaturas/13.jpg"><p class="num">LÁMINA 13</p></div><div><h3>Canales</h3><p>¿Dónde lo compra? Donde ya está la lonchera.</p><p>El canal más fuerte es el pedido del salón: la delegada junta los pedidos en el chat, cada familia paga por Yape y el lunes entregamos en la puerta del colegio. Seis colegios al arrancar, dieciséis en 2028.</p><p>Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.</p><p>Todo termina en el WhatsApp: quien prueba deja su número y le avisamos cuándo volver a pedir.</p></div></div><div class="sl"><div><img src="miniaturas/14.jpg"><p class="num">LÁMINA 14</p></div><div><h3>Centro comercial paso a paso</h3><p>Al centro comercial entramos paso a paso, en el Real Plaza Salaverry: más de la mitad de los hogares de esa zona son nivel B.</p><p>Primero, nueve días de pop-up en marzo de 2027, con mil trescientas cincuenta pruebas a ciegas, pagado como marketing.</p><p>En la vuelta al colegio de 2028, un módulo temporal que mide si se venden cien brownies al día.</p><p>Y el fijo, desde 2029, solo cuando la cuenta da: cuesta unos ocho mil ochocientos soles al mes, así que se abre cuando el temporal venda ciento setenta al día.</p><p>Cada paso se gana con el anterior.</p></div></div><div class="pase" style="background:#8A1C2B;color:#fff"><div><p class="k">Pase a la siguiente</p><p>«Y para que la gente llegue a probar, hace falta una campaña. Angie.»</p></div></div>
+<div class="foot"><span>AndiBite · Guion de la feria</span><span>Parte 3 · Ade Robles</span></div>
+</section>
+<section class="page">
+<div class="band" style="background:#8A1C2B;color:#fff"><div><p class="pn">Parte 4 de 5</p><h2>Angie Blas</h2><p class="th">La campaña</p></div><div class="tm"><b>1:58</b>minutos<br>láminas 15–21</div></div>
+<div class="sl"><div><img src="miniaturas/15.jpg"><p class="num">LÁMINA 15</p></div><div><h3>Portadilla de campaña</h3><p>Gracias, Ade. Nuestra campaña es una sola pregunta: lleva sangrecita, ¿la notaste?</p><p>No la escondemos. Simplemente no se nota.</p><div class="act"><b>Acción</b>Angie levanta la solapa del cartel del stand mientras dice la pregunta.</div></div></div><div class="sl"><div><img src="miniaturas/16.jpg"><p class="num">LÁMINA 16</p></div><div><h3>Por qué funciona</h3><p>¿Por qué una pregunta? Porque papá y mamá ya no le creen a otro «saludable». Le creen a su propia boca.</p><p>Entonces primero prueban, y después se enteran. Lo demás se cuenta en diez segundos.</p></div></div><div class="sl"><div><img src="miniaturas/17.jpg"><p class="num">LÁMINA 17</p></div><div><h3>La historia en tres actos</h3><p>Es la misma historia que contó Diana, ahora para redes: mil trucos, un brownie que ocho mamás probaron sin notar nada, y una pelea menos. No promete milagros.</p></div></div><div class="sl"><div><img src="miniaturas/18.jpg"><p class="num">LÁMINA 18</p></div><div><h3>Cuatro etapas</h3><p>Hoy estamos en la primera etapa: el concurso #LoQueNadieVe, donde papá y mamá votan el mejor truco.</p><p>En enero viene la intriga, con pruebas a ciegas en parques, y el 8 de febrero contamos qué lleva.</p><p>El 6 de marzo abren a la vez los colegios y el stand. Y hasta junio lo sostenemos: en el Día del Padre, papá dice que él sí la nota.</p></div></div><div class="sl"><div><img src="miniaturas/19.jpg"><p class="num">LÁMINA 19</p></div><div><h3>La idea que hace hablar</h3><p>Lo que hace hablar es el contador: cada lunes publicamos la cifra real, también la de quienes sí la notaron.</p><p>En casa, «Pásale la prueba»: quien compró le da un brownie al tío que todo lo nota y graba su cara.</p><p>¿Y si no se vuelve viral? Igual vende: de cada cuatro que prueban, uno compra.</p></div></div><div class="sl"><div><img src="miniaturas/20.jpg"><p class="num">LÁMINA 20</p></div><div><h3>Personas reales</h3><p>Por eso, nada de famosos: diez papás y mamás de tres mil a treinta mil seguidores.</p><p>El veintiocho por ciento confía en amigos y familia; en influencers grandes, apenas el siete.</p></div></div><div class="sl"><div><img src="miniaturas/21.jpg"><p class="num">LÁMINA 21</p></div><div><h3>La campaña ya en redes</h3><p>Y ya está andando: somos @andibite.pe en Instagram, TikTok y Facebook, con WhatsApp Business para los pedidos. Hoy, en plena expectativa.</p><div class="act"><b>Acción</b>Angie gira la laptop o la tablet hacia la profesora con el perfil abierto.</div></div></div><div class="pase" style="background:#4A2018;color:#fff"><div><p class="k">Pase a la siguiente</p><p>«Una campaña así cuesta. Cuánto, de dónde sale y cuándo se paga: Carlos.»</p></div></div>
+<div class="foot"><span>AndiBite · Guion de la feria</span><span>Parte 4 · Angie Blas</span></div>
+</section>
+<section class="page">
+<div class="band" style="background:#4A2018;color:#fff"><div><p class="pn">Parte 5 de 5</p><h2>Carlos Inga</h2><p class="th">Los números y la invitación</p></div><div class="tm"><b>1:56</b>minutos<br>láminas 22–26</div></div>
+<div class="sl"><div><img src="miniaturas/22.jpg"><p class="num">LÁMINA 22</p></div><div><h3>Marketing 2027</h3><p>Gracias, Angie. Toda esa campaña cuesta quince mil cuarenta soles en 2027. Es el catorce por ciento de lo que vendemos el primer año. En 2028 baja a ocho, porque ya hay recompra.</p><p>Lo que más pesa es el contenido: el community manager y los videos de reacción.</p><p>Y lo medimos con una sola regla: cada contacto de WhatsApp tiene que costarnos ocho veintitrés o menos.</p></div></div><div class="sl"><div><img src="miniaturas/23.jpg"><p class="num">LÁMINA 23</p></div><div><h3>Cien mil soles</h3><p>Para arrancar necesitamos cien mil soles hasta fines de 2028.</p><p>La mitad la ponemos los cinco socios en diciembre. Treinta y cinco mil llegan en mayo, con un segundo aporte o un inversionista. Y quince mil, con un préstamo de caja municipal en enero de 2028, cuando ya tengamos ventas que mostrar.</p><p>Con eso, la caja nunca baja de cinco mil setecientos cuarenta y cinco soles.</p></div></div><div class="sl"><div><img src="miniaturas/24.jpg"><p class="num">LÁMINA 24</p></div><div><h3>Dos primeros años</h3><p>En 2027 vendemos más de treinta y tres mil brownies; en 2028, más de setenta y dos mil.</p><p>De cada brownie en bolsa nos queda un sol con tres céntimos, después de producirlo y entregarlo.</p><p>Los dos primeros años son de pérdida, y esa pérdida está financiada. En mayo de 2028, el mes diecisiete, llegamos al equilibrio. Desde ahí, ganamos cada mes de clases.</p></div></div><div class="sl"><div><img src="miniaturas/25.jpg"><p class="num">LÁMINA 25</p></div><div><h3>Cierre</h3><p>Empezamos con una lonchera que volvía llena. Hoy, en este salón, probaron <span class="ph">[N]</span> personas. La notaron <span class="ph">[M]</span>.</p><p>No hace milagros. Es una pelea menos cada mañana.</p><p>AndiBite: dulce para ellos, tranquilidad para ti.</p><div class="act"><b>Acción</b>Carlos señala el contador del stand al decir <span class="ph">[N]</span> y <span class="ph">[M]</span>; todo el grupo se pone junto a la mesa.</div></div></div><div class="sl"><div><img src="miniaturas/26.jpg"><p class="num">LÁMINA 26</p></div><div><h3>Síguenos</h3><p>Si alguien todavía no lo probó, pase al stand. Y escaneen el QR: síganos en @andibite.pe y cuéntennos si la notaron.</p><div class="act"><b>Acción</b>Carlos levanta la bolsa de 6 con el QR hacia el salón y espera a que escaneen antes de agradecer.</div></div></div><div class="pase" style="background:#4A2018;color:#fff"><div><p class="k">Cierre</p><p>«Gracias.»</p></div></div>
+<div class="foot"><span>AndiBite · Guion de la feria</span><span>Parte 5 · Carlos Inga</span></div>
+</section>
+<section class="page doc"><p class="k">Para el ensayo</p><h1>Si sobra o falta tiempo</h1>
+<p style="margin-top:3mm">Cada parte dura cerca de 2 minutos. Si alguien se pasa, la siguiente persona recorta; nunca se quitan [N], [M] ni la invitación al QR.</p>
+<div class="rules" style="grid-template-columns:1fr;margin-top:5mm"><div style="border-left-color:#BA4036"><b>Parte 1 · Diana:</b> si va tarde, quita «Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.» y «Es el mismo brownie.»; si sobra, añade en la lámina 3: «Quince votos para el mini brownie, frente a diez de las trufas.»</div><div style="border-left-color:#7C8A3A"><b>Parte 2 · Patty:</b> si va tarde, deja la lámina 9 solo en pantalla y quita «Trabaja él, trabaja su esposa»; si sobra, añade en la lámina 6: «Siete veces más hogares que el nivel A.»</div><div style="border-left-color:#E3A33B"><b>Parte 3 · Ade:</b> si va tarde, quita «Las kermeses son para probar en familia, y el stand del Campo de Marte, para el lanzamiento.» y «Cada paso se gana con el anterior.»</div><div style="border-left-color:#8A1C2B"><b>Parte 4 · Angie:</b> si va tarde, deja la lámina 17 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»</div><div style="border-left-color:#4A2018"><b>Parte 5 · Carlos:</b> si va tarde, quita «Lo que más pesa es el contenido…» y la frase de los brownies de 2027 y 2028; nunca quita <span class="ph">[N]</span>, <span class="ph">[M]</span> ni la invitación al QR.</div></div>
+<h2 style="margin-top:9mm"><span>?</span>Cómo leer este guion</h2>
+<div class="rules"><div>El texto normal es lo que se dice en voz alta. Está escrito para decirse con naturalidad, no para leerse.</div><div>Las cajas de color crema son acciones: qué se muestra o qué se hace con el producto.</div><div>La caja de color al final de cada parte es el pase: la frase exacta que entrega la palabra.</div><div>La miniatura muestra la lámina que está en pantalla mientras se habla.</div></div>
+<div class="foot"><span>AndiBite · Guion de la feria</span><span>Ensayo</span></div></section>
+</body></html>
