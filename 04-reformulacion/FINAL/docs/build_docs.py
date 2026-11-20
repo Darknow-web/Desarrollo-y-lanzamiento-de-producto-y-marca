@@ -98,6 +98,7 @@ td.ck{width:8mm;text-align:center;font-size:12pt;color:#BA4036}
 .flow div{flex:1;background:#FFFDF9;border:1px solid #E8D5BD;border-radius:3mm;padding:3mm 2.5mm;text-align:center;font:800 8.5pt/1.25 Jakarta;color:#4A2018}
 .flow div span{display:block;width:7mm;height:7mm;border-radius:50%;background:#BA4036;color:#fff;margin:0 auto 1.8mm;display:grid;place-items:center;font-size:9pt}
 .foot{display:none!important}
+.sl p{font-size:10pt!important;line-height:1.36!important}.sl{padding:2.4mm 0!important}
 .cover h1{font-size:27pt;margin-top:5mm}.cover .sub{font-size:11.5pt}.who .c{padding:3.5mm 3mm}.who b{font-size:10.5pt}.hilo{margin-top:5mm;padding:4mm 6mm}.tips{margin-top:5mm;gap:2.5mm 6mm}.tips p{font-size:9pt}.tbar{margin:5mm 0 2mm}
 .cover .logo{height:18mm}.cover h1{margin-top:7mm}.tbar{margin:7mm 0 2mm}.who{margin-top:5mm}.hilo{margin-top:7mm}.tips{margin-top:6mm}
 .sl p{font-size:10.3pt;line-height:1.4;margin-bottom:1mm}.sl{padding:2.8mm 0;grid-template-columns:48mm 1fr}.sl img{width:48mm}.band{margin-bottom:4mm}
@@ -129,24 +130,24 @@ def guion():
 
     out = [head("AndiBite · Guion de la feria")]
     # portada
-    tb = "".join(f'<div style="flex:{int(r[4].split(":")[0])*60+int(r[4].split(":")[1])};background:{COL[int(r[0])]};color:{INK[int(r[0])]}">{r[1].split(" ")[0] if "Patty" not in r[1] and "Ade" not in r[1] else ("Patty" if "Patty" in r[1] else "Ade")} · {r[4]}</div>' for r in rows)
+    tb = "".join(f'<div style="flex:{int(r[4].split(":")[0])*60+int(r[4].split(":")[1])};background:{COL[int(r[0])]};color:{INK[int(r[0])]}">Parte {r[0]} · {r[4]}</div>' for r in rows)
     cards = ""
     for r in rows:
         p = int(r[0])
         nm = r[1].replace("Patricia (Patty)", "Patty").replace("Adela (Ade)", "Ade")
-        cards += f'<div class="c" style="border-top-color:{COL[p]}"><span class="n">{p}</span><b>{html.escape(nm)}</b><span>{html.escape(r[2])}</span><i>Láminas {r[3].replace(" a ", "–")} · {r[4]}</i></div>'
+        cards += f'<div class="c" style="border-top-color:{COL[p]}"><span class="n">{p}</span><b>{html.escape(nm)}</b><span>{html.escape(r[2])}</span><i>{r[4]} minutos</i></div>'
     out.append(f'''<section class="page cover">
 <img class="logo" src="../web/img/logo-andi.png" alt="AndiBite">
 <p class="k" style="margin-top:10mm">Feria del lunes 23 de noviembre de 2026 · Grupo 2 · UPN Los Olivos</p>
 <h1>El guion de la presentación, <em>en cinco voces</em></h1>
-<p class="sub">Una sola historia contada por cinco personas. Cada una tiene un bloque seguido, por temas completos: nadie entra a mitad de un tema. Duración total: {total//60}:{total%60:02d} minutos.</p>
+<p class="sub">Una sola historia contada por cinco personas. Cada parte es un bloque de láminas seguido, por temas completos: cada una elige su parte y nadie entra a mitad de un tema. Duración total: {total//60}:{total%60:02d} minutos.</p>
 <div class="tbar">{tb}</div>
 <div class="who">{cards}</div>
 <div class="hilo"><p class="k">El hilo de la historia</p>
 <div class="arr"><span>La lonchera vuelve llena</span><em>→</em><span>8 mamás prueban y nadie la nota</span><em>→</em><span>Un brownie para Rodrigo</span><em>→</em><span>Llega donde está la lonchera</span><em>→</em><span>«¿La notaste?»</span><em>→</em><span>Los números cierran</span><em>→</em><span>Una pelea menos</span></div></div>
 <div class="tips">
 <p><b>Antes de exponer.</b> La profesora y el salón ya probaron a ciegas en el stand. La solapa del cartel sigue cerrada.</p>
-<p><b>[N] y [M].</b> Son las cifras reales del contador en ese momento. Patty se las pasa a Carlos 10 minutos antes.</p>
+<p><b>[N] y [M].</b> Son las cifras reales del contador en ese momento. Quien lleva el conteo se las pasa a quien cierra, 10 minutos antes.</p>
 <p><b>No se lee la lámina.</b> El guion dice lo que la pantalla no dice. Las cifras ya están en la lámina.</p>
 <p><b>El pase.</b> Cada parte termina nombrando a la siguiente persona. Quien recibe dice «Gracias» y sigue.</p>
 <p><b>Sin proyector.</b> La laptop va en la mesa, inclinada hacia la profesora y con el brillo al máximo. Quien expone pasa sus láminas con la flecha →.</p>
@@ -191,7 +192,7 @@ def guion():
             txt = re.sub(r"^\*\*(Pase|Cierre):\*\*\s*", "", pase)
             pc = COL[nxt] if nxt <= 5 else COL[5]
             ink = INK[nxt] if nxt <= 5 else "#fff"
-            html_sl += f'<div class="pase" style="background:{pc};color:{ink}"><div><p class="k">{lab}</p><p>{inline(txt)}</p></div></div>'
+            html_sl = html_sl[:-12] + f'<div class="pase" style="background:{pc};color:{ink}"><div><p class="k">{lab}</p><p>{inline(txt)}</p></div></div></div></div>'
         out.append(f'''<section class="page">
 <div class="band" style="background:{COL[idx]};color:{INK[idx]}"><div><p class="pn">Parte {idx} de 5</p><h2>{html.escape(who)}</h2><p class="th">{html.escape(theme)}</p></div><div class="tm"><b>{tm}</b>minutos<br>láminas {sl_rng.replace(" a ", "–")}</div></div>
 {html_sl}

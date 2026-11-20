@@ -2,16 +2,16 @@
 
 ## Reparto
 
-| Parte | Quién | Tema | Láminas | Tiempo |
+| Parte | Láminas | Tema | Láminas | Tiempo |
 |---|---|---|---|---|
-| 1 | Diana Ayoso | El problema que escuchamos | 1 a 5 | 2:00 |
-| 2 | Patricia (Patty) Cárdenas | Para quién y qué creamos | 6 a 11 | 2:03 |
-| 3 | Adela (Ade) Robles | Cómo llega a la lonchera | 12 a 14 | 2:04 |
-| 4 | Angie Blas | La campaña | 15 a 21 | 2:05 |
-| 5 | Carlos Inga | Los números y la invitación | 22 a 28 | 2:29 |
+| 1 | Láminas 1 a 5 | El problema que escuchamos | 1 a 5 | 2:00 |
+| 2 | Láminas 6 a 11 | Para quién y qué creamos | 6 a 11 | 2:03 |
+| 3 | Láminas 12 a 14 | Cómo llega a la lonchera | 12 a 14 | 2:04 |
+| 4 | Láminas 15 a 21 | La campaña | 15 a 21 | 2:05 |
+| 5 | Láminas 22 a 28 | Los números y la invitación | 22 a 28 | 2:29 |
 | | | | **Total** | **10:41 · 1,388 palabras** |
 
-## Parte 1 · Diana Ayoso · El problema que escuchamos
+## Parte 1 · Láminas 1 a 5 · El problema que escuchamos
 
 Tiempo: 2:00 · Palabras: 259
 
@@ -23,7 +23,7 @@ Guarden esa respuesta. Ya van a entender por qué.
 
 Buenos días. Somos AndiBite, el Grupo 2, y esta historia empieza en una lonchera.
 
-> Acción: Diana hace la pregunta mirando a la profesora y espera tres segundos aunque nadie conteste. La solapa del cartel sigue cerrada.
+> Acción: quien expone hace la pregunta mirando a la profesora y espera tres segundos aunque nadie conteste. La solapa del cartel sigue cerrada.
 
 ### Lámina 2 · La lonchera vuelve llena
 
@@ -53,7 +53,7 @@ La barrera nunca fue el ingrediente: es el olor, el color y la textura. Dentro d
 
 Y sí: lo que ustedes probaron hace un rato es esa misma receta. Con sangrecita.
 
-> Acción: pausa de dos segundos después de «Con sangrecita»; Diana mira al salón.
+> Acción: pausa de dos segundos después de «Con sangrecita»; mira al salón.
 
 ### Lámina 5 · El valor al conocerlo
 
@@ -63,15 +63,15 @@ Por el sabor, diez soles la bolsa. Al saber que no tiene octógonos y trae app, 
 
 Es el mismo brownie. Lo que creció fue la tranquilidad.
 
-**Pase:** «¿Y quién paga por esa tranquilidad? Para saber a quién le hablamos, Patty.»
+**Pase:** «¿Y quién paga por esa tranquilidad? Ahora, a quién le hablamos.»
 
-## Parte 2 · Patricia (Patty) Cárdenas · Para quién y qué creamos
+## Parte 2 · Láminas 6 a 11 · Para quién y qué creamos
 
 Tiempo: 2:03 · Palabras: 267
 
 ### Lámina 6 · Público
 
-Gracias, Diana. En el Perú hay nueve millones y medio de hogares; en Lima, más de tres millones.
+Gracias. En el Perú hay nueve millones y medio de hogares; en Lima, más de tres millones.
 
 De esos, seiscientos dieciocho mil son de nivel B, y nuestro foco es el B1: ciento sesenta y cuatro mil hogares, los que tienen más holgura para pagar por calidad. Con hijos de cuatro a once años, quedan unos treinta y nueve mil.
 
@@ -91,7 +91,7 @@ Para Rodrigo hicimos esto: un brownie de treinta gramos, cada uno en su bolsita,
 
 Uno coma nueve miligramos de hierro en cada brownie, comprobado en laboratorio. Cero octógonos. Y cuatro ingredientes peruanos, de Lima hasta Puno.
 
-> Acción: Patty levanta una bolsita y luego la bolsa de 6. Si lo que se sirvió fue el prototipo de 20 g, añade: «Lo que probaron es esta receta; el de la bolsa pesa 30 gramos.»
+> Acción: levanta una bolsita y luego la bolsa de 6. Si lo que se sirvió fue el prototipo de 20 g, añade: «Lo que probaron es esta receta; el de la bolsa pesa 30 gramos.»
 
 ### Lámina 9 · Dos sabores
 
@@ -109,17 +109,17 @@ El QR de la bolsa abre la app Andi.
 
 Papá o mamá ve cuánto hierro llevó hoy y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá, y no tienen compras.
 
-> Acción: Patty escanea el QR de la bolsa con el celular y muestra «El hierro de hoy».
+> Acción: escanea el QR de la bolsa con el celular y muestra «El hierro de hoy».
 
-**Pase:** «Ya tenemos el brownie y a Rodrigo. ¿Cuánto cuesta y cómo llega a su lonchera? Ade.»
+**Pase:** «Ya tenemos el brownie y a Rodrigo. ¿Cuánto cuesta y cómo llega a su lonchera?»
 
-## Parte 3 · Adela (Ade) Robles · Cómo llega a la lonchera
+## Parte 3 · Láminas 12 a 14 · Cómo llega a la lonchera
 
 Tiempo: 2:04 · Palabras: 269
 
 ### Lámina 12 · Precio
 
-Gracias, Patty. Empiezo por lo que Rodrigo mira primero: el precio por brownie.
+Gracias. Empiezo por lo que Rodrigo mira primero: el precio por brownie.
 
 La bolsa de seis está a veintidós soles: tres sesenta y siete cada uno. Suelto, cinco soles, para que la bolsa siempre convenga.
 
@@ -127,7 +127,7 @@ En seis pastelerías de Lima, un brownie mediano cuesta diez soles ochenta y och
 
 Y los veintidós caen dentro de lo que dijeron las mamás. Ese precio lo pusieron ellas.
 
-> Acción: Ade sostiene la bolsa de 6 junto al hablador de precio.
+> Acción: sostiene la bolsa de 6 junto al hablador de precio.
 
 ### Lámina 13 · Canales
 
@@ -151,19 +151,19 @@ Y el fijo, desde 2029, solo cuando la cuenta da: cuesta unos ocho mil ochociento
 
 ¿Por qué no vendemos sobre todo en el mall? Porque un módulo necesita unos ciento cuarenta compradores al día para no perder, y lo realista son unos setenta. Por eso entra cuando se arma la lonchera.
 
-**Pase:** «Y para que la gente llegue a probar, hace falta una campaña. Angie.»
+**Pase:** «Y para que la gente llegue a probar, hace falta una campaña.»
 
-## Parte 4 · Angie Blas · La campaña
+## Parte 4 · Láminas 15 a 21 · La campaña
 
 Tiempo: 2:05 · Palabras: 270
 
 ### Lámina 15 · Portadilla de campaña
 
-Gracias, Ade. Nuestra campaña es una sola pregunta: lleva sangrecita, ¿la notaste?
+Gracias. Nuestra campaña es una sola pregunta: lleva sangrecita, ¿la notaste?
 
 No la escondemos. Simplemente no se nota.
 
-> Acción: Angie levanta la solapa del cartel del stand mientras dice la pregunta.
+> Acción: levanta la solapa del cartel del stand mientras dice la pregunta.
 
 ### Lámina 16 · Por qué funciona
 
@@ -173,7 +173,7 @@ Entonces primero prueban, y después se enteran. Lo demás se cuenta en diez seg
 
 ### Lámina 17 · La historia en tres actos
 
-Es la misma historia que contó Diana, ahora para redes: mil trucos, un brownie que ocho mamás probaron sin notar nada, y una pelea menos. No promete milagros.
+Es la misma historia del inicio, ahora para redes: mil trucos, un brownie que ocho mamás probaron sin notar nada, y una pelea menos. No promete milagros.
 
 ### Lámina 18 · Cuatro etapas
 
@@ -201,17 +201,17 @@ El veintiocho por ciento confía en amigos y familia; en influencers grandes, ap
 
 Y ya está andando: somos @andibite.pe en Instagram, TikTok y Facebook, con WhatsApp Business para los pedidos. Hoy, en plena expectativa.
 
-> Acción: Angie muestra en su celular el perfil de @andibite.pe a la profesora mientras la lámina sigue en la laptop.
+> Acción: muestra en el celular el perfil de @andibite.pe a la profesora mientras la lámina sigue en la laptop.
 
-**Pase:** «Una campaña así cuesta. Cuánto, de dónde sale y cuándo se paga: Carlos.»
+**Pase:** «Una campaña así cuesta. Veamos cuánto, de dónde sale y cuándo se paga.»
 
-## Parte 5 · Carlos Inga · Los números y la invitación
+## Parte 5 · Láminas 22 a 28 · Los números y la invitación
 
 Tiempo: 2:29 · Palabras: 323
 
 ### Lámina 22 · Marketing 2027
 
-Gracias, Angie. Toda esa campaña cuesta quince mil cuarenta soles en 2027: el diez por ciento de lo que vendemos el primer año.
+Gracias. Toda esa campaña cuesta quince mil cuarenta soles en 2027: el diez por ciento de lo que vendemos el primer año.
 
 Y se mide con una regla simple: cada contacto de WhatsApp tiene que costarnos ocho veintitrés o menos.
 
@@ -249,7 +249,7 @@ No hace milagros. Es una pelea menos cada mañana.
 
 AndiBite: dulce para ellos, tranquilidad para ti.
 
-> Acción: Carlos señala la pizarra del contador al decir [N] y [M]; todo el grupo se pone junto a la mesa.
+> Acción: señala la pizarra del contador al decir [N] y [M]; todo el grupo se pone junto a la mesa.
 
 ### Lámina 28 · Síguenos
 
@@ -257,12 +257,12 @@ Si alguien todavía no lo probó, pase al stand. Y escaneen el QR de la pantalla
 
 **Cierre:** «Gracias.»
 
-> Acción: Carlos gira la laptop hacia el salón con la lámina «Síguenos» y espera a que escaneen antes de agradecer. La laptop se queda en esa lámina durante el resto de la feria.
+> Acción: gira la laptop hacia el salón con la lámina «Síguenos» y espera a que escaneen antes de agradecer. La laptop se queda en esa lámina durante el resto de la feria.
 
 ## Si sobra o falta tiempo
 
-- **Parte 1 · Diana:** si va tarde, quita «Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.» y «Es el mismo brownie.»; si sobra, añade en la lámina 3: «Quince votos para el mini brownie, frente a diez de las trufas.»
-- **Parte 2 · Patty:** si va tarde, deja la lámina 9 solo en pantalla y quita «Trabaja él, trabaja su esposa»
-- **Parte 3 · Ade:** si va tarde, quita la frase de las kermeses y el stand de fin de semana; nunca quita la del mall, que responde lo que pidió la profesora
-- **Parte 4 · Angie:** si va tarde, deja la lámina 17 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»
-- **Parte 5 · Carlos:** si va tarde, quita la frase del WhatsApp en la lámina 22 y «El primer año pierde…» en la 23; nunca quita el punto de equilibrio, el ROI, [N], [M] ni la invitación al QR.
+- **Parte 1 (láminas 1 a 5):** si va tarde, quita «Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.» y «Es el mismo brownie.»; si sobra, añade en la lámina 3: «Quince votos para el mini brownie, frente a diez de las trufas.»
+- **Parte 2 (láminas 6 a 11):** si va tarde, deja la lámina 9 solo en pantalla y quita «Trabaja él, trabaja su esposa»
+- **Parte 3 (láminas 12 a 14):** si va tarde, quita la frase de las kermeses y el stand de fin de semana; nunca quita la del mall, que responde lo que pidió la profesora
+- **Parte 4 (láminas 15 a 21):** si va tarde, deja la lámina 17 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»
+- **Parte 5 (láminas 22 a 28):** si va tarde, quita la frase del WhatsApp en la lámina 22 y «El primer año pierde…» en la 23; nunca quita el punto de equilibrio, el ROI, [N], [M] ni la invitación al QR.
