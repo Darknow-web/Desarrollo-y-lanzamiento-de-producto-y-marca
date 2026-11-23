@@ -24,8 +24,8 @@ cartel = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{
 h1{{font:800 92pt/0.95 J;color:#BA4036;letter-spacing:-.04em;margin-top:12mm;text-align:center}}
 .sub{{font:800 26pt/1.25 J;color:#4A2018;text-align:center;margin-top:8mm}}
 .bag{{height:150mm;margin-top:10mm;border-radius:6mm;box-shadow:0 8mm 14mm -8mm rgba(74,32,24,.5)}}
-.rev{{position:absolute;left:0;right:0;bottom:0;height:88mm;background:#2E120C;color:#FBF3E8;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 16mm}}
-.rev b{{font:800 40pt/1.05 J;color:#E3A33B}}
+.rev{{position:absolute;left:0;right:0;bottom:0;height:88mm;background:#7A4A35;color:#FBF3E8;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 16mm}}
+.rev b{{font:800 40pt/1.05 J;color:#FFD27A}}
 .rev p{{font-size:20pt;margin-top:5mm}}
 .rev small{{font:800 15pt J;color:#D9B48F;margin-top:6mm;display:block}}
 .qr{{position:absolute;right:14mm;top:14mm;width:38mm;text-align:center;font:800 9pt J;color:#4A2018}}
@@ -33,14 +33,14 @@ h1{{font:800 92pt/0.95 J;color:#BA4036;letter-spacing:-.04em;margin-top:12mm;tex
 </style></head><body>
 <div class="p"><img class="logo" src="../web/img/logo-andi.png"><h1>¿Lo<br>notarías?</h1>
 <p class="sub">Pruébalo a ciegas.<br>Es un brownie de chocolate.</p>
-<img class="bag" src="../web/img/bolsa.png">
+<img class="bag" src="etiqueta-6-frente-clara.png">
 <div class="qr"><div data-qr="instagram"></div>@andibite.pe</div>
 <div class="rev"><b>Lleva sangrecita.</b><p>No la escondemos: simplemente no se nota.</p><small>Dulce para ellos. Tranquilidad para ti.</small></div>
 </div>{QR}</body></html>"""
 (D / "kit_cartel.html").write_text(cartel, encoding="utf-8")
 
 # ---------- Hojas A4 ----------
-COLS = ["#4A2018", "#BA4036", "#E3A33B", "#7C8A3A", "#8A1C2B"]
+COLS = ["#7A4A35", "#BA4036", "#E3A33B", "#7C8A3A", "#9E3A44"]
 letras = list("¿LA") + ["♥"] + list("NOTASTE?")
 flags = ""
 for i in range(0, len(letras), 2):
@@ -48,7 +48,7 @@ for i in range(0, len(letras), 2):
     tri = ""
     for k, l in enumerate(par):
         c = COLS[(i + k) % len(COLS)]
-        ink = "#2E120C" if c == "#E3A33B" else "#FBF3E8"
+        ink = "#6B3A2A" if c == "#E3A33B" else "#FBF3E8"
         tri += f'<div class="flag"><svg viewBox="0 0 180 230"><path d="M0 0H180L90 230Z" fill="{c}"/><line x1="0" y1="14" x2="180" y2="14" stroke="{ink}" stroke-opacity=".35" stroke-dasharray="5 5"/></svg><span style="color:{ink}">{l}</span></div>'
     flags += f'<section class="a4 flags">{tri}</section>'
 
@@ -73,8 +73,8 @@ kit = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{FON
 .card ul{{list-style:none;margin-top:2mm;font-size:8.6pt;line-height:1.35}}
 .card li::before{{content:"• ";color:#BA4036;font-weight:800}}
 .card .pr{{margin-top:auto;font-size:11pt;color:#4A2018}}
-.card.b{{background:#2E120C;color:#FBF3E8;align-items:center;text-align:center}}
-.card .t2{{font-size:15pt;color:#E3A33B}}
+.card.b{{background:#7A4A35;color:#FBF3E8;align-items:center;text-align:center}}
+.card .t2{{font-size:15pt;color:#FFD27A}}
 .qrs{{display:flex;gap:8mm;margin-top:2mm}}
 .qrs .q{{width:30mm;height:30mm;background:#fff;padding:1.5mm;border-radius:1.5mm}}
 .qrs span{{font:800 8pt J;display:block;margin-top:1mm}}
@@ -85,7 +85,7 @@ kit = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{FON
 .poster h1{{font:800 66pt/0.95 J;color:#BA4036;letter-spacing:-.04em;margin-top:7mm;text-align:center}}
 .poster .sub{{font:800 18pt/1.25 J;color:#4A2018;text-align:center;margin-top:5mm}}
 .poster .bag{{height:104mm;margin-top:7mm;border-radius:4mm;box-shadow:0 5mm 10mm -6mm rgba(74,32,24,.5)}}
-.poster .rev{{position:absolute;left:0;right:0;bottom:0;height:62mm;background:#2E120C;color:#FBF3E8;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 12mm}}
+.poster .rev{{position:absolute;left:0;right:0;bottom:0;height:62mm;background:#7A4A35;color:#FBF3E8;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 12mm}}
 .poster .rev b{{font:800 30pt/1.05 J;color:#E3A33B}}
 .poster .rev p{{font-size:14pt;margin-top:3mm}}
 .poster .rev small{{font:800 11pt J;color:#D9B48F;margin-top:4mm;display:block}}
@@ -103,7 +103,7 @@ kit = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{FON
 .count{{background:#FBF3E8;padding:16mm 16mm;display:flex;flex-direction:column}}
 .count img{{height:16mm;width:auto;align-self:flex-start}}
 .count h2{{font:800 30pt/1.1 J;color:#4A2018;margin-top:8mm}}
-.count .box{{flex:1;margin-top:8mm;border:1.2mm solid #4A2018;border-radius:5mm;padding:8mm;display:flex;flex-direction:column;gap:8mm;background:#fff}}
+.count .box{{flex:1;margin-top:8mm;border:1.2mm solid #7A4A35;border-radius:5mm;padding:8mm;display:flex;flex-direction:column;gap:8mm;background:#fff}}
 .count .row{{flex:1;display:flex;flex-direction:column}}
 .count .row b{{font:800 34pt J;color:#BA4036}}
 .count .row:last-child b{{color:#7C8A3A}}
@@ -114,7 +114,7 @@ kit = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{FON
 .sheet h2{{font:800 18pt J;color:#4A2018;margin:5mm 0 2mm}}
 .sheet p{{font-size:10pt;margin-bottom:3mm}}
 table{{width:100%;border-collapse:collapse;font-size:9.5pt}}
-th{{background:#4A2018;color:#FBF3E8;font:800 8.5pt J;text-align:left;padding:2mm}}
+th{{background:#7A4A35;color:#FBF3E8;font:800 8.5pt J;text-align:left;padding:2mm}}
 td{{border-bottom:.3mm solid #D9B48F;height:8.6mm;padding:0 2mm}}
 </style></head><body>
 <section class="a4 sheet guide"><img src="../web/img/logo-andibite.svg"><h2>Kit del stand · cómo imprimir</h2>
@@ -131,7 +131,7 @@ td{{border-bottom:.3mm solid #D9B48F;height:8.6mm;padding:0 2mm}}
 <tr><td>16</td><td>Hoja de permisos para grabar</td><td>2 (blanco y negro)</td><td>En un tablero, con lapicero</td></tr></table></section>
 <section class="a4 poster"><img class="logo" src="../web/img/logo-andi.png"><h1>¿Lo<br>notarías?</h1>
 <p class="sub">Pruébalo a ciegas.<br>Es un brownie de chocolate.</p>
-<img class="bag" src="../web/img/bolsa.png">
+<img class="bag" src="etiqueta-6-frente-clara.png">
 <div class="qr"><div data-qr="instagram"></div>@andibite.pe</div>
 <div class="rev"><b>Lleva sangrecita.</b><p>No la escondemos: simplemente no se nota.</p><small>Dulce para ellos. Tranquilidad para ti.</small></div></section>
 {flags}
@@ -144,7 +144,7 @@ td{{border-bottom:.3mm solid #D9B48F;height:8.6mm;padding:0 2mm}}
 <section class="a4 count"><img src="../web/img/logo-andi.png"><h2>Hoy, en este stand</h2>
 <div class="box"><div class="row"><b>Probaron</b><i></i></div><div class="row"><b>La notaron</b><i></i></div></div>
 <p>Prueba a ciegas, responde y súmate a la pizarra.</p></section>
-<section class="a4 labels"><img src="../../../assets/empaque/packs/Pack 6 - frente.png"><img src="../../../assets/empaque/packs/Pack 6 - reverso.png"><img src="../../../assets/empaque/packs/Pack 6 - frente.png"><img src="../../../assets/empaque/packs/Pack 6 - reverso.png"></section>
+<section class="a4 labels"><img src="etiqueta-6-frente-clara.png"><img src="etiqueta-6-reverso-clara.png"><img src="etiqueta-6-frente-clara.png"><img src="etiqueta-6-reverso-clara.png"></section>
 <section class="a4 sheet"><img src="../web/img/logo-andibite.svg"><h2>Prueba a ciegas · conteo</h2><p>Feria UPN · 23 de noviembre de 2026. «La notó» si antes de la revelación dice sangrecita, sangre, hígado, carne, menudencia o «sabe a fierro».</p>
 <table><tr><th style="width:10mm">N.º</th><th style="width:26mm">¿La notó?</th><th>¿Qué dijo?</th><th style="width:24mm">¿Permiso?</th></tr>{''.join(f'<tr><td>{n}</td><td>Sí · No</td><td></td><td>Sí · No</td></tr>' for n in range(1, 26))}</table></section>
 <section class="a4 sheet"><img src="../web/img/logo-andibite.svg"><h2>Permiso para grabar</h2><p>Autorizo a AndiBite (proyecto del Grupo 2, UPN Los Olivos) a grabar mi reacción en la prueba a ciegas del 23 de noviembre de 2026 y a publicarla en sus cuentas privadas de Instagram, TikTok y Facebook. Puedo pedir que se borre cuando quiera escribiendo a @andibite.pe (Ley 29733).</p>
