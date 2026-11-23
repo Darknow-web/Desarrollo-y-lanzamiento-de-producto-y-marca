@@ -42,18 +42,22 @@ h1{{font:800 92pt/0.95 J;color:#BA4036;letter-spacing:-.04em;margin-top:12mm;tex
 # ---------- Hojas A4 ----------
 COLS = ["#7A4A35", "#BA4036", "#E3A33B", "#7C8A3A", "#9E3A44"]
 letras = list("¿LA") + ["♥"] + list("NOTASTE?")
-W, Hh = 80, 92   # banderín en mm; 12 en una hoja A4, encajados para recortar
-tri = ""
-for k, l in enumerate(letras):
-    row, col = divmod(k, 4)
-    c = COLS[k % len(COLS)]
-    ink = "#6B3A2A" if c == "#E3A33B" else "#FBF3E8"
-    x = 5 + col * W / 2 + (col // 2) * 0      # cada banderín entra en el hueco del anterior
-    x = 5 + col * (W / 2)
-    y = 6 + row * (Hh + 3)
-    rot = "rotate(180deg)" if col % 2 else "none"
-    tri += f'<div class="flag" style="left:{x}mm;top:{y}mm;transform:{rot}"><svg viewBox="0 0 180 207"><path d="M0 0H180L90 207Z" fill="{c}" stroke="#bbb" stroke-width="1" stroke-dasharray="4 4"/><line x1="0" y1="14" x2="180" y2="14" stroke="{ink}" stroke-opacity=".35" stroke-dasharray="5 5"/><text x="90" y="112" text-anchor="middle" font-family="J" font-weight="800" font-size="104" fill="{ink}">{l}</text></svg></div>'
-flags = f'<section class="a4 flags">{tri}</section>'
+W, Hh = 105.6, 135   # tamaño original del banderín (mm); 4 por hoja A4, encajados para recortar
+def flag_pages(idx):
+    out = ""
+    for start in range(0, len(idx), 4):
+        tri = ""
+        for n, k in enumerate(idx[start:start + 4]):
+            row, col = divmod(n, 2)
+            c = COLS[k % len(COLS)]
+            ink = "#6B3A2A" if c == "#E3A33B" else "#FBF3E8"
+            x = (210 - 1.5 * W) / 2 + col * W / 2
+            y = 8 + row * (Hh + 6)
+            rot = "rotate(180deg)" if col % 2 else "none"
+            tri += f'<div class="flag" style="left:{x:.1f}mm;top:{y:.1f}mm;transform:{rot}"><svg viewBox="0 0 180 230"><path d="M0 0H180L90 230Z" fill="{c}" stroke="#bbb" stroke-width="1" stroke-dasharray="4 4"/><line x1="0" y1="14" x2="180" y2="14" stroke="{ink}" stroke-opacity=".35" stroke-dasharray="5 5"/><text x="90" y="128" text-anchor="middle" font-family="J" font-weight="800" font-size="118" fill="{ink}">{letras[k]}</text></svg></div>'
+        out += f'<section class="a4 flags">{tri}</section>'
+    return out
+flags = flag_pages(list(range(12)))
 
 card_front = """<div class="card f"><img src="../web/img/logo-andibite.svg"><p class="j t">Lleva sangrecita.</p><p class="s">No la escondemos: simplemente no se nota.</p>
 <ul><li>Brownie de chocolate de 30 g</li><li><b>1.9 mg de hierro</b> en cada brownie. Comprobado en laboratorio.</li><li>Sin octógonos</li><li>Uno por día, en su bolsita</li></ul>
@@ -65,7 +69,7 @@ kit = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{FON
 @page{{size:A4;margin:0}}
 .a4{{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always}}
 .flags{{position:relative}}
-.flag{{position:absolute;width:80mm;height:92mm}}
+.flag{{position:absolute;width:105.6mm;height:135mm}}
 .flag svg{{width:100%;height:100%}}
 
 .cards{{display:grid;grid-template-columns:repeat(2,105mm);grid-template-rows:repeat(4,74.25mm)}}
@@ -124,14 +128,14 @@ td{{border-bottom:.3mm solid #D9B48F;height:8.6mm;padding:0 2mm}}
 <p>Todo en papel opalina (cartulina) A4, a color, salvo lo que se indica. Imprimir al 100 % (sin «ajustar a la página»).</p>
 <table><tr><th>Páginas</th><th>Qué es</th><th>Copias</th><th>Después de imprimir</th></tr>
 <tr><td>2</td><td>Cartel «¿Lo notarías?»</td><td>1</td><td>Tapar la franja oscura de abajo con una tira de papel kraft pegada solo por arriba</td></tr>
-<tr><td>3</td><td>Guirnalda «¿LA ♥ NOTASTE?» (12 banderines en una hoja)</td><td>1</td><td>Recortar por la línea punteada de cada triángulo; pegarlos en orden (¿ L A ♥ N O T A S T E ?) en un pabilo con cinta, doblando la franja de arriba</td></tr>
-<tr><td>4 y 5</td><td>Tarjetas para entregar (adelante y atrás)</td><td>6 hojas a doble cara</td><td>Imprimir a doble cara volteando por el borde largo; cortar 8 por hoja por la línea punteada (48 tarjetas)</td></tr>
-<tr><td>6</td><td>Carpita «Antes de probar» (alérgenos)</td><td>1</td><td>Doblar por la mitad por la línea punteada</td></tr>
-<tr><td>7</td><td>Carpita de precio</td><td>1</td><td>Doblar por la mitad por la línea punteada</td></tr>
-<tr><td>8</td><td>Contador «Probaron · La notaron»</td><td>1</td><td>Meter en una mica y escribir con plumón de pizarra</td></tr>
-<tr><td>9</td><td>Etiquetas de la bolsa de 6 (frente y reverso)</td><td>1</td><td>Recortar y pegar en las 2 bolsas con cinta doble faz</td></tr>
-<tr><td>10</td><td>Hoja de conteo de la prueba a ciegas</td><td>2 (blanco y negro)</td><td>En un tablero, con lapicero</td></tr>
-<tr><td>11</td><td>Hoja de permisos para grabar</td><td>2 (blanco y negro)</td><td>En un tablero, con lapicero</td></tr></table></section>
+<tr><td>3 a 5</td><td>Guirnalda «¿LA ♥ NOTASTE?» (12 banderines, 4 por hoja)</td><td>1</td><td>Recortar por la línea punteada de cada triángulo; pegarlos en orden (¿ L A ♥ N O T A S T E ?) en un pabilo con cinta, doblando la franja de arriba</td></tr>
+<tr><td>6 y 7</td><td>Tarjetas para entregar (adelante y atrás)</td><td>6 hojas a doble cara</td><td>Imprimir a doble cara volteando por el borde largo; cortar 8 por hoja por la línea punteada (48 tarjetas)</td></tr>
+<tr><td>8</td><td>Carpita «Antes de probar» (alérgenos)</td><td>1</td><td>Doblar por la mitad por la línea punteada</td></tr>
+<tr><td>9</td><td>Carpita de precio</td><td>1</td><td>Doblar por la mitad por la línea punteada</td></tr>
+<tr><td>10</td><td>Contador «Probaron · La notaron»</td><td>1</td><td>Meter en una mica y escribir con plumón de pizarra</td></tr>
+<tr><td>11</td><td>Etiquetas de la bolsa de 6 (frente y reverso)</td><td>1</td><td>Recortar y pegar en las 2 bolsas con cinta doble faz</td></tr>
+<tr><td>12</td><td>Hoja de conteo de la prueba a ciegas</td><td>2 (blanco y negro)</td><td>En un tablero, con lapicero</td></tr>
+<tr><td>13</td><td>Hoja de permisos para grabar</td><td>2 (blanco y negro)</td><td>En un tablero, con lapicero</td></tr></table></section>
 <section class="a4 poster"><img class="logo" src="../web/img/logo-andi.png"><h1>¿Lo<br>notarías?</h1>
 <p class="sub">Pruébalo a ciegas.<br>Es un brownie de chocolate.</p>
 <img class="bag" src="etiqueta-6-frente-clara.png">
@@ -154,4 +158,10 @@ td{{border-bottom:.3mm solid #D9B48F;height:8.6mm;padding:0 2mm}}
 <table><tr><th style="width:10mm">N.º</th><th>Nombre</th><th style="width:60mm">Firma</th></tr>{''.join(f'<tr><td>{n}</td><td></td><td></td></tr>' for n in range(1, 26))}</table></section>
 {QR}</body></html>"""
 (D / "kit_a4.html").write_text(kit, encoding="utf-8")
+faltan = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{FONTS}
+@page{{size:A4;margin:0}}
+.a4{{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always}}
+.flag{{position:absolute;width:105.6mm;height:135mm}}.flag svg{{width:100%;height:100%}}
+</style></head><body>{flag_pages(list(range(2, 12)))}</body></html>"""
+(D / "kit_banderines_faltan.html").write_text(faltan, encoding="utf-8")
 print("kit html listo")
