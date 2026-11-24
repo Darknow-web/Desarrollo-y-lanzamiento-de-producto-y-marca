@@ -158,5 +158,5 @@ No sabemos la hora exacta. «Llegada» es cuando entramos al salón; «turno» e
 - **Nada dice «sangrecita» antes de la revelación:** solapa cerrada, bolsas de espaldas, nadie lo dice antes de la pregunta. En las cuentas no se dice hasta el 8 de febrero.
 - **Nunca «previene la anemia».** Se dice «contribuye al aporte de hierro». El 1.9 mg es hoy el cálculo de la receta, y así se explica si preguntan.
 - **Se le habla al adulto** (Ley 30021): ningún niño en las fotos o videos, nada de premios ni juegos para niños, «uno por día».
-- **Aceptar las solicitudes** de Instagram, TikTok y el grupo de Facebook durante la feria (puesto 5, cada 10 minutos). Solo entran el salón, la profesora y el equipo.
+- **Aceptar las solicitudes** de Instagram y TikTok durante la feria (puesto 5, cada 10 minutos). Solo entran el salón, la profesora y el equipo.
 - **Cifras, solo las del plan** (el plan final). Si no sabemos algo, decimos «lo estamos validando», no inventamos.

@@ -199,7 +199,7 @@ El veintiocho por ciento confía en amigos y familia; en influencers grandes, ap
 
 ### Lámina 21 · La campaña ya en redes
 
-Y ya está andando: somos @andibite.pe en Instagram, TikTok y Facebook, con WhatsApp Business para los pedidos. Hoy, en plena expectativa.
+Y ya está andando: somos @andibite.pe en Instagram y TikTok, con WhatsApp Business para los pedidos. Hoy, en plena expectativa.
 
 > Acción: muestra en el celular el perfil de @andibite.pe a la profesora mientras la lámina sigue en la laptop.
 

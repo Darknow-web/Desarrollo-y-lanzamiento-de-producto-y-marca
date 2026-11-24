@@ -29,7 +29,7 @@ El contador se guarda en el navegador: no se borra al cambiar de lámina ni al r
 
 ## Cambiar los links de los QR
 
-Abre `config.js` y reemplaza los links de Instagram, TikTok y Facebook. Si un link queda vacío, la tarjeta dice «QR pronto».
+Abre `config.js` y reemplaza los links de Instagram y TikTok. Si un link queda vacío, la tarjeta dice «QR pronto».
 
 ## Para quien edita
 

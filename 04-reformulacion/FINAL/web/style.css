@@ -561,3 +561,6 @@ p{font-size:28px;line-height:1.42}
 .fb .bar{white-space:nowrap}
 .fl b{font-size:26px}
 .s-pub .wrap{grid-template-columns:1.75fr 1fr;gap:50px}
+/* Síguenos con 2 QR (Instagram y TikTok) */
+.qrs{grid-template-columns:1fr 1fr 1.1fr;gap:44px}
+.qr .code{width:360px;height:360px}
