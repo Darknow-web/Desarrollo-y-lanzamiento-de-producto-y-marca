@@ -564,3 +564,77 @@ p{font-size:28px;line-height:1.42}
 /* Síguenos con 2 QR (Instagram y TikTok) */
 .qrs{grid-template-columns:1fr 1fr 1.1fr;gap:44px}
 .qr .code{width:360px;height:360px}
+
+/* ================= Láminas del plan de negocio ================= */
+/* Transición suave entre láminas */
+.slide.on{animation:slidein .55s var(--ease) both}
+@keyframes slidein{from{opacity:0;transform:translateY(14px) scale(.995)}to{opacity:1;transform:none}}
+.print .slide.on{animation:none}
+/* Cuadrícula 2×2 (FODA, Ansoff, BCG) */
+.quad{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:20px;flex:1;margin-top:28px}
+.quad .qc{border-radius:24px;padding:26px 30px;display:flex;flex-direction:column;gap:8px;position:relative;overflow:hidden}
+.quad .qc h3{font-size:32px;margin:0;color:inherit;display:flex;align-items:center;gap:12px}
+.quad .qc .tag{font:800 17px/1 var(--ft);letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.quad .qc ul{list-style:none;display:flex;flex-direction:column;gap:6px;margin-top:4px}
+.quad .qc li{font-size:22px;line-height:1.3;padding-left:22px;position:relative}
+.quad .qc li::before{content:"";position:absolute;left:0;top:11px;width:9px;height:9px;border-radius:50%;background:currentColor;opacity:.6}
+.qc.c1{background:var(--oliva);color:#fff}.qc.c2{background:var(--ladrillo);color:#fff}.qc.c3{background:var(--dorado);color:var(--cafe2)}.qc.c4{background:#7A4A35;color:#fff}
+.qc.light{background:var(--blanco);color:var(--txt);border:1px solid var(--linea)}
+.qc.now{box-shadow:0 0 0 6px var(--dorado) inset}
+.qc .badge{position:absolute;right:20px;top:18px;font:800 16px/1 var(--ft);background:var(--crema);color:var(--cafe);padding:8px 12px;border-radius:999px}
+.axis{display:flex;justify-content:space-between;font:800 18px/1 var(--ft);letter-spacing:.1em;text-transform:uppercase;color:var(--suave);margin-top:10px}
+/* Tabla de lámina */
+.tbl{width:100%;border-collapse:separate;border-spacing:0;font-size:22px;margin-top:22px;background:var(--blanco);border:1px solid var(--linea);border-radius:20px;overflow:hidden}
+.tbl th{background:#7A4A35;color:var(--crema);font:800 17px/1.2 var(--ft);letter-spacing:.06em;text-transform:uppercase;text-align:left;padding:14px 18px}
+.tbl td{padding:12px 18px;border-top:1px solid #F0E2CF;vertical-align:top;line-height:1.3}
+.tbl td:first-child{font:800 22px/1.25 var(--ft);color:var(--cafe)}
+.tbl tr.tot td{background:var(--crema2);font-weight:800;color:var(--cafe)}
+.tbl td.n{text-align:right;white-space:nowrap;font-family:var(--ft);font-weight:800}
+/* Organigrama */
+.org{display:flex;flex-direction:column;align-items:center;gap:26px;margin-top:20px;flex:1}
+.org .lvl{display:flex;gap:22px;justify-content:center;position:relative}
+.org .box{background:var(--blanco);border:1px solid var(--linea);border-top:6px solid var(--ladrillo);border-radius:18px;padding:16px 22px;text-align:center;min-width:220px}
+.org .box b{display:block;font:800 23px/1.15 var(--ft);color:var(--cafe)}
+.org .box span{font-size:18px;color:var(--suave)}
+.org .box.top{border-top-color:#7A4A35}.org .box.ext{border-top-color:var(--dorado);border-style:dashed;border-top-style:solid}
+.org .lvl::before{content:"";position:absolute;left:50%;top:-26px;width:3px;height:26px;background:var(--arena)}
+.org .lvl:first-child::before{display:none}
+/* Cadena estratégica → operativa */
+.chain{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:34px;flex:1;align-items:stretch}
+.chain .lk{border-radius:22px;padding:22px 22px;display:flex;flex-direction:column;gap:8px;position:relative}
+.chain .lk:nth-child(1){background:#7A4A35;color:#fff}.chain .lk:nth-child(2){background:var(--vino);color:#fff}.chain .lk:nth-child(3){background:var(--ladrillo);color:#fff}.chain .lk:nth-child(4){background:var(--dorado);color:var(--cafe2)}.chain .lk:nth-child(5){background:var(--oliva);color:#fff}
+.chain .lk b{font:800 28px/1.1 var(--ft)}
+.chain .lk span{font-size:21px;line-height:1.35;opacity:.95}
+.chain .lk .st{font:800 15px/1 var(--ft);letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+.chain .lk:not(:last-child)::after{content:"";position:absolute;right:-14px;top:50%;width:0;height:0;border:10px solid transparent;border-left-color:var(--arena);transform:translateY(-50%);z-index:2}
+/* Video del focus */
+.vid{flex:1;margin-top:26px;border-radius:30px;background:#1f1f1c;position:relative;overflow:hidden;display:grid;place-items:center}
+.vid img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.35;filter:blur(2px)}
+.vid .play{position:relative;width:150px;height:150px;border-radius:50%;background:var(--ladrillo);display:grid;place-items:center;box-shadow:0 0 0 18px rgba(186,64,54,.25)}
+.vid .play::after{content:"";border-left:46px solid #fff;border-top:28px solid transparent;border-bottom:28px solid transparent;margin-left:12px}
+.vid .cap{position:absolute;left:40px;bottom:34px;right:40px;color:var(--crema);font:800 30px/1.25 var(--ft)}
+.vid .cap span{display:block;font:400 22px/1.4 var(--fb);color:#EAD7C4;margin-top:6px}
+.vid .live{position:absolute;left:40px;top:34px;background:var(--ladrillo);color:#fff;font:800 18px/1 var(--ft);letter-spacing:.12em;padding:10px 16px;border-radius:8px}
+/* Identidad */
+.ident{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:30px;flex:1}
+.ident .card h3{font-size:34px;color:var(--ladrillo)}
+.ident .card p{font-size:25px}
+.vals{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+.vals span{font:800 21px/1 var(--ft);padding:12px 18px;border-radius:999px;background:var(--crema2);color:var(--cafe)}
+/* Ciclo de vida */
+.lc{position:relative;flex:1;margin-top:10px}
+.lc svg{width:100%;height:auto;overflow:visible}
+.lc .stages{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:6px}
+.lc .stages div{background:var(--blanco);border:1px solid var(--linea);border-radius:18px;padding:16px 18px}
+.lc .stages b{display:block;font:800 23px/1.15 var(--ft);color:var(--cafe)}
+.lc .stages .d{font:800 15px/1 var(--ft);letter-spacing:.1em;text-transform:uppercase;color:var(--ladrillo);margin-bottom:6px;display:block}
+.lc .stages span{font-size:19px;line-height:1.35;color:var(--suave);display:block}
+/* KPIs */
+.kgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:28px;flex:1}
+.kc{background:var(--blanco);border:1px solid var(--linea);border-radius:22px;padding:22px 26px;display:flex;flex-direction:column;gap:6px}
+.kc .k{font-size:17px}
+.kc b{font:800 50px/1 var(--ft);color:var(--ladrillo);letter-spacing:-.02em}
+.kc span{font-size:20px;color:var(--suave);line-height:1.35}
+.kc.hl{background:#7A4A35;border-color:#7A4A35}.kc.hl b{color:#FFD27A}.kc.hl span,.kc.hl .k{color:#EAD7C4}
+/* Riesgo */
+.risk{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;margin-top:30px;flex:1}
