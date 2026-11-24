@@ -130,6 +130,38 @@
     }
   }
 
+
+  /* ---------- Demanda por canal y ventas mes a mes (documento 22) ---------- */
+  var CH_COL = ["#BA4036", "#E3A33B", "#7C8A3A", "#9E3A44"];
+  var CH_NOM = ["Colegio", "Kermeses", "Recompra WhatsApp", "Stand y mall"];
+  function stacked(svgId, labels, series, maxV, ticks, sub) {
+    var svg = document.getElementById(svgId); if (!svg) return;
+    var W = 1040, x0 = 100, y0 = 470, H = 420, n = labels.length, step = (W - x0 - 10) / n, bw = Math.min(110, step * 0.64), k = H / maxV, h = "";
+    ticks.forEach(function (v) { var y = y0 - v * k;
+      h += '<line x1="' + x0 + '" x2="' + W + '" y1="' + y + '" y2="' + y + '" stroke="' + (v === 0 ? "#4A2018" : "#E8D5BD") + '" stroke-width="' + (v === 0 ? 2.5 : 1) + '"/>';
+      h += '<text x="' + (x0 - 12) + '" y="' + (y + 8) + '" text-anchor="end" font-size="21" fill="#7A5A4C">' + fmt(v) + '</text>'; });
+    for (var i = 0; i < n; i++) {
+      var x = x0 + i * step + (step - bw) / 2, base = y0, tot = 0, d = (0.3 + i * (n > 6 ? 0.05 : 0.15)).toFixed(2) + "s", g = "";
+      for (var c = 0; c < series.length; c++) {
+        var v = series[c][i]; if (!v) continue; tot += v;
+        var hh = v * k, y = base - hh;
+        g += '<rect x="' + x + '" y="' + (y + 1) + '" width="' + bw + '" height="' + Math.max(0, hh - 2) + '" rx="' + (c === series.length - 1 || !series.slice(c + 1).some(function (s2) { return s2[i]; }) ? 5 : 0) + '" fill="' + CH_COL[c] + '"><title>' + labels[i] + ' · ' + CH_NOM[c] + ': ' + fmt(v) + '</title></rect>';
+        base = y;
+      }
+      h += '<g class="a gy" style="--d:' + d + ';transform-box:fill-box">' + g + '</g>';
+      if (tot) h += '<text class="a fade" style="--d:' + (1.2 + i * 0.05).toFixed(2) + 's" x="' + (x + bw / 2) + '" y="' + (base - 10) + '" text-anchor="middle" font-size="' + (n > 6 ? 17 : 22) + '" fill="#4A2018">' + (sub ? sub(tot) : fmt(tot)) + '</text>';
+      h += '<text x="' + (x + bw / 2) + '" y="' + (y0 + 32) + '" text-anchor="middle" font-size="21" fill="#4A2018">' + labels[i] + '</text>';
+    }
+    svg.innerHTML = h;
+  }
+  function buildChart2() {
+    stacked("chart-dem", ["2027", "2028", "2029", "2030", "2031"],
+      [[35285, 83126, 103908, 124689, 145471], [4950, 6600, 8250, 9900, 11550], [1628, 3310, 4137, 4965, 5792], [2520, 3000, 3750, 4500, 5250]],
+      175000, [0, 50000, 100000, 150000]);
+    stacked("chart-mes", ["E", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"],
+      [[0, 0, 971, 1589, 2748, 3191, 2988, 4765, 4988, 5405, 5472, 3168], [0, 0, 619, 619, 619, 619, 0, 619, 619, 618, 618, 0], [0, 0, 0, 109, 109, 159, 174, 126, 219, 231, 249, 252], [0, 0, 1144, 424, 529, 423, 0, 0, 0, 0, 0, 0]],
+      7000, [0, 2000, 4000, 6000], function (t) { return (t / 1000).toFixed(1) + "k"; });
+  }
   /* ---------- Partículas ---------- */
   function particles() {
     document.querySelectorAll("[data-dots]").forEach(function (box) {
@@ -226,7 +258,7 @@
   });
 
   /* ---------- Arranque ---------- */
-  particles(); buildChart(); buildQR(); paintLive();
+  particles(); buildChart(); buildChart2(); buildQR(); paintLive();
   if (PRINT) {
     slides.forEach(function (s, i) {
       s.classList.add("on"); runCounters(s);

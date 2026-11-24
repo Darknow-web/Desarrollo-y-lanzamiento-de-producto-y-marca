@@ -638,3 +638,27 @@ p{font-size:28px;line-height:1.42}
 .kc.hl{background:#7A4A35;border-color:#7A4A35}.kc.hl b{color:#FFD27A}.kc.hl span,.kc.hl .k{color:#EAD7C4}
 /* Riesgo */
 .risk{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;margin-top:30px;flex:1}
+/* ajustes de las láminas del plan de negocio */
+.quad .qc .qt{font:800 17px/1 var(--ft);letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.quad .qc h3{font-size:36px}.quad .qc li{font-size:24px}
+.s-ident .ident{grid-template-columns:1fr 1.15fr}
+.s-ident .ident .col{justify-content:space-between}
+.s-ident .ident .card{flex:1;display:flex;flex-direction:column;justify-content:center}
+.s-ident .ident .card h3{font-size:42px}
+.s-ident .feat p{font-size:28px}.s-ident .feat div{gap:20px}
+.chain .lk{justify-content:center;padding:30px 26px}
+.chain .lk b{font-size:40px}.chain .lk span{font-size:25px}.chain .lk .st{font-size:17px}
+.s-fodax .tbl td,.s-7p .tbl td{padding:20px 22px;font-size:27px}
+.s-fodax .tbl td:first-child,.s-7p .tbl td:first-child{font-size:26px}
+.s-7p .tbl td{padding:15px 22px}
+.org{gap:40px;justify-content:center}
+.org .lvl{gap:34px}
+.org .lvl::before{top:-40px;height:40px}
+.org .box{min-width:430px;padding:22px 30px}
+.org .box b{font-size:28px}.org .box span{font-size:22px}
+.s-dist .pase .steps div{font-size:28px}
+.kc b{font-size:64px}.kc span{font-size:24px}.kc .k{font-size:18px}
+.s-kpi .kgrid{grid-template-rows:1fr 1fr}
+.lc .stages b{font-size:28px}.lc .stages span{font-size:22px}.lc .stages .d{font-size:16px}
+.s-rse .kc b{font-size:46px!important}
+.s-div .card h3{font-size:38px}
