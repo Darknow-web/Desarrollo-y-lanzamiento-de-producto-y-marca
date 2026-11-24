@@ -142,7 +142,7 @@ out.append('<section style="break-before:auto"><p class="k">En una página</p><h
 # ---------- 1 quiénes somos ----------
 out.append(sec(1, "Quiénes somos", "Identidad", '''
 <div class="quote">Propósito: que alimentar bien a un hijo deje de ser una pelea.</div>
-<div class="grid2">''' + card("Misión", "Un snack saludable y rico para la lonchera, que ayuda al desarrollo del niño: sin octógonos y con hierro comprobado.", "Lo que hacemos cada día: producir, llevar al colegio y hacer que la familia vuelva a pedir.")
+<div class="grid2">''' + card("Misión", "Que alistar la lonchera sea sencillo para papá y mamá: un snack saludable que a su hijo le gusta y que ayuda a su desarrollo.", "Lo que hacemos cada día: producir, llevar al colegio y hacer que la familia vuelva a pedir.")
  + card("Visión 2031", "El snack saludable de la lonchera de 780 familias en 42 colegios de Lima.", "Es el 2 % de los hogares B1 con hijos de 4 a 11 años.", "dark") + '''</div>
 <h3>Cinco valores que no negociamos</h3>
 <div class="steps"><div><span><b>Probar antes que prometer.</b> Primero se prueba; después contamos qué lleva.</span></div>
@@ -230,11 +230,11 @@ out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrate
     ["<b>Penetración de mercado</b> (hoy)", "Actual · actual", "2027-2031: de 8 a 42 colegios; embajadores y recompra semanal. Participación de 0.6 % a 2 %."],
     ["<b>Desarrollo de mercado</b>", "Actual · nuevo", "2029-2031: módulo fijo en el mall y colegios de Lima Este y Sur."],
     ["<b>Desarrollo de producto</b>", "Nuevo · actual", "2029: sabor de temporada con lúcuma; se paga con la caja de la bolsa de 6."],
-    ["<b>Diversificación</b>", "Nuevo · nuevo", "2030: prueba de una barra saludable para papá y mamá; 2031: venta, solo si el núcleo gana."],
+    ["<b>Diversificación</b>", "Nuevo · nuevo", "2030: prueba de una barra para secundaria (12 a 16 años); 2031: venta, solo si el núcleo gana."],
 ]) + '''
 <h3>Matriz BCG: hoy y en 2031</h3>
 ''' + table(["Cuadrante", "Producto"], [
-    ["<b>Interrogante</b> (hoy)", "2027: Chispa, Andi y la unidad a S/5. Luego, lúcuma (2029) y la barra para papá y mamá (2031)."],
+    ["<b>Interrogante</b> (hoy)", "2027: Chispa, Andi y la unidad a S/5. Luego, lúcuma (2029) y la barra para secundaria (2031)."],
     ["<b>Estrella</b>", "2028: bolsas de 6 Chispa y Andi, con 24 colegios."],
     ["<b>Vaca</b>", "2030-2031: la bolsa de 6, con costo de S/1.46. Su caja paga lo nuevo."],
     ["<b>Perro</b>", "Lo que no repite, sale. La unidad suelta queda chica a propósito: empuja la bolsa."],
@@ -372,9 +372,10 @@ out.append(sec(13, "Después del lanzamiento", "Ciclo de vida y diversificación
     ["<b>Madurez</b> · 2030 a 2031", "Rentabilidad", "36 y 42 colegios; embajadores; marketing de 8 % de la venta. Inversión recuperada en 2030."],
     ["<b>Evitar el declive</b> · desde 2029", "Renovarse", "Sabor de temporada, nuevas zonas de Lima y prueba a ciegas cada marzo."],
 ]) + '''
-<h3>Diversificación, solo si el núcleo funciona</h3>
-<p>Una <b>barra de cacao y cañihua con sangrecita, para papá y mamá</b>. La familia ya confía en la marca y se suma al pedido del salón: no abre un canal nuevo.</p>
-<div class="grid3">''' + card("2029", "Sabor de temporada con lúcuma", "Desarrollo de producto.") + card("2030", "Prueba de la barra", "Con 50 familias.") + card("2031", "Venta", "Si las familias repiten.", "dark") + '''</div>
+<h3>Productos nuevos, la misma misión</h3>
+<p>Todo producto nuevo cumple tres cosas, igual que el brownie: <b>1)</b> que alistar la lonchera sea sencillo (listo, uno por día, en su bolsita); <b>2)</b> que al hijo le guste (pasa la prueba a ciegas antes de salir); y <b>3)</b> que ayude a su desarrollo (sin octógonos y con hierro comprobado).</p>
+<p><b>Diversificación:</b> una <b>barra AndiBite para secundaria, de 12 a 16 años</b>, de cacao, avena y cañihua con sangrecita. El niño crece y la marca crece con él; va en el mismo pedido del salón, sin abrir un canal nuevo.</p>
+<div class="grid3">''' + card("2029", "Sabor lúcuma", "Desarrollo de producto: que la lonchera no aburra.") + card("2030", "Prueba de la barra", "Con 50 familias de secundaria.") + card("2031", "Venta", "Si los chicos la vuelven a pedir.", "dark") + '''</div>
 <p style="margin-top:3mm"><b>Condición:</b> 2030 con ganancia, 36 colegios y 35 % de familias que repiten. Se paga con utilidad, nunca con préstamo. <b>Lo que no haremos:</b> snacks salados; la sangrecita solo se acepta en lo dulce.</p>'''))
 
 # ---------- 14 RSE ----------

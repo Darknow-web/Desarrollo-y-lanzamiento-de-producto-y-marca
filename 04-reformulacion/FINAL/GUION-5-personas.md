@@ -4,16 +4,16 @@
 
 | Parte | Láminas | Tema | Láminas | Tiempo |
 |---|---|---|---|---|
-| 1 | Láminas 1 a 7 | Quiénes somos y el problema que escuchamos | 1 a 7 | 2:58 |
+| 1 | Láminas 1 a 7 | Quiénes somos y el problema que escuchamos | 1 a 7 | 2:56 |
 | 2 | Láminas 8 a 13 | Para quién y qué creamos | 8 a 13 | 2:23 |
-| 3 | Láminas 14 a 21 | El plan de negocio | 14 a 21 | 4:38 |
+| 3 | Láminas 14 a 21 | El plan de negocio | 14 a 21 | 4:47 |
 | 4 | Láminas 22 a 34 | Cómo llega, la campaña y cómo se mide | 22 a 34 | 6:19 |
-| 5 | Láminas 35 a 47 | Los números y lo que viene | 35 a 47 | 5:20 |
-| | | | **Total** | **21:38 · 2,812 palabras** |
+| 5 | Láminas 35 a 47 | Los números y lo que viene | 35 a 47 | 5:37 |
+| | | | **Total** | **22:02 · 2,865 palabras** |
 
 ## Parte 1 · Láminas 1 a 7 · Quiénes somos y el problema que escuchamos
 
-Tiempo: 2:58 · Palabras: 386
+Tiempo: 2:56 · Palabras: 382
 
 ### Lámina 1 · Portada
 
@@ -29,7 +29,7 @@ Buenos días. Somos AndiBite, el Grupo 2, y esta historia empieza en una loncher
 
 AndiBite existe por algo simple: que alimentar bien a un hijo deje de ser una pelea.
 
-Somos un snack saludable que ayuda al desarrollo de los niños, sin que sea una pelea. Esa es nuestra misión: un snack rico para la lonchera, sin octógonos y con hierro comprobado. Y nuestra visión al 2031: ser el snack saludable de setecientas ochenta familias, en cuarenta y dos colegios de Lima.
+Nuestra misión: que alistar la lonchera sea sencillo para papá y mamá, con un snack saludable que a su hijo le gusta y que ayuda a su desarrollo. Y nuestra visión al 2031: ser el snack saludable de setecientas ochenta familias, en cuarenta y dos colegios de Lima.
 
 Nos guían cinco valores. El primero lo van a ver en toda la historia: probar antes que prometer.
 
@@ -131,7 +131,7 @@ Papá o mamá ve lo que llevó hoy en la lonchera, con su hierro, y vuelve a ped
 
 ## Parte 3 · Láminas 14 a 21 · El plan de negocio
 
-Tiempo: 4:38 · Palabras: 602
+Tiempo: 4:47 · Palabras: 621
 
 ### Lámina 14 · De la estrategia al trabajo de cada lunes
 
@@ -167,9 +167,9 @@ El equipo es chico y formal: el directorio de socios, un gerente general y comer
 
 Nuestra clave de crecimiento es la matriz de Ansoff. Primero, penetración: el mismo brownie en más colegios, de ocho a cuarenta y dos.
 
-Desde 2029, desarrollo de mercado: un módulo fijo en el mall y colegios de Lima Este y Sur. Desarrollo de producto: un sabor de temporada con lúcuma. Y la diversificación, que es lo más arriesgado, al final: una barra saludable para papá y mamá.
+Desde 2029, desarrollo de mercado: un módulo fijo en el mall y colegios de Lima Este y Sur. Desarrollo de producto: un sabor de temporada con lúcuma. Y la diversificación, que es lo más arriesgado, al final: una barra para los chicos de secundaria.
 
-Así la participación pasa del cero coma seis al dos por ciento. Y cada paso se abre solo si el anterior cumple su indicador.
+Así la participación pasa del cero coma seis al dos por ciento. Todo producto nuevo sigue la misión: lonchera sencilla, que al hijo le guste y que ayude a su desarrollo. Y cada paso se abre solo si el anterior cumple su indicador.
 
 ### Lámina 19 · Matriz BCG
 
@@ -303,7 +303,7 @@ La regla: abrimos más colegios solo si esa relación es de tres o más, con sei
 
 ## Parte 5 · Láminas 35 a 47 · Los números y lo que viene
 
-Tiempo: 5:20 · Palabras: 693
+Tiempo: 5:37 · Palabras: 731
 
 ### Lámina 35 · Marketing 2027
 
@@ -365,11 +365,13 @@ En la introducción, que prueben. En el crecimiento, más colegios: catorce en s
 
 Y para no caer, nos renovamos desde 2029: sabor de temporada, nuevas zonas de Lima y una prueba a ciegas cada marzo.
 
-### Lámina 44 · Diversificación
+### Lámina 44 · Productos nuevos, la misma misión
 
-Diversificamos solo si el núcleo funciona: una barra de cacao y cañihua con sangrecita, para papá y mamá.
+Cada producto nuevo tiene que cumplir tres cosas: que alistar la lonchera siga siendo sencillo, que al hijo le guste y que ayude a su desarrollo.
 
-Se prueba en 2030 con cincuenta familias y se vende en 2031, si repiten. Se paga con utilidad, nunca con préstamo. Y lo que no haremos: snacks salados, porque la sangrecita solo se acepta en lo dulce.
+Por eso en 2029 sumamos un sabor lúcuma, para que la lonchera no aburra. Y diversificamos con una barra para secundaria, de doce a dieciséis años: el niño crece y la marca crece con él, en el mismo pedido del salón.
+
+Se prueba en 2030 con cincuenta familias y se vende en 2031, si los chicos la vuelven a pedir. Se paga con utilidad, nunca con préstamo.
 
 ### Lámina 45 · Loncheras que ayudan a crecer
 
@@ -403,4 +405,4 @@ Si alguien todavía no lo probó, pase al stand. Y escaneen el QR de la pantalla
 - **Parte 2 (láminas 8 a 13):** si va tarde, deja la lámina 11 solo en pantalla y quita «Trabaja él, trabaja su esposa»
 - **Parte 3 (láminas 14 a 21):** si va tarde, deja la lámina 19 (BCG) con su primera frase y quita en la 21 «Las personas trabajan con carné… contador en vivo»; nunca quita Ansoff ni El Niño, que pidió la profesora
 - **Parte 4 (láminas 22 a 34):** si va tarde, quita la frase de las kermeses y el stand, deja la lámina 28 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»; nunca quita la del mall ni el CAC, LTV y NPS
-- **Parte 5 (láminas 35 a 47):** si va tarde, quita la frase del WhatsApp en la 35, «El primer año pierde…» en la 38 y la frase de lo que no haremos en la 44; nunca quita el punto de equilibrio, el ROI, los trámites, [N], [M] ni la invitación al QR.
+- **Parte 5 (láminas 35 a 47):** si va tarde, quita la frase del WhatsApp en la 35, «El primer año pierde…» en la 38 y la frase del sabor lúcuma en la 44; nunca quita el punto de equilibrio, el ROI, los trámites, [N], [M] ni la invitación al QR.

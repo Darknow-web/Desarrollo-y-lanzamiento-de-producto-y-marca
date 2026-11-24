@@ -105,7 +105,7 @@ Líneas del dibujo: directorio → gerente → coordinadora → promotores y asi
 | | Mercado actual: familias de nuestros colegios | Mercado nuevo |
 |---|---|---|
 | **Producto actual** | **Penetración (hoy), 2027-2031:** de 8 a 42 colegios; embajadores y recompra semanal | **Desarrollo de mercado, 2029-2031:** módulo fijo en mall; colegios de Lima Este y Sur [SUPUESTO] |
-| **Producto nuevo** | **Desarrollo de producto, 2029:** sabor de temporada con lúcuma de Lima | **Diversificación, prueba 2030 y venta 2031:** barra con hierro para papá y mamá |
+| **Producto nuevo** | **Desarrollo de producto, 2029:** sabor de temporada con lúcuma de Lima | **Diversificación, prueba 2030 y venta 2031:** barra AndiBite para secundaria (12 a 16 años) |
 
 **Guion:** «Crecemos primero donde ya ganamos: más colegios con el mismo brownie. Lo nuevo llega solo cuando lo anterior cumple.»
 
@@ -133,7 +133,7 @@ Subtítulo de la lámina: ejes de crecimiento del mercado (snacks saludables, 5.
 | Unidad suelta a S/5 | Interrogante | Se queda chica a propósito | Abre la primera compra; cuesta 36 % más y empuja la bolsa |
 | App Andi | Apoyo, no vende sola | Sostiene a las vacas | Se mide por recompra, no por ventas propias |
 | Sabor de lúcuma (2029) | — | Interrogante al entrar | Se financia con la caja de las bolsas de 6 |
-| Barra para papá y mamá (2031) | — | Interrogante al entrar | Solo si el núcleo gana; nunca con préstamo |
+| Barra para secundaria (2031) | — | Interrogante al entrar | Solo si el núcleo gana; nunca con préstamo |
 
 **Guion:** «Hoy todo es interrogante, porque somos nuevos. La bolsa de seis se vuelve nuestra vaca, y con su caja pagamos lo que viene.»
 
@@ -204,7 +204,7 @@ Subtítulo de la lámina: pocos puntos, elegidos porque ahí se prueba y se vuel
 
 **Título:** Diversificar, solo si el núcleo funciona
 
-- **Qué:** barra de cacao y cañihua con sangrecita para papá y mamá.
+- **Qué:** barra AndiBite para secundaria (12 a 16 años), de cacao, avena y cañihua con sangrecita. Todo producto nuevo cumple la misión: lonchera sencilla, que al hijo le guste y que ayude a su desarrollo.
 - **Por qué:** la familia ya confía; la mamá también necesita hierro [SUPUESTO].
 - **Cómo llega:** se suma al pedido del salón; no abre un canal nuevo.
 - **Cuándo:** prueba con 50 familias en 2030; venta en 2031.
@@ -307,7 +307,7 @@ El taller le habla a papá y mamá: no hay piezas ni premios para el niño.
 **Lo que hay que decidir o confirmar:**
 
 - El plan de Responsabilidad Social (S/1,447) no está en el modelo financiero. Si se aprueba, se paga con la caja de agosto a noviembre de 2027 (sobre S/25,000 cada mes) y el resultado de 2027 queda S/1,447 más bajo. En la presentación no se menciona ese efecto hasta actualizar el modelo.
-- Ansoff, BCG y diversificación (sabor de lúcuma en 2029, zonas de Lima Este y Sur, barra para papá y mamá en 2031) son pasos condicionados que no están en las cifras del plan. Se presentan con su condición, nunca como venta proyectada.
+- Ansoff, BCG y diversificación (sabor de lúcuma en 2029, zonas de Lima Este y Sur, barra para secundaria en 2031) son pasos condicionados que no están en las cifras del plan. Se presentan con su condición, nunca como venta proyectada.
 - Costo de cacao y plátano por brownie: cálculo propio con la receta de referencia del documento 01 (45 g de cacao y 130 g de plátano por lote de 24 de 20 g, llevado a 30 g), cacao a S/36.78 por kg (Makro) y plátano a S/3.24 por kg (Plaza Vea). Unos S/0.10 de cacao y S/0.03 de plátano (solo en Andi). Peor caso: cacao 50 % más caro y plátano al doble, unos S/0.08 más por brownie. Hay que confirmarlo con la ficha de la receta de 30 g.
 - Que Chispa no lleve plátano: confirmar en la ficha de la receta antes de usarlo como respaldo.
 - Stock de cacao: 9,480 brownies de marzo a mayo de 2027 × 2.8 g = unos 27 kg, unos S/980. Hay que confirmar con la planta la vida útil del cacao en polvo.

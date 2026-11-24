@@ -662,3 +662,7 @@ p{font-size:28px;line-height:1.42}
 .lc .stages b{font-size:28px}.lc .stages span{font-size:22px}.lc .stages .d{font-size:16px}
 .s-rse .kc b{font-size:46px!important}
 .s-div .card h3{font-size:38px}
+.s-div .card .steps{display:flex;flex-direction:column;gap:18px}
+.s-div .card .steps div{display:flex;align-items:center;font-size:27px;line-height:1.3}
+.s-div .card .steps i{flex:none;width:46px;height:46px;border-radius:50%;background:#BA4036;color:#fff;font:800 22px/46px var(--ft);font-style:normal;text-align:center;margin-right:18px}
+.s-div .col{gap:28px}
