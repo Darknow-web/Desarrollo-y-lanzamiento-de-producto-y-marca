@@ -178,12 +178,12 @@ En enero y febrero de 2027 todavía no se vende: es la etapa preoperativa (regis
 
 | Rubro | S/ | Qué incluye |
 |---|---|---|
-| Documentos y permisos | 7,521 | S.A.C. S/150; marca en INDECOPI S/401; revisión del contrato de maquila S/400; análisis para el registro sanitario S/1,200; perfil nutricional y hierro S/1,600; vida útil S/2,400; etiqueta S/650; carnés S/120; póliza de responsabilidad civil S/600 |
+| Documentos y permisos | 8,321 | Constitución de la S.A.C. con notaría y SUNARP S/650; RUC (SUNAT) y REMYPE S/0; legalización de libros S/150; marca en INDECOPI S/401; libro de reclamaciones virtual S/150; revisión del contrato de maquila S/400; análisis para el registro sanitario (DIGESA, sin tasa) S/1,200; perfil nutricional y hierro S/1,600; vida útil S/2,400; etiqueta S/650; carnés de sanidad S/120; póliza de responsabilidad civil S/600 |
 | Desarrollo | 3,591 | Pruebas, endulzantes, análisis preliminar y lote piloto de 30 g en la planta |
 | Marca y app | 2,250 | Identidad, fotos, web y terminar la app |
 | Arranque | 6,920 | Empaque inicial S/1,800; stock de 2,000 brownies S/4,220; prelanzamiento S/900 |
 | Equipos | 2,838 | Balanza, selladora, coolers, POS y kit de stand |
-| Imprevistos (10 %) | 2,312 | |
+| Imprevistos | 1,512 | 6.5 % del resto; cubren que la póliza, la vida útil o el perfil nutricional salgan más caros |
 | **Total** | **25,432** | |
 
 **Para qué alcanza el dinero hasta diciembre de 2028:**
