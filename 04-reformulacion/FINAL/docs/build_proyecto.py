@@ -111,7 +111,7 @@ out = [f"<!doctype html><html lang='es'><head><meta charset='utf-8'><title>AndiB
 out.append('''<div class="cover"><img class="logo" src="../web/img/logo-andi.png">
 <p class="k">Desarrollo y Lanzamiento de Nuevos Productos · UPN Los Olivos</p>
 <h1>AndiBite:<br>el proyecto <em>explicado</em></h1>
-<p class="sub">Un brownie de chocolate con sangrecita, sin octógonos y con 1.9 mg de hierro comprobado en laboratorio, para la lonchera de los hijos de papá y mamá de nivel B de Lima. De la investigación al plan de negocio, la campaña y los números.</p>
+<p class="sub">El snack saludable que ayuda al desarrollo de tu hijo, sin que sea una pelea: un brownie de chocolate sin octógonos, con ingredientes andinos y 1.9 mg de hierro comprobado en laboratorio, para la lonchera de las familias de nivel B de Lima. De la investigación al plan de negocio, la campaña y los números.</p>
 <img class="bolsa" src="../web/img/bolsa.png">
 <div class="meta"><div><b>Curso</b>Desarrollo y Lanzamiento de Nuevos Productos</div><div><b>Docente</b>Prof. Paola Zevallos</div>
 <div><b>Grupo 2</b>Diana Ayoso, Patricia Cárdenas, Adela Robles, Angie Blas y Carlos Inga</div><div><b>Presentación</b>andibite-feria.cingacordova.workers.dev<br>@andibite.pe en Instagram y TikTok</div></div></div>''')
@@ -123,8 +123,8 @@ toc = ["Quiénes somos", "El problema y la investigación", "Público y mercado"
        "Demanda y ventas", "Rentabilidad: equilibrio, ROI y financiamiento", "Inversión y trámites para formalizar",
        "Después del lanzamiento", "Responsabilidad social"]
 out.append('<section style="break-before:auto"><p class="k">En una página</p><h2 style="font-size:22pt;margin:2mm 0 4mm">El proyecto <em>en una página</em></h2>'
-           '<p class="lead">Papá y mamá saben que su hijo necesita hierro, pero lo que le hace bien no se lo come: la lonchera vuelve llena. '
-           'AndiBite resuelve eso con un brownie que el niño sí se come. Lleva sangrecita, pero no se nota: en nuestro focus, ninguna de las ocho mamás la notó. '
+           '<p class="lead">Papá y mamá quieren que su hijo coma bien para crecer, pero lo que le hace bien no se lo come: la lonchera vuelve llena. '
+           'AndiBite es el snack saludable que ayuda al desarrollo del niño sin que sea una pelea: un brownie que el niño sí se come. Lleva sangrecita, pero no se nota: en nuestro focus, ninguna de las ocho mamás la notó. '
            'Crecemos por colegios, con prueba en persona y pedido semanal del salón, y lo contamos con una campaña de una sola pregunta: <b>«Lleva sangrecita. ¿La notaste?»</b></p>'
            '<div class="grid4" style="margin-top:4mm">'
            + stat("S/22", "la bolsa de 6 (S/3.67 cada brownie); S/5 la unidad")
@@ -141,9 +141,9 @@ out.append('<section style="break-before:auto"><p class="k">En una página</p><h
 
 # ---------- 1 quiénes somos ----------
 out.append(sec(1, "Quiénes somos", "Identidad", '''
-<div class="quote">Propósito: que darle hierro a un hijo deje de ser una pelea.</div>
-<div class="grid2">''' + card("Misión", "Un brownie rico, sin octógonos y con hierro comprobado para la lonchera.", "Lo que hacemos cada día: producir, llevar al colegio y hacer que la familia vuelva a pedir.")
- + card("Visión 2031", "La lonchera con hierro de 780 familias en 42 colegios de Lima.", "Es el 2 % de los hogares B1 con hijos de 4 a 11 años.", "dark") + '''</div>
+<div class="quote">Propósito: que alimentar bien a un hijo deje de ser una pelea.</div>
+<div class="grid2">''' + card("Misión", "Un snack saludable y rico para la lonchera, que ayuda al desarrollo del niño: sin octógonos y con hierro comprobado.", "Lo que hacemos cada día: producir, llevar al colegio y hacer que la familia vuelva a pedir.")
+ + card("Visión 2031", "El snack saludable de la lonchera de 780 familias en 42 colegios de Lima.", "Es el 2 % de los hogares B1 con hijos de 4 a 11 años.", "dark") + '''</div>
 <h3>Cinco valores que no negociamos</h3>
 <div class="steps"><div><span><b>Probar antes que prometer.</b> Primero se prueba; después contamos qué lleva.</span></div>
 <div><span><b>Decimos lo comprobado.</b> 1.9 mg de hierro en cada brownie, comprobado en laboratorio. Nunca decimos que «previene la anemia».</span></div>
@@ -151,11 +151,12 @@ out.append(sec(1, "Quiénes somos", "Identidad", '''
 <div><span><b>Hecho con lo nuestro.</b> Sangrecita de Lima, cacao de San Martín, plátano de Piura y cañihua de Puno.</span></div>
 <div><span><b>Trabajo formal.</b> Todos cobran, con EsSalud y carné de sanidad.</span></div></div>
 <h3>Nombre y promesa</h3>
-<p><b>AndiBite</b> une «Andi», por los Andes, y «Bite», la mordida: de los Andes a la lonchera. El slogan es <b>«Dulce para ellos. Tranquilidad para ti.»</b>: el niño disfruta el sabor y papá y mamá ganan una mañana sin pelea.</p>'''))
+<p><b>AndiBite</b> une «Andi», por los Andes, y «Bite», la mordida: de los Andes a la lonchera. El slogan es <b>«Dulce para ellos. Tranquilidad para ti.»</b>: el niño disfruta el sabor y papá y mamá ganan una mañana sin pelea.</p>
+<div class="quote">El eje de la empresa: un snack saludable que ayuda al desarrollo de tu hijo, sin que sea una pelea. El hierro comprobado, los 0 octógonos y los ingredientes andinos son la prueba de que es saludable; el sabor es lo que evita la pelea.</div>'''))
 
 # ---------- 2 problema e investigación ----------
 out.append(sec(2, "El problema y la investigación", "Lo que escuchamos", '''
-<p class="lead">El problema no es que papá y mamá no sepan del hierro. Es que <b>lo que le hace bien al niño, no se lo come</b>. Cada casa tiene su truco (nuggets de sangrecita, hígado escondido en la sopa) y casi todos fallan por lo mismo: el sabor.</p>
+<p class="lead">Papá y mamá quieren que su hijo coma bien para crecer. El problema es que <b>lo que le hace bien al niño, no se lo come</b>. Cada casa tiene su truco (nuggets de sangrecita, hígado escondido en la sopa) y casi todos fallan por lo mismo: el sabor.</p>
 <h3>Cómo investigamos</h3>
 ''' + table(["Etapa", "Qué hicimos", "Qué encontramos"], [
     ["Entrevistas", "25 entrevistas a profundidad a papás y mamás (agosto y septiembre de 2026)", "La barrera es el olor, el color y la textura de la sangrecita, no el ingrediente. Dentro de un dulce, se acepta."],
@@ -187,12 +188,12 @@ out.append(sec(4, "Producto, marca y app", "Qué creamos", '''
 <h3>Marca</h3>
 <p>Andi es el niño del empaque y Killa, su llamita. Viven en la bolsa y en la app, nunca en los anuncios: los anuncios le hablan a papá y mamá, como pide la Ley 30021. Colores de marca: café, ladrillo, vino, dorado, oliva y crema; letras Plus Jakarta Sans y Nunito.</p>
 <h3>App Andi</h3>
-<p>El QR de la bolsa abre la app. Papá o mamá ve cuánto hierro llevó hoy, las loncheras de la semana y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá y no tienen compras.</p>
+<p>El QR de la bolsa abre la app. Papá o mamá ve lo que llevó hoy en la lonchera, con su hierro, las loncheras de la semana y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá y no tienen compras.</p>
 <h3>Producción</h3>
 <p>Produce la planta maquiladora del INDDA de la UNALM: hornea, pesa y sella. Producir un brownie cuesta S/1.84 en bolsa en 2027 y baja a S/1.50 en 2028 por volumen.</p>'''))
 
 # ---------- 5 plan de negocio ----------
-chain = [("1 · Visión", "Al 2031", "La lonchera con hierro de 780 familias en 42 colegios.", "c4"),
+chain = [("1 · Visión", "Al 2031", "El snack saludable de 780 familias en 42 colegios.", "c4"),
          ("2 · Objetivo 2027", "250 familias", "Que compran cada semana, en 14 colegios a diciembre.", "c5"),
          ("3 · Estrategia", "Crecer por colegios", "Probar en persona y volver a pedir cada semana.", "c2"),
          ("4 · Plan de acción", "Uno por mes", "8 colegios el 6 de marzo; uno más por mes hasta 14.", "c3"),
@@ -229,7 +230,7 @@ out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrate
     ["<b>Penetración de mercado</b> (hoy)", "Actual · actual", "2027-2031: de 8 a 42 colegios; embajadores y recompra semanal. Participación de 0.6 % a 2 %."],
     ["<b>Desarrollo de mercado</b>", "Actual · nuevo", "2029-2031: módulo fijo en el mall y colegios de Lima Este y Sur."],
     ["<b>Desarrollo de producto</b>", "Nuevo · actual", "2029: sabor de temporada con lúcuma; se paga con la caja de la bolsa de 6."],
-    ["<b>Diversificación</b>", "Nuevo · nuevo", "2030: prueba de una barra con hierro para papá y mamá; 2031: venta, solo si el núcleo gana."],
+    ["<b>Diversificación</b>", "Nuevo · nuevo", "2030: prueba de una barra saludable para papá y mamá; 2031: venta, solo si el núcleo gana."],
 ]) + '''
 <h3>Matriz BCG: hoy y en 2031</h3>
 ''' + table(["Cuadrante", "Producto"], [
@@ -244,7 +245,7 @@ out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrate
 
 # ---------- 6 7P ----------
 out.append(sec(6, "Marketing mix: una estrategia por cada P", "7P", table(["P", "Estrategia"], [
-    ["<b>Producto</b>", "Brownie de 30 g en su bolsita; Chispa y Andi; 1.9 mg de hierro comprobado; 0 octógonos."],
+    ["<b>Producto</b>", "Snack saludable de 30 g en su bolsita, que ayuda al desarrollo: Chispa y Andi; 0 octógonos y 1.9 mg de hierro comprobado."],
     ["<b>Precio</b>", "Por valor percibido: bolsa de 6 a S/22 (S/3.67 cada uno) y unidad a S/5. Dentro de lo que dijeron las mamás (S/20 a S/24 por 6; S/4.50 a S/5.90 por unidad). Un brownie de pastelería cuesta S/10.88 en promedio (6 pastelerías de Lima, 18-nov-2026)."],
     ["<b>Plaza</b>", "Selectiva: colegio, kermés, stand de fin de semana y mall por temporadas."],
     ["<b>Promoción</b>", "«Lleva sangrecita. ¿La notaste?»: S/15,040 en 2027; anuncios solo para adultos."],
@@ -270,7 +271,7 @@ out.append(sec(7, "Canales y distribución", "Plaza", '''
 <h3>Estrategia de distribución selectiva</h3>
 <p>Pocos puntos, elegidos porque ahí se prueba y se vuelve a comprar: el 79 % de los brownies de 2027 sale del colegio. <b>No</b> vamos a bodegas ni quioscos: ahí nadie prueba, y el quiosco escolar no acepta edulcorantes.</p>
 <h3>¿Por qué te debo comprar? Las cinco razones del cliente</h3>
-<div class="steps"><div><span><b>Mi hijo se lo come:</b> ninguna mamá notó la sangrecita.</span></div><div><span><b>Suma hierro:</b> 1.9 mg, comprobado en laboratorio.</span></div><div><span><b>Sin octógonos:</b> eritritol, plátano y poca panela.</span></div><div><span><b>Me resuelve la mañana:</b> uno por día, a S/3.67.</span></div><div><span><b>Llega el lunes al colegio</b> y vuelvo a pedir en un clic.</span></div></div>
+<div class="steps"><div><span><b>Mi hijo se lo come:</b> ninguna mamá notó la sangrecita.</span></div><div><span><b>Ayuda a su desarrollo:</b> 1.9 mg de hierro comprobado.</span></div><div><span><b>Sin octógonos:</b> eritritol, plátano y poca panela.</span></div><div><span><b>Me resuelve la mañana:</b> uno por día, a S/3.67.</span></div><div><span><b>Llega el lunes al colegio</b> y vuelvo a pedir en un clic.</span></div></div>
 <h3>El centro comercial, paso a paso</h3>
 ''' + table(["Paso", "Qué", "Condición"], [
     ["6 al 14 de marzo de 2027", "Pop-up «Laboratorio ¿La notaste?», con cabinas de prueba a ciegas y el contador en vivo", "1,350 pruebas · S/2,600 dentro del marketing"],
@@ -376,9 +377,9 @@ out.append(sec(13, "Después del lanzamiento", "Ciclo de vida y diversificación
 <p style="margin-top:3mm"><b>Condición:</b> 2030 con ganancia, 36 colegios y 35 % de familias que repiten. Se paga con utilidad, nunca con préstamo. <b>Lo que no haremos:</b> snacks salados; la sangrecita solo se acepta en lo dulce.</p>'''))
 
 # ---------- 14 RSE ----------
-out.append(sec(14, "Responsabilidad social: «Hierro que se comparte»", "ODS 2 · meta 2.2", '''
-<p class="lead">En el Perú, 1 de cada 6 niños de 5 a 11 años tiene anemia (INS-CENAN 2025). Alineados al ODS 2 (poner fin a todas las formas de malnutrición), damos talleres para papá y mamá en colegios públicos de Lima Norte: cómo armar una lonchera con hierro de mercado por unos S/3.</p>
-<div class="grid3">''' + card("2027 · piloto", "1 taller", "50 familias, dentro del presupuesto de muestras en colegios.", "c1") + card("Desde 2029 · primer año con ganancia", "1 % de la venta", "Unos S/3,800 al año: 10 talleres y 500 familias, dentro del 8 % de marketing.", "c4") + card("Cómo se mide", "7 de cada 10", "familias arman 2 loncheras con hierro por semana, a los 30 días.", "c3") + '''</div>
+out.append(sec(14, "Responsabilidad social: «Loncheras que ayudan a crecer»", "ODS 2 · meta 2.2", '''
+<p class="lead">En el Perú, 1 de cada 6 niños de 5 a 11 años tiene anemia (INS-CENAN 2025). Alineados al ODS 2 (poner fin a todas las formas de malnutrición), damos talleres para papá y mamá en colegios públicos de Lima Norte: cómo armar una lonchera saludable, con hierro de mercado, por unos S/3.</p>
+<div class="grid3">''' + card("2027 · piloto", "1 taller", "50 familias, dentro del presupuesto de muestras en colegios.", "c1") + card("Desde 2029 · primer año con ganancia", "1 % de la venta", "Unos S/3,800 al año: 10 talleres y 500 familias, dentro del 8 % de marketing.", "c4") + card("Cómo se mide", "7 de cada 10", "familias arman 2 loncheras saludables con hierro por semana, a los 30 días.", "c3") + '''</div>
 <p style="margin-top:4mm">El plan no cambia las cifras del negocio: el piloto sale del presupuesto de muestras y, desde 2029, el 1 % entra dentro del marketing.</p>
 <div style="margin-top:12mm;background:#2E120C;color:#FBF3E8;border-radius:5mm;padding:9mm 10mm" class="avoid">
 <p class="k" style="color:#E3A33B">Cierre</p>

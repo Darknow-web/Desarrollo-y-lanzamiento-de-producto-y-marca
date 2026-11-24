@@ -4,16 +4,16 @@
 
 | Parte | Láminas | Tema | Láminas | Tiempo |
 |---|---|---|---|---|
-| 1 | Láminas 1 a 7 | Quiénes somos y el problema que escuchamos | 1 a 7 | 2:49 |
-| 2 | Láminas 8 a 13 | Para quién y qué creamos | 8 a 13 | 2:17 |
-| 3 | Láminas 14 a 21 | El plan de negocio | 14 a 21 | 4:36 |
-| 4 | Láminas 22 a 34 | Cómo llega, la campaña y cómo se mide | 22 a 34 | 6:18 |
+| 1 | Láminas 1 a 7 | Quiénes somos y el problema que escuchamos | 1 a 7 | 2:58 |
+| 2 | Láminas 8 a 13 | Para quién y qué creamos | 8 a 13 | 2:23 |
+| 3 | Láminas 14 a 21 | El plan de negocio | 14 a 21 | 4:38 |
+| 4 | Láminas 22 a 34 | Cómo llega, la campaña y cómo se mide | 22 a 34 | 6:19 |
 | 5 | Láminas 35 a 47 | Los números y lo que viene | 35 a 47 | 5:20 |
-| | | | **Total** | **21:20 · 2,772 palabras** |
+| | | | **Total** | **21:38 · 2,812 palabras** |
 
 ## Parte 1 · Láminas 1 a 7 · Quiénes somos y el problema que escuchamos
 
-Tiempo: 2:49 · Palabras: 367
+Tiempo: 2:58 · Palabras: 386
 
 ### Lámina 1 · Portada
 
@@ -27,15 +27,15 @@ Buenos días. Somos AndiBite, el Grupo 2, y esta historia empieza en una loncher
 
 ### Lámina 2 · Propósito, misión y visión
 
-AndiBite existe por algo simple: que darle hierro a un hijo deje de ser una pelea.
+AndiBite existe por algo simple: que alimentar bien a un hijo deje de ser una pelea.
 
-Nuestra misión es un brownie rico, sin octógonos y con hierro comprobado para la lonchera. Y nuestra visión al 2031: estar en la lonchera de setecientas ochenta familias, en cuarenta y dos colegios de Lima.
+Somos un snack saludable que ayuda al desarrollo de los niños, sin que sea una pelea. Esa es nuestra misión: un snack rico para la lonchera, sin octógonos y con hierro comprobado. Y nuestra visión al 2031: ser el snack saludable de setecientas ochenta familias, en cuarenta y dos colegios de Lima.
 
 Nos guían cinco valores. El primero lo van a ver en toda la historia: probar antes que prometer.
 
 ### Lámina 3 · La lonchera vuelve llena
 
-¿Por qué una pelea? Papá y mamá saben que su hijo necesita hierro. El problema es otro: lo que le hace bien, no se lo come.
+¿Por qué una pelea? Papá y mamá quieren que su hijo coma bien para crecer. El problema es otro: lo que le hace bien, no se lo come.
 
 La mamá de Mateo le hizo nuggets de sangrecita. Volvieron enteros, con esa frase.
 
@@ -83,7 +83,7 @@ Primero probaron. Después preguntamos, sin decir qué llevaba. Y el precio lo p
 
 ## Parte 2 · Láminas 8 a 13 · Para quién y qué creamos
 
-Tiempo: 2:17 · Palabras: 296
+Tiempo: 2:23 · Palabras: 309
 
 ### Lámina 8 · Público
 
@@ -101,9 +101,9 @@ Trabaja él, trabaja su esposa, y en la mañana tiene cinco minutos para la lonc
 
 No quiere un discurso de salud: quiere una mañana menos. Y lo convence una sola cosa: que su hijo lo pruebe.
 
-### Lámina 10 · El producto
+### Lámina 10 · Un snack que ayuda a crecer
 
-Para Rodrigo hicimos esto: un brownie de treinta gramos, cada uno en su bolsita, uno por día.
+Para Rodrigo hicimos esto: un snack saludable que ayuda a crecer. Un brownie de treinta gramos, cada uno en su bolsita, uno por día.
 
 Uno coma nueve miligramos de hierro en cada brownie, comprobado en laboratorio. Cero octógonos. Y cuatro ingredientes peruanos, de Lima hasta Puno.
 
@@ -123,7 +123,7 @@ Andi es el niño del empaque y Killa, su llamita. Viven en la bolsa y en la app,
 
 El QR de la bolsa abre la app Andi.
 
-Papá o mamá ve cuánto hierro llevó hoy y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá, y no tienen compras.
+Papá o mamá ve lo que llevó hoy en la lonchera, con su hierro, y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá, y no tienen compras.
 
 > Acción: escanea el QR de la bolsa con el celular y muestra «El hierro de hoy».
 
@@ -131,13 +131,13 @@ Papá o mamá ve cuánto hierro llevó hoy y vuelve a pedir en un clic por Whats
 
 ## Parte 3 · Láminas 14 a 21 · El plan de negocio
 
-Tiempo: 4:36 · Palabras: 598
+Tiempo: 4:38 · Palabras: 602
 
 ### Lámina 14 · De la estrategia al trabajo de cada lunes
 
 Gracias. Un plan de negocio baja de lo estratégico a lo operativo, y el nuestro cabe en una línea.
 
-La visión: setecientas ochenta familias al 2031. El objetivo de 2027: doscientas cincuenta familias que compran cada semana, en catorce colegios. La estrategia: crecer por colegios, probando en persona. El plan: ocho colegios el seis de marzo y uno más cada mes.
+La visión: ser el snack saludable de setecientas ochenta familias al 2031. El objetivo de 2027: doscientas cincuenta familias que compran cada semana, en catorce colegios. La estrategia: crecer por colegios, probando en persona. El plan: ocho colegios el seis de marzo y uno más cada mes.
 
 Y el KPI que manda: si en junio cada colegio vende diecinueve brownies al día, abrimos el siguiente.
 
@@ -167,7 +167,7 @@ El equipo es chico y formal: el directorio de socios, un gerente general y comer
 
 Nuestra clave de crecimiento es la matriz de Ansoff. Primero, penetración: el mismo brownie en más colegios, de ocho a cuarenta y dos.
 
-Desde 2029, desarrollo de mercado: un módulo fijo en el mall y colegios de Lima Este y Sur. Desarrollo de producto: un sabor de temporada con lúcuma. Y la diversificación, que es lo más arriesgado, al final: una barra con hierro para papá y mamá.
+Desde 2029, desarrollo de mercado: un módulo fijo en el mall y colegios de Lima Este y Sur. Desarrollo de producto: un sabor de temporada con lúcuma. Y la diversificación, que es lo más arriesgado, al final: una barra saludable para papá y mamá.
 
 Así la participación pasa del cero coma seis al dos por ciento. Y cada paso se abre solo si el anterior cumple su indicador.
 
@@ -195,7 +195,7 @@ Las personas trabajan con carné de sanidad. El proceso es prueba, pedido del sa
 
 ## Parte 4 · Láminas 22 a 34 · Cómo llega, la campaña y cómo se mide
 
-Tiempo: 6:18 · Palabras: 818
+Tiempo: 6:19 · Palabras: 822
 
 ### Lámina 22 · Precio
 
@@ -223,7 +223,7 @@ Todo empieza probando, en persona. El WhatsApp solo junta el pedido de la semana
 
 Por eso nuestra distribución es selectiva: pocos puntos, elegidos porque ahí se prueba y se vuelve a comprar. El setenta y nueve por ciento de los brownies de 2027 sale del colegio. No vamos a bodegas ni quioscos: ahí nadie prueba.
 
-¿Y por qué nos compran? Cinco razones: mi hijo se lo come, suma hierro comprobado, no tiene octógonos, me resuelve la mañana a tres sesenta y siete, y llega el lunes al colegio.
+¿Y por qué nos compran? Cinco razones: mi hijo se lo come, ayuda a su desarrollo con hierro comprobado, no tiene octógonos, me resuelve la mañana a tres sesenta y siete, y llega el lunes al colegio.
 
 ### Lámina 25 · Centro comercial paso a paso
 
@@ -371,13 +371,13 @@ Diversificamos solo si el núcleo funciona: una barra de cacao y cañihua con sa
 
 Se prueba en 2030 con cincuenta familias y se vende en 2031, si repiten. Se paga con utilidad, nunca con préstamo. Y lo que no haremos: snacks salados, porque la sangrecita solo se acepta en lo dulce.
 
-### Lámina 45 · Hierro que se comparte
+### Lámina 45 · Loncheras que ayudan a crecer
 
 Crecer también es compartir. En el Perú, uno de cada seis niños de cinco a once años tiene anemia.
 
-Por eso, alineados al ODS 2, damos talleres a papás y mamás de colegios públicos de Lima Norte: cómo armar una lonchera con hierro de mercado por unos tres soles.
+Por eso, alineados al ODS 2, damos talleres a papás y mamás de colegios públicos de Lima Norte: cómo armar una lonchera saludable, con hierro de mercado, por unos tres soles.
 
-En 2027 hacemos un piloto con cincuenta familias, y desde 2029 destinamos el uno por ciento de la venta: diez talleres al año. Lo medimos así: que siete de cada diez familias armen dos loncheras con hierro por semana.
+En 2027 hacemos un piloto con cincuenta familias, y desde 2029 destinamos el uno por ciento de la venta: diez talleres al año. Lo medimos así: que siete de cada diez familias armen dos loncheras saludables por semana.
 
 ### Lámina 46 · Cierre
 
