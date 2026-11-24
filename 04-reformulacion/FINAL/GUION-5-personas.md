@@ -221,7 +221,7 @@ Todo empieza probando, en persona. El WhatsApp solo junta el pedido de la semana
 
 ### Lámina 24 · Distribución selectiva
 
-Por eso nuestra distribución es selectiva: pocos puntos, elegidos porque ahí se prueba y se vuelve a comprar. El setenta y nueve por ciento de los brownies de 2027 sale del colegio. No vamos a bodegas ni quioscos: ahí nadie prueba.
+Por eso nuestra distribución es selectiva: pocos puntos, elegidos porque ahí se prueba y se vuelve a comprar. El setenta y nueve por ciento de los brownies de 2027 sale del colegio. No vamos a bodegas ni supermercados: ahí nadie prueba.
 
 ¿Y por qué nos compran? Cinco razones: mi hijo se lo come, ayuda a su desarrollo con hierro comprobado, no tiene octógonos, me resuelve la mañana a tres sesenta y siete, y llega el lunes al colegio.
 

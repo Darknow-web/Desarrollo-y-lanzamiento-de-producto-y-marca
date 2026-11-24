@@ -247,7 +247,7 @@ out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrate
 out.append(sec(6, "Marketing mix: una estrategia por cada P", "7P", table(["P", "Estrategia"], [
     ["<b>Producto</b>", "Snack saludable de 30 g en su bolsita, que ayuda al desarrollo: Chispa y Andi; 0 octógonos y 1.9 mg de hierro comprobado."],
     ["<b>Precio</b>", "Por valor percibido: bolsa de 6 a S/22 (S/3.67 cada uno) y unidad a S/5. Dentro de lo que dijeron las mamás (S/20 a S/24 por 6; S/4.50 a S/5.90 por unidad). Un brownie de pastelería cuesta S/10.88 en promedio (6 pastelerías de Lima, 18-nov-2026)."],
-    ["<b>Plaza</b>", "Selectiva: colegio, kermés, stand de fin de semana y mall por temporadas."],
+    ["<b>Plaza</b>", "Selectiva: colegio (pedido del salón y quiosco donde lo permitan), kermés, stand de fin de semana y mall por temporadas."],
     ["<b>Promoción</b>", "«Lleva sangrecita. ¿La notaste?»: S/15,040 en 2027; anuncios solo para adultos."],
     ["<b>Personas</b>", "Gerente, coordinadora y promotores con carné de sanidad; delegadas y embajadores."],
     ["<b>Procesos</b>", "Prueba, pedido del salón, pago por Yape, entrega el lunes en la puerta y recompra."],
@@ -264,12 +264,13 @@ out.append(sec(7, "Canales y distribución", "Plaza", '''
 <p class="lead">Vendemos donde ya está la lonchera. Todo empieza probando, en persona; el WhatsApp solo junta el pedido de la semana y avisa cuándo volver a pedir.</p>
 ''' + table(["Canal", "Cómo funciona", "Desde"], [
     ["<b>1 · Venta en el colegio</b>", "Degustación en la puerta; la delegada junta el pedido del salón, cada familia paga por Yape y entregamos en mano el lunes.", "8 colegios en marzo de 2027, 14 en septiembre y 24 en 2028"],
+    ["<b>1b · Quiosco del colegio</b>", "Donde el colegio y su quiosco aceptan productos sin octógonos con edulcorante: el niño compra su unidad en el recreo. El quiosco compra a S/3.50 y vende a S/5; va en la misma entrega del lunes y deja unos S/1.06 por unidad.", "Desde marzo de 2027, colegio por colegio"],
     ["<b>2 · Kermeses y reuniones de padres</b>", "La familia prueba junta; se vende sobre todo el brownie suelto.", "Marzo de 2027"],
     ["<b>3 · Stand de fin de semana</b>", "Feria municipal del Campo de Marte, Jesús María, sábados y domingos: degustación y venta.", "Marzo de 2027; todo el año si vende 100 al día"],
     ["<b>4 · Centro comercial</b>", "Real Plaza Salaverry (zona con 51.7 % de hogares B): pop-up de lanzamiento y módulo en la vuelta al colegio.", "Marzo de 2027 y febrero de 2028"],
 ]) + '''
 <h3>Estrategia de distribución selectiva</h3>
-<p>Pocos puntos, elegidos porque ahí se prueba y se vuelve a comprar: el 79 % de los brownies de 2027 sale del colegio. <b>No</b> vamos a bodegas ni quioscos: ahí nadie prueba, y el quiosco escolar no acepta edulcorantes.</p>
+<p>Pocos puntos, elegidos porque ahí se prueba y se vuelve a comprar: el 79 % de los brownies de 2027 sale del colegio. <b>No</b> vamos a bodegas ni supermercados: ahí nadie prueba. Dentro del colegio, además del pedido del salón, entramos al quiosco cuando el colegio lo permite, para que el mismo niño pueda comprar por unidad. Esa venta no está en la proyección: es adicional.</p>
 <h3>¿Por qué te debo comprar? Las cinco razones del cliente</h3>
 <div class="steps"><div><span><b>Mi hijo se lo come:</b> ninguna mamá notó la sangrecita.</span></div><div><span><b>Ayuda a su desarrollo:</b> 1.9 mg de hierro comprobado.</span></div><div><span><b>Sin octógonos:</b> eritritol, plátano y poca panela.</span></div><div><span><b>Me resuelve la mañana:</b> uno por día, a S/3.67.</span></div><div><span><b>Llega el lunes al colegio</b> y vuelvo a pedir en un clic.</span></div></div>
 <h3>El centro comercial, paso a paso</h3>

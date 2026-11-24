@@ -105,14 +105,16 @@ ws["A2"] = "Por brownie vendido, en soles sin IGV. Lo que queda = venta neta −
 header(ws, 4, ["Canal", "Cómo se vende", "Venta neta por brownie", "Lo que queda por brownie (contribución)", "Contribución %", "Costo propio del canal por brownie", "Ganancia del canal por brownie", "Gastos fijos de la empresa por brownie", "Ganancia neta por brownie", "Para qué sirve el canal"],
        [26, 34, 13, 15, 12, 15, 14, 15, 13, 46])
 ch = [("Colegio (pedido del salón)", "Bolsa de 6 a S/22; entrega en mano el lunes", "=22/6/1.18", 1.03, 0, "Venta y recompra semanal: es el motor"),
+      ("Quiosco del colegio (donde lo permitan)", "El quiosco compra la unidad a S/3.50 y la vende a S/5; va en la misma entrega del lunes", "=3.5/1.18", "=C{r}-'1. Costo de producir'!B11-0.24", 0, "Que el niño compre su unidad en el recreo. Solo en colegios cuyo quiosco acepta productos sin octógonos con edulcorante. No está en la proyección base: es venta adicional"),
       ("Kermeses y reuniones de padres", "6 de cada 10 compran suelto a S/5", "=(0.6*5+0.4*22/6)/1.18", 1.46, 0, "Prueba en familia; deja S/50 netos por kermés"),
       ("Stand de fin de semana (feria municipal)", "Mezcla de sueltos y bolsas; 3 regalados por cada 10 vendidos", "=(0.6*5+0.4*22/6)/1.18", 1.00, "=60/50", "Familias nuevas prueban; atendido por socios solo se paga la tasa de S/60 por día (50 brownies)"),
       ("Centro comercial (módulo temporal)", "Mezcla de sueltos y bolsas; 1 regalado por cada 10", "=(0.6*5+0.4*22/6)/1.18", 1.42, "=10440/3000", "Vuelta al colegio: S/10,440 por 30 días con 2 promotores y 100 brownies al día")]
 for i, (a, b, vn, c, own, use) in enumerate(ch):
     r = 5 + i
+    c = c.format(r=r) if isinstance(c, str) else c
     put(ws, r, [a, b, vn, c, f"=D{r}/C{r}", own, f"=D{r}-F{r}", "='3. Gastos fijos'!B15", f"=G{r}-H{r}", use], [None, None, S2, S2, PCT, S2, S2, S2, S2, None])
-ws["A10"] = "Lectura: el colegio deja S/1.03 por brownie sin costo propio de canal, por eso es el canal principal. El stand y el centro comercial cuestan más de lo que dejan por brownie: se usan para que familias nuevas prueben (marketing), no como canal principal. Con el volumen de 2028 el gasto fijo por brownie baja a S/1.42 y el colegio deja S/1.37: queda casi en cero; desde 2029, con el costo objetivo de S/1.46 y más colegios, cada brownie deja ganancia."; ws["A10"].font = NOTE
-ws["A11"] = "Fuentes: documento 18 (secciones 3 y 4.1), documento 20 (viabilidad del mall) y modelo financiero."; ws["A11"].font = NOTE
+ws["A11"] = "Lectura: el colegio deja S/1.03 por brownie sin costo propio de canal, por eso es el canal principal. El quiosco deja casi lo mismo por unidad (unos S/1.06) y no tiene costo propio, porque va en la misma entrega. El stand y el centro comercial cuestan más de lo que dejan por brownie: se usan para que familias nuevas prueben (marketing), no como canal principal. Con el volumen de 2028 el gasto fijo por brownie baja a S/1.42 y el colegio deja S/1.37: queda casi en cero; desde 2029, con el costo objetivo de S/1.46 y más colegios, cada brownie deja ganancia."; ws["A11"].font = NOTE
+ws["A12"] = "Fuentes: documento 18 (secciones 3 y 4.1), documento 20 (viabilidad del mall) y modelo financiero."; ws["A12"].font = NOTE
 
 for w in wb.worksheets:
     w.sheet_view.showGridLines = False

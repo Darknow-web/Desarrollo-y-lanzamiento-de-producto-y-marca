@@ -53,7 +53,7 @@ Formato: título de lámina (máximo 8 palabras), de 3 a 6 bloques (máximo 14 p
 | | Internas | Externas |
 |---|---|---|
 | **Positivas** | **Fortalezas** · F1 Ninguna de las 8 mamás notó la sangrecita · F2 1.9 mg de hierro en cada brownie, comprobado en laboratorio; 0 octógonos · F3 Precio que pusieron ellas: S/22, dentro de S/20 a S/24 · F4 Sin planta propia: maquila en el INDDA-UNALM y app Andi con recompra | **Oportunidades** · O1 Unos 39,000 hogares B1 de Lima con hijos de 4 a 11 · O2 83 % dice que los octógonos influyen en lo que compra · O3 Los snacks saludables crecen 5.9 % al año [referencial] · O4 Papá y mamá confían en otros padres: 28 % en amigos y familia |
-| **Negativas** | **Debilidades** · D1 El primer año pierde S/38,889; gana desde abril de 2028 · D2 Marca nueva, con S/15,040 de marketing en 2027 · D3 Cada colegio tiene que abrirnos la puerta; el quiosco no acepta edulcorantes · D4 Lote chico en maquila: producir cuesta S/2.07 por brownie en 2027 | **Amenazas** · A1 Niño costero extraordinario hasta febrero de 2027: plátano de Piura · A2 Cacao caro y cambiante: US$5,374 por tonelada (octubre de 2026) · A3 No + Sellos en el súper: 5 brownies de 40 g a S/19.90, sin sellos · A4 42 % desconfía de lo envasado «saludable» |
+| **Negativas** | **Debilidades** · D1 El primer año pierde S/38,889; gana desde abril de 2028 · D2 Marca nueva, con S/15,040 de marketing en 2027 · D3 Cada colegio tiene que abrirnos la puerta (y su quiosco, si acepta edulcorante) · D4 Lote chico en maquila: producir cuesta S/2.07 por brownie en 2027 | **Amenazas** · A1 Niño costero extraordinario hasta febrero de 2027: plátano de Piura · A2 Cacao caro y cambiante: US$5,374 por tonelada (octubre de 2026) · A3 No + Sellos en el súper: 5 brownies de 40 g a S/19.90, sin sellos · A4 42 % desconfía de lo envasado «saludable» |
 
 **Lámina 3b. Título:** Qué hacemos con nuestro FODA
 
@@ -171,7 +171,7 @@ Subtítulo de la lámina: pocos puntos, elegidos porque ahí se prueba y se vuel
 | **Centro comercial** | Real Plaza Salaverry: pop-up 6-14 mar 2027; módulo feb-mar 2028; fijo desde 2029 | Zona con 51.7 % de hogares B; entra en la vuelta al colegio |
 | **Recompra por WhatsApp** | Pedido en un clic desde la app; WhatsApp Business | Junta el pedido de la semana; no es donde se vende |
 
-**Guion:** «Es selectiva: no vamos a bodegas ni quioscos, porque ahí nadie prueba y el quiosco no acepta edulcorantes. Elegimos donde papá y mamá prueban y vuelven a pedir.»
+**Guion:** «Es selectiva: no vamos a bodegas ni supermercados, porque ahí nadie prueba. Elegimos donde papá y mamá prueban y vuelven a pedir; y en el colegio, si su quiosco lo permite, también el niño compra su unidad.»
 
 **Lámina 8b. Título:** ¿Por qué nos deben comprar?
 
