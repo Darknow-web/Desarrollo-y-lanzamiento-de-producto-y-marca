@@ -101,6 +101,7 @@ td.ck{width:8mm;text-align:center;font-size:12pt;color:#BA4036}
 .sl p{font-size:10pt!important;line-height:1.36!important}.sl{padding:2.4mm 0!important}
 .cover h1{font-size:27pt;margin-top:5mm}.cover .sub{font-size:11.5pt}.who .c{padding:3.5mm 3mm}.who b{font-size:10.5pt}.hilo{margin-top:5mm;padding:4mm 6mm}.tips{margin-top:5mm;gap:2.5mm 6mm}.tips p{font-size:9pt}.tbar{margin:5mm 0 2mm}
 .cover .logo{height:18mm}.cover h1{margin-top:7mm}.tbar{margin:7mm 0 2mm}.who{margin-top:5mm}.hilo{margin-top:7mm}.tips{margin-top:6mm}
+.cover h1{font-size:25pt;margin-top:4mm}.cover .logo{height:14mm}.hilo{margin-top:4mm;padding:3.5mm 6mm}.hilo .arr{margin-top:2mm}.who{margin-top:4mm}.tips{margin-top:4mm}.tbar{margin:5mm 0 2mm}.tbar div{white-space:nowrap;font-size:7.5pt}
 .sl p{font-size:10.3pt;line-height:1.4;margin-bottom:1mm}.sl{padding:2.8mm 0;grid-template-columns:48mm 1fr}.sl img{width:48mm}.band{margin-bottom:4mm}
 table{font-size:8.6pt}td{padding:1.6mm 2.4mm}
 """
@@ -138,20 +139,20 @@ def guion():
         cards += f'<div class="c" style="border-top-color:{COL[p]}"><span class="n">{p}</span><b>{html.escape(nm)}</b><span>{html.escape(r[2])}</span><i>{r[4]} minutos</i></div>'
     out.append(f'''<section class="page cover">
 <img class="logo" src="../web/img/logo-andi.png" alt="AndiBite">
-<p class="k" style="margin-top:10mm">Feria del lunes 23 de noviembre de 2026 · Grupo 2 · UPN Los Olivos</p>
+<p class="k" style="margin-top:10mm">Plan de lanzamiento · Grupo 2 · UPN Los Olivos</p>
 <h1>El guion de la presentación, <em>en cinco voces</em></h1>
 <p class="sub">Una sola historia contada por cinco personas. Cada parte es un bloque de láminas seguido, por temas completos: cada una elige su parte y nadie entra a mitad de un tema. Duración total: {total//60}:{total%60:02d} minutos.</p>
 <div class="tbar">{tb}</div>
 <div class="who">{cards}</div>
 <div class="hilo"><p class="k">El hilo de la historia</p>
-<div class="arr"><span>La lonchera vuelve llena</span><em>→</em><span>8 mamás prueban y nadie la nota</span><em>→</em><span>Un brownie para Rodrigo</span><em>→</em><span>Llega donde está la lonchera</span><em>→</em><span>«¿La notaste?»</span><em>→</em><span>Los números cierran</span><em>→</em><span>Una pelea menos</span></div></div>
+<div class="arr"><span>La lonchera vuelve llena</span><em>→</em><span>8 mamás prueban y nadie la nota</span><em>→</em><span>Un brownie para Rodrigo</span><em>→</em><span>El plan: crecer por colegios</span><em>→</em><span>Llega donde está la lonchera</span><em>→</em><span>«¿La notaste?»</span><em>→</em><span>Los números cierran</span><em>→</em><span>Lo que viene</span><em>→</em><span>Una pelea menos</span></div></div>
 <div class="tips">
 <p><b>Antes de exponer.</b> La profesora y el salón ya probaron a ciegas en el stand. La solapa del cartel sigue cerrada.</p>
 <p><b>[N] y [M].</b> Son las cifras reales del contador en ese momento. Quien lleva el conteo se las pasa a quien cierra, 10 minutos antes.</p>
 <p><b>No se lee la lámina.</b> El guion dice lo que la pantalla no dice. Las cifras ya están en la lámina.</p>
 <p><b>El pase.</b> Cada parte termina nombrando a la siguiente persona. Quien recibe dice «Gracias» y sigue.</p>
 <p><b>Sin proyector.</b> La laptop va en la mesa, inclinada hacia la profesora y con el brillo al máximo. Quien expone pasa sus láminas con la flecha →.</p>
-<p><b>Ensayo.</b> Dos pasadas el domingo con cronómetro. Meta: 10 a 11 minutos.</p>
+<p><b>Ensayo.</b> Dos pasadas completas con cronómetro. Meta: 21 a 22 minutos.</p>
 </div>
 </section>''')
 
@@ -204,7 +205,7 @@ def guion():
     items = [l[2:] for l in extra.splitlines() if l.startswith("- ")]
     lis = "".join(f'<div style="border-left-color:{COL[i+1]}">{inline(t)}</div>' for i, t in enumerate(items))
     out.append(f'''<section class="page doc"><p class="k">Para el ensayo</p><h1>Si sobra o falta tiempo</h1>
-<p style="margin-top:3mm">Cada parte dura cerca de 2 minutos. Si alguien se pasa, la siguiente persona recorta; nunca se quitan [N], [M] ni la invitación al QR.</p>
+<p style="margin-top:3mm">Cada parte dura entre 2 y 5 minutos. Si alguien se pasa, la siguiente persona recorta; nunca se quitan [N], [M] ni la invitación al QR.</p>
 <div class="rules" style="grid-template-columns:1fr;margin-top:5mm">{lis}</div>
 <h2 style="margin-top:9mm"><span>?</span>Cómo leer este guion</h2>
 <div class="rules"><div>El texto normal es lo que se dice en voz alta. Está escrito para decirse con naturalidad, no para leerse.</div><div>Las cajas de color crema son acciones: qué se muestra o qué se hace con el producto.</div><div>La caja de color al final de cada parte es el pase: la frase exacta que entrega la palabra.</div><div>La miniatura muestra la lámina que está en pantalla mientras se habla.</div></div>
