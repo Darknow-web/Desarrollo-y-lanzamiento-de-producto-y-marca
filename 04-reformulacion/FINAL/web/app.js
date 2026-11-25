@@ -113,10 +113,14 @@
     if (svg) {
       var x1 = 110, st = (W - x1 - 20) / 5, bw2 = st * 0.56;
       y0 = 300; k = 230 / 60000; h = grid([60000, 30000, 0, -30000, -45000], x1, W, y0, k);
+      var labs = "";
       ANUAL.forEach(function (v, i) {
         var x = x1 + i * st + (st - bw2) / 2;
         h += barPath(x, y0, v, k, bw2, v < 0 ? "#BA4036" : "#7C8A3A", (0.3 + i * 0.15).toFixed(2) + "s", (2027 + i) + ": S/" + sgn(v));
-        h += '<text class="a fade" style="--d:' + (1 + i * 0.15).toFixed(2) + 's" x="' + (x + bw2 / 2) + '" y="' + (v < 0 ? y0 + Math.abs(v) * k + 32 : y0 - v * k + 32) + '" text-anchor="middle" font-size="22" fill="' + (v < 0 ? "#4A2018" : "#fff") + '">' + sgn(v) + "</text>";
+        var tall = Math.abs(v) * k > 50;
+        var ly = v < 0 ? (tall ? y0 + Math.abs(v) * k / 2 + 8 : y0 + Math.abs(v) * k + 30) : (tall ? y0 - v * k + 34 : y0 - v * k - 14);
+        var lc = tall ? "#fff" : "#4A2018";
+        labs += '<text class="a fade" style="--d:' + (1 + i * 0.15).toFixed(2) + 's" x="' + (x + bw2 / 2) + '" y="' + ly + '" text-anchor="middle" font-size="22" font-weight="800" fill="' + lc + '" paint-order="stroke" stroke="' + (lc === "#fff" ? "none" : "#FBF3E8") + '" stroke-width="5">' + sgn(v) + "</text>";
         h += '<text x="' + (x + bw2 / 2) + '" y="' + (y0 + 230) + '" text-anchor="middle" font-size="24" fill="#4A2018">' + (2027 + i) + "</text>";
       });
       var pts = ACUM.map(function (v, i) { return [x1 + i * st + st / 2, y0 - v * k]; });
@@ -124,8 +128,9 @@
       pts.forEach(function (p, i) {
         h += '<g class="a pop" style="--d:' + (1.8 + i * 0.12).toFixed(2) + 's"><circle cx="' + p[0] + '" cy="' + p[1] + '" r="10" fill="#E3A33B" stroke="#FBF3E8" stroke-width="3"/></g>';
       });
-      h += '<g class="a fade" style="--d:2.6s"><text x="' + (pts[3][0] + 18) + '" y="' + (pts[3][1] + 44) + '" font-size="22" fill="#2E120C">2030: se recupera la inversión</text></g>';
-      h += '<g transform="translate(' + x1 + ',' + (y0 + 270) + ')"><rect width="22" height="22" rx="5" fill="#7C8A3A"/><text x="32" y="19" font-size="21" fill="#7A5A4C">Resultado del año</text><line x1="270" x2="310" y1="11" y2="11" stroke="#E3A33B" stroke-width="5"/><circle cx="290" cy="11" r="8" fill="#E3A33B"/><text x="322" y="19" font-size="21" fill="#7A5A4C">Acumulado desde 2027</text></g>';
+      h += labs;
+      h += '<g class="a fade" style="--d:2.6s"><text x="' + pts[3][0] + '" y="' + (y0 + 44) + '" text-anchor="middle" font-size="21" font-weight="800" fill="#2E120C">2030: acumulado</text><text x="' + pts[3][0] + '" y="' + (y0 + 70) + '" text-anchor="middle" font-size="21" font-weight="800" fill="#2E120C">en positivo</text></g>';
+      h += '<g transform="translate(' + x1 + ',' + (y0 + 270) + ')"><rect width="11" height="22" fill="#BA4036"/><rect x="11" width="11" height="22" fill="#7C8A3A"/><text x="32" y="19" font-size="21" fill="#7A5A4C">Resultado del año</text><line x1="270" x2="310" y1="11" y2="11" stroke="#E3A33B" stroke-width="5"/><circle cx="290" cy="11" r="8" fill="#E3A33B"/><text x="322" y="19" font-size="21" fill="#7A5A4C">Acumulado desde 2027</text></g>';
       svg.innerHTML = h;
     }
   }
