@@ -152,7 +152,7 @@ def guion():
 <p><b>No se lee la lámina.</b> El guion dice lo que la pantalla no dice. Las cifras ya están en la lámina.</p>
 <p><b>El pase.</b> Cada parte termina nombrando a la siguiente persona. Quien recibe dice «Gracias» y sigue.</p>
 <p><b>Sin proyector.</b> La laptop va en la mesa, inclinada hacia la profesora y con el brillo al máximo. Quien expone pasa sus láminas con la flecha →.</p>
-<p><b>Ensayo.</b> Dos pasadas completas con cronómetro. Meta: 21 a 22 minutos.</p>
+<p><b>Ensayo.</b> Dos pasadas completas con cronómetro. Meta: 22 a 23 minutos.</p>
 </div>
 </section>''')
 

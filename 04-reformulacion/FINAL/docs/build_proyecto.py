@@ -112,7 +112,7 @@ out.append('''<div class="cover"><img class="logo" src="../web/img/logo-andi.png
 <p class="k">Desarrollo y Lanzamiento de Nuevos Productos · UPN Los Olivos</p>
 <h1>AndiBite:<br>el proyecto <em>explicado</em></h1>
 <p class="sub">El snack saludable que ayuda al desarrollo de tu hijo, sin que sea una pelea: un brownie de chocolate sin octógonos, con ingredientes andinos y 1.9 mg de hierro comprobado en laboratorio, para la lonchera de las familias de nivel B de Lima. De la investigación al plan de negocio, la campaña y los números.</p>
-<img class="bolsa" src="../web/img/bolsa.png">
+<img class="bolsa" src="../web/img/pack-andi.png">
 <div class="meta"><div><b>Curso</b>Desarrollo y Lanzamiento de Nuevos Productos</div><div><b>Docente</b>Prof. Paola Zevallos</div>
 <div><b>Grupo 2</b>Diana Ayoso, Patricia Cárdenas, Adela Robles, Angie Blas y Carlos Inga</div><div><b>Presentación</b>andibite-feria.cingacordova.workers.dev<br>@andibite.pe en Instagram y TikTok</div></div></div>''')
 
@@ -130,7 +130,7 @@ out.append('<section style="break-before:auto"><p class="k">En una página</p><h
            + stat("S/22", "la bolsa de 6 (S/3.67 cada brownie); S/5 la unidad")
            + stat("8 → 42", "colegios de 2027 a 2031; 250 familias en 2027 y 780 en 2031", "#7C8A3A")
            + stat("Abr 2028", "primer mes con ganancia; punto de equilibrio de 8,050 brownies al mes", "#E3A33B")
-           + stat("58 %", "ROI a 5 años sobre S/100,000; la inversión se recupera en 2030", "#8A1C2B")
+           + stat("58 %", "ROI a 5 años sobre S/100,000; las pérdidas se recuperan en 2030", "#8A1C2B")
            + '</div><div class="grid4" style="margin-top:3mm">'
            + stat("S/170,715", "ventas con IGV en 2027; S/634,073 en 2031", "#7A4A35")
            + stat("S/15,040", "marketing de 2027: 10 % de la venta del primer año", "#BA4036")
@@ -144,7 +144,7 @@ out.append(sec(1, "Nuestra cultura", "Propósito, misión, visión y valores", '
 <p>La cultura de AndiBite se formuló siguiendo a Collins y Porras (propósito que no cambia y una visión ambiciosa) y a Lencioni (valores que ya se viven y guían decisiones). El detalle y los ejemplos de otras empresas están en el documento 23.</p>
 <div class="quote">Propósito: que alimentar bien a un hijo sea sencillo, y no una pelea.</div>
 <div class="grid2">''' + card("Misión", "Creamos snacks saludables y ricos, con ingredientes andinos, para que papá y mamá alisten la lonchera sin complicaciones y sus hijos coman con gusto lo que les ayuda a crecer.", "Qué hacemos, para quién y cómo.")
- + card("Visión", "Ser la marca peruana de snacks saludables que las familias del Perú eligen para la lonchera de sus hijos, porque a ellos les encanta y los ayuda a crecer.", "Una aspiración sin fecha. La meta medible al 2031 es otra: 780 familias en 42 colegios.", "dark") + '''</div>
+ + card("Visión", "Ser la marca peruana de snacks saludables que las familias del Perú eligen para la lonchera de sus hijos: a ellos les encanta y a papá y mamá les da tranquilidad.", "Una aspiración sin fecha. La meta medible al 2031 es otra: 780 familias en 42 colegios.", "dark") + '''</div>
 <h3>Nuestros valores</h3>
 <div class="steps"><div><span><b>Transparencia.</b> Decimos qué lleva, aunque sea sangrecita, y solo afirmamos lo comprobado: 1.9 mg de hierro en laboratorio; nunca «previene la anemia».</span></div>
 <div><span><b>Escucha.</b> Primero preguntamos y hacemos probar a papá y mamá; después decidimos (25 entrevistas, dos focus y un precio que pusieron las mamás).</span></div>
@@ -177,7 +177,7 @@ out.append(sec(3, "Público y mercado", "A quién le hablamos", '''
 <div class="funnel" style="margin:4mm 0">''' + "".join(f'<div style="width:{w};background:{c}"><span>{t}</span><b>{n}</b></div>' for t, n, w, c in fun) + '''</div>
 <p class="note">Hogares: APEIM 2025. Los 39,000 hogares B1 con hijos se estiman con la proporción de hogares con niños de 4 a 11 años.</p>
 <div class="grid2" style="margin-top:4mm">''' + card("Participación de mercado", "0.6 % en 2027 → 2 % en 2031", "250 familias que compran cada semana el primer año y unas 780 en 2031. Una meta chica y alcanzable.", "c1")
- + card("Buyer persona", "Rodrigo Salazar, 40 años, San Miguel", "Trabaja él y trabaja su esposa; tiene cinco minutos para la lonchera. «No me vendas salud, véndeme una mañana menos.» Lo convence una sola cosa: que su hijo lo pruebe.", "dark") + '''</div>
+ + card("Buyer persona", "Rodrigo Salazar, 40 años, San Miguel", "Trabaja él y trabaja su esposa; tiene cinco minutos para la lonchera. «No me vendas salud, véndeme una pelea menos cada mañana.» Lo convence una sola cosa: que su hijo lo pruebe.", "dark") + '''</div>
 <p style="margin-top:4mm"><b>¿Por qué el nivel B?</b> Es el público que probó el brownie y le puso precio. Valora lo práctico y lo que el niño sí se come.</p>'''))
 
 # ---------- 4 producto ----------
@@ -199,14 +199,14 @@ out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrate
 <p>Todo este documento es el plan de negocio, ordenado en tres pisos: <b>estratégico</b> (hacia dónde vamos: FODA, estructura, Ansoff, BCG y contexto), <b>táctico</b> (cómo competimos: 7P con objetivos SMART, precio, canales, campaña y KPIs) y <b>operativo</b> (cuánto vendemos y cuánto deja: demanda, ventas, equilibrio, ROI, inversión y financiamiento). La meta que lo ordena: 780 familias en 42 colegios al 2031, empezando con 250 familias en 14 colegios en 2027.</p>
 <h3>FODA</h3>
 <div class="grid2">''' + card("Internas · positivas", "Fortalezas", "F1 Receta que el niño acepta: la sangrecita no se nota · F2 Snack nutritivo comprobado: hierro en laboratorio y 0 octógonos · F3 Producción con un aliado experto, la planta del INDDA-UNALM · F4 App propia que facilita la lonchera y la recompra", "c1")
- + card("Externas · positivas", "Oportunidades", "O1 El 83 % mira los octógonos al comprar · O2 Los snacks saludables crecen cerca de 6 % al año · O3 Papá y mamá trabajan y tienen poco tiempo para la lonchera · O4 Confían más en otros padres (28 %) que en influencers (7 %)", "c3")
- + card("Internas · negativas", "Debilidades", "D1 Marca nueva, que nadie conoce todavía · D2 Capital limitado: el primer año se pierde · D3 Volumen chico: el costo por brownie es alto al inicio · D4 Un solo sabor al lanzar y un solo maquilador", "c2")
+ + card("Externas · positivas", "Oportunidades", "O1 El 83 % mira los octógonos al comprar · O2 Los snacks saludables crecen cerca de 6 % al año · O3 Papá y mamá trabajan y tienen poco tiempo para la lonchera · O4 Confían más en amigos y familia (28 %) que en influencers (7 %)", "c3")
+ + card("Internas · negativas", "Debilidades", "D1 Marca nueva, que nadie conoce todavía · D2 Capital limitado: 2027 y 2028 cierran en pérdida · D3 Volumen chico: el costo por brownie es alto al inicio · D4 Un solo sabor al lanzar y un solo maquilador", "c2")
  + card("Externas · negativas", "Amenazas", "A1 Fenómeno El Niño costero: lluvias en el norte dañan el plátano · A2 Cacao caro y con precio cambiante · A3 Marcas grandes con snacks «saludables» en el supermercado · A4 Rechazo a la sangrecita y desconfianza de lo envasado", "c4") + '''</div>
 <h3>FODA cruzado: un punto con otro</h3>
 ''' + table(["Cruce", "Por qué", "Estrategia"], [
     ["<b>F1 + O1</b> (FO)", "La sangrecita no se nota + papá y mamá miran los octógonos", "Prueba a ciegas en la puerta del colegio, con «0 octógonos» al frente."],
     ["<b>F2 + A4</b> (FA)", "Nutrición comprobada + desconfianza de lo envasado", "Contador en vivo y el informe de laboratorio en la app: la prueba la pone papá."],
-    ["<b>D1 + O4</b> (DO)", "Marca nueva + confían en otros padres", "Entramos por los padres: delegada del salón, reunión de padres y 10 papás y mamás creadores."],
+    ["<b>D1 + O4</b> (DO)", "Marca nueva + confían en amigos y familia", "Entramos por los padres: delegada del salón, reunión de padres y 10 papás y mamás creadores."],
     ["<b>D4 + A1</b> (DA)", "Un solo sabor y un maquilador + El Niño daña el plátano", "Contrato anual de maquila, plátano de Piura y San Martín, y Chispa listo como respaldo."],
 ]) + '''
 <h3>Estructura estratégica</h3>
@@ -223,13 +223,13 @@ out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrate
 <h3>Matriz de Ansoff: la clave de crecimiento</h3>
 ''' + fig(18, "Lámina 18: cada paso se abre solo si el anterior cumple su indicador.") + table(["Estrategia", "Producto · mercado", "Qué y cuándo"], [
     ["<b>Penetración de mercado</b> (hoy)", "Actual · actual", "2027-2031: de 8 a 42 colegios; embajadores y recompra semanal. Participación de 0.6 % a 2 %."],
-    ["<b>Desarrollo de mercado</b>", "Actual · nuevo", "2029-2031: módulo fijo en el mall y colegios de Lima Este y Sur."],
+    ["<b>Desarrollo de mercado</b>", "Actual · nuevo", "2029-2031: módulo fijo en el mall (si el temporal vende 170 brownies al día) y colegios de Lima Este y Sur."],
     ["<b>Desarrollo de producto</b>", "Nuevo · actual", "2028: sabor Chispa; 2029: lúcuma de temporada. Se pagan con la caja de la bolsa de 6."],
-    ["<b>Diversificación</b>", "Nuevo · nuevo", "2030: prueba de una barra para secundaria (12 a 16 años); 2031: venta, solo si el núcleo gana."],
+    ["<b>Diversificación</b>", "Nuevo · nuevo", "2030: prueba de una barra para secundaria (12 a 16 años); 2031: venta, solo si los chicos la vuelven a pedir."],
 ]) + '''
 <h3>Matriz BCG: hoy y en 2031</h3>
 ''' + table(["Cuadrante", "Producto"], [
-    ["<b>Interrogante</b> (hoy)", "2027: Andi en bolsa de 6 y la unidad a S/5. Luego, Chispa (2028), lúcuma (2029) y la barra para secundaria (2031)."],
+    ["<b>Interrogante</b> (hoy)", "2027: Andi en bolsa de 6. Luego, Chispa (2028), lúcuma (2029) y la barra para secundaria (2031)."],
     ["<b>Estrella</b>", "2028: la bolsa de 6, con 24 colegios."],
     ["<b>Vaca</b>", "2030-2031: la bolsa de 6, con costo de S/1.46. Su caja paga lo nuevo."],
     ["<b>Perro</b>", "Lo que no repite, sale. La unidad suelta queda chica a propósito: empuja la bolsa."],
@@ -242,11 +242,11 @@ out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrate
 out.append(sec(6, "Marketing mix: un objetivo SMART por cada P", "7P", "<p>Cada objetivo es específico, medible, alcanzable, relevante y con fecha (SMART). Todos son de 2027.</p>" + table(["P", "Objetivo SMART · 2027", "Cómo lo logramos"], [
     ["<b>Producto</b>", "Lanzar Andi el 6 de marzo con registro sanitario y 0 octógonos, y que el 35 % de las familias de marzo vuelva a pedir al 30 de abril.", "Brownie de 30 g en su bolsita; 1.9 mg de hierro comprobado."],
     ["<b>Precio</b>", "Mantener la bolsa de 6 a S/22 todo el año y dejar S/1.03 por brownie en bolsa.", "Precio por valor: S/3.67 cada uno; suelto, S/5. Las mamás dijeron S/20 a S/24 por la bolsa; un brownie de pastelería cuesta S/10.88 en promedio."],
-    ["<b>Plaza</b>", "Pasar de 8 colegios el 6 de marzo a 14 el 30 de septiembre, con 19 brownies por colegio y día.", "Selectiva: colegio (pedido del salón y quiosco donde lo permitan), kermés, stand y mall por temporadas."],
+    ["<b>Plaza</b>", "Pasar de 8 colegios el 8 de marzo a 14 el 30 de septiembre, con 19 brownies por colegio y día.", "Selectiva: colegio (pedido del salón y quiosco donde lo permitan), kermés, stand y mall por temporadas."],
     ["<b>Promoción</b>", "Llegar a 250 familias que compran cada semana al 31 de diciembre, con S/15,040 y S/8.23 o menos por contacto.", "«Lleva sangrecita. ¿La notaste?», solo para adultos."],
     ["<b>Personas</b>", "Tener al 100 % del equipo con carné de sanidad y capacitado antes del 1 de marzo.", "Gerente, coordinadora, promotores, delegadas y embajadores."],
     ["<b>Procesos</b>", "Entregar el 100 % de los pedidos del salón cada lunes de clases y responder en menos de 2 horas.", "Prueba, pedido del salón, Yape, entrega el lunes y recompra."],
-    ["<b>Evidencia física</b>", "Publicar el contador cada lunes de marzo a junio y llegar a 125,000 visualizaciones.", "Bolsa con «No la escondemos» y registro sanitario."],
+    ["<b>Evidencia física</b>", "Publicar el contador cada lunes de marzo a junio y llegar a 125,000 visualizaciones de enero a junio.", "Bolsa con «No la escondemos» y registro sanitario."],
 ]) + '''
 <h3>Costo y ganancia por presentación</h3>
 ''' + table(["Presentación", "Precio", "Costo de producir", "Ganancia bruta", "Contribución"], [
@@ -338,7 +338,7 @@ out.append(sec(11, "Rentabilidad: equilibrio, ROI y financiamiento", "Números",
 <div class="grid2">''' + card("2027", "S/7,212 ÷ S/1.07 = 6,720 brownies al mes", "1,120 bolsas · unos S/25,800 en ventas al mes.") + card("2028", "S/11,325 ÷ S/1.41 = 8,050 brownies al mes", "1,340 bolsas · S/30,400 en ventas · 18 brownies por colegio y día con 24 colegios. Se supera en abril de 2028.", "dark") + '''</div>
 ''' + fig(39, "Lámina 39: brownies vendidos cada mes frente al mínimo para no perder.") + '''
 <h3>ROI</h3>
-<div class="grid3">''' + stat("58 %", "ROI del negocio a 5 años: S/58,150 de ganancia sumada 2027-2031 ÷ S/100,000. Se recupera en 2030.", "#8A1C2B") + stat("138 %", "ROI del marketing 2027: cada S/1 trae S/2.38 de margen (75 % del mérito al marketing). ROAS 9.6.", "#BA4036") + stat("174 %", "ROI si en 2029 la bolsa pasa a S/24, dentro del rango que dijeron las mamás (sensibilidad).", "#7C8A3A") + '''</div>
+<div class="grid3">''' + stat("58 %", "ROI del negocio a 5 años: S/58,150 de ganancia sumada 2027-2031 ÷ S/100,000. Las pérdidas de los primeros años se recuperan en 2030.", "#8A1C2B") + stat("138 %", "ROI del marketing 2027: cada S/1 trae S/2.38 de margen (75 % del mérito al marketing). ROAS 9.6.", "#BA4036") + stat("174 %", "ROI si en 2029 la bolsa pasa a S/24, dentro del rango que dijeron las mamás (sensibilidad).", "#7C8A3A") + '''</div>
 <p style="margin-top:3mm">Resultado por año: −S/38,889 (2027), −S/4,678 (2028), +S/20,331 (2029), +S/28,611 (2030) y +S/52,775 (2031).</p>
 <h3>Financiamiento: S/100,000</h3>
 <div class="grid2"><div>''' + table(["Fuente", "S/", "Cuándo"], [
@@ -368,7 +368,7 @@ out.append(sec(12, "Inversión y trámites para formalizar", "Cumplimiento regul
 out.append(sec(13, "Después del lanzamiento", "Ciclo de vida y diversificación", fig(43, "Lámina 43: acciones según el ciclo de vida.") + table(["Etapa", "Acción", "Qué hacemos"], [
     ["<b>Introducción</b> · nov 2026 a jun 2027", "Que prueben", "Concurso, revelación el 8 de febrero, lanzamiento del 6 al 14 de marzo. KPI: 133 bolsas y 35 % que repite."],
     ["<b>Crecimiento</b> · jul 2027 a 2029", "Más colegios", "14 colegios en septiembre y 24 en 2028; módulo de vuelta al colegio; contrato anual de maquila."],
-    ["<b>Madurez</b> · 2030 a 2031", "Rentabilidad", "36 y 42 colegios; embajadores; marketing de 8 % de la venta. Inversión recuperada en 2030."],
+    ["<b>Madurez</b> · 2030 a 2031", "Rentabilidad", "36 y 42 colegios; embajadores; marketing de 8 % de la venta. Desde 2030, el acumulado queda en positivo."],
     ["<b>Evitar el declive</b> · desde 2029", "Renovarse", "Sabor de temporada, nuevas zonas de Lima y prueba a ciegas cada marzo."],
 ]) + '''
 <h3>Productos nuevos, la misma misión</h3>

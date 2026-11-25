@@ -37,9 +37,9 @@ Habla del cambio en la vida de la familia, no del brownie; sirve igual para los 
 Qué: snacks saludables y ricos. Para quién: papá y mamá, y sus hijos. Cómo: ingredientes andinos, listos para la lonchera, que al niño le gustan.
 
 **Visión**
-> Ser la marca peruana de snacks saludables que las familias del Perú eligen para la lonchera de sus hijos, porque a ellos les encanta y los ayuda a crecer.
+> Ser la marca peruana de snacks saludables que las familias del Perú eligen para la lonchera de sus hijos: a ellos les encanta y a papá y mamá les da tranquilidad.
 
-Es una aspiración ambiciosa y sin fecha: va más allá de Lima y de los colegios de hoy. Se alinea con el propósito (sencillo, sin pelea), la misión (snacks saludables y ricos) y el valor de orgullo por lo nuestro («marca peruana»). La meta medible del plan es otra cosa: 780 familias en 42 colegios al 2031.
+Es una aspiración ambiciosa y sin fecha: va más allá de Lima y de los colegios de hoy. Se alinea con el propósito (sencillo, sin pelea), la misión (snacks saludables y ricos), el slogan («Tranquilidad para ti») y el valor de orgullo por lo nuestro («marca peruana»). La meta medible del plan es otra cosa: 780 familias en 42 colegios al 2031.
 
 **Valores** (cada uno con la conducta que lo demuestra)
 

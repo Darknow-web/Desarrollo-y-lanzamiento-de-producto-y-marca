@@ -4,16 +4,16 @@
 
 | Parte | Láminas | Tema | Láminas | Tiempo |
 |---|---|---|---|---|
-| 1 | Láminas 1 a 7 | Quiénes somos y el problema que escuchamos | 1 a 7 | 2:56 |
-| 2 | Láminas 8 a 13 | Para quién y qué creamos | 8 a 13 | 2:23 |
-| 3 | Láminas 14 a 21 | El plan de negocio | 14 a 21 | 4:47 |
-| 4 | Láminas 22 a 34 | Cómo llega, la campaña y cómo se mide | 22 a 34 | 6:19 |
-| 5 | Láminas 35 a 47 | Los números y lo que viene | 35 a 47 | 5:37 |
-| | | | **Total** | **22:02 · 2,865 palabras** |
+| 1 | Láminas 1 a 7 | Quiénes somos y el problema que escuchamos | 1 a 7 | 3:12 |
+| 2 | Láminas 8 a 13 | Para quién y qué creamos | 8 a 13 | 2:35 |
+| 3 | Láminas 14 a 21 | El plan de negocio | 14 a 21 | 5:12 |
+| 4 | Láminas 22 a 34 | Cómo llega, la campaña y cómo se mide | 22 a 34 | 6:22 |
+| 5 | Láminas 35 a 47 | Los números y lo que viene | 35 a 47 | 5:48 |
+| | | | **Total** | **23:09 · 3,007 palabras** |
 
 ## Parte 1 · Láminas 1 a 7 · Quiénes somos y el problema que escuchamos
 
-Tiempo: 2:56 · Palabras: 382
+Tiempo: 3:12 · Palabras: 415
 
 ### Lámina 1 · Portada
 
@@ -29,7 +29,7 @@ Buenos días. Somos AndiBite: dulce para ellos, tranquilidad para ti. Y esta his
 
 AndiBite existe para que alimentar bien a un hijo sea sencillo, y no una pelea.
 
-Nuestra misión: crear snacks saludables y ricos, con ingredientes andinos, para que papá y mamá alisten la lonchera sin complicaciones y sus hijos coman con gusto lo que les ayuda a crecer. Y soñamos en grande: ser la marca peruana de snacks saludables que las familias del Perú eligen para la lonchera de sus hijos.
+Nuestra misión: crear snacks saludables y ricos, con ingredientes andinos, para que papá y mamá alisten la lonchera sin complicaciones y sus hijos coman con gusto lo que les ayuda a crecer. Y soñamos en grande: ser la marca peruana de snacks saludables que las familias del Perú eligen para la lonchera de sus hijos: a ellos les encanta y a papá y mamá les da tranquilidad.
 
 Nos mueven cuatro valores: transparencia, escucha, cuidado de la infancia y orgullo por lo nuestro. El primero lo van a ver toda la historia: decimos qué lleva, aunque sea sangrecita.
 
@@ -83,7 +83,7 @@ Primero probaron. Después preguntamos, sin decir qué llevaba. Y el precio lo p
 
 ## Parte 2 · Láminas 8 a 13 · Para quién y qué creamos
 
-Tiempo: 2:23 · Palabras: 309
+Tiempo: 2:35 · Palabras: 335
 
 ### Lámina 8 · Público
 
@@ -99,7 +99,7 @@ Les pusimos una cara: Rodrigo.
 
 Trabaja él, trabaja su esposa, y en la mañana tiene cinco minutos para la lonchera.
 
-No quiere un discurso de salud: quiere una mañana menos. Y lo convence una sola cosa: que su hijo lo pruebe.
+No quiere un discurso de salud: quiere una pelea menos cada mañana. Y lo convence una sola cosa: que su hijo lo pruebe.
 
 ### Lámina 10 · Un snack que ayuda a crecer
 
@@ -133,7 +133,7 @@ Papá o mamá arma las loncheras de la semana en un minuto, ve lo que su hijo ll
 
 ## Parte 3 · Láminas 14 a 21 · El plan de negocio
 
-Tiempo: 4:47 · Palabras: 621
+Tiempo: 5:12 · Palabras: 675
 
 ### Lámina 14 · Nuestro plan, de lo estratégico a lo operativo
 
@@ -155,7 +155,7 @@ Nuestras debilidades, dichas claro: somos una marca nueva, con capital limitado 
 
 Cruzamos un punto con otro para decidir. F1 con O1: como la sangrecita no se nota y papá mira los octógonos, hacemos prueba a ciegas en la puerta del colegio, con «cero octógonos» al frente.
 
-F2 con A4: contra la desconfianza, el contador en vivo y el informe de laboratorio en la app. D1 con O4: como somos nuevos y los padres confían en otros padres, entramos por la delegada del salón y por papás y mamás creadores.
+F2 con A4: contra la desconfianza, el contador en vivo y el informe de laboratorio en la app. D1 con O4: como somos nuevos y papá y mamá confían en amigos y familia, entramos por la delegada del salón y por papás y mamás creadores.
 
 Y D4 con A1: contrato anual de maquila, plátano de dos regiones y Chispa listo como respaldo.
 
@@ -197,7 +197,7 @@ En promoción: doscientas cincuenta familias que compran cada semana a diciembre
 
 ## Parte 4 · Láminas 22 a 34 · Cómo llega, la campaña y cómo se mide
 
-Tiempo: 6:19 · Palabras: 822
+Tiempo: 6:22 · Palabras: 827
 
 ### Lámina 22 · Precio
 
@@ -263,7 +263,7 @@ Hoy estamos en la primera etapa: el concurso #LoQueNadieVe, donde papá y mamá 
 
 En enero viene la intriga, con pruebas a ciegas en parques, y el 8 de febrero contamos qué lleva.
 
-El 6 de marzo abren a la vez los colegios y el stand. Y hasta junio lo sostenemos: en el Día del Padre, papá dice que él sí la nota.
+El sábado 6 de marzo abren el stand y el pop-up, y el lunes 8, los colegios. Y hasta junio lo sostenemos: en el Día del Padre, papá dice que él sí la nota.
 
 ### Lámina 30 · La idea que hace hablar
 
@@ -305,7 +305,7 @@ La regla: abrimos más colegios solo si esa relación es de tres o más, con sei
 
 ## Parte 5 · Láminas 35 a 47 · Los números y lo que viene
 
-Tiempo: 5:37 · Palabras: 731
+Tiempo: 5:48 · Palabras: 755
 
 ### Lámina 35 · Marketing 2027
 
@@ -341,7 +341,7 @@ En 2028 son once mil trescientos soles entre uno cuarenta y uno: ocho mil cincue
 
 ### Lámina 40 · ROI
 
-¿Y lo que devuelve? En cinco años acumulamos cincuenta y ocho mil soles de utilidad sobre cien mil invertidos: un ROI de cincuenta y ocho por ciento. La inversión se recupera en 2030.
+¿Y lo que devuelve? En cinco años acumulamos cincuenta y ocho mil soles de utilidad sobre cien mil invertidos: un ROI de cincuenta y ocho por ciento. En 2030 ya recuperamos las pérdidas de los primeros años.
 
 El marketing rinde desde el primer año: por cada sol que ponemos, vuelven dos soles con treinta y ocho de contribución.
 
@@ -363,7 +363,7 @@ Con eso, la caja nunca baja de siete mil novecientos soles.
 
 ¿Y después del lanzamiento? Cada etapa del ciclo de vida tiene su acción.
 
-En la introducción, que prueben. En el crecimiento, más colegios: catorce en septiembre y veinticuatro en 2028. En la madurez, rentabilidad, con la inversión recuperada en 2030.
+En la introducción, que prueben. En el crecimiento, más colegios: catorce en septiembre y veinticuatro en 2028. En la madurez, rentabilidad, con las pérdidas recuperadas en 2030.
 
 Y para no caer, nos renovamos desde 2029: sabor de temporada, nuevas zonas de Lima y una prueba a ciegas cada marzo.
 
