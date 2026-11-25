@@ -117,8 +117,8 @@ out.append('''<div class="cover"><img class="logo" src="../web/img/logo-andi.png
 <div><b>Grupo 2</b>Diana Ayoso, Patricia Cárdenas, Adela Robles, Angie Blas y Carlos Inga</div><div><b>Presentación</b>andibite-feria.cingacordova.workers.dev<br>@andibite.pe en Instagram y TikTok</div></div></div>''')
 
 # ---------- 0 resumen ----------
-toc = ["Quiénes somos", "El problema y la investigación", "Público y mercado", "Producto, marca y app",
-       "Plan de negocio: de lo estratégico a lo operativo", "Marketing mix: una estrategia por cada P",
+toc = ["Nuestra cultura", "El problema y la investigación", "Público y mercado", "Producto, marca y app",
+       "Plan de negocio: de lo estratégico a lo operativo", "Marketing mix: un objetivo SMART por cada P",
        "Canales y distribución", "La campaña de lanzamiento", "KPIs y métricas para escalar",
        "Demanda y ventas", "Rentabilidad: equilibrio, ROI y financiamiento", "Inversión y trámites para formalizar",
        "Después del lanzamiento", "Responsabilidad social"]
@@ -140,16 +140,16 @@ out.append('<section style="break-before:auto"><p class="k">En una página</p><h
            + "".join(f"<div><span>{i}</span>{t}</div>" for i, t in enumerate(toc, 1)) + "</div></section>")
 
 # ---------- 1 quiénes somos ----------
-out.append(sec(1, "Quiénes somos", "Identidad", '''
-<div class="quote">Propósito: que alimentar bien a un hijo deje de ser una pelea.</div>
-<div class="grid2">''' + card("Misión", "Que alistar la lonchera sea sencillo para papá y mamá: un snack saludable que a su hijo le gusta y que ayuda a su desarrollo.", "Lo que hacemos cada día: producir, llevar al colegio y hacer que la familia vuelva a pedir.")
- + card("Visión 2031", "El snack saludable de la lonchera de 780 familias en 42 colegios de Lima.", "Es el 2 % de los hogares B1 con hijos de 4 a 11 años.", "dark") + '''</div>
-<h3>Cinco valores que no negociamos</h3>
-<div class="steps"><div><span><b>Probar antes que prometer.</b> Primero se prueba; después contamos qué lleva.</span></div>
-<div><span><b>Decimos lo comprobado.</b> 1.9 mg de hierro en cada brownie, comprobado en laboratorio. Nunca decimos que «previene la anemia».</span></div>
-<div><span><b>Le hablamos a papá y mamá.</b> Ningún niño protagoniza un anuncio (Ley 30021); la pauta es solo para mayores de 18.</span></div>
-<div><span><b>Hecho con lo nuestro.</b> Sangrecita de Lima, cacao de San Martín, plátano de Piura y cañihua de Puno.</span></div>
-<div><span><b>Trabajo formal.</b> Todos cobran, con EsSalud y carné de sanidad.</span></div></div>
+out.append(sec(1, "Nuestra cultura", "Propósito, misión, visión y valores", '''
+<p>La cultura de AndiBite se formuló siguiendo a Collins y Porras (propósito que no cambia y una visión ambiciosa) y a Lencioni (valores que ya se viven y guían decisiones). El detalle y los ejemplos de otras empresas están en el documento 23.</p>
+<div class="quote">Propósito: que alimentar bien a un hijo sea sencillo, y no una pelea.</div>
+<div class="grid2">''' + card("Misión", "Creamos snacks saludables y ricos, con ingredientes andinos, para que papá y mamá alisten la lonchera sin complicaciones y sus hijos coman con gusto lo que les ayuda a crecer.", "Qué hacemos, para quién y cómo.")
+ + card("Visión", "Ser la marca peruana de snacks saludables que las familias del Perú eligen para la lonchera de sus hijos, porque a ellos les encanta y los ayuda a crecer.", "Una aspiración sin fecha. La meta medible al 2031 es otra: 780 familias en 42 colegios.", "dark") + '''</div>
+<h3>Nuestros valores</h3>
+<div class="steps"><div><span><b>Transparencia.</b> Decimos qué lleva, aunque sea sangrecita, y solo afirmamos lo comprobado: 1.9 mg de hierro en laboratorio; nunca «previene la anemia».</span></div>
+<div><span><b>Escucha.</b> Primero preguntamos y hacemos probar a papá y mamá; después decidimos (25 entrevistas, dos focus y un precio que pusieron las mamás).</span></div>
+<div><span><b>Cuidado de la infancia.</b> Lo que hacemos tiene que hacerle bien al niño (0 octógonos) y la publicidad le habla al adulto (Ley 30021).</span></div>
+<div><span><b>Orgullo por lo nuestro.</b> Sangrecita de Lima, cacao de San Martín, plátano de Piura y cañihua de Puno, con su origen a la vista.</span></div></div>
 <h3>Nombre y promesa</h3>
 <p><b>AndiBite</b> une «Andi», por los Andes, y «Bite», la mordida: de los Andes a la lonchera. El slogan es <b>«Dulce para ellos. Tranquilidad para ti.»</b>: el niño disfruta el sabor y papá y mamá ganan una mañana sin pelea.</p>
 <div class="quote">El eje de la empresa: un snack saludable que ayuda al desarrollo de tu hijo, sin que sea una pelea. El hierro comprobado, los 0 octógonos y los ingredientes andinos son la prueba de que es saludable; el sabor es lo que evita la pelea.</div>'''))
@@ -184,7 +184,9 @@ out.append(sec(3, "Público y mercado", "A quién le hablamos", '''
 out.append(sec(4, "Producto, marca y app", "Qué creamos", '''
 <div class="grid3">''' + stat("30 g", "cada brownie en su bolsita, uno por día") + stat("1.9 mg", "de hierro en cada brownie. Comprobado en laboratorio.", "#8A1C2B") + stat("0", "octógonos: endulzado con eritritol, plátano y poca panela", "#7C8A3A") + '''</div>
 ''' + fig(10, "Lámina 10: el producto y sus cuatro ingredientes peruanos.") + '''
-<div class="grid2">''' + card("Sabor 1", "Chispa", "Chocolate con chispas, para el que solo quiere chocolate.", "c2") + card("Sabor 2", "Andi", "Chocolate, plátano, canela y cañihua, para el que se anima a más.", "c3") + '''</div>
+<h3>Salimos con un solo sabor: Andi</h3>
+<p>Lanzamos el 6 de marzo de 2027 con el sabor Andi (chocolate, plátano, canela y cañihua) para concentrar todo en que funcione. Los sabores siguientes ya tienen su empaque:</p>
+''' + fig(11, "Lámina 11: Andi en el lanzamiento; Chispa en 2028 y lúcuma en 2029.") + '''
 <h3>Marca</h3>
 <p>Andi es el niño del empaque y Killa, su llamita. Viven en la bolsa y en la app, nunca en los anuncios: los anuncios le hablan a papá y mamá, como pide la Ley 30021. Colores de marca: café, ladrillo, vino, dorado, oliva y crema; letras Plus Jakarta Sans y Nunito.</p>
 <h3>App Andi</h3>
@@ -193,26 +195,19 @@ out.append(sec(4, "Producto, marca y app", "Qué creamos", '''
 <p>Produce la planta maquiladora del INDDA de la UNALM: hornea, pesa y sella. Producir un brownie cuesta S/1.84 en bolsa en 2027 y baja a S/1.50 en 2028 por volumen.</p>'''))
 
 # ---------- 5 plan de negocio ----------
-chain = [("1 · Visión", "Al 2031", "El snack saludable de 780 familias en 42 colegios.", "c4"),
-         ("2 · Objetivo 2027", "250 familias", "Que compran cada semana, en 14 colegios a diciembre.", "c5"),
-         ("3 · Estrategia", "Crecer por colegios", "Probar en persona y volver a pedir cada semana.", "c2"),
-         ("4 · Plan de acción", "Uno por mes", "8 colegios el 6 de marzo; uno más por mes hasta 14.", "c3"),
-         ("5 · KPI", "19 al día", "Brownies por colegio y día al 15 de junio; 35 % repite en abril.", "c1")]
 out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrategia", '''
-<p>El plan baja de la visión al trabajo de cada lunes. Cada nivel se mide con el siguiente:</p>
-<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:2.5mm;margin:3mm 0 4mm">''' + "".join(card(k, h, p, c) for k, h, p, c in chain) + '''</div>
-<div class="quote">Si en junio cada colegio vende 19 brownies al día, abrimos el siguiente.</div>
+<p>Todo este documento es el plan de negocio, ordenado en tres pisos: <b>estratégico</b> (hacia dónde vamos: FODA, estructura, Ansoff, BCG y contexto), <b>táctico</b> (cómo competimos: 7P con objetivos SMART, precio, canales, campaña y KPIs) y <b>operativo</b> (cuánto vendemos y cuánto deja: demanda, ventas, equilibrio, ROI, inversión y financiamiento). La meta que lo ordena: 780 familias en 42 colegios al 2031, empezando con 250 familias en 14 colegios en 2027.</p>
 <h3>FODA</h3>
-<div class="grid2">''' + card("Internas · positivas", "Fortalezas", "Ninguna de las 8 mamás notó la sangrecita · 1.9 mg de hierro comprobado y 0 octógonos · Precio que pusieron ellas: S/22 · Maquila en el INDDA-UNALM y app Andi", "c1")
- + card("Externas · positivas", "Oportunidades", "Unos 39,000 hogares B1 con hijos de 4 a 11 · 83 % dice que los octógonos influyen al comprar · Snacks saludables crecen cerca de 6 % al año · Papá y mamá confían en otros padres", "c3")
- + card("Internas · negativas", "Debilidades", "El primer año pierde: gana desde abril de 2028 · Marca nueva, con S/15,040 de marketing · Cada colegio tiene que abrirnos la puerta · Lote chico: producir cuesta S/2.07 en 2027", "c2")
- + card("Externas · negativas", "Amenazas", "Niño costero hasta febrero de 2027: plátano de Piura · Cacao caro y cambiante · Brownies sin sellos en el supermercado · Desconfianza de lo envasado «saludable»", "c4") + '''</div>
-<h3>FODA cruzado: qué hacemos con él</h3>
-''' + table(["Cruce", "Estrategia"], [
-    ["<b>FO</b> · fortalezas y oportunidades", "«¿La notaste?»: prueba a ciegas en la puerta del colegio, con «sin octógonos» al frente."],
-    ["<b>FA</b> · fortalezas y amenazas", "Contador en vivo «Probaron · La notaron»: la prueba la pone papá, no la marca."],
-    ["<b>DO</b> · debilidades y oportunidades", "Entrar al colegio por los padres: delegada del salón, reunión de padres y embajadores."],
-    ["<b>DA</b> · debilidades y amenazas", "Contrato anual de maquila, cacao en stock y plátano de dos regiones."],
+<div class="grid2">''' + card("Internas · positivas", "Fortalezas", "F1 Receta que el niño acepta: la sangrecita no se nota · F2 Snack nutritivo comprobado: hierro en laboratorio y 0 octógonos · F3 Producción con un aliado experto, la planta del INDDA-UNALM · F4 App propia que facilita la lonchera y la recompra", "c1")
+ + card("Externas · positivas", "Oportunidades", "O1 El 83 % mira los octógonos al comprar · O2 Los snacks saludables crecen cerca de 6 % al año · O3 Papá y mamá trabajan y tienen poco tiempo para la lonchera · O4 Confían más en otros padres (28 %) que en influencers (7 %)", "c3")
+ + card("Internas · negativas", "Debilidades", "D1 Marca nueva, que nadie conoce todavía · D2 Capital limitado: el primer año se pierde · D3 Volumen chico: el costo por brownie es alto al inicio · D4 Un solo sabor al lanzar y un solo maquilador", "c2")
+ + card("Externas · negativas", "Amenazas", "A1 Fenómeno El Niño costero: lluvias en el norte dañan el plátano · A2 Cacao caro y con precio cambiante · A3 Marcas grandes con snacks «saludables» en el supermercado · A4 Rechazo a la sangrecita y desconfianza de lo envasado", "c4") + '''</div>
+<h3>FODA cruzado: un punto con otro</h3>
+''' + table(["Cruce", "Por qué", "Estrategia"], [
+    ["<b>F1 + O1</b> (FO)", "La sangrecita no se nota + papá y mamá miran los octógonos", "Prueba a ciegas en la puerta del colegio, con «0 octógonos» al frente."],
+    ["<b>F2 + A4</b> (FA)", "Nutrición comprobada + desconfianza de lo envasado", "Contador en vivo y el informe de laboratorio en la app: la prueba la pone papá."],
+    ["<b>D1 + O4</b> (DO)", "Marca nueva + confían en otros padres", "Entramos por los padres: delegada del salón, reunión de padres y 10 papás y mamás creadores."],
+    ["<b>D4 + A1</b> (DA)", "Un solo sabor y un maquilador + El Niño daña el plátano", "Contrato anual de maquila, plátano de Piura y San Martín, y Chispa listo como respaldo."],
 ]) + '''
 <h3>Estructura estratégica</h3>
 <p><b>Estrategia genérica de Porter: enfoque con diferenciación.</b> Un público preciso (papá y mamá B1 con hijos en colegio privado) y una diferencia que se prueba: no se nota, hierro comprobado, 0 octógonos.</p>
@@ -229,29 +224,29 @@ out.append(sec(5, "Plan de negocio: de lo estratégico a lo operativo", "Estrate
 ''' + fig(18, "Lámina 18: cada paso se abre solo si el anterior cumple su indicador.") + table(["Estrategia", "Producto · mercado", "Qué y cuándo"], [
     ["<b>Penetración de mercado</b> (hoy)", "Actual · actual", "2027-2031: de 8 a 42 colegios; embajadores y recompra semanal. Participación de 0.6 % a 2 %."],
     ["<b>Desarrollo de mercado</b>", "Actual · nuevo", "2029-2031: módulo fijo en el mall y colegios de Lima Este y Sur."],
-    ["<b>Desarrollo de producto</b>", "Nuevo · actual", "2029: sabor de temporada con lúcuma; se paga con la caja de la bolsa de 6."],
+    ["<b>Desarrollo de producto</b>", "Nuevo · actual", "2028: sabor Chispa; 2029: lúcuma de temporada. Se pagan con la caja de la bolsa de 6."],
     ["<b>Diversificación</b>", "Nuevo · nuevo", "2030: prueba de una barra para secundaria (12 a 16 años); 2031: venta, solo si el núcleo gana."],
 ]) + '''
 <h3>Matriz BCG: hoy y en 2031</h3>
 ''' + table(["Cuadrante", "Producto"], [
-    ["<b>Interrogante</b> (hoy)", "2027: Chispa, Andi y la unidad a S/5. Luego, lúcuma (2029) y la barra para secundaria (2031)."],
-    ["<b>Estrella</b>", "2028: bolsas de 6 Chispa y Andi, con 24 colegios."],
+    ["<b>Interrogante</b> (hoy)", "2027: Andi en bolsa de 6 y la unidad a S/5. Luego, Chispa (2028), lúcuma (2029) y la barra para secundaria (2031)."],
+    ["<b>Estrella</b>", "2028: la bolsa de 6, con 24 colegios."],
     ["<b>Vaca</b>", "2030-2031: la bolsa de 6, con costo de S/1.46. Su caja paga lo nuevo."],
     ["<b>Perro</b>", "Lo que no repite, sale. La unidad suelta queda chica a propósito: empuja la bolsa."],
 ]) + '''<p class="note">La app Andi no se mide como producto: sostiene la recompra de las bolsas.</p>
-<h3>Contexto del mercado y fenómeno El Niño</h3>
-<p>El mercado acompaña: los snacks saludables crecen cerca del 6 % al año y el 83 % dice que los octógonos influyen en lo que compra. El riesgo es el clima: el ENFEN (13 de noviembre de 2026) anunció Niño costero hasta febrero de 2027, con lluvias fuertes en el norte; se espera 11 % menos banano exportado en 2027, y el cacao ronda US$5,400 por tonelada (octubre de 2026). Cacao y plátano pesan unos S/0.13 por brownie: el riesgo no es el costo, es quedarnos sin insumo.</p>
-<div class="grid3">''' + card("Acción 1", "Cacao en stock", "Comprar en febrero lo de 3 meses.") + card("Acción 2", "Plátano de dos orígenes", "Piura y San Martín.") + card("Acción 3", "Chispa de respaldo", "Si falta plátano, más Chispa. El precio no se toca en 2027.") + "</div>"))
+<h3>Contexto del mercado y Fenómeno El Niño costero</h3>
+<p>El mercado acompaña: los snacks saludables crecen cerca del 6 % al año y el 83 % dice que los octógonos influyen en lo que compra. El riesgo es el clima. <b>El Fenómeno El Niño costero</b> ocurre cuando el mar frente al norte del Perú se calienta más de lo normal y trae lluvias fuertes a Piura y Tumbes, que inundan cultivos como el plátano. El ENFEN (13 de noviembre de 2026) lo anunció hasta febrero de 2027, y el sabor Andi lleva plátano; se espera 11 % menos banano exportado en 2027, y el cacao ronda US$5,400 por tonelada (octubre de 2026). Cacao y plátano pesan unos S/0.13 por brownie: el riesgo no es el costo, es quedarnos sin insumo.</p>
+<div class="grid3">''' + card("Acción 1", "Cacao en stock", "Comprar en febrero lo de 3 meses.") + card("Acción 2", "Plátano de dos orígenes", "Piura y San Martín.") + card("Acción 3", "Chispa de respaldo", "Si falta plátano, adelantamos Chispa, que no lleva plátano. El precio no se toca en 2027.") + "</div>"))
 
 # ---------- 6 7P ----------
-out.append(sec(6, "Marketing mix: una estrategia por cada P", "7P", table(["P", "Estrategia"], [
-    ["<b>Producto</b>", "Snack saludable de 30 g en su bolsita, que ayuda al desarrollo: Chispa y Andi; 0 octógonos y 1.9 mg de hierro comprobado."],
-    ["<b>Precio</b>", "Por valor percibido: bolsa de 6 a S/22 (S/3.67 cada uno) y unidad a S/5. Dentro de lo que dijeron las mamás (S/20 a S/24 por 6; S/4.50 a S/5.90 por unidad). Un brownie de pastelería cuesta S/10.88 en promedio (6 pastelerías de Lima, 18-nov-2026)."],
-    ["<b>Plaza</b>", "Selectiva: colegio (pedido del salón y quiosco donde lo permitan), kermés, stand de fin de semana y mall por temporadas."],
-    ["<b>Promoción</b>", "«Lleva sangrecita. ¿La notaste?»: S/15,040 en 2027; anuncios solo para adultos."],
-    ["<b>Personas</b>", "Gerente, coordinadora y promotores con carné de sanidad; delegadas y embajadores."],
-    ["<b>Procesos</b>", "Prueba, pedido del salón, pago por Yape, entrega el lunes en la puerta y recompra."],
-    ["<b>Evidencia física</b>", "Bolsa con «No la escondemos», registro sanitario y el contador en vivo."],
+out.append(sec(6, "Marketing mix: un objetivo SMART por cada P", "7P", "<p>Cada objetivo es específico, medible, alcanzable, relevante y con fecha (SMART). Todos son de 2027.</p>" + table(["P", "Objetivo SMART · 2027", "Cómo lo logramos"], [
+    ["<b>Producto</b>", "Lanzar Andi el 6 de marzo con registro sanitario y 0 octógonos, y que el 35 % de las familias de marzo vuelva a pedir al 30 de abril.", "Brownie de 30 g en su bolsita; 1.9 mg de hierro comprobado."],
+    ["<b>Precio</b>", "Mantener la bolsa de 6 a S/22 todo el año y dejar S/1.03 por brownie en bolsa.", "Precio por valor: S/3.67 cada uno; suelto, S/5. Las mamás dijeron S/20 a S/24 por la bolsa; un brownie de pastelería cuesta S/10.88 en promedio."],
+    ["<b>Plaza</b>", "Pasar de 8 colegios el 6 de marzo a 14 el 30 de septiembre, con 19 brownies por colegio y día.", "Selectiva: colegio (pedido del salón y quiosco donde lo permitan), kermés, stand y mall por temporadas."],
+    ["<b>Promoción</b>", "Llegar a 250 familias que compran cada semana al 31 de diciembre, con S/15,040 y S/8.23 o menos por contacto.", "«Lleva sangrecita. ¿La notaste?», solo para adultos."],
+    ["<b>Personas</b>", "Tener al 100 % del equipo con carné de sanidad y capacitado antes del 1 de marzo.", "Gerente, coordinadora, promotores, delegadas y embajadores."],
+    ["<b>Procesos</b>", "Entregar el 100 % de los pedidos del salón cada lunes de clases y responder en menos de 2 horas.", "Prueba, pedido del salón, Yape, entrega el lunes y recompra."],
+    ["<b>Evidencia física</b>", "Publicar el contador cada lunes de marzo a junio y llegar a 125,000 visualizaciones.", "Bolsa con «No la escondemos» y registro sanitario."],
 ]) + '''
 <h3>Costo y ganancia por presentación</h3>
 ''' + table(["Presentación", "Precio", "Costo de producir", "Ganancia bruta", "Contribución"], [
@@ -315,8 +310,12 @@ out.append(sec(10, "Demanda y ventas", "Proyección", '''<h3 style="margin-top:0
     ["Recompra por WhatsApp", "1,628", "3,310", "4,137", "4,965", "5,792"],
     ["Stand de fin de semana y mall", "2,520", "3,000", "3,750", "4,500", "5,250"],
     ["Total de brownies", "44,383", "96,036", "120,045", "144,054", "168,063"],
-], right=(1, 2, 3, 4, 5), total=True) + table(["Ventas con IGV (S/)", "2027", "2028", "2029", "2030", "2031"], [
-    ["Total", "170,715", "362,328", "452,910", "543,492", "634,073"]], right=(1, 2, 3, 4, 5)) + '''
+], right=(1, 2, 3, 4, 5), total=True) + table(["Ventas con IGV por canal (S/)", "2027", "%", "2028", "2029", "2030", "2031", "%"], [
+    ["Colegio (pedido del salón)", "135,720", "79.5", "313,621", "392,028", "470,431", "548,837", "86.6"],
+    ["Kermeses y reuniones de padres", "19,040", "11.2", "24,901", "31,126", "37,351", "43,576", "6.9"],
+    ["Recompra por WhatsApp", "6,262", "3.7", "12,488", "15,608", "18,732", "21,852", "3.4"],
+    ["Stand de fin de semana y mall", "9,693", "5.7", "11,318", "14,148", "16,978", "19,808", "3.1"],
+    ["Total", "170,715", "100", "362,328", "452,910", "543,492", "634,073", "100"]], right=(1, 2, 3, 4, 5, 6, 7), total=True) + '''
 <p>El colegio es entre el 80 % y el 87 % de la venta. Colegios al cierre de cada año: 14, 24, 30, 36 y 42.</p>
 <h3>Proyección de ventas de 2027, de enero a diciembre</h3>
 ''' + table(["Mes", "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"], [

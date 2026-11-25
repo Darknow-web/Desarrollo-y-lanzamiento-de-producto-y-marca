@@ -146,6 +146,7 @@
         var v = series[c][i]; if (!v) continue; tot += v;
         var hh = v * k, y = base - hh;
         g += '<rect x="' + x + '" y="' + (y + 1) + '" width="' + bw + '" height="' + Math.max(0, hh - 2) + '" rx="' + (c === series.length - 1 || !series.slice(c + 1).some(function (s2) { return s2[i]; }) ? 5 : 0) + '" fill="' + CH_COL[c] + '"><title>' + labels[i] + ' · ' + CH_NOM[c] + ': ' + fmt(v) + '</title></rect>';
+        if (n <= 6 && hh >= 30) g += '<text x="' + (x + bw / 2) + '" y="' + (y + hh / 2 + 7) + '" text-anchor="middle" font-size="18" font-weight="800" fill="' + (c === 1 ? "#2E120C" : "#fff") + '">' + fmt(v) + '</text>';
         base = y;
       }
       h += '<g class="a gy" style="--d:' + d + ';transform-box:fill-box">' + g + '</g>';

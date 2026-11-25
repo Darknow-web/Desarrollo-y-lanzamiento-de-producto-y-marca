@@ -21,17 +21,17 @@ Antes de empezar: ¿alguien notó algo raro en el brownie que probaron?
 
 Guarden esa respuesta. Ya van a entender por qué.
 
-Buenos días. Somos AndiBite, el Grupo 2, y esta historia empieza en una lonchera.
+Buenos días. Somos AndiBite: dulce para ellos, tranquilidad para ti. Y esta historia empieza en una lonchera.
 
 > Acción: quien expone hace la pregunta mirando a la profesora y espera tres segundos aunque nadie conteste. La solapa del cartel sigue cerrada.
 
-### Lámina 2 · Propósito, misión y visión
+### Lámina 2 · Nuestra cultura
 
-AndiBite existe por algo simple: que alimentar bien a un hijo deje de ser una pelea.
+AndiBite existe para que alimentar bien a un hijo sea sencillo, y no una pelea.
 
-Nuestra misión: que alistar la lonchera sea sencillo para papá y mamá, con un snack saludable que a su hijo le gusta y que ayuda a su desarrollo. Y nuestra visión al 2031: ser el snack saludable de setecientas ochenta familias, en cuarenta y dos colegios de Lima.
+Nuestra misión: crear snacks saludables y ricos, con ingredientes andinos, para que papá y mamá alisten la lonchera sin complicaciones y sus hijos coman con gusto lo que les ayuda a crecer. Y soñamos en grande: ser la marca peruana de snacks saludables que las familias del Perú eligen para la lonchera de sus hijos.
 
-Nos guían cinco valores. El primero lo van a ver en toda la historia: probar antes que prometer.
+Nos mueven cuatro valores: transparencia, escucha, cuidado de la infancia y orgullo por lo nuestro. El primero lo van a ver toda la historia: decimos qué lleva, aunque sea sangrecita.
 
 ### Lámina 3 · La lonchera vuelve llena
 
@@ -103,15 +103,17 @@ No quiere un discurso de salud: quiere una mañana menos. Y lo convence una sola
 
 ### Lámina 10 · Un snack que ayuda a crecer
 
-Para Rodrigo hicimos esto: un snack saludable que ayuda a crecer. Un brownie de treinta gramos, cada uno en su bolsita, uno por día.
+Para Rodrigo hicimos esto: el sabor Andi, un snack saludable que ayuda a crecer. Un brownie de treinta gramos, cada uno en su bolsita, uno por día.
 
 Uno coma nueve miligramos de hierro en cada brownie, comprobado en laboratorio. Cero octógonos. Y cuatro ingredientes peruanos, de Lima hasta Puno.
 
 > Acción: levanta una bolsita y luego la bolsa de 6. Si lo que se sirvió fue el prototipo de 20 g, añade: «Lo que probaron es esta receta; el de la bolsa pesa 30 gramos.»
 
-### Lámina 11 · Dos sabores
+### Lámina 11 · Salimos con Andi
 
-Dos sabores: Chispa, para el que solo quiere chocolate, y Andi, con plátano, canela y cañihua, para el que se anima a más.
+Salimos con un solo sabor, Andi: chocolate, plátano, canela y cañihua. Así concentramos todo en que funcione.
+
+Después vienen más: Chispa en 2028, para el que solo quiere chocolate, y lúcuma en 2029, para que la lonchera no aburra.
 
 ### Lámina 12 · Marca
 
@@ -123,9 +125,9 @@ Andi es el niño del empaque y Killa, su llamita. Viven en la bolsa y en la app,
 
 El QR de la bolsa abre la app Andi.
 
-Papá o mamá ve lo que llevó hoy en la lonchera, con su hierro, y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá, y no tienen compras.
+Papá o mamá arma las loncheras de la semana en un minuto, ve lo que su hijo llevó hoy y vuelve a pedir en un clic por WhatsApp. Los juegos del niño se abren con la clave de papá o mamá, y no tienen compras.
 
-> Acción: escanea el QR de la bolsa con el celular y muestra «El hierro de hoy».
+> Acción: escanea el QR de la bolsa con el celular y muestra «Loncheras de la semana».
 
 **Pase:** «Ya tenemos el brownie y a Rodrigo. Ahora, cómo lo volvemos una empresa: el plan.»
 
@@ -133,29 +135,29 @@ Papá o mamá ve lo que llevó hoy en la lonchera, con su hierro, y vuelve a ped
 
 Tiempo: 4:47 · Palabras: 621
 
-### Lámina 14 · De la estrategia al trabajo de cada lunes
+### Lámina 14 · Nuestro plan, de lo estratégico a lo operativo
 
-Gracias. Un plan de negocio baja de lo estratégico a lo operativo, y el nuestro cabe en una línea.
+Gracias. Lo que sigue es nuestro plan de negocio, en tres pisos.
 
-La visión: ser el snack saludable de setecientas ochenta familias al 2031. El objetivo de 2027: doscientas cincuenta familias que compran cada semana, en catorce colegios. La estrategia: crecer por colegios, probando en persona. El plan: ocho colegios el seis de marzo y uno más cada mes.
+Primero, lo estratégico: hacia dónde vamos. Después, lo táctico: cómo competimos. Y al final, lo operativo: cuánto vendemos y cuánto deja.
 
-Y el KPI que manda: si en junio cada colegio vende diecinueve brownies al día, abrimos el siguiente.
+La meta que lo ordena todo: setecientas ochenta familias en cuarenta y dos colegios al 2031, empezando con doscientas cincuenta en 2027.
 
 ### Lámina 15 · FODA
 
-¿Desde dónde partimos? Nuestra fortaleza es la prueba: ninguna de las ocho mamás notó la sangrecita, y el hierro está comprobado.
+¿Desde dónde partimos? Nuestra mayor fortaleza es una receta que el niño acepta: la sangrecita no se nota. Y es un snack nutritivo comprobado, hecho con un aliado experto, la planta de la Agraria.
 
-La oportunidad: treinta y nueve mil hogares B1 con hijos, y un ochenta y tres por ciento que mira los octógonos al comprar.
+Afuera hay oportunidades: el ochenta y tres por ciento mira los octógonos al comprar y papá y mamá tienen poco tiempo para la lonchera.
 
-La debilidad, dicha claro: el primer año pierde y somos una marca nueva. Y la amenaza más cercana es el Niño costero, que golpea el plátano de Piura.
+Nuestras debilidades, dichas claro: somos una marca nueva, con capital limitado y un solo sabor al inicio. Y la amenaza más cercana es el clima: el Fenómeno El Niño costero, que daña el plátano.
 
-### Lámina 16 · FODA cruzado
+### Lámina 16 · Cruzamos el FODA
 
-Con eso armamos cuatro estrategias. Para aprovechar la oportunidad: prueba a ciegas en la puerta del colegio. Contra la desconfianza: el contador en vivo, donde la prueba la pone papá, no la marca.
+Cruzamos un punto con otro para decidir. F1 con O1: como la sangrecita no se nota y papá mira los octógonos, hacemos prueba a ciegas en la puerta del colegio, con «cero octógonos» al frente.
 
-Para entrar a los colegios: la delegada del salón y la reunión de padres. Y contra el riesgo de insumos: contrato anual de maquila, cacao en stock y plátano de dos regiones.
+F2 con A4: contra la desconfianza, el contador en vivo y el informe de laboratorio en la app. D1 con O4: como somos nuevos y los padres confían en otros padres, entramos por la delegada del salón y por papás y mamás creadores.
 
-En resumen: no pedimos que nos crean. Pedimos que prueben.
+Y D4 con A1: contrato anual de maquila, plátano de dos regiones y Chispa listo como respaldo.
 
 ### Lámina 17 · Estructura
 
@@ -167,29 +169,29 @@ El equipo es chico y formal: el directorio de socios, un gerente general y comer
 
 Nuestra clave de crecimiento es la matriz de Ansoff. Primero, penetración: el mismo brownie en más colegios, de ocho a cuarenta y dos.
 
-Desde 2029, desarrollo de mercado: un módulo fijo en el mall y colegios de Lima Este y Sur. Desarrollo de producto: un sabor de temporada con lúcuma. Y la diversificación, que es lo más arriesgado, al final: una barra para los chicos de secundaria.
+Desde 2029, desarrollo de mercado: un módulo fijo en el mall y colegios de Lima Este y Sur. Desarrollo de producto: Chispa en 2028 y lúcuma en 2029. Y la diversificación, que es lo más arriesgado, al final: una barra para los chicos de secundaria.
 
 Así la participación pasa del cero coma seis al dos por ciento. Todo producto nuevo sigue la misión: lonchera sencilla, que al hijo le guste y que ayude a su desarrollo. Y cada paso se abre solo si el anterior cumple su indicador.
 
 ### Lámina 19 · Matriz BCG
 
-En la matriz BCG, hoy todo es interrogante: un producto nuevo en un mercado que crece.
+En la matriz BCG, hoy Andi es interrogante: un producto nuevo en un mercado que crece.
 
-En 2028, con veinticuatro colegios, la bolsa de seis se vuelve estrella. Y desde 2030 es la vaca: producirla cuesta uno cuarenta y seis, y su caja paga lo nuevo. Lo que no repite, sale.
+En 2028, con veinticuatro colegios, la bolsa de seis se vuelve estrella. Y desde 2030 es la vaca: producirla cuesta uno cuarenta y seis, y su caja paga los sabores nuevos. Lo que no repite, sale.
 
-### Lámina 20 · El mercado y El Niño
+### Lámina 20 · El mercado y el clima
 
 El mercado acompaña: los snacks saludables crecen cerca del seis por ciento al año.
 
-Pero hay un riesgo real. El ENFEN anunció Niño costero hasta febrero de 2027, con lluvias fuertes en el norte, de donde viene nuestro plátano. Y el cacao sigue caro.
+El riesgo es el clima. El Fenómeno El Niño costero es cuando el mar del norte se calienta más de lo normal y trae lluvias fuertes a Piura y Tumbes, que inundan cultivos como el plátano. El ENFEN lo anunció hasta febrero de 2027, y nuestro sabor Andi lleva plátano.
 
-En costo pesa poco, unos trece céntimos por brownie; el riesgo es quedarnos sin insumo. Por eso compramos en febrero el cacao de tres meses, traemos plátano de Piura y de San Martín, y si falta, hacemos más Chispa. El precio no se toca en 2027.
+En costo pesa poco, unos trece céntimos por brownie; el riesgo es quedarnos sin insumo. Por eso compramos en febrero el cacao de tres meses, traemos plátano de Piura y de San Martín, y si falta, adelantamos Chispa, que no lleva plátano. El precio no se toca en 2027.
 
-### Lámina 21 · Una estrategia para cada P
+### Lámina 21 · Un objetivo SMART para cada P
 
-Todo eso baja a una estrategia por cada P. El producto ya lo vieron. La plaza es selectiva y la promoción es «¿La notaste?».
+Cada P tiene un objetivo concreto, con número y fecha. En producto: lanzar Andi el seis de marzo y que el treinta y cinco por ciento de las familias vuelva a pedir en abril. En plaza: pasar de ocho a catorce colegios hasta septiembre.
 
-Las personas trabajan con carné de sanidad. El proceso es prueba, pedido del salón, Yape y entrega el lunes. Y la evidencia física: la bolsa, el registro sanitario y el contador en vivo.
+En promoción: doscientas cincuenta familias que compran cada semana a diciembre, con quince mil cuarenta soles. Y en procesos: el cien por ciento de los pedidos entregados cada lunes.
 
 **Pase:** «Ahora abrimos tres de esas P: precio, plaza y promoción. Empezamos por lo que Rodrigo mira primero.»
 
@@ -313,9 +315,9 @@ Y se mide con una regla simple: cada contacto de WhatsApp tiene que costarnos oc
 
 ### Lámina 36 · Demanda por canal
 
-Esta es la demanda por canal. El colegio es entre el ochenta y el ochenta y siete por ciento de la venta; las kermeses, la recompra por WhatsApp y el stand suman el resto.
+Esta es la demanda por canal. En 2027 el colegio vende ciento treinta y cinco mil soles, el setenta y nueve por ciento; las kermeses, diecinueve mil; la recompra por WhatsApp, seis mil; y el stand y el mall, nueve mil setecientos.
 
-Pasamos de ciento setenta mil soles en 2027 a seiscientos treinta y cuatro mil en 2031.
+En 2031 el colegio llega al ochenta y siete por ciento, y en total pasamos de ciento setenta mil soles a seiscientos treinta y cuatro mil.
 
 ### Lámina 37 · Ventas de enero a diciembre
 
@@ -369,7 +371,7 @@ Y para no caer, nos renovamos desde 2029: sabor de temporada, nuevas zonas de Li
 
 Cada producto nuevo tiene que cumplir tres cosas: que alistar la lonchera siga siendo sencillo, que al hijo le guste y que ayude a su desarrollo.
 
-Por eso en 2029 sumamos un sabor lúcuma, para que la lonchera no aburra. Y diversificamos con una barra para secundaria, de doce a dieciséis años: el niño crece y la marca crece con él, en el mismo pedido del salón.
+Por eso sumamos Chispa en 2028 y lúcuma en 2029, para que la lonchera no aburra. Y diversificamos con una barra para secundaria, de doce a dieciséis años: el niño crece y la marca crece con él, en el mismo pedido del salón.
 
 Se prueba en 2030 con cincuenta familias y se vende en 2031, si los chicos la vuelven a pedir. Se paga con utilidad, nunca con préstamo.
 
@@ -401,8 +403,8 @@ Si alguien todavía no lo probó, pase al stand. Y escaneen el QR de la pantalla
 
 ## Si sobra o falta tiempo
 
-- **Parte 1 (láminas 1 a 7):** si va tarde, quita «Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.» y, en la lámina 2, la frase de los cinco valores; si sobra, añade en la lámina 4: «Quince votos para el mini brownie, frente a diez de las trufas.»
-- **Parte 2 (láminas 8 a 13):** si va tarde, deja la lámina 11 solo en pantalla y quita «Trabaja él, trabaja su esposa»
-- **Parte 3 (láminas 14 a 21):** si va tarde, deja la lámina 19 (BCG) con su primera frase y quita en la 21 «Las personas trabajan con carné… contador en vivo»; nunca quita Ansoff ni El Niño, que pidió la profesora
+- **Parte 1 (láminas 1 a 7):** si va tarde, quita «Lourdes esconde el hígado en la sopa. Y Vanessa lo resumió así.» y, en la lámina 2, la frase de los valores; si sobra, añade en la lámina 4: «Quince votos para el mini brownie, frente a diez de las trufas.»
+- **Parte 2 (láminas 8 a 13):** si va tarde, deja la lámina 11 con su primera frase y quita «Trabaja él, trabaja su esposa»
+- **Parte 3 (láminas 14 a 21):** si va tarde, deja la lámina 19 (BCG) con su primera frase y quita en la 21 la frase de promoción y procesos; nunca quita Ansoff ni El Niño, que pidió la profesora
 - **Parte 4 (láminas 22 a 34):** si va tarde, quita la frase de las kermeses y el stand, deja la lámina 28 solo en pantalla y quita «En enero viene la intriga… contamos qué lleva.»; nunca quita la del mall ni el CAC, LTV y NPS
 - **Parte 5 (láminas 35 a 47):** si va tarde, quita la frase del WhatsApp en la 35, «El primer año pierde…» en la 38 y la frase del sabor lúcuma en la 44; nunca quita el punto de equilibrio, el ROI, los trámites, [N], [M] ni la invitación al QR.
