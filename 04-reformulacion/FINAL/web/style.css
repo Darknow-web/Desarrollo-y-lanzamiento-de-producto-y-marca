@@ -739,3 +739,7 @@ p{font-size:28px;line-height:1.42}
 .s-app .feat{gap:16px;margin-top:24px}.s-app .feat p{font-size:25px}
 .phones.four{height:700px}
 .phones.four .phone{width:228px}.phones.four .phone.mid{width:256px}
+.pc .ph{height:220px}
+.s-app .wrap{grid-template-columns:.78fr 1.22fr;gap:30px}
+.phones.four{gap:16px}
+.phones.four .phone{width:250px}.phones.four .phone.mid{width:280px}
